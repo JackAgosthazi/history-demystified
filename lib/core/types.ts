@@ -155,7 +155,8 @@ export interface Perspective {
   label: string;
   stance: string;
   body: string;
-  claimIds: string[];
+  /** The cited span this reading rests on, verified like any other claim. */
+  evidence: Claim;
 }
 
 export interface Comparison {
@@ -188,12 +189,14 @@ export interface Explainer {
   facts: EntityFacts;
   sources: SourceDoc[];
 
-  /** Narrative (Call A). */
+  /** Narrative (Call A). Carries [S3] markers, resolved against `sources`. */
   summary: string;
-  takeaways: string[];
-  perspectives: Perspective[];
+  whyItMatters: string;
 
-  /** Structured (Call B). */
+  /** Structured (Call B), verified. */
+  takeaways: Claim[];
+  perspectives: Perspective[];
+  /** Every claim above, flattened. This is what coverage is computed over. */
   claims: Claim[];
   comparisons: Comparison[];
   context: ContextLink[];

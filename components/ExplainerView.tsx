@@ -94,11 +94,9 @@ export function ExplainerView({ query }: { query: string }) {
   if (error) return <ErrorPanel query={query} message={error.message} code={error.code} />;
 
   return (
-    <main className="mx-auto w-full max-w-4xl grow px-6 py-10 xl:max-w-6xl">
+    <main className="mx-auto w-full max-w-4xl grow px-6 py-10">
       <Breadcrumbs steps={trail} current={entity?.title ?? query} />
-      {!survey && <SectionNav sections={navSections} variant="strip" />}
-      <div className="xl:grid xl:grid-cols-[1fr_13rem] xl:gap-12">
-        <div className="min-w-0">
+      {!survey && <SectionNav sections={navSections} subject={entity?.title} />}
 
       {survey && (
         <>
@@ -349,11 +347,6 @@ export function ExplainerView({ query }: { query: string }) {
       </div>
         </>
       )}
-        </div>
-        <aside className="hidden xl:block">
-          {!survey && <SectionNav sections={navSections} variant="rail" />}
-        </aside>
-      </div>
     </main>
   );
 }

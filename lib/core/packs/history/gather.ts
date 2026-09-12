@@ -324,6 +324,7 @@ function buildTimeline(
       endDate: isPerson ? undefined : end,
       qid: entity.qid,
       title: entity.title,
+      ...(entity.description ? { note: entity.description } : {}),
       sourceUrl: wdUrl,
     });
   }
@@ -364,6 +365,7 @@ function buildTimeline(
         endDate: node.end,
         qid: node.qid,
         ...(titleFromWikipediaUrl(node.url) ? { title: titleFromWikipediaUrl(node.url) } : {}),
+        ...(node.description ? { note: node.description } : {}),
         sourceUrl: node.url ?? entityUrl(node.qid),
       });
     }

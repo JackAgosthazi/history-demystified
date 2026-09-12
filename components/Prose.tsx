@@ -9,20 +9,12 @@ import type { SourceDoc } from '@/lib/core/types';
  * rather than shown as dead references — the model occasionally invents an
  * id, and a broken citation is worse than no citation.
  */
-export function Prose({
-  text,
-  sources,
-  streaming = false,
-}: {
-  text: string;
-  sources: SourceDoc[];
-  streaming?: boolean;
-}) {
+export function Prose({ text, sources }: { text: string; sources: SourceDoc[] }) {
   const byId = new Map(sources.map((s) => [s.id, s]));
   const paragraphs = text.split(/\n{2,}/).filter((p) => p.trim());
 
   return (
-    <div className={`prose-body text-[1.0625rem] text-ink ${streaming ? 'streaming-caret' : ''}`}>
+    <div className="prose-body text-[1.0625rem] text-ink">
       {paragraphs.map((paragraph, pi) => (
         <p key={pi}>
           {paragraph.split(/(\[S\d+\])/g).map((part, i) => {

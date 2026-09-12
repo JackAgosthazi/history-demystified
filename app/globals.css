@@ -102,21 +102,6 @@ body {
   font-weight: 600;
 }
 
-@keyframes caret-blink {
-  0%, 45% { opacity: 1; }
-  55%, 100% { opacity: 0; }
-}
-.streaming-caret::after {
-  content: "";
-  display: inline-block;
-  width: 0.45em;
-  height: 1.05em;
-  margin-left: 0.1em;
-  vertical-align: -0.18em;
-  background: var(--accent);
-  animation: caret-blink 1s steps(1) infinite;
-}
-
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.001ms !important;

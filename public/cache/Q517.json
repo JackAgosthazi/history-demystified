@@ -1,0 +1,1956 @@
+{
+ "version": 1,
+ "query": "Napoleon",
+ "entity": {
+  "qid": "Q517",
+  "title": "Napoleon",
+  "url": "https://en.wikipedia.org/wiki/Napoleon",
+  "lang": "en",
+  "description": "French military leader, French Emperor 1804–1814 and again in 1815 (1769–1821)",
+  "type": "person",
+  "typeEvidence": [
+   "human"
+  ],
+  "alternates": [
+   {
+    "title": "Napoleon III",
+    "url": "https://en.wikipedia.org/wiki/Napoleon_III",
+    "lang": "en",
+    "description": "Emperor of the French from 1852 to 1870",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Alexandre_Cabanel_002.jpg/60px-Alexandre_Cabanel_002.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail"
+   },
+   {
+    "title": "Napoleonic Wars",
+    "url": "https://en.wikipedia.org/wiki/Napoleonic_Wars",
+    "lang": "en",
+    "description": "1803–1815 series of wars led by Napoleon",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Napoleonic_Wars_%28revision%29.jpg/60px-Napoleonic_Wars_%28revision%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail"
+   },
+   {
+    "title": "Napoleon Dynamite",
+    "url": "https://en.wikipedia.org/wiki/Napoleon_Dynamite",
+    "lang": "en",
+    "description": "2004 film by Jared Hess"
+   }
+  ]
+ },
+ "facts": {
+  "qid": "Q517",
+  "label": "Napoleon",
+  "description": "French military leader, French Emperor 1804–1814 and again in 1815 (1769–1821)",
+  "start": {
+   "raw": "+1769-08-15T00:00:00Z",
+   "year": 1769,
+   "precision": "day",
+   "display": "15 August 1769"
+  },
+  "end": {
+   "raw": "+1821-05-05T00:00:00Z",
+   "year": 1821,
+   "precision": "day",
+   "display": "5 May 1821"
+  },
+  "relations": {
+   "P22": [
+    {
+     "qid": "Q151869",
+     "label": "Carlo Bonaparte",
+     "description": "Father of Napoleon Bonaparte (1746-1785)",
+     "url": "https://en.wikipedia.org/wiki/Carlo_Buonaparte",
+     "start": {
+      "raw": "+1746-03-29T00:00:00Z",
+      "year": 1746,
+      "precision": "day",
+      "display": "29 March 1746"
+     },
+     "end": {
+      "raw": "+1785-02-24T00:00:00Z",
+      "year": 1785,
+      "precision": "day",
+      "display": "24 February 1785"
+     }
+    }
+   ],
+   "P25": [
+    {
+     "qid": "Q151995",
+     "label": "Maria-Letizia Bonaparte",
+     "description": "mother of Napoleon",
+     "url": "https://en.wikipedia.org/wiki/Letizia_Bonaparte",
+     "start": {
+      "raw": "+1750-08-24T00:00:00Z",
+      "year": 1750,
+      "precision": "day",
+      "display": "24 August 1750"
+     },
+     "end": {
+      "raw": "+1836-02-02T00:00:00Z",
+      "year": 1836,
+      "precision": "day",
+      "display": "2 February 1836"
+     }
+    }
+   ],
+   "P26": [
+    {
+     "qid": "Q171480",
+     "label": "Joséphine de Beauharnais",
+     "description": "Empress consort of the French from 1804 to 1814 (1763-1814)",
+     "url": "https://en.wikipedia.org/wiki/Jos%C3%A9phine_de_Beauharnais",
+     "start": {
+      "raw": "+1796-03-08T00:00:00Z",
+      "year": 1796,
+      "precision": "day",
+      "display": "8 March 1796"
+     },
+     "end": {
+      "raw": "+1809-12-16T00:00:00Z",
+      "year": 1809,
+      "precision": "day",
+      "display": "16 December 1809"
+     }
+    },
+    {
+     "qid": "Q157491",
+     "label": "Marie Louise, Duchess of Parma",
+     "description": "Empress Consort of the French from 1810 to 1814 and Monarch of Parma, Piacenza and Guastalla from 1814 to 1847",
+     "url": "https://en.wikipedia.org/wiki/Marie_Louise%2C_Duchess_of_Parma",
+     "start": {
+      "raw": "+1810-04-01T00:00:00Z",
+      "year": 1810,
+      "precision": "day",
+      "display": "1 April 1810"
+     },
+     "end": {
+      "raw": "+1821-05-05T00:00:00Z",
+      "year": 1821,
+      "precision": "day",
+      "display": "5 May 1821"
+     }
+    }
+   ],
+   "P40": [
+    {
+     "qid": "Q7723",
+     "label": "Napoleon II",
+     "description": "The second Emperor of the French (1815)",
+     "url": "https://en.wikipedia.org/wiki/Napoleon_II",
+     "start": {
+      "raw": "+1811-03-20T00:00:00Z",
+      "year": 1811,
+      "precision": "day",
+      "display": "20 March 1811"
+     },
+     "end": {
+      "raw": "+1832-07-22T00:00:00Z",
+      "year": 1832,
+      "precision": "day",
+      "display": "22 July 1832"
+     }
+    },
+    {
+     "qid": "Q1390993",
+     "label": "Charles Léon",
+     "description": "illegitimate son of Napoleon I (1806-1881)",
+     "url": "https://en.wikipedia.org/wiki/Charles_L%C3%A9on",
+     "start": {
+      "raw": "+1806-12-13T00:00:00Z",
+      "year": 1806,
+      "precision": "day",
+      "display": "13 December 1806"
+     },
+     "end": {
+      "raw": "+1881-04-14T00:00:00Z",
+      "year": 1881,
+      "precision": "day",
+      "display": "14 April 1881"
+     }
+    },
+    {
+     "qid": "Q435375",
+     "label": "Alexandre Colonna-Walewski",
+     "description": "French politician (1810-1868)",
+     "url": "https://en.wikipedia.org/wiki/Alexandre_Colonna-Walewski",
+     "start": {
+      "raw": "+1810-05-04T00:00:00Z",
+      "year": 1810,
+      "precision": "day",
+      "display": "4 May 1810"
+     },
+     "end": {
+      "raw": "+1868-09-27T00:00:00Z",
+      "year": 1868,
+      "precision": "day",
+      "display": "27 September 1868"
+     }
+    },
+    {
+     "qid": "Q90227",
+     "label": "Eugen Megerle von Mühlfeld",
+     "description": "Austrian jurist and politician (1810-1868)",
+     "start": {
+      "raw": "+1810-05-03T00:00:00Z",
+      "year": 1810,
+      "precision": "day",
+      "display": "3 May 1810"
+     },
+     "end": {
+      "raw": "+1868-05-24T00:00:00Z",
+      "year": 1868,
+      "precision": "day",
+      "display": "24 May 1868"
+     }
+    },
+    {
+     "qid": "Q1332164",
+     "label": "Jules Barthélemy-Saint-Hilaire",
+     "description": "French philosopher, journalist, statesman, and possible illegitimate son of Napoleon I of France (1805-1895)",
+     "url": "https://en.wikipedia.org/wiki/Jules_Barth%C3%A9lemy-Saint-Hilaire",
+     "start": {
+      "raw": "+1805-08-19T00:00:00Z",
+      "year": 1805,
+      "precision": "day",
+      "display": "19 August 1805"
+     },
+     "end": {
+      "raw": "+1895-11-24T00:00:00Z",
+      "year": 1895,
+      "precision": "day",
+      "display": "24 November 1895"
+     }
+    }
+   ],
+   "P3373": [
+    {
+     "qid": "Q151083",
+     "label": "Elisa Bonaparte",
+     "description": "French princess (1777-1820)",
+     "url": "https://en.wikipedia.org/wiki/Elisa_Bonaparte",
+     "start": {
+      "raw": "+1777-01-03T00:00:00Z",
+      "year": 1777,
+      "precision": "day",
+      "display": "3 January 1777"
+     },
+     "end": {
+      "raw": "+1820-08-06T00:00:00Z",
+      "year": 1820,
+      "precision": "day",
+      "display": "6 August 1820"
+     }
+    },
+    {
+     "qid": "Q7729",
+     "label": "Louis Bonaparte",
+     "description": "king of Holland, brother of Napoleon Bonaparte, member of the House of Buonaparte (1778-1846)",
+     "url": "https://en.wikipedia.org/wiki/Louis_Bonaparte",
+     "start": {
+      "raw": "+1778-09-02T00:00:00Z",
+      "year": 1778,
+      "precision": "day",
+      "display": "2 September 1778"
+     },
+     "end": {
+      "raw": "+1846-07-25T00:00:00Z",
+      "year": 1846,
+      "precision": "day",
+      "display": "25 July 1846"
+     }
+    },
+    {
+     "qid": "Q152782",
+     "label": "Caroline Bonaparte",
+     "description": "Queen of Naples and Sicily (1782-1839)",
+     "url": "https://en.wikipedia.org/wiki/Caroline_Bonaparte",
+     "start": {
+      "raw": "+1782-03-25T00:00:00Z",
+      "year": 1782,
+      "precision": "day",
+      "display": "25 March 1782"
+     },
+     "end": {
+      "raw": "+1839-05-18T00:00:00Z",
+      "year": 1839,
+      "precision": "day",
+      "display": "18 May 1839"
+     }
+    },
+    {
+     "qid": "Q152785",
+     "label": "Pauline Bonaparte",
+     "description": "French princess",
+     "url": "https://en.wikipedia.org/wiki/Pauline_Bonaparte",
+     "start": {
+      "raw": "+1780-10-20T00:00:00Z",
+      "year": 1780,
+      "precision": "day",
+      "display": "20 October 1780"
+     },
+     "end": {
+      "raw": "+1825-06-09T00:00:00Z",
+      "year": 1825,
+      "precision": "day",
+      "display": "9 June 1825"
+     }
+    },
+    {
+     "qid": "Q7726",
+     "label": "Joseph Bonaparte",
+     "description": "brother of Napoleon Bonaparte; King of Naples (1806–08) and Spain (1808–13)",
+     "url": "https://en.wikipedia.org/wiki/Joseph_Bonaparte",
+     "start": {
+      "raw": "+1768-01-07T00:00:00Z",
+      "year": 1768,
+      "precision": "day",
+      "display": "7 January 1768"
+     },
+     "end": {
+      "raw": "+1844-07-28T00:00:00Z",
+      "year": 1844,
+      "precision": "day",
+      "display": "28 July 1844"
+     }
+    },
+    {
+     "qid": "Q151098",
+     "label": "Lucien Bonaparte",
+     "description": "1st Prince of Canino and Musignano (1775–1840)",
+     "url": "https://en.wikipedia.org/wiki/Lucien_Bonaparte",
+     "start": {
+      "raw": "+1775-05-21T00:00:00Z",
+      "year": 1775,
+      "precision": "day",
+      "display": "21 May 1775"
+     },
+     "end": {
+      "raw": "+1840-06-29T00:00:00Z",
+      "year": 1840,
+      "precision": "day",
+      "display": "29 June 1840"
+     }
+    },
+    {
+     "qid": "Q151087",
+     "label": "Jérôme Bonaparte",
+     "description": "Napoleon I's brother (1784–1860)",
+     "url": "https://en.wikipedia.org/wiki/J%C3%A9r%C3%B4me_Bonaparte",
+     "start": {
+      "raw": "+1784-11-15T00:00:00Z",
+      "year": 1784,
+      "precision": "day",
+      "display": "15 November 1784"
+     },
+     "end": {
+      "raw": "+1860-06-24T00:00:00Z",
+      "year": 1860,
+      "precision": "day",
+      "display": "24 June 1860"
+     }
+    },
+    {
+     "qid": "Q75585274",
+     "label": "unnamed daughter Bonaparte",
+     "description": "short-lived sister of emperor Napoleon (1773-1773)",
+     "start": {
+      "raw": "+1773-00-00T00:00:00Z",
+      "year": 1773,
+      "precision": "year",
+      "display": "1773"
+     },
+     "end": {
+      "raw": "+1773-00-00T00:00:00Z",
+      "year": 1773,
+      "precision": "year",
+      "display": "1773"
+     }
+    }
+   ],
+   "P39": [
+    {
+     "qid": "Q5373953",
+     "label": "Emperor of the French",
+     "description": "title used by the House of Bonaparte",
+     "url": "https://en.wikipedia.org/wiki/Emperor_of_the_French",
+     "start": {
+      "raw": "+1804-05-18T00:00:00Z",
+      "year": 1804,
+      "precision": "day",
+      "display": "18 May 1804"
+     },
+     "end": {
+      "raw": "+1814-04-06T00:00:00Z",
+      "year": 1814,
+      "precision": "day",
+      "display": "6 April 1814"
+     }
+    },
+    {
+     "qid": "Q19808845",
+     "label": "French co-prince of Andorra",
+     "description": "co-Prince of Andorra who corresponds with the President of France",
+     "start": {
+      "raw": "+1806-00-00T00:00:00Z",
+      "year": 1806,
+      "precision": "year",
+      "display": "1806"
+     },
+     "end": {
+      "raw": "+1812-01-26T00:00:00Z",
+      "year": 1812,
+      "precision": "day",
+      "display": "26 January 1812"
+     }
+    },
+    {
+     "qid": "Q5373953",
+     "label": "Emperor of the French",
+     "description": "title used by the House of Bonaparte",
+     "url": "https://en.wikipedia.org/wiki/Emperor_of_the_French",
+     "start": {
+      "raw": "+1815-03-20T00:00:00Z",
+      "year": 1815,
+      "precision": "day",
+      "display": "20 March 1815"
+     },
+     "end": {
+      "raw": "+1815-06-22T00:00:00Z",
+      "year": 1815,
+      "precision": "day",
+      "display": "22 June 1815"
+     }
+    },
+    {
+     "qid": "Q1131971",
+     "label": "First Consul",
+     "description": "head of government in the French Consulate",
+     "start": {
+      "raw": "+1799-11-10T00:00:00Z",
+      "year": 1799,
+      "precision": "day",
+      "display": "10 November 1799"
+     },
+     "end": {
+      "raw": "+1804-05-18T00:00:00Z",
+      "year": 1804,
+      "precision": "day",
+      "display": "18 May 1804"
+     }
+    },
+    {
+     "qid": "Q271148",
+     "label": "monarch of Italy",
+     "description": "regnal title held by several monarchs",
+     "url": "https://en.wikipedia.org/wiki/King_of_Italy",
+     "start": {
+      "raw": "+1805-03-17T00:00:00Z",
+      "year": 1805,
+      "precision": "day",
+      "display": "17 March 1805"
+     },
+     "end": {
+      "raw": "+1814-04-11T00:00:00Z",
+      "year": 1814,
+      "precision": "day",
+      "display": "11 April 1814"
+     }
+    },
+    {
+     "qid": "Q19808845",
+     "label": "French co-prince of Andorra",
+     "description": "co-Prince of Andorra who corresponds with the President of France",
+     "start": {
+      "raw": "+1815-03-20T00:00:00Z",
+      "year": 1815,
+      "precision": "day",
+      "display": "20 March 1815"
+     },
+     "end": {
+      "raw": "+1815-06-22T00:00:00Z",
+      "year": 1815,
+      "precision": "day",
+      "display": "22 June 1815"
+     }
+    },
+    {
+     "qid": "Q111840950",
+     "label": "head of state of France"
+    },
+    {
+     "qid": "Q23034946",
+     "label": "president of the French Academy of Sciences",
+     "start": {
+      "raw": "+1800-00-00T00:00:00Z",
+      "year": 1800,
+      "precision": "year",
+      "display": "1800"
+     },
+     "end": {
+      "raw": "+1800-00-00T00:00:00Z",
+      "year": 1800,
+      "precision": "year",
+      "display": "1800"
+     }
+    }
+   ],
+   "P106": [
+    {
+     "qid": "Q82955",
+     "label": "politician",
+     "description": "person who seeks or holds a political office or mandate or is otherwise politically active",
+     "url": "https://en.wikipedia.org/wiki/Politician"
+    },
+    {
+     "qid": "Q10732476",
+     "label": "art collector",
+     "description": "person who collects art"
+    },
+    {
+     "qid": "Q39018",
+     "label": "emperor",
+     "description": "type of monarch",
+     "url": "https://en.wikipedia.org/wiki/Emperor"
+    },
+    {
+     "qid": "Q2304859",
+     "label": "sovereign",
+     "description": "leader of a country",
+     "url": "https://en.wikipedia.org/wiki/Sovereign"
+    },
+    {
+     "qid": "Q17010072",
+     "label": "militant",
+     "description": "violent activist",
+     "url": "https://en.wikipedia.org/wiki/Militant"
+    },
+    {
+     "qid": "Q1402561",
+     "label": "military leader",
+     "description": "someone who leads the army and the troops in a war or battle"
+    }
+   ],
+   "P27": [
+    {
+     "qid": "Q142",
+     "label": "France",
+     "description": "country in Western Europe and other continents (through its overseas territories in America, Africa and Oceania)",
+     "url": "https://en.wikipedia.org/wiki/France"
+    }
+   ],
+   "P1344": [
+    {
+     "qid": "Q6534",
+     "label": "French Revolution",
+     "description": "revolution in France from 1789 to 1799",
+     "url": "https://en.wikipedia.org/wiki/French_Revolution",
+     "start": {
+      "raw": "+1789-07-14T00:00:00Z",
+      "year": 1789,
+      "precision": "day",
+      "display": "14 July 1789"
+     },
+     "end": {
+      "raw": "+1799-11-09T00:00:00Z",
+      "year": 1799,
+      "precision": "day",
+      "display": "9 November 1799"
+     }
+    }
+   ],
+   "P19": [
+    {
+     "qid": "Q40104",
+     "label": "Ajaccio",
+     "description": "French commune and prefecture of Corse-du-Sud and Corsica",
+     "url": "https://en.wikipedia.org/wiki/Ajaccio"
+    }
+   ],
+   "P20": [
+    {
+     "qid": "Q578060",
+     "label": "Longwood House",
+     "description": "residence of Napoleon Bonaparte on Saint Helena",
+     "url": "https://en.wikipedia.org/wiki/Longwood_House"
+    }
+   ]
+  },
+  "timeline": [
+   {
+    "id": "start",
+    "label": "Born — Napoleon",
+    "kind": "life",
+    "date": {
+     "raw": "+1769-08-15T00:00:00Z",
+     "year": 1769,
+     "precision": "day",
+     "display": "15 August 1769"
+    },
+    "qid": "Q517",
+    "title": "Napoleon",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q517"
+   },
+   {
+    "id": "P1344-Q6534-+1789-07-14T00:00:00Z",
+    "label": "Took part in: French Revolution",
+    "kind": "related",
+    "date": {
+     "raw": "+1789-07-14T00:00:00Z",
+     "year": 1789,
+     "precision": "day",
+     "display": "14 July 1789"
+    },
+    "endDate": {
+     "raw": "+1799-11-09T00:00:00Z",
+     "year": 1799,
+     "precision": "day",
+     "display": "9 November 1799"
+    },
+    "qid": "Q6534",
+    "title": "French Revolution",
+    "sourceUrl": "https://en.wikipedia.org/wiki/French_Revolution"
+   },
+   {
+    "id": "P26-Q171480-+1796-03-08T00:00:00Z",
+    "label": "Spouse: Joséphine de Beauharnais",
+    "kind": "event",
+    "date": {
+     "raw": "+1796-03-08T00:00:00Z",
+     "year": 1796,
+     "precision": "day",
+     "display": "8 March 1796"
+    },
+    "endDate": {
+     "raw": "+1809-12-16T00:00:00Z",
+     "year": 1809,
+     "precision": "day",
+     "display": "16 December 1809"
+    },
+    "qid": "Q171480",
+    "title": "Joséphine de Beauharnais",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Jos%C3%A9phine_de_Beauharnais"
+   },
+   {
+    "id": "P39-Q1131971-+1799-11-10T00:00:00Z",
+    "label": "First Consul",
+    "kind": "position",
+    "date": {
+     "raw": "+1799-11-10T00:00:00Z",
+     "year": 1799,
+     "precision": "day",
+     "display": "10 November 1799"
+    },
+    "endDate": {
+     "raw": "+1804-05-18T00:00:00Z",
+     "year": 1804,
+     "precision": "day",
+     "display": "18 May 1804"
+    },
+    "qid": "Q1131971",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q1131971"
+   },
+   {
+    "id": "P39-Q23034946-+1800-00-00T00:00:00Z",
+    "label": "president of the French Academy of Sciences",
+    "kind": "position",
+    "date": {
+     "raw": "+1800-00-00T00:00:00Z",
+     "year": 1800,
+     "precision": "year",
+     "display": "1800"
+    },
+    "endDate": {
+     "raw": "+1800-00-00T00:00:00Z",
+     "year": 1800,
+     "precision": "year",
+     "display": "1800"
+    },
+    "qid": "Q23034946",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q23034946"
+   },
+   {
+    "id": "P39-Q5373953-+1804-05-18T00:00:00Z",
+    "label": "Emperor of the French",
+    "kind": "position",
+    "date": {
+     "raw": "+1804-05-18T00:00:00Z",
+     "year": 1804,
+     "precision": "day",
+     "display": "18 May 1804"
+    },
+    "endDate": {
+     "raw": "+1814-04-06T00:00:00Z",
+     "year": 1814,
+     "precision": "day",
+     "display": "6 April 1814"
+    },
+    "qid": "Q5373953",
+    "title": "Emperor of the French",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Emperor_of_the_French"
+   },
+   {
+    "id": "P39-Q271148-+1805-03-17T00:00:00Z",
+    "label": "monarch of Italy",
+    "kind": "position",
+    "date": {
+     "raw": "+1805-03-17T00:00:00Z",
+     "year": 1805,
+     "precision": "day",
+     "display": "17 March 1805"
+    },
+    "endDate": {
+     "raw": "+1814-04-11T00:00:00Z",
+     "year": 1814,
+     "precision": "day",
+     "display": "11 April 1814"
+    },
+    "qid": "Q271148",
+    "title": "King of Italy",
+    "sourceUrl": "https://en.wikipedia.org/wiki/King_of_Italy"
+   },
+   {
+    "id": "P39-Q19808845-+1806-00-00T00:00:00Z",
+    "label": "French co-prince of Andorra",
+    "kind": "position",
+    "date": {
+     "raw": "+1806-00-00T00:00:00Z",
+     "year": 1806,
+     "precision": "year",
+     "display": "1806"
+    },
+    "endDate": {
+     "raw": "+1812-01-26T00:00:00Z",
+     "year": 1812,
+     "precision": "day",
+     "display": "26 January 1812"
+    },
+    "qid": "Q19808845",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q19808845"
+   },
+   {
+    "id": "P26-Q157491-+1810-04-01T00:00:00Z",
+    "label": "Spouse: Marie Louise, Duchess of Parma",
+    "kind": "event",
+    "date": {
+     "raw": "+1810-04-01T00:00:00Z",
+     "year": 1810,
+     "precision": "day",
+     "display": "1 April 1810"
+    },
+    "endDate": {
+     "raw": "+1821-05-05T00:00:00Z",
+     "year": 1821,
+     "precision": "day",
+     "display": "5 May 1821"
+    },
+    "qid": "Q157491",
+    "title": "Marie Louise, Duchess of Parma",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Marie_Louise%2C_Duchess_of_Parma"
+   },
+   {
+    "id": "P39-Q5373953-+1815-03-20T00:00:00Z",
+    "label": "Emperor of the French",
+    "kind": "position",
+    "date": {
+     "raw": "+1815-03-20T00:00:00Z",
+     "year": 1815,
+     "precision": "day",
+     "display": "20 March 1815"
+    },
+    "endDate": {
+     "raw": "+1815-06-22T00:00:00Z",
+     "year": 1815,
+     "precision": "day",
+     "display": "22 June 1815"
+    },
+    "qid": "Q5373953",
+    "title": "Emperor of the French",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Emperor_of_the_French"
+   },
+   {
+    "id": "P39-Q19808845-+1815-03-20T00:00:00Z",
+    "label": "French co-prince of Andorra",
+    "kind": "position",
+    "date": {
+     "raw": "+1815-03-20T00:00:00Z",
+     "year": 1815,
+     "precision": "day",
+     "display": "20 March 1815"
+    },
+    "endDate": {
+     "raw": "+1815-06-22T00:00:00Z",
+     "year": 1815,
+     "precision": "day",
+     "display": "22 June 1815"
+    },
+    "qid": "Q19808845",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q19808845"
+   },
+   {
+    "id": "end",
+    "label": "Died — Napoleon",
+    "kind": "life",
+    "date": {
+     "raw": "+1821-05-05T00:00:00Z",
+     "year": 1821,
+     "precision": "day",
+     "display": "5 May 1821"
+    },
+    "qid": "Q517",
+    "title": "Napoleon",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q517"
+   }
+  ],
+  "sourceUrl": "https://www.wikidata.org/wiki/Q517"
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://en.wikipedia.org/wiki/Napoleon",
+   "title": "Napoleon",
+   "lang": "en",
+   "publisher": "Wikipedia (English)",
+   "section": "Introduction",
+   "text": "Napoleon Bonaparte (born Napoleone di Buonaparte; 15 August 1769 – 5 May 1821), later known by his regnal name Napoleon I, was Emperor of the French from 18 May 1804 until his first abdication in 1814, with a brief restoration during the Hundred Days in 1815. He rose to prominence as a general during the French Revolution and led a series of military campaigns across Europe and the Middle East during the French Revolutionary and Napoleonic Wars. As a statesman, he implemented numerous legal and administrative reforms in France and Europe.\nBorn on the island of Corsica to a family of Italian origin, Napoleon moved to mainland France in 1779 and was commissioned as an officer in the French Royal Army in 1785. He supported the French Revolution in 1789 and promoted its cause in Corsica. He rose rapidly through the ranks after winning the siege of Toulon in 1793 and defeating royalist insurgents in Paris on 13 Vendémiaire in 1795. In 1796 he commanded a military campaign against the Austrians and their Italian allies in the War of the First Coalition, scoring decisive victories and becoming a national hero. He led an invasion of Egypt and Syria in 1798, which served as a springboard for his rise to political power. In November 1799 Napoleon engineered the Coup of 18 Brumaire against the French Directory and became First Consul of the Republic. He won the Battle of Marengo in 1800, which secured France's victory in the War of the Second Coalition, and in 1803 he sold the territory of Louisiana to the United States. In December 1804 Napoleon crowned himself Emperor of the French, further consolidating his power.\nThe breakdown of the Treaty of Amiens led to the War of the Third Coalition by 1805. Napoleon shattered the coalition with a decisive victory at the Battle of Austerlitz, which led to the dissolution of the Holy Roman Empire. In the War of the Fourth Coalition, Napoleon defeated Prussia at the Battle of Jena–Auerstedt in 1806, marched his Grande Armée into Eastern Europe, and defeated the Russians in 1807 at the Battle of Friedland. Seeking to extend his trade embargo against Britain, Napoleon invaded the Iberian Peninsula and installed his brother Joseph as King of Spain in 1808, provoking the Peninsular War. In 1809 the Austrians again challenged France in the War of the Fifth Coalition, during which Napoleon consolidated his dominance over Europe after winning the Battle of Wagram. In the summer of 1812 he launched an invasion of Russia. After forcing the Russians to abandon Moscow following the Battle of Borodino, Napoleon briefly occupied the city before conducting a catastrophic retreat of his army that winter. In 1813 Prussia and Austria joined Russia in the War of the Sixth Coalition, in which Napoleon was decisively defeated at the Battle of Leipzig. The coalition invaded France and captured Paris, forcing Napoleon to abdicate in April 1814. He was exiled to the Mediterranean island of Elba and the House of Bourbons was restored to power. Ten months later Napoleon escaped from Elba with around a thousand men and marched on Paris, reclaiming control of the country. His opponents responded by forming a Seventh Coalition, which defeated him at the Battle of Waterloo in June 1815. Napoleon was exiled to the remote island of Saint Helena in the South Atlantic, where he died of stomach cancer in 1821, aged 51.\nSince his death, Napoleon has maintained a prominent place in historical research and popular culture. He is considered one of the greatest military commanders in history, and Napoleonic tactics are still studied at military schools worldwide. His legacy endures through the legal and administrative reforms he enacted in France and Western Europe, most notably the Napoleonic Code. He established a system of public education, abolished the vestiges of feudalism, emancipated Jews and other religious minorities, abolished the Spanish Inquisition, enacted the principle of equality before the law for an emerging middle class, and centralized state power at the expense of religious authorities. His conquests also acted as a catalyst for political change and the development of nation-states. However, he remains controversial because of his role in wars that devastated Europe, his looting of conquered territories, and his mixed record on civil rights. He abolished the free press, ended directly elected representative government, exiled and imprisoned critics of his regime, reinstated slavery in French colonies, banned the entry of black people and mulattos into France, reduced the civil rights of women and children, reintroduced a hereditary monarchy and nobility, and violently repressed popular uprisings against his rule.",
+   "truncated": false
+  },
+  {
+   "id": "S2",
+   "url": "https://www.wikidata.org/wiki/Q517",
+   "title": "Wikidata structured record for Napoleon",
+   "lang": "en",
+   "publisher": "Wikidata",
+   "text": "Napoleon (Q517)\nDescription: French military leader, French Emperor 1804–1814 and again in 1815 (1769–1821)\nDate of birth: 15 August 1769\nDate of death: 5 May 1821\nFather: Carlo Bonaparte (29 March 1746 to 24 February 1785)\nMother: Maria-Letizia Bonaparte (24 August 1750 to 2 February 1836)\nSpouse: Joséphine de Beauharnais (8 March 1796 to 16 December 1809)\nSpouse: Marie Louise, Duchess of Parma (1 April 1810 to 5 May 1821)\nChild: Napoleon II (20 March 1811 to 22 July 1832)\nChild: Charles Léon (13 December 1806 to 14 April 1881)\nChild: Alexandre Colonna-Walewski (4 May 1810 to 27 September 1868)\nChild: Eugen Megerle von Mühlfeld (3 May 1810 to 24 May 1868)\nChild: Jules Barthélemy-Saint-Hilaire (19 August 1805 to 24 November 1895)\nSibling: Elisa Bonaparte (3 January 1777 to 6 August 1820)\nSibling: Louis Bonaparte (2 September 1778 to 25 July 1846)\nSibling: Caroline Bonaparte (25 March 1782 to 18 May 1839)\nSibling: Pauline Bonaparte (20 October 1780 to 9 June 1825)\nSibling: Joseph Bonaparte (7 January 1768 to 28 July 1844)\nSibling: Lucien Bonaparte (21 May 1775 to 29 June 1840)\nSibling: Jérôme Bonaparte (15 November 1784 to 24 June 1860)\nSibling: unnamed daughter Bonaparte (1773 to 1773)\nPosition held: Emperor of the French (18 May 1804 to 6 April 1814)\nPosition held: French co-prince of Andorra (1806 to 26 January 1812)\nPosition held: Emperor of the French (20 March 1815 to 22 June 1815)\nPosition held: First Consul (10 November 1799 to 18 May 1804)\nPosition held: monarch of Italy (17 March 1805 to 11 April 1814)\nPosition held: French co-prince of Andorra (20 March 1815 to 22 June 1815)\nPosition held: head of state of France\nPosition held: president of the French Academy of Sciences (1800 to 1800)\nOccupation: politician\nOccupation: art collector\nOccupation: emperor\nOccupation: sovereign\nOccupation: militant\nOccupation: military leader\nCitizenship: France\nTook part in: French Revolution (14 July 1789 to 9 November 1799)\nBorn in: Ajaccio\nDied in: Longwood House",
+   "truncated": false
+  },
+  {
+   "id": "S3",
+   "url": "https://fr.wikipedia.org/wiki/Napol%C3%A9on_Ier",
+   "title": "Napoléon Ier",
+   "lang": "fr",
+   "publisher": "Wikipedia (fr)",
+   "section": "Introduction",
+   "text": "Napoléon Bonaparte, né le 15 août 1769 à Ajaccio en Corse et mort le 5 mai 1821 à Longwood sur l’île de Sainte-Hélène, est un militaire et homme d'État français. Il est le premier empereur des Français du 18 mai 1804 au 6 avril 1814 et du 20 mars au 22 juin 1815, sous le nom de Napoléon Ier.\nSecond enfant survivant de Charles Bonaparte et Letizia Ramolino, Napoléon Bonaparte devient en 1793 général dans les armées de la Première République française, née de la Révolution, où il est notamment commandant en chef de l'armée d'Italie puis de l'armée d'Orient. Arrivé au pouvoir en 1799 par le coup d'État du 18 Brumaire, il est Premier consul — consul à vie à partir du 2 août 1802 — jusqu'au 18 mai 1804, date à laquelle l'Empire est proclamé par un sénatus-consulte suivi d'un plébiscite. Il est sacré empereur, en la cathédrale Notre-Dame de Paris, le 2 décembre 1804, par le pape Pie VII, en même temps que son épouse Joséphine de Beauharnais.\nEn tant que général en chef et chef d'État, Napoléon tente de briser les coalitions montées et financées par le royaume de Grande-Bretagne et qui rassemblent, à partir de 1792, les monarchies européennes contre la France et son régime né de la Révolution. Il conduit les armées françaises d'Italie au Nil et d'Autriche à la Prusse et à la Pologne : les nombreuses et brillantes victoires de Bonaparte (Arcole, Rivoli, Pyramides, Marengo, Austerlitz, Iéna, Friedland), dans des campagnes militaires rapides, disloquent les quatre premières coalitions. Les paix successives, qui mettent un terme à chacune de ces coalitions, renforcent la France et donnent à Napoléon un degré de puissance jusqu'alors rarement égalé en Europe, lors de la paix de Tilsit (1807).\nNapoléon Ier réforme durablement l'État, en restaurant son autorité et sa primauté. La France connaît d'importantes réformes, qui font de Napoléon l'un des pères fondateurs des institutions contemporaines françaises. En ce sens, les codifications napoléoniennes, dont le Code civil de 1804, permettent de renforcer les libertés individuelles ou l'égalité des citoyens devant la loi, en opérant une synthèse par la garantie de certains acquis révolutionnaires et la reprise de principes traditionnels issus de l'Ancien Régime. L'administration française est réorganisée, avec la création des préfets dans les départements. De même, une nouvelle monnaie émerge, le franc, tandis qu'est instaurée la Banque de France. Le Conseil d'État est également créé, tout comme les lycées.\nIl tente également de renforcer l'empire colonial français de l'Ancien Régime en outre-mer. Alors que la révolution haïtienne tourne à la sécession dans cette colonie, Napoléon rétablit l'esclavage en 1802. Toujours pour des raisons politiques, Napoléon revend la Louisiane aux États-Unis en 1803.\n\n[section truncated]",
+   "truncated": true
+  },
+  {
+   "id": "S4",
+   "url": "https://de.wikipedia.org/wiki/Napoleon_Bonaparte",
+   "title": "Napoleon Bonaparte",
+   "lang": "de",
+   "publisher": "Wikipedia (de)",
+   "section": "Introduction",
+   "text": "Napoleon Bonaparte, als Kaiser Napoleon I. (französisch Napoléon Bonaparte bzw. Napoléon Ier; * 15. August 1769 in Ajaccio auf Korsika als Napoleone Buonaparte; † 5. Mai 1821 in Longwood House auf St. Helena im Südatlantik), war General der Ersten Französischen Republik, Erster Konsul Frankreichs und schließlich Kaiser der Franzosen. Von 1805 bis zu seinem Sturz 1814 war er auch König von Italien und von 1806 bis 1813 Protektor des Rheinbundes.\nAus korsischer Familie stammend, stieg Bonaparte während der Französischen Revolution in der Armee auf. Er erwies sich als militärisches Talent ersten Ranges. Vor allem die Feldzüge in Italien und in Ägypten machten ihn populär. Dies ermöglichte ihm, durch den Staatsstreich des 18. Brumaire VIII (9. November 1799), zunächst als einer von drei Konsuln, die Macht in Frankreich zu übernehmen. Während des Konsulats von 1799 bis 1804 und des Ersten Kaiserreichs von 1804 bis 1814 sowie nochmals 1815 stand er einem diktatorischen Regime mit plebiszitären Elementen vor.\nDurch verschiedene Reformen – etwa die der Justiz durch den Code civil oder die der Verwaltung – hat Napoleon die staatlichen Strukturen Frankreichs bis in die Gegenwart hinein geprägt und die Schaffung eines modernen Zivilrechts in besetzten europäischen Staaten initiiert. Außenpolitisch errang er, gestützt auf die Armee, zeitweise die Herrschaft über weite Teile Kontinentaleuropas. Im Königreich Italien trat er selbst an die Staatsspitze, in anderen Ländern setzte er Familienmitglieder und Vertraute als Monarchen ein. Während es ihm gelang, zeitweise auch Preußen und Österreich in sein Bündnissystem zu zwingen, brachte ihn seine Hegemonialpolitik in einen dauerhaften Konflikt mit Großbritannien und Russland. Durch die von ihm eingeleitete Auflösung des Heiligen Römischen Reiches 1806 wurde die staatliche Gestaltung Mitteleuropas zu einer zentralen Frage im 19. Jahrhundert. Während er den Nationalstaatsgedanken anfangs selbst noch außerhalb Frankreichs verbreitet hatte, erschwerte gerade dessen Erfolg, insbesondere in Spanien, Deutschland und Russland, die Konsolidierung der napoleonischen Ordnung in Europa.\nAuf den für Frankreich katastrophalen Ausgang des Russlandfeldzugs von 1812 folgten die Befreiungskriege, die Erschütterung der französischen Vorherrschaft in Europa und 1814 der Sturz Napoleons. Nach seiner Verbannung auf die Mittelmeerinsel Elba kehrte er 1815 während der Herrschaft der Hundert Tage noch einmal an die Macht zurück. In der Schlacht bei Waterloo endgültig besiegt, wurde er bis zu seinem Lebensende auf die abgelegene, britisch kontrollierte Atlantikinsel St. Helena verbannt.",
+   "truncated": false
+  },
+  {
+   "id": "S5",
+   "url": "https://es.wikipedia.org/wiki/Napole%C3%B3n_Bonaparte",
+   "title": "Napoleón Bonaparte",
+   "lang": "es",
+   "publisher": "Wikipedia (es)",
+   "section": "Introduction",
+   "text": "Napoleón Bonaparte (nacido Napoleone Buonaparte; Ajaccio, 15 de agosto de 1769-Santa Elena, 5 de mayo de 1821), más tarde conocido por su nombre regnal Napoleón I, fue un militar y político francés nacido en Córcega que saltó a la fama durante la Revolución francesa y dirigió exitosas campañas durante las guerras revolucionarias. Fue el líder de facto de la República francesa como primer cónsul desde 1799 hasta 1804, y después emperador de los franceses desde 1804 hasta 1814 y, de nuevo, en 1815. El legado político y cultural de Napoleón perdura, en tanto líder tan célebre como controvertido. Inició muchas reformas liberales que han perdurado en la sociedad, y se le considera uno de los más grandes comandantes militares de la historia. Sus campañas se estudian en las academias militares del mundo. Entre tres y seis millones de civiles y soldados murieron en lo que se conoció como las guerras napoleónicas.​​\nNació en la isla de Córcega, poco después de su anexión por Francia, en el seno de una familia nativa descendiente de la pequeña nobleza italiana.​​ Apoyó la Revolución francesa en 1789 mientras servía en el ejército francés, e intentó difundir sus ideales en Córcega. Ascendió rápido en el ejército tras salvar al Directorio francés en el poder disparando contra insurgentes monárquicos. En 1796, inició una campaña militar contra los austriacos y sus aliados italianos, anotándose victorias decisivas y convirtiéndose en un héroe nacional. Dos años más tarde, dirigió una expedición militar a Egipto que le sirvió de trampolín hacia el poder político. Organizó un golpe de Estado en noviembre de 1799 y se convirtió en primer cónsul de la República.\nLas diferencias con el Reino Unido hicieron que Francia se enfrentara a la Tercera Coalición en 1805. Napoleón hizo añicos esta coalición con victorias en la campaña de Ulm y en la batalla de Austerlitz, que condujeron a la disolución del Sacro Imperio Romano Germánico. En 1806, la Cuarta Coalición se levantó en armas contra él. Napoleón derrotó a Prusia en las batallas de Jena y Auerstedt, hizo marchar a la Grande Armée hacia Europa Oriental y derrotó a los rusos en junio de 1807 en Friedland, obligando a las naciones derrotadas de la Cuarta Coalición a aceptar los Tratados de Tilsit. Dos años más tarde, los austriacos volvieron a desafiar a los franceses durante la guerra de la Quinta Coalición, pero Napoleón solidificó su dominio sobre Europa tras triunfar en la batalla de Wagram.\nCon la esperanza de extender el Bloqueo Continental, su embargo contra Gran Bretaña, Napoleón invadió la península ibérica y declaró rey de España a su hermano José en 1808.\n\n[section truncated]",
+   "truncated": true
+  },
+  {
+   "id": "S6",
+   "url": "https://en.wikipedia.org/wiki/Napoleon#Memory_and_evaluation",
+   "title": "Napoleon",
+   "lang": "en",
+   "publisher": "Wikipedia (English)",
+   "section": "Memory and evaluation",
+   "text": "Criticism\n\n\nThere is debate over whether Napoleon was \"an enlightened despot who laid the foundations of modern Europe\" or \"a megalomaniac who wrought greater misery than any man before the coming of Hitler\". He was compared to Adolf Hitler by Pieter Geyl in 1947 and Claude Ribbe in 2005. Most modern critics of Napoleon, however, reject the Hitler comparison, arguing that Napoleon did not commit genocide and did not engage in the mass murder and imprisonment of his political opponents. Nevertheless, David A. Bell and McLynn condemn his killing of 3,000–5,000 Turkish prisoners of war in Syria.\nHistorians have argued that his expansionist foreign policy was a major factor in the Napoleonic wars, which cost six million lives and caused economic disruption for a generation. McLynn and Correlli Barnett suggest that Napoleon's reputation as a military genius is exaggerated. Cobban and Susan P. Conner argue that Napoleon had insufficient regard for the lives of his soldiers and that his battle tactics led to excessive casualties.\nCritics also cite Napoleon's exploitation of conquered territories. To finance his wars, Napoleon increased taxes and levies of troops from annexed territories and satellite states. He also introduced discriminatory tariff policies which promoted French trade at the expense of allies and satellite states. He institutionalized plunder: French museums contain art stolen by Napoleon's forces from across Europe. Artefacts were brought to the Musée du Louvre for a grand central museum; an example which would later be followed by others.\nMany historians have criticized Napoleon's authoritarian rule, especially after 1807, which included censorship, the closure of independent newspapers, the bypassing of direct elections and representative government, the dismissal of judges showing independence, and the exile of critics of the regime. Historians also blame Napoleon for reducing the civil rights of women, children and people of colour, and reintroducing the legal penalties of civil death and confiscation of property. His reintroduction of an hereditary monarchy and nobility remains controversial. His role in the Haitian Revolution and decision to reinstate slavery in France's colonies in the Caribbean and Indian Ocean adversely affect his reputation.\n\n\n\nPropaganda and memory\n\n\nNapoleon's use of propaganda contributed to his rise to power, legitimated his regime, and established his image for posterity. Strict censorship and control of the press, books, theatre, and art were part of his propaganda scheme, aimed at portraying him as bringing peace and stability to France. Propaganda focused on his role first as a general then as a civil leader and emperor. He fostered a relationship with artists, commissioning and controlling different forms of art to suit his propaganda goals. Napoleonic propaganda survived his exile to Saint Helena. Las Cases, who was with Napoleon in exile, published The Memorial of Saint Helena in 1822, creating a legend of Napoleon as a liberal, visionary proponent of European unification, deposed by reactionary elements of the ancien régime.\nNapoleon remained a central figure in the romantic art and literature of the 1820s and 1830s. The Napoleonic legend played a key role in collective political defiance of the Bourbon restoration monarchy in 1815–1830. People from different walks of life and areas of France, particularly Napoleonic veterans, drew on the Napoleonic legacy and its connections with the ideals of the French Revolution. The defiance manifested itself in seditious materials, displaying the tricolour and rosettes. There were also subversive activities celebrating anniversaries of Napoleon's life and reign and disrupting royal celebrations.\n\nBell sees the return of Napoleon's remains to France in 1840 as an attempt by Louis-Phillipe to prop up his unpopular regime by associating it with Napoleon, and that the regime of Napoleon III was only possible with the continued resonance of the Napoleonic legend. Venita Datta argues that following the collapse of militaristic Boulangism in the late 1880s, the Napoleonic legend was divorced from party politics and revived in popular culture. Writers and critics of the Belle Époque exploited the Napoleonic legend for diverse political and cultural ends. In the 21st century, Napoleon appears regularly in popular fiction, drama and advertising. Napoleon and his era remain major topics of historical research with a sharp increase in historical books, articles and symposia during the bicentenary years of 1999 to 2015.\n\n\n\nLong-term influence outside France\n\n\nNapoleon was responsible for spreading many of the values of the French Revolution to other countries, especially through the Napoleonic Code. After the fall of Napoleon, it continued to influence the law in western Europe and other parts of the world including Latin America, the Dominican Republic, Louisiana and Quebec.\nNapoleon's regime abolished remnants of feudalism in the lands he conquered and in his satellite states. He liberalized property laws, ended manorialism, abolished the guild of merchants and craftsmen to facilitate entrepreneurship, legalized divorce, closed the Jewish ghettos and ended the Spanish Inquisition. The power of church courts and religious authority was sharply reduced and equality before the law was proclaimed for all men.\nNapoleon reorganized what had been the Holy Roman Empire, made up of about three hundred Kleinstaaterei, into a more streamlined forty-state Confederation of the Rhine; this helped promote the German Confederation and the unification of Germany in 1871, as it sparked a new wave of German nationalism that opposed the French intervention. The movement toward Italian unification was similarly sparked by Napoleonic rule. These changes contributed to the development of nationalism and the nation state.\nThe Napoleonic invasion of Spain and ousting of the Spanish Bourbon monarchy had a significant effect on Spanish America. Many local elites sought to rule in the name of Ferdinand VII, whom they considered the legitimate monarch. Napoleon indirectly began the process of Latin American independence when the power vacuum was filled by local political leaders such as Simón Bolívar and José de San Martín. Such leaders embraced nationalistic sentiments influenced by French nationalism and led successful independence movements in Latin America. Napoleon's reputation is generally favourable in Poland, which is the only country in the world to evoke him in its national anthem, Poland Is Not Yet Lost.",
+   "truncated": false
+  },
+  {
+   "id": "S7",
+   "url": "https://en.wikipedia.org/wiki/Napoleon#Early_life",
+   "title": "Napoleon",
+   "lang": "en",
+   "publisher": "Wikipedia (English)",
+   "section": "Early life",
+   "text": "Napoleon's family was of Italian origin. His paternal ancestors, the Buonapartes, descended from a minor Tuscan noble family who emigrated to Corsica in the 16th century. His maternal ancestors, the Ramolinos, descended from a noble family from Lombardy. Napoleon's parents, Carlo Maria Buonaparte and Maria Letizia Ramolino, lived in the Maison Bonaparte in Ajaccio, where Napoleon was born on 15 August 1769. He had an elder brother, Joseph, and six younger siblings: Lucien, Elisa, Louis, Pauline, Caroline, and Jérôme. Five more siblings were stillborn or did not survive infancy. Napoleon was baptized as a Catholic under the name Napoleone di Buonaparte. In his youth, his name was also spelled as Nabulione, Nabulio, Napolionne, and Napulione.\nNapoleon was born one year after the Republic of Genoa ceded Corsica to France through the Treaty of Versailles. His father supported Pasquale Paoli during the Corsican war of independence against France. After the Corsican defeat at the Battle of Ponte Novu in 1769 and Paoli's exile to Britain, Carlo became friends with the French governor Charles Louis de Marbeuf, who became his patron and a godfather to Napoleon. With Marbeuf's support, Carlo was named Corsican representative to the court of Louis XVI, and Napoleon obtained a royal bursary to a military academy in mainland France.\n\nThe dominant influence of Napoleon's childhood was his mother, whose firm discipline restrained a rambunctious child. Later in life, Napoleon said, \"The future destiny of the child is always the work of the mother.\" Napoleon's noble, moderately affluent background afforded him greater opportunities to study than were available to a typical Corsican of the time.\nIn January 1779, aged 9, Napoleon moved to the French mainland and enrolled at a religious school in Autun to improve his French, his mother tongues being Corsican and Italian. Although he eventually became fluent in French, he spoke it with a Corsican accent, and his French spelling was poor. In May he transferred to the military academy at Brienne-le-Château where he was routinely bullied by his peers for his accent, birthplace, short stature, mannerisms, and poor French. He became reserved and melancholic, applying himself to reading. An examiner observed that Napoleon \"has always been distinguished for his application in mathematics. He is fairly well acquainted with history and geography ... This boy would make an excellent sailor\".\nOne story of Napoleon at the school is that he led junior students to victory against senior students in a snowball fight, which allegedly showed his leadership abilities. But the story was told only after Napoleon had become famous. In his later years at Brienne, Napoleon became an outspoken Corsican nationalist and admirer of Paoli.\nIn September 1784 Napoleon was admitted to the École militaire in Paris where he trained to become an artillery officer. He excelled at mathematics and read widely in geography, history and literature. However, he was poor at French and German. His father's death in February 1785 cut the family income and forced him to complete the two-year course in one year. In September he was examined by the famed scientist Pierre-Simon Laplace and became the first Corsican to graduate from the École militaire.",
+   "truncated": false
+  },
+  {
+   "id": "S8",
+   "url": "https://en.wikipedia.org/wiki/Napoleon#Early_career",
+   "title": "Napoleon",
+   "lang": "en",
+   "publisher": "Wikipedia (English)",
+   "section": "Early career",
+   "text": "Return to Corsica\n\n\nUpon graduating in September 1785, Bonaparte was commissioned a second lieutenant in La Fère artillery regiment. Bonaparte served in Valence and Auxonne until after the outbreak of the French Revolution in 1789 but spent long periods of leave in Corsica, which fed his Corsican nationalism. In September 1789 he returned to Corsica and promoted the French revolutionary cause. Paoli returned to the island in July 1790, but he had no sympathy for Bonaparte, as he deemed his father a traitor for having deserted the cause of Corsican independence.\nBonaparte plunged into a complex three-way struggle among royalists, revolutionaries, and Corsican nationalists. He became a supporter of the Jacobins and joined the pro-French Corsican Republicans who opposed Paoli's policy and his aspirations to secede. He was given command over a battalion of Corsican volunteers and promoted to captain in the regular army in 1792, despite exceeding his leave of absence and a dispute between his volunteers and the French garrison in Ajaccio.\nIn February 1793 Bonaparte took part in the failed French expedition to Sardinia. Following allegations that Paoli had sabotaged the expedition and that his regime was corrupt and incompetent, the French National Convention outlawed him. In early June, Bonaparte and 400 French troops failed to capture Ajaccio from Corsican volunteers, and the island came under the control of Paoli's supporters. When Bonaparte learned that the Corsican assembly had condemned him and his family, the Buonapartes fled to Toulon on the French mainland.\n\n\n\nSiege of Toulon\n\n\nBonaparte returned to his regiment in Nice and was made captain of a coastal battery. In July 1793 he published a pamphlet, Le souper de Beaucaire (Supper at Beaucaire), demonstrating his support for the National Convention which was heavily influenced by the Jacobins.\nIn September, with the help of his fellow Corsican Antoine Christophe Saliceti, Bonaparte was appointed artillery commander of the republican forces sent to recapture the port of Toulon, which was occupied by allied forces. He quickly increased the available artillery and proposed a plan to capture a hill fort where republican guns could dominate the city's harbour and force the allies to evacuate. The successful assault on the position on 16–17 December led to the capture of the city.\nToulon brought Bonaparte to the attention of powerful men including Augustin Robespierre, the younger brother of Maximilien Robespierre, a leading Jacobin. He was promoted to brigadier general and put in charge of defences on the Mediterranean coast. In February 1794 he was made artillery commander of the Army of Italy and devised plans to attack the Kingdom of Sardinia.\nThe French army carried out Bonaparte's plan in the Second Battle of Saorgio in April 1794 and then advanced to seize Ormea in the mountains. From Ormea it headed west to outflank the Austro-Sardinian positions around Saorge. After this campaign, Augustin Robespierre sent Bonaparte on a mission to the Republic of Genoa to determine the country's intentions towards France.\n\n\n\n13 Vendémiaire\n\n\nAfter the Fall of Maximilien Robespierre in July 1794, Bonaparte's association with leading Jacobins made him politically suspect to the new regime. He was arrested on 9 August but released two weeks later. He was asked to draw up plans to attack Italian positions as part of France's war with Austria, and in March 1795 he took part in an expedition to take back Corsica from the British, but the French were repulsed by the Royal Navy.\nFrom 1794 Bonaparte was in a romantic relationship with Désirée Clary, whose sister Julie Clary had married Bonaparte's elder brother Joseph. In April 1795 Bonaparte was assigned to the Army of the West, which was engaged in the War in the Vendée—a civil war and royalist counter-revolution in the Vendée region. As an infantry command, it was a demotion from artillery general, and he pleaded poor health to avoid the posting. During this period he wrote the romantic novella Clisson et Eugénie, about a soldier and his lover, in a clear parallel to Bonaparte's own relationship with Clary.\nIn August he obtained a position with the Bureau of Topography, where he worked on military planning. On 15 September he was removed from the list of generals in regular service for refusing to serve in the Vendée campaign. He sought a transfer to Constantinople to offer his services to Sultan Selim III. The request was eventually granted, but he never took up the post.\nOn 3 October royalists in Paris declared a rebellion against the National Convention. Paul Barras, a leader of the Thermidorian Reaction, knew of Bonaparte's military exploits at Toulon and made him second in command of the forces defending the convention in the Tuileries Palace. Bonaparte had seen the massacre of the king's Swiss Guard during the Insurrection of 10 August 1792 there three years earlier and realized that artillery would be the key to its defence. He ordered a young cavalry officer, Joachim Murat, to seize cannons, and Bonaparte deployed them in key positions. On 5 October 1795—13 Vendémiaire An IV in the French Republican calendar—he fired on the rebels with canister rounds (described by Thomas Carlyle as \"the whiff of grapeshot\"). About 300 to 1,400 rebels died in the uprising. Bonaparte's role in defeating the rebellion earned him and his family the patronage of the new government, the French Directory. On 26 October he was promoted to commander of the Army of the Interior, and in January 1796, he was appointed head of the Army of Italy.\nWithin weeks of the Vendémiaire uprising, Bonaparte was romantically involved with Joséphine de Beauharnais, the former mistress of Barras. Josephine had been born in the French colonies in the Lesser Antilles, and her family owned slaves on sugar plantations. The couple married on 9 March 1796 in a civil ceremony. Bonaparte began to habitually style himself \"Napoleon Bonaparte\" rather than using the Italian form \"Napoleone di Buonaparte.\"\n\n\n\nFirst Italian campaign\n\n\nTwo days after the marriage, Bonaparte left Paris to take command of the Army of Italy. He went on the offensive, hoping to defeat the Kingdom of Sardinia in Piedmont before their Austrian allies could intervene. In a series of victories during the Montenotte campaign, he knocked the Piedmontese out of the war in two weeks. The French then focused on the Austrians, laying siege to Mantua. The Austrians launched offensives against the French to break the siege, but Bonaparte defeated every relief effort, winning the Battle of Castiglione, the Battle of Bassano, the Battle of Arcole, and the Battle of Rivoli. The French triumph at Rivoli in January 1797 led to the collapse of the Austrian position in Italy. At Rivoli Austria lost 43% of its soldiers dead, wounded or taken prisoner.\nThe French then invaded the heartlands of the House of Habsburg. French forces in southern Germany had been defeated by Archduke Charles, Duke of Teschen in 1796, but Charles withdrew his forces to protect Vienna after learning of Bonaparte's assault. In their first encounter, Bonaparte pushed Charles back and advanced deep into Austrian territory after winning the Battle of Tarvis in March 1797. Alarmed by the French thrust that reached Leoben, about 100 km from Vienna, the Austrians sued for peace. The preliminary peace of Leoben, signed on 18 April, gave France control of most of northern Italy and the Low Countries and promised to partition the Republic of Venice with Austria. Bonaparte marched on Venice and forced its surrender, ending 1,100 years of Venetian independence. He authorized the French to loot treasures such as the Horses of Saint Mark.\n\nIn this Italian campaign, Bonaparte's army captured 150,000 prisoners, 540 cannons, and 170 standards. The French army fought 67 actions and won 18 pitched battles through superior artillery technology and Bonaparte's tactics. Bonaparte extracted an estimated 45 million French pounds from Italy during the campaign, another 12 million pounds in precious metals and jewels, and more than 300 paintings and sculptures.\nDuring the campaign, Bonaparte became increasingly influential in French politics. He founded two newspapers: one for the troops in his army and one for circulation in France. The royalists attacked him for looting Italy and warned that he might become a dictator. Bonaparte sent General Charles-Pierre Augereau to Paris to support a coup d'état that purged royalists from the legislative councils on 4 September—the Coup of 18 Fructidor. This left Barras and his republican allies in control again, but more dependent upon Bonaparte, who finalized peace terms with Austria by the Treaty of Campo Formio. Bonaparte returned to Paris on 5 December 1797 as a hero. He met Charles Maurice de Talleyrand, France's foreign minister, and took command of the Army of England for the planned invasion of Britain.\n\n\n\nEgyptian expedition\n\n\nAfter two months of planning, Bonaparte decided that France's naval strength was not yet sufficient to confront the Royal Navy. He decided on a military expedition to seize Egypt and thereby undermine Britain's access to its trade interests in India. Bonaparte wished to establish a French presence in the Middle East and join forces with Tipu Sultan, the Sultan of Mysore, an enemy of the British. Bonaparte assured the Directory that \"as soon as he had conquered Egypt, he will establish relations with the Indian princes and, together with them, attack the English in their possessions\". The Directory agreed in order to secure a trade route to the Indian subcontinent.\nIn May 1798, Bonaparte was elected a member of the French Academy of Sciences. His Egyptian expedition included a group of 167 scientists, with mathematicians, naturalists, chemists, and geodesists among them. Their discoveries included the Rosetta Stone, and their work was published in the Description de l'Égypte in 1809. En route to Egypt, Bonaparte reached Hospitaller Malta on 9 June 1798, then controlled by the Knights Hospitaller. Grand Master Ferdinand von Hompesch zu Bolheim surrendered after token resistance, and Bonaparte captured an important naval base with the loss of only three men.\n\nBonaparte and his expedition eluded pursuit by the Royal Navy and landed at Alexandria on 1 July. He fought the Battle of Shubra Khit against the Mamluks, Egypt's ruling military caste. This helped the French practise their defensive tactic for the Battle of the Pyramids on 21 July, about 24 km (15 mi) from the pyramids. Bonaparte's forces of 25,000 roughly equalled those of the Mamluks' Egyptian cavalry. Twenty-nine French and approximately 2,000 Egyptians were killed. The victory boosted the French army's morale.\nOn 1 August 1798 the British fleet under Sir Horatio Nelson captured or destroyed all but two vessels of the French fleet in the Battle of the Nile, preventing Bonaparte from strengthening the French position in the Mediterranean. His army had succeeded in a temporary increase of French power in Egypt, though it faced repeated uprisings. In early 1799 he moved an army into the Ottoman province of Damascus (Syria and Galilee). Bonaparte led these 13,000 French soldiers in the conquest of the coastal towns of Arish, Gaza, Jaffa, and Haifa. The attack on Jaffa was particularly brutal. Bonaparte discovered that many of the defenders were former prisoners of war, ostensibly on parole, so he ordered the garrison and some 1,500–5,000 prisoners to be executed by bayonet or drowning. Men, women, and children were robbed and murdered for three days.\nBonaparte began with an army of 13,000 men. 1,500 were reported missing, 1,200 died in combat, and thousands perished from disease—mostly bubonic plague. He failed to reduce the fortress of Acre, so he marched his army back to Egypt in May. Bonaparte was alleged to have ordered plague-stricken men to be poisoned with opium to speed the retreat. Back in Egypt on 25 July, Bonaparte defeated an Ottoman amphibious invasion at Abukir.\nBonaparte stayed informed of European affairs. He learned that France had suffered a series of defeats in the War of the Second Coalition. On 24 August 1799, fearing that the Republic's future was in doubt, he took advantage of the temporary departure of British ships from French coastal ports and set sail for France, despite the fact that he had received no explicit orders from Paris. The army was left in the charge of Jean-Baptiste Kléber.",
+   "truncated": false
+  },
+  {
+   "id": "S9",
+   "url": "https://en.wikipedia.org/wiki/Napoleon#Ruler_of_France",
+   "title": "Napoleon",
+   "lang": "en",
+   "publisher": "Wikipedia (English)",
+   "section": "Ruler of France",
+   "text": "18 Brumaire\n\n\nUnknown to Bonaparte, the Directory had sent him orders to return from Egypt with his army to ward off a possible invasion of France, but these messages never arrived. By the time he reached Paris in October, France's situation had been improved by a series of victories. The republic, however, was bankrupt, and the ineffective Directory was unpopular. Despite the failures in Egypt, Bonaparte returned to a hero's welcome. The Directory discussed Bonaparte's desertion but was too weak to punish him.\nBonaparte formed an alliance with Talleyrand and leading members of the Council of Five Hundred and Directory—Lucien Bonaparte, Emmanuel Joseph Sieyès, Roger Ducos and Joseph Fouché—to overthrow the government. On 9 November 1799 (18 Brumaire according to the revolutionary calendar), the conspirators launched a coup and the following day, backed by grenadiers with fixed bayonets, forced the Council of Five Hundred to dissolve the Directory and appoint Bonaparte, Sieyès and Ducos provisional consuls.\n\n\n\nFrench Consulate\n\n\nOn 13 December, Bonaparte introduced the Constitution of the Year VIII, under which three consuls were appointed for 10 years. Real power lay with Bonaparte as first consul, and his preferred candidates Cambacérès and Charles-François Lebrun were appointed as second and third consuls who only had an advisory role. The constitution also established a Legislative Body and Tribunate which were selected from indirectly elected candidates, and a Senate and Council of State which were effectively nominated by the executive. The constitution was approved by plebiscite on 7 February 1800. The official count was over three million in favour and 1,562 against. Lucien, however, had doubled the count of the \"yes\" vote to give the false impression that a majority of those eligible to vote had approved the constitution.\nHistorians have variously described Bonaparte's regime as \"dictatorship by plebiscite\", \"absolutist rule decked out in the spirit of the age\", and \"soft despotism\". Local and regional administration was reformed to concentrate power in the central government, censorship was introduced, and most opposition newspapers were closed down to stifle dissent. Royalist and regional revolts were dealt with by a combination of amnesties for those who lay down their arms and brutal repression of those who continued to resist. Bonaparte also improved state finances by securing loans under a promise to defend private property, raising taxes on tobacco, alcohol and salt, and extracting levies from France's satellite republics.\nBonaparte believed that the best way to secure his regime was by a victorious peace. In May 1800, he led an army across the Swiss Alps into Italy, aiming to surprise the Austrian armies that had reoccupied the peninsula when Bonaparte was still in Egypt. After a difficult crossing over the Alps, the French captured Milan on 2 June. The French confronted an Austrian army under Michael von Melas at the battle of Marengo on 14 June. The Austrians fielded about 30,000 soldiers while Bonaparte commanded 24,000 troops. The Austrians' initial attack surprised the French who were gradually driven back. Late in the afternoon, however, a full division under French General Louis Desaix arrived on the field and reversed the tide of the battle. The Austrian army fled leaving behind 14,000 casualties. The following day, the Austrians signed an armistice and agreed to abandon northern Italy.\nWhen peace negotiations with Austria stalled, Bonaparte reopened hostilities in November. A French army under General Jean Victor Marie Moreau swept through Bavaria and scored an overwhelming victory over the Austrians at the battle of Hohenlinden in December. The Austrians capitulated and signed the Treaty of Lunéville in February 1801. The treaty reaffirmed and expanded earlier French gains at Campo Formio. On 26 January 1802, following the Consulte de Lyon, Napoleon was declared president of the Italian Republic.\nBonaparte's triumph at Marengo increased his popularity and political authority. However, he still faced royalist plots and feared Jacobin influence, especially in the army. Several assassination plots, including the Conspiration des poignards (Dagger plot) in October 1800 and the Plot of the Rue Saint-Nicaise two months later, gave him a pretext to arrest about 100 suspected Jacobins and royalists, some of whom were shot and many others deported to penal colonies.\n\n\n\nTemporary peace in Europe\n\n\nAfter a decade of war, France and Britain signed the Treaty of Amiens in March 1802, bringing the Revolutionary Wars to an end. Under the treaty, Britain agreed to withdraw from most of the colonies it had recently captured from France and her allies, and France agreed to evacuate Naples. In April, Bonaparte publicly celebrated the peace and his controversial Concordat of 1801 with Pope Pius VII under which the pope recognized Bonaparte's regime and the regime recognized Catholicism as the majority religion of France. In a further step towards national reconciliation (known as \"fusion\"), Bonaparte offered an amnesty to most émigrés who wished to return to France.\nWith Europe at peace and the economy recovering, Bonaparte became increasingly popular, both domestically and abroad. In May 1802, the Council of State recommended a new plebiscite asking the French people to make \"Napoleon Bonaparte\" consul for life. (It was the first time his first name was officially used by the regime.) About 3.6 million voted \"yes\" and 8,374 \"no.\" 40–60% of eligible Frenchmen voted, the highest turnout for a plebiscite since the revolution.\nFrance had regained her overseas colonies under Amiens but did not control them all. The French National Convention had voted to abolish slavery in February 1794, but in May 1802 Bonaparte reintroduced it in all the recovered colonies except Saint-Domingue and Guadeloupe which were under the control of rebel generals. A French military expedition under Antoine Richepance regained control of Guadeloupe, and slavery was reintroduced there on 16 July.\n\nSaint-Domingue was the most profitable of the colonies – a major source of sugar, coffee and indigo – but was under the control of the former slave Toussaint Louverture. Bonaparte sent the Saint-Domingue expedition under his brother-in-law General Charles Leclerc to retake the colony, and they landed there in February 1802 with 29,000 men. Although Toussaint was captured and sent to France in July, the expedition ultimately failed due to high rates of disease and a string of defeats against rebel commander Jean-Jacques Dessalines. In May 1803 Bonaparte acknowledged defeat, and the last 8,000 French troops left the island. The former slaves proclaimed the independent republic of Haiti in 1804.\nAs war with Britain again loomed in 1803, Bonaparte realized that his American colony of Louisiana would be difficult to defend. In need of funds, he agreed to the Louisiana Purchase with the United States, doubling the latter's size. The price was $15 million. The peace with Britain was uneasy. Britain did not evacuate Malta as promised and protested against Bonaparte's annexation of Piedmont and his Act of Mediation (19 February), which established a Swiss Confederation. Neither of these territories were covered by Amiens, but they inflamed tensions significantly, as did Bonaparte's occupation of Holland and apparent ambitions in India. The dispute culminated in a declaration of war by Britain in May 1803. Bonaparte responded by reassembling the invasion camp at Boulogne and ordering the arrest of every British male between 18 and 60 years old in France and its dependencies as a prisoner of war.\n\n\n\nFrench Empire\n\n\n\n\nBonaparte becomes Napoleon I\n\nIn February 1804 Bonaparte's police made a series of arrests in relation to a royalist plot to kidnap or assassinate him that involved the British government, Moreau and an unnamed Bourbon prince. On the advice of his foreign minister, Talleyrand, Napoleon ordered the kidnapping of the Duke of Enghien, violating the sovereignty of Baden. The duke was quickly executed after a secret military trial, even though there was no proof he had been involved in the plot. Enghien's kidnapping and execution infuriated royalists and monarchs throughout Europe and drew a formal protest from Russia.\n\nFollowing the royalist plot, Bonaparte's supporters convinced him to convert the Consulate into a monarchy. They argued that the presence of an heir would help to secure the regime in case of his death. As well, they believed a monarchy would make Napoleon more acceptable to constitutional monarchists, and put France on the same footing as other European monarchies. On 18 May the senate proclaimed Napoleon Emperor of the French and approved a new constitution. The following day, Napoleon appointed 18 of his leading generals Marshals of the Empire.The hereditary empire was confirmed by a plebiscite in June. The official result showed 3.5 million voted \"yes\" and 2,569 voted \"no\". The yes count, however, was falsely inflated by 300,000 to 500,000 votes. The turnout, at 35%, was below the figure for the previous plebiscite. Britain, Russia, Sweden and the Ottoman Empire refused to recognize Napoleon's title. Austria, however, recognized Napoleon as Emperor of the French in return for his recognition of Francis I as Emperor of Austria.\nNapoleon's coronation, with the participation of Pope Pius VII, took place at Notre Dame de Paris on 2 December 1804. After having been anointed by the pope, Napoleon crowned himself with a replica of Charlemagne's crown. He then crowned Joséphine, who became the second woman in French history, after Marie de' Medici, to be crowned and anointed. He then swore an oath to defend the territory of the republic; to respect the Concordat, freedom of worship, political and civil liberty and the sale of nationalized lands; to raise no taxes except by law; to maintain the Legion of Honour; and to govern in the interests, wellbeing and the glory of the French people.\nOn 17 March 1805 Napoleon declared himself King of Italy and crowned himself with the Iron Crown of Lombardy at the Cathedral of Milan. Austria saw this as a provocation because of its own territorial interests in Italy. When Napoleon incorporated Genoa and Liguria into his empire, Austria formally protested against this violation of the Treaty of Lunéville.\n\n\n\nWar of the Third Coalition\n\n\n By September 1805 Sweden, Russia, Austria, Naples and the Ottoman Empire had joined Britain in a coalition against France. In 1803 and 1804 Napoleon had assembled a force around Boulogne for an invasion of Britain. They never invaded, but the force formed the core of Napoleon's Grande Armée, created in August 1805. At the start, this French army had about 200,000 men organized into seven corps, artillery and cavalry reserves, and the élite Imperial Guard. By August 1805 the Grande Armée had grown to a force of 350,000 men, who were well equipped, well trained, and led by competent officers.\nTo facilitate the invasion, Napoleon planned to lure the Royal Navy from the English Channel by a diversionary attack on the British West Indies. However, the plan unravelled after the British victory at the Battle of Cape Finisterre in July 1805. French Admiral Pierre-Charles Villeneuve retreated to Cádiz instead of linking up with French naval forces at Brest for an attack on the English Channel. Facing a potential invasion from his continental enemies, Napoleon abandoned his invasion of England and sought to destroy the isolated Austrian armies in southern Germany before their Russian ally could arrive in force. On 25 September, 200,000 French troops began to cross the Rhine on a front of 260 km (160 mi).\n\nAustrian commander Karl Mack von Leiberich had gathered most of the Austrian army at the fortress of Ulm in Swabia. Napoleon's army, however, moved quickly and outflanked the Austrian positions. After some minor engagements that culminated in the Battle of Ulm, Mack surrendered. With 2,000 French casualties, Napoleon had captured 60,000 Austrian soldiers through his army's rapid marching. For the French, this spectacular victory on land was soured by the decisive victory that the Royal Navy attained at the Battle of Trafalgar on 21 October. After Trafalgar, the Royal Navy was never again seriously challenged by Napoleon's fleet.\n\nFrench forces occupied Vienna in November, capturing 100,000 muskets, 500 cannons, and the intact bridges across the Danube. Napoleon then sent his army north in pursuit of the allies. Tsar Alexander I of Russia and Francis I decided to engage Napoleon in battle, despite reservations from some of their subordinates. At the Battle of Austerlitz on 2 December, Napoleon deployed his army below the Pratzen Heights. He ordered his right wing to feign retreat, enticing the allies to descend from the heights in pursuit. The French centre and left wing then captured the heights and caught the allies in a pincer movement. Thousands of Russian troops fled across a frozen lake to escape the trap, and 100 to 2,000 of them drowned. About a third of the allied forces were killed, captured or wounded.\nThe disaster at Austerlitz led Austria to seek an armistice. By the subsequent Treaty of Pressburg, signed on 26 December, Austria left the coalition, lost substantial territory to the Kingdom of Italy and Bavaria, and was forced to pay an indemnity of 40 million francs. Alexander's army was granted safe passage back to Russia. Napoleon went on to say, \"The battle of Austerlitz is the finest of all I have fought\". Frank McLynn suggests that Napoleon was so successful at Austerlitz that he lost touch with reality, and what used to be French foreign policy became a \"personal Napoleonic one\". Vincent Cronin disagrees, stating that Napoleon was not overly ambitious for himself, \"he embodied the ambitions of thirty million Frenchmen\".\n\n[section truncated]",
+   "truncated": true
+  },
+  {
+   "id": "S10",
+   "url": "https://en.wikipedia.org/wiki/Napoleon#Reforms",
+   "title": "Napoleon",
+   "lang": "en",
+   "publisher": "Wikipedia (English)",
+   "section": "Reforms",
+   "text": "Napoleon instituted numerous reforms, many of which had a lasting influence on France, Europe, and the world. He reformed the French administration, codified French law, implemented a new education system, and established the first French central bank, the Banque de France. He negotiated the Concordat of 1801 with the Catholic Church, which sought to reconcile the majority Catholic population to his regime. It was presented alongside the Organic Articles, which regulated public worship in France. He also implemented civil and religious equality for Protestants and Jews. In May 1802 he instituted the Legion of Honour to encourage civilian and military achievements. The order is still the highest decoration in France. He introduced three French constitutions culminating in the reintroduction of a hereditary monarchy and nobility.\n\n\n\nAdministration\n\nNapoleon introduced a series of centralizing administrative reforms soon after taking power. In 1800, he established prefects appointed to run France's regional departments, sub-prefects to run districts and mayors to run towns. Local representative bodies were retained, but their powers were reduced and indirect elections with a high property qualification replaced direct elections. Real power in the regions was now in the hands of the prefects who were judged by how they met the main priorities of Napoleon's government: efficient administration, law and order, stimulating the local economy, gathering votes for plebiscites, conscripting soldiers and provisioning the army.\nAn enduring reform was the foundation, in December 1799, of the Council of State, an advisory body of experts which could also draft laws for submission to the legislative body. Napoleon drew many of his ministers and ambassadors from the council. It was the council which undertook the codification of French law.\nAfter several attempts by revolutionary governments, Napoleon officially introduced the metric system in France in 1801, and it was spread through western Europe by his armies. The system was unpopular in some circles, so in 1812 he introduced a compromise system in the retail trade called the mesures usuelles (traditional units of measurement). In December 1805, Napoleon abolished the revolutionary calendar, with its ten-day week, which had been introduced in 1793.\n\n\n\nNapoleonic Code\n\n\nNapoleon's civil code of laws, known from 1807 as the Napoleonic Code, was implemented in March 1804. It was prepared by committees of legal experts under the supervision of Jean Jacques Régis de Cambacérès, the Second Consul. Napoleon participated actively in the sessions of the Council of State that revised the drafts. The code introduced a clearly written and accessible set of national laws to replace the various regional and customary law systems that had operated in France.\nThe civil code entrenched the principles of equality before the law, religious toleration, secure property rights, equal inheritance for all legitimate children, and the abolition of the vestiges of feudalism. However, it also reduced the rights of women and children and severely restricted the grounds for divorce.\nA criminal code was promulgated in 1808, and eventually seven codes of law were produced under Napoleon. The Napoleonic Code was carried by Napoleon's armies across Europe and influenced the law in many parts of the world.\n\n[section truncated]",
+   "truncated": true
+  },
+  {
+   "id": "S11",
+   "url": "https://en.wikipedia.org/wiki/Napoleon#Exile_on_Saint_Helena",
+   "title": "Napoleon",
+   "lang": "en",
+   "publisher": "Wikipedia (English)",
+   "section": "Exile on Saint Helena",
+   "text": "Napoleon was held in British custody and transferred to the island of Saint Helena in the Atlantic Ocean, 1,870 km (1,010 nmi) from the west coast of Africa. Napoleon and 27 followers arrived at Jamestown in October 1815 on board HMS Northumberland. The prisoner was guarded by a garrison of 2,100 soldiers while a squadron of 10 ships continuously patrolled the waters to prevent escape. In the following years, there were rumours of escape plots, but no serious attempts were ever made.\nNapoleon stayed for two months at a pavilion in Briars before he was moved to Longwood House, a 40-room wooden bungalow. The location and interior of the house were damp, windswept, rat-infested and unhealthy. The Times published articles insinuating the British government was trying to hasten his death. Napoleon often complained of his living conditions in letters to the island's governor Hudson Lowe while his attendants complained of \"colds, catarrhs, damp floors and poor provisions\".\nNapoleon insisted on imperial formality. When he held a dinner party, men were expected to wear military dress and \"women [appeared] in evening gowns and gems. It was an explicit denial of the circumstances of his captivity\". He formally received visitors, read, and dictated his memoirs and commentaries on military campaigns. He studied English under Emmanuel, comte de Las Cases, for a few months but gave up as he was poor at languages.\nNapoleon circulated reports of poor treatment in the hope that public opinion would force the allies to revoke his exile on Saint Helena. Under instructions from the government, Lowe cut Napoleon's expenditure, refused to recognize him as a former emperor, and made his supporters sign a guarantee they would stay with him indefinitely. Accounts of Napoleon's treatment led in March 1817 to a debate in the British Parliament where Henry Vassall-Fox, 3rd Baron Holland, made a call for a public inquiry.\nIn mid-1817, Napoleon's health worsened. His physician, Barry O'Meara, diagnosed chronic hepatitis and warned Lowe that Napoleon could die from the poor climate and lack of exercise. Lowe thought O'Meara was exaggerating and dismissed him in July 1818. In November 1818, the allies announced that Napoleon would remain a prisoner on Saint Helena for life. When he learnt the news, he became depressed and more isolated, spending longer periods in his rooms, which further undermined his health. Much of his entourage left Saint Helena, including Las Cases in December 1816, General Gaspard Gourgaud in March 1818 and Albine de Montholon—who was possibly Napoleon's lover—in July 1819. In September 1819, two priests and the physician François Carlo Antommarchi joined Napoleon's retinue.\n\n\n\nDeath\n\n\nNapoleon's health continued to worsen, and in March 1821 he was confined to bed. In April he wrote two wills declaring that he had been assassinated by the \"English oligarchy\", that the Bourbons would fall, and that his son would rule France. He left his fortune to 97 legatees and asked to be buried by the Seine. On 3 May he was given the last rites but could not take communion due to his illness. He died on 5 May 1821 at age 51. His last words, variously recorded by those present, were either France, l'armée, tête d'armée, Joséphine (\"France, the army, head of the army, Joséphine\"), or qui recule...à la tête d'armée (\"who retreats...\n\n[section truncated]",
+   "truncated": true
+  },
+  {
+   "id": "S12",
+   "url": "https://en.wikipedia.org/wiki/Napoleon#Religion",
+   "title": "Napoleon",
+   "lang": "en",
+   "publisher": "Wikipedia (English)",
+   "section": "Religion",
+   "text": "Religious beliefs\n\nNapoleon was baptized in Ajaccio on 21 July 1771 and raised a Roman Catholic. He began to question his faith at age 13 while at Brienne. Biographers have variously described him from that time as a deist, a follower of Jean-Jacques Rousseau's \"natural religion\" or a believer in destiny. He consistently expressed his belief in a God or creator.\nHe understood the power of organized religion in social and political affairs and later sought to use it to support his regime. His attitude to religion is often described as utilitarian. In 1800 he stated, \"it was by making myself a Catholic that I won the war in the Vendée, by making myself a Moslem that I established myself in Egypt, by making myself an ultramontane that I turned men's hearts towards me in Italy. If I were to govern a nation of Jews I would rebuild the Temple of Solomon.\"\nNapoleon had a civil marriage with Joséphine in 1796 and, at the pope's insistence, a private religious ceremony with her the day before his coronation as emperor in 1804. This marriage was annulled by tribunals under Napoleon's control in January 1810. In April 1810, Napoleon married Austrian princess Marie Louise in a Catholic ceremony. Napoleon was excommunicated by the pope through the bull Quum memoranda in 1809. His will in 1821 stated, \"I die in the Apostolical Roman religion, in the bosom of which I was born, more than fifty years since.\" Napoleon read the Quran in translation and had an interest in Islam and the Orient. He also defended Muhammad (\"a great man\") against Voltaire's Mahomet.\n\n\n\nConcordat\n\n\nSeeking national reconciliation between revolutionaries and Catholics, Napoleon and Pope Pius VII agreed to the Concordat of 1801. The agreement recognized the Catholic Church as the majority church of France and in return the Church recognized Napoleon's regime, undercutting much of the ground from royalists. The Concordat confirmed the seizure of Church lands and endowments during the revolution, but reintroduced state salaries for the clergy. The government also controlled the nomination of bishops for investiture by the pope. Bishops and other clergy were required to swear an oath of loyalty to the regime.\nWhen the Concordat was published on 8 April 1802, Napoleon presented another set of laws called the Organic Articles which further increased state control over the French Church. Similar arrangements were made with the Church in territories controlled by Napoleon, especially in Italy and Germany.\n\n\n\nArrest of Pope Pius VII\n\nNapoleon progressively occupied and annexed the Papal States from 1805. When he annexed Rome in May 1809, the pope excommunicated him the following month. In July, French officials arrested the pope in the Vatican and exiled him to Savona. In 1812 the pontiff was transferred to the Palace of Fontainebleau in France. In January 1813, Napoleon pressured the pope to sign a new \"Concordat of Fontainebleau\" which was soon repudiated by the pontiff. The pope was not released until 1814.\n\n\n\nReligious emancipation\n\n\nIn February 1795, the National Convention proclaimed religious equality for France's Protestant churches and other religions. In April 1802, Napoleon published laws increasing state control of Calvinist congregations and Lutheran directories, with their pastors to be paid by the state. With Napoleon's military victories, formal religious equality and civil rights for religious minorities spread to the conquered territories and satellite states, although their implementation varied with the local authorities.\n\n[section truncated]",
+   "truncated": true
+  },
+  {
+   "id": "S13",
+   "url": "https://en.wikipedia.org/wiki/Napoleon#Personality",
+   "title": "Napoleon",
+   "lang": "en",
+   "publisher": "Wikipedia (English)",
+   "section": "Personality",
+   "text": "Pieter Geyl wrote in 1947, \"It is impossible that two historians, especially two historians living in different periods, should see any historical personality in the same light.\" There is no dispute that Napoleon was ambitious, although commentators disagree on whether his ambition was mostly for his own power and glory or for the welfare of France. Historians agree that Napoleon was highly intelligent with an excellent memory and was a superior organizer who could work efficiently for long hours. In battle, he could rapidly dictate a series of complex commands to his subordinates, keeping in mind where major units were expected to be at each future point.\nHe was an inspiring leader who could obtain the best from his soldiers and subordinates. Arthur Wellesley, 1st Duke of Wellington, said his presence on the battlefield was worth 40,000 soldiers. He could charm people when he needed to but could also publicly humiliate them and was known for his rages when his plans were frustrated. The historian Frank McLynn sees him as a misogynist with a cruel streak which he often inflicted on women, children and animals.\nThere is debate over whether Napoleon was an outsider who never felt at home in France or with other people. Hippolyte Taine said Napoleon saw others only as instruments and was cut off from feelings of admiration, sympathy or pity. Arthur Lévy replied that Napoleon genuinely loved Joséphine and often showed humanity and compassion to his enemies or those who had let him down. He had the normal middle class virtues and understood the common man.\nHistorians are divided over whether Napoleon was consistently ruthless when his power was threatened or surprisingly indulgent in some cases. Those arguing for a ruthless personality point to episodes such as his violent suppression of revolts in France and conquered territories, his execution of the Duc d'Enghien and plotters against his rule, and his massacre of Turkish prisoners of war in Syria in 1799. Others point to his mild treatment of disloyal subordinates such as Bernadotte, Talleyrand, and Fouché.\nMany historians see Napoleon as pragmatic and a realist, at least in the early years of his rule. He was not driven by ideology and promoted capable men irrespective of their political and social background, as long as they were loyal. As an expert in military matters, he valued technical expertise and listened to the advice of experts in other fields. However, there is a consensus that once he dominated Europe he became more intolerant of other views and surrounded himself with \"yes men\". Towards the end of his reign he lost his realism and ability to compromise.\nSome historians talk of Napoleon's dual nature: a rationalist with a strong romantic streak. He took a team of scholars, artists and engineers with him to Egypt in order to scientifically study the country's culture and history, but at the same time was struck by romantic \"orientalism\". \"I was full of dreams,\" he stated. \"I saw myself founding a religion, marching into Asia, riding an elephant, a turban on my head and in my hand a new Koran that I would have composed to suit my need.\"\nNapoleon was superstitious. He believed in omens, numerology, fate and lucky stars, and always asked of his generals: \"is he lucky?\" Dwyer states that Napoleon's victories at Austerlitz and Jena in 1805–06 left him even more certain of his destiny and invincibility. \"I am of the race that founds empires\", he once boasted, deeming himself an heir to the Ancient Romans.\nVarious psychologists have attempted to explain Napoleon's personality.\n\n[section truncated]",
+   "truncated": true
+  },
+  {
+   "id": "S14",
+   "url": "https://en.wikipedia.org/wiki/Napoleon#Appearance_and_image",
+   "title": "Napoleon",
+   "lang": "en",
+   "publisher": "Wikipedia (English)",
+   "section": "Appearance and image",
+   "text": "In his youth, Bonaparte was consistently described as small and thin. Johann Ludwig Wurstemberger, who accompanied him in 1797 and 1798, notes \"Bonaparte was rather slight and emaciated-looking; his face, too, was very thin, with a dark complexion... his black, unpowdered hair hung down evenly over both shoulders\", but that, despite his slight and unkempt appearance, \"his looks and expression were earnest and powerful.\"\nThe English painter Joseph Farington, who met him in 1802, said Bonaparte's eyes were \"lighter, and more of a grey, than I should have expected from his complexion\", \"his person is below middle size\", and \"his general aspect was milder than I had before thought it.\" In his later years Napoleon gained weight and had a sallow complexion. The novelist Paul de Kock, who saw him in 1811, called Napoleon \"yellow, obese, and bloated\". He is often portrayed wearing a large bicorne hat—sideways—with a hand-in-waistcoat gesture—a reference to the painting produced in 1812 by Jacques-Louis David.\nDuring the Napoleonic Wars, the British press depicted Napoleon as a dangerous tyrant, poised to invade. A nursery rhyme warned children that he ate naughty people; the \"bogeyman\". He was mocked as a short-tempered small man and was nicknamed \"Little Boney in a strong fit\". In fact, at about 168 cm (5 ft 6 in), he was of average height.",
+   "truncated": false
+  },
+  {
+   "id": "S15",
+   "url": "https://en.wikipedia.org/wiki/Napoleon#Children",
+   "title": "Napoleon",
+   "lang": "en",
+   "publisher": "Wikipedia (English)",
+   "section": "Children",
+   "text": "Napoleon married Joséphine in 1796, but the marriage produced no children. In 1806, he adopted his stepson Eugène de Beauharnais and his second cousin Stéphanie de Beauharnais, and he arranged dynastic marriages for them.\nNapoleon's marriage to Marie Louise produced one child, Napoleon Francis Joseph Charles (Napoleon II), known from birth as the King of Rome. When Napoleon abdicated in 1815, he named his son his successor as \"Napoleon II\", but the allies refused to recognize him. He was awarded the title of the Duke of Reichstadt in 1818 and died of tuberculosis aged 21, with no children.\nNapoleon acknowledged one illegitimate son: Charles Léon by Eléonore Denuelle de La Plaigne. Alexandre Colonna-Walewski, the son of his Polish mistress Maria Walewska, was also widely known to be his child, as DNA evidence has confirmed. He may have had further illegitimate offspring.",
+   "truncated": false
+  }
+ ],
+ "summary": "Napoleon Bonaparte (1769–1821) was a French army officer who made himself ruler of France and, for about a decade, the dominant power in continental Europe. He was born on Corsica, an island France had taken over the year before his birth, into a family of Italian descent, and was sent to military school on the French mainland at the age of nine [S7]. The French Revolution of 1789 destroyed the old monarchy and opened careers to talent; Napoleon rose fast in its armies, seized power in a coup in November 1799, and crowned himself Emperor of the French in December 1804 [S1]. He is remembered both as one of the most successful military commanders in history, whose campaigns are still taught in military academies, and as the author of legal and administrative reforms — above all the Napoleonic Code — that still shape French institutions and law well beyond France [S5][S1].\n\nThe shape of his career is a rapid ascent, roughly a decade of dominance, and a fast collapse. Victories over Austria, Prussia and Russia at places like Austerlitz (1805), Jena–Auerstedt (1806) and Friedland (1807) broke the coalitions that Britain organised and financed against France [S1][S3]; his reordering of Germany dissolved the thousand-year-old Holy Roman Empire [S1]. Then the invasion of Spain in 1808 bogged him down, and the invasion of Russia in 1812 destroyed his army in a catastrophic winter retreat [S1]. Beaten at Leipzig in 1813, he abdicated in April 1814, was exiled to Elba, escaped, returned to power for a hundred days, lost at Waterloo in June 1815, and died on the remote British-held Atlantic island of Saint Helena in 1821 [S1]. What was at stake was whether the revolution's principles — equality before the law, the end of feudal privilege — would spread across Europe, and at what price: between three and six million soldiers and civilians died in the wars named after him [S5].",
+ "whyItMatters": "The Napoleonic Code, implemented in 1804, replaced France's patchwork of regional and customary laws with one written national civil law, and it went on to influence law in western Europe, Latin America, Louisiana and Quebec [S10][S6]. His administrative machinery — prefects running the departments, the Council of State, the Banque de France, the state secondary schools — largely survived him and made him one of the founders of modern French institutions [S10][S3]. Where his armies went, remnants of feudalism and manorialism were swept away, Jewish ghettos were closed and the Spanish Inquisition ended, though implementation varied locally [S6][S12]. He is also remembered for the other side of the ledger: he reinstated slavery in the French colonies in 1802, closed independent newspapers and censored the press, replaced direct elections with indirect ones, exiled critics, and restored a hereditary monarchy and nobility [S9][S6][S10].",
+ "takeaways": [
+  {
+   "id": "t0",
+   "text": "Napoleon Bonaparte was a French general who became Emperor of the French from 1804 until his first abdication in 1814, briefly returning to power in 1815.",
+   "sourceId": "S1",
+   "quote": "Napoleon Bonaparte (born Napoleone di Buonaparte; 15 August 1769 – 5 May 1821), later known by his regnal name Napoleon I, was Emperor of the French from 18 May 1804 until his first abdication in 1814, with a brief restoration during the Hundred Days in 1815.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Napoleon#:~:text=Napoleon%20Bonaparte%20(born%20Napoleone%20di%20Buonaparte%3B,during%20the%20Hundred%20Days%20in%201815.",
+    "sourceTitle": "Napoleon",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Napoleon"
+   }
+  },
+  {
+   "id": "t1",
+   "text": "He was born on Corsica, a Mediterranean island ceded to France only a year before his birth, into a family descended from minor Italian nobility.",
+   "sourceId": "S7",
+   "quote": "Napoleon was born one year after the Republic of Genoa ceded Corsica to France through the Treaty of Versailles.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Napoleon#Early_life:~:text=Napoleon%20was%20born%20one%20year%20after,France%20through%20the%20Treaty%20of%20Versailles.",
+    "sourceTitle": "Napoleon",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Napoleon#Early_life"
+   }
+  },
+  {
+   "id": "t2",
+   "text": "He seized power in France by overthrowing the ruling Directory in a coup in November 1799, becoming First Consul of the Republic.",
+   "sourceId": "S1",
+   "quote": "In November 1799 Napoleon engineered the Coup of 18 Brumaire against the French Directory and became First Consul of the Republic.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Napoleon#:~:text=In%20November%201799%20Napoleon%20engineered%20the,became%20First%20Consul%20of%20the%20Republic.",
+    "sourceTitle": "Napoleon",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Napoleon"
+   }
+  },
+  {
+   "id": "t3",
+   "text": "His most durable legacy is legal and administrative: a written national law code, state schools, the abolition of feudal survivals and equality before the law for a rising middle class.",
+   "sourceId": "S1",
+   "quote": "His legacy endures through the legal and administrative reforms he enacted in France and Western Europe, most notably the Napoleonic Code. He established a system of public education, abolished the vestiges of feudalism",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Napoleon#:~:text=His%20legacy%20endures%20through%20the%20legal,education%2C%20abolished%20the%20vestiges%20of%20feudalism",
+    "sourceTitle": "Napoleon",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Napoleon"
+   }
+  },
+  {
+   "id": "t4",
+   "text": "He remains deeply contested: he abolished the free press, ended directly elected representative government, exiled critics, and reinstated slavery in French colonies.",
+   "sourceId": "S1",
+   "quote": "He abolished the free press, ended directly elected representative government, exiled and imprisoned critics of his regime, reinstated slavery in French colonies",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Napoleon#:~:text=He%20abolished%20the%20free%20press%2C%20ended,regime%2C%20reinstated%20slavery%20in%20French%20colonies",
+    "sourceTitle": "Napoleon",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Napoleon"
+   }
+  },
+  {
+   "id": "t5",
+   "text": "Between three and six million soldiers and civilians died in the wars named after him.",
+   "sourceId": "S5",
+   "quote": "Entre tres y seis millones de civiles y soldados murieron en lo que se conoció como las guerras napoleónicas.",
+   "quoteTranslation": "Between three and six million civilians and soldiers died in what became known as the Napoleonic Wars.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://es.wikipedia.org/wiki/Napole%C3%B3n_Bonaparte#:~:text=Entre%20tres%20y%20seis%20millones%20de,se%20conoci%C3%B3%20como%20las%20guerras%20napole%C3%B3nicas.",
+    "sourceTitle": "Napoleón Bonaparte",
+    "sourceUrl": "https://es.wikipedia.org/wiki/Napole%C3%B3n_Bonaparte"
+   }
+  },
+  {
+   "id": "t6",
+   "text": "After a final defeat at Waterloo in 1815 he was exiled to Saint Helena, a remote South Atlantic island, where he died in 1821 aged 51.",
+   "sourceId": "S1",
+   "quote": "Napoleon was exiled to the remote island of Saint Helena in the South Atlantic, where he died of stomach cancer in 1821, aged 51.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Napoleon#:~:text=Napoleon%20was%20exiled%20to%20the%20remote,stomach%20cancer%20in%201821%2C%20aged%2051.",
+    "sourceTitle": "Napoleon",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Napoleon"
+   }
+  }
+ ],
+ "perspectives": [
+  {
+   "label": "Napoleon as enlightened founder",
+   "stance": "He laid the foundations of the modern state",
+   "body": "On this reading Napoleon's codes, prefects, central bank and schools made him one of the founding fathers of contemporary French institutions, synthesising revolutionary gains with older traditions. French accounts stress that his reforms reinforced individual liberty and civic equality rather than merely concentrating power.",
+   "evidence": {
+    "id": "p0",
+    "text": "Napoleon is presented as one of the founding fathers of contemporary French institutions, whose Civil Code of 1804 strengthened individual liberties and equality before the law.",
+    "sourceId": "S3",
+    "quote": "les codifications napoléoniennes, dont le Code civil de 1804, permettent de renforcer les libertés individuelles ou l'égalité des citoyens devant la loi",
+    "quoteTranslation": "the Napoleonic codifications, including the Civil Code of 1804, made it possible to strengthen individual liberties and the equality of citizens before the law",
+    "verification": {
+     "status": "verified",
+     "method": "exact",
+     "score": 1,
+     "citationUrl": "https://fr.wikipedia.org/wiki/Napol%C3%A9on_Ier#:~:text=les%20codifications%20napol%C3%A9oniennes%2C%20dont%20le%20Code,l'%C3%A9galit%C3%A9%20des%20citoyens%20devant%20la%20loi",
+     "sourceTitle": "Napoléon Ier",
+     "sourceUrl": "https://fr.wikipedia.org/wiki/Napol%C3%A9on_Ier"
+    }
+   }
+  },
+  {
+   "label": "Napoleon as despot",
+   "stance": "A dictatorship dressed in modern clothing",
+   "body": "German treatment describes the Consulate and Empire flatly as a dictatorial regime with plebiscitary trappings — that is, rule confirmed by yes-or-no popular votes rather than genuine representation. This frames the reforms as the work of an autocrat rather than of a liberal reformer.",
+   "evidence": {
+    "id": "p1",
+    "text": "His rule during the Consulate and the First Empire is characterised as a dictatorial regime with plebiscitary elements.",
+    "sourceId": "S4",
+    "quote": "Während des Konsulats von 1799 bis 1804 und des Ersten Kaiserreichs von 1804 bis 1814 sowie nochmals 1815 stand er einem diktatorischen Regime mit plebiszitären Elementen vor.",
+    "quoteTranslation": "During the Consulate from 1799 to 1804 and the First Empire from 1804 to 1814, and again in 1815, he presided over a dictatorial regime with plebiscitary elements.",
+    "verification": {
+     "status": "unverified",
+     "method": "exact",
+     "score": 0,
+     "reason": "Quote found, but the surrounding text does not mention consulate, first, empire.",
+     "sourceTitle": "Napoleon Bonaparte",
+     "sourceUrl": "https://de.wikipedia.org/wiki/Napoleon_Bonaparte"
+    }
+   }
+  },
+  {
+   "label": "The Hitler comparison and its critics",
+   "stance": "Monster, or merely a warmaker?",
+   "body": "Some writers have likened Napoleon to Adolf Hitler, but most modern critics reject the analogy on the grounds that he neither committed genocide nor systematically murdered political opponents. The debate is usually posed as a choice between enlightened despot and megalomaniac.",
+   "evidence": {
+    "id": "p2",
+    "text": "Some writers compared Napoleon to Hitler, but most modern critics reject the comparison because he did not commit genocide or mass-murder his political opponents.",
+    "sourceId": "S6",
+    "quote": "Most modern critics of Napoleon, however, reject the Hitler comparison, arguing that Napoleon did not commit genocide and did not engage in the mass murder and imprisonment of his political opponents.",
+    "verification": {
+     "status": "verified",
+     "method": "exact",
+     "score": 1,
+     "citationUrl": "https://en.wikipedia.org/wiki/Napoleon#Memory_and_evaluation:~:text=Most%20modern%20critics%20of%20Napoleon%2C%20however%2C,and%20imprisonment%20of%20his%20political%20opponents.",
+     "sourceTitle": "Napoleon",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Napoleon#Memory_and_evaluation"
+    }
+   }
+  },
+  {
+   "label": "Sceptics of the military genius",
+   "stance": "His generalship is overrated and costly",
+   "body": "Not all historians accept the standard view of Napoleon as one of history's supreme commanders. Some argue his reputation is inflated, and others that his tactics showed too little regard for his own soldiers' lives and produced avoidable casualties.",
+   "evidence": {
+    "id": "p3",
+    "text": "Some historians suggest Napoleon's reputation as a military genius is exaggerated and that his tactics caused excessive casualties.",
+    "sourceId": "S6",
+    "quote": "McLynn and Correlli Barnett suggest that Napoleon's reputation as a military genius is exaggerated. Cobban and Susan P. Conner argue that Napoleon had insufficient regard for the lives of his soldiers",
+    "verification": {
+     "status": "verified",
+     "method": "exact",
+     "score": 1,
+     "citationUrl": "https://en.wikipedia.org/wiki/Napoleon#Memory_and_evaluation:~:text=McLynn%20and%20Correlli%20Barnett%20suggest%20that,for%20the%20lives%20of%20his%20soldiers",
+     "sourceTitle": "Napoleon",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Napoleon#Memory_and_evaluation"
+    }
+   }
+  }
+ ],
+ "claims": [
+  {
+   "id": "t0",
+   "text": "Napoleon Bonaparte was a French general who became Emperor of the French from 1804 until his first abdication in 1814, briefly returning to power in 1815.",
+   "sourceId": "S1",
+   "quote": "Napoleon Bonaparte (born Napoleone di Buonaparte; 15 August 1769 – 5 May 1821), later known by his regnal name Napoleon I, was Emperor of the French from 18 May 1804 until his first abdication in 1814, with a brief restoration during the Hundred Days in 1815.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Napoleon#:~:text=Napoleon%20Bonaparte%20(born%20Napoleone%20di%20Buonaparte%3B,during%20the%20Hundred%20Days%20in%201815.",
+    "sourceTitle": "Napoleon",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Napoleon"
+   }
+  },
+  {
+   "id": "t1",
+   "text": "He was born on Corsica, a Mediterranean island ceded to France only a year before his birth, into a family descended from minor Italian nobility.",
+   "sourceId": "S7",
+   "quote": "Napoleon was born one year after the Republic of Genoa ceded Corsica to France through the Treaty of Versailles.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Napoleon#Early_life:~:text=Napoleon%20was%20born%20one%20year%20after,France%20through%20the%20Treaty%20of%20Versailles.",
+    "sourceTitle": "Napoleon",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Napoleon#Early_life"
+   }
+  },
+  {
+   "id": "t2",
+   "text": "He seized power in France by overthrowing the ruling Directory in a coup in November 1799, becoming First Consul of the Republic.",
+   "sourceId": "S1",
+   "quote": "In November 1799 Napoleon engineered the Coup of 18 Brumaire against the French Directory and became First Consul of the Republic.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Napoleon#:~:text=In%20November%201799%20Napoleon%20engineered%20the,became%20First%20Consul%20of%20the%20Republic.",
+    "sourceTitle": "Napoleon",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Napoleon"
+   }
+  },
+  {
+   "id": "t3",
+   "text": "His most durable legacy is legal and administrative: a written national law code, state schools, the abolition of feudal survivals and equality before the law for a rising middle class.",
+   "sourceId": "S1",
+   "quote": "His legacy endures through the legal and administrative reforms he enacted in France and Western Europe, most notably the Napoleonic Code. He established a system of public education, abolished the vestiges of feudalism",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Napoleon#:~:text=His%20legacy%20endures%20through%20the%20legal,education%2C%20abolished%20the%20vestiges%20of%20feudalism",
+    "sourceTitle": "Napoleon",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Napoleon"
+   }
+  },
+  {
+   "id": "t4",
+   "text": "He remains deeply contested: he abolished the free press, ended directly elected representative government, exiled critics, and reinstated slavery in French colonies.",
+   "sourceId": "S1",
+   "quote": "He abolished the free press, ended directly elected representative government, exiled and imprisoned critics of his regime, reinstated slavery in French colonies",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Napoleon#:~:text=He%20abolished%20the%20free%20press%2C%20ended,regime%2C%20reinstated%20slavery%20in%20French%20colonies",
+    "sourceTitle": "Napoleon",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Napoleon"
+   }
+  },
+  {
+   "id": "t5",
+   "text": "Between three and six million soldiers and civilians died in the wars named after him.",
+   "sourceId": "S5",
+   "quote": "Entre tres y seis millones de civiles y soldados murieron en lo que se conoció como las guerras napoleónicas.",
+   "quoteTranslation": "Between three and six million civilians and soldiers died in what became known as the Napoleonic Wars.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://es.wikipedia.org/wiki/Napole%C3%B3n_Bonaparte#:~:text=Entre%20tres%20y%20seis%20millones%20de,se%20conoci%C3%B3%20como%20las%20guerras%20napole%C3%B3nicas.",
+    "sourceTitle": "Napoleón Bonaparte",
+    "sourceUrl": "https://es.wikipedia.org/wiki/Napole%C3%B3n_Bonaparte"
+   }
+  },
+  {
+   "id": "t6",
+   "text": "After a final defeat at Waterloo in 1815 he was exiled to Saint Helena, a remote South Atlantic island, where he died in 1821 aged 51.",
+   "sourceId": "S1",
+   "quote": "Napoleon was exiled to the remote island of Saint Helena in the South Atlantic, where he died of stomach cancer in 1821, aged 51.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Napoleon#:~:text=Napoleon%20was%20exiled%20to%20the%20remote,stomach%20cancer%20in%201821%2C%20aged%2051.",
+    "sourceTitle": "Napoleon",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Napoleon"
+   }
+  },
+  {
+   "id": "p0",
+   "text": "Napoleon is presented as one of the founding fathers of contemporary French institutions, whose Civil Code of 1804 strengthened individual liberties and equality before the law.",
+   "sourceId": "S3",
+   "quote": "les codifications napoléoniennes, dont le Code civil de 1804, permettent de renforcer les libertés individuelles ou l'égalité des citoyens devant la loi",
+   "quoteTranslation": "the Napoleonic codifications, including the Civil Code of 1804, made it possible to strengthen individual liberties and the equality of citizens before the law",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://fr.wikipedia.org/wiki/Napol%C3%A9on_Ier#:~:text=les%20codifications%20napol%C3%A9oniennes%2C%20dont%20le%20Code,l'%C3%A9galit%C3%A9%20des%20citoyens%20devant%20la%20loi",
+    "sourceTitle": "Napoléon Ier",
+    "sourceUrl": "https://fr.wikipedia.org/wiki/Napol%C3%A9on_Ier"
+   }
+  },
+  {
+   "id": "p1",
+   "text": "His rule during the Consulate and the First Empire is characterised as a dictatorial regime with plebiscitary elements.",
+   "sourceId": "S4",
+   "quote": "Während des Konsulats von 1799 bis 1804 und des Ersten Kaiserreichs von 1804 bis 1814 sowie nochmals 1815 stand er einem diktatorischen Regime mit plebiszitären Elementen vor.",
+   "quoteTranslation": "During the Consulate from 1799 to 1804 and the First Empire from 1804 to 1814, and again in 1815, he presided over a dictatorial regime with plebiscitary elements.",
+   "verification": {
+    "status": "unverified",
+    "method": "exact",
+    "score": 0,
+    "reason": "Quote found, but the surrounding text does not mention consulate, first, empire.",
+    "sourceTitle": "Napoleon Bonaparte",
+    "sourceUrl": "https://de.wikipedia.org/wiki/Napoleon_Bonaparte"
+   }
+  },
+  {
+   "id": "p2",
+   "text": "Some writers compared Napoleon to Hitler, but most modern critics reject the comparison because he did not commit genocide or mass-murder his political opponents.",
+   "sourceId": "S6",
+   "quote": "Most modern critics of Napoleon, however, reject the Hitler comparison, arguing that Napoleon did not commit genocide and did not engage in the mass murder and imprisonment of his political opponents.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Napoleon#Memory_and_evaluation:~:text=Most%20modern%20critics%20of%20Napoleon%2C%20however%2C,and%20imprisonment%20of%20his%20political%20opponents.",
+    "sourceTitle": "Napoleon",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Napoleon#Memory_and_evaluation"
+   }
+  },
+  {
+   "id": "p3",
+   "text": "Some historians suggest Napoleon's reputation as a military genius is exaggerated and that his tactics caused excessive casualties.",
+   "sourceId": "S6",
+   "quote": "McLynn and Correlli Barnett suggest that Napoleon's reputation as a military genius is exaggerated. Cobban and Susan P. Conner argue that Napoleon had insufficient regard for the lives of his soldiers",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Napoleon#Memory_and_evaluation:~:text=McLynn%20and%20Correlli%20Barnett%20suggest%20that,for%20the%20lives%20of%20his%20soldiers",
+    "sourceTitle": "Napoleon",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Napoleon#Memory_and_evaluation"
+   }
+  }
+ ],
+ "keyEvents": [],
+ "figures": [
+  {
+   "entity": {
+    "title": "Joséphine de Beauharnais",
+    "url": "https://en.wikipedia.org/wiki/Jos%C3%A9phine_de_Beauharnais",
+    "lang": "en",
+    "description": "Empress of the French from 1804 to 1810",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Baron_Fran%C3%A7ois_G%C3%A9rard_-_Jos%C3%A9phine_in_coronation_costume_-_Google_Art_Project_%28cropped%2C_Josephine_detail%29.jpg/60px-Baron_Fran%C3%A7ois_G%C3%A9rard_-_Jos%C3%A9phine_in_coronation_costume_-_Google_Art_Project_%28cropped%2C_Josephine_detail%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q171480",
+    "start": {
+     "raw": "+1763-06-23T00:00:00Z",
+     "year": 1763,
+     "precision": "day",
+     "display": "23 June 1763"
+    },
+    "end": {
+     "raw": "+1814-05-29T00:00:00Z",
+     "year": 1814,
+     "precision": "day",
+     "display": "29 May 1814"
+    }
+   },
+   "relationship": "First wife, married 1796",
+   "note": "A widow and former mistress of the Directory leader Barras, she married Bonaparte just before his first Italian command; their childless marriage was annulled in 1810 so he could father an heir."
+  },
+  {
+   "entity": {
+    "title": "Pasquale Paoli",
+    "url": "https://en.wikipedia.org/wiki/Pasquale_Paoli",
+    "lang": "en",
+    "description": "Corsican statesman (1725–1807)",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Portrait_de_Pascal_Paoli_-_William_BEECHEY.jpg/60px-Portrait_de_Pascal_Paoli_-_William_BEECHEY.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q152346",
+    "start": {
+     "raw": "+1725-04-06T00:00:00Z",
+     "year": 1725,
+     "precision": "day",
+     "display": "6 April 1725"
+    },
+    "end": {
+     "raw": "+1807-02-05T00:00:00Z",
+     "year": 1807,
+     "precision": "day",
+     "display": "5 February 1807"
+    }
+   },
+   "relationship": "Corsican hero turned enemy",
+   "note": "The leader of Corsican independence whom the young Napoleon admired, until Paoli rejected him as the son of a traitor and drove the Bonapartes off the island."
+  },
+  {
+   "entity": {
+    "title": "Arthur Wellesley, 1st Duke of Wellington",
+    "url": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington",
+    "lang": "en",
+    "description": "British Army officer and statesman (1769–1852)",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Sir_Arthur_Wellesley%2C_1st_Duke_of_Wellington.jpg/60px-Sir_Arthur_Wellesley%2C_1st_Duke_of_Wellington.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q131691",
+    "start": {
+     "raw": "+1769-05-01T00:00:00Z",
+     "year": 1769,
+     "precision": "day",
+     "display": "1 May 1769"
+    },
+    "end": {
+     "raw": "+1852-09-14T00:00:00Z",
+     "year": 1852,
+     "precision": "day",
+     "display": "14 September 1852"
+    }
+   },
+   "relationship": "Victor over him at Waterloo",
+   "note": "The British commander who finally defeated him in 1815 and who judged Napoleon's mere presence on a battlefield worth 40,000 soldiers."
+  },
+  {
+   "entity": {
+    "title": "Charles Maurice de Talleyrand-Périgord",
+    "url": "https://en.wikipedia.org/wiki/Charles_Maurice_de_Talleyrand-P%C3%A9rigord",
+    "lang": "en",
+    "description": "French secularized clergyman, statesman, and diplomat (1754–1838)",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Charles_Maurice_de_Talleyrand_P%C3%A9rigord_%281754%E2%80%931838%29%2C_Prince_de_Talleyrand_MET_DP148275.jpg/60px-Charles_Maurice_de_Talleyrand_P%C3%A9rigord_%281754%E2%80%931838%29%2C_Prince_de_Talleyrand_MET_DP148275.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q160499",
+    "start": {
+     "raw": "+1754-02-02T00:00:00Z",
+     "year": 1754,
+     "precision": "day",
+     "display": "2 February 1754"
+    },
+    "end": {
+     "raw": "+1839-05-17T00:00:00Z",
+     "year": 1839,
+     "precision": "day",
+     "display": "17 May 1839"
+    }
+   },
+   "relationship": "Foreign minister and coup ally",
+   "note": "He helped Bonaparte seize power in 1799 and advised the seizure of the Duke of Enghien, whose execution scandalised Europe's monarchies."
+  },
+  {
+   "entity": {
+    "title": "Pope Pius VII",
+    "url": "https://en.wikipedia.org/wiki/Pope_Pius_VII",
+    "lang": "en",
+    "description": "Head of the Catholic Church from 1800 to 1823",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Sir_Thomas_Lawrence_-_Portrait_of_Pope_Pius_VII.jpg/60px-Sir_Thomas_Lawrence_-_Portrait_of_Pope_Pius_VII.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q124754",
+    "start": {
+     "raw": "+1742-08-14T00:00:00Z",
+     "year": 1742,
+     "precision": "day",
+     "display": "14 August 1742"
+    },
+    "end": {
+     "raw": "+1823-08-20T00:00:00Z",
+     "year": 1823,
+     "precision": "day",
+     "display": "20 August 1823"
+    }
+   },
+   "relationship": "Concordat partner, later his prisoner",
+   "note": "He struck a deal reconciling the Catholic Church with Napoleon's regime and attended the imperial coronation, only to be excommunicating Napoleon and then arrested and exiled by French officials."
+  },
+  {
+   "entity": {
+    "title": "Napoleon II",
+    "url": "https://en.wikipedia.org/wiki/Napoleon_II",
+    "lang": "en",
+    "description": "Son of Napoleon I (1811–1832)",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Le_duc_de_Reichstadt.jpg/60px-Le_duc_de_Reichstadt.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q7723",
+    "start": {
+     "raw": "+1811-03-20T00:00:00Z",
+     "year": 1811,
+     "precision": "day",
+     "display": "20 March 1811"
+    },
+    "end": {
+     "raw": "+1832-07-22T00:00:00Z",
+     "year": 1832,
+     "precision": "day",
+     "display": "22 July 1832"
+    }
+   },
+   "relationship": "Son and designated successor",
+   "note": "Born to his second wife Marie Louise and named as heir on his 1815 abdication, but never recognised by the victorious allies and dead at twenty-one."
+  }
+ ],
+ "comparisons": [
+  {
+   "entity": {
+    "title": "Julius Caesar",
+    "url": "https://en.wikipedia.org/wiki/Julius_Caesar",
+    "lang": "en",
+    "description": "Roman general and dictator (100–44 BC)",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Retrato_de_Julio_C%C3%A9sar_%2826724093101%29_%28cropped%29.jpg/60px-Retrato_de_Julio_C%C3%A9sar_%2826724093101%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q1048",
+    "start": {
+     "raw": "-0100-07-12T00:00:00Z",
+     "year": -100,
+     "precision": "month",
+     "display": "July 100 BC"
+    },
+    "end": {
+     "raw": "-0044-03-15T00:00:00Z",
+     "year": -44,
+     "precision": "day",
+     "display": "15 March 44 BC"
+    }
+   },
+   "angle": "Both were generals who turned battlefield prestige into personal rule over a republic.",
+   "similarities": [
+    "Used military victory as the springboard to political power",
+    "Overthrew an existing republican government",
+    "Left a legal and administrative legacy far outlasting them"
+   ],
+   "differences": [
+    "Napoleon had himself crowned emperor with a hereditary title confirmed by plebiscite",
+    "Napoleon's rule ended in defeat, abdication and exile rather than assassination in office"
+   ],
+   "start": {
+    "raw": "-0100-07-12T00:00:00Z",
+    "year": -100,
+    "precision": "month",
+    "display": "July 100 BC"
+   },
+   "end": {
+    "raw": "-0044-03-15T00:00:00Z",
+    "year": -44,
+    "precision": "day",
+    "display": "15 March 44 BC"
+   }
+  },
+  {
+   "entity": {
+    "title": "Adolf Hitler",
+    "url": "https://en.wikipedia.org/wiki/Adolf_Hitler",
+    "lang": "en",
+    "description": "Dictator of Germany from 1933 to 1945",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Hitler_portrait_crop_%28cropped%29%282%29.jpg/60px-Hitler_portrait_crop_%28cropped%29%282%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q352",
+    "start": {
+     "raw": "+1889-04-20T00:00:00Z",
+     "year": 1889,
+     "precision": "day",
+     "display": "20 April 1889"
+    },
+    "end": {
+     "raw": "+1945-04-30T00:00:00Z",
+     "year": 1945,
+     "precision": "day",
+     "display": "30 April 1945"
+    }
+   },
+   "angle": "The comparison was made explicitly by some historians and is worth understanding precisely because most reject it.",
+   "similarities": [
+    "Both conquered much of continental Europe before catastrophic defeat",
+    "Both invaded Russia with ruinous results",
+    "Both were depicted by opponents as a uniquely dangerous tyrant"
+   ],
+   "differences": [
+    "Napoleon did not commit genocide",
+    "Napoleon did not engage in mass murder and imprisonment of political opponents",
+    "Napoleon's legal code was adopted willingly across much of the world"
+   ],
+   "start": {
+    "raw": "+1889-04-20T00:00:00Z",
+    "year": 1889,
+    "precision": "day",
+    "display": "20 April 1889"
+   },
+   "end": {
+    "raw": "+1945-04-30T00:00:00Z",
+    "year": 1945,
+    "precision": "day",
+    "display": "30 April 1945"
+   }
+  },
+  {
+   "entity": {
+    "title": "Simón Bolívar",
+    "url": "https://en.wikipedia.org/wiki/Sim%C3%B3n_Bol%C3%ADvar",
+    "lang": "en",
+    "description": "Venezuelan statesman and military officer (1783–1830)",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Sim%C3%B3n_Bol%C3%ADvar._Toro_Moreno%2C_Luis._1922%2C_Legislative_Palace%2C_La_Paz.png/60px-Sim%C3%B3n_Bol%C3%ADvar._Toro_Moreno%2C_Luis._1922%2C_Legislative_Palace%2C_La_Paz.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q8605",
+    "start": {
+     "raw": "+1783-07-24T00:00:00Z",
+     "year": 1783,
+     "precision": "day",
+     "display": "24 July 1783"
+    },
+    "end": {
+     "raw": "+1830-12-17T00:00:00Z",
+     "year": 1830,
+     "precision": "day",
+     "display": "17 December 1830"
+    }
+   },
+   "angle": "Bolívar's career shows what Napoleon's actions unleashed indirectly far beyond Europe.",
+   "similarities": [
+    "Both rode nationalist sentiment derived from the French Revolution",
+    "Both reshaped the map of a continent by force of arms"
+   ],
+   "differences": [
+    "Bolívar led independence movements against empire rather than building one",
+    "Napoleon's ousting of the Spanish Bourbons created the vacuum Bolívar filled"
+   ],
+   "start": {
+    "raw": "+1783-07-24T00:00:00Z",
+    "year": 1783,
+    "precision": "day",
+    "display": "24 July 1783"
+   },
+   "end": {
+    "raw": "+1830-12-17T00:00:00Z",
+    "year": 1830,
+    "precision": "day",
+    "display": "17 December 1830"
+   }
+  }
+ ],
+ "context": [
+  {
+   "entity": {
+    "title": "French Revolution",
+    "url": "https://en.wikipedia.org/wiki/French_Revolution",
+    "lang": "en",
+    "qid": "Q6534",
+    "description": "revolution in France from 1789 to 1799"
+   },
+   "relation": "participantIn",
+   "note": "revolution in France from 1789 to 1799",
+   "fromGraph": true
+  },
+  {
+   "entity": {
+    "title": "Napoleonic Code",
+    "url": "https://en.wikipedia.org/wiki/Napoleonic_Code",
+    "lang": "en",
+    "description": "French civil code established in 1804",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Speyer%2C_Historical_Museum_of_the_Palatinate_-_Code_civil_des_Fran%C3%A7ais.jpg/60px-Speyer%2C_Historical_Museum_of_the_Palatinate_-_Code_civil_des_Fran%C3%A7ais.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q151060",
+    "start": {
+     "raw": "+1804-00-00T00:00:00Z",
+     "year": 1804,
+     "precision": "year",
+     "display": "1804"
+    },
+    "occurredAt": {
+     "raw": "+1804-00-00T00:00:00Z",
+     "year": 1804,
+     "precision": "year",
+     "display": "1804"
+    }
+   },
+   "relation": "hasPart",
+   "note": "His civil code of 1804 replaced France's patchwork of regional and customary laws and was carried by his armies across Europe.",
+   "fromGraph": false
+  },
+  {
+   "entity": {
+    "title": "Holy Roman Empire",
+    "url": "https://en.wikipedia.org/wiki/Holy_Roman_Empire",
+    "lang": "en",
+    "description": "European political entity (800/962–1806)",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Banner_of_the_Holy_Roman_Emperor_with_haloes_%281430-1806%29.svg/60px-Banner_of_the_Holy_Roman_Emperor_with_haloes_%281430-1806%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q12548"
+   },
+   "relation": "causes",
+   "note": "His victory at Austerlitz led to the dissolution of this thousand-year-old German political framework, making the shape of central Europe a defining nineteenth-century question.",
+   "fromGraph": false
+  },
+  {
+   "entity": {
+    "title": "Haitian Revolution",
+    "url": "https://en.wikipedia.org/wiki/Haitian_Revolution",
+    "lang": "en",
+    "description": "1791–1804 slave revolt in Hispanola",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Incendie_de_la_Plaine_du_Cap._Massacre_des_Blancs_par_les_esclaves_noirs_r%C3%A9volt%C3%A9s._France_militaire._Martinet_et_Masson.jpg/60px-Incendie_de_la_Plaine_du_Cap._Massacre_des_Blancs_par_les_esclaves_noirs_r%C3%A9volt%C3%A9s._France_militaire._Martinet_et_Masson.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q689128",
+    "start": {
+     "raw": "+1791-08-14T00:00:00Z",
+     "year": 1791,
+     "precision": "day",
+     "display": "14 August 1791"
+    },
+    "end": {
+     "raw": "+1804-01-01T00:00:00Z",
+     "year": 1804,
+     "precision": "day",
+     "display": "1 January 1804"
+    },
+    "occurredAt": {
+     "raw": "+1804-01-01T00:00:00Z",
+     "year": 1804,
+     "precision": "day",
+     "display": "1 January 1804"
+    }
+   },
+   "relation": "participantIn",
+   "note": "He sent an expedition to retake the sugar colony of Saint-Domingue and reintroduced slavery elsewhere; the expedition failed and Haiti declared independence.",
+   "fromGraph": false
+  },
+  {
+   "entity": {
+    "title": "Louisiana Purchase",
+    "url": "https://en.wikipedia.org/wiki/Louisiana_Purchase",
+    "lang": "en",
+    "description": "1803 acquisition of region of Middle America land by the U.S. from France",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Louisiana_Purchase.png/60px-Louisiana_Purchase.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q193155",
+    "start": {
+     "raw": "+1803-04-30T00:00:00Z",
+     "year": 1803,
+     "precision": "day",
+     "display": "30 April 1803"
+    },
+    "occurredAt": {
+     "raw": "+1803-04-30T00:00:00Z",
+     "year": 1803,
+     "precision": "day",
+     "display": "30 April 1803"
+    }
+   },
+   "relation": "causes",
+   "note": "Facing renewed war with Britain and short of money, he sold the vast Louisiana territory to the United States in 1803, doubling its size.",
+   "fromGraph": false
+  },
+  {
+   "entity": {
+    "title": "Unification of Germany",
+    "url": "https://en.wikipedia.org/wiki/Unification_of_Germany",
+    "lang": "en",
+    "description": "1866–1871 consolidation of German states",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Deutsches_Reich_%281871-1918%29-en.png/60px-Deutsches_Reich_%281871-1918%29-en.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q154705",
+    "start": {
+     "raw": "+1866-08-18T00:00:00Z",
+     "year": 1866,
+     "precision": "day",
+     "display": "18 August 1866"
+    },
+    "end": {
+     "raw": "+1871-05-10T00:00:00Z",
+     "year": 1871,
+     "precision": "day",
+     "display": "10 May 1871"
+    },
+    "occurredAt": {
+     "raw": "+1871-01-18T00:00:00Z",
+     "year": 1871,
+     "precision": "day",
+     "display": "18 January 1871"
+    }
+   },
+   "relation": "causes",
+   "note": "His reorganisation of hundreds of German statelets into a forty-state confederation, and the nationalist backlash it provoked, fed the movement that produced a unified Germany in 1871.",
+   "fromGraph": false
+  }
+ ],
+ "glossary": [
+  {
+   "term": "French Directory",
+   "definition": "The five-man executive that governed France from 1795 until Bonaparte overthrew it in the coup of 18 Brumaire in November 1799."
+  },
+  {
+   "term": "First Consul",
+   "definition": "The dominant of three consuls under the Constitution of the Year VIII; Bonaparte held the office from 1799 and in effect ruled France alone."
+  },
+  {
+   "term": "Plebiscite",
+   "definition": "A yes-or-no popular vote used to ratify Napoleon's constitutions and titles; the counts were sometimes falsified, as when the 1804 'yes' vote was inflated by hundreds of thousands."
+  },
+  {
+   "term": "Coalition",
+   "definition": "Successive alliances of European monarchies, largely financed by Britain, formed to fight revolutionary and Napoleonic France; there were seven in all."
+  },
+  {
+   "term": "Grande Armée",
+   "definition": "Napoleon's main field army, created in 1805 from the invasion force at Boulogne, some 350,000 well-equipped men organised into corps with an elite Imperial Guard."
+  },
+  {
+   "term": "Concordat of 1801",
+   "definition": "The agreement with Pope Pius VII recognising Catholicism as the majority religion of France in exchange for the Church's recognition of Napoleon's regime."
+  },
+  {
+   "term": "Prefect",
+   "definition": "A government-appointed official placed in charge of each French department from 1800, concentrating regional power in the hands of the central state."
+  },
+  {
+   "term": "13 Vendémiaire",
+   "definition": "The date in the French revolutionary calendar (5 October 1795) when Bonaparte fired grapeshot on royalist rebels in Paris, saving the Convention and making his name."
+  }
+ ],
+ "drilldown": [
+  {
+   "title": "Napoleonic Code",
+   "url": "https://en.wikipedia.org/wiki/Napoleonic_Code",
+   "lang": "en",
+   "description": "The single reform whose influence still reaches Latin America, Louisiana and Quebec.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Speyer%2C_Historical_Museum_of_the_Palatinate_-_Code_civil_des_Fran%C3%A7ais.jpg/60px-Speyer%2C_Historical_Museum_of_the_Palatinate_-_Code_civil_des_Fran%C3%A7ais.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q151060",
+   "start": {
+    "raw": "+1804-00-00T00:00:00Z",
+    "year": 1804,
+    "precision": "year",
+    "display": "1804"
+   },
+   "occurredAt": {
+    "raw": "+1804-00-00T00:00:00Z",
+    "year": 1804,
+    "precision": "year",
+    "display": "1804"
+   }
+  },
+  {
+   "title": "Battle of Austerlitz",
+   "url": "https://en.wikipedia.org/wiki/Battle_of_Austerlitz",
+   "lang": "en",
+   "description": "His own favourite victory, and the one that ended the Holy Roman Empire.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/La_bataille_d%27Austerlitz._2_decembre_1805_%28Fran%C3%A7ois_G%C3%A9rard%29.jpg/60px-La_bataille_d%27Austerlitz._2_decembre_1805_%28Fran%C3%A7ois_G%C3%A9rard%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q134114",
+   "start": {
+    "raw": "+1805-12-02T00:00:00Z",
+    "year": 1805,
+    "precision": "day",
+    "display": "2 December 1805"
+   },
+   "occurredAt": {
+    "raw": "+1805-12-02T00:00:00Z",
+    "year": 1805,
+    "precision": "day",
+    "display": "2 December 1805"
+   }
+  },
+  {
+   "title": "French invasion of Russia",
+   "url": "https://en.wikipedia.org/wiki/French_invasion_of_Russia",
+   "lang": "en",
+   "description": "The catastrophic 1812 campaign that broke French dominance in Europe.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/IV_corpo_durante_la_campagna_di_Russia.jpg/60px-IV_corpo_durante_la_campagna_di_Russia.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q179250",
+   "start": {
+    "raw": "+1812-06-24T00:00:00Z",
+    "year": 1812,
+    "precision": "day",
+    "display": "24 June 1812"
+   },
+   "end": {
+    "raw": "+1812-12-14T00:00:00Z",
+    "year": 1812,
+    "precision": "day",
+    "display": "14 December 1812"
+   },
+   "occurredAt": {
+    "raw": "+1812-06-24T00:00:00Z",
+    "year": 1812,
+    "precision": "day",
+    "display": "24 June 1812"
+   }
+  },
+  {
+   "title": "Battle of Waterloo",
+   "url": "https://en.wikipedia.org/wiki/Battle_of_Waterloo",
+   "lang": "en",
+   "description": "The final defeat that ended the Hundred Days and sent him to Saint Helena.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Battle_of_Waterloo_1815.PNG/60px-Battle_of_Waterloo_1815.PNG?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q48314",
+   "start": {
+    "raw": "+1815-06-18T00:00:00Z",
+    "year": 1815,
+    "precision": "day",
+    "display": "18 June 1815"
+   },
+   "occurredAt": {
+    "raw": "+1815-06-18T00:00:00Z",
+    "year": 1815,
+    "precision": "day",
+    "display": "18 June 1815"
+   }
+  },
+  {
+   "title": "Peninsular War",
+   "url": "https://en.wikipedia.org/wiki/Peninsular_War",
+   "lang": "en",
+   "description": "The Spanish resistance that showed how nationalism could be turned against Napoleon himself.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Peninsular_war_collage.jpg/60px-Peninsular_war_collage.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q152499",
+   "start": {
+    "raw": "+1808-05-02T00:00:00Z",
+    "year": 1808,
+    "precision": "day",
+    "display": "2 May 1808"
+   },
+   "end": {
+    "raw": "+1814-04-17T00:00:00Z",
+    "year": 1814,
+    "precision": "day",
+    "display": "17 April 1814"
+   },
+   "occurredAt": {
+    "raw": "+1808-05-02T00:00:00Z",
+    "year": 1808,
+    "precision": "day",
+    "display": "2 May 1808"
+   }
+  },
+  {
+   "title": "Coup of 18 Brumaire",
+   "url": "https://en.wikipedia.org/wiki/Coup_of_18_Brumaire",
+   "lang": "en",
+   "description": "The moment a general became the ruler of France.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Bouchot_-_Le_general_Bonaparte_au_Conseil_des_Cinq-Cents.jpg/60px-Bouchot_-_Le_general_Bonaparte_au_Conseil_des_Cinq-Cents.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q620965",
+   "start": {
+    "raw": "+1799-11-09T00:00:00Z",
+    "year": 1799,
+    "precision": "day",
+    "display": "9 November 1799"
+   },
+   "end": {
+    "raw": "+1799-11-10T00:00:00Z",
+    "year": 1799,
+    "precision": "day",
+    "display": "10 November 1799"
+   },
+   "occurredAt": {
+    "raw": "+1799-11-00T00:00:00Z",
+    "year": 1799,
+    "precision": "month",
+    "display": "November 1799"
+   }
+  },
+  {
+   "title": "Haitian Revolution",
+   "url": "https://en.wikipedia.org/wiki/Haitian_Revolution",
+   "lang": "en",
+   "description": "The colonial war in which his reinstatement of slavery ended in French defeat and Haitian independence.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Incendie_de_la_Plaine_du_Cap._Massacre_des_Blancs_par_les_esclaves_noirs_r%C3%A9volt%C3%A9s._France_militaire._Martinet_et_Masson.jpg/60px-Incendie_de_la_Plaine_du_Cap._Massacre_des_Blancs_par_les_esclaves_noirs_r%C3%A9volt%C3%A9s._France_militaire._Martinet_et_Masson.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q689128",
+   "start": {
+    "raw": "+1791-08-14T00:00:00Z",
+    "year": 1791,
+    "precision": "day",
+    "display": "14 August 1791"
+   },
+   "end": {
+    "raw": "+1804-01-01T00:00:00Z",
+    "year": 1804,
+    "precision": "day",
+    "display": "1 January 1804"
+   },
+   "occurredAt": {
+    "raw": "+1804-01-01T00:00:00Z",
+    "year": 1804,
+    "precision": "day",
+    "display": "1 January 1804"
+   }
+  },
+  {
+   "title": "Toussaint Louverture",
+   "url": "https://en.wikipedia.org/wiki/Toussaint_Louverture",
+   "lang": "en",
+   "description": "The former slave who governed Saint-Domingue and whom Napoleon had captured and shipped to France.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Toussaint_Louverture_-_Girardin.jpg/60px-Toussaint_Louverture_-_Girardin.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q205783",
+   "start": {
+    "raw": "+1743-05-20T00:00:00Z",
+    "year": 1743,
+    "precision": "day",
+    "display": "20 May 1743"
+   },
+   "end": {
+    "raw": "+1803-04-07T00:00:00Z",
+    "year": 1803,
+    "precision": "day",
+    "display": "7 April 1803"
+   }
+  }
+ ],
+ "coverage": {
+  "total": 11,
+  "verified": 10,
+  "coverage": 0.9090909090909091,
+  "byMethod": {
+   "exact": 11,
+   "fuzzy": 0,
+   "none": 0
+  }
+ },
+ "generatedAt": "2026-09-12T11:50:13.548Z",
+ "model": "claude-opus-5",
+ "usage": {
+  "input": 49384,
+  "output": 5676,
+  "cacheWrite": 0,
+  "cacheRead": 4785,
+  "usd": 0.3912125
+ }
+}

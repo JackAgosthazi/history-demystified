@@ -89,6 +89,8 @@ export interface TimelineEvent {
   qid?: string;
   /** English Wikipedia title, when one exists: the drill-down key. */
   title?: string;
+  /** A sentence or two for the hover card, so a reader need not drill in. */
+  note?: string;
   /** Where a reader can check this date. Always a real URL. */
   sourceUrl: string;
 }

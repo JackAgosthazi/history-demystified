@@ -5,6 +5,7 @@ import { useEffect, useMemo, useState, type ReactNode } from 'react';
 import { enterSubject, labelSubject, type TrailStep } from '@/lib/client/trail';
 import type { TimelineEvent } from '@/lib/core/types';
 import { Breadcrumbs } from './Breadcrumbs';
+import { SectionNav, type NavSection } from './SectionNav';
 import { ComparisonChart } from './ComparisonChart';
 import { useExplainer, type Stage } from '@/lib/client/useExplainer';
 import { EntityChip, EntityChipRow, explainHref } from './Entities';
@@ -21,7 +22,7 @@ const STAGE_TEXT: Record<Stage, string> = {
   surveying: 'Searching the record for that place and period',
   resolving: 'Finding the subject',
   gathering: 'Reading sources',
-  synthesizing: 'Writing the explanation',
+  synthesizing: 'Writing the explanation — the timeline and sources below are ready now',
   verifying: 'Checking every quote against its source',
   done: '',
   error: '',
@@ -43,6 +44,26 @@ export function ExplainerView({ query }: { query: string }) {
    * Edo period, not in a separate list — so dated key events are merged in
    * and anything already present from the graph is dropped.
    */
+  const navSections = useMemo<NavSection[]>(() => {
+    const has = (n: number | undefined) => (n ?? 0) > 0;
+    return [
+      { id: 'overview', label: 'Overview', when: Boolean(state.prose || state.lead) },
+      { id: 'why-it-matters', label: 'Why it matters', when: Boolean(explainer?.whyItMatters) },
+      { id: 'takeaways', label: 'Key takeaways', when: has(explainer?.takeaways?.length) },
+      { id: 'how-it-unfolded', label: 'How it unfolded', when: has(explainer?.keyEvents?.length) },
+      { id: 'timeline', label: 'Timeline', when: has(facts?.timeline?.length) },
+      { id: 'connections', label: 'Who was connected', when: Boolean(facts && entity) },
+      { id: 'perspectives', label: 'Where accounts differ', when: has(explainer?.perspectives?.length) },
+      { id: 'comparisons', label: 'For comparison', when: has(explainer?.comparisons?.length) },
+      { id: 'context', label: 'How it connects', when: has(explainer?.context?.length) },
+      { id: 'glossary', label: 'Glossary', when: has(explainer?.glossary?.length) },
+      { id: 'go-deeper', label: 'Go deeper', when: has(explainer?.drilldown?.length) },
+      { id: 'sources', label: 'Sources', when: has(sources.length) },
+    ]
+      .filter((s) => s.when)
+      .map(({ id, label }) => ({ id, label }));
+  }, [state.prose, state.lead, explainer, facts, entity, sources.length]);
+
   const timeline = useMemo<TimelineEvent[]>(() => {
     const base = facts?.timeline ?? [];
     if (!explainer?.keyEvents?.length) return base;
@@ -63,6 +84,7 @@ export function ExplainerView({ query }: { query: string }) {
         date: event.date,
         ...(event.entity?.qid ? { qid: event.entity.qid } : {}),
         ...(event.entity?.title ? { title: event.entity.title } : {}),
+        ...(event.summary ? { note: event.summary } : {}),
         sourceUrl: event.entity?.url ?? '',
       });
     }
@@ -72,8 +94,11 @@ export function ExplainerView({ query }: { query: string }) {
   if (error) return <ErrorPanel query={query} message={error.message} code={error.code} />;
 
   return (
-    <main className="mx-auto w-full max-w-4xl grow px-6 py-10">
+    <main className="mx-auto w-full max-w-4xl grow px-6 py-10 xl:max-w-6xl">
       <Breadcrumbs steps={trail} current={entity?.title ?? query} />
+      {!survey && <SectionNav sections={navSections} variant="strip" />}
+      <div className="xl:grid xl:grid-cols-[1fr_13rem] xl:gap-12">
+        <div className="min-w-0">
 
       {survey && (
         <>
@@ -135,26 +160,16 @@ export function ExplainerView({ query }: { query: string }) {
 
       <div className="mt-10 space-y-12">
         {(state.prose || state.lead) && (
-          /*
-           * Space is reserved while the narrative streams. Without it every
-           * new sentence shoves the timeline and everything under it further
-           * down the page, which makes the parts that are already finished
-           * unreadable while the rest arrives.
-           */
-          <section
-            className="measure"
-            style={state.proseComplete ? undefined : { minHeight: '30rem' }}
-          >
+          <section id="overview" className="measure scroll-mt-24">
             <Prose
               text={explainer ? explainer.summary : stripHeadings(state.prose || state.lead)}
               sources={sources}
-              streaming={!state.proseComplete && Boolean(state.prose)}
             />
           </section>
         )}
 
         {explainer?.whyItMatters && (
-          <Section title="Why it matters">
+          <Section id="why-it-matters" title="Why it matters">
             <div className="measure">
               <Prose text={explainer.whyItMatters} sources={sources} />
             </div>
@@ -163,6 +178,7 @@ export function ExplainerView({ query }: { query: string }) {
 
         {explainer && (explainer.takeaways?.length ?? 0) > 0 && (
           <Section
+            id="takeaways"
             title="Key takeaways"
             note="Every one carries the sentence it came from. Open any of them to check it."
           >
@@ -176,6 +192,7 @@ export function ExplainerView({ query }: { query: string }) {
 
         {explainer && (explainer.keyEvents?.length ?? 0) > 0 && (
           <Section
+            id="how-it-unfolded"
             title="How it unfolded"
             note="The moments after which things were different. Dates are from Wikidata; each one you can open."
           >
@@ -185,6 +202,7 @@ export function ExplainerView({ query }: { query: string }) {
 
         {timeline.length > 0 && (
           <Section
+            id="timeline"
             title="Timeline"
             note="Dates come from Wikidata. Anything underlined opens as its own explainer."
           >
@@ -200,6 +218,7 @@ export function ExplainerView({ query }: { query: string }) {
 
         {explainer && (explainer.perspectives?.length ?? 0) > 0 && (
           <Section
+            id="perspectives"
             title="Where accounts differ"
             note="Drawn partly from other-language articles on the same subject, where national historiographies diverge."
           >
@@ -220,6 +239,7 @@ export function ExplainerView({ query }: { query: string }) {
 
         {explainer && (explainer.comparisons?.length ?? 0) > 0 && facts && entity && (
           <Section
+            id="comparisons"
             title="For comparison"
             note="Better-known subjects that give you a foothold. The chart is Wikidata; the reading of them is Claude's."
           >
@@ -249,6 +269,7 @@ export function ExplainerView({ query }: { query: string }) {
 
         {explainer && (explainer.context?.length ?? 0) > 0 && (
           <Section
+            id="context"
             title="How it connects"
             note="Green links come from the Wikidata graph. Grey ones were proposed by Claude and checked against Wikipedia."
           >
@@ -275,7 +296,7 @@ export function ExplainerView({ query }: { query: string }) {
         )}
 
         {explainer && (explainer.glossary?.length ?? 0) > 0 && (
-          <Section title="Words you may not know">
+          <Section id="glossary" title="Words you may not know">
             <dl className="measure space-y-3">
               {explainer.glossary.map((g) => (
                 <div key={g.term}>
@@ -288,13 +309,14 @@ export function ExplainerView({ query }: { query: string }) {
         )}
 
         {explainer && (explainer.drilldown?.length ?? 0) > 0 && (
-          <Section title="Go deeper" note="Each of these runs the same research from scratch.">
+          <Section id="go-deeper" title="Go deeper" note="Each of these runs the same research from scratch.">
             <EntityChipRow entities={explainer.drilldown} />
           </Section>
         )}
 
         {sources.length > 0 && (
           <Section
+            id="sources"
             title={`Everything that was read (${sources.length})`}
             note="The complete corpus. Nothing outside this list was available to Claude."
           >
@@ -327,6 +349,11 @@ export function ExplainerView({ query }: { query: string }) {
       </div>
         </>
       )}
+        </div>
+        <aside className="hidden xl:block">
+          {!survey && <SectionNav sections={navSections} variant="rail" />}
+        </aside>
+      </div>
     </main>
   );
 }
@@ -355,9 +382,19 @@ function capitalize(text: string): string {
   return text.charAt(0).toUpperCase() + text.slice(1);
 }
 
-function Section({ title, note, children }: { title: string; note?: string; children: ReactNode }) {
+function Section({
+  id,
+  title,
+  note,
+  children,
+}: {
+  id: string;
+  title: string;
+  note?: string;
+  children: ReactNode;
+}) {
   return (
-    <section>
+    <section id={id} className="scroll-mt-24">
       <div className="mb-4 border-t border-rule pt-4">
         <h2 className="display text-xl font-semibold">{title}</h2>
         {note && <p className="mt-1 max-w-xl text-sm text-ink-faint">{note}</p>}
@@ -370,6 +407,7 @@ function Section({ title, note, children }: { title: string; note?: string; chil
 function RelationshipSection({ children }: { children: ReactNode }) {
   return (
     <Section
+      id="connections"
       title="Who and what was connected"
       note="Structure from Wikidata; the people and the nature of each relationship from Claude, checked against Wikipedia."
     >

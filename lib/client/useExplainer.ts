@@ -52,10 +52,19 @@ const INITIAL: ExplainerState = {
  * Uses fetch with a stream reader rather than EventSource, which reconnects
  * automatically on error — desirable for a notification feed and expensive
  * here, where every reconnect would start a fresh pair of model calls.
+ *
+ * Narrative deltas accumulate in a ref and are committed once, when the call
+ * completes. Rendering them as they arrived meant a state update per token —
+ * several hundred re-renders of the whole page — which made everything on it
+ * unresponsive, and drew the text out over the full twenty-odd seconds the
+ * model took. The page is useful long before then anyway: the timeline,
+ * relationships and sources come from the zero-token skeleton and are
+ * clickable within about a second.
  */
 export function useExplainer(query: string | null, refresh = false): ExplainerState {
   const [state, setState] = useState<ExplainerState>(INITIAL);
   const active = useRef<AbortController | null>(null);
+  const proseBuffer = useRef('');
 
   useEffect(() => {
     if (!query) {
@@ -66,6 +75,7 @@ export function useExplainer(query: string | null, refresh = false): ExplainerSt
     active.current?.abort();
     const controller = new AbortController();
     active.current = controller;
+    proseBuffer.current = '';
     setState({ ...INITIAL, stage: 'resolving', detail: query });
 
     void (async () => {
@@ -96,6 +106,15 @@ export function useExplainer(query: string | null, refresh = false): ExplainerSt
         if (!response.body) throw new Error('The server returned an empty response.');
 
         for await (const event of readEvents(response.body, controller.signal)) {
+          if (event.type === 'prose') {
+            proseBuffer.current += event.delta;
+            continue;
+          }
+          if (event.type === 'prose-end') {
+            const text = proseBuffer.current;
+            setState((s) => ({ ...s, prose: text, proseComplete: true }));
+            continue;
+          }
           applyEvent(setState, event);
           if (event.type === 'done') {
             await writeExplainer(query, event.explainer);
@@ -135,9 +154,9 @@ function applyEvent(setState: React.Dispatch<React.SetStateAction<ExplainerState
           lead: event.lead,
         };
       case 'prose':
-        return { ...s, prose: s.prose + event.delta };
       case 'prose-end':
-        return { ...s, proseComplete: true };
+        // Handled in the read loop so a token does not cost a re-render.
+        return s;
       case 'survey':
         return { ...s, stage: 'done', survey: event.survey };
       case 'structured':

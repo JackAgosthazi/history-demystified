@@ -1,4 +1,7 @@
+'use client';
+
 import Link from 'next/link';
+import { useState } from 'react';
 import type { TimelineEvent } from '@/lib/core/types';
 import { explainHref } from './Entities';
 
@@ -35,7 +38,20 @@ function formatYear(year: number): string {
   return year < 0 ? `${Math.abs(year)} BC` : String(year);
 }
 
+interface HoverCard {
+  event: TimelineEvent;
+  x: number;
+  y: number;
+}
+
 export function Timeline({ events }: { events: TimelineEvent[] }) {
+  /*
+   * Fixed positioning, not an absolutely positioned child. The chart scrolls
+   * horizontally on narrow screens, and a scroll container clips on both axes
+   * whatever the overflow rules say, so an in-flow tooltip gets cut off.
+   */
+  const [hover, setHover] = useState<HoverCard | null>(null);
+
   if (events.length === 0) return null;
 
   const years = events.flatMap((e) => [e.date.year, e.endDate?.year ?? e.date.year]);
@@ -82,8 +98,20 @@ export function Timeline({ events }: { events: TimelineEvent[] }) {
               ? `${event.date.display} – ${event.endDate.display}`
               : event.date.display;
 
+            const show = (target: EventTarget & Element) => {
+              const rect = target.getBoundingClientRect();
+              setHover({ event, x: rect.left, y: rect.bottom });
+            };
+
             return (
-              <li key={event.id} className="relative h-7">
+              <li
+                key={event.id}
+                className="relative h-7"
+                onMouseEnter={(e) => show(e.currentTarget)}
+                onMouseLeave={() => setHover(null)}
+                onFocus={(e) => show(e.currentTarget)}
+                onBlur={() => setHover(null)}
+              >
                 <div
                   className="absolute top-1/2 -translate-y-1/2 rounded-sm"
                   style={{
@@ -122,6 +150,23 @@ export function Timeline({ events }: { events: TimelineEvent[] }) {
           })}
         </ol>
       </div>
+
+      {hover?.event.note && (
+        <div
+          role="tooltip"
+          className="pointer-events-none fixed z-50 w-72 rounded-lg border border-rule-strong bg-paper-raised p-3 shadow-lg"
+          style={{
+            left: Math.min(hover.x, (globalThis.innerWidth ?? 1200) - 300),
+            top: hover.y + 6,
+          }}
+        >
+          <p className="text-xs font-semibold text-ink">{hover.event.label}</p>
+          <p className="mt-1 text-xs leading-relaxed text-ink-muted">{hover.event.note}</p>
+          {hover.event.title && (
+            <p className="mt-1.5 text-[0.65rem] text-ink-faint">Click to explain in full</p>
+          )}
+        </div>
+      )}
     </div>
   );
 }

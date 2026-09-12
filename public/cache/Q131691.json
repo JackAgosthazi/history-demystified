@@ -450,6 +450,7 @@
     },
     "qid": "Q131691",
     "title": "Arthur Wellesley, 1st Duke of Wellington",
+    "note": "British Field Marshal, Prime Minister of the United Kingdom, 1828–1830, 1834 (1769-1852)",
     "sourceUrl": "https://www.wikidata.org/wiki/Q131691"
    },
    {
@@ -464,6 +465,7 @@
     },
     "qid": "Q174193",
     "title": "United Kingdom of Great Britain and Ireland",
+    "note": "historical sovereign state (1801–1922)",
     "sourceUrl": "https://en.wikipedia.org/wiki/United_Kingdom_of_Great_Britain_and_Ireland"
    },
    {
@@ -484,6 +486,7 @@
     },
     "qid": "Q540048",
     "title": "Catherine Wellesley, Duchess of Wellington",
+    "note": "Wife of the Duke of Wellington (1773–1831)",
     "sourceUrl": "https://en.wikipedia.org/wiki/Catherine_Wellesley%2C_Duchess_of_Wellington"
    },
    {
@@ -503,6 +506,7 @@
      "display": "1815"
     },
     "qid": "Q20784743",
+    "note": "diplomatic position",
     "sourceUrl": "https://www.wikidata.org/wiki/Q20784743"
    },
    {
@@ -523,6 +527,7 @@
     },
     "qid": "Q14211",
     "title": "Prime Minister of the United Kingdom",
+    "note": "head of government of the United Kingdom",
     "sourceUrl": "https://en.wikipedia.org/wiki/Prime_Minister_of_the_United_Kingdom"
    },
    {
@@ -543,6 +548,7 @@
     },
     "qid": "Q2484309",
     "title": "Home Secretary",
+    "note": "United Kingdom government cabinet minister",
     "sourceUrl": "https://en.wikipedia.org/wiki/Home_Secretary"
    },
    {
@@ -563,6 +569,7 @@
     },
     "qid": "Q1371091",
     "title": "Foreign Secretary (United Kingdom)",
+    "note": "United Kingdom government cabinet minister heading the Foreign and Commonwealth Office",
     "sourceUrl": "https://en.wikipedia.org/wiki/Foreign_Secretary_(United_Kingdom)"
    },
    {
@@ -583,6 +590,7 @@
     },
     "qid": "Q2012061",
     "title": "Leader of the House of Lords",
+    "note": "member of the Cabinet of the United Kingdom",
     "sourceUrl": "https://en.wikipedia.org/wiki/Leader_of_the_House_of_Lords"
    },
    {
@@ -773,55 +781,68 @@
    "truncated": false
   }
  ],
- "summary": "Arthur Wellesley, 1st Duke of Wellington (1769–1852), was a British Army officer and politician who is remembered above all as the general who, with the Prussian field marshal Gebhard von Blücher, defeated Napoleon at the Battle of Waterloo in 1815 [S1][S3][S4]. He was born into an Anglo-Irish aristocratic family in Dublin, then part of the separate Kingdom of Ireland, and belonged to the Protestant Ascendancy, the Protestant landed elite that ruled the largely Catholic island [S6]. He was commissioned in 1787, sat as a member of the Irish House of Commons, and also served twice as Prime Minister of the United Kingdom [S1].\n\nHis career divides in two. As a soldier he won in India against the ruler of Mysore and against the Maratha Confederacy, then commanded British, Portuguese and Spanish forces in the Peninsular War against the French in Spain and Portugal, was promoted field marshal after the Battle of Vitoria in 1813, and was made Duke of Wellington in 1814 [S1][S10]. As a politician he led the Tories — the party of the landed and the Crown — and his premiership of 1828–30 forced through the Roman Catholic Relief Act 1829, which lifted the religious test barring Catholics from Parliament, at the price of a restriction of the Irish county franchise that disenfranchised most Irish voters [S1][S15]. He then fought hard against the Reform Act 1832, which widened the vote; mobs smashed his windows and he had iron shutters fitted [S1][S7]. Daniel O'Connell, the Irish Catholic campaigner whose election had triggered the crisis, gave him little credit, remarking that being born in a stable does not make a man a horse [S15].",
- "whyItMatters": "Waterloo ended Napoleon's return to power, and the campaign made Wellington a national hero whose dress and bearing influenced British fashion [S1][S10]. Catholic emancipation in 1829 removed a legal disability that had kept Roman Catholics out of Parliament and high office, though the same legislation raised the property qualification for the Irish county vote five-fold [S15]. His long dominance of the House of Lords reshaped that chamber: historians have called him a befuddled reactionary, but a later consensus sees a shrewd operator who turned the Lords from a body of automatic support for the Crown into an active political player [S7]. When he died at Walmer Castle in 1852 he was given a state funeral, an honour granted to very few, and was buried in St Paul's Cathedral [S11].",
+ "summary": "Arthur Wellesley, 1st Duke of Wellington (1769–1852), was a British Army officer and politician who is remembered above all as the general who beat Napoleon Bonaparte, the French emperor whose armies dominated Europe for a decade [S1][S3]. Born into an Anglo-Irish aristocratic family in Dublin, then part of the Kingdom of Ireland, he was a diffident youth whose mother despaired of his \"idleness\" [S6]. He made his name in India, then in the Peninsular War in Portugal and Spain, and finally at the Battle of Waterloo in Belgium in 1815, where his mixed British, Dutch and German army, joined by a Prussian force under Field Marshal Gebhard von Blücher, ended Napoleon's career [S1][S13]. He was showered with titles and became, in old age, a kind of national monument, buried in St Paul's Cathedral after a state funeral [S11].\n\nHis second career was political, and far more contested. He led the Tories — the conservative party of the day — as Prime Minister from 1828 to 1830, and again for under a month in 1834 [S1]. His government passed the Roman Catholic Relief Act 1829, lifting the oath that effectively barred Roman Catholics from Parliament and high office, though it simultaneously raised the property qualification for the county vote in Ireland and stripped most Irish voters of the franchise [S15]. He then fought hard against the Reform Act 1832, which widened who could vote in Britain; mobs smashed the windows of his London house twice in 1831 [S7]. Historians have disagreed about him ever since: some call him a befuddled reactionary, while a later consensus sees a shrewd operator hiding his cleverness behind the pose of a plain old soldier [S7].",
+ "whyItMatters": "Waterloo ended Napoleon's return to power and, with it, more than two decades of war between France and the European coalitions [S1][S5]. Catholic emancipation under his ministry removed a legal disability that had excluded a large part of the United Kingdom's population from Parliament and senior state office — but at the price of a five-fold rise in the Irish county franchise threshold, disenfranchising most Irish voters [S15]. In the House of Lords, where he led the Conservatives from 1828 to 1846, he worked to turn the upper house from a reliable servant of the Crown into an active political player tied to the landed aristocracy [S7]. He remained Commander-in-Chief of the Forces until his death in 1852, and in 1848 helped organise a military force to protect London during a year of revolutions across Europe [S1][S7].",
  "takeaways": [
   {
    "id": "t0",
-   "text": "Arthur Wellesley, later Duke of Wellington, was a British army officer and politician who commanded the allied army that beat Napoleon at Waterloo, and later twice served as Prime Minister of the United Kingdom.",
+   "text": "Arthur Wellesley, 1st Duke of Wellington, was a British Army officer and statesman who both served as Prime Minister of the United Kingdom and held the post of Commander-in-Chief of the Forces.",
    "sourceId": "S1",
-   "quote": "Field Marshal Arthur Wellesley, 1st Duke of Wellington (né Wesley; 1 May 1769 – 14 September 1852), was a British Army officer and statesman.",
+   "quote": "was a British Army officer and statesman. A leading figure in early-19th-century British politics, Wellesley served as Prime Minister of the United Kingdom and as Commander-in-Chief of the Forces.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington#:~:text=Field%20Marshal%20Arthur%20Wellesley%2C%201st%20Duke,a%20British%20Army%20officer%20and%20statesman.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington#:~:text=was%20a%20British%20Army%20officer%20and,and%20as%20Commander%2Din%2DChief%20of%20the%20Forces.",
     "sourceTitle": "Arthur Wellesley, 1st Duke of Wellington",
     "sourceUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington"
    }
   },
   {
    "id": "t1",
-   "text": "At Waterloo in 1815 he did not act alone: his British-led army fought alongside a Prussian army under Field Marshal Gebhard von Blücher.",
+   "text": "He is chiefly remembered for defeating Napoleon at the Battle of Waterloo in 1815, in an army acting together with a Prussian force commanded by Field Marshal Gebhard von Blücher.",
    "sourceId": "S1",
-   "quote": "During the Hundred Days campaign in 1815, Wellington commanded another British-led army which, together with a Prussian army under Field Marshal Gebhard von Blücher, defeated Napoleon at Waterloo.",
+   "quote": "Wellington commanded another British-led army which, together with a Prussian army under Field Marshal Gebhard von Blücher, defeated Napoleon at Waterloo",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington#:~:text=During%20the%20Hundred%20Days%20campaign%20in,von%20Bl%C3%BCcher%2C%20defeated%20Napoleon%20at%20Waterloo.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington#:~:text=Wellington%20commanded%20another%20British%2Dled%20army%20which%2C,von%20Bl%C3%BCcher%2C%20defeated%20Napoleon%20at%20Waterloo",
     "sourceTitle": "Arthur Wellesley, 1st Duke of Wellington",
     "sourceUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington"
    }
   },
   {
    "id": "t2",
-   "text": "Before Waterloo he built his reputation over six years in the Peninsular War, driving French armies out of Portugal and Spain and eventually invading southern France.",
-   "sourceId": "S5",
-   "quote": "Contribuyó a la expulsión del ejército francés de España e invadió el sur de Francia.",
-   "quoteTranslation": "He contributed to the expulsion of the French army from Spain and invaded southern France.",
+   "text": "Before Waterloo he made his reputation in the Peninsular War, the campaign in Spain and Portugal against French occupation, and was promoted to field marshal after the victory at Vitoria in 1813.",
+   "sourceId": "S1",
+   "quote": "Rising to prominence as a general officer during the Peninsular War, Wellesley was promoted to field marshal after leading British-led forces to victory against a French army at the Battle of Vitoria in 1813.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://es.wikipedia.org/wiki/Duque_de_Wellington#:~:text=Contribuy%C3%B3%20a%20la%20expulsi%C3%B3n%20del%20ej%C3%A9rcito,e%20invadi%C3%B3%20el%20sur%20de%20Francia.",
-    "sourceTitle": "Duque de Wellington",
-    "sourceUrl": "https://es.wikipedia.org/wiki/Duque_de_Wellington"
+    "citationUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington#:~:text=Rising%20to%20prominence%20as%20a%20general,the%20Battle%20of%20Vitoria%20in%201813.",
+    "sourceTitle": "Arthur Wellesley, 1st Duke of Wellington",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington"
    }
   },
   {
    "id": "t3",
-   "text": "As Prime Minister he pushed through the Roman Catholic Relief Act 1829, which lifted legal bars on Catholics, while strongly opposing the Reform Act 1832 that widened the right to vote.",
+   "text": "He was born in Ireland into an Anglo-Irish aristocratic family belonging to the Protestant Ascendancy, the Protestant landowning elite that dominated Catholic Ireland.",
+   "sourceId": "S6",
+   "quote": "Arthur Wellesley was born into an aristocratic Anglo-Irish family, belonging to the Protestant Ascendancy, beginning life as the Hon. Arthur Wesley.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington#Early_life:~:text=Arthur%20Wellesley%20was%20born%20into%20an,life%20as%20the%20Hon.%20Arthur%20Wesley.",
+    "sourceTitle": "Arthur Wellesley, 1st Duke of Wellington",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington#Early_life"
+   }
+  },
+  {
+   "id": "t4",
+   "text": "As Prime Minister he pushed through the Roman Catholic Relief Act 1829, which removed the bar on Roman Catholics sitting in Parliament, yet he strongly opposed the 1832 Reform Act widening the parliamentary franchise.",
    "sourceId": "S1",
    "quote": "Wellington oversaw the passage of the Roman Catholic Relief Act 1829 and opposed the Reform Act 1832.",
    "verification": {
@@ -834,36 +855,22 @@
    }
   },
   {
-   "id": "t4",
-   "text": "He was born in Ireland into the Protestant Anglo-Irish landowning elite, and as a young man sat in the Irish House of Commons as MP for the borough of Trim.",
-   "sourceId": "S6",
-   "quote": "Arthur Wellesley was born into an aristocratic Anglo-Irish family, belonging to the Protestant Ascendancy, beginning life as the Hon. Arthur Wesley.",
-   "verification": {
-    "status": "unverified",
-    "method": "exact",
-    "score": 0.42857142857142855,
-    "reason": "Quote found, but the surrounding text does not mention ireland, house, commons.",
-    "sourceTitle": "Arthur Wellesley, 1st Duke of Wellington",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington#Early_life"
-   }
-  },
-  {
    "id": "t5",
-   "text": "His first significant military experience was in India, where he ended the Fourth Anglo-Mysore War with victory at Seringapatam in 1799 and later beat the Maratha Confederacy at Assaye.",
+   "text": "His military career also included service in India, where he ended the Fourth Anglo-Mysore War with victory at Seringapatam in 1799 and beat the Maratha Confederacy at Assaye in 1803.",
    "sourceId": "S1",
-   "quote": "he fought in the Fourth Anglo-Mysore War, ending the conflict with a victory at Seringapatam in 1799",
+   "quote": "he fought in the Fourth Anglo-Mysore War, ending the conflict with a victory at Seringapatam in 1799. He was appointed governor of Seringapatam and Mysore and, as a newly appointed major general, won a decisive victory over the Maratha Confederacy at the Battle of Assaye in 1803.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington#:~:text=he%20fought%20in%20the%20Fourth%20Anglo%2DMysore,a%20victory%20at%20Seringapatam%20in%201799",
+    "citationUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington#:~:text=he%20fought%20in%20the%20Fourth%20Anglo%2DMysore,the%20Battle%20of%20Assaye%20in%201803.",
     "sourceTitle": "Arthur Wellesley, 1st Duke of Wellington",
     "sourceUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington"
    }
   },
   {
    "id": "t6",
-   "text": "His opposition to parliamentary reform made him personally hated for a time: crowds smashed the windows of his London house twice in 1831, and iron shutters were fitted the following year.",
+   "text": "He was hated enough as an opponent of parliamentary reform that a mob attacked his London home, Apsley House, in 1831 and smashed his windows.",
    "sourceId": "S7",
    "quote": "Wellington's residence at Apsley House was targeted by a mob of demonstrators on 27 April 1831 and again on 12 October, leaving his windows smashed.",
    "verification": {
@@ -878,12 +885,12 @@
  ],
  "perspectives": [
   {
-   "label": "Older historical verdict",
-   "stance": "A dim-witted reactionary out of his depth",
-   "body": "Some historians treated Wellington's political career as that of a stubborn old soldier resisting change he did not understand. This reading takes his anti-reform rhetoric at face value.",
+   "label": "Older critical view of his politics",
+   "stance": "A confused reactionary out of his depth",
+   "body": "Some historians treated Wellington's long career in the House of Lords as that of a bewildered old soldier resisting change he did not grasp. On this reading his opposition to reform reflected genuine incomprehension rather than strategy.",
    "evidence": {
     "id": "p0",
-    "text": "Some historians have described Wellington as a confused reactionary.",
+    "text": "Some historians have dismissed Wellington as a confused reactionary.",
     "sourceId": "S7",
     "quote": "Some historians have belittled him as a befuddled reactionary",
     "verification": {
@@ -897,12 +904,12 @@
    }
   },
   {
-   "label": "Late 20th-century consensus",
-   "stance": "A cunning politician playing the bluff soldier",
-   "body": "On this view Wellington deliberately performed the role of an ill-informed old general while manoeuvring skilfully behind the scenes. He voiced hard-line anti-reform positions in public but shifted towards the party centre when Peel needed the Lords on side.",
+   "label": "Late twentieth-century revisionism",
+   "stance": "A shrewd operator playing dumb deliberately",
+   "body": "A later consensus holds that the bluff soldier persona was a mask. On this view Wellington gave rhetorical comfort to hardline anti-reformers while manoeuvring the Lords towards the positions Peel actually needed.",
    "evidence": {
     "id": "p1",
-    "text": "A later consensus casts him as a shrewd operator concealing his cleverness behind the appearance of an uninformed old soldier.",
+    "text": "A later scholarly consensus casts him as a canny politician who concealed his cleverness behind the appearance of an ill-informed old soldier.",
     "sourceId": "S7",
     "quote": "a consensus in the late 20th century depicts him as a shrewd operator who hid his cleverness behind the façade of a poorly informed old soldier",
     "verification": {
@@ -916,12 +923,12 @@
    }
   },
   {
-   "label": "Daniel O'Connell, Irish Catholic campaigner",
-   "stance": "He deserves no credit for emancipation",
-   "body": "O'Connell, whose election victory forced the Catholic question, refused to treat Wellington as a friend of Ireland, mocking his Irish birth. Wellington's government also raised the property qualification for the county vote in Ireland, stripping the franchise from most Irish voters as the price of relief.",
+   "label": "Irish nationalist view (Daniel O'Connell)",
+   "stance": "Irish by birth only, deserving little credit",
+   "body": "The Catholic campaigner Daniel O'Connell refused to treat Wellington as a friend of Ireland despite the 1829 Relief Act, noting that birth in Ireland did not make him Irish. The point had teeth: the same Act stripped most Irish voters of the franchise by raising the property qualification fivefold.",
    "evidence": {
     "id": "p2",
-    "text": "Daniel O'Connell dismissed Wellington's Irish birth with a joke about being born in a stable not making a man a horse.",
+    "text": "Daniel O'Connell gave Wellington little credit for Catholic emancipation, remarking that being born in Ireland did not make him Irish.",
     "sourceId": "S15",
     "quote": "\"To be sure he was born in Ireland\", the \"Emancipator\" famously remarked, \"but to be born in a stable does not make a man a horse\".",
     "verification": {
@@ -935,21 +942,21 @@
    }
   },
   {
-   "label": "Napoleonic French propaganda",
-   "stance": "A mere colonial general, not a real rival",
-   "body": "Napoleon belittled Wellington by pointing to his Indian service, and the label was spread through the official French press. His allies inverted the judgement entirely, with the Russian Tsar calling him the conqueror of the world's conqueror.",
+   "label": "Contested nationality after his death",
+   "stance": "Irishman or Englishman was actively disputed",
+   "body": "Even his birthplace was uncertain and argued over, with Dublin, County Meath, a coach and a packet boat all proposed. After his death, newspapers in the two countries fought over which nation could claim him.",
    "evidence": {
     "id": "p3",
-    "text": "Napoleon called Wellington a \"Sepoy General\", mocking his service in India, and the phrase was used as propaganda in a French newspaper.",
-    "sourceId": "S17",
-    "quote": "Napoleon dismissed his opponent as a \"Sepoy General\", a reference to Wellington's service in India. The name was used in the French newspaper Le Moniteur Universel as a means of propaganda.",
+    "text": "Following his death, Irish and English newspapers argued about whether he had been born an Irishman or an Englishman.",
+    "sourceId": "S11",
+    "quote": "After his death, Irish and English newspapers disputed whether Wellington had been born an Irishman or an Englishman.",
     "verification": {
      "status": "verified",
      "method": "exact",
      "score": 1,
-     "citationUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington#Titles_and_tributes:~:text=Napoleon%20dismissed%20his%20opponent%20as%20a,Universel%20as%20a%20means%20of%20propaganda.",
+     "citationUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington#Death_and_funeral:~:text=After%20his%20death%2C%20Irish%20and%20English,born%20an%20Irishman%20or%20an%20Englishman.",
      "sourceTitle": "Arthur Wellesley, 1st Duke of Wellington",
-     "sourceUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington#Titles_and_tributes"
+     "sourceUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington#Death_and_funeral"
     }
    }
   }
@@ -957,50 +964,63 @@
  "claims": [
   {
    "id": "t0",
-   "text": "Arthur Wellesley, later Duke of Wellington, was a British army officer and politician who commanded the allied army that beat Napoleon at Waterloo, and later twice served as Prime Minister of the United Kingdom.",
+   "text": "Arthur Wellesley, 1st Duke of Wellington, was a British Army officer and statesman who both served as Prime Minister of the United Kingdom and held the post of Commander-in-Chief of the Forces.",
    "sourceId": "S1",
-   "quote": "Field Marshal Arthur Wellesley, 1st Duke of Wellington (né Wesley; 1 May 1769 – 14 September 1852), was a British Army officer and statesman.",
+   "quote": "was a British Army officer and statesman. A leading figure in early-19th-century British politics, Wellesley served as Prime Minister of the United Kingdom and as Commander-in-Chief of the Forces.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington#:~:text=Field%20Marshal%20Arthur%20Wellesley%2C%201st%20Duke,a%20British%20Army%20officer%20and%20statesman.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington#:~:text=was%20a%20British%20Army%20officer%20and,and%20as%20Commander%2Din%2DChief%20of%20the%20Forces.",
     "sourceTitle": "Arthur Wellesley, 1st Duke of Wellington",
     "sourceUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington"
    }
   },
   {
    "id": "t1",
-   "text": "At Waterloo in 1815 he did not act alone: his British-led army fought alongside a Prussian army under Field Marshal Gebhard von Blücher.",
+   "text": "He is chiefly remembered for defeating Napoleon at the Battle of Waterloo in 1815, in an army acting together with a Prussian force commanded by Field Marshal Gebhard von Blücher.",
    "sourceId": "S1",
-   "quote": "During the Hundred Days campaign in 1815, Wellington commanded another British-led army which, together with a Prussian army under Field Marshal Gebhard von Blücher, defeated Napoleon at Waterloo.",
+   "quote": "Wellington commanded another British-led army which, together with a Prussian army under Field Marshal Gebhard von Blücher, defeated Napoleon at Waterloo",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington#:~:text=During%20the%20Hundred%20Days%20campaign%20in,von%20Bl%C3%BCcher%2C%20defeated%20Napoleon%20at%20Waterloo.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington#:~:text=Wellington%20commanded%20another%20British%2Dled%20army%20which%2C,von%20Bl%C3%BCcher%2C%20defeated%20Napoleon%20at%20Waterloo",
     "sourceTitle": "Arthur Wellesley, 1st Duke of Wellington",
     "sourceUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington"
    }
   },
   {
    "id": "t2",
-   "text": "Before Waterloo he built his reputation over six years in the Peninsular War, driving French armies out of Portugal and Spain and eventually invading southern France.",
-   "sourceId": "S5",
-   "quote": "Contribuyó a la expulsión del ejército francés de España e invadió el sur de Francia.",
-   "quoteTranslation": "He contributed to the expulsion of the French army from Spain and invaded southern France.",
+   "text": "Before Waterloo he made his reputation in the Peninsular War, the campaign in Spain and Portugal against French occupation, and was promoted to field marshal after the victory at Vitoria in 1813.",
+   "sourceId": "S1",
+   "quote": "Rising to prominence as a general officer during the Peninsular War, Wellesley was promoted to field marshal after leading British-led forces to victory against a French army at the Battle of Vitoria in 1813.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://es.wikipedia.org/wiki/Duque_de_Wellington#:~:text=Contribuy%C3%B3%20a%20la%20expulsi%C3%B3n%20del%20ej%C3%A9rcito,e%20invadi%C3%B3%20el%20sur%20de%20Francia.",
-    "sourceTitle": "Duque de Wellington",
-    "sourceUrl": "https://es.wikipedia.org/wiki/Duque_de_Wellington"
+    "citationUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington#:~:text=Rising%20to%20prominence%20as%20a%20general,the%20Battle%20of%20Vitoria%20in%201813.",
+    "sourceTitle": "Arthur Wellesley, 1st Duke of Wellington",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington"
    }
   },
   {
    "id": "t3",
-   "text": "As Prime Minister he pushed through the Roman Catholic Relief Act 1829, which lifted legal bars on Catholics, while strongly opposing the Reform Act 1832 that widened the right to vote.",
+   "text": "He was born in Ireland into an Anglo-Irish aristocratic family belonging to the Protestant Ascendancy, the Protestant landowning elite that dominated Catholic Ireland.",
+   "sourceId": "S6",
+   "quote": "Arthur Wellesley was born into an aristocratic Anglo-Irish family, belonging to the Protestant Ascendancy, beginning life as the Hon. Arthur Wesley.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington#Early_life:~:text=Arthur%20Wellesley%20was%20born%20into%20an,life%20as%20the%20Hon.%20Arthur%20Wesley.",
+    "sourceTitle": "Arthur Wellesley, 1st Duke of Wellington",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington#Early_life"
+   }
+  },
+  {
+   "id": "t4",
+   "text": "As Prime Minister he pushed through the Roman Catholic Relief Act 1829, which removed the bar on Roman Catholics sitting in Parliament, yet he strongly opposed the 1832 Reform Act widening the parliamentary franchise.",
    "sourceId": "S1",
    "quote": "Wellington oversaw the passage of the Roman Catholic Relief Act 1829 and opposed the Reform Act 1832.",
    "verification": {
@@ -1013,36 +1033,22 @@
    }
   },
   {
-   "id": "t4",
-   "text": "He was born in Ireland into the Protestant Anglo-Irish landowning elite, and as a young man sat in the Irish House of Commons as MP for the borough of Trim.",
-   "sourceId": "S6",
-   "quote": "Arthur Wellesley was born into an aristocratic Anglo-Irish family, belonging to the Protestant Ascendancy, beginning life as the Hon. Arthur Wesley.",
-   "verification": {
-    "status": "unverified",
-    "method": "exact",
-    "score": 0.42857142857142855,
-    "reason": "Quote found, but the surrounding text does not mention ireland, house, commons.",
-    "sourceTitle": "Arthur Wellesley, 1st Duke of Wellington",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington#Early_life"
-   }
-  },
-  {
    "id": "t5",
-   "text": "His first significant military experience was in India, where he ended the Fourth Anglo-Mysore War with victory at Seringapatam in 1799 and later beat the Maratha Confederacy at Assaye.",
+   "text": "His military career also included service in India, where he ended the Fourth Anglo-Mysore War with victory at Seringapatam in 1799 and beat the Maratha Confederacy at Assaye in 1803.",
    "sourceId": "S1",
-   "quote": "he fought in the Fourth Anglo-Mysore War, ending the conflict with a victory at Seringapatam in 1799",
+   "quote": "he fought in the Fourth Anglo-Mysore War, ending the conflict with a victory at Seringapatam in 1799. He was appointed governor of Seringapatam and Mysore and, as a newly appointed major general, won a decisive victory over the Maratha Confederacy at the Battle of Assaye in 1803.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington#:~:text=he%20fought%20in%20the%20Fourth%20Anglo%2DMysore,a%20victory%20at%20Seringapatam%20in%201799",
+    "citationUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington#:~:text=he%20fought%20in%20the%20Fourth%20Anglo%2DMysore,the%20Battle%20of%20Assaye%20in%201803.",
     "sourceTitle": "Arthur Wellesley, 1st Duke of Wellington",
     "sourceUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington"
    }
   },
   {
    "id": "t6",
-   "text": "His opposition to parliamentary reform made him personally hated for a time: crowds smashed the windows of his London house twice in 1831, and iron shutters were fitted the following year.",
+   "text": "He was hated enough as an opponent of parliamentary reform that a mob attacked his London home, Apsley House, in 1831 and smashed his windows.",
    "sourceId": "S7",
    "quote": "Wellington's residence at Apsley House was targeted by a mob of demonstrators on 27 April 1831 and again on 12 October, leaving his windows smashed.",
    "verification": {
@@ -1056,7 +1062,7 @@
   },
   {
    "id": "p0",
-   "text": "Some historians have described Wellington as a confused reactionary.",
+   "text": "Some historians have dismissed Wellington as a confused reactionary.",
    "sourceId": "S7",
    "quote": "Some historians have belittled him as a befuddled reactionary",
    "verification": {
@@ -1070,7 +1076,7 @@
   },
   {
    "id": "p1",
-   "text": "A later consensus casts him as a shrewd operator concealing his cleverness behind the appearance of an uninformed old soldier.",
+   "text": "A later scholarly consensus casts him as a canny politician who concealed his cleverness behind the appearance of an ill-informed old soldier.",
    "sourceId": "S7",
    "quote": "a consensus in the late 20th century depicts him as a shrewd operator who hid his cleverness behind the façade of a poorly informed old soldier",
    "verification": {
@@ -1084,7 +1090,7 @@
   },
   {
    "id": "p2",
-   "text": "Daniel O'Connell dismissed Wellington's Irish birth with a joke about being born in a stable not making a man a horse.",
+   "text": "Daniel O'Connell gave Wellington little credit for Catholic emancipation, remarking that being born in Ireland did not make him Irish.",
    "sourceId": "S15",
    "quote": "\"To be sure he was born in Ireland\", the \"Emancipator\" famously remarked, \"but to be born in a stable does not make a man a horse\".",
    "verification": {
@@ -1098,16 +1104,16 @@
   },
   {
    "id": "p3",
-   "text": "Napoleon called Wellington a \"Sepoy General\", mocking his service in India, and the phrase was used as propaganda in a French newspaper.",
-   "sourceId": "S17",
-   "quote": "Napoleon dismissed his opponent as a \"Sepoy General\", a reference to Wellington's service in India. The name was used in the French newspaper Le Moniteur Universel as a means of propaganda.",
+   "text": "Following his death, Irish and English newspapers argued about whether he had been born an Irishman or an Englishman.",
+   "sourceId": "S11",
+   "quote": "After his death, Irish and English newspapers disputed whether Wellington had been born an Irishman or an Englishman.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington#Titles_and_tributes:~:text=Napoleon%20dismissed%20his%20opponent%20as%20a,Universel%20as%20a%20means%20of%20propaganda.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington#Death_and_funeral:~:text=After%20his%20death%2C%20Irish%20and%20English,born%20an%20Irishman%20or%20an%20Englishman.",
     "sourceTitle": "Arthur Wellesley, 1st Duke of Wellington",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington#Titles_and_tributes"
+    "sourceUrl": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington#Death_and_funeral"
    }
   }
  ],
@@ -1134,8 +1140,8 @@
      "display": "5 May 1821"
     }
    },
-   "relationship": "Chief opponent, met only at Waterloo",
-   "note": "Wellington's fame rests largely on defeating the French emperor whose armies he had fought by proxy for years in Spain before facing him in person for the first and only time."
+   "relationship": "Ultimate adversary, beaten at Waterloo",
+   "note": "Wellington's fame rests on defeating Napoleon, though Waterloo in 1815 was the only occasion the two men actually faced each other in battle."
   },
   {
    "entity": {
@@ -1159,7 +1165,7 @@
     }
    },
    "relationship": "Prussian ally at Waterloo",
-   "note": "The Prussian field marshal whose army arrived on the battlefield during the afternoon and whose forces shared in the victory over Napoleon."
+   "note": "Blücher's Prussian army arrived to join Wellington's line during the battle, and the victory is credited to the two commanders jointly."
   },
   {
    "entity": {
@@ -1183,7 +1189,7 @@
     }
    },
    "relationship": "Tory colleague who eclipsed him",
-   "note": "Peel gradually replaced Wellington as leader of the Tories, and Wellington later served under him as foreign secretary and Leader of the House of Lords."
+   "note": "Peel gradually replaced Wellington as leader of the Tories as the party became the Conservatives, with Wellington later serving under him as foreign secretary."
   },
   {
    "entity": {
@@ -1207,7 +1213,7 @@
     }
    },
    "relationship": "Catholic campaigner who forced his hand",
-   "note": "O'Connell's 1828 by-election victory in County Clare dramatised the legal bar on Catholics sitting in Parliament and pushed Wellington's government into passing emancipation."
+   "note": "O'Connell's victory in a County Clare by-election, which he could not take up as a Catholic, precipitated the crisis that led Wellington to grant Catholic emancipation."
   },
   {
    "entity": {
@@ -1230,32 +1236,32 @@
      "display": "26 September 1842"
     }
    },
-   "relationship": "Elder brother, patron and Governor-General",
-   "note": "Richard obtained Arthur's first army commission through his connections and, as Governor-General of India, ordered the campaign that made his younger brother's name."
+   "relationship": "Elder brother and early patron",
+   "note": "Richard secured his brother's army commission and, as Governor-General of India, ordered the campaign in which Arthur first made his name."
   },
   {
    "entity": {
-    "title": "Catherine Wellesley, Duchess of Wellington",
-    "url": "https://en.wikipedia.org/wiki/Catherine_Wellesley%2C_Duchess_of_Wellington",
+    "title": "Jean-de-Dieu Soult",
+    "url": "https://en.wikipedia.org/wiki/Jean-de-Dieu_Soult",
     "lang": "en",
-    "description": "British Prime Minister's wife",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Catherine_Wellesley%2C_Duchess_of_Wellington_%28cropped%29.jpg/60px-Catherine_Wellesley%2C_Duchess_of_Wellington_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q540048",
+    "description": "Prime Minister of France and French Marshal (1769–1851)",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Marshal_Nicolas_Jean_de_Dieu_Soult_Duc_de_Dalmatie%2C_by_George_Peter_Alexander_Healy_%28English_Heritage%2C_The_Wellington_Collection%2C_Apsley_House%29.jpg/60px-Marshal_Nicolas_Jean_de_Dieu_Soult_Duc_de_Dalmatie%2C_by_George_Peter_Alexander_Healy_%28English_Heritage%2C_The_Wellington_Collection%2C_Apsley_House%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q296023",
     "start": {
-     "raw": "+1773-01-14T00:00:00Z",
-     "year": 1773,
+     "raw": "+1769-03-29T00:00:00Z",
+     "year": 1769,
      "precision": "day",
-     "display": "14 January 1773"
+     "display": "29 March 1769"
     },
     "end": {
-     "raw": "+1831-04-24T00:00:00Z",
-     "year": 1831,
+     "raw": "+1851-11-26T00:00:00Z",
+     "year": 1851,
      "precision": "day",
-     "display": "24 April 1831"
+     "display": "26 November 1851"
     }
    },
-   "relationship": "Wife, in an unhappy marriage",
-   "note": "Her brother's rejection of Wellesley's first proposal in 1793, on grounds of debt and poor prospects, reportedly spurred him to take his military career seriously."
+   "relationship": "Recurring French opponent in Iberia",
+   "note": "Soult was the French marshal Wellington fought repeatedly from Porto through to Toulouse, where the two agreed a ceasefire on news of Napoleon's abdication."
   }
  ],
  "comparisons": [
@@ -1280,16 +1286,15 @@
      "display": "16 June 1722"
     }
    },
-   "angle": "An earlier British commander who, like Wellington, turned battlefield success into political standing and a dukedom.",
+   "angle": "An earlier British duke whose career followed almost the same arc of battlefield triumph followed by political prominence.",
    "similarities": [
-    "Both are ranked among the greatest British generals",
-    "Both moved into political life after a major military career",
-    "Both were rewarded with a dukedom"
+    "Both were celebrated as among the greatest British generals",
+    "Both moved into political life after a great military career",
+    "Both were rewarded with a dukedom for victories over France"
    ],
    "differences": [
     "Wellington actually held the office of Prime Minister",
-    "Wellington's fame is bound to a single opponent, Napoleon",
-    "Wellington was Anglo-Irish by birth"
+    "Wellington's fame rests on a single opponent, Napoleon"
    ],
    "start": {
     "raw": "+1650-05-26T00:00:00Z",
@@ -1325,16 +1330,14 @@
      "display": "21 October 1805"
     }
    },
-   "angle": "Britain's other great commander of the Napoleonic wars, the naval counterpart to Wellington on land, whom Wellington met exactly once.",
+   "angle": "The naval counterpart in Britain's war against Napoleonic France, and the two men met exactly once.",
    "similarities": [
     "Both became national heroes of the wars against France",
-    "Both were honoured with a state funeral, a rarity for British subjects",
-    "Both are buried at St Paul's Cathedral"
+    "Both were given a state funeral, a rare honour for a British subject"
    ],
    "differences": [
-    "Nelson died at Trafalgar in 1805; Wellington lived to 83",
-    "Nelson commanded at sea, Wellington on land",
-    "Wellington had a long second career in politics"
+    "Nelson was killed in action at Trafalgar, while Wellington lived to 83 and became a politician",
+    "Nelson's reputation is naval, Wellington's is a land commander's"
    ],
    "start": {
     "raw": "+1758-09-29T00:00:00Z",
@@ -1379,38 +1382,70 @@
     }
    },
    "relation": "participantIn",
-   "note": "The long campaign in Portugal and Spain where Wellington developed the reputation that made him Britain's leading soldier.",
+   "note": "The long campaign in Portugal and Spain where Wellington built his reputation, including the defensive Lines of Torres Vedras and victories at Salamanca and Vitoria.",
    "fromGraph": false
   },
   {
    "entity": {
-    "title": "Hundred Days",
-    "url": "https://en.wikipedia.org/wiki/Hundred_Days",
+    "title": "Battle of Waterloo",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Waterloo",
     "lang": "en",
-    "description": "1815 period of the Napoleonic Wars",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_battles_of_Napoleon%27s_hundred_days.jpg/60px-The_battles_of_Napoleon%27s_hundred_days.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q199955",
+    "description": "1815 battle of the Waterloo campaign",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Battle_of_Waterloo_1815.PNG/60px-Battle_of_Waterloo_1815.PNG?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q48314",
     "start": {
-     "raw": "+1815-03-20T00:00:00Z",
+     "raw": "+1815-06-18T00:00:00Z",
      "year": 1815,
      "precision": "day",
-     "display": "20 March 1815"
-    },
-    "end": {
-     "raw": "+1815-07-08T00:00:00Z",
-     "year": 1815,
-     "precision": "day",
-     "display": "8 July 1815"
+     "display": "18 June 1815"
     },
     "occurredAt": {
-     "raw": "+1815-03-20T00:00:00Z",
+     "raw": "+1815-06-18T00:00:00Z",
      "year": 1815,
      "precision": "day",
-     "display": "20 March 1815"
+     "display": "18 June 1815"
     }
    },
    "relation": "participantIn",
-   "note": "Napoleon's escape from Elba and return to power in 1815 produced the campaign that ended at Waterloo.",
+   "note": "The 1815 battle in present-day Belgium at which Wellington's Anglo-Dutch-German army, joined by the Prussians, ended Napoleon's return to power.",
+   "fromGraph": false
+  },
+  {
+   "entity": {
+    "title": "Roman Catholic Relief Act 1829",
+    "url": "https://en.wikipedia.org/wiki/Roman_Catholic_Relief_Act_1829",
+    "lang": "en",
+    "description": "Act of Parliament of the United Kingdom",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Coat_of_Arms_of_the_United_Kingdom_%281816-1837%29.svg/60px-Coat_of_Arms_of_the_United_Kingdom_%281816-1837%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q2602689"
+   },
+   "relation": "causes",
+   "note": "Wellington's government carried this measure removing the sacramental test that barred Catholics from Parliament, at the price of sharply restricting the Irish franchise.",
+   "fromGraph": false
+  },
+  {
+   "entity": {
+    "title": "Reform Act 1832",
+    "url": "https://en.wikipedia.org/wiki/Reform_Act_1832",
+    "lang": "en",
+    "description": "UK law reforming the electoral system",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Coat_of_Arms_of_the_United_Kingdom_%281816-1837%29.svg/60px-Coat_of_Arms_of_the_United_Kingdom_%281816-1837%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q1619120",
+    "start": {
+     "raw": "+1832-00-00T00:00:00Z",
+     "year": 1832,
+     "precision": "year",
+     "display": "1832"
+    },
+    "occurredAt": {
+     "raw": "+1832-00-00T00:00:00Z",
+     "year": 1832,
+     "precision": "year",
+     "display": "1832"
+    }
+   },
+   "relation": "precedes",
+   "note": "Wellington fought the widening of the franchise from the Lords and never reconciled himself to it, and his failure to form a Tory government in 1832 helped clear its path.",
    "fromGraph": false
   },
   {
@@ -1441,58 +1476,38 @@
     }
    },
    "relation": "participantIn",
-   "note": "His Indian service under his brother's governor-generalship gave him his first independent command experience.",
+   "note": "His Indian service against Tipu Sultan of Mysore, culminating at Seringapatam, gave Napoleon the sneering nickname 'Sepoy General' for him.",
    "fromGraph": false
   },
   {
    "entity": {
-    "title": "Roman Catholic Relief Act 1829",
-    "url": "https://en.wikipedia.org/wiki/Roman_Catholic_Relief_Act_1829",
+    "title": "Congress of Vienna",
+    "url": "https://en.wikipedia.org/wiki/Congress_of_Vienna",
     "lang": "en",
-    "description": "Act of Parliament of the United Kingdom",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Coat_of_Arms_of_the_United_Kingdom_%281816-1837%29.svg/60px-Coat_of_Arms_of_the_United_Kingdom_%281816-1837%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q2602689"
-   },
-   "relation": "causes",
-   "note": "His government forced through this removal of legal disabilities on Catholics, though it also cut the Irish electorate sharply.",
-   "fromGraph": false
-  },
-  {
-   "entity": {
-    "title": "Reform Act 1832",
-    "url": "https://en.wikipedia.org/wiki/Reform_Act_1832",
-    "lang": "en",
-    "description": "UK law reforming the electoral system",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Coat_of_Arms_of_the_United_Kingdom_%281816-1837%29.svg/60px-Coat_of_Arms_of_the_United_Kingdom_%281816-1837%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q1619120",
+    "description": "1814–1815 meetings to create a peace plan for Europe",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Europe_1815_map_en.png/60px-Europe_1815_map_en.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q46362",
     "start": {
-     "raw": "+1832-00-00T00:00:00Z",
-     "year": 1832,
-     "precision": "year",
-     "display": "1832"
+     "raw": "+1814-11-00T00:00:00Z",
+     "year": 1814,
+     "precision": "month",
+     "display": "November 1814"
+    },
+    "end": {
+     "raw": "+1815-06-00T00:00:00Z",
+     "year": 1815,
+     "precision": "month",
+     "display": "June 1815"
     },
     "occurredAt": {
-     "raw": "+1832-00-00T00:00:00Z",
-     "year": 1832,
+     "raw": "+1815-00-00T00:00:00Z",
+     "year": 1815,
      "precision": "year",
-     "display": "1832"
+     "display": "1815"
     }
    },
-   "relation": "precedes",
-   "note": "Wellington fought the widening of the franchise, and his resistance triggered riots and eventually a royal threat to flood the Lords with new peers.",
-   "fromGraph": false
-  },
-  {
-   "entity": {
-    "title": "Protestant Ascendancy",
-    "url": "https://en.wikipedia.org/wiki/Protestant_Ascendancy",
-    "lang": "en",
-    "description": "17th to 20th-century Anglican domination of Ireland",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/ce/Bishop_Woodward_by_Gainsborough.jpg/60px-Bishop_Woodward_by_Gainsborough.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q3777934"
-   },
-   "relation": "partOf",
-   "note": "The Protestant landowning elite that dominated Ireland, and the world into which Wellington was born.",
+   "relation": "participantIn",
+   "note": "He took Lord Castlereagh's place as Britain's first plenipotentiary at the peace settlement, leaving it when Napoleon escaped from Elba.",
    "fromGraph": false
   }
  ],
@@ -1503,31 +1518,31 @@
   },
   {
    "term": "Tory party",
-   "definition": "The conservative grouping in British politics of the period, later evolving into the Conservative Party; Wellington led it in the House of Lords."
+   "definition": "The conservative political grouping in British politics of the period, which Wellington led in the House of Lords and which later evolved into the Conservative Party."
   },
   {
-   "term": "House of Lords",
-   "definition": "The unelected upper chamber of the British Parliament, made up largely of hereditary nobles, where Wellington sat as a duke."
+   "term": "Protestant Ascendancy",
+   "definition": "The Protestant landowning minority that dominated politics, property and office in largely Catholic Ireland."
   },
   {
    "term": "Catholic emancipation",
-   "definition": "The removal of laws barring Roman Catholics from sitting in Parliament and holding senior state and judicial office."
-  },
-  {
-   "term": "Rotten borough",
-   "definition": "A parliamentary seat with so few voters that a single patron could effectively decide the result; Trim, which Wellesley represented, is described as one."
+   "definition": "The removal of legal disabilities, notably the Oath of Supremacy, that barred Roman Catholics from sitting in Parliament and from senior state and judicial office."
   },
   {
    "term": "Aide-de-camp",
-   "definition": "A personal military assistant to a senior officer or official, a post Wellesley held to two successive Lords Lieutenant of Ireland."
+   "definition": "A personal military assistant to a senior officer or official; Wellesley's first such post, to the Lord Lieutenant of Ireland, involved mainly social duties."
   },
   {
-   "term": "Lines of Torres Vedras",
-   "definition": "Massive earthwork fortifications built in secret to shield Lisbon, which starved a French invasion into retreat after six months."
+   "term": "Rotten borough",
+   "definition": "A parliamentary seat with very few voters, effectively controlled by a single patron; Wellesley entered the Irish parliament for one such seat, Trim."
   },
   {
-   "term": "Iron Duke",
-   "definition": "Wellington's best-known nickname, often used disparagingly and relating to his political rather than military career."
+   "term": "Master-General of the Ordnance",
+   "definition": "The cabinet-level official responsible for artillery, engineering and military supply, a post Wellington held for over eight years."
+  },
+  {
+   "term": "Hundred Days",
+   "definition": "The period in 1815 between Napoleon's escape from exile on Elba and his final defeat, during which the Waterloo campaign was fought."
   }
  ],
  "drilldown": [
@@ -1535,7 +1550,7 @@
    "title": "Battle of Waterloo",
    "url": "https://en.wikipedia.org/wiki/Battle_of_Waterloo",
    "lang": "en",
-   "description": "The single engagement that defines his reputation and ended Napoleon's rule.",
+   "description": "The battle that defines his reputation, and the moment Napoleon's rule ended for good.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Battle_of_Waterloo_1815.PNG/60px-Battle_of_Waterloo_1815.PNG?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q48314",
    "start": {
@@ -1552,64 +1567,25 @@
    }
   },
   {
-   "title": "Peninsular War",
-   "url": "https://en.wikipedia.org/wiki/Peninsular_War",
+   "title": "Lines of Torres Vedras",
+   "url": "https://en.wikipedia.org/wiki/Lines_of_Torres_Vedras",
    "lang": "en",
-   "description": "Six years of campaigning that show how he actually made his name, in far more detail than Waterloo alone.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Peninsular_war_collage.jpg/60px-Peninsular_war_collage.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q152499",
-   "start": {
-    "raw": "+1808-05-02T00:00:00Z",
-    "year": 1808,
-    "precision": "day",
-    "display": "2 May 1808"
-   },
-   "end": {
-    "raw": "+1814-04-17T00:00:00Z",
-    "year": 1814,
-    "precision": "day",
-    "display": "17 April 1814"
-   },
-   "occurredAt": {
-    "raw": "+1808-05-02T00:00:00Z",
-    "year": 1808,
-    "precision": "day",
-    "display": "2 May 1808"
-   }
+   "description": "The secretly built earthworks that starved out a French invasion of Portugal and show his defensive method at its most characteristic.",
+   "qid": "Q1826718"
   },
   {
    "title": "Roman Catholic Relief Act 1829",
    "url": "https://en.wikipedia.org/wiki/Roman_Catholic_Relief_Act_1829",
    "lang": "en",
-   "description": "His most consequential political act, and a case study in a conservative carrying a reform he distrusted.",
+   "description": "His most consequential political act, carried against his own king and party's hardliners.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Coat_of_Arms_of_the_United_Kingdom_%281816-1837%29.svg/60px-Coat_of_Arms_of_the_United_Kingdom_%281816-1837%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q2602689"
-  },
-  {
-   "title": "Reform Act 1832",
-   "url": "https://en.wikipedia.org/wiki/Reform_Act_1832",
-   "lang": "en",
-   "description": "The change he fought hardest against, and the moment his popularity collapsed.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Coat_of_Arms_of_the_United_Kingdom_%281816-1837%29.svg/60px-Coat_of_Arms_of_the_United_Kingdom_%281816-1837%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q1619120",
-   "start": {
-    "raw": "+1832-00-00T00:00:00Z",
-    "year": 1832,
-    "precision": "year",
-    "display": "1832"
-   },
-   "occurredAt": {
-    "raw": "+1832-00-00T00:00:00Z",
-    "year": 1832,
-    "precision": "year",
-    "display": "1832"
-   }
   },
   {
    "title": "Daniel O'Connell",
    "url": "https://en.wikipedia.org/wiki/Daniel_O'Connell",
    "lang": "en",
-   "description": "The Irish leader whose mass campaign forced Wellington's hand and who refused him credit for it.",
+   "description": "The Irish Catholic leader whose by-election win forced emancipation and who then denied Wellington any credit for it.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Daniel_O%27Connell.png/60px-Daniel_O%27Connell.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q314917",
    "start": {
@@ -1626,10 +1602,30 @@
    }
   },
   {
+   "title": "Reform Act 1832",
+   "url": "https://en.wikipedia.org/wiki/Reform_Act_1832",
+   "lang": "en",
+   "description": "The measure he fought and lost against, which turned public opinion violently against him.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Coat_of_Arms_of_the_United_Kingdom_%281816-1837%29.svg/60px-Coat_of_Arms_of_the_United_Kingdom_%281816-1837%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q1619120",
+   "start": {
+    "raw": "+1832-00-00T00:00:00Z",
+    "year": 1832,
+    "precision": "year",
+    "display": "1832"
+   },
+   "occurredAt": {
+    "raw": "+1832-00-00T00:00:00Z",
+    "year": 1832,
+    "precision": "year",
+    "display": "1832"
+   }
+  },
+  {
    "title": "Battle of Assaye",
    "url": "https://en.wikipedia.org/wiki/Battle_of_Assaye",
    "lang": "en",
-   "description": "His own most difficult early victory, in India, and the foundation of his command experience.",
+   "description": "His self-described hardest-fought victory in India, made before he ever faced the French in Europe.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Battle_of_Assaye.jpeg/60px-Battle_of_Assaye.jpeg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q2095678",
    "start": {
@@ -1649,48 +1645,48 @@
    "title": "Apsley House",
    "url": "https://en.wikipedia.org/wiki/Apsley_House",
    "lang": "en",
-   "description": "His London home, target of reform rioters and the origin of the iron shutters behind the \"Iron Duke\" nickname.",
+   "description": "His London home, target of reform riots, and the origin of the 'Iron Duke' nickname via its metal shutters.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Apsley_House_1.JPG/60px-Apsley_House_1.JPG?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q622206"
   },
   {
-   "title": "Gebhard Leberecht von Blücher",
-   "url": "https://en.wikipedia.org/wiki/Gebhard_Leberecht_von_Bl%C3%BCcher",
+   "title": "Tipu Sultan",
+   "url": "https://en.wikipedia.org/wiki/Tipu_Sultan",
    "lang": "en",
-   "description": "The Prussian commander without whose intervention Waterloo might have gone differently.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Field_Marshal_Prince_von_Blucher.jpg/60px-Field_Marshal_Prince_von_Blucher.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q153522",
+   "description": "The ruler of Mysore whose rocket-armed forces Wellesley fought in his first major campaign.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/TipuSultan1790.jpg/60px-TipuSultan1790.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q10088",
    "start": {
-    "raw": "+1742-12-16T00:00:00Z",
-    "year": 1742,
+    "raw": "+1751-11-20T00:00:00Z",
+    "year": 1751,
     "precision": "day",
-    "display": "16 December 1742"
+    "display": "20 November 1751"
    },
    "end": {
-    "raw": "+1819-09-12T00:00:00Z",
-    "year": 1819,
+    "raw": "+1799-05-04T00:00:00Z",
+    "year": 1799,
     "precision": "day",
-    "display": "12 September 1819"
+    "display": "4 May 1799"
    }
   }
  ],
  "coverage": {
   "total": 11,
-  "verified": 10,
-  "coverage": 0.9090909090909091,
+  "verified": 11,
+  "coverage": 1,
   "byMethod": {
    "exact": 11,
    "fuzzy": 0,
    "none": 0
   }
  },
- "generatedAt": "2026-09-12T12:02:50.020Z",
+ "generatedAt": "2026-09-12T12:22:54.796Z",
  "model": "claude-opus-5",
  "usage": {
   "input": 45274,
-  "output": 5100,
+  "output": 5299,
   "cacheWrite": 0,
   "cacheRead": 4785,
-  "usd": 0.3562625
+  "usd": 0.3612375
  }
 }

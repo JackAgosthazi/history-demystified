@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-12T12:07:02.388Z",
+ "generatedAt": "2026-09-12T12:28:06.545Z",
  "aliases": {
   "napoleon": "Q517",
   "cleopatra": "Q635",
@@ -13,7 +13,8 @@
   "edward iii of england": "Q129247",
   "edward iii": "Q129247",
   "french revolution": "Q6534",
-  "joan of arc": "Q7226"
+  "joan of arc": "Q7226",
+  "meiji restoration": "Q8707"
  },
  "entries": [
   {
@@ -21,7 +22,7 @@
    "title": "Napoleon",
    "type": "person",
    "description": "French military leader, French Emperor 1804–1814 and again in 1815 (1769–1821)",
-   "coverage": 0.9090909090909091
+   "coverage": 1
   },
   {
    "qid": "Q635",
@@ -35,7 +36,7 @@
    "title": "Hundred Years' War",
    "type": "conflict",
    "description": "series of conflicts and wars between England and France between 1337 and 1453",
-   "coverage": 0.7272727272727273
+   "coverage": 0.9090909090909091
   },
   {
    "qid": "Q48314",
@@ -56,41 +57,48 @@
    "title": "Cuban Missile Crisis",
    "type": "conflict",
    "description": "October 1962 confrontation between the Soviet Union, Cuba and the United States",
-   "coverage": 0.7272727272727273
+   "coverage": 0.8181818181818182
   },
   {
    "qid": "Q4692",
    "title": "Renaissance",
    "type": "period",
    "description": "cultural movement that spanned the period roughly from the 14th to the 17th century",
-   "coverage": 1
+   "coverage": 0.8181818181818182
   },
   {
    "qid": "Q131691",
    "title": "Arthur Wellesley, 1st Duke of Wellington",
    "type": "person",
    "description": "British Field Marshal, Prime Minister of the United Kingdom, 1828–1830, 1834 (1769-1852)",
-   "coverage": 0.9090909090909091
+   "coverage": 1
   },
   {
    "qid": "Q129247",
    "title": "Edward III",
    "type": "person",
    "description": "King of England from 1327 to 1377",
-   "coverage": 0.9090909090909091
+   "coverage": 1
   },
   {
    "qid": "Q6534",
    "title": "French Revolution",
    "type": "event",
    "description": "revolution in France from 1789 to 1799",
-   "coverage": 0.9090909090909091
+   "coverage": 0.875
   },
   {
    "qid": "Q7226",
    "title": "Joan of Arc",
    "type": "person",
    "description": "French folk heroine (1412–1431), military leader who crowned Charles VII and Roman Catholic saint, canonized 500 years after her death",
+   "coverage": 0.9090909090909091
+  },
+  {
+   "qid": "Q8707",
+   "title": "Meiji Restoration",
+   "type": "event",
+   "description": "reform restoring the imperial rule in Japan in the last third of the 19th century",
    "coverage": 0.9090909090909091
   }
  ]

@@ -132,7 +132,14 @@ export function ComparisonChart({
                               textAlign: 'right',
                               maxWidth: `${left}%`,
                             }
-                          : { left: 0, paddingLeft: '0.4rem', maxWidth: '100%' }
+                          : {
+                              left: `${left}%`,
+                              marginLeft: '0.25rem',
+                              maxWidth: '94%',
+                              padding: '0 0.25rem',
+                              borderRadius: '0.2rem',
+                              background: 'color-mix(in srgb, var(--paper) 88%, transparent)',
+                            }
                     }
                   >
                     {row.start.display}

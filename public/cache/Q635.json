@@ -582,12 +582,12 @@
    "truncated": false
   }
  ],
- "summary": "Cleopatra VII was the last ruler of the Ptolemaic Kingdom, the Greek-speaking dynasty that governed Egypt for roughly three centuries after Alexander the Great's conquest, and she reigned from 51 to 30 BC [S1]. Her family was Macedonian Greek, descended from Ptolemy I Soter, one of Alexander's generals; they were crowned as pharaohs but lived in Alexandria, spoke Greek and generally refused to learn Egyptian — Cleopatra was the first Ptolemaic ruler known to have learned the native language [S7]. She is remembered mainly for her alliances and affairs with the two most powerful Romans of her day, Julius Caesar and Mark Antony, and for her death after defeat by Caesar's heir Octavian [S4]. After she died, Egypt became a Roman province, which is conventionally taken to mark the end of the Hellenistic age begun with Alexander's death in 323 BC [S1].\n\nEgypt was already a client state leaning on Rome before she took the throne: her father Ptolemy XII bought Roman protection with gifts and loans, went bankrupt, and was restored by a Roman invasion in 55 BC, leaving his heirs his debts [S8]. Cleopatra began ruling with her younger brother Ptolemy XIII, quarrelled with him, and was fighting a civil war when Caesar arrived in Alexandria chasing his defeated rival Pompey — whom Ptolemy XIII had already had murdered [S1]. Caesar backed Cleopatra, her brother drowned in battle, and she bore Caesar a son, Caesarion [S1]. She later allied with Mark Antony, had three children by him, and funded his eastern wars; Octavian cast their arrangements as treason, declared war on her, and after the naval defeat at Actium in 31 BC and the invasion of Egypt, Antony killed himself and Cleopatra reportedly did the same rather than be paraded in a Roman triumph [S1].",
- "whyItMatters": "Her defeat ended the Ptolemaic dynasty's rule and turned Egypt into a Roman province [S4]. Almost everything written about her in Rome was hostile: roughly fifty ancient Roman historical works mention her, mostly in brief and coloured by propaganda about her personal failings, and Augustan poets such as Virgil, Horace and Ovid repeated the regime's negative view [S6]. That image hardened into the seductress of later literature, though she is known to have had only two sexual partners, Caesar and Antony, and Plutarch described her as more remarkable for personality and wit than for beauty [S6]. Her own voice survives mainly through coins and papyri: she was the only Ptolemaic queen to issue coinage in her own name, and the first foreign queen whose image appeared on Roman currency [S6].",
+ "summary": "Cleopatra VII was the last ruler of the Ptolemaic Kingdom, a Greek-speaking dynasty that had governed Egypt since one of Alexander the Great's Macedonian generals, Ptolemy I Soter, took it over after Alexander's death in 323 BC [S1]. She reigned from 51 to 30 BC and was the last active Hellenistic pharaoh; after she died Egypt became a province of the Roman Empire [S1]. She is remembered above all for her relationships with two of the most powerful Romans of the age, Julius Caesar and Mark Antony, with whom she had children [S3]. She was also unusual within her own family: her first language was Koine Greek, and she is the only Ptolemaic ruler known to have learned the Egyptian language, among several others [S1].\n\nEgypt in her lifetime was a rich client state that Rome could bully and had legal pretexts to annex outright [S7]. She came to the throne alongside her younger brother Ptolemy XIII, quarrelled with him, and ended up in a civil war that drew in Caesar, who was chasing his defeated rival Pompey into Egypt [S1]. Caesar's intervention left her in power; after his assassination she backed Antony, who came to depend on her money and troops for his eastern wars [S1]. Caesar's heir Octavian cast Antony's grants of territory to Cleopatra's children as treason, declared war on Cleopatra, and beat their fleet at Actium in 31 BC [S1]. Antony killed himself when Octavian invaded Egypt; Cleopatra reportedly killed herself too, probably by poison, to avoid being paraded through Rome in a victory procession [S1]. Almost everything written about her afterwards came from the winning side: Roman historiography and Latin poetry produced a generally critical view that carried into medieval and Renaissance literature [S1].",
+ "whyItMatters": "Her defeat completed Rome's conquest of Egypt and ended both pharaonic Egypt and the Hellenistic age [S3]. She was the only Ptolemaic queen to issue coins in her own name, and the first foreign queen whose image appeared on Roman currency [S6]. Her surviving children were raised in Rome by Octavian's sister, and her daughter Cleopatra Selene II was later installed with her husband Juba II as a ruler of Mauretania, where she imported scholars and artists from her mother's Alexandrian court [S6]. The record of her is badly one-sided: roughly fifty ancient Roman works mention her, mostly in brief and often repeating Augustan propaganda about her personal failings, while her own coins and some Egyptian papyri offer only a thin counterweight [S6].",
  "takeaways": [
   {
    "id": "t0",
-   "text": "Cleopatra was the last ruler of a Greek-speaking dynasty that had governed Egypt since Alexander the Great's generals divided his empire; she reigned from 51 to 30 BC.",
+   "text": "Cleopatra was the ruler of Egypt from 51 to 30 BC and the last effective monarch of the Greek-descended line of kings who had governed Egypt since the death of Alexander the Great.",
    "sourceId": "S1",
    "quote": "was Queen of the Ptolemaic Kingdom of Egypt from 51 to 30 BC, and the last active Hellenistic pharaoh",
    "verification": {
@@ -601,7 +601,7 @@
   },
   {
    "id": "t1",
-   "text": "Her death ended Egypt's independence: the country became a Roman province, closing the Hellenistic age that had begun with Alexander's death in 323 BC.",
+   "text": "After Cleopatra's death Egypt was absorbed into the Roman Empire as a province, which is conventionally taken as the end of the Hellenistic age that began when Alexander the Great died in 323 BC.",
    "sourceId": "S1",
    "quote": "After her death, Egypt became a province of the Roman Empire, marking the end of the Hellenistic period, which had begun with the death of Alexander in 323 BC.",
    "verification": {
@@ -615,7 +615,7 @@
   },
   {
    "id": "t2",
-   "text": "Although the Ptolemies were Macedonian Greeks who ruled Egypt for three centuries without learning the local tongue, Cleopatra was the first of them known to have learned Egyptian.",
+   "text": "Cleopatra was not ethnically Egyptian: her dynasty was Macedonian Greek and refused to learn the local language, and she was the first of her line known to have learned Egyptian.",
    "sourceId": "S7",
    "quote": "In contrast, Cleopatra could speak multiple languages by adulthood and was the first Ptolemaic ruler known to have learned the Egyptian language.",
    "verification": {
@@ -629,21 +629,22 @@
   },
   {
    "id": "t3",
-   "text": "Despite a reputation as a serial seductress, only two sexual partners are known for her: Julius Caesar and Mark Antony, the two most powerful Romans of her day.",
-   "sourceId": "S6",
-   "quote": "she had only two known sexual partners, Caesar and Antony, the two most prominent Romans of the time period, who were most likely to ensure the survival of her dynasty",
+   "text": "She secured her throne by attaching herself to the two most powerful Roman men of her lifetime in turn: first Julius Caesar, and after his murder, Mark Antony.",
+   "sourceId": "S4",
+   "quote": "Zwar gewann sie die beiden mächtigsten Römer ihrer Zeit, zuerst Gaius Iulius Caesar und nach dessen Ermordung Marcus Antonius, zu Geliebten",
+   "quoteTranslation": "She did win over the two most powerful Romans of her time, first Gaius Julius Caesar and, after his murder, Marcus Antonius, as lovers",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Cleopatra#Legacy:~:text=she%20had%20only%20two%20known%20sexual,ensure%20the%20survival%20of%20her%20dynasty",
-    "sourceTitle": "Cleopatra",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Cleopatra#Legacy"
+    "citationUrl": "https://de.wikipedia.org/wiki/Kleopatra_VII.#:~:text=Zwar%20gewann%20sie%20die%20beiden%20m%C3%A4chtigsten,dessen%20Ermordung%20Marcus%20Antonius%2C%20zu%20Geliebten",
+    "sourceTitle": "Kleopatra VII.",
+    "sourceUrl": "https://de.wikipedia.org/wiki/Kleopatra_VII."
    }
   },
   {
    "id": "t4",
-   "text": "She and Antony lost a naval battle at Actium in 31 BC to Caesar's heir Octavian, who then invaded Egypt; Antony killed himself after his defeat there.",
+   "text": "Her reign ended when Octavian, Caesar's heir, beat her and Antony's fleet at the sea battle of Actium and then invaded Egypt; Antony killed himself and she followed.",
    "sourceId": "S1",
    "quote": "After defeating Antony and Cleopatra's naval fleet at the 31 BC Battle of Actium, Octavian's forces invaded Egypt in 30 BC and defeated Antony, who committed suicide.",
    "verification": {
@@ -657,41 +658,41 @@
   },
   {
    "id": "t5",
-   "text": "She governed as an absolute monarch and sole lawgiver, ruling Cyprus as well as Egypt.",
-   "sourceId": "S10",
-   "quote": "Following the tradition of Macedonian rulers, Cleopatra ruled Egypt and other territories such as Cyprus as an absolute monarch, serving as the sole lawgiver of her kingdom.",
+   "text": "Almost everything written about her in antiquity came from the Roman side and was shaped by the propaganda of the man who defeated her.",
+   "sourceId": "S6",
+   "quote": "these often include only terse accounts of the Battle of Actium, her suicide, and Augustan propaganda about her personal deficiencies",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Cleopatra#Cleopatra's_kingdom_and_role_as_a_monarch:~:text=Following%20the%20tradition%20of%20Macedonian%20rulers%2C,the%20sole%20lawgiver%20of%20her%20kingdom.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cleopatra#Legacy:~:text=these%20often%20include%20only%20terse%20accounts,Augustan%20propaganda%20about%20her%20personal%20deficiencies",
     "sourceTitle": "Cleopatra",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Cleopatra#Cleopatra's_kingdom_and_role_as_a_monarch"
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cleopatra#Legacy"
    }
   },
   {
    "id": "t6",
-   "text": "Almost everything written about her in antiquity came from the Roman side, and produced a hostile portrait that shaped medieval and Renaissance writing about her.",
-   "sourceId": "S1",
-   "quote": "Roman historiography and Latin poetry produced a generally critical view of the queen that pervaded later Medieval and Renaissance literature.",
+   "text": "She governed as an absolute ruler and sole lawmaker over Egypt and other territories such as the island of Cyprus, rather than as a figurehead.",
+   "sourceId": "S10",
+   "quote": "Cleopatra ruled Egypt and other territories such as Cyprus as an absolute monarch, serving as the sole lawgiver of her kingdom.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Cleopatra#:~:text=Roman%20historiography%20and%20Latin%20poetry%20produced,pervaded%20later%20Medieval%20and%20Renaissance%20literature.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cleopatra#Cleopatra's_kingdom_and_role_as_a_monarch:~:text=Cleopatra%20ruled%20Egypt%20and%20other%20territories,the%20sole%20lawgiver%20of%20her%20kingdom.",
     "sourceTitle": "Cleopatra",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Cleopatra"
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cleopatra#Cleopatra's_kingdom_and_role_as_a_monarch"
    }
   }
  ],
  "perspectives": [
   {
-   "label": "Sceptical minimalism (Ronald Syme)",
+   "label": "Minimising reading (Ronald Syme)",
    "stance": "A marginal figure inflated by Octavian's propaganda",
-   "body": "On this reading Cleopatra mattered far less than her fame suggests, and her prominence is an artefact of the war of words Octavian waged against Antony. Her significance to Caesar in particular is downplayed.",
+   "body": "On this view Cleopatra mattered little to Caesar's plans, and her prominence in the record is an artefact of the war of words Octavian waged against Antony. It treats her fame as a by-product of Roman politics rather than evidence of her own weight.",
    "evidence": {
     "id": "p0",
-    "text": "One historian argued that Cleopatra mattered little to Caesar and that Octavian's propaganda exaggerated her importance.",
+    "text": "One historian argued that Cleopatra was of slight importance to Caesar and that Octavian's propaganda exaggerated her significance.",
     "sourceId": "S6",
     "quote": "the historian Ronald Syme asserted that she was of little importance to Caesar and that the propaganda of Octavian magnified her importance to an excessive degree",
     "verification": {
@@ -705,15 +706,15 @@
    }
   },
   {
-   "label": "German-language framing",
-   "stance": "Her beauty myth obscured her political skill",
-   "body": "This account stresses that later retellings flattened her into a seductive beauty. The complaint is that her competence and strategy as a ruler went unmentioned in the process.",
+   "label": "German-language treatment",
+   "stance": "A capable strategist obscured by the seductress story",
+   "body": "This reading holds that retellings have flattened her into a beautiful seducer while ignoring how effective and calculating she was as a head of state. It inverts the ancient emphasis rather than simply repeating it.",
    "evidence": {
     "id": "p1",
-    "text": "Later narratives frequently reduced Cleopatra to her supposed beauty and imputed great powers of seduction to her.",
+    "text": "Later retellings reduced Cleopatra to her supposed beauty and powers of seduction without mentioning how successful and strategic she was in governing.",
     "sourceId": "S4",
-    "quote": "Erzählungen und Weiterführungen reduzierten Königin Kleopatra oft auf ihre besagte Schönheit und unterstellten ihr eine hohe Verführungskunst",
-    "quoteTranslation": "Narratives and their continuations often reduced Queen Cleopatra to her aforementioned beauty and attributed great powers of seduction to her.",
+    "quote": "Königin Kleopatra oft auf ihre besagte Schönheit und unterstellten ihr eine hohe Verführungskunst, ohne zu erwähnen, wie erfolgreich und strategisch sie in ihrer Regierung war",
+    "quoteTranslation": "Queen Cleopatra [was reduced] often to her supposed beauty and was credited with great powers of seduction, without mentioning how successful and strategic she was in her government",
     "verification": {
      "status": "unverified",
      "method": "exact",
@@ -725,39 +726,39 @@
    }
   },
   {
-   "label": "Spanish-language framing",
-   "stance": "A working professional, not just a queen-lover",
-   "body": "Here she is introduced by her competences rather than her liaisons. The opening lists technical and intellectual roles alongside her sovereignty.",
+   "label": "French-language treatment",
+   "stance": "The legend actively obstructs objective assessment",
+   "body": "Here the romance surrounding her death is itself the problem: it accumulated during her lifetime and grew afterwards, and it gets in the way of any sober account. The stress falls on the difficulty of knowing her at all.",
    "evidence": {
     "id": "p2",
-    "text": "She is described as a diplomat, a naval commander and a linguist.",
-    "sourceId": "S5",
-    "quote": "También fue diplomática, comandante naval, lingüista",
-    "quoteTranslation": "She was also a diplomat, a naval commander, a linguist",
+    "text": "The romantic aura around her tragic death can hinder an objective approach to her.",
+    "sourceId": "S3",
+    "quote": "Sa mort tragique n'a fait qu'ajouter au romanesque qui l'entoure et peut, pour cette raison, nuire à une approche objective",
+    "quoteTranslation": "Her tragic death only added to the romance surrounding her and can, for this reason, harm an objective approach",
     "verification": {
      "status": "verified",
      "method": "exact",
      "score": 1,
-     "citationUrl": "https://es.wikipedia.org/wiki/Cleopatra#:~:text=Tambi%C3%A9n%20fue%20diplom%C3%A1tica%2C%20comandante%20naval%2C%20ling%C3%BCista",
-     "sourceTitle": "Cleopatra",
-     "sourceUrl": "https://es.wikipedia.org/wiki/Cleopatra"
+     "citationUrl": "https://fr.wikipedia.org/wiki/Cl%C3%A9op%C3%A2tre_VII#:~:text=Sa%20mort%20tragique%20n'a%20fait%20qu'ajouter,raison%2C%20nuire%20%C3%A0%20une%20approche%20objective",
+     "sourceTitle": "Cléopâtre VII",
+     "sourceUrl": "https://fr.wikipedia.org/wiki/Cl%C3%A9op%C3%A2tre_VII"
     }
    }
   },
   {
    "label": "Debate over her ancestry",
-   "stance": "Purely Greek-Macedonian, or partly Egyptian?",
-   "body": "Most scholars hold that the Ptolemies did not mix with native Egyptians, so Cleopatra had no Egyptian blood. A minority hypothesis, not generally accepted, proposes an Egyptian-descended mother from a priestly family at Memphis.",
+   "stance": "Purely Greek descent versus possible Egyptian mother",
+   "body": "One line of scholarship holds that the Ptolemies effectively never mixed with native Egyptians, making her Greek by descent and self-description. Another has floated the idea that her unidentified mother came from an Egyptian priestly family in Memphis, a hypothesis that has not won general acceptance.",
    "evidence": {
     "id": "p3",
-    "text": "One scholar has speculated that Cleopatra's mother may have been a half-Macedonian-Greek, half-Egyptian woman from Memphis.",
+    "text": "It has been argued that only one Egyptian mistress of a Ptolemy is known and no Egyptian wife of a Ptolemy at all.",
     "sourceId": "S9",
-    "quote": "Duane W. Roller speculates that Cleopatra could have been the daughter of a theoretical half-Macedonian-Greek, half-Egyptian woman from Memphis in northern Egypt",
+    "quote": "Michael Grant asserts that there is only one known Egyptian mistress of a Ptolemy and no known Egyptian wife of a Ptolemy",
     "verification": {
      "status": "verified",
      "method": "exact",
      "score": 1,
-     "citationUrl": "https://en.wikipedia.org/wiki/Cleopatra#Ancestry:~:text=Duane%20W.%20Roller%20speculates%20that%20Cleopatra,woman%20from%20Memphis%20in%20northern%20Egypt",
+     "citationUrl": "https://en.wikipedia.org/wiki/Cleopatra#Ancestry:~:text=Michael%20Grant%20asserts%20that%20there%20is,known%20Egyptian%20wife%20of%20a%20Ptolemy",
      "sourceTitle": "Cleopatra",
      "sourceUrl": "https://en.wikipedia.org/wiki/Cleopatra#Ancestry"
     }
@@ -767,7 +768,7 @@
  "claims": [
   {
    "id": "t0",
-   "text": "Cleopatra was the last ruler of a Greek-speaking dynasty that had governed Egypt since Alexander the Great's generals divided his empire; she reigned from 51 to 30 BC.",
+   "text": "Cleopatra was the ruler of Egypt from 51 to 30 BC and the last effective monarch of the Greek-descended line of kings who had governed Egypt since the death of Alexander the Great.",
    "sourceId": "S1",
    "quote": "was Queen of the Ptolemaic Kingdom of Egypt from 51 to 30 BC, and the last active Hellenistic pharaoh",
    "verification": {
@@ -781,7 +782,7 @@
   },
   {
    "id": "t1",
-   "text": "Her death ended Egypt's independence: the country became a Roman province, closing the Hellenistic age that had begun with Alexander's death in 323 BC.",
+   "text": "After Cleopatra's death Egypt was absorbed into the Roman Empire as a province, which is conventionally taken as the end of the Hellenistic age that began when Alexander the Great died in 323 BC.",
    "sourceId": "S1",
    "quote": "After her death, Egypt became a province of the Roman Empire, marking the end of the Hellenistic period, which had begun with the death of Alexander in 323 BC.",
    "verification": {
@@ -795,7 +796,7 @@
   },
   {
    "id": "t2",
-   "text": "Although the Ptolemies were Macedonian Greeks who ruled Egypt for three centuries without learning the local tongue, Cleopatra was the first of them known to have learned Egyptian.",
+   "text": "Cleopatra was not ethnically Egyptian: her dynasty was Macedonian Greek and refused to learn the local language, and she was the first of her line known to have learned Egyptian.",
    "sourceId": "S7",
    "quote": "In contrast, Cleopatra could speak multiple languages by adulthood and was the first Ptolemaic ruler known to have learned the Egyptian language.",
    "verification": {
@@ -809,21 +810,22 @@
   },
   {
    "id": "t3",
-   "text": "Despite a reputation as a serial seductress, only two sexual partners are known for her: Julius Caesar and Mark Antony, the two most powerful Romans of her day.",
-   "sourceId": "S6",
-   "quote": "she had only two known sexual partners, Caesar and Antony, the two most prominent Romans of the time period, who were most likely to ensure the survival of her dynasty",
+   "text": "She secured her throne by attaching herself to the two most powerful Roman men of her lifetime in turn: first Julius Caesar, and after his murder, Mark Antony.",
+   "sourceId": "S4",
+   "quote": "Zwar gewann sie die beiden mächtigsten Römer ihrer Zeit, zuerst Gaius Iulius Caesar und nach dessen Ermordung Marcus Antonius, zu Geliebten",
+   "quoteTranslation": "She did win over the two most powerful Romans of her time, first Gaius Julius Caesar and, after his murder, Marcus Antonius, as lovers",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Cleopatra#Legacy:~:text=she%20had%20only%20two%20known%20sexual,ensure%20the%20survival%20of%20her%20dynasty",
-    "sourceTitle": "Cleopatra",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Cleopatra#Legacy"
+    "citationUrl": "https://de.wikipedia.org/wiki/Kleopatra_VII.#:~:text=Zwar%20gewann%20sie%20die%20beiden%20m%C3%A4chtigsten,dessen%20Ermordung%20Marcus%20Antonius%2C%20zu%20Geliebten",
+    "sourceTitle": "Kleopatra VII.",
+    "sourceUrl": "https://de.wikipedia.org/wiki/Kleopatra_VII."
    }
   },
   {
    "id": "t4",
-   "text": "She and Antony lost a naval battle at Actium in 31 BC to Caesar's heir Octavian, who then invaded Egypt; Antony killed himself after his defeat there.",
+   "text": "Her reign ended when Octavian, Caesar's heir, beat her and Antony's fleet at the sea battle of Actium and then invaded Egypt; Antony killed himself and she followed.",
    "sourceId": "S1",
    "quote": "After defeating Antony and Cleopatra's naval fleet at the 31 BC Battle of Actium, Octavian's forces invaded Egypt in 30 BC and defeated Antony, who committed suicide.",
    "verification": {
@@ -837,35 +839,35 @@
   },
   {
    "id": "t5",
-   "text": "She governed as an absolute monarch and sole lawgiver, ruling Cyprus as well as Egypt.",
-   "sourceId": "S10",
-   "quote": "Following the tradition of Macedonian rulers, Cleopatra ruled Egypt and other territories such as Cyprus as an absolute monarch, serving as the sole lawgiver of her kingdom.",
+   "text": "Almost everything written about her in antiquity came from the Roman side and was shaped by the propaganda of the man who defeated her.",
+   "sourceId": "S6",
+   "quote": "these often include only terse accounts of the Battle of Actium, her suicide, and Augustan propaganda about her personal deficiencies",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Cleopatra#Cleopatra's_kingdom_and_role_as_a_monarch:~:text=Following%20the%20tradition%20of%20Macedonian%20rulers%2C,the%20sole%20lawgiver%20of%20her%20kingdom.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cleopatra#Legacy:~:text=these%20often%20include%20only%20terse%20accounts,Augustan%20propaganda%20about%20her%20personal%20deficiencies",
+    "sourceTitle": "Cleopatra",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cleopatra#Legacy"
+   }
+  },
+  {
+   "id": "t6",
+   "text": "She governed as an absolute ruler and sole lawmaker over Egypt and other territories such as the island of Cyprus, rather than as a figurehead.",
+   "sourceId": "S10",
+   "quote": "Cleopatra ruled Egypt and other territories such as Cyprus as an absolute monarch, serving as the sole lawgiver of her kingdom.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Cleopatra#Cleopatra's_kingdom_and_role_as_a_monarch:~:text=Cleopatra%20ruled%20Egypt%20and%20other%20territories,the%20sole%20lawgiver%20of%20her%20kingdom.",
     "sourceTitle": "Cleopatra",
     "sourceUrl": "https://en.wikipedia.org/wiki/Cleopatra#Cleopatra's_kingdom_and_role_as_a_monarch"
    }
   },
   {
-   "id": "t6",
-   "text": "Almost everything written about her in antiquity came from the Roman side, and produced a hostile portrait that shaped medieval and Renaissance writing about her.",
-   "sourceId": "S1",
-   "quote": "Roman historiography and Latin poetry produced a generally critical view of the queen that pervaded later Medieval and Renaissance literature.",
-   "verification": {
-    "status": "verified",
-    "method": "exact",
-    "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Cleopatra#:~:text=Roman%20historiography%20and%20Latin%20poetry%20produced,pervaded%20later%20Medieval%20and%20Renaissance%20literature.",
-    "sourceTitle": "Cleopatra",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Cleopatra"
-   }
-  },
-  {
    "id": "p0",
-   "text": "One historian argued that Cleopatra mattered little to Caesar and that Octavian's propaganda exaggerated her importance.",
+   "text": "One historian argued that Cleopatra was of slight importance to Caesar and that Octavian's propaganda exaggerated her significance.",
    "sourceId": "S6",
    "quote": "the historian Ronald Syme asserted that she was of little importance to Caesar and that the propaganda of Octavian magnified her importance to an excessive degree",
    "verification": {
@@ -879,10 +881,10 @@
   },
   {
    "id": "p1",
-   "text": "Later narratives frequently reduced Cleopatra to her supposed beauty and imputed great powers of seduction to her.",
+   "text": "Later retellings reduced Cleopatra to her supposed beauty and powers of seduction without mentioning how successful and strategic she was in governing.",
    "sourceId": "S4",
-   "quote": "Erzählungen und Weiterführungen reduzierten Königin Kleopatra oft auf ihre besagte Schönheit und unterstellten ihr eine hohe Verführungskunst",
-   "quoteTranslation": "Narratives and their continuations often reduced Queen Cleopatra to her aforementioned beauty and attributed great powers of seduction to her.",
+   "quote": "Königin Kleopatra oft auf ihre besagte Schönheit und unterstellten ihr eine hohe Verführungskunst, ohne zu erwähnen, wie erfolgreich und strategisch sie in ihrer Regierung war",
+   "quoteTranslation": "Queen Cleopatra [was reduced] often to her supposed beauty and was credited with great powers of seduction, without mentioning how successful and strategic she was in her government",
    "verification": {
     "status": "unverified",
     "method": "exact",
@@ -894,29 +896,29 @@
   },
   {
    "id": "p2",
-   "text": "She is described as a diplomat, a naval commander and a linguist.",
-   "sourceId": "S5",
-   "quote": "También fue diplomática, comandante naval, lingüista",
-   "quoteTranslation": "She was also a diplomat, a naval commander, a linguist",
+   "text": "The romantic aura around her tragic death can hinder an objective approach to her.",
+   "sourceId": "S3",
+   "quote": "Sa mort tragique n'a fait qu'ajouter au romanesque qui l'entoure et peut, pour cette raison, nuire à une approche objective",
+   "quoteTranslation": "Her tragic death only added to the romance surrounding her and can, for this reason, harm an objective approach",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://es.wikipedia.org/wiki/Cleopatra#:~:text=Tambi%C3%A9n%20fue%20diplom%C3%A1tica%2C%20comandante%20naval%2C%20ling%C3%BCista",
-    "sourceTitle": "Cleopatra",
-    "sourceUrl": "https://es.wikipedia.org/wiki/Cleopatra"
+    "citationUrl": "https://fr.wikipedia.org/wiki/Cl%C3%A9op%C3%A2tre_VII#:~:text=Sa%20mort%20tragique%20n'a%20fait%20qu'ajouter,raison%2C%20nuire%20%C3%A0%20une%20approche%20objective",
+    "sourceTitle": "Cléopâtre VII",
+    "sourceUrl": "https://fr.wikipedia.org/wiki/Cl%C3%A9op%C3%A2tre_VII"
    }
   },
   {
    "id": "p3",
-   "text": "One scholar has speculated that Cleopatra's mother may have been a half-Macedonian-Greek, half-Egyptian woman from Memphis.",
+   "text": "It has been argued that only one Egyptian mistress of a Ptolemy is known and no Egyptian wife of a Ptolemy at all.",
    "sourceId": "S9",
-   "quote": "Duane W. Roller speculates that Cleopatra could have been the daughter of a theoretical half-Macedonian-Greek, half-Egyptian woman from Memphis in northern Egypt",
+   "quote": "Michael Grant asserts that there is only one known Egyptian mistress of a Ptolemy and no known Egyptian wife of a Ptolemy",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Cleopatra#Ancestry:~:text=Duane%20W.%20Roller%20speculates%20that%20Cleopatra,woman%20from%20Memphis%20in%20northern%20Egypt",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cleopatra#Ancestry:~:text=Michael%20Grant%20asserts%20that%20there%20is,known%20Egyptian%20wife%20of%20a%20Ptolemy",
     "sourceTitle": "Cleopatra",
     "sourceUrl": "https://en.wikipedia.org/wiki/Cleopatra#Ancestry"
    }
@@ -946,7 +948,7 @@
     }
    },
    "relationship": "Roman patron and lover",
-   "note": "He arrived in Alexandria chasing his rival Pompey, settled the Ptolemaic succession dispute in her favour, and fathered her son Caesarion."
+   "note": "Caesar's arrival in Alexandria settled the civil war with her brother in her favour and produced her son Caesarion."
   },
   {
    "entity": {
@@ -969,8 +971,8 @@
      "display": "30 BC"
     }
    },
-   "relationship": "Lover, ally and co-belligerent",
-   "note": "Their partnership after 41 BC produced three children and tied her fate to his in the Roman civil war that ended at Actium."
+   "relationship": "Partner, ally and co-belligerent",
+   "note": "Her alliance and affair with the Roman triumvir Antony, who relied on her money and ships, tied her fate to his defeat."
   },
   {
    "entity": {
@@ -994,7 +996,7 @@
     }
    },
    "relationship": "Enemy who destroyed her kingdom",
-   "note": "As Octavian he declared war on her, defeated the couple, annexed Egypt, and shaped the hostile version of her that antiquity inherited."
+   "note": "As Octavian he declared war on Cleopatra, won at Actium, invaded Egypt and turned it into a Roman province."
   },
   {
    "entity": {
@@ -1017,8 +1019,8 @@
      "display": "13 January 47 BC"
     }
    },
-   "relationship": "Brother, co-ruler and rival",
-   "note": "Their falling-out turned into civil war; his faction had Pompey murdered and besieged Caesar and Cleopatra in the palace before he drowned in battle."
+   "relationship": "Brother, co-ruler and enemy",
+   "note": "Their falling-out triggered the Egyptian civil war, and his death in battle left her the dominant ruler."
   },
   {
    "entity": {
@@ -1042,7 +1044,7 @@
     }
    },
    "relationship": "Father who named her heir",
-   "note": "His bankruptcy, exile in Rome and debts to Roman financiers set the conditions of her reign before she had begun it."
+   "note": "His bankrupting reliance on Roman money and Roman arms handed Cleopatra both her throne and enormous debts to Rome."
   },
   {
    "entity": {
@@ -1066,53 +1068,96 @@
     }
    },
    "relationship": "Son and nominal successor",
-   "note": "Her child by Caesar, made co-ruler as Ptolemy XV, embodied her claim to link the Ptolemaic line with Rome's most powerful man."
+   "note": "Her son by Caesar was made co-ruler, and his existence made her a direct threat to Caesar's adopted heir Octavian."
   }
  ],
  "comparisons": [
   {
    "entity": {
-    "title": "Augustus",
-    "url": "https://en.wikipedia.org/wiki/Augustus",
+    "title": "Elizabeth I",
+    "url": "https://en.wikipedia.org/wiki/Elizabeth_I",
     "lang": "en",
-    "description": "Roman emperor from 27 BC to AD 14",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Augustus_of_Prima_Porta.jpg/60px-Augustus_of_Prima_Porta.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q1405",
+    "description": "Queen of England and Ireland from 1558 to 1603",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Darnley_stage_3.jpg/60px-Darnley_stage_3.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q7207",
     "start": {
-     "raw": "-0063-09-23T00:00:00Z",
-     "year": -63,
+     "raw": "+1533-09-07T00:00:00Z",
+     "year": 1533,
      "precision": "day",
-     "display": "23 September 63 BC"
+     "display": "7 September 1533"
     },
     "end": {
-     "raw": "+0014-08-19T00:00:00Z",
-     "year": 14,
+     "raw": "+1603-03-24T00:00:00Z",
+     "year": 1603,
      "precision": "day",
-     "display": "19 August 14"
+     "display": "24 March 1603"
     }
    },
-   "angle": "Her conqueror is also the clearest measure of what she was trying to do: build a dynastic power base out of the wreckage of the Roman Republic.",
+   "angle": "A later queen regnant whose reign was likewise read through her relationships with men and her refusal to be subordinate.",
    "similarities": [
-    "Both traded on descent from a famous predecessor to legitimise personal rule",
-    "Both used coin portraits and statues as instruments of political image-making",
-    "Both built their position through the alliances and civil wars of the same decades"
+    "Female sole ruler in a political culture uneasy with women reigning alone",
+    "Reputation heavily shaped by hostile and partisan contemporary writing",
+    "Personal image, dress and portraiture deployed as instruments of rule"
    ],
    "differences": [
-    "He ended his career founding an empire; she ended hers losing a kingdom",
-    "He controlled the surviving narrative, and it was written against her",
-    "He ruled a republic in disguise; she ruled as an openly absolute monarch"
+    "Cleopatra ruled a client state overshadowed by a far greater power",
+    "Cleopatra's dynasty ended with her, and her kingdom was annexed",
+    "Cleopatra had children by foreign statesmen rather than remaining unmarried"
    ],
    "start": {
-    "raw": "-0063-09-23T00:00:00Z",
-    "year": -63,
+    "raw": "+1533-09-07T00:00:00Z",
+    "year": 1533,
     "precision": "day",
-    "display": "23 September 63 BC"
+    "display": "7 September 1533"
    },
    "end": {
-    "raw": "+0014-08-19T00:00:00Z",
-    "year": 14,
+    "raw": "+1603-03-24T00:00:00Z",
+    "year": 1603,
     "precision": "day",
-    "display": "19 August 14"
+    "display": "24 March 1603"
+   }
+  },
+  {
+   "entity": {
+    "title": "Hatshepsut",
+    "url": "https://en.wikipedia.org/wiki/Hatshepsut",
+    "lang": "en",
+    "description": "Pharaoh of Egypt from 1479 to 1458 BC",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Seated_Statue_of_Hatshepsut_MET_Hatshepsut2012.jpg/60px-Seated_Statue_of_Hatshepsut_MET_Hatshepsut2012.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q129234",
+    "start": {
+     "raw": "-1507-00-00T00:00:00Z",
+     "year": -1507,
+     "precision": "year",
+     "display": "1507 BC"
+    },
+    "end": {
+     "raw": "-1458-01-16T00:00:00Z",
+     "year": -1458,
+     "precision": "day",
+     "display": "16 January 1458 BC"
+    }
+   },
+   "angle": "An earlier female ruler of Egypt, useful for seeing how unusual Cleopatra's position was and was not.",
+   "similarities": [
+    "Both governed Egypt as women in a role normally held by men",
+    "Both are known partly through their surviving sculpted images"
+   ],
+   "differences": [
+    "Hatshepsut belonged to a native Egyptian tradition, Cleopatra to a Greek-speaking Macedonian dynasty",
+    "Cleopatra's reign ended in foreign conquest rather than dynastic continuity"
+   ],
+   "start": {
+    "raw": "-1507-00-00T00:00:00Z",
+    "year": -1507,
+    "precision": "year",
+    "display": "1507 BC"
+   },
+   "end": {
+    "raw": "-1458-01-16T00:00:00Z",
+    "year": -1458,
+    "precision": "day",
+    "display": "16 January 1458 BC"
    }
   },
   {
@@ -1136,16 +1181,14 @@
      "display": "10 June 323 BC"
     }
    },
-   "angle": "The Ptolemaic kingdom she inherited existed only because of him, so he sets the frame for what a Greek ruler in Egypt was.",
+   "angle": "The man whose conquests created the Greek-ruled Egypt that Cleopatra inherited and whose death opened the era her death closed.",
    "similarities": [
-    "Both were Macedonian Greeks ruling over non-Greek populations",
-    "Both are connected to Alexandria, the city he founded and where she was born and died",
-    "Both had their images and cults used politically long after their deaths"
+    "Both Macedonian Greeks central to the history of the eastern Mediterranean",
+    "Alexander founded Alexandria, the city where Cleopatra was born, ruled and died"
    ],
    "differences": [
-    "He created the Hellenistic world; her death ended it",
-    "He conquered an empire; she tried to preserve a shrinking one against Rome",
-    "His posthumous reputation was heroic, hers hostile and moralising"
+    "Alexander built an empire by conquest; Cleopatra tried to preserve a shrinking one by diplomacy",
+    "Alexander's death opened the Hellenistic period, Cleopatra's closed it"
    ],
    "start": {
     "raw": "-0356-07-20T00:00:00Z",
@@ -1172,7 +1215,7 @@
     "qid": "Q2320005"
    },
    "relation": "partOf",
-   "note": "She was the last active ruler of this Greek-founded Egyptian monarchy, descended from Alexander's general Ptolemy I Soter.",
+   "note": "The Greek-ruled Egyptian state founded by one of Alexander's generals, of which she was the last effective sovereign.",
    "fromGraph": false
   },
   {
@@ -1203,7 +1246,7 @@
     }
    },
    "relation": "partOf",
-   "note": "Her defeat is conventionally the end point of the era that began with Alexander's death.",
+   "note": "The era of Greek-ruled kingdoms across the eastern Mediterranean that is conventionally closed by her death.",
    "fromGraph": false
   },
   {
@@ -1228,7 +1271,7 @@
     }
    },
    "relation": "participantIn",
-   "note": "The naval defeat of her and Antony's fleet by Octavian led directly to the Roman invasion of Egypt.",
+   "note": "The naval defeat of her and Antony's fleet that made the Roman conquest of Egypt possible.",
    "fromGraph": false
   },
   {
@@ -1259,7 +1302,7 @@
     }
    },
    "relation": "causedBy",
-   "note": "Pompey's flight to Egypt after losing at Pharsalus brought Caesar to Alexandria and into her dynastic quarrel.",
+   "note": "Pompey's flight to Egypt after defeat by Caesar brought Caesar to Alexandria and decided Cleopatra's dynastic quarrel.",
    "fromGraph": false
   },
   {
@@ -1290,73 +1333,67 @@
     }
    },
    "relation": "causes",
-   "note": "Her suicide left Egypt to be absorbed directly into Roman rule.",
+   "note": "Her defeat and death turned the kingdom directly into Roman territory.",
    "fromGraph": false
   },
   {
    "entity": {
-    "title": "Liberators' civil war",
-    "url": "https://en.wikipedia.org/wiki/Liberators'_civil_war",
+    "title": "Cleopatra Selene II",
+    "url": "https://en.wikipedia.org/wiki/Cleopatra_Selene_II",
     "lang": "en",
-    "description": "Roman civil war after Caesar's assassination (43–42 BC)",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Map_Philippi_campaign_42_BC-en.svg/60px-Map_Philippi_campaign_42_BC-en.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q2583092",
+    "description": "Queen of Mauretania, 25 to 5 BC",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Cleopatra_Selene_II.jpg/60px-Cleopatra_Selene_II.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q40058",
     "start": {
-     "raw": "-0043-00-00T00:00:00Z",
-     "year": -43,
-     "precision": "year",
-     "display": "43 BC"
+     "raw": "-0040-12-25T00:00:00Z",
+     "year": -40,
+     "precision": "day",
+     "display": "25 December 40 BC"
     },
     "end": {
-     "raw": "-0042-00-00T00:00:00Z",
-     "year": -42,
+     "raw": "-0005-00-00T00:00:00Z",
+     "year": -5,
      "precision": "year",
-     "display": "42 BC"
-    },
-    "occurredAt": {
-     "raw": "-0043-00-00T00:00:00Z",
-     "year": -43,
-     "precision": "year",
-     "display": "43 BC"
+     "display": "5 BC"
     }
    },
-   "relation": "participantIn",
-   "note": "She backed the Second Triumvirate of Octavian, Antony and Lepidus in the conflict following Caesar's assassination.",
+   "relation": "hasPart",
+   "note": "Her surviving daughter was raised in Rome and later installed as queen of Mauretania, carrying Ptolemaic court culture west.",
    "fromGraph": false
   }
  ],
  "glossary": [
   {
    "term": "Ptolemaic dynasty",
-   "definition": "The line of Macedonian Greek rulers of Egypt founded by Ptolemy I Soter, a general and companion of Alexander the Great."
+   "definition": "The line of Macedonian Greek kings and queens who ruled Egypt from the death of Alexander the Great until Cleopatra, descended from Alexander's general Ptolemy I Soter."
   },
   {
-   "term": "Hellenistic period",
-   "definition": "The age of Greek-ruled kingdoms across Egypt and western Asia between Alexander's death in 323 BC and the Roman absorption of those kingdoms."
+   "term": "Hellenistic",
+   "definition": "Describing the period and culture of the Greek-ruled kingdoms that grew out of Alexander the Great's empire after 323 BC."
   },
   {
    "term": "Koine Greek",
-   "definition": "The common form of Greek spoken across the eastern Mediterranean after Alexander; it was Cleopatra's first language."
+   "definition": "The common form of Greek used across the eastern Mediterranean in this era, and Cleopatra's first language."
   },
   {
-   "term": "Client state / client queen",
-   "definition": "A nominally independent kingdom, and its ruler, dependent on Rome's protection and subject to Roman political demands."
+   "term": "Pharaoh",
+   "definition": "The traditional title of the ruler of Egypt; the Ptolemies took it on, being crowned by the Egyptian high priest of Ptah at Memphis."
   },
   {
-   "term": "Gabiniani",
-   "definition": "The largely Germanic and Gallic Roman soldiers left behind to garrison Egypt by the governor Aulus Gabinius, who became a lawless force in Alexandria."
+   "term": "Client queen",
+   "definition": "A monarch who ruled a nominally independent kingdom that was in practice subordinate to Rome."
   },
   {
    "term": "Second Triumvirate",
-   "definition": "The three-man ruling alliance of Octavian, Mark Antony and Marcus Aemilius Lepidus formed after Caesar's assassination."
+   "definition": "The three-man ruling alliance of Octavian, Mark Antony and Marcus Aemilius Lepidus that controlled Rome after Caesar's assassination."
   },
   {
    "term": "Donations of Alexandria",
-   "definition": "The ceremony at which Antony proclaimed his and Cleopatra's children rulers of territories under his authority, which Octavian denounced as treason."
+   "definition": "The public ceremony at which Antony declared his and Cleopatra's children rulers of various territories under his authority, which Octavian cast as treason."
   },
   {
    "term": "Diadem",
-   "definition": "A cloth band worn around the head, the standard Greek symbol of royal status, visible on Cleopatra's coins and sculpted portraits."
+   "definition": "A band worn around the head as the standard mark of Hellenistic royalty, visible on Cleopatra's coins and sculpted portraits."
   }
  ],
  "drilldown": [
@@ -1364,7 +1401,7 @@
    "title": "Battle of Actium",
    "url": "https://en.wikipedia.org/wiki/Battle_of_Actium",
    "lang": "en",
-   "description": "The engagement that decided both her fate and the political shape of the Roman world.",
+   "description": "The engagement that ended the war between Octavian and Antony and sealed Egypt's fate.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Medinaceli_Actium_reliefs_06.jpg/60px-Medinaceli_Actium_reliefs_06.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q160387",
    "start": {
@@ -1384,7 +1421,7 @@
    "title": "Mark Antony",
    "url": "https://en.wikipedia.org/wiki/Mark_Antony",
    "lang": "en",
-   "description": "Her partner in the last decade of her reign and the reason Rome turned on her.",
+   "description": "Her partner in the last decade of her reign; his career explains most of her strategic choices.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Octavian_and_Antony_denarius_%28obverse%29.jpg/60px-Octavian_and_Antony_denarius_%28obverse%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q51673",
    "start": {
@@ -1401,10 +1438,18 @@
    }
   },
   {
+   "title": "Ptolemaic Kingdom",
+   "url": "https://en.wikipedia.org/wiki/Ptolemaic_Kingdom",
+   "lang": "en",
+   "description": "Understanding the Greek dynasty and its sibling marriages makes her family politics intelligible.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Ptolemaic_Kingdom_III-II_century_BC_-_en.svg/60px-Ptolemaic_Kingdom_III-II_century_BC_-_en.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q2320005"
+  },
+  {
    "title": "Caesarion",
    "url": "https://en.wikipedia.org/wiki/Caesarion",
    "lang": "en",
-   "description": "Her son by Caesar, whose existence complicated Octavian's claim to be Caesar's only heir.",
+   "description": "Her son by Caesar, whose claim to Caesar's name made him intolerable to Octavian.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Caesarion_granite_head.jpg/60px-Caesarion_granite_head.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q39589",
    "start": {
@@ -1421,10 +1466,38 @@
    }
   },
   {
+   "title": "Antony and Cleopatra",
+   "url": "https://en.wikipedia.org/wiki/Antony_and_Cleopatra",
+   "lang": "en",
+   "description": "Shakespeare's tragedy is the single most influential shaper of her modern image.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Edwin_Austin_Abbey_Cleopatra_Sooth%2C_la%2C_I%E2%80%99ll_Help_Thus_it_must_be_Act_IV%2C_Scene_IV%2C_Antony_and_Cleopatra_1909.jpg/60px-Edwin_Austin_Abbey_Cleopatra_Sooth%2C_la%2C_I%E2%80%99ll_Help_Thus_it_must_be_Act_IV%2C_Scene_IV%2C_Antony_and_Cleopatra_1909.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q606830"
+  },
+  {
+   "title": "Plutarch",
+   "url": "https://en.wikipedia.org/wiki/Plutarch",
+   "lang": "en",
+   "description": "His Life of Antonius is the fullest surviving ancient account of her life, drawing on eyewitness sources.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Portrait_of_a_philosopher%2C_maybe_Plutarch%2C_2nd_century_BC%2C_AM_Delphi%2C_0135.jpg/60px-Portrait_of_a_philosopher%2C_maybe_Plutarch%2C_2nd_century_BC%2C_AM_Delphi%2C_0135.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q41523",
+   "start": {
+    "raw": "+0040-00-00T00:00:00Z",
+    "year": 40,
+    "precision": "decade",
+    "display": "40s"
+   },
+   "end": {
+    "raw": "+0120-00-00T00:00:00Z",
+    "year": 120,
+    "precision": "year",
+    "display": "120"
+   }
+  },
+  {
    "title": "Cleopatra Selene II",
    "url": "https://en.wikipedia.org/wiki/Cleopatra_Selene_II",
    "lang": "en",
-   "description": "Her surviving daughter, raised in Rome and installed as queen of Mauretania, who carried Ptolemaic culture westward.",
+   "description": "Her daughter's reign in Mauretania is the afterlife of the Ptolemaic court.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Cleopatra_Selene_II.jpg/60px-Cleopatra_Selene_II.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q40058",
    "start": {
@@ -1441,48 +1514,12 @@
    }
   },
   {
-   "title": "Parallel Lives",
-   "url": "https://en.wikipedia.org/wiki/Parallel_Lives",
+   "title": "Library of Alexandria",
+   "url": "https://en.wikipedia.org/wiki/Library_of_Alexandria",
    "lang": "en",
-   "description": "Plutarch's Life of Antonius is the fullest surviving ancient account of her life.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Plutarch%2C_Parallel_Lives%2C_Oxford%2C_MS._Canonici_Greek_93_%28cropped%29.jpg/60px-Plutarch%2C_Parallel_Lives%2C_Oxford%2C_MS._Canonici_Greek_93_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q842337"
-  },
-  {
-   "title": "Ptolemy XII Auletes",
-   "url": "https://en.wikipedia.org/wiki/Ptolemy_XII_Auletes",
-   "lang": "en",
-   "description": "His debts, exile and dependence on Roman money explain the position Cleopatra inherited.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Ptolemy_XII_Auletes_Louvre_Ma3449.jpg/60px-Ptolemy_XII_Auletes_Louvre_Ma3449.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q39991",
-   "start": {
-    "raw": "-0117-01-01T00:00:00Z",
-    "year": -117,
-    "precision": "year",
-    "display": "117 BC"
-   },
-   "end": {
-    "raw": "-0051-02-00T00:00:00Z",
-    "year": -51,
-    "precision": "month",
-    "display": "February 51 BC"
-   }
-  },
-  {
-   "title": "Antony and Cleopatra",
-   "url": "https://en.wikipedia.org/wiki/Antony_and_Cleopatra",
-   "lang": "en",
-   "description": "Shakespeare's tragedy is the single most influential later treatment of her story.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Edwin_Austin_Abbey_Cleopatra_Sooth%2C_la%2C_I%E2%80%99ll_Help_Thus_it_must_be_Act_IV%2C_Scene_IV%2C_Antony_and_Cleopatra_1909.jpg/60px-Edwin_Austin_Abbey_Cleopatra_Sooth%2C_la%2C_I%E2%80%99ll_Help_Thus_it_must_be_Act_IV%2C_Scene_IV%2C_Antony_and_Cleopatra_1909.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q606830"
-  },
-  {
-   "title": "Egyptomania in the United States",
-   "url": "https://en.wikipedia.org/wiki/Egyptomania_in_the_United_States",
-   "lang": "en",
-   "description": "Explains how she became a modern pop-culture icon detached from the historical record.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Evolution_of_Civilization.jpg/60px-Evolution_of_Civilization.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q133930910"
+   "description": "The intellectual institution of her capital, where she is presumed to have studied.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Ancientlibraryalex.jpg/60px-Ancientlibraryalex.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q435"
   }
  ],
  "coverage": {
@@ -1495,13 +1532,13 @@
    "none": 0
   }
  },
- "generatedAt": "2026-09-12T12:12:19.102Z",
+ "generatedAt": "2026-09-12T12:52:58.968Z",
  "model": "claude-opus-5",
  "usage": {
   "input": 36648,
-  "output": 7354,
+  "output": 8064,
   "cacheWrite": 0,
   "cacheRead": 4785,
-  "usd": 0.3694825
+  "usd": 0.38723250000000004
  }
 }

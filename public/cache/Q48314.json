@@ -128,7 +128,7 @@
   "timeline": [
    {
     "id": "start",
-    "label": "Battle of Waterloo begins",
+    "label": "Battle of Waterloo",
     "kind": "period",
     "date": {
      "raw": "+1815-06-18T00:00:00Z",
@@ -286,68 +286,68 @@
    "truncated": true
   }
  ],
- "summary": "The Battle of Waterloo was fought on Sunday 18 June 1815 near the village of Waterloo, then part of the United Kingdom of the Netherlands and now in Belgium, about 15 kilometres south of Brussels [S1][S9]. On one side stood the French Imperial Army under Napoleon I, who had seized power in France again in March 1815 after escaping exile; on the other stood two armies of the Seventh Coalition, an alliance of states formed to remove him [S1]. The first was a mixed force of British, Dutch, Hanoverian, Brunswick and Nassau troops under the Duke of Wellington; the second was three corps of the Prussian army under Field Marshal Blücher [S1]. Each nation named it differently: the French called it the Battle of Mont-Saint-Jean, after the hamlet where the fighting actually happened, and the Prussians called it La Belle Alliance, after an inn [S1][S3].\n\nNapoleon's plan was to smash Wellington and Blücher separately before they could unite and before Austrian and Russian armies arrived [S1][S8]. He beat the Prussians at Ligny on 16 June, but they retreated northwards in good order, staying in touch with Wellington rather than falling back on their own supply lines [S1][S8]. Wellington took up a ridge position at Mont-Saint-Jean and held it through an afternoon of French infantry, artillery and cavalry attacks on the farms of Hougoumont and La Haye Sainte [S3][S7]. Roughly 50,000 Prussians arrived progressively and struck the French right flank; when Napoleon's last reserve, the Imperial Guard, was repulsed, the French army broke [S1]. The armies were closely matched in size, about 74,500 French against Wellington's 74,326 before the Prussians came up [S11]. The human cost was immense: about 17,000 of Wellington's men dead or wounded, some 7,000 Prussians, and 24,000 to 26,000 French killed or wounded, including 6,000 to 7,000 captured [S10]. Explanations of the defeat have never agreed — Jomini blamed Blücher's arrival, British infantry steadiness, the mud and a clumsy French formation, while Clausewitz insisted Napoleon's own recklessness and overreaching ambition were the true causes, not bad luck [S12].",
- "whyItMatters": "Napoleon abdicated four days later and coalition forces entered Paris on 7 July, ending the Hundred Days and the First French Empire [S1]. He was taken to the Atlantic island of Saint Helena as a British prisoner of war and died there in 1821, while Louis XVIII was restored to the French throne [S4][S10]. The battle closed the run of wars that had convulsed Europe since the French Revolution, and no further major international conflict followed in Europe until the Crimean War of 1853–1856 [S12]. Harsher peace terms were imposed on France in the Second Peace of Paris [S4], and the phrase \"meeting one's Waterloo\" entered popular speech as shorthand for a catastrophic undoing [S1].",
+ "summary": "The Battle of Waterloo was fought on Sunday 18 June 1815 near the village of Waterloo, then part of the United Kingdom of the Netherlands and now in Belgium, about 15 kilometres south of Brussels [S1][S9]. On one side stood the French Imperial Army under Napoleon I, who had seized power again in France in March 1815 after escaping exile; on the other stood two armies of the Seventh Coalition, the alliance of states formed to remove him [S1]. One coalition army was led by the British field marshal Arthur Wellesley, Duke of Wellington, and mixed British, Dutch-Belgian, Hanoverian, Brunswick and Nassau troops; the other was Prussian, under Field Marshal Blücher [S1]. Even the name is contested: the French called it the Battle of Mont Saint-Jean, after the hamlet where the fighting actually happened, and the Prussians called it La Belle Alliance, after an inn [S1][S3].\n\nNapoleon's plan was to smash Wellington and Blücher separately before they could unite and invade France [S1]. He beat the Prussians at Ligny on 16 June and sent a third of his army under Marshal Grouchy to chase them, but the Prussians retreated in good order northwards, parallel to Wellington, still in contact with him [S1][S8]. At Waterloo Napoleon had roughly 74,500 men against Wellington's 74,326, and spent the afternoon battering Wellington's ridge and the fortified farms of Hougoumont and La Haye Sainte [S11][S3]. Around 50,000 Prussians arrived progressively and struck the French right flank; Napoleon's last reserve, the Imperial Guard, was repulsed and the French army broke [S1]. The human cost was enormous: about 17,000 of Wellington's men dead or wounded, some 7,000 Prussians, and 24,000 to 26,000 French killed or wounded, with a further 15,000 deserting afterwards [S10]. A visitor on 22 June found \"the multitude of carcasses, the heaps of wounded men with mangled limbs unable to move\" [S10]. Accounts differ about why Napoleon lost: the Swiss theorist Jomini blamed Blücher's arrival, British infantry steadiness, the mud and a badly formed French attack, while the Prussian Clausewitz insisted the cause was Napoleon's own \"huge mistakes, sheer recklessness\" rather than bad luck [S12].",
+ "whyItMatters": "Napoleon abdicated four days later and coalition troops entered Paris on 7 July, ending the Hundred Days and the First French Empire [S1]. Napoleon himself was taken as a British prisoner of war to the Atlantic island of Saint Helena, where he died in 1821, and Louis XVIII was restored to the French throne [S4][S10]. France was given harsher peace terms in the Second Peace of Paris [S4]. In Europe no further major international conflict followed until the Crimean War of 1853–1856 [S12]. The battlefield itself was quickly altered and commercialised: in 1820 the Dutch king ordered the Lion's Mound built from 300,000 cubic metres of earth dug out of the ridge along the British line, and the site became a magnet for tourists, relic hunters and forgers [S6].",
  "takeaways": [
   {
    "id": "t0",
-   "text": "The battle was fought on Sunday 18 June 1815 near Waterloo, then part of the United Kingdom of the Netherlands and today in Belgium, and was the last battle Napoleon I ever fought.",
+   "text": "On 18 June 1815 near Waterloo, in what is now Belgium, Napoleon's French Imperial Army was beaten by two separate coalition armies: a British-led multinational force under the Duke of Wellington and a Prussian army under Field Marshal Blücher.",
    "sourceId": "S1",
-   "quote": "The Battle of Waterloo was fought on Sunday 18 June 1815, near Waterloo (then in the United Kingdom of the Netherlands, now in Belgium), being the last engagement with Napoleon I.",
+   "quote": "The French Imperial Army under the command of Napoleon I was defeated by two armies of the Seventh Coalition.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#:~:text=The%20Battle%20of%20Waterloo%20was%20fought,the%20last%20engagement%20with%20Napoleon%20I.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#:~:text=The%20French%20Imperial%20Army%20under%20the,two%20armies%20of%20the%20Seventh%20Coalition.",
     "sourceTitle": "Battle of Waterloo",
     "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo"
    }
   },
   {
    "id": "t1",
-   "text": "Napoleon's French Imperial Army faced two separate coalition armies: a British-led multinational force under the Duke of Wellington, containing British, Dutch, Hanoverian, Brunswick and Nassau units, and a Prussian army under Field Marshal Blücher.",
-   "sourceId": "S1",
-   "quote": "One was a British-led force with units from the United Kingdom, the Netherlands, Hanover, Brunswick, and Nassau, under the command of field marshal Arthur Wellesley, Duke of Wellington. The other comprised three corps of the Prussian army under Field Marshal Blücher.",
+   "text": "Wellington's army was not simply British: it also contained Dutch-Belgian, Nassauer, Hanoverian and Brunswick contingents, with British soldiers making up only 38 per cent of its 74,326 men.",
+   "sourceId": "S11",
+   "quote": "His troops consisted of 74,326 men: 53,607 infantry, 13,400 cavalry, and 5,596 artillery with 156 guns plus engineers and staff. Of these, 27,985 (38%) were British",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#:~:text=One%20was%20a%20British%2Dled%20force%20with,Prussian%20army%20under%20Field%20Marshal%20Bl%C3%BCcher.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#Armies:~:text=His%20troops%20consisted%20of%2074%2C326%20men%3A,Of%20these%2C%2027%2C985%20(38%25)%20were%20British",
     "sourceTitle": "Battle of Waterloo",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo"
+    "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#Armies"
    }
   },
   {
    "id": "t2",
-   "text": "The human cost was enormous: Wellington lost around 17,000 dead or wounded and Blücher around 7,000, while French losses were 24,000 to 26,000 killed or wounded including 6,000 to 7,000 captured, with a further 15,000 deserting afterwards.",
+   "text": "The human cost was severe on all sides: Wellington's army suffered around 17,000 dead or wounded and Blücher's Prussians about 7,000.",
    "sourceId": "S10",
    "quote": "Waterloo cost Wellington around 17,000 dead or wounded, and Blücher some 7,000",
    "verification": {
-    "status": "unverified",
+    "status": "verified",
     "method": "exact",
-    "score": 0.4444444444444444,
-    "reason": "Quote found, but the surrounding text does not mention 24,000, 26,000, 6,000.",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#Aftermath:~:text=Waterloo%20cost%20Wellington%20around%2017%2C000%20dead,or%20wounded%2C%20and%20Bl%C3%BCcher%20some%207%2C000",
     "sourceTitle": "Battle of Waterloo",
     "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#Aftermath"
    }
   },
   {
    "id": "t3",
-   "text": "Napoleon's plan was to attack the two coalition armies separately before they could unite and invade France alongside the other coalition powers.",
-   "sourceId": "S1",
-   "quote": "Napoleon planned to attack them separately, before they could link up and invade France with other members of the coalition.",
+   "text": "French casualties were heavier still, with 24,000 to 26,000 killed or wounded, among them 6,000 to 7,000 taken prisoner.",
+   "sourceId": "S10",
+   "quote": "Napoleon's losses were 24,000 to 26,000 killed or wounded, including 6,000 to 7,000 captured",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#:~:text=Napoleon%20planned%20to%20attack%20them%20separately%2C,with%20other%20members%20of%20the%20coalition.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#Aftermath:~:text=Napoleon's%20losses%20were%2024%2C000%20to%2026%2C000,wounded%2C%20including%206%2C000%20to%207%2C000%20captured",
     "sourceTitle": "Battle of Waterloo",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo"
+    "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#Aftermath"
    }
   },
   {
    "id": "t4",
-   "text": "The decisive shift came when roughly 50,000 Prussians arrived progressively during the afternoon and struck the French flank, after which Napoleon's final assault with the Imperial Guard was repulsed and his army routed.",
+   "text": "The balance tipped when roughly 50,000 Prussians arrived progressively through the afternoon and attacked the French flank; Napoleon's final assault with his Imperial Guard was repulsed and his army routed.",
    "sourceId": "S1",
    "quote": "was eventually aided by the progressively arriving 50,000 Prussians who attacked the French flank and inflicted heavy casualties",
    "verification": {
@@ -361,29 +361,28 @@
   },
   {
    "id": "t5",
-   "text": "Defeat forced Napoleon to abdicate four days later and ended the First French Empire; he was exiled to Saint Helena in the Atlantic, where he died on 5 May 1821.",
-   "sourceId": "S4",
-   "quote": "Napoleon selbst wurde als Kriegsgefangener der Briten auf die Atlantikinsel St. Helena gebracht, wo er am 5. Mai 1821 starb.",
-   "quoteTranslation": "Napoleon himself was taken as a British prisoner of war to the Atlantic island of St Helena, where he died on 5 May 1821.",
+   "text": "The defeat ended Napoleon's brief return to power known as the Hundred Days; he abdicated four days later and coalition troops entered Paris on 7 July.",
+   "sourceId": "S1",
+   "quote": "Napoleon abdicated four days later, and coalition forces entered Paris on 7 July. The defeat at Waterloo marked the end of Napoleon's Hundred Days return from exile.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://de.wikipedia.org/wiki/Schlacht_bei_Waterloo#:~:text=Napoleon%20selbst%20wurde%20als%20Kriegsgefangener%20der,er%20am%205.%20Mai%201821%20starb.",
-    "sourceTitle": "Schlacht bei Waterloo",
-    "sourceUrl": "https://de.wikipedia.org/wiki/Schlacht_bei_Waterloo"
+    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#:~:text=Napoleon%20abdicated%20four%20days%20later%2C%20and,Napoleon's%20Hundred%20Days%20return%20from%20exile.",
+    "sourceTitle": "Battle of Waterloo",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo"
    }
   },
   {
    "id": "t6",
-   "text": "The three sides called the battle different things: in France it was the Battle of Mont Saint-Jean, and in Prussia La Belle Alliance, after an inn.",
+   "text": "The battle was not called Waterloo by everyone: in France it was the Battle of Mont Saint-Jean, and in Prussia La Belle Alliance, after an inn on the field.",
    "sourceId": "S1",
-   "quote": "The battle was known contemporaneously as the Battle of Mont Saint-Jean in France (after the hamlet of Mont-Saint-Jean) and La Belle Alliance in Prussia (\"the Beautiful Alliance\"; after the inn of La Belle Alliance).",
+   "quote": "The battle was known contemporaneously as the Battle of Mont Saint-Jean in France (after the hamlet of Mont-Saint-Jean) and La Belle Alliance in Prussia",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#:~:text=The%20battle%20was%20known%20contemporaneously%20as,the%20inn%20of%20La%20Belle%20Alliance).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#:~:text=The%20battle%20was%20known%20contemporaneously%20as,and%20La%20Belle%20Alliance%20in%20Prussia",
     "sourceTitle": "Battle of Waterloo",
     "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo"
    }
@@ -391,31 +390,31 @@
  ],
  "perspectives": [
   {
-   "label": "Napoleon and his defenders",
-   "stance": "Defeat was down to chance and betrayal",
-   "body": "Napoleon and sympathetic writers presented the collapse as the work of accident, treachery or fate rather than of his own errors. On this reading, total success was within a hair's breadth when something outside his control intervened.",
+   "label": "Jomini's military analysis",
+   "stance": "Chance, weather and tactical errors doomed Napoleon",
+   "body": "The Swiss-born military theorist Jomini listed four causes of the French defeat: Blücher's well-timed arrival, the steadiness of the British infantry, the rain-softened ground that delayed the French attack until one o'clock, and the over-deep formation used in the first great assault. This reading leaves room for accident and misfortune rather than fundamental miscalculation.",
    "evidence": {
     "id": "p0",
-    "text": "Bonaparte and writers supporting him portrayed his great catastrophes as the result of chance, claiming success was a hair's breadth away until treachery, accident or fate ruined everything.",
+    "text": "Jomini named the timely arrival of Blücher as the most influential cause of Napoleon's disaster.",
     "sourceId": "S12",
-    "quote": "They seek to make their readers believe that through his great wisdom and extraordinary energy the whole project had already moved forward with the greatest confidence, that complete success was but a hair's breadth away, when treachery, accident, or even fate, as they sometimes call it, ruined everything.",
+    "quote": "The first, and most influential, was the arrival, skilfully combined, of Blücher, and the false movement that favoured this arrival",
     "verification": {
      "status": "verified",
      "method": "exact",
      "score": 1,
-     "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#Analysis:~:text=They%20seek%20to%20make%20their%20readers,they%20sometimes%20call%20it%2C%20ruined%20everything.",
+     "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#Analysis:~:text=The%20first%2C%20and%20most%20influential%2C%20was,false%20movement%20that%20favoured%20this%20arrival",
      "sourceTitle": "Battle of Waterloo",
      "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#Analysis"
     }
    }
   },
   {
-   "label": "Prussian view (Clausewitz)",
-   "stance": "Napoleon's own blunders and ambition caused it",
-   "body": "Carl von Clausewitz, a Prussian officer who served in the campaign as chief-of-staff to Thielmann's III Corps, rejected the appeal to fate outright. He attributed the outcome to Napoleon's mistakes, recklessness and unrealistic ambition.",
+   "label": "Clausewitz and the Prussian view",
+   "stance": "Napoleon's own recklessness, not fate, caused defeat",
+   "body": "The Prussian officer and theorist Carl von Clausewitz, who served on the staff of a Prussian corps in the campaign, rejected the idea that treachery or fate ruined Napoleon. He argued that Napoleon and his defenders refused to admit blunders and overreaching ambition. This is a direct rebuttal of the bad-luck explanations.",
    "evidence": {
     "id": "p1",
-    "text": "Clausewitz held that huge mistakes, sheer recklessness and overreaching ambition beyond realistic possibilities were the true causes of Napoleon's catastrophes.",
+    "text": "Clausewitz held that huge mistakes and overreaching ambition, not accident, were the true causes of Napoleon's catastrophes.",
     "sourceId": "S12",
     "quote": "He and his supporters do not want to admit that huge mistakes, sheer recklessness, and, above all, overreaching ambition that exceeded all realistic possibilities, were the true causes.",
     "verification": {
@@ -430,14 +429,14 @@
   },
   {
    "label": "French account",
-   "stance": "Grouchy failed in his assigned task",
-   "body": "The French telling foregrounds Marshal Grouchy, who was ordered to pursue the Prussians after Ligny and did not prevent them reaching the battlefield. The Prussian intervention on the French right flank is presented as the hinge of the day.",
+   "stance": "Marshal Grouchy failed in his task",
+   "body": "French treatment of the battle foregrounds the failure of Marshal Grouchy, detached after the Battle of Ligny to pursue the Prussians, to prevent them reaching the field. In this telling the Prussian intervention on the French right flank was the hinge, and Grouchy carries the blame.",
    "evidence": {
     "id": "p2",
-    "text": "Marshal Grouchy, charged with pursuing the Prussians after Ligny, failed in his task.",
+    "text": "Grouchy, charged with pursuing the Prussians after Ligny, failed in his task.",
     "sourceId": "S3",
     "quote": "Le maréchal Grouchy, chargé de poursuivre les prussiens après Ligny, a failli à sa tâche.",
-    "quoteTranslation": "Marshal Grouchy, tasked with pursuing the Prussians after Ligny, failed in his task.",
+    "quoteTranslation": "Marshal Grouchy, charged with pursuing the Prussians after Ligny, failed in his task.",
     "verification": {
      "status": "verified",
      "method": "exact",
@@ -449,21 +448,22 @@
    }
   },
   {
-   "label": "Wellington's own dispatch",
-   "stance": "Victory owed to timely Prussian assistance",
-   "body": "Rather than claim the day for his own army, Wellington explicitly credited Blücher and the Prussians in his official report to London. This sits awkwardly with later British popular framing of Waterloo as a British triumph.",
+   "label": "Spanish-language account",
+   "stance": "Defeat did not undo the Revolution's ideals",
+   "body": "Rather than treating Waterloo purely as a military ending, this reading stresses that the battle closed the era of the French Revolution while the ideals the Napoleonic empire spread — equality and advancement by merit — outlived the military defeat and shaped nineteenth-century Europe.",
    "evidence": {
     "id": "p3",
-    "text": "Wellington's dispatch to London attributed the successful result of the day to the cordial and timely assistance he received from Marshal Blücher and the Prussian army.",
-    "sourceId": "S12",
-    "quote": "I should not do justice to my own feelings, or to Marshal Blücher and the Prussian army, if I did not attribute the successful result of this arduous day to the cordial and timely assistance I received from them.",
+    "text": "The battle is described as determining the end of the era of the French Revolution, whose ideals the Napoleonic empire had spread to other European countries.",
+    "sourceId": "S5",
+    "quote": "Determinó el fin de la era de la Revolución francesa, de cuyos ideales el imperio napoleónico fue el gran difusor a los demás países europeos",
+    "quoteTranslation": "It determined the end of the era of the French Revolution, whose ideals the Napoleonic empire was the great disseminator of to the other European countries.",
     "verification": {
      "status": "verified",
      "method": "exact",
      "score": 1,
-     "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#Analysis:~:text=I%20should%20not%20do%20justice%20to,timely%20assistance%20I%20received%20from%20them.",
-     "sourceTitle": "Battle of Waterloo",
-     "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#Analysis"
+     "citationUrl": "https://es.wikipedia.org/wiki/Batalla_de_Waterloo#:~:text=Determin%C3%B3%20el%20fin%20de%20la%20era,difusor%20a%20los%20dem%C3%A1s%20pa%C3%ADses%20europeos",
+     "sourceTitle": "Batalla de Waterloo",
+     "sourceUrl": "https://es.wikipedia.org/wiki/Batalla_de_Waterloo"
     }
    }
   }
@@ -471,63 +471,63 @@
  "claims": [
   {
    "id": "t0",
-   "text": "The battle was fought on Sunday 18 June 1815 near Waterloo, then part of the United Kingdom of the Netherlands and today in Belgium, and was the last battle Napoleon I ever fought.",
+   "text": "On 18 June 1815 near Waterloo, in what is now Belgium, Napoleon's French Imperial Army was beaten by two separate coalition armies: a British-led multinational force under the Duke of Wellington and a Prussian army under Field Marshal Blücher.",
    "sourceId": "S1",
-   "quote": "The Battle of Waterloo was fought on Sunday 18 June 1815, near Waterloo (then in the United Kingdom of the Netherlands, now in Belgium), being the last engagement with Napoleon I.",
+   "quote": "The French Imperial Army under the command of Napoleon I was defeated by two armies of the Seventh Coalition.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#:~:text=The%20Battle%20of%20Waterloo%20was%20fought,the%20last%20engagement%20with%20Napoleon%20I.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#:~:text=The%20French%20Imperial%20Army%20under%20the,two%20armies%20of%20the%20Seventh%20Coalition.",
     "sourceTitle": "Battle of Waterloo",
     "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo"
    }
   },
   {
    "id": "t1",
-   "text": "Napoleon's French Imperial Army faced two separate coalition armies: a British-led multinational force under the Duke of Wellington, containing British, Dutch, Hanoverian, Brunswick and Nassau units, and a Prussian army under Field Marshal Blücher.",
-   "sourceId": "S1",
-   "quote": "One was a British-led force with units from the United Kingdom, the Netherlands, Hanover, Brunswick, and Nassau, under the command of field marshal Arthur Wellesley, Duke of Wellington. The other comprised three corps of the Prussian army under Field Marshal Blücher.",
+   "text": "Wellington's army was not simply British: it also contained Dutch-Belgian, Nassauer, Hanoverian and Brunswick contingents, with British soldiers making up only 38 per cent of its 74,326 men.",
+   "sourceId": "S11",
+   "quote": "His troops consisted of 74,326 men: 53,607 infantry, 13,400 cavalry, and 5,596 artillery with 156 guns plus engineers and staff. Of these, 27,985 (38%) were British",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#:~:text=One%20was%20a%20British%2Dled%20force%20with,Prussian%20army%20under%20Field%20Marshal%20Bl%C3%BCcher.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#Armies:~:text=His%20troops%20consisted%20of%2074%2C326%20men%3A,Of%20these%2C%2027%2C985%20(38%25)%20were%20British",
     "sourceTitle": "Battle of Waterloo",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo"
+    "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#Armies"
    }
   },
   {
    "id": "t2",
-   "text": "The human cost was enormous: Wellington lost around 17,000 dead or wounded and Blücher around 7,000, while French losses were 24,000 to 26,000 killed or wounded including 6,000 to 7,000 captured, with a further 15,000 deserting afterwards.",
+   "text": "The human cost was severe on all sides: Wellington's army suffered around 17,000 dead or wounded and Blücher's Prussians about 7,000.",
    "sourceId": "S10",
    "quote": "Waterloo cost Wellington around 17,000 dead or wounded, and Blücher some 7,000",
    "verification": {
-    "status": "unverified",
+    "status": "verified",
     "method": "exact",
-    "score": 0.4444444444444444,
-    "reason": "Quote found, but the surrounding text does not mention 24,000, 26,000, 6,000.",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#Aftermath:~:text=Waterloo%20cost%20Wellington%20around%2017%2C000%20dead,or%20wounded%2C%20and%20Bl%C3%BCcher%20some%207%2C000",
     "sourceTitle": "Battle of Waterloo",
     "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#Aftermath"
    }
   },
   {
    "id": "t3",
-   "text": "Napoleon's plan was to attack the two coalition armies separately before they could unite and invade France alongside the other coalition powers.",
-   "sourceId": "S1",
-   "quote": "Napoleon planned to attack them separately, before they could link up and invade France with other members of the coalition.",
+   "text": "French casualties were heavier still, with 24,000 to 26,000 killed or wounded, among them 6,000 to 7,000 taken prisoner.",
+   "sourceId": "S10",
+   "quote": "Napoleon's losses were 24,000 to 26,000 killed or wounded, including 6,000 to 7,000 captured",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#:~:text=Napoleon%20planned%20to%20attack%20them%20separately%2C,with%20other%20members%20of%20the%20coalition.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#Aftermath:~:text=Napoleon's%20losses%20were%2024%2C000%20to%2026%2C000,wounded%2C%20including%206%2C000%20to%207%2C000%20captured",
     "sourceTitle": "Battle of Waterloo",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo"
+    "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#Aftermath"
    }
   },
   {
    "id": "t4",
-   "text": "The decisive shift came when roughly 50,000 Prussians arrived progressively during the afternoon and struck the French flank, after which Napoleon's final assault with the Imperial Guard was repulsed and his army routed.",
+   "text": "The balance tipped when roughly 50,000 Prussians arrived progressively through the afternoon and attacked the French flank; Napoleon's final assault with his Imperial Guard was repulsed and his army routed.",
    "sourceId": "S1",
    "quote": "was eventually aided by the progressively arriving 50,000 Prussians who attacked the French flank and inflicted heavy casualties",
    "verification": {
@@ -541,50 +541,49 @@
   },
   {
    "id": "t5",
-   "text": "Defeat forced Napoleon to abdicate four days later and ended the First French Empire; he was exiled to Saint Helena in the Atlantic, where he died on 5 May 1821.",
-   "sourceId": "S4",
-   "quote": "Napoleon selbst wurde als Kriegsgefangener der Briten auf die Atlantikinsel St. Helena gebracht, wo er am 5. Mai 1821 starb.",
-   "quoteTranslation": "Napoleon himself was taken as a British prisoner of war to the Atlantic island of St Helena, where he died on 5 May 1821.",
+   "text": "The defeat ended Napoleon's brief return to power known as the Hundred Days; he abdicated four days later and coalition troops entered Paris on 7 July.",
+   "sourceId": "S1",
+   "quote": "Napoleon abdicated four days later, and coalition forces entered Paris on 7 July. The defeat at Waterloo marked the end of Napoleon's Hundred Days return from exile.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://de.wikipedia.org/wiki/Schlacht_bei_Waterloo#:~:text=Napoleon%20selbst%20wurde%20als%20Kriegsgefangener%20der,er%20am%205.%20Mai%201821%20starb.",
-    "sourceTitle": "Schlacht bei Waterloo",
-    "sourceUrl": "https://de.wikipedia.org/wiki/Schlacht_bei_Waterloo"
+    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#:~:text=Napoleon%20abdicated%20four%20days%20later%2C%20and,Napoleon's%20Hundred%20Days%20return%20from%20exile.",
+    "sourceTitle": "Battle of Waterloo",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo"
    }
   },
   {
    "id": "t6",
-   "text": "The three sides called the battle different things: in France it was the Battle of Mont Saint-Jean, and in Prussia La Belle Alliance, after an inn.",
+   "text": "The battle was not called Waterloo by everyone: in France it was the Battle of Mont Saint-Jean, and in Prussia La Belle Alliance, after an inn on the field.",
    "sourceId": "S1",
-   "quote": "The battle was known contemporaneously as the Battle of Mont Saint-Jean in France (after the hamlet of Mont-Saint-Jean) and La Belle Alliance in Prussia (\"the Beautiful Alliance\"; after the inn of La Belle Alliance).",
+   "quote": "The battle was known contemporaneously as the Battle of Mont Saint-Jean in France (after the hamlet of Mont-Saint-Jean) and La Belle Alliance in Prussia",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#:~:text=The%20battle%20was%20known%20contemporaneously%20as,the%20inn%20of%20La%20Belle%20Alliance).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#:~:text=The%20battle%20was%20known%20contemporaneously%20as,and%20La%20Belle%20Alliance%20in%20Prussia",
     "sourceTitle": "Battle of Waterloo",
     "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo"
    }
   },
   {
    "id": "p0",
-   "text": "Bonaparte and writers supporting him portrayed his great catastrophes as the result of chance, claiming success was a hair's breadth away until treachery, accident or fate ruined everything.",
+   "text": "Jomini named the timely arrival of Blücher as the most influential cause of Napoleon's disaster.",
    "sourceId": "S12",
-   "quote": "They seek to make their readers believe that through his great wisdom and extraordinary energy the whole project had already moved forward with the greatest confidence, that complete success was but a hair's breadth away, when treachery, accident, or even fate, as they sometimes call it, ruined everything.",
+   "quote": "The first, and most influential, was the arrival, skilfully combined, of Blücher, and the false movement that favoured this arrival",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#Analysis:~:text=They%20seek%20to%20make%20their%20readers,they%20sometimes%20call%20it%2C%20ruined%20everything.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#Analysis:~:text=The%20first%2C%20and%20most%20influential%2C%20was,false%20movement%20that%20favoured%20this%20arrival",
     "sourceTitle": "Battle of Waterloo",
     "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#Analysis"
    }
   },
   {
    "id": "p1",
-   "text": "Clausewitz held that huge mistakes, sheer recklessness and overreaching ambition beyond realistic possibilities were the true causes of Napoleon's catastrophes.",
+   "text": "Clausewitz held that huge mistakes and overreaching ambition, not accident, were the true causes of Napoleon's catastrophes.",
    "sourceId": "S12",
    "quote": "He and his supporters do not want to admit that huge mistakes, sheer recklessness, and, above all, overreaching ambition that exceeded all realistic possibilities, were the true causes.",
    "verification": {
@@ -598,10 +597,10 @@
   },
   {
    "id": "p2",
-   "text": "Marshal Grouchy, charged with pursuing the Prussians after Ligny, failed in his task.",
+   "text": "Grouchy, charged with pursuing the Prussians after Ligny, failed in his task.",
    "sourceId": "S3",
    "quote": "Le maréchal Grouchy, chargé de poursuivre les prussiens après Ligny, a failli à sa tâche.",
-   "quoteTranslation": "Marshal Grouchy, tasked with pursuing the Prussians after Ligny, failed in his task.",
+   "quoteTranslation": "Marshal Grouchy, charged with pursuing the Prussians after Ligny, failed in his task.",
    "verification": {
     "status": "verified",
     "method": "exact",
@@ -613,89 +612,60 @@
   },
   {
    "id": "p3",
-   "text": "Wellington's dispatch to London attributed the successful result of the day to the cordial and timely assistance he received from Marshal Blücher and the Prussian army.",
-   "sourceId": "S12",
-   "quote": "I should not do justice to my own feelings, or to Marshal Blücher and the Prussian army, if I did not attribute the successful result of this arduous day to the cordial and timely assistance I received from them.",
+   "text": "The battle is described as determining the end of the era of the French Revolution, whose ideals the Napoleonic empire had spread to other European countries.",
+   "sourceId": "S5",
+   "quote": "Determinó el fin de la era de la Revolución francesa, de cuyos ideales el imperio napoleónico fue el gran difusor a los demás países europeos",
+   "quoteTranslation": "It determined the end of the era of the French Revolution, whose ideals the Napoleonic empire was the great disseminator of to the other European countries.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#Analysis:~:text=I%20should%20not%20do%20justice%20to,timely%20assistance%20I%20received%20from%20them.",
-    "sourceTitle": "Battle of Waterloo",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Waterloo#Analysis"
+    "citationUrl": "https://es.wikipedia.org/wiki/Batalla_de_Waterloo#:~:text=Determin%C3%B3%20el%20fin%20de%20la%20era,difusor%20a%20los%20dem%C3%A1s%20pa%C3%ADses%20europeos",
+    "sourceTitle": "Batalla de Waterloo",
+    "sourceUrl": "https://es.wikipedia.org/wiki/Batalla_de_Waterloo"
    }
   }
  ],
  "keyEvents": [
   {
-   "label": "Napoleon declared an outlaw",
-   "summary": "On 13 March 1815 the powers assembled at Vienna declared Napoleon an outlaw, and four days later Britain, Russia, Austria and Prussia mobilised armies against him. This left him critically outnumbered and forced him to strike first.",
+   "label": "Napoleon returns and is outlawed",
+   "summary": "Napoleon returned to power in France in March 1815; the powers gathered at the Congress of Vienna declared him an outlaw and Britain, Russia, Austria and Prussia mobilised armies against him. Outnumbered, he chose to strike first before the coalition could assemble.",
    "entity": {
-    "title": "Congress of Vienna",
-    "url": "https://en.wikipedia.org/wiki/Congress_of_Vienna",
+    "title": "Hundred Days",
+    "url": "https://en.wikipedia.org/wiki/Hundred_Days",
     "lang": "en",
-    "description": "1814–1815 meetings to create a peace plan for Europe",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Europe_1815_map_en.png/60px-Europe_1815_map_en.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q46362",
+    "description": "1815 period of the Napoleonic Wars",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_battles_of_Napoleon%27s_hundred_days.jpg/60px-The_battles_of_Napoleon%27s_hundred_days.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q199955",
     "start": {
-     "raw": "+1814-11-00T00:00:00Z",
-     "year": 1814,
-     "precision": "month",
-     "display": "November 1814"
+     "raw": "+1815-03-20T00:00:00Z",
+     "year": 1815,
+     "precision": "day",
+     "display": "20 March 1815"
     },
     "end": {
-     "raw": "+1815-06-00T00:00:00Z",
+     "raw": "+1815-07-08T00:00:00Z",
      "year": 1815,
-     "precision": "month",
-     "display": "June 1815"
+     "precision": "day",
+     "display": "8 July 1815"
     },
     "occurredAt": {
-     "raw": "+1815-00-00T00:00:00Z",
+     "raw": "+1815-03-20T00:00:00Z",
      "year": 1815,
-     "precision": "year",
-     "display": "1815"
+     "precision": "day",
+     "display": "20 March 1815"
     }
    },
    "date": {
-    "raw": "+1815-00-00T00:00:00Z",
-    "year": 1815,
-    "precision": "year",
-    "display": "1815"
-   }
-  },
-  {
-   "label": "Crossroads held at Quatre Bras",
-   "summary": "Ney's wing attacked the crossroads held by the Prince of Orange; Wellington arrived, drove Ney back and secured the position, but too late to send help to the Prussians.",
-   "entity": {
-    "title": "Battle of Quatre Bras",
-    "url": "https://en.wikipedia.org/wiki/Battle_of_Quatre_Bras",
-    "lang": "en",
-    "description": "1815 battle during the War of the Seventh Coalition",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/The_Prince_of_Orange_at_Quatre_Bras.jpg/60px-The_Prince_of_Orange_at_Quatre_Bras.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q705936",
-    "start": {
-     "raw": "+1815-06-16T00:00:00Z",
-     "year": 1815,
-     "precision": "day",
-     "display": "16 June 1815"
-    },
-    "occurredAt": {
-     "raw": "+1815-06-16T00:00:00Z",
-     "year": 1815,
-     "precision": "day",
-     "display": "16 June 1815"
-    }
-   },
-   "date": {
-    "raw": "+1815-06-16T00:00:00Z",
+    "raw": "+1815-03-20T00:00:00Z",
     "year": 1815,
     "precision": "day",
-    "display": "16 June 1815"
+    "display": "20 March 1815"
    }
   },
   {
-   "label": "Prussians beaten at Ligny",
-   "summary": "Napoleon defeated Blücher's Prussians, but they retreated northwards parallel to Wellington rather than eastwards along their own supply lines, keeping the two coalition armies within supporting distance.",
+   "label": "Napoleon beats the Prussians at Ligny",
+   "summary": "Napoleon defeated Blücher's main Prussian force, but the Prussians retreated northwards in good order rather than eastwards along their supply lines, staying within supporting distance of Wellington. That decision made their later intervention at Waterloo possible.",
    "entity": {
     "title": "Battle of Ligny",
     "url": "https://en.wikipedia.org/wiki/Battle_of_Ligny",
@@ -724,8 +694,80 @@
    }
   },
   {
-   "label": "Grouchy diverted at Wavre",
-   "summary": "A third of the French army under Grouchy pursued the Prussian rearguard to Wavre and fought there on 18–19 June, so those 33,000 troops never reached Waterloo.",
+   "label": "Wellington holds the Quatre Bras crossroads",
+   "summary": "Marshal Ney's wing failed to take the crossroads before Wellington arrived and drove him back, but the Anglo-allied army was kept from reinforcing the Prussians. With Ligny lost, Wellington's position became untenable and he withdrew to the ridge of Mont-Saint-Jean.",
+   "entity": {
+    "title": "Battle of Quatre Bras",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Quatre_Bras",
+    "lang": "en",
+    "description": "1815 battle during the War of the Seventh Coalition",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/The_Prince_of_Orange_at_Quatre_Bras.jpg/60px-The_Prince_of_Orange_at_Quatre_Bras.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q705936",
+    "start": {
+     "raw": "+1815-06-16T00:00:00Z",
+     "year": 1815,
+     "precision": "day",
+     "display": "16 June 1815"
+    },
+    "occurredAt": {
+     "raw": "+1815-06-16T00:00:00Z",
+     "year": 1815,
+     "precision": "day",
+     "display": "16 June 1815"
+    }
+   },
+   "date": {
+    "raw": "+1815-06-16T00:00:00Z",
+    "year": 1815,
+    "precision": "day",
+    "display": "16 June 1815"
+   }
+  },
+  {
+   "label": "The all-day fight for Hougoumont",
+   "summary": "A walled château on Wellington's right, intended by Napoleon as a diversion, absorbed 14,000 French troops and held out all day. Wellington later said the success of the battle turned on closing its gates.",
+   "entity": {
+    "title": "Hougoumont",
+    "url": "https://en.wikipedia.org/wiki/Hougoumont",
+    "lang": "en",
+    "description": "Farmhouse near Waterloo, Belgium",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/HougoumontExterior.jpg/60px-HougoumontExterior.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q2269566"
+   }
+  },
+  {
+   "label": "The French infantry assault on the centre-left",
+   "summary": "D'Erlon's corps advanced in massive columns against Wellington's left while an isolated farmhouse garrisoned by the King's German Legion was cut off. The over-deep formation was later blamed as one of the causes of the French defeat.",
+   "entity": {
+    "title": "La Haye Sainte",
+    "url": "https://en.wikipedia.org/wiki/La_Haye_Sainte",
+    "lang": "en",
+    "description": "Walled farmhouse compound that played a crucial part in the Battle of Waterloo",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Ferme_de_la_Haie_Sainte_01.JPG/60px-Ferme_de_la_Haie_Sainte_01.JPG?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q1798856",
+    "start": {
+     "raw": "+1815-06-18T00:00:00Z",
+     "year": 1815,
+     "precision": "day",
+     "display": "18 June 1815"
+    },
+    "occurredAt": {
+     "raw": "+1815-06-18T00:00:00Z",
+     "year": 1815,
+     "precision": "day",
+     "display": "18 June 1815"
+    }
+   },
+   "date": {
+    "raw": "+1815-06-18T00:00:00Z",
+    "year": 1815,
+    "precision": "day",
+    "display": "18 June 1815"
+   }
+  },
+  {
+   "label": "Grouchy is drawn away at Wavre",
+   "summary": "A third of the French army under Marshal Grouchy engaged the Prussian rearguard at Wavre instead of marching to the guns, and so 33,000 French troops never reached Waterloo.",
    "entity": {
     "title": "Battle of Wavre",
     "url": "https://en.wikipedia.org/wiki/Battle_of_Wavre",
@@ -760,50 +802,8 @@
    }
   },
   {
-   "label": "All-day struggle for Hougoumont",
-   "summary": "The walled château on Wellington's right absorbed 33 French battalions and 21 of Wellington's; Wellington later said the success of the battle turned upon closing its gates.",
-   "entity": {
-    "title": "Hougoumont",
-    "url": "https://en.wikipedia.org/wiki/Hougoumont",
-    "lang": "en",
-    "description": "Farmhouse near Waterloo, Belgium",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/HougoumontExterior.jpg/60px-HougoumontExterior.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q2269566"
-   }
-  },
-  {
-   "label": "D'Erlon's infantry attack and La Haye Sainte",
-   "summary": "Around 13:00 d'Erlon's corps advanced in huge columns against Wellington's left while another division isolated the farmhouse of La Haye Sainte, defended by the King's German Legion.",
-   "entity": {
-    "title": "La Haye Sainte",
-    "url": "https://en.wikipedia.org/wiki/La_Haye_Sainte",
-    "lang": "en",
-    "description": "Walled farmhouse compound that played a crucial part in the Battle of Waterloo",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Ferme_de_la_Haie_Sainte_01.JPG/60px-Ferme_de_la_Haie_Sainte_01.JPG?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q1798856",
-    "start": {
-     "raw": "+1815-06-18T00:00:00Z",
-     "year": 1815,
-     "precision": "day",
-     "display": "18 June 1815"
-    },
-    "occurredAt": {
-     "raw": "+1815-06-18T00:00:00Z",
-     "year": 1815,
-     "precision": "day",
-     "display": "18 June 1815"
-    }
-   },
-   "date": {
-    "raw": "+1815-06-18T00:00:00Z",
-    "year": 1815,
-    "precision": "day",
-    "display": "18 June 1815"
-   }
-  },
-  {
-   "label": "Prussians arrive on the French right",
-   "summary": "At about 13:15 Napoleon spotted Prussian columns some miles from his right flank; their eventual arrival in force around Plancenoit broke through on that flank and made the French position untenable.",
+   "label": "Prussians strike the French right",
+   "summary": "Prussian corps arriving from Wavre fell on the French right flank around the village of Plancenoit, forcing Napoleon to divert reserves and making a breakthrough against Wellington impossible.",
    "entity": {
     "title": "Battle of Waterloo",
     "url": "https://en.wikipedia.org/wiki/Battle_of_Waterloo",
@@ -832,8 +832,8 @@
    }
   },
   {
-   "label": "Repulse of the Imperial Guard",
-   "summary": "In the evening Napoleon committed his last reserves, the senior infantry battalions of the Imperial Guard; when they were thrown back the French army was routed.",
+   "label": "The Imperial Guard is repulsed",
+   "summary": "In the evening Napoleon committed his last reserve, the senior infantry battalions of the Imperial Guard; their repulse by the Anglo-allied line broke French morale and the army was routed.",
    "entity": {
     "title": "Imperial Guard (Napoleon I)",
     "url": "https://en.wikipedia.org/wiki/Imperial_Guard_(Napoleon_I)",
@@ -845,6 +845,30 @@
   }
  ],
  "figures": [
+  {
+   "entity": {
+    "title": "Napoleon",
+    "url": "https://en.wikipedia.org/wiki/Napoleon",
+    "lang": "en",
+    "description": "Emperor of the French (1804–1814; 1815)",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg/60px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q517",
+    "start": {
+     "raw": "+1769-08-15T00:00:00Z",
+     "year": 1769,
+     "precision": "day",
+     "display": "15 August 1769"
+    },
+    "end": {
+     "raw": "+1821-05-05T00:00:00Z",
+     "year": 1821,
+     "precision": "day",
+     "display": "5 May 1821"
+    }
+   },
+   "relationship": "French commander, defeated here",
+   "note": "Waterloo was the last battle he personally fought, and his defeat forced his second and final abdication."
+  },
   {
    "entity": {
     "title": "Arthur Wellesley, 1st Duke of Wellington",
@@ -866,8 +890,8 @@
      "display": "14 September 1852"
     }
    },
-   "relationship": "Commander of the allied army",
-   "note": "He chose the defensive ridge at Mont-Saint-Jean and held it all afternoon, later calling the battle \"the nearest-run thing you ever saw in your life\"."
+   "relationship": "Commander of the Anglo-allied army",
+   "note": "He chose and held the Mont-Saint-Jean ridge, and credited the victory to the timely help of Blücher and the Prussians."
   },
   {
    "entity": {
@@ -890,56 +914,8 @@
      "display": "12 September 1819"
     }
    },
-   "relationship": "Prussian commander who decided the day",
-   "note": "Beaten at Ligny two days earlier, he nonetheless promised Wellington three corps and marched to join him, and his arrival on the French flank settled the battle."
-  },
-  {
-   "entity": {
-    "title": "Napoleon",
-    "url": "https://en.wikipedia.org/wiki/Napoleon",
-    "lang": "en",
-    "description": "Emperor of the French (1804–1814; 1815)",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg/60px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q517",
-    "start": {
-     "raw": "+1769-08-15T00:00:00Z",
-     "year": 1769,
-     "precision": "day",
-     "display": "15 August 1769"
-    },
-    "end": {
-     "raw": "+1821-05-05T00:00:00Z",
-     "year": 1821,
-     "precision": "day",
-     "display": "5 May 1821"
-    }
-   },
-   "relationship": "Subject of the coalition's war effort",
-   "note": "He commanded the French army in person for the last time and abdicated four days after the defeat."
-  },
-  {
-   "entity": {
-    "title": "Emmanuel de Grouchy, marquis de Grouchy",
-    "url": "https://en.wikipedia.org/wiki/Emmanuel_de_Grouchy%2C_marquis_de_Grouchy",
-    "lang": "en",
-    "description": "French Marshal",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Emmanuel_de_Grouchy_2.jpg/60px-Emmanuel_de_Grouchy_2.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q333821",
-    "start": {
-     "raw": "+1766-10-23T00:00:00Z",
-     "year": 1766,
-     "precision": "day",
-     "display": "23 October 1766"
-    },
-    "end": {
-     "raw": "+1847-05-29T00:00:00Z",
-     "year": 1847,
-     "precision": "day",
-     "display": "29 May 1847"
-    }
-   },
-   "relationship": "French marshal who never arrived",
-   "note": "Ordered to pursue the Prussians, he engaged their rearguard at Wavre instead of marching to the guns, keeping 33,000 French troops off the battlefield."
+   "relationship": "Prussian commander who arrived decisively",
+   "note": "Beaten days earlier at Ligny, he nonetheless marched his corps to Wellington's support and his flank attack settled the battle."
   },
   {
    "entity": {
@@ -962,8 +938,32 @@
      "display": "7 December 1815"
     }
    },
-   "relationship": "Napoleon's battlefield commander",
-   "note": "Napoleon delegated tactical command of the largely hidden battlefield to him, and he led d'Erlon's assault."
+   "relationship": "Napoleon's battlefield subordinate",
+   "note": "Ney commanded the French left wing in the campaign and was delegated command on the largely hidden Waterloo battlefield."
+  },
+  {
+   "entity": {
+    "title": "Emmanuel de Grouchy, marquis de Grouchy",
+    "url": "https://en.wikipedia.org/wiki/Emmanuel_de_Grouchy%2C_marquis_de_Grouchy",
+    "lang": "en",
+    "description": "French Marshal",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Emmanuel_de_Grouchy_2.jpg/60px-Emmanuel_de_Grouchy_2.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q333821",
+    "start": {
+     "raw": "+1766-10-23T00:00:00Z",
+     "year": 1766,
+     "precision": "day",
+     "display": "23 October 1766"
+    },
+    "end": {
+     "raw": "+1847-05-29T00:00:00Z",
+     "year": 1847,
+     "precision": "day",
+     "display": "29 May 1847"
+    }
+   },
+   "relationship": "Detached marshal who never arrived",
+   "note": "Sent with 33,000 men to pursue the Prussians, he fought at Wavre instead of returning to Waterloo, a failure French accounts dwell on."
   },
   {
    "entity": {
@@ -986,8 +986,8 @@
      "display": "23 August 1831"
     }
    },
-   "relationship": "Blücher's distrustful chief of staff",
-   "note": "He doubted Wellington's intentions at a late-night council, and Blücher had to overrule him to march to Waterloo."
+   "relationship": "Prussian chief of staff, distrusted Wellington",
+   "note": "He doubted Wellington's plan and had to be persuaded by Blücher that the Prussians should march to join the Anglo-allied army."
   }
  ],
  "comparisons": [
@@ -1012,15 +1012,16 @@
      "display": "7 September 1812"
     }
    },
-   "angle": "Waterloo was the second-bloodiest single-day battle of the Napoleonic Wars, after Borodino, which makes the earlier battle the natural yardstick for its scale.",
+   "angle": "Borodino is the only single day of the Napoleonic Wars that was bloodier than Waterloo, and offers a measure of the scale of slaughter.",
    "similarities": [
-    "Both were single-day set-piece battles commanded in person by Napoleon",
-    "Both produced casualties on a scale that shocked contemporaries",
-    "Both were fought against a coalition partner of Britain"
+    "Both were enormous single-day battles fought personally by Napoleon",
+    "Both produced casualties in the tens of thousands",
+    "Both became national memory-sites argued over for generations"
    ],
    "differences": [
-    "Borodino was bloodier still",
-    "Waterloo ended Napoleon's career, while Borodino did not"
+    "Borodino was fought deep in Russia; Waterloo just south of Brussels",
+    "Waterloo ended Napoleon's career outright, Borodino did not",
+    "At Waterloo Napoleon faced two separate allied armies converging on him"
    ],
    "start": {
     "raw": "+1812-09-07T00:00:00Z",
@@ -1031,51 +1032,53 @@
   },
   {
    "entity": {
-    "title": "Crimean War",
-    "url": "https://en.wikipedia.org/wiki/Crimean_War",
+    "title": "Battle of Leipzig",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Leipzig",
     "lang": "en",
-    "description": "Tenth conflict of the Russo-Turkish wars (1853–1856)",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/William_Simpson_-_Attack_on_the_Malakoff.jpg/60px-William_Simpson_-_Attack_on_the_Malakoff.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q254106",
+    "description": "1813 battle of the Napoleonic Wars",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/MoshkovVI_SrazhLeypcigomGRM.jpg/60px-MoshkovVI_SrazhLeypcigomGRM.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q151005",
     "start": {
-     "raw": "+1853-10-01T00:00:00Z",
-     "year": 1853,
-     "precision": "month",
-     "display": "October 1853"
+     "raw": "+1813-10-16T00:00:00Z",
+     "year": 1813,
+     "precision": "day",
+     "display": "16 October 1813"
     },
     "end": {
-     "raw": "+1856-02-01T00:00:00Z",
-     "year": 1856,
-     "precision": "month",
-     "display": "February 1856"
+     "raw": "+1813-10-19T00:00:00Z",
+     "year": 1813,
+     "precision": "day",
+     "display": "19 October 1813"
     },
     "occurredAt": {
-     "raw": "+1853-10-01T00:00:00Z",
-     "year": 1853,
-     "precision": "month",
-     "display": "October 1853"
+     "raw": "+1813-10-16T00:00:00Z",
+     "year": 1813,
+     "precision": "day",
+     "display": "16 October 1813"
     }
    },
-   "angle": "Waterloo is often treated as the start of a long European peace, and the Crimean War marks where that peace ended.",
+   "angle": "Leipzig was the earlier coalition victory that first toppled Napoleon, making Waterloo the second and final act of the same process.",
    "similarities": [
-    "Both involved coalitions of European great powers",
-    "Both reshaped the continent's diplomatic arrangements"
+    "Both pitted Napoleon against a multinational coalition including Prussia",
+    "Both ended in decisive French defeat",
+    "Both were followed by Napoleon's abdication and exile"
    ],
    "differences": [
-    "Waterloo was decided in a single day; the Crimean War ran from 1853 to 1856",
-    "Almost four decades of international peace in Europe separated them"
+    "Waterloo was far smaller in scale and lasted a single day",
+    "After Waterloo Napoleon was exiled to remote Saint Helena rather than nearby Elba",
+    "Waterloo's aftermath brought harsher peace terms imposed on France"
    ],
    "start": {
-    "raw": "+1853-10-01T00:00:00Z",
-    "year": 1853,
-    "precision": "month",
-    "display": "October 1853"
+    "raw": "+1813-10-16T00:00:00Z",
+    "year": 1813,
+    "precision": "day",
+    "display": "16 October 1813"
    },
    "end": {
-    "raw": "+1856-02-01T00:00:00Z",
-    "year": 1856,
-    "precision": "month",
-    "display": "February 1856"
+    "raw": "+1813-10-19T00:00:00Z",
+    "year": 1813,
+    "precision": "day",
+    "display": "19 October 1813"
    }
   }
  ],
@@ -1120,45 +1123,94 @@
     }
    },
    "relation": "partOf",
-   "note": "Napoleon returned to power in March 1815, beginning the Hundred Days, and Waterloo ended that return.",
+   "note": "The battle ended the short period between Napoleon's return to power in March 1815 and his second abdication.",
    "fromGraph": false
   },
   {
    "entity": {
-    "title": "Treaty of Paris (1815)",
-    "url": "https://en.wikipedia.org/wiki/Treaty_of_Paris_(1815)",
+    "title": "Battle of Ligny",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Ligny",
     "lang": "en",
-    "description": "Treaty ending the Napoleonic Wars",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Coalition_occupation_of_France_1815.png/60px-Coalition_occupation_of_France_1815.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q233688",
+    "description": "1815 battle during the War of the Seventh Coalition (Hundred Days)",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Battle_of_Ligny.JPG/60px-Battle_of_Ligny.JPG?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q855429",
     "start": {
-     "raw": "+1815-11-20T00:00:00Z",
+     "raw": "+1815-06-16T00:00:00Z",
      "year": 1815,
      "precision": "day",
-     "display": "20 November 1815"
+     "display": "16 June 1815"
     },
     "occurredAt": {
-     "raw": "+1815-11-20T00:00:00Z",
+     "raw": "+1815-06-16T00:00:00Z",
      "year": 1815,
      "precision": "day",
-     "display": "20 November 1815"
+     "display": "16 June 1815"
+    }
+   },
+   "relation": "precedes",
+   "note": "Napoleon's victory over the Prussians two days earlier failed to knock them out of the campaign.",
+   "fromGraph": false
+  },
+  {
+   "entity": {
+    "title": "Napoleon's exile to St. Helena",
+    "url": "https://en.wikipedia.org/wiki/Napoleon's_exile_to_St._Helena",
+    "lang": "en",
+    "description": "",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Napoleon_Bonaparte_by_Benjamin_Robert_Haydon.jpg/60px-Napoleon_Bonaparte_by_Benjamin_Robert_Haydon.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q3061949",
+    "start": {
+     "raw": "+1815-00-00T00:00:00Z",
+     "year": 1815,
+     "precision": "year",
+     "display": "1815"
+    },
+    "end": {
+     "raw": "+1821-00-00T00:00:00Z",
+     "year": 1821,
+     "precision": "year",
+     "display": "1821"
+    },
+    "occurredAt": {
+     "raw": "+1815-00-00T00:00:00Z",
+     "year": 1815,
+     "precision": "year",
+     "display": "1815"
     }
    },
    "relation": "follows",
-   "note": "After a second total military defeat, harsher peace terms were imposed on France in the Second Peace of Paris, signed on 20 November 1815.",
+   "note": "After surrendering to the Royal Navy, Napoleon was taken as a British prisoner of war to the Atlantic island where he died in 1821.",
    "fromGraph": false
   },
   {
    "entity": {
-    "title": "Bourbon Restoration in France",
-    "url": "https://en.wikipedia.org/wiki/Bourbon_Restoration_in_France",
+    "title": "Congress of Vienna",
+    "url": "https://en.wikipedia.org/wiki/Congress_of_Vienna",
     "lang": "en",
-    "description": "Monarchy of France from 1815 to 1830",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Royal_flag_of_France_during_the_Bourbon_Restoration.svg/60px-Royal_flag_of_France_during_the_Bourbon_Restoration.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q207162"
+    "description": "1814–1815 meetings to create a peace plan for Europe",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Europe_1815_map_en.png/60px-Europe_1815_map_en.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q46362",
+    "start": {
+     "raw": "+1814-11-00T00:00:00Z",
+     "year": 1814,
+     "precision": "month",
+     "display": "November 1814"
+    },
+    "end": {
+     "raw": "+1815-06-00T00:00:00Z",
+     "year": 1815,
+     "precision": "month",
+     "display": "June 1815"
+    },
+    "occurredAt": {
+     "raw": "+1815-00-00T00:00:00Z",
+     "year": 1815,
+     "precision": "year",
+     "display": "1815"
+    }
    },
-   "relation": "follows",
-   "note": "Louis XVIII was restored to the French throne after Napoleon's surrender.",
+   "relation": "causes",
+   "note": "The powers assembled there declared Napoleon an outlaw and mobilised the armies that met him at Waterloo.",
    "fromGraph": false
   },
   {
@@ -1170,43 +1222,43 @@
     "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Europe_1815_map_en.png/60px-Europe_1815_map_en.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
     "qid": "Q702073"
    },
-   "relation": "causes",
-   "note": "Later generations saw Waterloo as ushering in an era of relative peace, prosperity and technological progress in Europe.",
+   "relation": "follows",
+   "note": "Waterloo was seen as ushering in decades of relative peace, with no major international conflict until the Crimean War.",
    "fromGraph": false
   }
  ],
  "glossary": [
   {
    "term": "Seventh Coalition",
-   "definition": "The alliance of European states — including Britain, Russia, Austria and Prussia — that mobilised in 1815 to defeat Napoleon after his return from exile."
+   "definition": "The alliance of European powers — including Britain, Prussia, Russia and Austria — formed in 1815 to overthrow Napoleon after his return from exile."
   },
   {
    "term": "Hundred Days",
-   "definition": "The period beginning with Napoleon's return to power in France in March 1815 and ending with his defeat at Waterloo and second abdication."
+   "definition": "The period beginning with Napoleon's return to power in March 1815 and ending with his defeat at Waterloo and second abdication."
   },
   {
    "term": "Reverse slope defence",
-   "definition": "Wellington's habitual tactic of placing infantry just behind the crest of a ridge so that the enemy could not see or accurately shell them."
+   "definition": "Wellington's habitual tactic of placing his infantry just behind the crest of a ridge, hiding their strength from the enemy and sheltering them from artillery fire."
   },
   {
    "term": "Grande batterie",
-   "definition": "A mass of French reserve artillery — 80 guns at Waterloo — concentrated to bombard one section of the enemy line."
+   "definition": "A mass of artillery, here 80 French guns concentrated in the centre, drawn up to bombard a single stretch of the enemy line."
   },
   {
    "term": "King's German Legion",
-   "definition": "German troops in British service; they garrisoned the farmhouse of La Haye Sainte in the centre of the battlefield."
+   "definition": "German troops in British service, who made up about 10 per cent of Wellington's army and garrisoned the farmhouse of La Haye Sainte."
   },
   {
-   "term": "Cuirassiers",
-   "definition": "Armoured heavy cavalry; the French fielded fourteen regiments of such armoured heavy cavalry in 1815."
+   "term": "Cuirassier",
+   "definition": "Heavy cavalry wearing body armour; the French fielded fourteen regiments of armoured heavy cavalry at Waterloo."
   },
   {
    "term": "Imperial Guard",
-   "definition": "Napoleon's elite reserve formation, whose senior infantry battalions made the final French attack of the battle."
+   "definition": "Napoleon's elite reserve formations, some 13,000 infantry at Waterloo, committed last and whose repulse signalled the collapse."
   },
   {
-   "term": "Lion's Mound",
-   "definition": "A giant artificial hill built from 1820 on the orders of the Netherlands' King William I, made from 300,000 cubic metres of earth taken from the ridge at the centre of the British line."
+   "term": "Corps",
+   "definition": "A large self-contained army formation of several divisions; both French and Prussian armies were organised in numbered corps."
   }
  ],
  "drilldown": [
@@ -1214,35 +1266,15 @@
    "title": "Hougoumont",
    "url": "https://en.wikipedia.org/wiki/Hougoumont",
    "lang": "en",
-   "description": "The walled farm where the day's key battle-within-a-battle was fought, and which Wellington said the outcome turned upon.",
+   "description": "The walled farm where a diversionary attack became the key battle within the battle, absorbing 14,000 French troops.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/HougoumontExterior.jpg/60px-HougoumontExterior.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q2269566"
-  },
-  {
-   "title": "Battle of Ligny",
-   "url": "https://en.wikipedia.org/wiki/Battle_of_Ligny",
-   "lang": "en",
-   "description": "Napoleon's victory over the Prussians two days earlier, whose incomplete result made Waterloo possible.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Battle_of_Ligny.JPG/60px-Battle_of_Ligny.JPG?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q855429",
-   "start": {
-    "raw": "+1815-06-16T00:00:00Z",
-    "year": 1815,
-    "precision": "day",
-    "display": "16 June 1815"
-   },
-   "occurredAt": {
-    "raw": "+1815-06-16T00:00:00Z",
-    "year": 1815,
-    "precision": "day",
-    "display": "16 June 1815"
-   }
   },
   {
    "title": "Battle of Wavre",
    "url": "https://en.wikipedia.org/wiki/Battle_of_Wavre",
    "lang": "en",
-   "description": "The sideshow that kept 33,000 French troops away from the main battlefield.",
+   "description": "The side-battle that kept a third of the French army off the field at the decisive moment.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Monument_au_g%C3%A9n%C3%A9ral_G%C3%A9rard_01.JPG/60px-Monument_au_g%C3%A9n%C3%A9ral_G%C3%A9rard_01.JPG?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q920107",
    "start": {
@@ -1268,7 +1300,7 @@
    "title": "Lion's Mound",
    "url": "https://en.wikipedia.org/wiki/Lion's_Mound",
    "lang": "en",
-   "description": "The monument whose construction physically removed part of the battlefield's terrain.",
+   "description": "The giant artificial hill built as a monument, whose construction physically removed part of Wellington's ridge.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Domaine_du_champ_de_bataille_de_Waterloo_13_02.jpg/60px-Domaine_du_champ_de_bataille_de_Waterloo_13_02.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q31985"
   },
@@ -1276,7 +1308,7 @@
    "title": "Carl von Clausewitz",
    "url": "https://en.wikipedia.org/wiki/Carl_von_Clausewitz",
    "lang": "en",
-   "description": "A participant in the campaign who became the most influential theorist of war and dismissed Napoleon's excuses.",
+   "description": "A participant in the campaign who became its sharpest critic of Napoleon's excuses and one of the great theorists of war.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Clausewitz.jpg/60px-Clausewitz.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q76430",
    "start": {
@@ -1293,56 +1325,30 @@
    }
   },
   {
-   "title": "Treaty of Paris (1783)",
-   "url": "https://en.wikipedia.org/wiki/Treaty_of_Paris_(1783)",
+   "title": "Battle of Waterloo",
+   "url": "https://en.wikipedia.org/wiki/Battle_of_Waterloo",
    "lang": "en",
-   "description": "The harsher settlement imposed on France after this second defeat.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Treaty_of_Paris_%281783%29.jpg/60px-Treaty_of_Paris_%281783%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q217450",
+   "description": "Tens of thousands of dead soldiers' teeth were taken from the field and made into dentures, a grim window on the battle's aftermath.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Battle_of_Waterloo_1815.PNG/60px-Battle_of_Waterloo_1815.PNG?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q48314",
    "start": {
-    "raw": "+1783-09-03T00:00:00Z",
-    "year": 1783,
+    "raw": "+1815-06-18T00:00:00Z",
+    "year": 1815,
     "precision": "day",
-    "display": "3 September 1783"
+    "display": "18 June 1815"
    },
    "occurredAt": {
-    "raw": "+1783-09-03T00:00:00Z",
-    "year": 1783,
+    "raw": "+1815-06-18T00:00:00Z",
+    "year": 1815,
     "precision": "day",
-    "display": "3 September 1783"
-   }
-  },
-  {
-   "title": "Napoleon's exile to St. Helena",
-   "url": "https://en.wikipedia.org/wiki/Napoleon's_exile_to_St._Helena",
-   "lang": "en",
-   "description": "Where Napoleon was taken as a British prisoner of war and where he died in 1821.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Napoleon_Bonaparte_by_Benjamin_Robert_Haydon.jpg/60px-Napoleon_Bonaparte_by_Benjamin_Robert_Haydon.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q3061949",
-   "start": {
-    "raw": "+1815-00-00T00:00:00Z",
-    "year": 1815,
-    "precision": "year",
-    "display": "1815"
-   },
-   "end": {
-    "raw": "+1821-00-00T00:00:00Z",
-    "year": 1821,
-    "precision": "year",
-    "display": "1821"
-   },
-   "occurredAt": {
-    "raw": "+1815-00-00T00:00:00Z",
-    "year": 1815,
-    "precision": "year",
-    "display": "1815"
+    "display": "18 June 1815"
    }
   },
   {
    "title": "Duchess of Richmond's ball",
    "url": "https://en.wikipedia.org/wiki/Duchess_of_Richmond's_ball",
    "lang": "en",
-   "description": "The Brussels ball at which Wellington learned how fast the French were advancing.",
+   "description": "The Brussels ball at which Wellington learned how fast Napoleon was advancing, a famous scene of the campaign's opening.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/The_Duchess_of_Richmond%27s_Ball_by_Robert_Alexander_Hillingford.jpg/60px-The_Duchess_of_Richmond%27s_Ball_by_Robert_Alexander_Hillingford.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q656056",
    "start": {
@@ -1357,25 +1363,52 @@
     "precision": "day",
     "display": "15 June 1815"
    }
+  },
+  {
+   "title": "Grenadier Guards",
+   "url": "https://en.wikipedia.org/wiki/Grenadier_Guards",
+   "lang": "en",
+   "description": "The regiment that won its name and bearskins from a partly mistaken belief that it had beaten the Old Guard.",
+   "qid": "Q772054"
+  },
+  {
+   "title": "Treaty of Paris (1815)",
+   "url": "https://en.wikipedia.org/wiki/Treaty_of_Paris_(1815)",
+   "lang": "en",
+   "description": "The settlement signed in November 1815 that fixed the terms imposed on France after Waterloo.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Coalition_occupation_of_France_1815.png/60px-Coalition_occupation_of_France_1815.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q233688",
+   "start": {
+    "raw": "+1815-11-20T00:00:00Z",
+    "year": 1815,
+    "precision": "day",
+    "display": "20 November 1815"
+   },
+   "occurredAt": {
+    "raw": "+1815-11-20T00:00:00Z",
+    "year": 1815,
+    "precision": "day",
+    "display": "20 November 1815"
+   }
   }
  ],
  "coverage": {
   "total": 11,
-  "verified": 9,
-  "coverage": 0.8181818181818182,
+  "verified": 10,
+  "coverage": 0.9090909090909091,
   "byMethod": {
    "exact": 11,
    "fuzzy": 0,
    "none": 0
   }
  },
- "generatedAt": "2026-09-12T12:16:01.369Z",
+ "generatedAt": "2026-09-12T12:56:05.035Z",
  "model": "claude-opus-5",
  "usage": {
   "input": 39662,
-  "output": 7187,
+  "output": 8300,
   "cacheWrite": 0,
   "cacheRead": 4785,
-  "usd": 0.38037750000000004
+  "usd": 0.4082025
  }
 }

@@ -100,7 +100,7 @@
   "timeline": [
    {
     "id": "start",
-    "label": "Assassination of Archduke Franz Ferdinand begins",
+    "label": "Assassination of Archduke Franz Ferdinand",
     "kind": "period",
     "date": {
      "raw": "+1914-06-28T00:00:00Z",
@@ -262,40 +262,54 @@
    "truncated": false
   }
  ],
- "summary": "On Sunday 28 June 1914, Archduke Franz Ferdinand — the man due to inherit the throne of Austria-Hungary, a large multi-ethnic empire in central Europe — and his wife Sophie were shot dead in Sarajevo, the capital of Bosnia and Herzegovina, by a 19-year-old Bosnian Serb student named Gavrilo Princip [S1]. Austria-Hungary had formally annexed Bosnia in 1908, and Princip belonged to a revolutionary current called Young Bosnia that wanted the province free of Habsburg rule and joined to a common South Slav state [S1]. The killing is remembered because it set off the diplomatic crisis that became the First World War [S4].\n\nPrincip was one of six assassins placed along the motorcade route by the organiser Danilo Ilić [S8], armed and trained with help from officers of Serbian military intelligence, notably Dragutin Dimitrijević and Major Vojislav Tankosić [S1]. The first attempt failed: a bomb bounced off the car and wounded sixteen to twenty people in the crowd [S8]. Princip got his chance only because the drivers were not told of a changed route and the Archduke's car stalled while reversing beside him [S8]. Austria-Hungary blamed Serbia, sent an ultimatum on 23 July demanding, among other things, arrests on Serbian soil and Austrian participation in the inquiry, and declared war on 28 July [S10]. Russia's mobilisation in support of Serbia then triggered Austro-Hungarian and German mobilisations, and the major powers took sides [S10]. How far the Serbian government itself knew is still contested: its responsibility could not be proven, though Austria-Hungary held it responsible and declared war [S5], and the conspiracy's full reach has never been adequately clarified [S5].",
- "whyItMatters": "The assassination produced the July Crisis and, through it, a European war that Serbian participants had not anticipated — one defendant said he would never have joined had he known it would lead to a European war [S12]. One study argues the Archduke's death itself mattered diplomatically, since he had been the most powerful advocate for peace in Vienna [S10]. Contemporaries were not all convinced the two deaths explained what followed: in August 1914 one American magazine called the assassination a \"deplorable but relatively insignificant\" reason for the chaos then engulfing world finance, commerce and armies [S10]. Closer to home, the immediate effect was violence against Serbs: anti-Serb rioting broke out in Sarajevo and elsewhere, and in Sarajevo two Serbs were killed and around 1,000 Serb-owned buildings razed or pillaged [S8]. A century later the meaning of the act remains split along ethnic lines in the former Yugoslavia, with many Serbs regarding Princip as a national hero while Bosniaks and Croats largely see him as a terrorist [S7].",
+ "summary": "On Sunday 28 June 1914, Archduke Franz Ferdinand — the man next in line to the throne of Austria-Hungary, a large multi-ethnic empire in central Europe — and his wife Sophie were shot dead in Sarajevo, the capital of Bosnia and Herzegovina, by a 19-year-old Bosnian Serb student named Gavrilo Princip [S1]. Austria-Hungary had occupied Bosnia since 1878 under an international treaty and formally annexed it in 1908, which enraged neighbouring Serbia and Serb nationalists inside the empire [S9][S1]. Princip was one of six assassins, nearly all Bosnian Serbs and all Austro-Hungarian citizens, who wanted to end Habsburg rule and build a single South Slav state [S1].\n\nThe plot was armed and routed from Belgrade: Major Vojislav Tankosić supplied bombs and pistols and trained the men, and the agent Rade Malobabić gave them the smuggling network used to move weapons into Austria-Hungary [S1]. On the day, security was thin — around 60 police on duty, and a proposal to line the route with troops was rejected as insulting to loyal citizens [S8]. A bomb thrown at the motorcade missed and wounded 16–20 people; hours later a wrong turn and a stalled engine left the car stopped beside Princip, who fired at point-blank range [S8]. Austria-Hungary blamed Serbia, whose government's own responsibility was never proven, and issued an ultimatum on 23 July; the crisis escalated through mobilisations until the great powers were at war [S5][S10].",
+ "whyItMatters": "The killings triggered the July Crisis and Austria-Hungary's declaration of war on Serbia, which was the start of World War I [S1]. One 2021 study argues the Archduke's own absence mattered: he had been the most effective advocate for peace in Vienna, and without him diplomacy broke down [S10]. Contemporaries already doubted the proportion — in August 1914 one American magazine called the assassination a \"deplorable but relatively insignificant\" reason for the chaos that followed [S10]. Within Austria-Hungary the immediate effect was violence against Serb civilians: anti-Serb pogroms in Sarajevo and elsewhere killed people and destroyed or looted around 1,000 Serb-owned buildings [S8]. A century later Princip remains contested, seen as a terrorist by many Bosniaks and Croats and as a national hero by many Serbs [S7].",
  "takeaways": [
   {
    "id": "t0",
-   "text": "On 28 June 1914 in Sarajevo, the man in line to inherit the Austro-Hungarian throne, Archduke Franz Ferdinand, and his wife Sophie were shot dead by a young Bosnian Serb student.",
+   "text": "Archduke Franz Ferdinand, the man next in line to inherit the throne of Austria-Hungary, and his wife Sophie were shot dead at close range in Sarajevo on 28 June 1914 by Gavrilo Princip, a Bosnian Serb student.",
    "sourceId": "S1",
-   "quote": "Archduke Franz Ferdinand of Austria, heir presumptive to the Austro-Hungarian throne, and his wife, Sophie, Duchess of Hohenberg, were assassinated by Bosnian Serb student",
+   "quote": "Archduke Franz Ferdinand of Austria, heir presumptive to the Austro-Hungarian throne, and his wife, Sophie, Duchess of Hohenberg, were assassinated by Bosnian Serb student Gavrilo Princip in Sarajevo",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#:~:text=Archduke%20Franz%20Ferdinand%20of%20Austria%2C%20heir,were%20assassinated%20by%20Bosnian%20Serb%20student",
+    "citationUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#:~:text=Archduke%20Franz%20Ferdinand%20of%20Austria%2C%20heir,Serb%20student%20Gavrilo%20Princip%20in%20Sarajevo",
     "sourceTitle": "Assassination of Archduke Franz Ferdinand",
     "sourceUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand"
    }
   },
   {
    "id": "t1",
-   "text": "The killers' aim was political: to end Austro-Hungarian rule over Bosnia and Herzegovina and to merge the South Slav peoples into a single state.",
+   "text": "The killers were a team of six young men coordinated by Danilo Ilić, nearly all Bosnian Serbs, who belonged to a revolutionary movement called Young Bosnia and wanted to end Austro-Hungarian rule in Bosnia and create a South Slav state.",
    "sourceId": "S1",
-   "quote": "The political objective of the assassination was to free Bosnia and Herzegovina of Austro-Hungarian rule and establish a common South Slav (\"Yugoslav\") state.",
+   "quote": "Princip was part of a group of six Bosnian assassins together with Muhamed Mehmedbašić, Vaso Čubrilović, Nedeljko Čabrinović, Cvjetko Popović and Trifko Grabež coordinated by Danilo Ilić",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#:~:text=The%20political%20objective%20of%20the%20assassination,a%20common%20South%20Slav%20(%22Yugoslav%22)%20state.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#:~:text=Princip%20was%20part%20of%20a%20group,Trifko%20Grabe%C5%BE%20coordinated%20by%20Danilo%20Ili%C4%87",
     "sourceTitle": "Assassination of Archduke Franz Ferdinand",
     "sourceUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand"
    }
   },
   {
    "id": "t2",
-   "text": "The murders set off a month of diplomatic escalation known as the July Crisis, ending in an Austro-Hungarian declaration of war on Serbia and the outbreak of the First World War.",
+   "text": "Weapons and training for the assassins came from Serbian military figures: Major Vojislav Tankosić supplied bombs and pistols and taught the men to use them.",
+   "sourceId": "S1",
+   "quote": "Tankosić provided bombs and pistols to the assassins and trained them in their use.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#:~:text=Tankosi%C4%87%20provided%20bombs%20and%20pistols%20to,and%20trained%20them%20in%20their%20use.",
+    "sourceTitle": "Assassination of Archduke Franz Ferdinand",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand"
+   }
+  },
+  {
+   "id": "t3",
+   "text": "The killing set off the July Crisis, a month of escalating diplomacy that ended with Austria-Hungary declaring war on Serbia and the outbreak of the First World War.",
    "sourceId": "S1",
    "quote": "The assassination precipitated the July Crisis, which led to Austria-Hungary declaring war on Serbia and the start of World War I.",
    "verification": {
@@ -308,22 +322,22 @@
    }
   },
   {
-   "id": "t3",
-   "text": "The teenage assassins were not acting entirely alone: the head of Serbian military intelligence and a Serbian army major supplied backing, weapons and training.",
-   "sourceId": "S1",
-   "quote": "support came from Dragutin Dimitrijević, chief of the military intelligence section of the Serbian general staff, as well as from Major Vojislav Tankosić",
+   "id": "t4",
+   "text": "The assassination succeeded partly through accident: the first attempt of the day, a bomb thrown by Nedeljko Čabrinović, bounced off the car's folded cover and exploded under the following vehicle.",
+   "sourceId": "S8",
+   "quote": "At 10:10 am, Franz Ferdinand's car approached and Čabrinović threw his bomb. The bomb bounced off the folded back convertible cover into the street.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#:~:text=support%20came%20from%20Dragutin%20Dimitrijevi%C4%87%2C%20chief,well%20as%20from%20Major%20Vojislav%20Tankosi%C4%87",
+    "citationUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#Assassination:~:text=At%2010%3A10%20am%2C%20Franz%20Ferdinand's%20car,back%20convertible%20cover%20into%20the%20street.",
     "sourceTitle": "Assassination of Archduke Franz Ferdinand",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand"
+    "sourceUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#Assassination"
    }
   },
   {
-   "id": "t4",
-   "text": "The killing succeeded largely by accident: after a wrong turn the Archduke's driver stalled the car a few feet from where the gunman happened to be standing.",
+   "id": "t5",
+   "text": "Princip got his chance only because the Archduke's driver took a wrong turn and stalled the engine right beside him.",
    "sourceId": "S8",
    "quote": "The driver applied the brakes, and when he attempted to put the car into reverse gear he accidentally stalled the engine close to where Princip was standing.",
    "verification": {
@@ -336,11 +350,11 @@
    }
   },
   {
-   "id": "t5",
-   "text": "Although the Serbian government's responsibility for the plot was never proved, Austria-Hungary held Serbia responsible and declared war on it.",
+   "id": "t6",
+   "text": "Serbian government responsibility for the attack was never proven, but Austria-Hungary held Serbia responsible and declared war on it.",
    "sourceId": "S5",
    "quote": "Aun cuando la responsabilidad del gobierno de Serbia no pudo ser probada, el Imperio austrohúngaro lo hizo responsable del atentado y le declaró la guerra",
-   "quoteTranslation": "Even though the responsibility of the government of Serbia could not be proved, the Austro-Hungarian Empire held it responsible for the attack and declared war on it",
+   "quoteTranslation": "Even though the responsibility of the government of Serbia could not be proven, the Austro-Hungarian Empire held it responsible for the attack and declared war on it.",
    "verification": {
     "status": "verified",
     "method": "exact",
@@ -349,68 +363,16 @@
     "sourceTitle": "Atentado de Sarajevo",
     "sourceUrl": "https://es.wikipedia.org/wiki/Atentado_de_Sarajevo"
    }
-  },
-  {
-   "id": "t6",
-   "text": "More than a century later, the assassin is remembered very differently by different ethnic communities in Bosnia and Herzegovina.",
-   "sourceId": "S7",
-   "quote": "In Bosnia and Herzegovina, Bosniaks and Croats largely view Gavrilo Princip as a terrorist and an ethnic Serb nationalist. Many Serbs consider Princip a national hero.",
-   "verification": {
-    "status": "verified",
-    "method": "exact",
-    "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#Legacy:~:text=In%20Bosnia%20and%20Herzegovina%2C%20Bosniaks%20and,Serbs%20consider%20Princip%20a%20national%20hero.",
-    "sourceTitle": "Assassination of Archduke Franz Ferdinand",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#Legacy"
-   }
   }
  ],
  "perspectives": [
   {
-   "label": "Serbian military intelligence as sponsor",
-   "stance": "The state's spy chief, not a secret society, ordered it",
-   "body": "One reading holds that by 1914 the Black Hand conspiratorial society was effectively defunct and that the operation was run through the army's intelligence chain of command by Colonel Dragutin Dimitrijević, known as Apis. Supporting points include Apis's own confession opening with his official title and the fact that no Black Hand governing body ever voted for the killing.",
+   "label": "Contemporary sceptics of the event's weight",
+   "stance": "The murder was a trivial pretext for catastrophe",
+   "body": "An American magazine writing weeks after the shooting called the assassination a minor matter set against the collapse of world finance, trade and the mobilisation of millions. On this reading the deeper causes lay elsewhere and the Archduke's death merely triggered forces already primed.",
    "evidence": {
     "id": "p0",
-    "text": "Apis's confession to ordering the operation opened by identifying himself as head of the General Staff's intelligence department.",
-    "sourceId": "S6",
-    "quote": "Apis's confession to ordering the operation that begins with the phrase \"As the Chief of the Intelligence Department of the General Staff\"",
-    "verification": {
-     "status": "verified",
-     "method": "exact",
-     "score": 1,
-     "citationUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#Controversy_about_responsibility:~:text=Apis's%20confession%20to%20ordering%20the%20operation,Intelligence%20Department%20of%20the%20General%20Staff%22",
-     "sourceTitle": "Assassination of Archduke Franz Ferdinand",
-     "sourceUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#Controversy_about_responsibility"
-    }
-   }
-  },
-  {
-   "label": "The Black Hand as sponsor",
-   "stance": "A nationalist secret society, not the Serbian state",
-   "body": "The competing reading attributes the plot to the Black Hand as an organisation rather than to official Serbian military intelligence. It points to the membership of the key officers, the involvement of the Bosnian provincial director of the society, and the absence of any official budget for the operation.",
-   "evidence": {
-    "id": "p1",
-    "text": "Arguments for blaming the Black Hand include the membership of the officers involved and the lack of official funding for the operation.",
-    "sourceId": "S6",
-    "quote": "The fact that Milan Ciganović was involved, that the key officers involved were \"Black Hand\" members",
-    "verification": {
-     "status": "verified",
-     "method": "exact",
-     "score": 1,
-     "citationUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#Controversy_about_responsibility:~:text=The%20fact%20that%20Milan%20Ciganovi%C4%87%20was,officers%20involved%20were%20%22Black%20Hand%22%20members",
-     "sourceTitle": "Assassination of Archduke Franz Ferdinand",
-     "sourceUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#Controversy_about_responsibility"
-    }
-   }
-  },
-  {
-   "label": "Contemporary sceptics of the event's weight",
-   "stance": "A trivial murder blamed for a catastrophic war",
-   "body": "Within weeks of the outbreak, commentators were already questioning whether the deaths of two people could account for a continental war. This reading treats the assassination as a pretext rather than a cause, with deeper economic and diplomatic forces doing the real work.",
-   "evidence": {
-    "id": "p2",
-    "text": "A magazine writing in August 1914 called the assassination a \"deplorable but relatively insignificant\" reason for the collapse of world finance and commerce.",
+    "text": "In August 1914 a magazine described the assassination as a \"deplorable but relatively insignificant\" reason for the collapse of the world's financial system and the mobilisation of millions.",
     "sourceId": "S10",
     "quote": "In August 1914, The Independent described the assassination as a \"deplorable but relatively insignificant\" reason for which",
     "verification": {
@@ -424,21 +386,59 @@
    }
   },
   {
-   "label": "Modern scholarship on the victim's political role",
-   "stance": "Killing Franz Ferdinand removed Vienna's leading peace advocate",
-   "body": "A counter-argument holds that the specific victim mattered enormously. Recent research argues Franz Ferdinand was the most influential opponent of war within the Austro-Hungarian leadership, so his death itself unbalanced the decision-making that followed.",
+   "label": "The \"Franz Ferdinand mattered\" reading",
+   "stance": "His death removed Vienna's strongest voice for peace",
+   "body": "A 2021 study argues the opposite of the pretext view: that the particular man who died was decisive, because he had been the most effective advocate against war within the Austro-Hungarian leadership. Without him, diplomacy in July 1914 broke down.",
    "evidence": {
-    "id": "p3",
-    "text": "A 2021 study argues that the absence of Franz Ferdinand was central to the collapse of diplomacy and the slide into war.",
+    "id": "p1",
+    "text": "One study holds that Franz Ferdinand's absence was key to the breakdown of diplomacy, since he had been the most powerful and effective proponent for peace in Vienna.",
     "sourceId": "S10",
-    "quote": "According to a 2021 study, Franz Ferdinand's absence was key to the breakdown of diplomacy and escalation into war",
+    "quote": "According to a 2021 study, Franz Ferdinand's absence was key to the breakdown of diplomacy and escalation into war, as Ferdinand had been the most powerful and effective proponent for peace in Vienna.",
     "verification": {
      "status": "verified",
      "method": "exact",
      "score": 1,
-     "citationUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#Consequences:~:text=According%20to%20a%202021%20study%2C%20Franz,of%20diplomacy%20and%20escalation%20into%20war",
+     "citationUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#Consequences:~:text=According%20to%20a%202021%20study%2C%20Franz,effective%20proponent%20for%20peace%20in%20Vienna.",
      "sourceTitle": "Assassination of Archduke Franz Ferdinand",
      "sourceUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#Consequences"
+    }
+   }
+  },
+  {
+   "label": "Serbian Military Intelligence thesis",
+   "stance": "Apis ordered it through the official intelligence chain",
+   "body": "One reading assigns responsibility to the Serbian army's intelligence department rather than to the Black Hand secret society, noting that Apis framed his confession in his official capacity and that the Black Hand's own constitution required a vote that never happened.",
+   "evidence": {
+    "id": "p2",
+    "text": "Apis's confession to ordering the operation begins with the phrase \"As the Chief of the Intelligence Department of the General Staff\".",
+    "sourceId": "S6",
+    "quote": "Apis's confession to ordering the operation that begins with the phrase \"As the Chief of the Intelligence Department of the General Staff\", the fact that the military chain of command was invoked",
+    "verification": {
+     "status": "verified",
+     "method": "exact",
+     "score": 1,
+     "citationUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#Controversy_about_responsibility:~:text=Apis's%20confession%20to%20ordering%20the%20operation,military%20chain%20of%20command%20was%20invoked",
+     "sourceTitle": "Assassination of Archduke Franz Ferdinand",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#Controversy_about_responsibility"
+    }
+   }
+  },
+  {
+   "label": "Post-Yugoslav ethnic readings of Princip",
+   "stance": "Hero or terrorist, depending on nationality",
+   "body": "After Yugoslavia broke apart, Princip's reputation split along ethnic lines. Bosniaks and Croats largely treat him as an ethnic Serb nationalist terrorist; many Serbs regard him as a national hero and erected statues to him on the centenary.",
+   "evidence": {
+    "id": "p3",
+    "text": "In Bosnia and Herzegovina, Bosniaks and Croats largely view Gavrilo Princip as a terrorist and an ethnic Serb nationalist, while many Serbs consider him a national hero.",
+    "sourceId": "S7",
+    "quote": "In Bosnia and Herzegovina, Bosniaks and Croats largely view Gavrilo Princip as a terrorist and an ethnic Serb nationalist. Many Serbs consider Princip a national hero.",
+    "verification": {
+     "status": "verified",
+     "method": "exact",
+     "score": 1,
+     "citationUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#Legacy:~:text=In%20Bosnia%20and%20Herzegovina%2C%20Bosniaks%20and,Serbs%20consider%20Princip%20a%20national%20hero.",
+     "sourceTitle": "Assassination of Archduke Franz Ferdinand",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#Legacy"
     }
    }
   }
@@ -446,35 +446,49 @@
  "claims": [
   {
    "id": "t0",
-   "text": "On 28 June 1914 in Sarajevo, the man in line to inherit the Austro-Hungarian throne, Archduke Franz Ferdinand, and his wife Sophie were shot dead by a young Bosnian Serb student.",
+   "text": "Archduke Franz Ferdinand, the man next in line to inherit the throne of Austria-Hungary, and his wife Sophie were shot dead at close range in Sarajevo on 28 June 1914 by Gavrilo Princip, a Bosnian Serb student.",
    "sourceId": "S1",
-   "quote": "Archduke Franz Ferdinand of Austria, heir presumptive to the Austro-Hungarian throne, and his wife, Sophie, Duchess of Hohenberg, were assassinated by Bosnian Serb student",
+   "quote": "Archduke Franz Ferdinand of Austria, heir presumptive to the Austro-Hungarian throne, and his wife, Sophie, Duchess of Hohenberg, were assassinated by Bosnian Serb student Gavrilo Princip in Sarajevo",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#:~:text=Archduke%20Franz%20Ferdinand%20of%20Austria%2C%20heir,were%20assassinated%20by%20Bosnian%20Serb%20student",
+    "citationUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#:~:text=Archduke%20Franz%20Ferdinand%20of%20Austria%2C%20heir,Serb%20student%20Gavrilo%20Princip%20in%20Sarajevo",
     "sourceTitle": "Assassination of Archduke Franz Ferdinand",
     "sourceUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand"
    }
   },
   {
    "id": "t1",
-   "text": "The killers' aim was political: to end Austro-Hungarian rule over Bosnia and Herzegovina and to merge the South Slav peoples into a single state.",
+   "text": "The killers were a team of six young men coordinated by Danilo Ilić, nearly all Bosnian Serbs, who belonged to a revolutionary movement called Young Bosnia and wanted to end Austro-Hungarian rule in Bosnia and create a South Slav state.",
    "sourceId": "S1",
-   "quote": "The political objective of the assassination was to free Bosnia and Herzegovina of Austro-Hungarian rule and establish a common South Slav (\"Yugoslav\") state.",
+   "quote": "Princip was part of a group of six Bosnian assassins together with Muhamed Mehmedbašić, Vaso Čubrilović, Nedeljko Čabrinović, Cvjetko Popović and Trifko Grabež coordinated by Danilo Ilić",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#:~:text=The%20political%20objective%20of%20the%20assassination,a%20common%20South%20Slav%20(%22Yugoslav%22)%20state.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#:~:text=Princip%20was%20part%20of%20a%20group,Trifko%20Grabe%C5%BE%20coordinated%20by%20Danilo%20Ili%C4%87",
     "sourceTitle": "Assassination of Archduke Franz Ferdinand",
     "sourceUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand"
    }
   },
   {
    "id": "t2",
-   "text": "The murders set off a month of diplomatic escalation known as the July Crisis, ending in an Austro-Hungarian declaration of war on Serbia and the outbreak of the First World War.",
+   "text": "Weapons and training for the assassins came from Serbian military figures: Major Vojislav Tankosić supplied bombs and pistols and taught the men to use them.",
+   "sourceId": "S1",
+   "quote": "Tankosić provided bombs and pistols to the assassins and trained them in their use.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#:~:text=Tankosi%C4%87%20provided%20bombs%20and%20pistols%20to,and%20trained%20them%20in%20their%20use.",
+    "sourceTitle": "Assassination of Archduke Franz Ferdinand",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand"
+   }
+  },
+  {
+   "id": "t3",
+   "text": "The killing set off the July Crisis, a month of escalating diplomacy that ended with Austria-Hungary declaring war on Serbia and the outbreak of the First World War.",
    "sourceId": "S1",
    "quote": "The assassination precipitated the July Crisis, which led to Austria-Hungary declaring war on Serbia and the start of World War I.",
    "verification": {
@@ -487,22 +501,22 @@
    }
   },
   {
-   "id": "t3",
-   "text": "The teenage assassins were not acting entirely alone: the head of Serbian military intelligence and a Serbian army major supplied backing, weapons and training.",
-   "sourceId": "S1",
-   "quote": "support came from Dragutin Dimitrijević, chief of the military intelligence section of the Serbian general staff, as well as from Major Vojislav Tankosić",
+   "id": "t4",
+   "text": "The assassination succeeded partly through accident: the first attempt of the day, a bomb thrown by Nedeljko Čabrinović, bounced off the car's folded cover and exploded under the following vehicle.",
+   "sourceId": "S8",
+   "quote": "At 10:10 am, Franz Ferdinand's car approached and Čabrinović threw his bomb. The bomb bounced off the folded back convertible cover into the street.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#:~:text=support%20came%20from%20Dragutin%20Dimitrijevi%C4%87%2C%20chief,well%20as%20from%20Major%20Vojislav%20Tankosi%C4%87",
+    "citationUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#Assassination:~:text=At%2010%3A10%20am%2C%20Franz%20Ferdinand's%20car,back%20convertible%20cover%20into%20the%20street.",
     "sourceTitle": "Assassination of Archduke Franz Ferdinand",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand"
+    "sourceUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#Assassination"
    }
   },
   {
-   "id": "t4",
-   "text": "The killing succeeded largely by accident: after a wrong turn the Archduke's driver stalled the car a few feet from where the gunman happened to be standing.",
+   "id": "t5",
+   "text": "Princip got his chance only because the Archduke's driver took a wrong turn and stalled the engine right beside him.",
    "sourceId": "S8",
    "quote": "The driver applied the brakes, and when he attempted to put the car into reverse gear he accidentally stalled the engine close to where Princip was standing.",
    "verification": {
@@ -515,11 +529,11 @@
    }
   },
   {
-   "id": "t5",
-   "text": "Although the Serbian government's responsibility for the plot was never proved, Austria-Hungary held Serbia responsible and declared war on it.",
+   "id": "t6",
+   "text": "Serbian government responsibility for the attack was never proven, but Austria-Hungary held Serbia responsible and declared war on it.",
    "sourceId": "S5",
    "quote": "Aun cuando la responsabilidad del gobierno de Serbia no pudo ser probada, el Imperio austrohúngaro lo hizo responsable del atentado y le declaró la guerra",
-   "quoteTranslation": "Even though the responsibility of the government of Serbia could not be proved, the Austro-Hungarian Empire held it responsible for the attack and declared war on it",
+   "quoteTranslation": "Even though the responsibility of the government of Serbia could not be proven, the Austro-Hungarian Empire held it responsible for the attack and declared war on it.",
    "verification": {
     "status": "verified",
     "method": "exact",
@@ -530,50 +544,8 @@
    }
   },
   {
-   "id": "t6",
-   "text": "More than a century later, the assassin is remembered very differently by different ethnic communities in Bosnia and Herzegovina.",
-   "sourceId": "S7",
-   "quote": "In Bosnia and Herzegovina, Bosniaks and Croats largely view Gavrilo Princip as a terrorist and an ethnic Serb nationalist. Many Serbs consider Princip a national hero.",
-   "verification": {
-    "status": "verified",
-    "method": "exact",
-    "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#Legacy:~:text=In%20Bosnia%20and%20Herzegovina%2C%20Bosniaks%20and,Serbs%20consider%20Princip%20a%20national%20hero.",
-    "sourceTitle": "Assassination of Archduke Franz Ferdinand",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#Legacy"
-   }
-  },
-  {
    "id": "p0",
-   "text": "Apis's confession to ordering the operation opened by identifying himself as head of the General Staff's intelligence department.",
-   "sourceId": "S6",
-   "quote": "Apis's confession to ordering the operation that begins with the phrase \"As the Chief of the Intelligence Department of the General Staff\"",
-   "verification": {
-    "status": "verified",
-    "method": "exact",
-    "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#Controversy_about_responsibility:~:text=Apis's%20confession%20to%20ordering%20the%20operation,Intelligence%20Department%20of%20the%20General%20Staff%22",
-    "sourceTitle": "Assassination of Archduke Franz Ferdinand",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#Controversy_about_responsibility"
-   }
-  },
-  {
-   "id": "p1",
-   "text": "Arguments for blaming the Black Hand include the membership of the officers involved and the lack of official funding for the operation.",
-   "sourceId": "S6",
-   "quote": "The fact that Milan Ciganović was involved, that the key officers involved were \"Black Hand\" members",
-   "verification": {
-    "status": "verified",
-    "method": "exact",
-    "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#Controversy_about_responsibility:~:text=The%20fact%20that%20Milan%20Ciganovi%C4%87%20was,officers%20involved%20were%20%22Black%20Hand%22%20members",
-    "sourceTitle": "Assassination of Archduke Franz Ferdinand",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#Controversy_about_responsibility"
-   }
-  },
-  {
-   "id": "p2",
-   "text": "A magazine writing in August 1914 called the assassination a \"deplorable but relatively insignificant\" reason for the collapse of world finance and commerce.",
+   "text": "In August 1914 a magazine described the assassination as a \"deplorable but relatively insignificant\" reason for the collapse of the world's financial system and the mobilisation of millions.",
    "sourceId": "S10",
    "quote": "In August 1914, The Independent described the assassination as a \"deplorable but relatively insignificant\" reason for which",
    "verification": {
@@ -586,21 +558,253 @@
    }
   },
   {
-   "id": "p3",
-   "text": "A 2021 study argues that the absence of Franz Ferdinand was central to the collapse of diplomacy and the slide into war.",
+   "id": "p1",
+   "text": "One study holds that Franz Ferdinand's absence was key to the breakdown of diplomacy, since he had been the most powerful and effective proponent for peace in Vienna.",
    "sourceId": "S10",
-   "quote": "According to a 2021 study, Franz Ferdinand's absence was key to the breakdown of diplomacy and escalation into war",
+   "quote": "According to a 2021 study, Franz Ferdinand's absence was key to the breakdown of diplomacy and escalation into war, as Ferdinand had been the most powerful and effective proponent for peace in Vienna.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#Consequences:~:text=According%20to%20a%202021%20study%2C%20Franz,of%20diplomacy%20and%20escalation%20into%20war",
+    "citationUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#Consequences:~:text=According%20to%20a%202021%20study%2C%20Franz,effective%20proponent%20for%20peace%20in%20Vienna.",
     "sourceTitle": "Assassination of Archduke Franz Ferdinand",
     "sourceUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#Consequences"
    }
+  },
+  {
+   "id": "p2",
+   "text": "Apis's confession to ordering the operation begins with the phrase \"As the Chief of the Intelligence Department of the General Staff\".",
+   "sourceId": "S6",
+   "quote": "Apis's confession to ordering the operation that begins with the phrase \"As the Chief of the Intelligence Department of the General Staff\", the fact that the military chain of command was invoked",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#Controversy_about_responsibility:~:text=Apis's%20confession%20to%20ordering%20the%20operation,military%20chain%20of%20command%20was%20invoked",
+    "sourceTitle": "Assassination of Archduke Franz Ferdinand",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#Controversy_about_responsibility"
+   }
+  },
+  {
+   "id": "p3",
+   "text": "In Bosnia and Herzegovina, Bosniaks and Croats largely view Gavrilo Princip as a terrorist and an ethnic Serb nationalist, while many Serbs consider him a national hero.",
+   "sourceId": "S7",
+   "quote": "In Bosnia and Herzegovina, Bosniaks and Croats largely view Gavrilo Princip as a terrorist and an ethnic Serb nationalist. Many Serbs consider Princip a national hero.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#Legacy:~:text=In%20Bosnia%20and%20Herzegovina%2C%20Bosniaks%20and,Serbs%20consider%20Princip%20a%20national%20hero.",
+    "sourceTitle": "Assassination of Archduke Franz Ferdinand",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand#Legacy"
+   }
   }
  ],
- "keyEvents": [],
+ "keyEvents": [
+  {
+   "label": "Serbian royal couple murdered in palace coup",
+   "summary": "Army officers led by Dragutin Dimitrijević stormed the royal palace, killed King Alexander I Obrenović and Queen Draga and installed the Karađorđević dynasty. The new regime was more nationalist, friendlier to Russia and hostile to Austria-Hungary, and the plotters went on to form the Black Hand.",
+   "entity": {
+    "title": "May Coup (Serbia)",
+    "url": "https://en.wikipedia.org/wiki/May_Coup_(Serbia)",
+    "lang": "en",
+    "description": "1903 military coup against King Alexander I of Serbia; Peter I installed",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Le_Petit_Parisien_-_May_Overthrow.jpg/60px-Le_Petit_Parisien_-_May_Overthrow.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q2403418",
+    "start": {
+     "raw": "+1903-05-28T00:00:00Z",
+     "year": 1903,
+     "precision": "day",
+     "display": "28 May 1903"
+    },
+    "end": {
+     "raw": "+1903-05-29T00:00:00Z",
+     "year": 1903,
+     "precision": "day",
+     "display": "29 May 1903"
+    },
+    "occurredAt": {
+     "raw": "+1903-05-29T00:00:00Z",
+     "year": 1903,
+     "precision": "day",
+     "display": "29 May 1903"
+    }
+   },
+   "date": {
+    "raw": "+1903-05-29T00:00:00Z",
+    "year": 1903,
+    "precision": "day",
+    "display": "29 May 1903"
+   }
+  },
+  {
+   "label": "Austria-Hungary annexes Bosnia and Herzegovina",
+   "summary": "Vienna converted its occupation of Bosnia into outright annexation, provoking Serbian protest that ended without compensation. Serb resentment at the annexation fed both Serbian nationalism and revolutionary sentiment among Bosnian Serbs.",
+   "entity": {
+    "title": "Bosnian Crisis",
+    "url": "https://en.wikipedia.org/wiki/Bosnian_Crisis",
+    "lang": "en",
+    "description": "Crisis triggered by Austria-Hungary's annexation of Bosnia and Herzegovina in 1908",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Le_Petit_Journal_Balkan_Crisis_%281908%29.jpg/60px-Le_Petit_Journal_Balkan_Crisis_%281908%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q167246",
+    "start": {
+     "raw": "+1908-01-01T00:00:00Z",
+     "year": 1908,
+     "precision": "year",
+     "display": "1908"
+    },
+    "end": {
+     "raw": "+1909-01-01T00:00:00Z",
+     "year": 1909,
+     "precision": "year",
+     "display": "1909"
+    },
+    "occurredAt": {
+     "raw": "+1908-01-01T00:00:00Z",
+     "year": 1908,
+     "precision": "year",
+     "display": "1908"
+    }
+   },
+   "date": {
+    "raw": "+1908-01-01T00:00:00Z",
+    "year": 1908,
+    "precision": "year",
+    "display": "1908"
+   }
+  },
+  {
+   "label": "Founding of the Black Hand",
+   "summary": "A secret society dedicated to creating a Greater Serbia through terrorist action was formed by officers including Dimitrijević and Tankosić. Its networks penetrated revolutionary movements inside Bosnia.",
+   "entity": {
+    "title": "Black Hand (character)",
+    "url": "https://en.wikipedia.org/wiki/Black_Hand_(character)",
+    "lang": "en",
+    "description": "DC Comics character",
+    "qid": "Q2905530"
+   }
+  },
+  {
+   "label": "Čabrinović's bomb misses the motorcade",
+   "summary": "A bomb thrown at the Archduke's car bounced off and disabled the following vehicle, wounding bystanders. The failure left the day's programme in disarray and led to the improvised return route that gave Princip his opportunity.",
+   "entity": {
+    "title": "Operation Tekbir '95",
+    "url": "https://en.wikipedia.org/wiki/Operation_Tekbir_'95",
+    "lang": "en",
+    "description": "Military operation of the Bosnian War",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Sarajevo_june_1995.jpg/60px-Sarajevo_june_1995.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q126454254"
+   }
+  },
+  {
+   "label": "Wrong turn at the Latin Bridge",
+   "summary": "Governor Potiorek's decision to change the route was never passed to the drivers, so the Archduke's car turned off the Appel Quay and stalled while reversing, directly in front of Princip.",
+   "entity": {
+    "title": "Latin Bridge",
+    "url": "https://en.wikipedia.org/wiki/Latin_Bridge",
+    "lang": "en",
+    "description": "Ottoman stone-arch bridge over Miljacka in Sarajevo, Bosnia and Herzegovina",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Latin_Bridge_02_%2822757259615%29.jpg/60px-Latin_Bridge_02_%2822757259615%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q1277685"
+   }
+  },
+  {
+   "label": "Anti-Serb pogroms across the empire",
+   "summary": "Within hours rioting broke out in Sarajevo and elsewhere, encouraged by Governor Potiorek; Serbs were killed and around 1,000 Serb-owned properties were destroyed or looted.",
+   "entity": {
+    "title": "Anti-Serb riots in Sarajevo",
+    "url": "https://en.wikipedia.org/wiki/Anti-Serb_riots_in_Sarajevo",
+    "lang": "en",
+    "description": "Riots after the assassination of Archduke Franz Ferdinand in 1914",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/1914-06-29_-_Aftermath_of_attacks_against_Serbs_in_Sarajevo.png/60px-1914-06-29_-_Aftermath_of_attacks_against_Serbs_in_Sarajevo.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q15285397",
+    "start": {
+     "raw": "+1914-06-29T00:00:00Z",
+     "year": 1914,
+     "precision": "day",
+     "display": "29 June 1914"
+    },
+    "occurredAt": {
+     "raw": "+1914-06-29T00:00:00Z",
+     "year": 1914,
+     "precision": "day",
+     "display": "29 June 1914"
+    }
+   },
+   "date": {
+    "raw": "+1914-06-29T00:00:00Z",
+    "year": 1914,
+    "precision": "day",
+    "display": "29 June 1914"
+   }
+  },
+  {
+   "label": "Austria-Hungary's ultimatum to Serbia",
+   "summary": "Vienna sent Belgrade a list of demands including suppression of anti-Austrian propaganda, dissolution of Narodna Odbrana and Austro-Hungarian participation in the investigation, with 48 hours to accept in full.",
+   "entity": {
+    "title": "Ultimatum of July 23, 1914",
+    "url": "https://en.wikipedia.org/wiki/Ultimatum_of_July_23%2C_1914",
+    "lang": "en",
+    "description": "Austro-Hungarian ultimatum to Serbia issued in the buildup to World War I",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Ultimatum_k.u.k_serbien.png/60px-Ultimatum_k.u.k_serbien.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q3548032",
+    "start": {
+     "raw": "+1914-07-00T00:00:00Z",
+     "year": 1914,
+     "precision": "month",
+     "display": "July 1914"
+    },
+    "occurredAt": {
+     "raw": "+1914-07-00T00:00:00Z",
+     "year": 1914,
+     "precision": "month",
+     "display": "July 1914"
+    }
+   },
+   "date": {
+    "raw": "+1914-07-00T00:00:00Z",
+    "year": 1914,
+    "precision": "month",
+    "display": "July 1914"
+   }
+  },
+  {
+   "label": "Russian general mobilization",
+   "summary": "After Austria-Hungary declared war and mobilised against Serbia, Russia mobilised partially and then generally, which triggered full Austro-Hungarian and German mobilisation and drew in the great powers.",
+   "entity": {
+    "title": "Russian invasion of East Prussia (1914)",
+    "url": "https://en.wikipedia.org/wiki/Russian_invasion_of_East_Prussia_(1914)",
+    "lang": "en",
+    "description": "Military operation in the First World War",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/BattleOfTannenberg1.jpg/60px-BattleOfTannenberg1.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q302625",
+    "start": {
+     "raw": "+1914-08-17T00:00:00Z",
+     "year": 1914,
+     "precision": "day",
+     "display": "17 August 1914"
+    },
+    "end": {
+     "raw": "+1914-09-14T00:00:00Z",
+     "year": 1914,
+     "precision": "day",
+     "display": "14 September 1914"
+    },
+    "occurredAt": {
+     "raw": "+1914-00-00T00:00:00Z",
+     "year": 1914,
+     "precision": "year",
+     "display": "1914"
+    }
+   },
+   "date": {
+    "raw": "+1914-00-00T00:00:00Z",
+    "year": 1914,
+    "precision": "year",
+    "display": "1914"
+   }
+  }
+ ],
  "figures": [
   {
    "entity": {
@@ -623,32 +827,8 @@
      "display": "28 April 1918"
     }
    },
-   "relationship": "Gunman who fired the fatal shots",
-   "note": "A Bosnian Serb student in his teens who shot both the Archduke and his wife at point-blank range and, being under age for execution, was jailed rather than hanged."
-  },
-  {
-   "entity": {
-    "title": "Archduke Franz Ferdinand of Austria",
-    "url": "https://en.wikipedia.org/wiki/Archduke_Franz_Ferdinand_of_Austria",
-    "lang": "en",
-    "description": "Heir to the Austrian throne (1863–1914)",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Ferdinand_Schmutzer_-_Franz_Ferdinand_von_%C3%96sterreich-Este%2C_um_1914_%28cropped%29.jpg/60px-Ferdinand_Schmutzer_-_Franz_Ferdinand_von_%C3%96sterreich-Este%2C_um_1914_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q43063",
-    "start": {
-     "raw": "+1863-12-18T00:00:00Z",
-     "year": 1863,
-     "precision": "day",
-     "display": "18 December 1863"
-    },
-    "end": {
-     "raw": "+1914-06-28T00:00:00Z",
-     "year": 1914,
-     "precision": "day",
-     "display": "28 June 1914"
-    }
-   },
-   "relationship": "The victim and heir to the throne",
-   "note": "His death removed the future ruler of Austria-Hungary and, some argue, the empire's most effective advocate for avoiding war."
+   "relationship": "Killer of the Archduke",
+   "note": "The Bosnian Serb student who fired the fatal shots; too young to be executed, he received twenty years in prison for murder and high treason."
   },
   {
    "entity": {
@@ -672,7 +852,7 @@
     }
    },
    "relationship": "Wife killed alongside him",
-   "note": "Her marriage to Franz Ferdinand was morganatic, and the trip to Bosnia let her appear publicly at his side in a way court protocol otherwise forbade."
+   "note": "Her marriage to Franz Ferdinand was morganatic, meaning their children could never inherit, and she could only appear at his side when he acted in a military capacity."
   },
   {
    "entity": {
@@ -695,8 +875,8 @@
      "display": "3 February 1915"
     }
    },
-   "relationship": "Local organiser who placed the assassins",
-   "note": "He coordinated the Sarajevo cell and positioned the six would-be killers along the motorcade route on the morning of the attack."
+   "relationship": "Coordinator of the assassins",
+   "note": "He positioned the six assassins along the motorcade route on the morning of the killing and urged them to be brave."
   },
   {
    "entity": {
@@ -719,8 +899,8 @@
      "display": "24 June 1917"
     }
    },
-   "relationship": "Serbian spy chief who backed the plot",
-   "note": "Known as Apis, he led the 1903 regicide that changed Serbia's dynasty and later confessed to ordering the Sarajevo operation before his own execution."
+   "relationship": "Serbian intelligence chief who backed plot",
+   "note": "Known as Apis, he led both the 1903 regicide and Serbian military intelligence, and later confessed to having engaged Malobabić to organise the assassination."
   },
   {
    "entity": {
@@ -743,8 +923,32 @@
      "display": "17 December 1933"
     }
    },
-   "relationship": "Governor who mishandled the security",
-   "note": "He rejected proposals to line the route with troops, overruled advice to keep the couple indoors after the first attempt, and failed to tell the drivers of the changed route."
+   "relationship": "Governor responsible for the security",
+   "note": "He vetoed troops lining the streets, insisted on the drive to the hospital, failed to tell the drivers of the route change, and afterwards stimulated anti-Serb pogroms."
+  },
+  {
+   "entity": {
+    "title": "Charles I of Austria",
+    "url": "https://en.wikipedia.org/wiki/Charles_I_of_Austria",
+    "lang": "en",
+    "description": "Emperor of Austria from 1916 to 1918",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Karl_I.%2C_Kaiser_von_%C3%96sterreich_%281887-1922%29.jpg/60px-Karl_I.%2C_Kaiser_von_%C3%96sterreich_%281887-1922%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q51068",
+    "start": {
+     "raw": "+1887-08-17T00:00:00Z",
+     "year": 1887,
+     "precision": "day",
+     "display": "17 August 1887"
+    },
+    "end": {
+     "raw": "+1922-04-01T00:00:00Z",
+     "year": 1922,
+     "precision": "day",
+     "display": "1 April 1922"
+    }
+   },
+   "relationship": "Successor as heir presumptive",
+   "note": "Franz Joseph expressed greater confidence in his grandnephew Charles as the new heir after the murder, and Charles led a minor revolt over the funeral snub."
   }
  ],
  "comparisons": [
@@ -769,16 +973,16 @@
      "display": "22 November 1963"
     }
    },
-   "angle": "Both are motorcade shootings of a head of state or heir whose causes and conspiracies are still argued over.",
+   "angle": "Both are motorcade shootings of a head of state or heir whose consequences and conspiracies are still argued over.",
    "similarities": [
-    "A public figure shot at close range from a street position during a car procession",
-    "Security lapses along the route are central to how the killing succeeded",
-    "Disputed and incomplete evidence about who, if anyone, stood behind the gunman"
+    "A leading political figure shot at close range from a street position during a public motorcade",
+    "Security arrangements afterwards judged badly inadequate",
+    "A contested question of whether the gunman acted alone or for a larger organisation"
    ],
    "differences": [
-    "The Sarajevo killing was one of six coordinated attackers along a planned route",
-    "It was followed within weeks by a war involving all the European great powers",
-    "Much of what is known comes from two formal trials of the conspirators"
+    "Princip was part of an openly organised six-man team armed and trained by foreign military officers",
+    "The Sarajevo attack was preceded by a failed bombing the same morning",
+    "The Sarajevo killing was followed within weeks by a continental war"
    ],
    "start": {
     "raw": "+1963-11-22T00:00:00Z",
@@ -808,16 +1012,16 @@
      "display": "11 September 2001"
     }
    },
-   "angle": "Both show a single act of political violence used by a state as grounds for war against a country said to harbour the plotters.",
+   "angle": "Both are non-state political violence that a great power answered by demanding compliance from a state it blamed, then going to war.",
    "similarities": [
-    "Non-state militants with a nationalist or ideological programme",
-    "A government demanded the suspected sponsor state arrest and hand over those responsible",
-    "The attack became the accepted starting point of a much larger conflict"
+    "Perpetrators belonged to a transnational movement rather than a government",
+    "The blamed state was presented with sweeping demands it did not fully accept",
+    "The response escalated far beyond the original act"
    ],
    "differences": [
-    "The Sarajevo attackers were citizens of the state they attacked, not foreigners",
-    "Historians dispute how much of the resulting war the killing actually caused",
-    "The alleged sponsoring government's responsibility was never proved"
+    "Franz Ferdinand's killers were citizens of the state they attacked, not foreigners",
+    "The Sarajevo assassins were tried in open court within months",
+    "Serbia's governmental responsibility was never proven"
    ],
    "start": {
     "raw": "+2001-09-11T00:00:00Z",
@@ -854,33 +1058,27 @@
   },
   {
    "entity": {
-    "title": "Bosnian Crisis",
-    "url": "https://en.wikipedia.org/wiki/Bosnian_Crisis",
+    "title": "Treaty of Berlin (1878)",
+    "url": "https://en.wikipedia.org/wiki/Treaty_of_Berlin_(1878)",
     "lang": "en",
-    "description": "Crisis triggered by Austria-Hungary's annexation of Bosnia and Herzegovina in 1908",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Le_Petit_Journal_Balkan_Crisis_%281908%29.jpg/60px-Le_Petit_Journal_Balkan_Crisis_%281908%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q167246",
+    "description": "Settlement by the Congress of Berlin following the Russo-Turkish War of 1877–78",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Balkans_1878.png/60px-Balkans_1878.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q1048169",
     "start": {
-     "raw": "+1908-01-01T00:00:00Z",
-     "year": 1908,
-     "precision": "year",
-     "display": "1908"
-    },
-    "end": {
-     "raw": "+1909-01-01T00:00:00Z",
-     "year": 1909,
-     "precision": "year",
-     "display": "1909"
+     "raw": "+1878-07-13T00:00:00Z",
+     "year": 1878,
+     "precision": "day",
+     "display": "13 July 1878"
     },
     "occurredAt": {
-     "raw": "+1908-01-01T00:00:00Z",
-     "year": 1908,
-     "precision": "year",
-     "display": "1908"
+     "raw": "+1878-07-13T00:00:00Z",
+     "year": 1878,
+     "precision": "day",
+     "display": "13 July 1878"
     }
    },
    "relation": "causedBy",
-   "note": "Austria-Hungary's 1908 annexation of Bosnia and Herzegovina inflamed the Serb nationalism that produced the assassins.",
+   "note": "This treaty gave Austria-Hungary the mandate to occupy and administer Bosnia while recognising Serbia as a sovereign state, setting up the later quarrel.",
    "fromGraph": false
   },
   {
@@ -893,32 +1091,7 @@
     "qid": "Q505205"
    },
    "relation": "causedBy",
-   "note": "The revolutionary movement the assassins belonged to sought an end to Austro-Hungarian rule and the unification of the South Slavs.",
-   "fromGraph": false
-  },
-  {
-   "entity": {
-    "title": "Anti-Serb riots in Sarajevo",
-    "url": "https://en.wikipedia.org/wiki/Anti-Serb_riots_in_Sarajevo",
-    "lang": "en",
-    "description": "Riots after the assassination of Archduke Franz Ferdinand in 1914",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/1914-06-29_-_Aftermath_of_attacks_against_Serbs_in_Sarajevo.png/60px-1914-06-29_-_Aftermath_of_attacks_against_Serbs_in_Sarajevo.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q15285397",
-    "start": {
-     "raw": "+1914-06-29T00:00:00Z",
-     "year": 1914,
-     "precision": "day",
-     "display": "29 June 1914"
-    },
-    "occurredAt": {
-     "raw": "+1914-06-29T00:00:00Z",
-     "year": 1914,
-     "precision": "day",
-     "display": "29 June 1914"
-    }
-   },
-   "relation": "follows",
-   "note": "Within hours of the killing, organised anti-Serb rioting and pogroms broke out in Sarajevo and elsewhere in the empire.",
+   "note": "The assassins belonged to this aggregation of local revolutionary groups aiming to end Austro-Hungarian rule and unite the South Slavs.",
    "fromGraph": false
   },
   {
@@ -943,42 +1116,67 @@
     }
    },
    "relation": "follows",
-   "note": "Conspirators inside Serbia were tried and three leaders executed on charges widely regarded afterwards as fabricated.",
+   "note": "Black Hand members, including Apis and Malobabić, were tried by a Serbian court in 1917 on charges later widely regarded as fabricated, and three leaders were executed.",
+   "fromGraph": false
+  },
+  {
+   "entity": {
+    "title": "Treaty of Versailles",
+    "url": "https://en.wikipedia.org/wiki/Treaty_of_Versailles",
+    "lang": "en",
+    "description": "One of the treaties that ended World War I",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Treaty_of_Versailles%2C_English_version.jpg/60px-Treaty_of_Versailles%2C_English_version.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q8736",
+    "start": {
+     "raw": "+1920-01-10T00:00:00Z",
+     "year": 1920,
+     "precision": "day",
+     "display": "10 January 1920"
+    },
+    "occurredAt": {
+     "raw": "+1919-06-28T00:00:00Z",
+     "year": 1919,
+     "precision": "day",
+     "display": "28 June 1919"
+    }
+   },
+   "relation": "follows",
+   "note": "The peace treaty ending the war was signed five years later on the anniversary of the assassination, 28 June.",
    "fromGraph": false
   }
  ],
  "glossary": [
   {
    "term": "Heir presumptive",
-   "definition": "The person next in line to a throne whose claim could still be displaced by the birth of a closer heir; Franz Ferdinand held this position in Austria-Hungary."
+   "definition": "The person next in line to inherit a throne, whose claim could still be displaced by the birth of someone with a stronger right. Franz Ferdinand held this position in Austria-Hungary."
   },
   {
    "term": "Morganatic marriage",
-   "definition": "A marriage between a royal and someone of lower birth in which the spouse does not share the royal rank and the children are barred from the succession."
-  },
-  {
-   "term": "Young Bosnia",
-   "definition": "A loose network of local revolutionary groups in Bosnia and Herzegovina aiming to end Austro-Hungarian rule and unite the South Slavs; mostly Serbs but including Croats and Muslims."
+   "definition": "A marriage between people of unequal rank in which the lower-ranking spouse and the children do not inherit the higher spouse's titles. Franz Joseph allowed Franz Ferdinand's marriage to Sophie only on condition their descendants never ascend the throne."
   },
   {
    "term": "Black Hand",
-   "definition": "A secret society founded in 1911 by Royal Serbian Army officers, dedicated to creating a Greater Serbia through violent action."
+   "definition": "A Serbian secret society formed in 1911 by army officers, dedicated to creating a Greater Serbia through terrorist action."
   },
   {
    "term": "Narodna Odbrana",
-   "definition": "A Serbian nationalist society founded in Belgrade in 1908 that used cultural work as cover for undermining Habsburg loyalty among Bosnian Serbs."
-  },
-  {
-   "term": "July Ultimatum",
-   "definition": "The list of demands Austria-Hungary sent Serbia on 23 July 1914, including suppression of anti-Austrian propaganda and Austrian participation in the murder inquiry."
+   "definition": "A Serbian nationalist society founded in Belgrade in 1908 which, under the cover of cultural work, sought to undermine Bosnian Serb loyalty to Austrian rule."
   },
   {
    "term": "Irredentism",
-   "definition": "A political movement to annex territory inhabited by one's own ethnic group but ruled by another state, as Serb nationalists sought over Bosnia."
+   "definition": "The drive to annex territory inhabited by one's own ethnic kin but ruled by another state; Serb irredentists wanted Bosnia detached from Austria-Hungary."
+  },
+  {
+   "term": "Trialism",
+   "definition": "A proposed reorganisation of Austria-Hungary that would combine its Slavic lands into a third crown alongside Austria and Hungary; Franz Ferdinand was believed to favour it."
   },
   {
    "term": "Vidovdan",
-   "definition": "The Serbian feast day falling on 28 June, commemorating the 1389 Battle of Kosovo, at which an Ottoman sultan was assassinated in his tent by a Serb."
+   "definition": "The Serbian feast of St Vitus, falling on 28 June, commemorating the 1389 Battle of Kosovo, at which an Ottoman sultan was assassinated by a Serb."
+  },
+  {
+   "term": "Mobilization",
+   "definition": "The calling up and deployment of a country's armed forces for war; in 1914 alliance obligations meant one power's mobilisation forced others to follow."
   }
  ],
  "drilldown": [
@@ -986,7 +1184,7 @@
    "title": "July Crisis",
    "url": "https://en.wikipedia.org/wiki/July_Crisis",
    "lang": "en",
-   "description": "The month of ultimatums, mobilisations and alliance obligations that turned the murder into a world war.",
+   "description": "The month of ultimatums, telegrams and mobilisations that turned a murder into a continental war.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Der_St%C3%A4nker.png/60px-Der_St%C3%A4nker.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q917435",
    "start": {
@@ -1006,7 +1204,7 @@
    "title": "Gavrilo Princip",
    "url": "https://en.wikipedia.org/wiki/Gavrilo_Princip",
    "lang": "en",
-   "description": "The gunman whose reputation, hero or terrorist, still splits opinion in the former Yugoslavia.",
+   "description": "The gunman himself, whose reputation is still contested across the former Yugoslavia.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Gavrilo_Princip%2C_cell%2C_headshot%2C_bw_%28cropped%29.jpg/60px-Gavrilo_Princip%2C_cell%2C_headshot%2C_bw_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q80492",
    "start": {
@@ -1023,37 +1221,18 @@
    }
   },
   {
-   "title": "Archduke Franz Ferdinand of Austria",
-   "url": "https://en.wikipedia.org/wiki/Archduke_Franz_Ferdinand_of_Austria",
+   "title": "Young Bosnia",
+   "url": "https://en.wikipedia.org/wiki/Young_Bosnia",
    "lang": "en",
-   "description": "His reform plans for the empire were themselves one of the motives for killing him.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Ferdinand_Schmutzer_-_Franz_Ferdinand_von_%C3%96sterreich-Este%2C_um_1914_%28cropped%29.jpg/60px-Ferdinand_Schmutzer_-_Franz_Ferdinand_von_%C3%96sterreich-Este%2C_um_1914_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q43063",
-   "start": {
-    "raw": "+1863-12-18T00:00:00Z",
-    "year": 1863,
-    "precision": "day",
-    "display": "18 December 1863"
-   },
-   "end": {
-    "raw": "+1914-06-28T00:00:00Z",
-    "year": 1914,
-    "precision": "day",
-    "display": "28 June 1914"
-   }
-  },
-  {
-   "title": "Black Hand (character)",
-   "url": "https://en.wikipedia.org/wiki/Black_Hand_(character)",
-   "lang": "en",
-   "description": "The officers' secret society at the centre of the dispute over who really ordered the assassination.",
-   "qid": "Q2905530"
+   "description": "The revolutionary milieu that produced the assassins and their blend of national liberation and social revolution.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Young_Bosnia_members.jpg/60px-Young_Bosnia_members.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q505205"
   },
   {
    "title": "Bosnian Crisis",
    "url": "https://en.wikipedia.org/wiki/Bosnian_Crisis",
    "lang": "en",
-   "description": "The 1908 annexation that made Bosnia a flashpoint between Serbia and Austria-Hungary.",
+   "description": "The 1908 annexation that turned Serb resentment of Austrian rule into an international quarrel.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Le_Petit_Journal_Balkan_Crisis_%281908%29.jpg/60px-Le_Petit_Journal_Balkan_Crisis_%281908%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q167246",
    "start": {
@@ -1076,40 +1255,58 @@
    }
   },
   {
-   "title": "Causes of World War I",
-   "url": "https://en.wikipedia.org/wiki/Causes_of_World_War_I",
+   "title": "Black Hand (character)",
+   "url": "https://en.wikipedia.org/wiki/Black_Hand_(character)",
    "lang": "en",
-   "description": "Needed to judge how much of the war the assassination actually explains.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/WWIchartX.svg/60px-WWIchartX.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q310802"
+   "description": "The Serbian officers' secret society whose role in the plot remains disputed against that of Serbian military intelligence.",
+   "qid": "Q2905530"
   },
   {
-   "title": "Dragutin Dimitrijević",
-   "url": "https://en.wikipedia.org/wiki/Dragutin_Dimitrijevi%C4%87",
+   "title": "Anti-Serb riots in Sarajevo",
+   "url": "https://en.wikipedia.org/wiki/Anti-Serb_riots_in_Sarajevo",
    "lang": "en",
-   "description": "The regicide of 1903 and spy chief of 1914, linking Serbia's palace coup to Sarajevo.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Dragutin_Dimitrijevi%C4%87-Apis%2C_ca._1900.jpg/60px-Dragutin_Dimitrijevi%C4%87-Apis%2C_ca._1900.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q441659",
+   "description": "The organised violence against Serbs that followed within hours of the shooting.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/1914-06-29_-_Aftermath_of_attacks_against_Serbs_in_Sarajevo.png/60px-1914-06-29_-_Aftermath_of_attacks_against_Serbs_in_Sarajevo.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q15285397",
    "start": {
-    "raw": "+1876-08-17T00:00:00Z",
-    "year": 1876,
+    "raw": "+1914-06-29T00:00:00Z",
+    "year": 1914,
     "precision": "day",
-    "display": "17 August 1876"
+    "display": "29 June 1914"
    },
-   "end": {
-    "raw": "+1917-06-24T00:00:00Z",
-    "year": 1917,
+   "occurredAt": {
+    "raw": "+1914-06-29T00:00:00Z",
+    "year": 1914,
     "precision": "day",
-    "display": "24 June 1917"
+    "display": "29 June 1914"
    }
   },
   {
-   "title": "Kosovo Myth",
-   "url": "https://en.wikipedia.org/wiki/Kosovo_Myth",
+   "title": "Archduke Franz Ferdinand of Austria",
+   "url": "https://en.wikipedia.org/wiki/Archduke_Franz_Ferdinand_of_Austria",
    "lang": "en",
-   "description": "The commemorative tradition of 28 June that shaped the assassins' self-image as heroes.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Ivan_Me%C5%A1trovi%C4%87_Vidovdanski_hram.jpg/60px-Ivan_Me%C5%A1trovi%C4%87_Vidovdanski_hram.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q1267597"
+   "description": "The victim, whose reform plans and unequal marriage explain both why he was targeted and why he was in Sarajevo.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Ferdinand_Schmutzer_-_Franz_Ferdinand_von_%C3%96sterreich-Este%2C_um_1914_%28cropped%29.jpg/60px-Ferdinand_Schmutzer_-_Franz_Ferdinand_von_%C3%96sterreich-Este%2C_um_1914_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q43063",
+   "start": {
+    "raw": "+1863-12-18T00:00:00Z",
+    "year": 1863,
+    "precision": "day",
+    "display": "18 December 1863"
+   },
+   "end": {
+    "raw": "+1914-06-28T00:00:00Z",
+    "year": 1914,
+    "precision": "day",
+    "display": "28 June 1914"
+   }
+  },
+  {
+   "title": "The Guns of August",
+   "url": "https://en.wikipedia.org/wiki/The_Guns_of_August",
+   "lang": "en",
+   "description": "A well-known popular account of how Europe slid from the assassination into the fighting of 1914.",
+   "qid": "Q2417024"
   }
  ],
  "coverage": {
@@ -1122,13 +1319,13 @@
    "none": 0
   }
  },
- "generatedAt": "2026-09-12T12:17:31.967Z",
+ "generatedAt": "2026-09-12T12:58:21.881Z",
  "model": "claude-opus-5",
  "usage": {
   "input": 39014,
-  "output": 8301,
+  "output": 6519,
   "cacheWrite": 0,
   "cacheRead": 4785,
-  "usd": 0.40498749999999994
+  "usd": 0.3604375
  }
 }

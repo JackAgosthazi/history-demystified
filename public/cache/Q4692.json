@@ -317,7 +317,7 @@
    },
    {
     "id": "start",
-    "label": "Renaissance begins",
+    "label": "Renaissance",
     "kind": "period",
     "date": {
      "raw": "+1400-00-00T00:00:00Z",
@@ -553,12 +553,26 @@
    "truncated": false
   }
  ],
- "summary": "The Renaissance is the name given to a period of European history and a cultural movement that sat at the end of the Middle Ages and the start of the early modern era, defined variously as the 15th and 16th centuries or, more broadly, as running from the 14th century to the 17th [S1]. Its defining feature was the deliberate revival of the literature, philosophy and art of ancient Greece and Rome [S1]. The label came later and in two stages: the Florentine painter and biographer Giorgio Vasari used the Italian word rinascita (\"rebirth\") in his 1550 book on artists' lives to describe a break with what he called the barbarities of Gothic art [S6], and the French word renaissance only became popular as the name of a whole historical period in the 19th century, above all through the French historian Jules Michelet, who dated it from Columbus to Galileo and valued it more for science than for art [S6]. The Swiss historian Jacob Burckhardt instead put it between the painters Giotto and Michelangelo, that is the 14th to the mid-16th century [S6].\n\nIt began in Florence, an independent city-state, and spread to the rest of Italy and then across Europe [S1]. Concrete anchors: Dante's writings and Giotto's paintings around 1300 [S7]; the 1401 competition between Lorenzo Ghiberti and Filippo Brunelleschi for the bronze doors of Florence's Baptistery, which some take as a starting point [S7]; movable-type printing spreading from one shop in Mainz around 1440 to roughly 270 cities by 1500 [S8]; Luther's Ninety-five Theses of 1517 [S8]. Conventional Italian endings include the Reformation of 1517, the Sack of Rome in 1527, or the Counter-Reformation from 1545, though supporters of a \"long Renaissance\" extend it outside Italy into the 17th century [S10]. What was at stake in the label is whether this was a break from the medieval past or a continuation of it; many historians today emphasise the medieval side [S10], and some reject a fixed period altogether, seeing instead a loose network of practices and ideas taken up differently in different places [S6].",
- "whyItMatters": "Humanist scholars recovered and read ancient texts in their original languages, hunting through Europe's monastic libraries for Latin authors and, after the fall of Constantinople in 1453, receiving Greek manuscripts carried west by émigré scholars [S9]. The humanist return to the original Greek of the New Testament, promoted by Lorenzo Valla and Erasmus, helped prepare the ground for the Reformation [S9]. In painting, the treatment of a picture as a window into space was formalised as linear perspective through Brunelleschi's demonstrations and Leon Battista Alberti's writings [S8]. The period's reputation is contested: Johan Huizinga argued it destroyed much of value, Joan Kelly argued it reduced the agency women had held in the Middle Ages, and most political and economic historians now prefer the less loaded term \"early modern\" [S6].",
+ "summary": "The Renaissance is the name given to a European period and cultural movement that sat between the Late Middle Ages and the early modern era, defined by a revival of the literature, philosophy and art of ancient Greece and Rome [S1]. It began in Italy — conventionally in Florence, one of many separate Italian states — and spread north and west, changing along the way as local cultures adapted it [S10][S11]. Nobody alive in 1450 called their age \"the Renaissance.\" The Italian painter and biographer Giorgio Vasari used the word *rinascita* (\"rebirth\") in 1550 to describe a break with what he saw as the barbarity of Gothic art, which he thought Tuscan artists beginning with Cimabue and Giotto had reversed [S6]. The modern sense — a whole historical period — was fixed only in the nineteenth century, above all by the French historian Jules Michelet in 1855 and the Swiss historian Jacob Burckhardt in 1860 [S6][S5].\n\nThe dates are genuinely contested. Some confine it to the fifteenth and sixteenth centuries, others stretch it from the fourteenth to the seventeenth [S1]. Michelet ran it from Columbus to Galileo and cared more about science than art; Burckhardt ran it from Giotto to Michelangelo and saw the birth of modern individuality [S6]. In Italy the period is often ended at the Reformation of 1517, the Sack of Rome in 1527, or the Counter-Reformation of 1545 [S10]. The concrete anchors are specific: scholars like Poggio Bracciolini hunting Latin manuscripts in monastic libraries, Greek scholars arriving after Constantinople fell in 1453 [S9], linear perspective formalised by the architect Filippo Brunelleschi and the writer Leon Battista Alberti [S8], and printing with movable type spreading from one shop in Mainz around 1440 to some 270 cities and over 20 million volumes by 1500 [S8]. What was at stake was authority: humanists read ancient texts in the original languages and judged them by reasoning and evidence rather than reconciling contradictions between authorities, as medieval scholastics did [S8].",
+ "whyItMatters": "The humanist return to the original Greek of the New Testament, pushed by Lorenzo Valla and Erasmus, helped prepare the ground for the Reformation and the permanent split of Western Christianity [S9]. Printing made ancient texts and scholars' own observations comparable and widely available, which changed how knowledge could be checked [S8]. The label itself has become a problem historians argue about: many now prefer \"early modern\" because \"Renaissance\" implies an unambiguously positive rebirth out of a supposedly primitive Middle Ages [S6], and some point out that poverty, warfare and persecution appear to have worsened in this era, while Joan Kelly argued it reduced the agency women had had in the Middle Ages [S6]. The word has since been borrowed for entirely other times and places, from the Carolingian Renaissance of the eighth and ninth centuries to the Harlem Renaissance [S13].",
  "takeaways": [
   {
    "id": "t0",
-   "text": "The Renaissance was a European cultural movement that began in the Italian city of Florence and is usually dated either to the 15th and 16th centuries or, more loosely, from the 14th to the 17th century.",
+   "text": "The Renaissance was a European cultural movement that began in the Italian city of Florence and later spread across the rest of Italy and Europe, defined by a rediscovery of the literature, philosophy and art of ancient Greece and Rome.",
+   "sourceId": "S1",
+   "quote": "It was characterized by the European rediscovery and revival of the literary, philosophical, and artistic achievements of classical antiquity.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Renaissance#:~:text=It%20was%20characterized%20by%20the%20European,and%20artistic%20achievements%20of%20classical%20antiquity.",
+    "sourceTitle": "Renaissance",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Renaissance"
+   }
+  },
+  {
+   "id": "t1",
+   "text": "Its dates are genuinely unsettled: it is defined either as the 15th and 16th centuries or, more loosely, as running from the 14th century to the 17th.",
    "sourceId": "S1",
    "quote": "It is variously defined as covering the 15th and 16th centuries or, more broadly, as lasting from the 14th century to the 17th.",
    "verification": {
@@ -571,22 +585,22 @@
    }
   },
   {
-   "id": "t1",
-   "text": "The label is retrospective: the Italian artist and biographer Giorgio Vasari first used the word rinascita (\"rebirth\") in a 1550 book about artists, to describe a break with what he saw as the barbarity of Gothic art.",
+   "id": "t2",
+   "text": "The label was coined after the fact: the Italian painter and biographer Giorgio Vasari used the Italian word rinascita (\"rebirth\") in his 1550 book on artists' lives to mark a break with what he saw as the barbarity of Gothic art.",
    "sourceId": "S6",
-   "quote": "The Italian artist and critic Giorgio Vasari (1511–1574) first used the term rinascita in his book The Lives of the Artists (published 1550). In the book Vasari attempted to define what he described as a break with the barbarities of Gothic art",
+   "quote": "The Italian artist and critic Giorgio Vasari (1511–1574) first used the term rinascita in his book The Lives of the Artists (published 1550).",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Renaissance#Historiography:~:text=The%20Italian%20artist%20and%20critic%20Giorgio,with%20the%20barbarities%20of%20Gothic%20art",
+    "citationUrl": "https://en.wikipedia.org/wiki/Renaissance#Historiography:~:text=The%20Italian%20artist%20and%20critic%20Giorgio,Lives%20of%20the%20Artists%20(published%201550).",
     "sourceTitle": "Renaissance",
     "sourceUrl": "https://en.wikipedia.org/wiki/Renaissance#Historiography"
    }
   },
   {
-   "id": "t2",
-   "text": "The modern idea of \"the Renaissance\" as a whole historical period, rather than a change in the arts, was created by the French historian Jules Michelet in 1855, who saw it as running from Columbus to Galileo and valued its science above its art.",
+   "id": "t3",
+   "text": "The idea of the Renaissance as a whole historical epoch dates only from the 19th century, when the French historian Jules Michelet used it that way in his 1855 history of France.",
    "sourceId": "S6",
    "quote": "French historian Jules Michelet (1798–1874) defined \"The Renaissance\" in his 1855 work Histoire de France as an entire historical period, whereas previously it had been used in a more limited sense.",
    "verification": {
@@ -599,22 +613,22 @@
    }
   },
   {
-   "id": "t3",
-   "text": "Its intellectual core was humanism, a way of studying ancient Greek and Roman texts in the original languages and judging them by reason and evidence, rather than the medieval scholastic method of reconciling contradictions between authorities.",
+   "id": "t4",
+   "text": "Its intellectual core was humanism, a method of learning that studied ancient texts in their original languages and judged them by reasoning and evidence, rather than by reconciling authorities as medieval scholastics did.",
    "sourceId": "S8",
-   "quote": "In contrast to the medieval scholastic mode, which focused on resolving contradictions between authors, Renaissance humanists would study ancient texts in their original languages and appraise them through a combination of reasoning and empirical evidence.",
+   "quote": "In contrast to the medieval scholastic mode, which focused on resolving contradictions between authors, Renaissance humanists would study ancient texts in their original languages",
    "verification": {
-    "status": "unverified",
+    "status": "verified",
     "method": "exact",
-    "score": 0,
-    "reason": "Quote found, but the surrounding text does not mention greek, roman.",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Renaissance#Characteristics:~:text=In%20contrast%20to%20the%20medieval%20scholastic,ancient%20texts%20in%20their%20original%20languages",
     "sourceTitle": "Renaissance",
     "sourceUrl": "https://en.wikipedia.org/wiki/Renaissance#Characteristics"
    }
   },
   {
-   "id": "t4",
-   "text": "Concrete markers of the period include the formalisation of linear perspective in painting, movable-type printing, ocean voyages of discovery, and the beginnings of modern banking and accounting.",
+   "id": "t5",
+   "text": "Concrete innovations of the period include linear perspective in painting, movable-type printing, oceanic navigation, and modern banking and accounting.",
    "sourceId": "S1",
    "quote": "The period also saw revolutions in printing and navigation, as well as the introduction of modern banking and the field of accounting.",
    "verification": {
@@ -627,29 +641,15 @@
    }
   },
   {
-   "id": "t5",
-   "text": "Where the period ends is contested: in Italy it is conventionally closed by the Reformation of 1517, the Sack of Rome in 1527 or the Counter-Reformation of 1545, while some argue for a \"long Renaissance\" reaching into the 17th century outside Italy.",
-   "sourceId": "S10",
-   "quote": "In Italy, the period conventionally ends with the waning of humanism, and the advent of the Reformation (1517), the Sack of Rome (1527) or the Counter-Reformation (1545), and in art, the Baroque period.",
-   "verification": {
-    "status": "verified",
-    "method": "exact",
-    "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Renaissance#Period:~:text=In%20Italy%2C%20the%20period%20conventionally%20ends,and%20in%20art%2C%20the%20Baroque%20period.",
-    "sourceTitle": "Renaissance",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Renaissance#Period"
-   }
-  },
-  {
    "id": "t6",
-   "text": "Many political and economic historians now avoid the word altogether, preferring \"early modern\" because \"Renaissance\" implies an unambiguously positive rebirth out of supposedly primitive \"Dark Ages\".",
+   "text": "The term is now widely distrusted by historians, and most political and economic historians prefer \"early modern\" for the same stretch of time.",
    "sourceId": "S6",
-   "quote": "Most political and economic historians now prefer to use the term \"early modern\" for this period (and a considerable period afterwards), a designation intended to highlight the period as a transitional one",
+   "quote": "Most political and economic historians now prefer to use the term \"early modern\" for this period (and a considerable period afterwards)",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Renaissance#Historiography:~:text=Most%20political%20and%20economic%20historians%20now,the%20period%20as%20a%20transitional%20one",
+    "citationUrl": "https://en.wikipedia.org/wiki/Renaissance#Historiography:~:text=Most%20political%20and%20economic%20historians%20now,period%20(and%20a%20considerable%20period%20afterwards)",
     "sourceTitle": "Renaissance",
     "sourceUrl": "https://en.wikipedia.org/wiki/Renaissance#Historiography"
    }
@@ -658,18 +658,18 @@
  "perspectives": [
   {
    "label": "Burckhardt's 19th-century reading",
-   "stance": "Rebirth of individuality after medieval slumber",
-   "body": "The Swiss historian Jacob Burckhardt fixed the Renaissance in Italy between Giotto and Michelangelo and saw in it the birth of the modern individual, a spirit the Middle Ages had suppressed. He described the change as a veil lifted from human eyes. This triumphalist framing shaped the popular image of the period.",
+   "stance": "A liberating break; birth of the individual",
+   "body": "The Swiss historian Jacob Burckhardt, in an 1860 book that shaped the modern image of the period, placed the Renaissance in Italy between Giotto and Michelangelo and saw in it the birth of a modern sense of individuality that medieval life had suppressed. He described the change as a veil lifting from human eyes. This optimistic framing is the one most later historians have argued against.",
    "evidence": {
     "id": "p0",
-    "text": "Burckhardt defined the Renaissance as the period between Giotto and Michelangelo in Italy and saw in it the emergence of the modern spirit of individuality suppressed by the Middle Ages.",
+    "text": "Jacob Burckhardt dated the Renaissance from Giotto to Michelangelo and saw in it the emergence of a modern spirit of individuality stifled by the Middle Ages.",
     "sourceId": "S6",
-    "quote": "defined the Renaissance as the period between Giotto and Michelangelo in Italy, that is, the 14th to mid-16th centuries. He saw in the Renaissance the emergence of the modern spirit of individuality, which the Middle Ages had stifled.",
+    "quote": "He saw in the Renaissance the emergence of the modern spirit of individuality, which the Middle Ages had stifled.",
     "verification": {
      "status": "verified",
      "method": "exact",
      "score": 1,
-     "citationUrl": "https://en.wikipedia.org/wiki/Renaissance#Historiography:~:text=defined%20the%20Renaissance%20as%20the%20period,which%20the%20Middle%20Ages%20had%20stifled.",
+     "citationUrl": "https://en.wikipedia.org/wiki/Renaissance#Historiography:~:text=He%20saw%20in%20the%20Renaissance%20the,which%20the%20Middle%20Ages%20had%20stifled.",
      "sourceTitle": "Renaissance",
      "sourceUrl": "https://en.wikipedia.org/wiki/Renaissance#Historiography"
     }
@@ -677,11 +677,11 @@
   },
   {
    "label": "Huizinga and the decline thesis",
-   "stance": "A falling-off from the High Middle Ages",
-   "body": "Johan Huizinga accepted that a Renaissance happened but denied it was an improvement, arguing it destroyed much of value. His example was Latin: still a living, evolving language in the medieval church, it was frozen back into its classical form by Renaissance purism.",
+   "stance": "A decline from the High Middle Ages",
+   "body": "The Dutch historian Johan Huizinga accepted that a Renaissance happened but denied it was an improvement, arguing it destroyed much of value. His example was Latin: medieval Latin was a living, evolving language, and the Renaissance cult of classical purity froze it.",
    "evidence": {
     "id": "p1",
-    "text": "Johan Huizinga argued that the Renaissance was a period of decline from the High Middle Ages that destroyed much that was important.",
+    "text": "Johan Huizinga argued in The Autumn of the Middle Ages that the Renaissance was a decline from the High Middle Ages that destroyed much of importance.",
     "sourceId": "S6",
     "quote": "he argued that the Renaissance was a period of decline from the High Middle Ages, destroying much that was important",
     "verification": {
@@ -695,38 +695,38 @@
    }
   },
   {
-   "label": "Sceptics of periodisation",
-   "stance": "Not a period at all, but scattered practices",
-   "body": "Some recent historians refuse to treat the Renaissance as a bounded age or even a single coherent movement. On this reading it was a loose network of ideas and practices that different people in different places picked up in different ways.",
+   "label": "Feminist and social critiques",
+   "stance": "Conditions worsened for many, including women",
+   "body": "Several strands of scholarship note that the ills usually blamed on the Middle Ages — war, persecution, poverty — arguably got worse in this era, with witch-hunts and religious wars. Joan Kelly argued specifically that women lost agency they had held in the medieval period.",
    "evidence": {
     "id": "p2",
-    "text": "One historian has proposed seeing the Renaissance not as a period with definite beginnings and endings but as a movement of practices and ideas responded to variously in different times and places.",
+    "text": "Joan Kelly argued that the Renaissance increased the divide between the sexes and reduced the agency women had held in the Middle Ages.",
     "sourceId": "S6",
-    "quote": "Rather than a period with definitive beginnings and endings and consistent content in between, the Renaissance can be (and occasionally has been) seen as a movement of practices and ideas",
+    "quote": "Joan Kelly argued that the Renaissance led to greater gender dichotomy, lessening the agency women had had during the Middle Ages.",
     "verification": {
      "status": "verified",
      "method": "exact",
      "score": 1,
-     "citationUrl": "https://en.wikipedia.org/wiki/Renaissance#Historiography:~:text=Rather%20than%20a%20period%20with%20definitive,a%20movement%20of%20practices%20and%20ideas",
+     "citationUrl": "https://en.wikipedia.org/wiki/Renaissance#Historiography:~:text=Joan%20Kelly%20argued%20that%20the%20Renaissance,had%20had%20during%20the%20Middle%20Ages.",
      "sourceTitle": "Renaissance",
      "sourceUrl": "https://en.wikipedia.org/wiki/Renaissance#Historiography"
     }
    }
   },
   {
-   "label": "Social and material critiques",
-   "stance": "Worse conditions; women lost ground",
-   "body": "Critics point out that poverty, warfare and persecution appear to have got worse in this era, with intensified witch-hunts and religious wars. Joan Kelly argued the period widened the gap between the sexes and reduced the agency women had held in the Middle Ages, while Marxist historians recast the whole thing as a by-product of the shift from feudalism to capitalism.",
+   "label": "Sceptics of periodisation",
+   "stance": "Not a period at all, but a network",
+   "body": "Some historians reject the idea of the Renaissance as a bounded age with a consistent content. Randolph Starn suggested treating it instead as a loose set of practices and ideas that different people in different places took up in different ways.",
    "evidence": {
     "id": "p3",
-    "text": "Joan Kelly argued that the Renaissance led to greater gender dichotomy and lessened the agency women had had during the Middle Ages.",
+    "text": "Randolph Starn proposed seeing the Renaissance not as a period with fixed beginnings and endings but as a movement of practices and ideas taken up variously by different groups.",
     "sourceId": "S6",
-    "quote": "Joan Kelly argued that the Renaissance led to greater gender dichotomy, lessening the agency women had had during the Middle Ages",
+    "quote": "the Renaissance can be (and occasionally has been) seen as a movement of practices and ideas to which specific groups and identifiable persons variously responded in different times and places",
     "verification": {
      "status": "verified",
      "method": "exact",
      "score": 1,
-     "citationUrl": "https://en.wikipedia.org/wiki/Renaissance#Historiography:~:text=Joan%20Kelly%20argued%20that%20the%20Renaissance,had%20had%20during%20the%20Middle%20Ages",
+     "citationUrl": "https://en.wikipedia.org/wiki/Renaissance#Historiography:~:text=the%20Renaissance%20can%20be%20(and%20occasionally,responded%20in%20different%20times%20and%20places",
      "sourceTitle": "Renaissance",
      "sourceUrl": "https://en.wikipedia.org/wiki/Renaissance#Historiography"
     }
@@ -736,7 +736,21 @@
  "claims": [
   {
    "id": "t0",
-   "text": "The Renaissance was a European cultural movement that began in the Italian city of Florence and is usually dated either to the 15th and 16th centuries or, more loosely, from the 14th to the 17th century.",
+   "text": "The Renaissance was a European cultural movement that began in the Italian city of Florence and later spread across the rest of Italy and Europe, defined by a rediscovery of the literature, philosophy and art of ancient Greece and Rome.",
+   "sourceId": "S1",
+   "quote": "It was characterized by the European rediscovery and revival of the literary, philosophical, and artistic achievements of classical antiquity.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Renaissance#:~:text=It%20was%20characterized%20by%20the%20European,and%20artistic%20achievements%20of%20classical%20antiquity.",
+    "sourceTitle": "Renaissance",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Renaissance"
+   }
+  },
+  {
+   "id": "t1",
+   "text": "Its dates are genuinely unsettled: it is defined either as the 15th and 16th centuries or, more loosely, as running from the 14th century to the 17th.",
    "sourceId": "S1",
    "quote": "It is variously defined as covering the 15th and 16th centuries or, more broadly, as lasting from the 14th century to the 17th.",
    "verification": {
@@ -749,22 +763,22 @@
    }
   },
   {
-   "id": "t1",
-   "text": "The label is retrospective: the Italian artist and biographer Giorgio Vasari first used the word rinascita (\"rebirth\") in a 1550 book about artists, to describe a break with what he saw as the barbarity of Gothic art.",
+   "id": "t2",
+   "text": "The label was coined after the fact: the Italian painter and biographer Giorgio Vasari used the Italian word rinascita (\"rebirth\") in his 1550 book on artists' lives to mark a break with what he saw as the barbarity of Gothic art.",
    "sourceId": "S6",
-   "quote": "The Italian artist and critic Giorgio Vasari (1511–1574) first used the term rinascita in his book The Lives of the Artists (published 1550). In the book Vasari attempted to define what he described as a break with the barbarities of Gothic art",
+   "quote": "The Italian artist and critic Giorgio Vasari (1511–1574) first used the term rinascita in his book The Lives of the Artists (published 1550).",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Renaissance#Historiography:~:text=The%20Italian%20artist%20and%20critic%20Giorgio,with%20the%20barbarities%20of%20Gothic%20art",
+    "citationUrl": "https://en.wikipedia.org/wiki/Renaissance#Historiography:~:text=The%20Italian%20artist%20and%20critic%20Giorgio,Lives%20of%20the%20Artists%20(published%201550).",
     "sourceTitle": "Renaissance",
     "sourceUrl": "https://en.wikipedia.org/wiki/Renaissance#Historiography"
    }
   },
   {
-   "id": "t2",
-   "text": "The modern idea of \"the Renaissance\" as a whole historical period, rather than a change in the arts, was created by the French historian Jules Michelet in 1855, who saw it as running from Columbus to Galileo and valued its science above its art.",
+   "id": "t3",
+   "text": "The idea of the Renaissance as a whole historical epoch dates only from the 19th century, when the French historian Jules Michelet used it that way in his 1855 history of France.",
    "sourceId": "S6",
    "quote": "French historian Jules Michelet (1798–1874) defined \"The Renaissance\" in his 1855 work Histoire de France as an entire historical period, whereas previously it had been used in a more limited sense.",
    "verification": {
@@ -777,22 +791,22 @@
    }
   },
   {
-   "id": "t3",
-   "text": "Its intellectual core was humanism, a way of studying ancient Greek and Roman texts in the original languages and judging them by reason and evidence, rather than the medieval scholastic method of reconciling contradictions between authorities.",
+   "id": "t4",
+   "text": "Its intellectual core was humanism, a method of learning that studied ancient texts in their original languages and judged them by reasoning and evidence, rather than by reconciling authorities as medieval scholastics did.",
    "sourceId": "S8",
-   "quote": "In contrast to the medieval scholastic mode, which focused on resolving contradictions between authors, Renaissance humanists would study ancient texts in their original languages and appraise them through a combination of reasoning and empirical evidence.",
+   "quote": "In contrast to the medieval scholastic mode, which focused on resolving contradictions between authors, Renaissance humanists would study ancient texts in their original languages",
    "verification": {
-    "status": "unverified",
+    "status": "verified",
     "method": "exact",
-    "score": 0,
-    "reason": "Quote found, but the surrounding text does not mention greek, roman.",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Renaissance#Characteristics:~:text=In%20contrast%20to%20the%20medieval%20scholastic,ancient%20texts%20in%20their%20original%20languages",
     "sourceTitle": "Renaissance",
     "sourceUrl": "https://en.wikipedia.org/wiki/Renaissance#Characteristics"
    }
   },
   {
-   "id": "t4",
-   "text": "Concrete markers of the period include the formalisation of linear perspective in painting, movable-type printing, ocean voyages of discovery, and the beginnings of modern banking and accounting.",
+   "id": "t5",
+   "text": "Concrete innovations of the period include linear perspective in painting, movable-type printing, oceanic navigation, and modern banking and accounting.",
    "sourceId": "S1",
    "quote": "The period also saw revolutions in printing and navigation, as well as the introduction of modern banking and the field of accounting.",
    "verification": {
@@ -805,50 +819,36 @@
    }
   },
   {
-   "id": "t5",
-   "text": "Where the period ends is contested: in Italy it is conventionally closed by the Reformation of 1517, the Sack of Rome in 1527 or the Counter-Reformation of 1545, while some argue for a \"long Renaissance\" reaching into the 17th century outside Italy.",
-   "sourceId": "S10",
-   "quote": "In Italy, the period conventionally ends with the waning of humanism, and the advent of the Reformation (1517), the Sack of Rome (1527) or the Counter-Reformation (1545), and in art, the Baroque period.",
-   "verification": {
-    "status": "verified",
-    "method": "exact",
-    "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Renaissance#Period:~:text=In%20Italy%2C%20the%20period%20conventionally%20ends,and%20in%20art%2C%20the%20Baroque%20period.",
-    "sourceTitle": "Renaissance",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Renaissance#Period"
-   }
-  },
-  {
    "id": "t6",
-   "text": "Many political and economic historians now avoid the word altogether, preferring \"early modern\" because \"Renaissance\" implies an unambiguously positive rebirth out of supposedly primitive \"Dark Ages\".",
+   "text": "The term is now widely distrusted by historians, and most political and economic historians prefer \"early modern\" for the same stretch of time.",
    "sourceId": "S6",
-   "quote": "Most political and economic historians now prefer to use the term \"early modern\" for this period (and a considerable period afterwards), a designation intended to highlight the period as a transitional one",
+   "quote": "Most political and economic historians now prefer to use the term \"early modern\" for this period (and a considerable period afterwards)",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Renaissance#Historiography:~:text=Most%20political%20and%20economic%20historians%20now,the%20period%20as%20a%20transitional%20one",
+    "citationUrl": "https://en.wikipedia.org/wiki/Renaissance#Historiography:~:text=Most%20political%20and%20economic%20historians%20now,period%20(and%20a%20considerable%20period%20afterwards)",
     "sourceTitle": "Renaissance",
     "sourceUrl": "https://en.wikipedia.org/wiki/Renaissance#Historiography"
    }
   },
   {
    "id": "p0",
-   "text": "Burckhardt defined the Renaissance as the period between Giotto and Michelangelo in Italy and saw in it the emergence of the modern spirit of individuality suppressed by the Middle Ages.",
+   "text": "Jacob Burckhardt dated the Renaissance from Giotto to Michelangelo and saw in it the emergence of a modern spirit of individuality stifled by the Middle Ages.",
    "sourceId": "S6",
-   "quote": "defined the Renaissance as the period between Giotto and Michelangelo in Italy, that is, the 14th to mid-16th centuries. He saw in the Renaissance the emergence of the modern spirit of individuality, which the Middle Ages had stifled.",
+   "quote": "He saw in the Renaissance the emergence of the modern spirit of individuality, which the Middle Ages had stifled.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Renaissance#Historiography:~:text=defined%20the%20Renaissance%20as%20the%20period,which%20the%20Middle%20Ages%20had%20stifled.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Renaissance#Historiography:~:text=He%20saw%20in%20the%20Renaissance%20the,which%20the%20Middle%20Ages%20had%20stifled.",
     "sourceTitle": "Renaissance",
     "sourceUrl": "https://en.wikipedia.org/wiki/Renaissance#Historiography"
    }
   },
   {
    "id": "p1",
-   "text": "Johan Huizinga argued that the Renaissance was a period of decline from the High Middle Ages that destroyed much that was important.",
+   "text": "Johan Huizinga argued in The Autumn of the Middle Ages that the Renaissance was a decline from the High Middle Ages that destroyed much of importance.",
    "sourceId": "S6",
    "quote": "he argued that the Renaissance was a period of decline from the High Middle Ages, destroying much that was important",
    "verification": {
@@ -862,28 +862,28 @@
   },
   {
    "id": "p2",
-   "text": "One historian has proposed seeing the Renaissance not as a period with definite beginnings and endings but as a movement of practices and ideas responded to variously in different times and places.",
+   "text": "Joan Kelly argued that the Renaissance increased the divide between the sexes and reduced the agency women had held in the Middle Ages.",
    "sourceId": "S6",
-   "quote": "Rather than a period with definitive beginnings and endings and consistent content in between, the Renaissance can be (and occasionally has been) seen as a movement of practices and ideas",
+   "quote": "Joan Kelly argued that the Renaissance led to greater gender dichotomy, lessening the agency women had had during the Middle Ages.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Renaissance#Historiography:~:text=Rather%20than%20a%20period%20with%20definitive,a%20movement%20of%20practices%20and%20ideas",
+    "citationUrl": "https://en.wikipedia.org/wiki/Renaissance#Historiography:~:text=Joan%20Kelly%20argued%20that%20the%20Renaissance,had%20had%20during%20the%20Middle%20Ages.",
     "sourceTitle": "Renaissance",
     "sourceUrl": "https://en.wikipedia.org/wiki/Renaissance#Historiography"
    }
   },
   {
    "id": "p3",
-   "text": "Joan Kelly argued that the Renaissance led to greater gender dichotomy and lessened the agency women had had during the Middle Ages.",
+   "text": "Randolph Starn proposed seeing the Renaissance not as a period with fixed beginnings and endings but as a movement of practices and ideas taken up variously by different groups.",
    "sourceId": "S6",
-   "quote": "Joan Kelly argued that the Renaissance led to greater gender dichotomy, lessening the agency women had had during the Middle Ages",
+   "quote": "the Renaissance can be (and occasionally has been) seen as a movement of practices and ideas to which specific groups and identifiable persons variously responded in different times and places",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Renaissance#Historiography:~:text=Joan%20Kelly%20argued%20that%20the%20Renaissance,had%20had%20during%20the%20Middle%20Ages",
+    "citationUrl": "https://en.wikipedia.org/wiki/Renaissance#Historiography:~:text=the%20Renaissance%20can%20be%20(and%20occasionally,responded%20in%20different%20times%20and%20places",
     "sourceTitle": "Renaissance",
     "sourceUrl": "https://en.wikipedia.org/wiki/Renaissance#Historiography"
    }
@@ -892,7 +892,7 @@
  "keyEvents": [
   {
    "label": "Plague halves Florence's population",
-   "summary": "The pandemic of 1348–1350 killed close to half of Florence's inhabitants; land values and food prices fell and surviving labourers gained bargaining power. Some argue the familiarity with death turned thinkers towards earthly life, though this alone cannot explain why the Renaissance was Italian.",
+   "summary": "The pandemic that struck Europe in the late 1340s cut Florence's population almost in half, raised the value of labour, and has been argued to have shifted attention from the afterlife to earthly life.",
    "entity": {
     "title": "Black Death",
     "url": "https://en.wikipedia.org/wiki/Black_Death",
@@ -927,20 +927,8 @@
    }
   },
   {
-   "label": "Contest for the Baptistery doors",
-   "summary": "In 1401 Lorenzo Ghiberti and Filippo Brunelleschi competed for the commission to make the bronze doors of the Florence Baptistery, with Ghiberti winning. Some writers use this rivalry as a precise starting date for the Renaissance.",
-   "entity": {
-    "title": "Florence Baptistery",
-    "url": "https://en.wikipedia.org/wiki/Florence_Baptistery",
-    "lang": "en",
-    "description": "Baptistery in Florence, Italy",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Baptistery%2C_Florence.jpg/60px-Baptistery%2C_Florence.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q732511"
-   }
-  },
-  {
-   "label": "Greek teaching returns to Florence",
-   "summary": "Coluccio Salutati's 1396 invitation to the Byzantine scholar Manuel Chrysoloras to teach Greek in Florence is usually taken as the moment ancient Greek literature and history re-entered the Western curriculum.",
+   "label": "Greek teaching invited to Florence",
+   "summary": "Coluccio Salutati's invitation to the Byzantine scholar Manuel Chrysoloras to teach Greek in Florence is conventionally taken as the start of the reintegration of Greek literary and historical texts into Western study.",
    "entity": {
     "title": "Manuel Chrysoloras",
     "url": "https://en.wikipedia.org/wiki/Manuel_Chrysoloras",
@@ -963,8 +951,20 @@
    }
   },
   {
+   "label": "Contest for the Baptistery doors",
+   "summary": "Ghiberti and Brunelleschi competed for the commission to make the bronze doors of the Florence Baptistery, an episode some writers use as a precise starting date for the Renaissance.",
+   "entity": {
+    "title": "Florence Baptistery",
+    "url": "https://en.wikipedia.org/wiki/Florence_Baptistery",
+    "lang": "en",
+    "description": "Baptistery in Florence, Italy",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Baptistery%2C_Florence.jpg/60px-Baptistery%2C_Florence.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q732511"
+   }
+  },
+  {
    "label": "Movable type spreads from Mainz",
-   "summary": "From one workshop in Mainz around 1440, movable-type printing reached some 270 European cities and produced over 20 million volumes by 1500, making ancient texts and new observations cheaply comparable.",
+   "summary": "From one workshop in Mainz around 1440, printing reached some 270 European cities and produced over 20 million volumes by 1500, transforming how ideas and ancient texts circulated.",
    "entity": {
     "title": "Printing press",
     "url": "https://en.wikipedia.org/wiki/Printing_press",
@@ -975,8 +975,8 @@
    }
   },
   {
-   "label": "Fall of Constantinople sends scholars west",
-   "summary": "The Ottoman capture of the Byzantine capital in 1453 drove Greek scholars into Italy carrying manuscripts that had been largely lost to Western Europe.",
+   "label": "Greek scholars flee to Italy",
+   "summary": "The Ottoman capture of the Byzantine capital sent émigré Greek scholars west carrying manuscripts that had been largely lost to Western Europe.",
    "entity": {
     "title": "Fall of Constantinople",
     "url": "https://en.wikipedia.org/wiki/Fall_of_Constantinople",
@@ -1011,8 +1011,8 @@
    }
   },
   {
-   "label": "Atlantic crossing of 1492",
-   "summary": "Columbus sailed west from Spain seeking India and reached the Americas instead; the existence of lands unknown to the ancients undermined the authority of classical geographers such as Ptolemy.",
+   "label": "Atlantic crossing reveals unknown continents",
+   "summary": "Columbus's 1492 voyage, and the recognition that the lands found were a New World, undermined the authority of ancient geographers such as Ptolemy.",
    "entity": {
     "title": "Voyages of Christopher Columbus",
     "url": "https://en.wikipedia.org/wiki/Voyages_of_Christopher_Columbus",
@@ -1047,8 +1047,8 @@
    }
   },
   {
-   "label": "Luther's Ninety-five Theses",
-   "summary": "In October 1517 Martin Luther attacked papal authority and the sale of indulgences, triggering the Reformation and splitting Western Christendom; humanist textual criticism had helped prepare the ground.",
+   "label": "Luther challenges papal authority",
+   "summary": "Luther's 1517 publication attacking indulgences triggered the Reformation, a permanent split in Western Christianity that humanist textual criticism had helped make possible.",
    "entity": {
     "title": "Ninety-five Theses",
     "url": "https://en.wikipedia.org/wiki/Ninety-five_Theses",
@@ -1059,8 +1059,8 @@
    }
   },
   {
-   "label": "Charles V's troops sack Rome",
-   "summary": "The assault on Rome in 1527 during the War of the League of Cognac is conventionally taken as the end of the Italian Renaissance, though painters went on working through the later 16th century.",
+   "label": "Imperial troops sack Rome",
+   "summary": "Charles V's assault on Rome during the war of the League of Cognac is conventionally taken as the end of the Italian Renaissance.",
    "entity": {
     "title": "Sack of Rome (1527)",
     "url": "https://en.wikipedia.org/wiki/Sack_of_Rome_(1527)",
@@ -1112,79 +1112,31 @@
     }
    },
    "relationship": "Credited founder of the revival",
-   "note": "Contemporaries credited him with the 14th-century resurgence of learning based on classical sources, and he is regarded as the forerunner of Renaissance humanism."
+   "note": "Contemporaries credited him with the 14th-century resurgence of learning drawn from classical sources, and he is regarded as the forerunner of Renaissance humanism."
   },
   {
    "entity": {
-    "title": "Giorgio Vasari",
-    "url": "https://en.wikipedia.org/wiki/Giorgio_Vasari",
+    "title": "Giotto",
+    "url": "https://en.wikipedia.org/wiki/Giotto",
     "lang": "en",
-    "description": "Italian painter, architect, writer, and historian (1511–1574)",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Zucchi%2C_Jacopo_-_Vasari%2C_Giorgio_-_Uffizi_ICCD.jpg/60px-Zucchi%2C_Jacopo_-_Vasari%2C_Giorgio_-_Uffizi_ICCD.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q128027",
+    "description": "Italian painter and architect (c. 1267–1337)",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Giotto%2C_Santa_Maria_Novella.jpg/60px-Giotto%2C_Santa_Maria_Novella.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q7814",
     "start": {
-     "raw": "+1511-07-30T00:00:00Z",
-     "year": 1511,
-     "precision": "day",
-     "display": "30 July 1511"
+     "raw": "+1267-01-01T00:00:00Z",
+     "year": 1267,
+     "precision": "year",
+     "display": "1267"
     },
     "end": {
-     "raw": "+1574-06-27T00:00:00Z",
-     "year": 1574,
+     "raw": "+1337-01-08T00:00:00Z",
+     "year": 1337,
      "precision": "day",
-     "display": "27 June 1574"
+     "display": "8 January 1337"
     }
    },
-   "relationship": "Coined the word \"rebirth\"",
-   "note": "His 1550 book on artists introduced rinascita and set up the contrast with \"barbarous\" Gothic art that all later definitions argue with."
-  },
-  {
-   "entity": {
-    "title": "Jules Michelet",
-    "url": "https://en.wikipedia.org/wiki/Jules_Michelet",
-    "lang": "en",
-    "description": "French writer and historian (1798–1874)",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Jules_Michelet_par_Thomas_Couture_%28cropped%29.jpg/60px-Jules_Michelet_par_Thomas_Couture_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q310791",
-    "start": {
-     "raw": "+1798-08-22T00:00:00Z",
-     "year": 1798,
-     "precision": "day",
-     "display": "22 August 1798"
-    },
-    "end": {
-     "raw": "+1874-02-09T00:00:00Z",
-     "year": 1874,
-     "precision": "day",
-     "display": "9 February 1874"
-    }
-   },
-   "relationship": "Turned the term into a period",
-   "note": "A French republican and nationalist, he made \"the Renaissance\" a whole historical age, stressed its science, and tried to claim it as French."
-  },
-  {
-   "entity": {
-    "title": "Jacob Burckhardt",
-    "url": "https://en.wikipedia.org/wiki/Jacob_Burckhardt",
-    "lang": "en",
-    "description": "Swiss historian (1818–1897)",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/ETH-BIB-Burckhardt%2C_Jakob_%281818-1897%29-Portrait-Portr_00053.tif/lossy-page1-60px-ETH-BIB-Burckhardt%2C_Jakob_%281818-1897%29-Portrait-Portr_00053.tif.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q59945",
-    "start": {
-     "raw": "+1818-05-25T00:00:00Z",
-     "year": 1818,
-     "precision": "day",
-     "display": "25 May 1818"
-    },
-    "end": {
-     "raw": "+1897-08-08T00:00:00Z",
-     "year": 1897,
-     "precision": "day",
-     "display": "8 August 1897"
-    }
-   },
-   "relationship": "Rival definer of the period",
-   "note": "His 1860 book fixed the Renaissance in Italy between Giotto and Michelangelo and made individualism its defining trait."
+   "relationship": "Earliest sign of the new painting",
+   "note": "His paintings, alongside Dante's writings, are cited as the first traces of the Renaissance in Italy, and he is credited with treating a painting as a window into space."
   },
   {
    "entity": {
@@ -1231,11 +1183,110 @@
      "display": "2 May 1519"
     }
    },
-   "relationship": "Archetype of the \"Renaissance man\"",
-   "note": "His combination of painting with anatomy, hydraulics and mechanics gave rise to the very idea of the universal genius."
+   "relationship": "Emblematic universal genius",
+   "note": "His combination of art and observational science helped inspire the phrase \"Renaissance man\"."
+  },
+  {
+   "entity": {
+    "title": "Jacob Burckhardt",
+    "url": "https://en.wikipedia.org/wiki/Jacob_Burckhardt",
+    "lang": "en",
+    "description": "Swiss historian (1818–1897)",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/ETH-BIB-Burckhardt%2C_Jakob_%281818-1897%29-Portrait-Portr_00053.tif/lossy-page1-60px-ETH-BIB-Burckhardt%2C_Jakob_%281818-1897%29-Portrait-Portr_00053.tif.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q59945",
+    "start": {
+     "raw": "+1818-05-25T00:00:00Z",
+     "year": 1818,
+     "precision": "day",
+     "display": "25 May 1818"
+    },
+    "end": {
+     "raw": "+1897-08-08T00:00:00Z",
+     "year": 1897,
+     "precision": "day",
+     "display": "8 August 1897"
+    }
+   },
+   "relationship": "Historian who defined the period",
+   "note": "His widely read 1860 book fixed the modern interpretation of the Italian Renaissance as the birth of individuality."
+  },
+  {
+   "entity": {
+    "title": "Martin Luther",
+    "url": "https://en.wikipedia.org/wiki/Martin_Luther",
+    "lang": "en",
+    "description": "German priest, theologian and author (1483–1546)",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Lucas_Cranach_d.%C3%84._-_Martin_Luther%2C_1528_%28Veste_Coburg%29.jpg/60px-Lucas_Cranach_d.%C3%84._-_Martin_Luther%2C_1528_%28Veste_Coburg%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q9554",
+    "start": {
+     "raw": "+1483-11-10T00:00:00Z",
+     "year": 1483,
+     "precision": "day",
+     "display": "10 November 1483"
+    },
+    "end": {
+     "raw": "+1546-02-18T00:00:00Z",
+     "year": 1546,
+     "precision": "day",
+     "display": "18 February 1546"
+    }
+   },
+   "relationship": "Reformer who ended it in the north",
+   "note": "His attack on papal authority split the Church, and in Protestant northern Europe the concept of the Reformation overlays that of the Renaissance."
   }
  ],
  "comparisons": [
+  {
+   "entity": {
+    "title": "Age of Enlightenment",
+    "url": "https://en.wikipedia.org/wiki/Age_of_Enlightenment",
+    "lang": "en",
+    "description": "European cultural movement",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Les_salons_au_XVIIIe_si%C3%A8cle_-_Histoire_Image.jpg/60px-Les_salons_au_XVIIIe_si%C3%A8cle_-_Histoire_Image.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q12539",
+    "start": {
+     "raw": "+1700-00-00T00:00:00Z",
+     "year": 1700,
+     "precision": "century",
+     "display": "17th century"
+    },
+    "end": {
+     "raw": "+1820-00-00T00:00:00Z",
+     "year": 1820,
+     "precision": "century",
+     "display": "19th century"
+    },
+    "occurredAt": {
+     "raw": "+1700-00-00T00:00:00Z",
+     "year": 1700,
+     "precision": "century",
+     "display": "17th century"
+    }
+   },
+   "angle": "Another European period named retrospectively and credited with breaking from an allegedly benighted past.",
+   "similarities": [
+    "Both are labels applied to a broad intellectual shift rather than to a political event",
+    "Both were framed by later writers as an advance out of superstition",
+    "Both spread unevenly across Europe with distinct national forms"
+   ],
+   "differences": [
+    "The Renaissance looked backwards to classical antiquity for its models",
+    "Its central achievements were in art and letters as much as in thought",
+    "It began in Italian city-states rather than in northern Europe"
+   ],
+   "start": {
+    "raw": "+1700-00-00T00:00:00Z",
+    "year": 1700,
+    "precision": "century",
+    "display": "17th century"
+   },
+   "end": {
+    "raw": "+1820-00-00T00:00:00Z",
+    "year": 1820,
+    "precision": "century",
+    "display": "19th century"
+   }
+  },
   {
    "entity": {
     "title": "Renaissance of the 12th century",
@@ -1257,14 +1308,16 @@
      "display": "12th century"
     }
    },
-   "angle": "Historians have applied the word \"renaissance\" to earlier revivals, which shows how elastic and contested the label is.",
+   "angle": "Shows that the word \"Renaissance\" has been claimed for other eras, which is itself an argument about how special the 15th century really was.",
    "similarities": [
-    "Both are labelled renaissances by historians and involve recovering ancient learning",
-    "Both were argued for after the fact by modern scholars, in this case Charles H. Haskins"
+    "Both involved recovering ancient learning lost to the West",
+    "Both are historians' labels imposed long afterwards",
+    "Charles Haskins explicitly made the case for calling the 12th century a renaissance"
    ],
    "differences": [
-    "The 12th-century scholars concentrated on Greek and Arabic works of natural science, philosophy and mathematics",
-    "The later Renaissance focused instead on literary, historical and oratorical texts"
+    "Medieval scholars of the 12th century concentrated on Greek and Arabic science, philosophy and mathematics",
+    "The 15th-century movement turned instead to literary, historical and oratorical texts",
+    "The later movement was self-conscious about being a rebirth"
    ],
    "start": {
     "raw": "+1200-00-00T00:00:00Z",
@@ -1282,63 +1335,15 @@
     "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Three_Harlem_Women%2C_ca._1925.png/60px-Three_Harlem_Women%2C_ca._1925.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
     "qid": "Q829895"
    },
-   "angle": "A modern use of the same word shows that \"renaissance\" has become a general term for any burst of cultural flowering.",
+   "angle": "A modern example of the word being borrowed as a general term for a burst of cultural creativity.",
    "similarities": [
-    "Both are called renaissances and denote an intense concentration of creative work",
-    "Both labels were applied to describe cultural rebirth"
+    "Both are called renaissances because of a concentrated flowering of arts and letters",
+    "Both names were applied to a movement centred on one place"
    ],
    "differences": [
-    "The Harlem Renaissance belongs to modern times rather than the 14th to 17th centuries",
-    "It is not defined by the recovery of Greek and Roman antiquity"
+    "The Harlem Renaissance belongs to the 20th century",
+    "It was not built on the recovery of Greek and Roman antiquity"
    ]
-  },
-  {
-   "entity": {
-    "title": "Reformation",
-    "url": "https://en.wikipedia.org/wiki/Reformation",
-    "lang": "en",
-    "description": "16th-century movement in Western Christianity",
-    "qid": "Q12562",
-    "start": {
-     "raw": "+1517-10-31T00:00:00Z",
-     "year": 1517,
-     "precision": "day",
-     "display": "31 October 1517"
-    },
-    "end": {
-     "raw": "+1648-00-00T00:00:00Z",
-     "year": 1648,
-     "precision": "year",
-     "display": "1648"
-    },
-    "occurredAt": {
-     "raw": "+1517-10-31T00:00:00Z",
-     "year": 1517,
-     "precision": "day",
-     "display": "31 October 1517"
-    }
-   },
-   "angle": "The two movements overlap in time and cause, and in northern Europe one label largely displaces the other.",
-   "similarities": [
-    "Both drew on humanist textual criticism, notably of the Greek New Testament",
-    "Both were driven by figures trained in humanist method, such as Erasmus"
-   ],
-   "differences": [
-    "The Reformation was a religious break with Rome rather than a cultural revival of antiquity",
-    "In the Protestant north the concept of the Renaissance is overlaid by that of the Reformation"
-   ],
-   "start": {
-    "raw": "+1517-10-31T00:00:00Z",
-    "year": 1517,
-    "precision": "day",
-    "display": "31 October 1517"
-   },
-   "end": {
-    "raw": "+1648-00-00T00:00:00Z",
-    "year": 1648,
-    "precision": "year",
-    "display": "1648"
-   }
   }
  ],
  "context": [
@@ -1465,55 +1470,73 @@
     }
    },
    "relation": "causes",
-   "note": "Humanist return to the original Greek New Testament helped pave the way for Luther's break with Rome.",
+   "note": "Humanist textual criticism of the New Testament fed directly into Luther's challenge to the Church, so humanism helped spark the Reformation.",
    "fromGraph": false
   },
   {
    "entity": {
-    "title": "Republic of Florence",
-    "url": "https://en.wikipedia.org/wiki/Republic_of_Florence",
+    "title": "Age of Discovery",
+    "url": "https://en.wikipedia.org/wiki/Age_of_Discovery",
     "lang": "en",
-    "description": "City-state on the Italian Peninsula (1115–1569)",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_Florence.svg/60px-Flag_of_Florence.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q148540"
+    "description": "Period of European global exploration",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Theatrum_Orbis_Terrarum%2C_by_Abraham_Ortelius%2C_World%2C_1572.jpg/60px-Theatrum_Orbis_Terrarum%2C_by_Abraham_Ortelius%2C_World%2C_1572.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q133641",
+    "start": {
+     "raw": "+1500-00-00T00:00:00Z",
+     "year": 1500,
+     "precision": "century",
+     "display": "15th century"
+    },
+    "end": {
+     "raw": "+1800-00-00T00:00:00Z",
+     "year": 1800,
+     "precision": "century",
+     "display": "18th century"
+    },
+    "occurredAt": {
+     "raw": "+1500-00-00T00:00:00Z",
+     "year": 1500,
+     "precision": "century",
+     "display": "15th century"
+    }
    },
    "relation": "partOf",
-   "note": "The movement was first centred in this Italian city-state before spreading through Italy and then Europe.",
+   "note": "Columbus, Vasco da Gama and the Magellan–Elcano circumnavigation all fall within the period and reshaped European knowledge of the world.",
    "fromGraph": false
   }
  ],
  "glossary": [
   {
-   "term": "Humanism (Renaissance humanism)",
-   "definition": "A method of learning based on recovering, interpreting and assimilating the language, literature and values of ancient Greece and Rome, studied in the original languages."
+   "term": "Humanism",
+   "definition": "A programme of learning built on five subjects — poetry, grammar, history, moral philosophy and rhetoric — that recovered and assimilated the language, literature and values of ancient Greece and Rome."
   },
   {
    "term": "Scholasticism",
-   "definition": "The medieval academic method humanists reacted against, which concentrated on resolving contradictions between authoritative authors."
-  },
-  {
-   "term": "Rinascita",
-   "definition": "Italian for \"rebirth\", the word Vasari used in 1550 for the revival of the arts; the French equivalent renaissance later became standard."
+   "definition": "The dominant medieval method of study, focused on resolving contradictions between authoritative authors, which humanists set themselves against."
   },
   {
    "term": "Linear perspective",
-   "definition": "A technique for making a flat painting appear to open onto real space, demonstrated by Brunelleschi and formalised in Alberti's writings."
+   "definition": "A technique for making a flat painting appear to have depth; demonstrated by the architect Brunelleschi and formalised in Alberti's writings."
   },
   {
    "term": "Quattrocento and Cinquecento",
-   "definition": "Italian shorthand for the 1400s and 1500s respectively, treated in art history as the core span of the Renaissance."
+   "definition": "Italian shorthand for the 1400s and 1500s, the two centuries art historians treat as the core of the Renaissance."
   },
   {
    "term": "Vernacular",
-   "definition": "The everyday spoken language of a place, as opposed to Latin; Renaissance authors increasingly wrote in it."
+   "definition": "The everyday spoken language of a place, as opposed to Latin; Renaissance writers increasingly used it, widening access to books."
   },
   {
    "term": "Mannerism",
-   "definition": "The name given to the late Renaissance phase in art history, superseded in Italy by the Baroque in the early 17th century."
+   "definition": "The name given to the late Renaissance phase in art history, which in Italy was displaced by the Baroque in the early 17th century."
   },
   {
-   "term": "Studia humanitatis",
-   "definition": "The humanist school curriculum of five subjects: poetry, grammar, history, moral philosophy and rhetoric."
+   "term": "Uomo universale",
+   "definition": "The ideal of the universal man, combining intellectual and physical excellence and able to act honourably in any situation."
+  },
+  {
+   "term": "Longue durée",
+   "definition": "An approach in history that looks at very long spans of time, and which has tended to stress continuity between the Middle Ages and the Renaissance."
   }
  ],
  "drilldown": [
@@ -1521,7 +1544,7 @@
    "title": "The Civilization of the Renaissance in Italy",
    "url": "https://en.wikipedia.org/wiki/The_Civilization_of_the_Renaissance_in_Italy",
    "lang": "en",
-   "description": "Burckhardt's 1860 book that shaped the modern interpretation of the Italian Renaissance.",
+   "description": "Burckhardt's 1860 book that created the modern picture of the period and remains the thing later historians argue with.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Die_Kultur_der_Renaissance_in_Italien.jpg/60px-Die_Kultur_der_Renaissance_in_Italien.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q1839282"
   },
@@ -1529,111 +1552,87 @@
    "title": "Lives of the Most Excellent Painters, Sculptors, and Architects",
    "url": "https://en.wikipedia.org/wiki/Lives_of_the_Most_Excellent_Painters%2C_Sculptors%2C_and_Architects",
    "lang": "en",
-   "description": "Vasari's 1550 collection of artists' lives, where the word \"rebirth\" was first applied to the arts.",
+   "description": "Vasari's 1550 collection, where the word rinascita first appears and the story of a rebirth in art is first told.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Vite.jpg/60px-Vite.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q1645493"
+  },
+  {
+   "title": "Renaissance humanism",
+   "url": "https://en.wikipedia.org/wiki/Renaissance_humanism",
+   "lang": "en",
+   "description": "The intellectual method underlying everything else in the period, from education to biblical scholarship.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Da_Vinci_Vitruve_Luc_Viatour.jpg/60px-Da_Vinci_Vitruve_Luc_Viatour.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q846933"
   },
   {
    "title": "House of Medici",
    "url": "https://en.wikipedia.org/wiki/House_of_Medici",
    "lang": "en",
-   "description": "The Florentine banking family whose patronage is central to every explanation of why the Renaissance began where it did.",
+   "description": "The Florentine banking family whose patronage is central to most explanations of why the Renaissance happened where it did.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Augmented_Arms_of_Medici.svg/60px-Augmented_Arms_of_Medici.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q170022"
-  },
-  {
-   "title": "Oration on the Dignity of Man",
-   "url": "https://en.wikipedia.org/wiki/Oration_on_the_Dignity_of_Man",
-   "lang": "en",
-   "description": "Pico della Mirandola's 1486 text, often called the manifesto of the Renaissance.",
-   "qid": "Q2085760"
   },
   {
    "title": "Northern Renaissance",
    "url": "https://en.wikipedia.org/wiki/Northern_Renaissance",
    "lang": "en",
-   "description": "The movement took different forms north of the Alps, where it is overlaid by the Reformation.",
+   "description": "The movement took different forms north of the Alps, where it was overlaid by the Reformation.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Van_Eyck_-_Arnolfini_Portrait.jpg/60px-Van_Eyck_-_Arnolfini_Portrait.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q610877"
   },
   {
-   "title": "English Renaissance",
-   "url": "https://en.wikipedia.org/wiki/English_Renaissance",
+   "title": "Filippo Brunelleschi",
+   "url": "https://en.wikipedia.org/wiki/Filippo_Brunelleschi",
    "lang": "en",
-   "description": "A regional variant dominated by literature and music rather than the visual arts, peaking in the Elizabethan era.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Da_Vinci_Vitruve_Luc_Viatour.jpg/60px-Da_Vinci_Vitruve_Luc_Viatour.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q2272912",
+   "description": "He demonstrated perspective, studied ancient ruins, and engineered the dome of Florence Cathedral.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Masaccio%2C_cappella_brancacci%2C_san_pietro_in_cattedra._ritratto_di_filippo_brunelleschi-184.jpg/60px-Masaccio%2C_cappella_brancacci%2C_san_pietro_in_cattedra._ritratto_di_filippo_brunelleschi-184.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q174330",
    "start": {
-    "raw": "+1485-00-00T00:00:00Z",
-    "year": 1485,
+    "raw": "+1377-00-00T00:00:00Z",
+    "year": 1377,
     "precision": "year",
-    "display": "1485"
+    "display": "1377"
    },
    "end": {
-    "raw": "+1700-00-00T00:00:00Z",
-    "year": 1700,
-    "precision": "century",
-    "display": "17th century"
-   },
-   "occurredAt": {
-    "raw": "+1485-00-00T00:00:00Z",
-    "year": 1485,
-    "precision": "year",
-    "display": "1485"
+    "raw": "+1446-04-15T00:00:00Z",
+    "year": 1446,
+    "precision": "day",
+    "display": "15 April 1446"
    }
   },
   {
-   "title": "Black Death",
-   "url": "https://en.wikipedia.org/wiki/Black_Death",
+   "title": "Oration on the Dignity of Man",
+   "url": "https://en.wikipedia.org/wiki/Oration_on_the_Dignity_of_Man",
    "lang": "en",
-   "description": "The pandemic whose demographic and economic aftermath is one leading explanation for the period's origins.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/1346-1353_spread_of_the_Black_Death_in_Europe_map.svg/60px-1346-1353_spread_of_the_Black_Death_in_Europe_map.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q42005",
-   "start": {
-    "raw": "+1346-00-00T00:00:00Z",
-    "year": 1346,
-    "precision": "year",
-    "display": "1346"
-   },
-   "end": {
-    "raw": "+1352-00-00T00:00:00Z",
-    "year": 1352,
-    "precision": "year",
-    "display": "1352"
-   },
-   "occurredAt": {
-    "raw": "+1346-00-00T00:00:00Z",
-    "year": 1346,
-    "precision": "year",
-    "display": "1346"
-   }
+   "description": "Pico della Mirandola's text, often called the manifesto of the Renaissance.",
+   "qid": "Q2085760"
   },
   {
    "title": "Timurid Renaissance",
    "url": "https://en.wikipedia.org/wiki/Timurid_Renaissance",
    "lang": "en",
-   "description": "A 14th-century cultural flowering centred on Samarkand and Herat, sometimes compared with Florence.",
+   "description": "A rival cultural flowering centred on Samarkand and Herat, useful for testing whether the European case was unique.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Samarcanda%2C_Gur-e_Amir_02.jpg/60px-Samarcanda%2C_Gur-e_Amir_02.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q3424763"
   }
  ],
  "coverage": {
   "total": 11,
-  "verified": 9,
-  "coverage": 0.8181818181818182,
+  "verified": 10,
+  "coverage": 0.9090909090909091,
   "byMethod": {
    "exact": 11,
    "fuzzy": 0,
    "none": 0
   }
  },
- "generatedAt": "2026-09-12T12:20:25.859Z",
+ "generatedAt": "2026-09-12T13:01:05.079Z",
  "model": "claude-opus-5",
  "usage": {
   "input": 37600,
-  "output": 6550,
+  "output": 6368,
   "cacheWrite": 0,
   "cacheRead": 4785,
-  "usd": 0.3541425
+  "usd": 0.34959250000000003
  }
 }

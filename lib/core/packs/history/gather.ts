@@ -1,6 +1,7 @@
 import type {
   EntityFacts,
   EntityRef,
+  EntityType,
   GatherResult,
   GraphDate,
   GraphNode,
@@ -303,6 +304,25 @@ function titleFromWikipediaUrl(url: string | undefined): string | undefined {
   return match ? decodeURIComponent(match[1]).replace(/_/g, ' ') : undefined;
 }
 
+/**
+ * The subject's own entry on its timeline.
+ *
+ * A label must not assert temporal semantics that contradict the geometry it
+ * labels. "Hundred Years' War begins" was drawn as a bar running from 1337 to
+ * 1453: the word says a moment, the bar says a hundred and sixteen years, and
+ * the reader has to decide which to believe.
+ *
+ * The cause was modelling people as two point events — born, died — and
+ * everything else as one span, then reusing the point-event phrasing for
+ * both. So the rule is now structural rather than a better-chosen word: only
+ * a genuine point in a life gets a temporal verb. Everything else is named,
+ * and the bar and the date beside it say when, which they can do without
+ * contradicting anything.
+ */
+export function subjectTimelineLabel(title: string, type: EntityType): string {
+  return type === 'person' ? `Born — ${title}` : title;
+}
+
 function buildTimeline(
   entity: ResolvedEntity,
   start: GraphDate | undefined,
@@ -318,7 +338,7 @@ function buildTimeline(
   if (start) {
     events.push({
       id: 'start',
-      label: isPerson ? `Born — ${entity.title}` : `${entity.title} begins`,
+      label: subjectTimelineLabel(entity.title, entity.type),
       kind: isPerson ? 'life' : 'period',
       date: start,
       endDate: isPerson ? undefined : end,
@@ -343,15 +363,25 @@ function buildTimeline(
   for (const spec of specs) {
     const nodes = relations[spec.prop];
     if (!nodes) continue;
-    // A place has no date of its own, and a sibling's lifespan is not an
-    // event in this subject's life — only relationships that carry their own
-    // dates (a marriage, a term of office) belong on the timeline.
+    // A place has no date of its own to plot.
     if (spec.group === 'place') continue;
 
     for (const node of nodes) {
       if (!node.start) continue;
       const key = `${spec.prop}-${node.qid}`;
-      if (spec.group === 'family' && !qualifierSpans.has(key)) continue;
+      /*
+       * A person's own lifespan is not an event in the subject's story. A
+       * sibling's birth is not a moment in Napoleon's life, and Wellington's
+       * birth in 1769 is not part of the Battle of Waterloo — plotted, it
+       * stretched a one-day battle's axis across half a century.
+       *
+       * People therefore appear only when the date describes the
+       * relationship rather than the person: a marriage, a term of office,
+       * the span someone actually took part in something. Events and periods
+       * keep their own dates, because for them the date is the point.
+       */
+      const isPerson = spec.group === 'family' || spec.group === 'participants';
+      if (isPerson && !qualifierSpans.has(key)) continue;
 
       const kind = spec.prop === 'P39' ? 'position' : spec.group === 'context' ? 'related' : 'event';
       events.push({

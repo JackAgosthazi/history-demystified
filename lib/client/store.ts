@@ -13,13 +13,16 @@ import type { Explainer } from '../core/types';
  */
 
 /**
- * Bumped whenever the Explainer shape changes.
+ * Bumped whenever the shape *or the meaning* of a stored Explainer changes.
  *
- * A cached object written before a field existed will crash the view that
- * now reads it, and the reader has no way to know to clear their storage. The
- * version is part of the key, so old entries simply stop being found.
+ * Shape is the obvious case: an object written before a field existed will
+ * crash the view that now reads it. Content is the easier one to miss — when
+ * a stored value was simply wrong, as the timeline label "Hundred Years' War
+ * begins" was, fixing the code that produces it does nothing for the copies
+ * already sitting in readers' browsers. They have no way to know to clear it.
+ * The version is part of the key, so old entries stop being found.
  */
-const SCHEMA_VERSION = 2;
+const SCHEMA_VERSION = 3;
 const EXPLAINER_PREFIX = `explainer:v${SCHEMA_VERSION}:`;
 const TRAIL_KEY = 'trail';
 const MAX_TRAIL = 12;

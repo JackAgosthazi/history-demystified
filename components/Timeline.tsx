@@ -25,18 +25,98 @@ const KIND_COLOUR: Record<TimelineEvent['kind'], string> = {
   related: 'var(--ink-faint)',
 };
 
-function niceTicks(min: number, max: number): number[] {
-  const span = Math.max(1, max - min);
-  const rawStep = span / 5;
-  const magnitude = 10 ** Math.floor(Math.log10(rawStep));
-  const step = [1, 2, 2.5, 5, 10].map((m) => m * magnitude).find((s) => s >= rawStep) ?? magnitude * 10;
-  const ticks: number[] = [];
-  for (let y = Math.ceil(min / step) * step; y <= max; y += step) ticks.push(y);
-  return ticks;
+const MONTHS_SHORT = [
+  'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+  'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec',
+];
+const DAYS_PER_MONTH = 30.436875;
+const DAYS_PER_YEAR = 365.25;
+
+/**
+ * Position on the axis, as a fractional year.
+ *
+ * Plotting by whole year collapsed everything that happened in the same year
+ * onto one point: the Waterloo campaign — Napoleon's return in March, Ligny
+ * and Quatre Bras on 16 June, Waterloo on the 18th — rendered as a single
+ * mark, because all of it is 1815.
+ *
+ * BC dates stay at whole-year resolution. They are almost always recorded
+ * that way, and a fraction would have to run backwards to mean anything.
+ */
+function toTime(date: { raw: string; year: number; precision: string }): number {
+  if (date.year < 0) return date.year;
+  const coarse = date.precision === 'year' || date.precision === 'decade' ||
+    date.precision === 'century' || date.precision === 'millennium';
+  if (coarse) return date.year;
+
+  const m = /^[+-]\d{4,}-(\d{2})-(\d{2})/.exec(date.raw);
+  if (!m) return date.year;
+  const month = Math.max(1, parseInt(m[1], 10));
+  const day = Math.max(1, parseInt(m[2], 10));
+  return date.year + ((month - 1) * DAYS_PER_MONTH + (day - 1)) / DAYS_PER_YEAR;
+}
+
+function partsOf(time: number): { year: number; month: number } {
+  const year = Math.floor(time);
+  const month = Math.min(11, Math.floor(((time - year) * DAYS_PER_YEAR) / DAYS_PER_MONTH));
+  return { year, month };
 }
 
 function formatYear(year: number): string {
   return year < 0 ? `${Math.abs(year)} BC` : String(year);
+}
+
+export interface AxisTick {
+  at: number;
+  label: string;
+}
+
+/**
+ * Ticks in whatever unit the span actually calls for.
+ *
+ * A one-day battle, a 116-year war and a three-century period cannot share a
+ * tick unit. The axis picks months when the whole subject fits inside a few
+ * years, and years or a rounded multiple of years otherwise.
+ */
+export function buildTicks(min: number, max: number): AxisTick[] {
+  const span = max - min;
+
+  if (span <= 4) {
+    const stepMonths = Math.max(1, Math.round((span * 12) / 5));
+    const ticks: AxisTick[] = [];
+    let { year, month } = partsOf(min);
+
+    for (let guard = 0; guard < 32; guard++) {
+      const at = year + (month * DAYS_PER_MONTH) / DAYS_PER_YEAR;
+      if (at > max) break;
+      if (at >= min) {
+        // The year is carried on the first tick and whenever it rolls over,
+        // so the axis reads "Mar 1815, May, Jul" rather than repeating it.
+        const showYear = ticks.length === 0 || month < stepMonths;
+        ticks.push({
+          at,
+          label: showYear ? `${MONTHS_SHORT[month]} ${year}` : MONTHS_SHORT[month],
+        });
+      }
+      month += stepMonths;
+      while (month > 11) {
+        month -= 12;
+        year += 1;
+      }
+    }
+    if (ticks.length >= 2) return ticks;
+  }
+
+  const rawStep = Math.max(1, span / 5);
+  const magnitude = 10 ** Math.floor(Math.log10(rawStep));
+  const step =
+    [1, 2, 2.5, 5, 10].map((m) => m * magnitude).find((v) => v >= rawStep) ?? magnitude * 10;
+
+  const ticks: AxisTick[] = [];
+  for (let y = Math.ceil(min / step) * step; y <= max; y += step) {
+    ticks.push({ at: y, label: formatYear(Math.round(y)) });
+  }
+  return ticks;
 }
 
 interface HoverCard {
@@ -137,27 +217,29 @@ export function Timeline({ events }: { events: TimelineEvent[] }) {
 
   if (events.length === 0) return null;
 
-  const years = events.flatMap((e) => [e.date.year, e.endDate?.year ?? e.date.year]);
-  const rawMin = Math.min(...years);
-  const rawMax = Math.max(...years);
-  const pad = Math.max(1, (rawMax - rawMin) * 0.04);
+  const times = events.flatMap((e) => [toTime(e.date), e.endDate ? toTime(e.endDate) : toTime(e.date)]);
+  const rawMin = Math.min(...times);
+  const rawMax = Math.max(...times);
+  // A subject with a single dated moment still needs an axis to sit on.
+  const observed = rawMax - rawMin;
+  const pad = observed > 0 ? observed * 0.06 : 0.25;
   const min = rawMin - pad;
   const max = rawMax + pad;
   const range = max - min || 1;
 
-  const pct = (year: number) => Math.min(100, Math.max(0, ((year - min) / range) * 100));
-  const ticks = niceTicks(rawMin, rawMax);
+  const pct = (time: number) => Math.min(100, Math.max(0, ((time - min) / range) * 100));
+  const ticks = buildTicks(min, max);
 
   return (
     <div className="overflow-x-auto">
       <div className="min-w-[34rem]">
         <div className="relative mb-2 h-4 border-b border-rule">
-          {ticks.map((year, i) => {
-            const at = pct(year);
+          {ticks.map((tick, i) => {
+            const at = pct(tick.at);
             const edge = i === 0 ? 'left' : i === ticks.length - 1 ? 'right' : 'mid';
             return (
               <span
-                key={year}
+                key={`${tick.at}-${tick.label}`}
                 className="absolute whitespace-nowrap text-[0.65rem] tabular-nums text-ink-faint"
                 style={
                   edge === 'right'
@@ -167,29 +249,31 @@ export function Timeline({ events }: { events: TimelineEvent[] }) {
                       : { left: `${at}%`, transform: 'translateX(-50%)' }
                 }
               >
-                {formatYear(year)}
+                {tick.label}
               </span>
             );
           })}
         </div>
 
         <ol className="relative space-y-1.5">
-          {ticks.map((year) => (
+          {ticks.map((tick) => (
             <div
-              key={year}
+              key={`${tick.at}-${tick.label}`}
               aria-hidden
               className="absolute top-0 bottom-0 w-px"
-              style={{ left: `${pct(year)}%`, background: 'var(--rule)' }}
+              style={{ left: `${pct(tick.at)}%`, background: 'var(--rule)' }}
             />
           ))}
 
           {events.map((event) => {
-            const start = pct(event.date.year);
-            const end = event.endDate ? pct(event.endDate.year) : start;
+            const start = pct(toTime(event.date));
+            const end = event.endDate ? pct(toTime(event.endDate)) : start;
             const width = Math.max(end - start, 0.6);
             const label = event.endDate
               ? `${event.date.display} – ${event.endDate.display}`
               : event.date.display;
+            const spaceAfter = 100 - (start + width) > 22;
+            const overlapsBar = !spaceAfter && start <= 22;
 
             return (
               <li
@@ -229,28 +313,37 @@ export function Timeline({ events }: { events: TimelineEvent[] }) {
                   title={`${event.label} · ${label}`}
                 />
                 <span
-                  className="absolute top-1/2 -translate-y-1/2 truncate text-xs text-ink"
+                  className={`absolute top-1/2 -translate-y-1/2 truncate text-xs text-ink ${
+                    overlapsBar ? 'rounded px-1.5 py-0.5' : ''
+                  }`}
                   /*
-                   * Put the label wherever there is actually room, and size it
-                   * to that room. Always placing it after the bar pushed it
-                   * off the right edge for anything long-running, and a fixed
-                   * max-width still let it clip against the container.
+                   * Placed wherever there is room, and sized to it. A bar that
+                   * spans most of the axis leaves nowhere beside it, so the
+                   * label goes on top — and then it needs its own ground.
+                   * Reading dark text off a saturated bar is a contrast
+                   * problem that would recur for every bar colour, so text
+                   * never sits directly on one.
                    */
                   style={
-                    100 - (start + width) > 22
+                    overlapsBar
                       ? {
-                          left: `${start + width}%`,
-                          paddingLeft: '0.5rem',
-                          maxWidth: `${100 - (start + width)}%`,
+                          left: `${start}%`,
+                          marginLeft: '0.25rem',
+                          maxWidth: '94%',
+                          background: 'color-mix(in srgb, var(--paper) 88%, transparent)',
                         }
-                      : start > 22
+                      : spaceAfter
                         ? {
+                            left: `${start + width}%`,
+                            paddingLeft: '0.5rem',
+                            maxWidth: `${100 - (start + width)}%`,
+                          }
+                        : {
                             right: `${100 - start}%`,
                             paddingRight: '0.5rem',
                             textAlign: 'right',
                             maxWidth: `${start}%`,
                           }
-                        : { left: `${start}%`, paddingLeft: '0.5rem', maxWidth: '96%' }
                   }
                 >
                   {event.title ? (

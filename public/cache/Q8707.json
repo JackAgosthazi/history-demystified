@@ -141,7 +141,7 @@
   "timeline": [
    {
     "id": "start",
-    "label": "Meiji Restoration begins",
+    "label": "Meiji Restoration",
     "kind": "period",
     "date": {
      "raw": "+1868-00-00T00:00:00Z",
@@ -348,12 +348,12 @@
    "truncated": true
   }
  ],
- "summary": "The Meiji Restoration was the political overthrow of Japan's military government in 1868 and the transfer of formal power to the young Emperor Meiji, followed by a sweeping remaking of the country's institutions along Western lines [S1]. For more than two centuries Japan had been ruled not by its emperors but by the shōgun, a hereditary military ruler of the Tokugawa family, who granted broad control over local domains to regional lords called daimyō in exchange for homage and irregular taxation [S7]. Since 1633 the shogunate had also enforced sakoku, a policy under which nobody could enter or leave Japan without the shōgun's permission [S7]. It is remembered because it ended that order and set Japan on a path of rapid industrialisation and adoption of Western technology [S1].\n\nThe trigger came from outside. The arrival of the American commodore Matthew Perry's warships exposed the weakness of the shogunate [S3], and the \"unequal treaties\" that followed — granting foreigners residence in Edo, exemption from Japanese law, and the opening of five ports — were forced through in 1858 despite the emperor's disapproval [S9]. That rebuff split the samurai class, and many lower and middle-ranking samurai rallied to the slogan of revering the emperor and expelling the barbarians [S1][S9]. The western domains of Satsuma and Chōshū built an anti-Tokugawa alliance [S1]; the last shōgun, Tokugawa Yoshinobu, resigned his office in November 1867 [S11], and on 3 January 1868 domain troops seized the Imperial Palace and a decree resumed the political functions of the Imperial House [S11]. Diehard Tokugawa supporters fought on in the Boshin War [S1]. One account stresses that power did not really return to the emperor at all but passed to an oligarchy of daimyō [S5].",
- "whyItMatters": "The new government dismantled the structures it inherited: it abolished the old currency, the domain system, and eventually the samurai's privileged class position, provoking armed revolts such as the Saga and Satsuma Rebellions [S1]. Most Japanese castles were dismantled because the feudal system was gone and the government saw no use in maintaining them [S8], and tens of thousands of Buddhist idols and temples were destroyed during the separation of Buddhism from Shinto [S8]. Industrialisation was real but slow: imported technologies only mattered from the 1870s and produced significant output only in the 1880s, paid for largely by peasant farmers taxed at around 30 percent of their harvests [S8]. The restoration laid the foundation for the institutions of the Empire of Japan and had consequences across East Asia as Japan pursued colonial interests against its neighbours; the constitution of 1889 lasted until the Allied occupation after the Second World War [S1].",
+ "summary": "The Meiji Restoration was the overthrow of Japan's military government, the Tokugawa shogunate, and the formal return of political power to the emperor in 1868 [S1]. For roughly two and a half centuries Japan had been ruled by a shōgun, a hereditary military overlord, under a rigid inherited social order topped by the emperor and his court but governed in practice from Edo (today's Tokyo) [S7]. It is remembered because it opened the way to a rapid remaking of Japanese government, society and industry along Western lines [S1], and because it turned Japan into a major power [S3].\n\nThe trigger was foreign pressure. Since 1633 a policy called sakoku had barred entry and exit without the shōgun's permission [S7]. The 1853 arrival of an American squadron under Commodore Matthew Perry exposed the shogunate's weakness [S3], and the treaties that followed — granting foreigners residence in Edo, immunity from Japanese law, and five open ports — became known as the unequal treaties [S9]. When the shogunate signed despite the emperor's court withholding approval [S9], samurai rallied to the slogan \"revere the Emperor, expel the barbarian\" [S9]. The domains of Satsuma and Chōshū built an anti-Tokugawa alliance [S1]; the last shōgun resigned his title on 19 November 1867 [S11], and on 3 January 1868 troops seized the Imperial Palace in Kyoto and the emperor declared he would exercise supreme authority [S11]. Loyalist resistance continued in the Boshin War [S1]. One account stresses that power did not really return to the emperor but passed to an oligarchy of former lords [S5].",
+ "whyItMatters": "The new government dismantled the old order: it abolished the domains and the samurai's class position, and cut off the samurai topknot by edict in 1871 [S1][S8]. Losers fought back in the Saga and Satsuma rebellions, the last of which ended in 1877 [S1][S4]. Industrialisation followed, but slowly — imported technology only mattered from the 1870s and produced real volume in the 1880s, financed largely by raw silk exports and by land taxes of about 30 percent of harvests paid by peasant farmers [S8]. The process produced the institutions of the Empire of Japan and the 1889 Meiji Constitution, which lasted until the Allied occupation after the Second World War, and it preceded Japan's colonial ventures against its neighbours [S1].",
  "takeaways": [
   {
    "id": "t0",
-   "text": "The Meiji Restoration was a political event of 1868 that put governing power back in the hands of Japan's emperor, Emperor Meiji, and set the country on a course of adopting Western ways.",
+   "text": "The Meiji Restoration was a political event of 1868 that returned practical governing power to the Japanese emperor, then a teenager known as Emperor Meiji, and set Japan on a course of westernisation.",
    "sourceId": "S1",
    "quote": "was a political event that restored imperial rule to Japan in 1868 under Emperor Meiji and led to the westernisation of Japan",
    "verification": {
@@ -367,9 +367,9 @@
   },
   {
    "id": "t1",
-   "text": "The crisis that made it possible began with foreign pressure on Japan's long-standing policy of national seclusion, above all the arrival of an American naval expedition under Commodore Matthew Perry.",
+   "text": "The immediate trigger was foreign pressure on Japan's two-century policy of national seclusion, above all the arrival of an American naval squadron under Commodore Matthew Perry.",
    "sourceId": "S1",
-   "quote": "the encroachment of foreign powers in the region which challenged the Tokugawa policy of sakoku, specifically the arrival of the Perry Expedition",
+   "quote": "These problems were compounded by the encroachment of foreign powers in the region which challenged the Tokugawa policy of sakoku, specifically the arrival of the Perry Expedition",
    "verification": {
     "status": "unverified",
     "method": "exact",
@@ -381,49 +381,21 @@
   },
   {
    "id": "t2",
-   "text": "The last military ruler of Japan, Tokugawa Yoshinobu, gave up the administrative functions of his office and handed power back to the imperial court in November 1867, before any decisive battle.",
-   "sourceId": "S11",
-   "quote": "on 8 November 1867, Tokugawa Yoshinobu, the 15th Tokugawa shōgun, decided to renounce the administrative functions of his office and returned the power to the Imperial Court",
-   "verification": {
-    "status": "verified",
-    "method": "exact",
-    "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration#Imperial_restoration:~:text=on%208%20November%201867%2C%20Tokugawa%20Yoshinobu%2C,the%20power%20to%20the%20Imperial%20Court",
-    "sourceTitle": "Meiji Restoration",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration#Imperial_restoration"
-   }
-  },
-  {
-   "id": "t3",
-   "text": "The decisive moment was a palace coup: troops from allied regional domains seized the Imperial Palace in Kyoto in the early hours of 3 January 1868 with the emperor's sanction.",
-   "sourceId": "S11",
-   "quote": "In the early hours of 3 January 1868, domain troops seized control of the Imperial Palace from the bakufu while Iwakura simultaneously received official approval from the Emperor for these actions.",
-   "verification": {
-    "status": "verified",
-    "method": "exact",
-    "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration#Imperial_restoration:~:text=In%20the%20early%20hours%20of%203,from%20the%20Emperor%20for%20these%20actions.",
-    "sourceTitle": "Meiji Restoration",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration#Imperial_restoration"
-   }
-  },
-  {
-   "id": "t4",
-   "text": "The new government dismantled the old order wholesale, scrapping the existing currency, the system of semi-autonomous domains, and finally the hereditary privileges of the warrior (samurai) class.",
+   "text": "The shogunate was brought down not by the emperor's own forces but by an alliance of regional domains, of which Satsuma and Chōshū in western Japan were the leaders.",
    "sourceId": "S1",
-   "quote": "The new government reorganised whole strata of society, abolishing the old currency, the domain system, and eventually the class position of the samurai.",
+   "quote": "the domains organised into an anti-Tokugawa alliance, and, led by Satsuma and Chōshū, they overthrew the shogunal system.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration#:~:text=The%20new%20government%20reorganised%20whole%20strata,the%20class%20position%20of%20the%20samurai.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration#:~:text=the%20domains%20organised%20into%20an%20anti%2DTokugawa,Ch%C5%8Dsh%C5%AB%2C%20they%20overthrew%20the%20shogunal%20system.",
     "sourceTitle": "Meiji Restoration",
     "sourceUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration"
    }
   },
   {
-   "id": "t5",
-   "text": "One reading holds that power was not in fact handed to the emperor personally, but passed from the defeated shogun to a small oligarchy of regional lords.",
+   "id": "t3",
+   "text": "On one reading, power was not truly handed back to the emperor at all: it simply passed from the defeated shogun to an oligarchy of regional lords.",
    "sourceId": "S5",
    "quote": "En realidad no se devolvieron los poderes al emperador sino que el poder pasó del derrotado Shogun a una oligarquía de daimios.",
    "quoteTranslation": "In reality the powers were not returned to the emperor; rather power passed from the defeated Shogun to an oligarchy of daimyo.",
@@ -437,15 +409,43 @@
    }
   },
   {
-   "id": "t6",
-   "text": "The restoration created the institutional basis of the Empire of Japan and had consequences across East Asia as Japan pursued colonial ambitions against its neighbours.",
+   "id": "t4",
+   "text": "The new government dismantled the inherited order of Japanese society, abolishing the old currency, the system of semi-autonomous domains, and eventually the legal status of the samurai warrior class itself.",
    "sourceId": "S1",
-   "quote": "laid the foundation for the institutions of the Empire of Japan, and would have far-reaching consequences in East Asia as Japan pursued colonial interests against its neighbours",
+   "quote": "The new government reorganised whole strata of society, abolishing the old currency, the domain system, and eventually the class position of the samurai.",
+   "verification": {
+    "status": "unverified",
+    "method": "exact",
+    "score": 0,
+    "reason": "Quote found, but the surrounding text does not mention japanese.",
+    "sourceTitle": "Meiji Restoration",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration"
+   }
+  },
+  {
+   "id": "t5",
+   "text": "Industrialisation was paid for largely by ordinary farmers, who bore land taxes of roughly 30 percent of their harvest — far above rates elsewhere in the world at the time.",
+   "sourceId": "S8",
+   "quote": "the costs of industrialisation and necessary investments in modernisation heavily fell on the peasant farmers, who paid extremely high land tax rates (about 30 percent of harvests)",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration#:~:text=laid%20the%20foundation%20for%20the%20institutions,pursued%20colonial%20interests%20against%20its%20neighbours",
+    "citationUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration#Aftermath:~:text=the%20costs%20of%20industrialisation%20and%20necessary,rates%20(about%2030%20percent%20of%20harvests)",
+    "sourceTitle": "Meiji Restoration",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration#Aftermath"
+   }
+  },
+  {
+   "id": "t6",
+   "text": "The Restoration created the institutional foundations of the Empire of Japan and of its later colonial expansion against its Asian neighbours.",
+   "sourceId": "S1",
+   "quote": "The Meiji Restoration was the political process that laid the foundation for the institutions of the Empire of Japan, and would have far-reaching consequences in East Asia",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration#:~:text=The%20Meiji%20Restoration%20was%20the%20political,have%20far%2Dreaching%20consequences%20in%20East%20Asia",
     "sourceTitle": "Meiji Restoration",
     "sourceUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration"
    }
@@ -453,51 +453,12 @@
  ],
  "perspectives": [
   {
-   "label": "English-language framing",
-   "stance": "Real power genuinely returned to the emperor",
-   "body": "On this reading the events of 1868 did more than change the name of the ruler: they concentrated actual authority in the throne and unified the political system beneath it. By the 1870s the emperor's authority is described as practically beyond challenge.",
+   "label": "German-language account",
+   "stance": "It ended with the last samurai revolt, 1877",
+   "body": "Here the Restoration is treated as a process whose real conclusion came when armed samurai resistance was finally crushed, with the 1890 constitution as a mere formal endpoint. That makes the rebellions part of the event rather than its aftermath.",
    "evidence": {
     "id": "p0",
-    "text": "The events are described as restoring practical power to the Emperor of Japan and consolidating the political system under him.",
-    "sourceId": "S1",
-    "quote": "the events restored practical power to, and consolidated the political system under, the Emperor of Japan",
-    "verification": {
-     "status": "verified",
-     "method": "exact",
-     "score": 1,
-     "citationUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration#:~:text=the%20events%20restored%20practical%20power%20to%2C,system%20under%2C%20the%20Emperor%20of%20Japan",
-     "sourceTitle": "Meiji Restoration",
-     "sourceUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration"
-    }
-   }
-  },
-  {
-   "label": "Spanish-language framing",
-   "stance": "An oligarchy of lords took power, not the emperor",
-   "body": "Here the restoration is read as a transfer of power between elites, with the throne as a legitimising figurehead. It also dates the beginning to the 1866 alliance between the Satsuma and Chōshū domains rather than to 1868.",
-   "evidence": {
-    "id": "p1",
-    "text": "The formation in 1866 of the \"Satcho\" alliance between Saigō Takamori of Satsuma and Kido Takayoshi of Chōshū is treated as the start of the Meiji Restoration.",
-    "sourceId": "S5",
-    "quote": "La formación en 1866 de la alianza «Satcho» entre Saigō Takamori, el líder del dominio de Satsuma, y Kido Takayoshi, el líder del dominio de Choshu, marca el inicio de la Restauración Meiji.",
-    "quoteTranslation": "The formation in 1866 of the \"Satcho\" alliance between Saigō Takamori, leader of the Satsuma domain, and Kido Takayoshi, leader of the Chōshū domain, marks the beginning of the Meiji Restoration.",
-    "verification": {
-     "status": "verified",
-     "method": "exact",
-     "score": 1,
-     "citationUrl": "https://es.wikipedia.org/wiki/Restauraci%C3%B3n_Meiji#:~:text=La%20formaci%C3%B3n%20en%201866%20de%20la,el%20inicio%20de%20la%20Restauraci%C3%B3n%20Meiji.",
-     "sourceTitle": "Restauración Meiji",
-     "sourceUrl": "https://es.wikipedia.org/wiki/Restauraci%C3%B3n_Meiji"
-    }
-   }
-  },
-  {
-   "label": "German-language framing",
-   "stance": "It ends in 1877, formally in 1890",
-   "body": "Rather than treating 1868 as the event itself, this account extends the restoration until the last armed samurai resistance under Saigō Takamori was crushed in 1877, with the constitution of 1890 as the formal close. The emphasis falls on the total remaking of society, not just the change of ruler.",
-   "evidence": {
-    "id": "p2",
-    "text": "The Meiji Restoration is said to have ended in practice with the final resistance of the samurai Saigō Takamori in 1877.",
+    "text": "One account holds that the Meiji Restoration ended in practice with the final resistance of the samurai Saigō Takamori in 1877.",
     "sourceId": "S4",
     "quote": "Die Meiji-Restauration, die nach dem Thronnamen des Kaisers Meiji benannt ist, endete praktisch mit dem letzten Widerstand des Samurais Saigō Takamori 1877.",
     "quoteTranslation": "The Meiji Restoration, named after the reign name of Emperor Meiji, ended in practice with the last resistance of the samurai Saigō Takamori in 1877.",
@@ -512,22 +473,61 @@
    }
   },
   {
-   "label": "French-language framing",
-   "stance": "A direct consequence of the forced opening by foreigners",
-   "body": "This account makes external coercion the primary cause: the arrival of Perry's \"black ships\" exposed the shogunate's weakness and the restoration followed directly from the forced end of seclusion. Internal economic decay receives less weight than the foreign shock.",
+   "label": "Spanish-language account",
+   "stance": "A chain of events stretching to 1912",
+   "body": "Rather than a single political act in 1868, this treatment describes a long sequence of change running the whole length of the Meiji era. On this view stability was only reached after four decades, so the Restoration is inseparable from the reign that followed it.",
    "evidence": {
-    "id": "p3",
-    "text": "The restoration is characterised as a direct consequence of the opening of a Japan previously isolated by a deliberate policy called sakoku.",
-    "sourceId": "S3",
-    "quote": "La restauration a été une conséquence directe de l'ouverture du Japon isolé jusqu'ici par une politique d'isolement volontaire appelé sakoku",
-    "quoteTranslation": "The restoration was a direct consequence of the opening of Japan, until then isolated by a policy of voluntary isolation called sakoku.",
+    "id": "p1",
+    "text": "The Restoration has been described as a chain of events changing Japanese politics and society across the period from 1868 to 1912.",
+    "sourceId": "S5",
+    "quote": "describe una cadena de eventos que condujeron a un cambio en la estructura de la política y sociedad de Japón en el período comprendido de 1868 a 1912",
+    "quoteTranslation": "describes a chain of events that led to a change in the structure of Japan's politics and society in the period from 1868 to 1912",
     "verification": {
      "status": "verified",
      "method": "exact",
      "score": 1,
-     "citationUrl": "https://fr.wikipedia.org/wiki/Restauration_de_Meiji#:~:text=La%20restauration%20a%20%C3%A9t%C3%A9%20une%20cons%C3%A9quence,une%20politique%20d'isolement%20volontaire%20appel%C3%A9%20sakoku",
+     "citationUrl": "https://es.wikipedia.org/wiki/Restauraci%C3%B3n_Meiji#:~:text=describe%20una%20cadena%20de%20eventos%20que,per%C3%ADodo%20comprendido%20de%201868%20a%201912",
+     "sourceTitle": "Restauración Meiji",
+     "sourceUrl": "https://es.wikipedia.org/wiki/Restauraci%C3%B3n_Meiji"
+    }
+   }
+  },
+  {
+   "label": "French-language account",
+   "stance": "Better called a revolution or renewal",
+   "body": "The word \"restoration\" implies putting something old back in place; French usage offers \"revolution\" and \"renewal\" as alternatives, stressing rupture rather than return. The Japanese term ishin itself means renewal rather than restoration.",
+   "evidence": {
+    "id": "p2",
+    "text": "The event is also known as the Meiji revolution or the Meiji renewal.",
+    "sourceId": "S3",
+    "quote": "La restauration de Meiji (明治維新, Meiji ishin), aussi appelée révolution de Meiji ou renouvellement de Meiji",
+    "quoteTranslation": "The Meiji Restoration (明治維新, Meiji ishin), also called the Meiji revolution or Meiji renewal",
+    "verification": {
+     "status": "verified",
+     "method": "exact",
+     "score": 1,
+     "citationUrl": "https://fr.wikipedia.org/wiki/Restauration_de_Meiji#:~:text=La%20restauration%20de%20Meiji%20(%E6%98%8E%E6%B2%BB%E7%B6%AD%E6%96%B0%2C%20Meiji,de%20Meiji%20ou%20renouvellement%20de%20Meiji",
      "sourceTitle": "Restauration de Meiji",
      "sourceUrl": "https://fr.wikipedia.org/wiki/Restauration_de_Meiji"
+    }
+   }
+  },
+  {
+   "label": "English-language account",
+   "stance": "Imperial authority was settled by the 1870s",
+   "body": "This treatment presents the decisive political question as closed within a few years of 1868, with later revolts as backlash to changes already made rather than as contests over who ruled. The formal endpoint is placed at the constitution of 1889.",
+   "evidence": {
+    "id": "p3",
+    "text": "By the 1870s the emperor's authority in Japan was practically unquestioned.",
+    "sourceId": "S1",
+    "quote": "but by the 1870s, the Emperor's authority was practically unquestioned",
+    "verification": {
+     "status": "unverified",
+     "method": "exact",
+     "score": 0,
+     "reason": "Quote found, but the surrounding text does not mention japan.",
+     "sourceTitle": "Meiji Restoration",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration"
     }
    }
   }
@@ -535,7 +535,7 @@
  "claims": [
   {
    "id": "t0",
-   "text": "The Meiji Restoration was a political event of 1868 that put governing power back in the hands of Japan's emperor, Emperor Meiji, and set the country on a course of adopting Western ways.",
+   "text": "The Meiji Restoration was a political event of 1868 that returned practical governing power to the Japanese emperor, then a teenager known as Emperor Meiji, and set Japan on a course of westernisation.",
    "sourceId": "S1",
    "quote": "was a political event that restored imperial rule to Japan in 1868 under Emperor Meiji and led to the westernisation of Japan",
    "verification": {
@@ -549,9 +549,9 @@
   },
   {
    "id": "t1",
-   "text": "The crisis that made it possible began with foreign pressure on Japan's long-standing policy of national seclusion, above all the arrival of an American naval expedition under Commodore Matthew Perry.",
+   "text": "The immediate trigger was foreign pressure on Japan's two-century policy of national seclusion, above all the arrival of an American naval squadron under Commodore Matthew Perry.",
    "sourceId": "S1",
-   "quote": "the encroachment of foreign powers in the region which challenged the Tokugawa policy of sakoku, specifically the arrival of the Perry Expedition",
+   "quote": "These problems were compounded by the encroachment of foreign powers in the region which challenged the Tokugawa policy of sakoku, specifically the arrival of the Perry Expedition",
    "verification": {
     "status": "unverified",
     "method": "exact",
@@ -563,49 +563,21 @@
   },
   {
    "id": "t2",
-   "text": "The last military ruler of Japan, Tokugawa Yoshinobu, gave up the administrative functions of his office and handed power back to the imperial court in November 1867, before any decisive battle.",
-   "sourceId": "S11",
-   "quote": "on 8 November 1867, Tokugawa Yoshinobu, the 15th Tokugawa shōgun, decided to renounce the administrative functions of his office and returned the power to the Imperial Court",
-   "verification": {
-    "status": "verified",
-    "method": "exact",
-    "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration#Imperial_restoration:~:text=on%208%20November%201867%2C%20Tokugawa%20Yoshinobu%2C,the%20power%20to%20the%20Imperial%20Court",
-    "sourceTitle": "Meiji Restoration",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration#Imperial_restoration"
-   }
-  },
-  {
-   "id": "t3",
-   "text": "The decisive moment was a palace coup: troops from allied regional domains seized the Imperial Palace in Kyoto in the early hours of 3 January 1868 with the emperor's sanction.",
-   "sourceId": "S11",
-   "quote": "In the early hours of 3 January 1868, domain troops seized control of the Imperial Palace from the bakufu while Iwakura simultaneously received official approval from the Emperor for these actions.",
-   "verification": {
-    "status": "verified",
-    "method": "exact",
-    "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration#Imperial_restoration:~:text=In%20the%20early%20hours%20of%203,from%20the%20Emperor%20for%20these%20actions.",
-    "sourceTitle": "Meiji Restoration",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration#Imperial_restoration"
-   }
-  },
-  {
-   "id": "t4",
-   "text": "The new government dismantled the old order wholesale, scrapping the existing currency, the system of semi-autonomous domains, and finally the hereditary privileges of the warrior (samurai) class.",
+   "text": "The shogunate was brought down not by the emperor's own forces but by an alliance of regional domains, of which Satsuma and Chōshū in western Japan were the leaders.",
    "sourceId": "S1",
-   "quote": "The new government reorganised whole strata of society, abolishing the old currency, the domain system, and eventually the class position of the samurai.",
+   "quote": "the domains organised into an anti-Tokugawa alliance, and, led by Satsuma and Chōshū, they overthrew the shogunal system.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration#:~:text=The%20new%20government%20reorganised%20whole%20strata,the%20class%20position%20of%20the%20samurai.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration#:~:text=the%20domains%20organised%20into%20an%20anti%2DTokugawa,Ch%C5%8Dsh%C5%AB%2C%20they%20overthrew%20the%20shogunal%20system.",
     "sourceTitle": "Meiji Restoration",
     "sourceUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration"
    }
   },
   {
-   "id": "t5",
-   "text": "One reading holds that power was not in fact handed to the emperor personally, but passed from the defeated shogun to a small oligarchy of regional lords.",
+   "id": "t3",
+   "text": "On one reading, power was not truly handed back to the emperor at all: it simply passed from the defeated shogun to an oligarchy of regional lords.",
    "sourceId": "S5",
    "quote": "En realidad no se devolvieron los poderes al emperador sino que el poder pasó del derrotado Shogun a una oligarquía de daimios.",
    "quoteTranslation": "In reality the powers were not returned to the emperor; rather power passed from the defeated Shogun to an oligarchy of daimyo.",
@@ -619,51 +591,50 @@
    }
   },
   {
-   "id": "t6",
-   "text": "The restoration created the institutional basis of the Empire of Japan and had consequences across East Asia as Japan pursued colonial ambitions against its neighbours.",
+   "id": "t4",
+   "text": "The new government dismantled the inherited order of Japanese society, abolishing the old currency, the system of semi-autonomous domains, and eventually the legal status of the samurai warrior class itself.",
    "sourceId": "S1",
-   "quote": "laid the foundation for the institutions of the Empire of Japan, and would have far-reaching consequences in East Asia as Japan pursued colonial interests against its neighbours",
+   "quote": "The new government reorganised whole strata of society, abolishing the old currency, the domain system, and eventually the class position of the samurai.",
+   "verification": {
+    "status": "unverified",
+    "method": "exact",
+    "score": 0,
+    "reason": "Quote found, but the surrounding text does not mention japanese.",
+    "sourceTitle": "Meiji Restoration",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration"
+   }
+  },
+  {
+   "id": "t5",
+   "text": "Industrialisation was paid for largely by ordinary farmers, who bore land taxes of roughly 30 percent of their harvest — far above rates elsewhere in the world at the time.",
+   "sourceId": "S8",
+   "quote": "the costs of industrialisation and necessary investments in modernisation heavily fell on the peasant farmers, who paid extremely high land tax rates (about 30 percent of harvests)",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration#:~:text=laid%20the%20foundation%20for%20the%20institutions,pursued%20colonial%20interests%20against%20its%20neighbours",
+    "citationUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration#Aftermath:~:text=the%20costs%20of%20industrialisation%20and%20necessary,rates%20(about%2030%20percent%20of%20harvests)",
+    "sourceTitle": "Meiji Restoration",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration#Aftermath"
+   }
+  },
+  {
+   "id": "t6",
+   "text": "The Restoration created the institutional foundations of the Empire of Japan and of its later colonial expansion against its Asian neighbours.",
+   "sourceId": "S1",
+   "quote": "The Meiji Restoration was the political process that laid the foundation for the institutions of the Empire of Japan, and would have far-reaching consequences in East Asia",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration#:~:text=The%20Meiji%20Restoration%20was%20the%20political,have%20far%2Dreaching%20consequences%20in%20East%20Asia",
     "sourceTitle": "Meiji Restoration",
     "sourceUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration"
    }
   },
   {
    "id": "p0",
-   "text": "The events are described as restoring practical power to the Emperor of Japan and consolidating the political system under him.",
-   "sourceId": "S1",
-   "quote": "the events restored practical power to, and consolidated the political system under, the Emperor of Japan",
-   "verification": {
-    "status": "verified",
-    "method": "exact",
-    "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration#:~:text=the%20events%20restored%20practical%20power%20to%2C,system%20under%2C%20the%20Emperor%20of%20Japan",
-    "sourceTitle": "Meiji Restoration",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration"
-   }
-  },
-  {
-   "id": "p1",
-   "text": "The formation in 1866 of the \"Satcho\" alliance between Saigō Takamori of Satsuma and Kido Takayoshi of Chōshū is treated as the start of the Meiji Restoration.",
-   "sourceId": "S5",
-   "quote": "La formación en 1866 de la alianza «Satcho» entre Saigō Takamori, el líder del dominio de Satsuma, y Kido Takayoshi, el líder del dominio de Choshu, marca el inicio de la Restauración Meiji.",
-   "quoteTranslation": "The formation in 1866 of the \"Satcho\" alliance between Saigō Takamori, leader of the Satsuma domain, and Kido Takayoshi, leader of the Chōshū domain, marks the beginning of the Meiji Restoration.",
-   "verification": {
-    "status": "verified",
-    "method": "exact",
-    "score": 1,
-    "citationUrl": "https://es.wikipedia.org/wiki/Restauraci%C3%B3n_Meiji#:~:text=La%20formaci%C3%B3n%20en%201866%20de%20la,el%20inicio%20de%20la%20Restauraci%C3%B3n%20Meiji.",
-    "sourceTitle": "Restauración Meiji",
-    "sourceUrl": "https://es.wikipedia.org/wiki/Restauraci%C3%B3n_Meiji"
-   }
-  },
-  {
-   "id": "p2",
-   "text": "The Meiji Restoration is said to have ended in practice with the final resistance of the samurai Saigō Takamori in 1877.",
+   "text": "One account holds that the Meiji Restoration ended in practice with the final resistance of the samurai Saigō Takamori in 1877.",
    "sourceId": "S4",
    "quote": "Die Meiji-Restauration, die nach dem Thronnamen des Kaisers Meiji benannt ist, endete praktisch mit dem letzten Widerstand des Samurais Saigō Takamori 1877.",
    "quoteTranslation": "The Meiji Restoration, named after the reign name of Emperor Meiji, ended in practice with the last resistance of the samurai Saigō Takamori in 1877.",
@@ -677,25 +648,54 @@
    }
   },
   {
-   "id": "p3",
-   "text": "The restoration is characterised as a direct consequence of the opening of a Japan previously isolated by a deliberate policy called sakoku.",
-   "sourceId": "S3",
-   "quote": "La restauration a été une conséquence directe de l'ouverture du Japon isolé jusqu'ici par une politique d'isolement volontaire appelé sakoku",
-   "quoteTranslation": "The restoration was a direct consequence of the opening of Japan, until then isolated by a policy of voluntary isolation called sakoku.",
+   "id": "p1",
+   "text": "The Restoration has been described as a chain of events changing Japanese politics and society across the period from 1868 to 1912.",
+   "sourceId": "S5",
+   "quote": "describe una cadena de eventos que condujeron a un cambio en la estructura de la política y sociedad de Japón en el período comprendido de 1868 a 1912",
+   "quoteTranslation": "describes a chain of events that led to a change in the structure of Japan's politics and society in the period from 1868 to 1912",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://fr.wikipedia.org/wiki/Restauration_de_Meiji#:~:text=La%20restauration%20a%20%C3%A9t%C3%A9%20une%20cons%C3%A9quence,une%20politique%20d'isolement%20volontaire%20appel%C3%A9%20sakoku",
+    "citationUrl": "https://es.wikipedia.org/wiki/Restauraci%C3%B3n_Meiji#:~:text=describe%20una%20cadena%20de%20eventos%20que,per%C3%ADodo%20comprendido%20de%201868%20a%201912",
+    "sourceTitle": "Restauración Meiji",
+    "sourceUrl": "https://es.wikipedia.org/wiki/Restauraci%C3%B3n_Meiji"
+   }
+  },
+  {
+   "id": "p2",
+   "text": "The event is also known as the Meiji revolution or the Meiji renewal.",
+   "sourceId": "S3",
+   "quote": "La restauration de Meiji (明治維新, Meiji ishin), aussi appelée révolution de Meiji ou renouvellement de Meiji",
+   "quoteTranslation": "The Meiji Restoration (明治維新, Meiji ishin), also called the Meiji revolution or Meiji renewal",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://fr.wikipedia.org/wiki/Restauration_de_Meiji#:~:text=La%20restauration%20de%20Meiji%20(%E6%98%8E%E6%B2%BB%E7%B6%AD%E6%96%B0%2C%20Meiji,de%20Meiji%20ou%20renouvellement%20de%20Meiji",
     "sourceTitle": "Restauration de Meiji",
     "sourceUrl": "https://fr.wikipedia.org/wiki/Restauration_de_Meiji"
+   }
+  },
+  {
+   "id": "p3",
+   "text": "By the 1870s the emperor's authority in Japan was practically unquestioned.",
+   "sourceId": "S1",
+   "quote": "but by the 1870s, the Emperor's authority was practically unquestioned",
+   "verification": {
+    "status": "unverified",
+    "method": "exact",
+    "score": 0,
+    "reason": "Quote found, but the surrounding text does not mention japan.",
+    "sourceTitle": "Meiji Restoration",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Meiji_Restoration"
    }
   }
  ],
  "keyEvents": [
   {
    "label": "American warships force Japan open",
-   "summary": "A United States naval expedition ordered by President Millard Fillmore arrived off Japan and broke the policy of national seclusion, demonstrating the shogunate's military weakness.",
+   "summary": "A United States naval expedition arrived demanding Japan abandon its seclusion policy, exposing the shogunate's military weakness. It made the question of how to deal with the West the central problem of Japanese politics.",
    "entity": {
     "title": "Perry Expedition",
     "url": "https://en.wikipedia.org/wiki/Perry_Expedition",
@@ -706,8 +706,8 @@
    }
   },
   {
-   "label": "The unequal treaties signed",
-   "summary": "Signed in 1858 over the emperor's expressed disapproval, the treaty granted foreigners extraterritoriality, opened five ports and tolerated Christianity, discrediting the shogunate's claim to defend Japanese sovereignty.",
+   "label": "The unequal treaty of 1858",
+   "summary": "The shogunate signed a commercial treaty granting foreigners extraterritoriality and opening five ports, and did so after the imperial court had refused its approval. Defying the emperor turned a foreign-policy dispute into a crisis of the shogunate's legitimacy.",
    "entity": {
     "title": "Treaty of Amity and Commerce (United States–Japan)",
     "url": "https://en.wikipedia.org/wiki/Treaty_of_Amity_and_Commerce_(United_States%E2%80%93Japan)",
@@ -736,8 +736,8 @@
    }
   },
   {
-   "label": "Satsuma and Chōshū combine",
-   "summary": "Two powerful western domains that had been rivals joined forces behind the emperor, creating the military coalition capable of destroying the shogunate.",
+   "label": "Satsuma and Chōshū join forces",
+   "summary": "Two powerful and previously hostile western domains formed a secret alliance against the Tokugawa, giving the anti-shogunal movement the military weight it had lacked.",
    "entity": {
     "title": "Satchō Alliance",
     "url": "https://en.wikipedia.org/wiki/Satch%C5%8D_Alliance",
@@ -766,8 +766,8 @@
    }
   },
   {
-   "label": "The shogun resigns his office",
-   "summary": "In November 1867 the fifteenth Tokugawa shogun surrendered his administrative functions and then the title itself, hoping to retain influence in a new council; instead his opponents moved to strip his house of its lands.",
+   "label": "The last shogun resigns",
+   "summary": "In November 1867 Yoshinobu renounced the administrative functions of his office and then the title of shogun itself, hoping to keep his lands and influence within a new council of lords. His resignation removed the shogunate without settling who would rule instead.",
    "entity": {
     "title": "Tokugawa Yoshinobu",
     "url": "https://en.wikipedia.org/wiki/Tokugawa_Yoshinobu",
@@ -790,8 +790,8 @@
    }
   },
   {
-   "label": "The palace coup and proclamation",
-   "summary": "On 3 January 1868 domain troops occupied the Imperial Palace and the emperor declared the resumption of imperial rule, telling foreign sovereigns that he, not the shogun, now conducted Japan's affairs.",
+   "label": "Coup and January proclamation of 1868",
+   "summary": "Domain troops seized the Imperial Palace in Kyoto and the emperor declared that he would henceforth exercise supreme authority over internal and external affairs. This made the overthrow of the Tokugawa official and irreversible.",
    "entity": {
     "title": "Meiji Restoration",
     "url": "https://en.wikipedia.org/wiki/Meiji_Restoration",
@@ -826,8 +826,8 @@
    }
   },
   {
-   "label": "Tokugawa loyalists defeated in civil war",
-   "summary": "Forces of Chōshū and Satsuma beat the former shogun's army; remaining resistance, including the short-lived Republic of Ezo, was extinguished, leaving imperial authority unquestioned by the 1870s.",
+   "label": "Civil war against Tokugawa loyalists",
+   "summary": "Forces of Satsuma and Chōshū defeated the former shogun's army; remaining loyalists briefly set up the Republic of Ezo in the north. Military victory secured the new government's control of the country.",
    "entity": {
     "title": "Boshin War",
     "url": "https://en.wikipedia.org/wiki/Boshin_War",
@@ -863,7 +863,7 @@
   },
   {
    "label": "The new government states its aims",
-   "summary": "Issued in April 1868, the Oath rejected past administration, called for enriching the country and adopting Western technology, and confirmed centralised sovereignty under the emperor.",
+   "summary": "Issued in April 1868, the Oath rejected past administration, called for enriching the country and adopting Western technology, and confirmed a centralised national sovereignty under the emperor.",
    "entity": {
     "title": "Charter Oath",
     "url": "https://en.wikipedia.org/wiki/Charter_Oath",
@@ -874,8 +874,8 @@
    }
   },
   {
-   "label": "The domains are abolished",
-   "summary": "The daimyo were induced, then compelled, to surrender their lands, replacing feudal autonomy with prefectures, a national bureaucracy and a conscript army.",
+   "label": "The domains are dissolved",
+   "summary": "After years of negotiation and pressure on reluctant lords, the semi-autonomous domains were replaced by prefectures under central control, ending feudal landholding and enabling a national army and bureaucracy.",
    "entity": {
     "title": "Abolition of the han system",
     "url": "https://en.wikipedia.org/wiki/Abolition_of_the_han_system",
@@ -906,6 +906,30 @@
  "figures": [
   {
    "entity": {
+    "title": "Emperor Meiji",
+    "url": "https://en.wikipedia.org/wiki/Emperor_Meiji",
+    "lang": "en",
+    "description": "Emperor of Japan from 1867 to 1912",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Meiji_Emperor_%28cropped%29%28b%29.jpg/60px-Meiji_Emperor_%28cropped%29%28b%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q174231",
+    "start": {
+     "raw": "+1852-11-03T00:00:00Z",
+     "year": 1852,
+     "precision": "day",
+     "display": "3 November 1852"
+    },
+    "end": {
+     "raw": "+1912-07-30T00:00:00Z",
+     "year": 1912,
+     "precision": "day",
+     "display": "30 July 1912"
+    }
+   },
+   "relationship": "Monarch in whose name it happened",
+   "note": "The young emperor issued the proclamation resuming imperial authority and the Charter Oath setting out the new government's goals."
+  },
+  {
+   "entity": {
     "title": "Tokugawa Yoshinobu",
     "url": "https://en.wikipedia.org/wiki/Tokugawa_Yoshinobu",
     "lang": "en",
@@ -925,8 +949,8 @@
      "display": "22 November 1913"
     }
    },
-   "relationship": "Last shogun, ceded power",
-   "note": "His decision to resign rather than fight determined that the old regime fell by political manoeuvre before it fell by war."
+   "relationship": "Last shogun, who gave up power",
+   "note": "His decision to return administrative power to the court in 1867, and then resign the shogunal title, ended more than two centuries of Tokugawa rule."
   },
   {
    "entity": {
@@ -949,8 +973,8 @@
      "display": "24 September 1877"
     }
    },
-   "relationship": "Satsuma leader, later rebel",
-   "note": "He helped organise the coup that ended Tokugawa rule and then led the last great samurai revolt against the government he had created."
+   "relationship": "Restoration leader turned rebel",
+   "note": "A Satsuma leader who helped organise the coup against the Tokugawa and later led the last great samurai revolt against the government he had helped create."
   },
   {
    "entity": {
@@ -973,32 +997,8 @@
      "display": "14 May 1878"
     }
    },
-   "relationship": "Fellow plotter, later adversary",
-   "note": "A key organiser of the 1867–68 coup who went on to drive centralisation and to defeat his former comrade Saigō."
-  },
-  {
-   "entity": {
-    "title": "Kido Takayoshi",
-    "url": "https://en.wikipedia.org/wiki/Kido_Takayoshi",
-    "lang": "en",
-    "description": "Japanese statesman (1833–1877)",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Takayoshi_Kido_suit.jpg/60px-Takayoshi_Kido_suit.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q696402",
-    "start": {
-     "raw": "+1833-08-11T00:00:00Z",
-     "year": 1833,
-     "precision": "day",
-     "display": "11 August 1833"
-    },
-    "end": {
-     "raw": "+1877-05-26T00:00:00Z",
-     "year": 1877,
-     "precision": "day",
-     "display": "26 May 1877"
-    }
-   },
-   "relationship": "Chōshū leader and reformer",
-   "note": "He pushed the argument that the daimyo must surrender their lands if Japan were to have a central army and bureaucracy."
+   "relationship": "Fellow plotter, later crushed Saigō",
+   "note": "He helped organise the coup within the imperial court and then, as a government leader, defeated his old friend Saigō's rebellion."
   },
   {
    "entity": {
@@ -1022,7 +1022,7 @@
     }
    },
    "relationship": "Court noble who engineered the coup",
-   "note": "He obtained the emperor's approval for the seizure of the palace and drafted the compromise that began dismantling the domains."
+   "note": "He obtained the emperor's approval for the seizure of the palace and later drafted the compromise that began dissolving the domains."
   },
   {
    "entity": {
@@ -1046,53 +1046,59 @@
     }
    },
    "relationship": "Foreign commander who forced opening",
-   "note": "His expedition exposed the shogunate's inability to keep foreigners out, setting off the crisis that destroyed it."
+   "note": "His expedition demonstrated the shogunate's weakness and set off the political crisis from which the Restoration grew."
   }
  ],
  "comparisons": [
   {
    "entity": {
-    "title": "Peter the Great",
-    "url": "https://en.wikipedia.org/wiki/Peter_the_Great",
+    "title": "French Revolution",
+    "url": "https://en.wikipedia.org/wiki/French_Revolution",
     "lang": "en",
-    "description": "Tsar of Russia from 1682 to 1725",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Inconnu_d%27apr%C3%A8s_J.-M._Nattier%2C_Portrait_de_Pierre_Ier_%28mus%C3%A9e_de_l%E2%80%99Ermitage%29.jpg/60px-Inconnu_d%27apr%C3%A8s_J.-M._Nattier%2C_Portrait_de_Pierre_Ier_%28mus%C3%A9e_de_l%E2%80%99Ermitage%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q8479",
+    "description": "1789–1799 sociopolitical change in France",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Anonymous_-_Prise_de_la_Bastille.jpg/60px-Anonymous_-_Prise_de_la_Bastille.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q6534",
     "start": {
-     "raw": "+1672-05-30T00:00:00Z",
-     "year": 1672,
+     "raw": "+1789-07-14T00:00:00Z",
+     "year": 1789,
      "precision": "day",
-     "display": "30 May 1672"
+     "display": "14 July 1789"
     },
     "end": {
-     "raw": "+1725-01-28T00:00:00Z",
-     "year": 1725,
+     "raw": "+1799-11-09T00:00:00Z",
+     "year": 1799,
      "precision": "day",
-     "display": "28 January 1725"
+     "display": "9 November 1799"
+    },
+    "occurredAt": {
+     "raw": "+1789-05-05T00:00:00Z",
+     "year": 1789,
+     "precision": "day",
+     "display": "5 May 1789"
     }
    },
-   "angle": "Both are classic cases of a state deliberately importing Western technique from above to avoid being overpowered by it.",
+   "angle": "Both destroyed a hereditary, legally privileged aristocracy and remade a country's institutions within a generation.",
    "similarities": [
-    "Rulers imported foreign specialists and technology wholesale",
-    "Traditional appearance and customs were legislated against, including edicts on hair",
-    "Old aristocratic privileges were subordinated to a centralising state"
+    "Both abolished the legal privileges of a hereditary warrior-noble class",
+    "Both involved civil war and later armed revolts by the losers",
+    "Both produced a strongly centralised state out of a patchwork of local jurisdictions"
    ],
    "differences": [
-    "Japan's change was driven by a coalition of regional elites, not by a single autocrat",
-    "It was triggered by immediate foreign coercion in the form of the unequal treaties",
-    "It produced a written constitution and elected institutions within a generation"
+    "The Meiji change was carried out in the name of restoring an ancient monarch, not abolishing one",
+    "It was led largely by members of the old warrior class themselves, who legislated away their own status",
+    "Its driving motive was fear of foreign powers rather than domestic ideology alone"
    ],
    "start": {
-    "raw": "+1672-05-30T00:00:00Z",
-    "year": 1672,
+    "raw": "+1789-07-14T00:00:00Z",
+    "year": 1789,
     "precision": "day",
-    "display": "30 May 1672"
+    "display": "14 July 1789"
    },
    "end": {
-    "raw": "+1725-01-28T00:00:00Z",
-    "year": 1725,
+    "raw": "+1799-11-09T00:00:00Z",
+    "year": 1799,
     "precision": "day",
-    "display": "28 January 1725"
+    "display": "9 November 1799"
    }
   },
   {
@@ -1122,16 +1128,14 @@
      "display": "1861"
     }
    },
-   "angle": "China's response to Western gunboats is the obvious contemporary against which Japan's is measured.",
+   "angle": "China's response to the same Western military pressure offers the obvious contrast in outcomes.",
    "similarities": [
-    "Both were reactions to defeat or humiliation by Western powers",
-    "Both sought Western military technology while defending indigenous ethics",
-    "Both drew on the lesson of the First Opium War"
+    "Both were reactions to defeat or humiliation by Western military power",
+    "Both sought Western technology while claiming to preserve indigenous ethics"
    ],
    "differences": [
-    "Japan overturned its entire political and social order; Qing China retained its dynasty",
-    "Japan taxed peasant land at around 30 percent of harvests, against roughly 2 percent in Qing China, funding state investment",
-    "Japan became the first Asian state to modernise on the Western model"
+    "Japan rebuilt its political system entirely, replacing the shogunate; China's reforms left the dynasty's structure intact",
+    "Japanese land taxes of about 30 percent of harvests funded the state, against roughly 2 percent in Qing China"
    ],
    "start": {
     "raw": "+1861-01-01T00:00:00Z",
@@ -1222,21 +1226,50 @@
      "display": "1853"
     }
    },
-   "relation": "precedes",
-   "note": "The turbulent final years of Tokugawa rule, during which the treaty crisis and domain factionalism built up, run directly into the Restoration.",
+   "relation": "partOf",
+   "note": "The turbulent final years of Tokugawa rule, during which the Restoration's causes accumulated.",
    "fromGraph": false
   },
   {
    "entity": {
-    "title": "Tokugawa shogunate",
-    "url": "https://en.wikipedia.org/wiki/Tokugawa_shogunate",
+    "title": "Sakoku",
+    "url": "https://en.wikipedia.org/wiki/Sakoku",
     "lang": "en",
-    "description": "Military government of Japan (1603–1868)",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Map_of_Japan_in_Provinces_in_time_of_Iyeyasu.jpg/60px-Map_of_Japan_in_Provinces_in_time_of_Iyeyasu.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q205662"
+    "description": "Isolationist policy of Japan (1633–1853)",
+    "qid": "Q332075",
+    "start": {
+     "raw": "+1639-00-00T00:00:00Z",
+     "year": 1639,
+     "precision": "year",
+     "display": "1639"
+    },
+    "end": {
+     "raw": "+1854-00-00T00:00:00Z",
+     "year": 1854,
+     "precision": "year",
+     "display": "1854"
+    },
+    "occurredAt": {
+     "raw": "+1639-00-00T00:00:00Z",
+     "year": 1639,
+     "precision": "year",
+     "display": "1639"
+    }
    },
    "relation": "causedBy",
-   "note": "The economic and political difficulties of the shogunate, including chronic samurai indebtedness and government deficits, are given as the origins of the Restoration.",
+   "note": "The abandonment of this two-century seclusion policy under foreign pressure precipitated the political crisis.",
+   "fromGraph": false
+  },
+  {
+   "entity": {
+    "title": "Unequal treaties",
+    "url": "https://en.wikipedia.org/wiki/Unequal_treaties",
+    "lang": "en",
+    "description": "Agreements imposed on Asian states",
+    "qid": "Q864737"
+   },
+   "relation": "causedBy",
+   "note": "Treaties granting foreigners extraterritoriality and open ports discredited the shogunate's claim to defend Japanese sovereignty.",
    "fromGraph": false
   },
   {
@@ -1267,7 +1300,7 @@
     }
    },
    "relation": "follows",
-   "note": "Armed Tokugawa resistance to the new imperial government continued as a civil war after the January 1868 proclamation.",
+   "note": "The civil war in which Tokugawa loyalists resisted the new imperial government and lost.",
    "fromGraph": false
   },
   {
@@ -1280,7 +1313,7 @@
     "qid": "Q188712"
    },
    "relation": "causes",
-   "note": "The Restoration built the institutional framework of the modern Japanese empire.",
+   "note": "The Restoration built the institutions of the modern Japanese state that later pursued colonial expansion in East Asia.",
    "fromGraph": false
   },
   {
@@ -1299,73 +1332,42 @@
     }
    },
    "relation": "follows",
-   "note": "The constitution of 1889 completed the new political order and stayed in force until the Allied occupation after the Second World War.",
-   "fromGraph": false
-  },
-  {
-   "entity": {
-    "title": "Haibutsu kishaku",
-    "url": "https://en.wikipedia.org/wiki/Haibutsu_kishaku",
-    "lang": "en",
-    "description": "Movement that advocate the expulsion of Buddhism from Japan",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Haibutsu_kishaku_in_the_Meiji.jpg/60px-Haibutsu_kishaku_in_the_Meiji.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q702298",
-    "start": {
-     "raw": "+1868-00-00T00:00:00Z",
-     "year": 1868,
-     "precision": "year",
-     "display": "1868"
-    },
-    "end": {
-     "raw": "+2000-00-00T00:00:00Z",
-     "year": 2000,
-     "precision": "century",
-     "display": "20th century"
-    },
-    "occurredAt": {
-     "raw": "+1868-00-00T00:00:00Z",
-     "year": 1868,
-     "precision": "year",
-     "display": "1868"
-    }
-   },
-   "relation": "hasPart",
-   "note": "The separation of Buddhism from Shinto under the new government saw tens of thousands of Buddhist idols and temples destroyed.",
+   "note": "The 1889 constitution formalised the new order and remained in force until the Allied occupation after the Second World War.",
    "fromGraph": false
   }
  ],
  "glossary": [
   {
    "term": "shōgun",
-   "definition": "Japan's hereditary military ruler, who governed in practice while the emperor reigned as a largely ceremonial figure; the office was held by the Tokugawa family until 1867."
+   "definition": "The hereditary military ruler who governed Japan in practice while the emperor reigned as a largely ceremonial figure."
   },
   {
-   "term": "bakufu",
-   "definition": "The shogun's government, whose authority rested on the distribution and management of land among loyal lords."
+   "term": "bakufu (shogunate)",
+   "definition": "The shogun's government, which controlled Japan through the distribution and management of land."
   },
   {
    "term": "daimyō",
-   "definition": "A regional lord who ruled a domain with extensive autonomy under the shogun, paying homage through taxation and required attendance at the shogun's capital."
-  },
-  {
-   "term": "sakoku",
-   "definition": "The system of national isolation imposed from 1633, under which no one could enter or leave Japan without the shogun's permission."
+   "definition": "A regional lord granted extensive control over his own domain in exchange for homage and obligations to the shogun."
   },
   {
    "term": "samurai",
-   "definition": "The hereditary warrior class, about 5–6% of a population of some 30 million in the nineteenth century, mostly paid in fixed rice stipends and often in debt."
+   "definition": "The hereditary warrior class, roughly 5–6% of a population of about 30 million in the 19th century, mostly of low or middle rank and often in debt."
+  },
+  {
+   "term": "sakoku",
+   "definition": "The policy of national seclusion imposed from 1633, under which nobody could enter or leave Japan without the shogun's permission."
+  },
+  {
+   "term": "han (domain)",
+   "definition": "A territorial unit ruled by a daimyō, measured by the amount of rice its land could produce; abolished and replaced by prefectures after 1871."
   },
   {
    "term": "sonnō jōi",
-   "definition": "The slogan \"revere the Emperor, expel the barbarian\", a rallying cry for opponents of the treaties with foreign powers."
-  },
-  {
-   "term": "koku",
-   "definition": "A unit measuring the amount of rice a piece of land could produce in a year, used to size domains and pay stipends."
+   "definition": "The slogan \"revere the Emperor, expel the barbarian\", a rallying cry of anti-treaty activists."
   },
   {
    "term": "fukoku kyōhei",
-   "definition": "\"Rich nation, strong army\" — the slogan summarising the Meiji programme of industrial and military strengthening."
+   "definition": "\"Rich nation, strong army\" — the slogan for building national and military strength against foreign threats."
   }
  ],
  "drilldown": [
@@ -1373,7 +1375,7 @@
    "title": "Boshin War",
    "url": "https://en.wikipedia.org/wiki/Boshin_War",
    "lang": "en",
-   "description": "The civil war that actually decided whether the new imperial government would survive.",
+   "description": "The civil war that decided whether the new imperial government would actually control Japan.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/UenoSenso.jpg/60px-UenoSenso.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q309184",
    "start": {
@@ -1407,7 +1409,7 @@
    "title": "Abolition of the han system",
    "url": "https://en.wikipedia.org/wiki/Abolition_of_the_han_system",
    "lang": "en",
-   "description": "The single most radical structural change: the end of feudal landholding in Japan.",
+   "description": "The single reform that turned a coalition of domains into a centralised state.",
    "qid": "Q331905",
    "start": {
     "raw": "+1871-08-29T00:00:00Z",
@@ -1426,7 +1428,7 @@
    "title": "Satsuma Rebellion",
    "url": "https://en.wikipedia.org/wiki/Satsuma_Rebellion",
    "lang": "en",
-   "description": "The violent samurai backlash against the order the Restoration created.",
+   "description": "The last and largest armed protest by samurai against the order they had helped bring about.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Satsuma_rebeliion.svg/60px-Satsuma_rebeliion.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q714820",
    "start": {
@@ -1449,60 +1451,65 @@
    }
   },
   {
-   "title": "Perry Expedition",
-   "url": "https://en.wikipedia.org/wiki/Perry_Expedition",
+   "title": "Saigō Takamori",
+   "url": "https://en.wikipedia.org/wiki/Saig%C5%8D_Takamori",
    "lang": "en",
-   "description": "The foreign shock that set the whole chain in motion.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Japanese_1854_print_Commodore_Perry.jpg/60px-Japanese_1854_print_Commodore_Perry.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q7169780"
-  },
-  {
-   "title": "Mito, Ibaraki",
-   "url": "https://en.wikipedia.org/wiki/Mito%2C_Ibaraki",
-   "lang": "en",
-   "description": "The intellectual current that made reverence for the emperor a political programme.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Mito_montage.jpg/60px-Mito_montage.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q204249"
-  },
-  {
-   "title": "Meiji Constitution",
-   "url": "https://en.wikipedia.org/wiki/Meiji_Constitution",
-   "lang": "en",
-   "description": "The formal conclusion of the Restoration, in force until 1945.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Meiji-Constitution-Empire-of-Japan.png/60px-Meiji-Constitution-Empire-of-Japan.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q122804",
-   "end": {
-    "raw": "+1947-05-03T00:00:00Z",
-    "year": 1947,
+   "description": "His arc from coup-maker to rebel captures the Restoration's internal contradiction.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Saigo_Takamori_%28b%29.jpg/60px-Saigo_Takamori_%28b%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q310462",
+   "start": {
+    "raw": "+1828-01-23T00:00:00Z",
+    "year": 1828,
     "precision": "day",
-    "display": "3 May 1947"
+    "display": "23 January 1828"
+   },
+   "end": {
+    "raw": "+1877-09-24T00:00:00Z",
+    "year": 1877,
+    "precision": "day",
+    "display": "24 September 1877"
    }
+  },
+  {
+   "title": "Unequal treaties",
+   "url": "https://en.wikipedia.org/wiki/Unequal_treaties",
+   "lang": "en",
+   "description": "The concessions that made the shogunate look unable to defend Japanese sovereignty.",
+   "qid": "Q864737"
+  },
+  {
+   "title": "Shinbutsu bunri",
+   "url": "https://en.wikipedia.org/wiki/Shinbutsu_bunri",
+   "lang": "en",
+   "description": "The forcible separation of Buddhism and Shinto that destroyed enormous amounts of religious heritage.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Turu_daitoz.jpg/60px-Turu_daitoz.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q1970535"
   },
   {
    "title": "Foreign government advisors in Meiji Japan",
    "url": "https://en.wikipedia.org/wiki/Foreign_government_advisors_in_Meiji_Japan",
    "lang": "en",
-   "description": "The imported engineers, teachers and naval officers who carried out much of the modernisation.",
+   "description": "The hired Western engineers and teachers whose contracts were deliberately temporary.",
    "qid": "Q176968"
   }
  ],
  "coverage": {
   "total": 11,
-  "verified": 10,
-  "coverage": 0.9090909090909091,
+  "verified": 8,
+  "coverage": 0.7272727272727273,
   "byMethod": {
    "exact": 11,
    "fuzzy": 0,
    "none": 0
   }
  },
- "generatedAt": "2026-09-12T12:21:54.575Z",
+ "generatedAt": "2026-09-12T13:17:49.461Z",
  "model": "claude-opus-5",
  "usage": {
   "input": 28624,
-  "output": 8046,
+  "output": 7679,
   "cacheWrite": 0,
   "cacheRead": 4785,
-  "usd": 0.3466625
+  "usd": 0.3374875
  }
 }

@@ -531,12 +531,26 @@
    "truncated": false
   }
  ],
- "summary": "The Hundred Years' War was a long, on-and-off series of wars between the kingdom of England, ruled by the Plantagenet dynasty, and the kingdom of France, ruled from 1328 by the house of Valois, running from 1337 to 1453 [S1][S3]. It is remembered partly because it lasted so long — 116 years of intermittent fighting, punctuated by truces and by the Black Death plague [S1][S5] — and partly because of what came out of it: the trial and execution of Joan of Arc, the English victory at Agincourt, and the end of England's centuries-old landholdings in France [S9]. The name itself is a later invention by nineteenth-century historians, not something anyone at the time used [S3]. Two things were tangled together at the start. English kings had held lands in France since the Norman Conquest of 1066, which made them vassals of the French king — subordinate lords owing him homage and obedience — an arrangement both sides found intolerable [S9]. When the French king Charles IV died in 1328 with no son or brother, the nearest male relative was Edward III of England, through his mother Isabella; French barons rejected the claim on the grounds that a woman could not pass on a right she did not herself have, and gave the crown to Charles's cousin Philip VI instead [S7][S9]. In May 1337 Philip's council decided to confiscate the English-held duchy of Gascony, and Edward responded by claiming the French throne outright [S9].\n\nThe war is usually split into three phases: the Edwardian War (1337–1360), the Caroline War (1369–1389) and the Lancastrian War (1415–1453) [S1]. England won the famous early battles — Crécy in 1346 and Poitiers in 1356, where the French king John II was captured [S9] — but under Charles V and his commander Bertrand du Guesclin the French had clawed back most of the ceded territory by 1378 [S9]. Henry V of England revived the war, exploiting the madness of Charles VI and a French civil war between the Armagnac and Burgundian factions, winning at Agincourt in 1415 and allying with Burgundy [S9][S4]. The tide turned with the lifting of the siege of Orléans in 1429 and the appearance of Joan of Arc, and French victories at Patay, Formigny and Castillon ended it [S9]. The human cost fell overwhelmingly on France, which lost roughly half its population to plague and war, Normandy three-quarters and Paris two-thirds; England's population fell by 20 to 33 percent [S6]. French and English accounts frame the causes differently: a Spanish account calls the conflict essentially feudal, about who controlled lands English monarchs had accumulated in France since 1154 [S5], while a French account treats the throne claim as the pretext and points to a wider \"great medieval depression\" of famine, taxation and economic stagnation behind it [S3].",
- "whyItMatters": "England ended the war with nothing on the continent but the port of Calais, which it held until 1558 [S9]. The costs and the humiliation of defeat fed the dissatisfaction of English nobles that helped bring on the Wars of the Roses (1455–1487) [S9]. In France, the demand for permanent taxation to fund a standing army overcame the usual noble resistance, and Charles VII re-established a permanent force in 1445 with the compagnies d'ordonnance [S6]. Militarily, the war ended with the first major battle decided by field artillery, at Castillon in 1453 [S6][S4], and both kingdoms emerged with stronger, more separate national identities [S4][S1].",
+ "summary": "The Hundred Years' War was a long, intermittent series of wars between the kingdom of England and the kingdom of France, running from 1337 to 1453, and it also contained a civil war inside France itself [S1]. On one side stood the English kings of the House of Plantagenet; on the other, the French kings of the House of Valois [S3]. The quarrel had two roots. English kings had held land in France since the Norman Conquest of 1066, which made them vassals — subordinate landholders owing loyalty — to the king of France, an arrangement neither side could live with comfortably [S9]. Then in 1328 the French king Charles IV died without a son or brother, and when the French nobility rejected the claim of his nephew Edward III of England, the crown went to a cousin, Philip VI [S7]. The trigger came in May 1337, when Philip's council agreed to seize the English-held duchy of Aquitaine, and Edward answered by claiming the French throne outright [S8].\n\nThe war is usually split into three phases: the Edwardian War (1337–1360), the Caroline War (1369–1389) and the Lancastrian War (1415–1453) [S1]. England won the famous early battles, Crécy in 1346 and Poitiers in 1356, capturing the French king John II at the latter [S9]. Under Charles V and his commander Bertrand du Guesclin the French clawed most of it back by 1378 [S9]. Henry V of England then exploited the madness of Charles VI and the French civil war between the Armagnac and Burgundian factions, winning at Agincourt in 1415, but the emergence of Joan of Arc and the loss of the Burgundian alliance turned it again [S9]. The human cost was enormous: France lost half its population, Normandy three-quarters and Paris two-thirds, while England's population fell by 20 to 33 percent, though plague as well as war did the killing [S6]. The Black Death alone killed 6 to 12 million in France, 30–60% of the population [S9]. France ended in control of everything but the port of Calais [S9].",
+ "whyItMatters": "England was left with no continental possessions except Calais, which it held until 1558 [S6]. The financial and political wreckage of defeat was a major cause of the Wars of the Roses, England's own dynastic civil war of 1455–1487 [S6]. In France, the need to fund the fight pushed a feudal monarchy toward a centralised state with permanent taxation, and Charles VII re-established a standing army in 1445 — the first such forces in western Europe since Rome [S6]. Militarily, the closing battle at Castillon in 1453 was the first major battle won by the extensive use of field artillery, and German accounts call it the first European field battle decided by gunpowder [S6][S4]. The label \"Hundred Years' War\" itself is a later invention: French accounts describe it as a nineteenth-century historiographical construction grouping a succession of separate conflicts [S3].",
  "takeaways": [
   {
    "id": "t0",
-   "text": "The Hundred Years' War was a long series of wars fought between the kingdoms of England and France, set off by English claims to land in south-western France and by Edward III of England's claim to be the rightful king of France.",
+   "text": "The Hundred Years' War was a series of intermittent conflicts between the kingdoms of England and France, lasting from 1337 to 1453 and also involving a civil war within France.",
+   "sourceId": "S1",
+   "quote": "The Hundred Years' War (French: Guerre de Cent Ans; 1337–1453) was a series of conflicts between the kingdoms of England and France and a civil war in France during the late Middle Ages.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#:~:text=The%20Hundred%20Years'%20War%20(French%3A%20Guerre,France%20during%20the%20late%20Middle%20Ages.",
+    "sourceTitle": "Hundred Years' War",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War"
+   }
+  },
+  {
+   "id": "t1",
+   "text": "Two things caused the war: a feudal quarrel over the Duchy of Aquitaine in south-west France, and Edward III of England's claim to be rightful king of France.",
    "sourceId": "S1",
    "quote": "It emerged from feudal disputes over the Duchy of Aquitaine and was triggered by a claim to the French throne made by Edward III of England.",
    "verification": {
@@ -549,167 +563,151 @@
    }
   },
   {
-   "id": "t1",
-   "text": "France ultimately won: English troops were driven out of French territory, keeping only the port of Calais.",
-   "sourceId": "S5",
-   "quote": "La guerra se saldó finalmente con la derrota de Inglaterra y la consecuente retirada de las tropas inglesas de tierras francesas (salvo de la ciudad de Calais).",
-   "quoteTranslation": "The war ended finally with the defeat of England and the consequent withdrawal of English troops from French lands (except from the city of Calais).",
-   "verification": {
-    "status": "verified",
-    "method": "exact",
-    "score": 1,
-    "citationUrl": "https://es.wikipedia.org/wiki/Guerra_de_los_Cien_A%C3%B1os#:~:text=La%20guerra%20se%20sald%C3%B3%20finalmente%20con,(salvo%20de%20la%20ciudad%20de%20Calais).",
-    "sourceTitle": "Guerra de los Cien Años",
-    "sourceUrl": "https://es.wikipedia.org/wiki/Guerra_de_los_Cien_A%C3%B1os"
-   }
-  },
-  {
    "id": "t2",
-   "text": "The human cost was enormous: France lost about half its population over the course of the war, with Normandy falling by three-quarters and Paris by two-thirds.",
+   "text": "France lost roughly half its population during the war, with Normandy cut by three-quarters and Paris by two-thirds, while England's population fell by 20 to 33 percent — the result of both plague and fighting.",
    "sourceId": "S6",
-   "quote": "France lost half its population during the Hundred Years' War, with Normandy reduced by three-quarters and Paris by two-thirds.",
+   "quote": "France lost half its population during the Hundred Years' War, with Normandy reduced by three-quarters and Paris by two-thirds. During the same period, England's population fell by 20 to 33 percent.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#Significance:~:text=France%20lost%20half%20its%20population%20during,by%20three%2Dquarters%20and%20Paris%20by%20two%2Dthirds.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#Significance:~:text=France%20lost%20half%20its%20population%20during,fell%20by%2020%20to%2033%20percent.",
     "sourceTitle": "Hundred Years' War",
     "sourceUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#Significance"
    }
   },
   {
    "id": "t3",
-   "text": "Behind the headline claim to the crown lay an older, more practical quarrel: the English king held the duchy of Guyenne (Aquitaine) in south-west France as a vassal of the French king, and that arrangement was unworkable for both.",
-   "sourceId": "S7",
-   "quote": "The dispute over Guyenne is even more important than the dynastic question in explaining the outbreak of the war.",
+   "text": "The English won early and spectacularly but lost in the end: the French House of Valois kept the throne of France, and England was left with only the port of Calais on the continent.",
+   "sourceId": "S1",
+   "quote": "Each side drew many allies into the conflict, with English forces initially prevailing; however, the French forces under the House of Valois ultimately retained control over the Kingdom of France.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#Causes_and_prelude:~:text=The%20dispute%20over%20Guyenne%20is%20even,explaining%20the%20outbreak%20of%20the%20war.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#:~:text=Each%20side%20drew%20many%20allies%20into,control%20over%20the%20Kingdom%20of%20France.",
     "sourceTitle": "Hundred Years' War",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#Causes_and_prelude"
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War"
    }
   },
   {
    "id": "t4",
-   "text": "The fighting was not continuous; historians divide it into three named phases separated by truces, running from 1337 to 1453.",
+   "text": "The war is conventionally split into three phases separated by truces: the Edwardian War, the Caroline War and the Lancastrian War.",
    "sourceId": "S1",
-   "quote": "The war is commonly divided into three phases, separated by truces: the Edwardian War (1337–1360), the Caroline War (1369–1389), and the Lancastrian War (1415–1453).",
+   "quote": "the war is commonly divided into three phases, separated by truces: the Edwardian War (1337–1360), the Caroline War (1369–1389), and the Lancastrian War (1415–1453)",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#:~:text=The%20war%20is%20commonly%20divided%20into,(1369%E2%80%931389)%2C%20and%20the%20Lancastrian%20War%20(1415%E2%80%931453).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#:~:text=The%20war%20is%20commonly%20divided%20into,(1369%E2%80%931389)%2C%20and%20the%20Lancastrian%20War%20(1415%E2%80%931453)",
     "sourceTitle": "Hundred Years' War",
     "sourceUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War"
    }
   },
   {
    "id": "t5",
-   "text": "The war changed how Europeans fought: heavy artillery decided the Battle of Castillon in 1453, the first European field battle settled by the use of gunpowder.",
-   "sourceId": "S4",
-   "quote": "zum Beispiel schwere Artillerie in der Schlacht von Castillon (1453), die erste europäische Feldschlacht, die durch den Einsatz von Schießpulver entschieden wurde.",
-   "quoteTranslation": "for example heavy artillery at the Battle of Castillon (1453), the first European field battle decided by the use of gunpowder.",
+   "text": "The war changed how Europeans fought, producing professional standing armies and artillery, and it hardened separate national identities in both kingdoms.",
+   "sourceId": "S1",
+   "quote": "both sides produced innovations in military technology and tactics, including professional standing armies and artillery, that permanently changed European warfare",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://de.wikipedia.org/wiki/Hundertj%C3%A4hriger_Krieg#:~:text=zum%20Beispiel%20schwere%20Artillerie%20in%20der,den%20Einsatz%20von%20Schie%C3%9Fpulver%20entschieden%20wurde.",
-    "sourceTitle": "Hundertjähriger Krieg",
-    "sourceUrl": "https://de.wikipedia.org/wiki/Hundertj%C3%A4hriger_Krieg"
+    "citationUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#:~:text=both%20sides%20produced%20innovations%20in%20military,artillery%2C%20that%20permanently%20changed%20European%20warfare",
+    "sourceTitle": "Hundred Years' War",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War"
    }
   },
   {
    "id": "t6",
-   "text": "Defeat destabilised England: the political and financial fallout was a major cause of the dynastic civil wars known as the Wars of the Roses (1455–1487).",
-   "sourceId": "S6",
-   "quote": "In England the political and financial troubles which emerged from the defeat were a major cause of the Wars of the Roses (1455–1487).",
+   "text": "The name \"Hundred Years' War\" was not used at the time; it is a nineteenth-century historians' construct grouping a succession of separate conflicts.",
+   "sourceId": "S3",
+   "quote": "Le terme de « guerre de Cent Ans » est une construction historiographique établie au XIXe siècle pour regrouper cette succession de conflits.",
+   "quoteTranslation": "The term \"Hundred Years' War\" is a historiographical construct established in the 19th century to group together this succession of conflicts.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#Significance:~:text=In%20England%20the%20political%20and%20financial,the%20Wars%20of%20the%20Roses%20(1455%E2%80%931487).",
-    "sourceTitle": "Hundred Years' War",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#Significance"
+    "citationUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans#:~:text=Le%20terme%20de%20%C2%AB%20guerre%20de,pour%20regrouper%20cette%20succession%20de%20conflits.",
+    "sourceTitle": "Guerre de Cent Ans",
+    "sourceUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans"
    }
   }
  ],
  "perspectives": [
   {
-   "label": "French historiography",
-   "stance": "The \"Hundred Years' War\" is a 19th-century invention",
-   "body": "French accounts stress that contemporaries did not experience a single war; the label was coined much later by historians to bundle together a long chain of separate conflicts and truces. On this reading, the neat 1337–1453 framing is a retrospective tidying-up rather than a description of how the fighting was lived.",
+   "label": "Emphasis on feudal land rather than dynasty",
+   "stance": "Guyenne mattered more than the succession claim",
+   "body": "One reading treats Edward III's claim to the French crown as a pretext and points instead to the unresolved question of who was sovereign in Guyenne (Aquitaine), where the English king held land as a vassal of the French king. On this view the throne claim was a weapon in an older territorial quarrel. A Spanish-language account similarly frames the whole war as essentially feudal, about the lands English monarchs had accumulated in France since 1154.",
    "evidence": {
     "id": "p0",
-    "text": "The term \"Hundred Years' War\" is described as a historiographical construction established in the 19th century to group together a succession of conflicts.",
-    "sourceId": "S3",
-    "quote": "Le terme de « guerre de Cent Ans » est une construction historiographique établie au XIXe siècle pour regrouper cette succession de conflits.",
-    "quoteTranslation": "The term \"Hundred Years' War\" is a historiographical construction established in the 19th century to group together this succession of conflicts.",
+    "text": "The quarrel over Guyenne is treated as a more important explanation for the outbreak of war than the dynastic dispute.",
+    "sourceId": "S7",
+    "quote": "The dispute over Guyenne is even more important than the dynastic question in explaining the outbreak of the war.",
     "verification": {
      "status": "verified",
      "method": "exact",
      "score": 1,
-     "citationUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans#:~:text=Le%20terme%20de%20%C2%AB%20guerre%20de,pour%20regrouper%20cette%20succession%20de%20conflits.",
+     "citationUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#Causes_and_prelude:~:text=The%20dispute%20over%20Guyenne%20is%20even,explaining%20the%20outbreak%20of%20the%20war.",
+     "sourceTitle": "Hundred Years' War",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#Causes_and_prelude"
+    }
+   }
+  },
+  {
+   "label": "French historiography (structural causes)",
+   "stance": "A general medieval crisis underlay the fighting",
+   "body": "French accounts push the origins back well before 1337 and beyond kings altogether, invoking a \"great medieval depression\" of population pressure, bad harvests, economic stagnation and rising seigneurial taxation. The dynastic quarrel of 1328 is then only one of three converging axes of tension, alongside centuries of Plantagenet–Capetian friction.",
+   "evidence": {
+    "id": "p1",
+    "text": "French accounts trace the war's origins to the early fourteenth century and to a \"great medieval depression\" theorised by the historian Guy Bois.",
+    "sourceId": "S3",
+    "quote": "La « grande dépression médiévale » (théorisée par l'historien Guy Bois) : une série de bouleversements religieux, politiques, économiques et sociaux.",
+    "quoteTranslation": "The \"great medieval depression\" (theorised by the historian Guy Bois): a series of religious, political, economic and social upheavals.",
+    "verification": {
+     "status": "verified",
+     "method": "exact",
+     "score": 1,
+     "citationUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans#:~:text=La%20%C2%AB%20grande%20d%C3%A9pression%20m%C3%A9di%C3%A9vale%20%C2%BB,bouleversements%20religieux%2C%20politiques%2C%20%C3%A9conomiques%20et%20sociaux.",
      "sourceTitle": "Guerre de Cent Ans",
      "sourceUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans"
     }
    }
   },
   {
-   "label": "German account",
-   "stance": "France's internal civil war is part of the war itself",
-   "body": "German treatment puts the French civil war between the Armagnac and Burgundian factions inside the definition of the Hundred Years' War, not merely alongside it. That framing makes the conflict as much a struggle over who ruled France internally as a duel between two kingdoms.",
+   "label": "German framing",
+   "stance": "The French civil war is part of the definition",
+   "body": "A German-language account defines the period as covering both the Anglo-French war and the internal French civil war between the Armagnac and Burgundian factions, making the French domestic split constitutive of the conflict rather than a complication within it.",
    "evidence": {
-    "id": "p1",
-    "text": "The period 1337 to 1453 is taken to cover both the Anglo-French armed conflict and the French civil war of the Armagnacs and Burgundians of 1410 to 1419.",
+    "id": "p2",
+    "text": "The period is described as covering both the armed Anglo-French conflict and the French civil war of the Armagnacs and Burgundians.",
     "sourceId": "S4",
-    "quote": "sowie den ebenfalls zu der Zeit stattfindenden französischen Bürgerkrieg der Armagnacs und Bourguignons (1410 bis 1419)",
-    "quoteTranslation": "as well as the French civil war of the Armagnacs and Burgundians (1410 to 1419) taking place at the same time",
+    "quote": "bezogen auf den zu dieser Zeit herrschenden bewaffneten anglofranzösischen Konflikt sowie den ebenfalls zu der Zeit stattfindenden französischen Bürgerkrieg der Armagnacs und Bourguignons (1410 bis 1419)",
+    "quoteTranslation": "referring to the armed Anglo-French conflict prevailing at that time as well as the French civil war of the Armagnacs and Burgundians (1410 to 1419) taking place at the same time",
     "verification": {
-     "status": "verified",
+     "status": "unverified",
      "method": "exact",
-     "score": 1,
-     "citationUrl": "https://de.wikipedia.org/wiki/Hundertj%C3%A4hriger_Krieg#:~:text=sowie%20den%20ebenfalls%20zu%20der%20Zeit,Armagnacs%20und%20Bourguignons%20(1410%20bis%201419)",
+     "score": 0.25,
+     "reason": "Quote found, but the surrounding text does not mention anglo-french, french, burgundians.",
      "sourceTitle": "Hundertjähriger Krieg",
      "sourceUrl": "https://de.wikipedia.org/wiki/Hundertj%C3%A4hriger_Krieg"
     }
    }
   },
   {
-   "label": "Spanish account",
-   "stance": "Essentially a feudal land dispute dating from 1154",
-   "body": "Spanish treatment plays down nationalism and dynastic theatre, presenting the war as a property question: who would control the French lands English monarchs had piled up since Henry II Plantagenet took the English throne. The crown of France becomes the pretext rather than the substance.",
-   "evidence": {
-    "id": "p2",
-    "text": "The conflict is characterised as essentially feudal in nature, aimed at settling who would control the lands English monarchs had accumulated since 1154.",
-    "sourceId": "S5",
-    "quote": "El conflicto fue de naturaleza esencialmente feudal, pues su propósito era resolver quién controlaría las tierras adicionales que los monarcas ingleses habían acumulado desde 1154",
-    "quoteTranslation": "The conflict was essentially feudal in nature, since its purpose was to settle who would control the additional lands that the English monarchs had accumulated since 1154",
-    "verification": {
-     "status": "verified",
-     "method": "exact",
-     "score": 1,
-     "citationUrl": "https://es.wikipedia.org/wiki/Guerra_de_los_Cien_A%C3%B1os#:~:text=El%20conflicto%20fue%20de%20naturaleza%20esencialmente,monarcas%20ingleses%20hab%C3%ADan%20acumulado%20desde%201154",
-     "sourceTitle": "Guerra de los Cien Años",
-     "sourceUrl": "https://es.wikipedia.org/wiki/Guerra_de_los_Cien_A%C3%B1os"
-    }
-   }
-  },
-  {
-   "label": "Ben Lowe's reading of the home fronts",
-   "stance": "The war was contested politically in England, not France",
-   "body": "Lowe argued in 1997 that English opposition to an expensive war that yielded only losses shaped the country's later political culture. The French, by contrast, saw the fighting as a necessity because foreign armies were on their own soil, so anti-war argument had far less purchase there.",
+   "label": "Ben Lowe, on English war-weariness",
+   "stance": "Anti-war opposition shaped English political culture",
+   "body": "On this reading the decisive English difference was domestic: because English kings depended on tax levies voted by national assemblies, anti-war critics had real leverage, whereas French kings could fall back on sales taxes and debasing the coinage. The French, facing foreigners on their own soil, accepted that war was necessary; the English increasingly did not.",
    "evidence": {
     "id": "p3",
-    "text": "The French are said to have understood that warfare was necessary to expel the foreigners occupying their homeland.",
+    "text": "It has been argued that opposition to the war helped shape England's early modern political culture.",
     "sourceId": "S6",
-    "quote": "Lowe noted that the French understood that warfare was necessary to expel the foreigners occupying their homeland",
+    "quote": "Historian Ben Lowe argued in 1997 that opposition to the war helped to shape England's early modern political culture.",
     "verification": {
      "status": "verified",
      "method": "exact",
      "score": 1,
-     "citationUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#Significance:~:text=Lowe%20noted%20that%20the%20French%20understood,expel%20the%20foreigners%20occupying%20their%20homeland",
+     "citationUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#Significance:~:text=Historian%20Ben%20Lowe%20argued%20in%201997,shape%20England's%20early%20modern%20political%20culture.",
      "sourceTitle": "Hundred Years' War",
      "sourceUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#Significance"
     }
@@ -719,7 +717,21 @@
  "claims": [
   {
    "id": "t0",
-   "text": "The Hundred Years' War was a long series of wars fought between the kingdoms of England and France, set off by English claims to land in south-western France and by Edward III of England's claim to be the rightful king of France.",
+   "text": "The Hundred Years' War was a series of intermittent conflicts between the kingdoms of England and France, lasting from 1337 to 1453 and also involving a civil war within France.",
+   "sourceId": "S1",
+   "quote": "The Hundred Years' War (French: Guerre de Cent Ans; 1337–1453) was a series of conflicts between the kingdoms of England and France and a civil war in France during the late Middle Ages.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#:~:text=The%20Hundred%20Years'%20War%20(French%3A%20Guerre,France%20during%20the%20late%20Middle%20Ages.",
+    "sourceTitle": "Hundred Years' War",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War"
+   }
+  },
+  {
+   "id": "t1",
+   "text": "Two things caused the war: a feudal quarrel over the Duchy of Aquitaine in south-west France, and Edward III of England's claim to be rightful king of France.",
    "sourceId": "S1",
    "quote": "It emerged from feudal disputes over the Duchy of Aquitaine and was triggered by a claim to the French throne made by Edward III of England.",
    "verification": {
@@ -732,97 +744,67 @@
    }
   },
   {
-   "id": "t1",
-   "text": "France ultimately won: English troops were driven out of French territory, keeping only the port of Calais.",
-   "sourceId": "S5",
-   "quote": "La guerra se saldó finalmente con la derrota de Inglaterra y la consecuente retirada de las tropas inglesas de tierras francesas (salvo de la ciudad de Calais).",
-   "quoteTranslation": "The war ended finally with the defeat of England and the consequent withdrawal of English troops from French lands (except from the city of Calais).",
-   "verification": {
-    "status": "verified",
-    "method": "exact",
-    "score": 1,
-    "citationUrl": "https://es.wikipedia.org/wiki/Guerra_de_los_Cien_A%C3%B1os#:~:text=La%20guerra%20se%20sald%C3%B3%20finalmente%20con,(salvo%20de%20la%20ciudad%20de%20Calais).",
-    "sourceTitle": "Guerra de los Cien Años",
-    "sourceUrl": "https://es.wikipedia.org/wiki/Guerra_de_los_Cien_A%C3%B1os"
-   }
-  },
-  {
    "id": "t2",
-   "text": "The human cost was enormous: France lost about half its population over the course of the war, with Normandy falling by three-quarters and Paris by two-thirds.",
+   "text": "France lost roughly half its population during the war, with Normandy cut by three-quarters and Paris by two-thirds, while England's population fell by 20 to 33 percent — the result of both plague and fighting.",
    "sourceId": "S6",
-   "quote": "France lost half its population during the Hundred Years' War, with Normandy reduced by three-quarters and Paris by two-thirds.",
+   "quote": "France lost half its population during the Hundred Years' War, with Normandy reduced by three-quarters and Paris by two-thirds. During the same period, England's population fell by 20 to 33 percent.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#Significance:~:text=France%20lost%20half%20its%20population%20during,by%20three%2Dquarters%20and%20Paris%20by%20two%2Dthirds.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#Significance:~:text=France%20lost%20half%20its%20population%20during,fell%20by%2020%20to%2033%20percent.",
     "sourceTitle": "Hundred Years' War",
     "sourceUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#Significance"
    }
   },
   {
    "id": "t3",
-   "text": "Behind the headline claim to the crown lay an older, more practical quarrel: the English king held the duchy of Guyenne (Aquitaine) in south-west France as a vassal of the French king, and that arrangement was unworkable for both.",
-   "sourceId": "S7",
-   "quote": "The dispute over Guyenne is even more important than the dynastic question in explaining the outbreak of the war.",
+   "text": "The English won early and spectacularly but lost in the end: the French House of Valois kept the throne of France, and England was left with only the port of Calais on the continent.",
+   "sourceId": "S1",
+   "quote": "Each side drew many allies into the conflict, with English forces initially prevailing; however, the French forces under the House of Valois ultimately retained control over the Kingdom of France.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#Causes_and_prelude:~:text=The%20dispute%20over%20Guyenne%20is%20even,explaining%20the%20outbreak%20of%20the%20war.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#:~:text=Each%20side%20drew%20many%20allies%20into,control%20over%20the%20Kingdom%20of%20France.",
     "sourceTitle": "Hundred Years' War",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#Causes_and_prelude"
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War"
    }
   },
   {
    "id": "t4",
-   "text": "The fighting was not continuous; historians divide it into three named phases separated by truces, running from 1337 to 1453.",
+   "text": "The war is conventionally split into three phases separated by truces: the Edwardian War, the Caroline War and the Lancastrian War.",
    "sourceId": "S1",
-   "quote": "The war is commonly divided into three phases, separated by truces: the Edwardian War (1337–1360), the Caroline War (1369–1389), and the Lancastrian War (1415–1453).",
+   "quote": "the war is commonly divided into three phases, separated by truces: the Edwardian War (1337–1360), the Caroline War (1369–1389), and the Lancastrian War (1415–1453)",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#:~:text=The%20war%20is%20commonly%20divided%20into,(1369%E2%80%931389)%2C%20and%20the%20Lancastrian%20War%20(1415%E2%80%931453).",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#:~:text=The%20war%20is%20commonly%20divided%20into,(1369%E2%80%931389)%2C%20and%20the%20Lancastrian%20War%20(1415%E2%80%931453)",
     "sourceTitle": "Hundred Years' War",
     "sourceUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War"
    }
   },
   {
    "id": "t5",
-   "text": "The war changed how Europeans fought: heavy artillery decided the Battle of Castillon in 1453, the first European field battle settled by the use of gunpowder.",
-   "sourceId": "S4",
-   "quote": "zum Beispiel schwere Artillerie in der Schlacht von Castillon (1453), die erste europäische Feldschlacht, die durch den Einsatz von Schießpulver entschieden wurde.",
-   "quoteTranslation": "for example heavy artillery at the Battle of Castillon (1453), the first European field battle decided by the use of gunpowder.",
+   "text": "The war changed how Europeans fought, producing professional standing armies and artillery, and it hardened separate national identities in both kingdoms.",
+   "sourceId": "S1",
+   "quote": "both sides produced innovations in military technology and tactics, including professional standing armies and artillery, that permanently changed European warfare",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://de.wikipedia.org/wiki/Hundertj%C3%A4hriger_Krieg#:~:text=zum%20Beispiel%20schwere%20Artillerie%20in%20der,den%20Einsatz%20von%20Schie%C3%9Fpulver%20entschieden%20wurde.",
-    "sourceTitle": "Hundertjähriger Krieg",
-    "sourceUrl": "https://de.wikipedia.org/wiki/Hundertj%C3%A4hriger_Krieg"
+    "citationUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#:~:text=both%20sides%20produced%20innovations%20in%20military,artillery%2C%20that%20permanently%20changed%20European%20warfare",
+    "sourceTitle": "Hundred Years' War",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War"
    }
   },
   {
    "id": "t6",
-   "text": "Defeat destabilised England: the political and financial fallout was a major cause of the dynastic civil wars known as the Wars of the Roses (1455–1487).",
-   "sourceId": "S6",
-   "quote": "In England the political and financial troubles which emerged from the defeat were a major cause of the Wars of the Roses (1455–1487).",
-   "verification": {
-    "status": "verified",
-    "method": "exact",
-    "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#Significance:~:text=In%20England%20the%20political%20and%20financial,the%20Wars%20of%20the%20Roses%20(1455%E2%80%931487).",
-    "sourceTitle": "Hundred Years' War",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#Significance"
-   }
-  },
-  {
-   "id": "p0",
-   "text": "The term \"Hundred Years' War\" is described as a historiographical construction established in the 19th century to group together a succession of conflicts.",
+   "text": "The name \"Hundred Years' War\" was not used at the time; it is a nineteenth-century historians' construct grouping a succession of separate conflicts.",
    "sourceId": "S3",
    "quote": "Le terme de « guerre de Cent Ans » est une construction historiographique établie au XIXe siècle pour regrouper cette succession de conflits.",
-   "quoteTranslation": "The term \"Hundred Years' War\" is a historiographical construction established in the 19th century to group together this succession of conflicts.",
+   "quoteTranslation": "The term \"Hundred Years' War\" is a historiographical construct established in the 19th century to group together this succession of conflicts.",
    "verification": {
     "status": "verified",
     "method": "exact",
@@ -833,45 +815,59 @@
    }
   },
   {
-   "id": "p1",
-   "text": "The period 1337 to 1453 is taken to cover both the Anglo-French armed conflict and the French civil war of the Armagnacs and Burgundians of 1410 to 1419.",
-   "sourceId": "S4",
-   "quote": "sowie den ebenfalls zu der Zeit stattfindenden französischen Bürgerkrieg der Armagnacs und Bourguignons (1410 bis 1419)",
-   "quoteTranslation": "as well as the French civil war of the Armagnacs and Burgundians (1410 to 1419) taking place at the same time",
+   "id": "p0",
+   "text": "The quarrel over Guyenne is treated as a more important explanation for the outbreak of war than the dynastic dispute.",
+   "sourceId": "S7",
+   "quote": "The dispute over Guyenne is even more important than the dynastic question in explaining the outbreak of the war.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://de.wikipedia.org/wiki/Hundertj%C3%A4hriger_Krieg#:~:text=sowie%20den%20ebenfalls%20zu%20der%20Zeit,Armagnacs%20und%20Bourguignons%20(1410%20bis%201419)",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#Causes_and_prelude:~:text=The%20dispute%20over%20Guyenne%20is%20even,explaining%20the%20outbreak%20of%20the%20war.",
+    "sourceTitle": "Hundred Years' War",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#Causes_and_prelude"
+   }
+  },
+  {
+   "id": "p1",
+   "text": "French accounts trace the war's origins to the early fourteenth century and to a \"great medieval depression\" theorised by the historian Guy Bois.",
+   "sourceId": "S3",
+   "quote": "La « grande dépression médiévale » (théorisée par l'historien Guy Bois) : une série de bouleversements religieux, politiques, économiques et sociaux.",
+   "quoteTranslation": "The \"great medieval depression\" (theorised by the historian Guy Bois): a series of religious, political, economic and social upheavals.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans#:~:text=La%20%C2%AB%20grande%20d%C3%A9pression%20m%C3%A9di%C3%A9vale%20%C2%BB,bouleversements%20religieux%2C%20politiques%2C%20%C3%A9conomiques%20et%20sociaux.",
+    "sourceTitle": "Guerre de Cent Ans",
+    "sourceUrl": "https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans"
+   }
+  },
+  {
+   "id": "p2",
+   "text": "The period is described as covering both the armed Anglo-French conflict and the French civil war of the Armagnacs and Burgundians.",
+   "sourceId": "S4",
+   "quote": "bezogen auf den zu dieser Zeit herrschenden bewaffneten anglofranzösischen Konflikt sowie den ebenfalls zu der Zeit stattfindenden französischen Bürgerkrieg der Armagnacs und Bourguignons (1410 bis 1419)",
+   "quoteTranslation": "referring to the armed Anglo-French conflict prevailing at that time as well as the French civil war of the Armagnacs and Burgundians (1410 to 1419) taking place at the same time",
+   "verification": {
+    "status": "unverified",
+    "method": "exact",
+    "score": 0.25,
+    "reason": "Quote found, but the surrounding text does not mention anglo-french, french, burgundians.",
     "sourceTitle": "Hundertjähriger Krieg",
     "sourceUrl": "https://de.wikipedia.org/wiki/Hundertj%C3%A4hriger_Krieg"
    }
   },
   {
-   "id": "p2",
-   "text": "The conflict is characterised as essentially feudal in nature, aimed at settling who would control the lands English monarchs had accumulated since 1154.",
-   "sourceId": "S5",
-   "quote": "El conflicto fue de naturaleza esencialmente feudal, pues su propósito era resolver quién controlaría las tierras adicionales que los monarcas ingleses habían acumulado desde 1154",
-   "quoteTranslation": "The conflict was essentially feudal in nature, since its purpose was to settle who would control the additional lands that the English monarchs had accumulated since 1154",
-   "verification": {
-    "status": "verified",
-    "method": "exact",
-    "score": 1,
-    "citationUrl": "https://es.wikipedia.org/wiki/Guerra_de_los_Cien_A%C3%B1os#:~:text=El%20conflicto%20fue%20de%20naturaleza%20esencialmente,monarcas%20ingleses%20hab%C3%ADan%20acumulado%20desde%201154",
-    "sourceTitle": "Guerra de los Cien Años",
-    "sourceUrl": "https://es.wikipedia.org/wiki/Guerra_de_los_Cien_A%C3%B1os"
-   }
-  },
-  {
    "id": "p3",
-   "text": "The French are said to have understood that warfare was necessary to expel the foreigners occupying their homeland.",
+   "text": "It has been argued that opposition to the war helped shape England's early modern political culture.",
    "sourceId": "S6",
-   "quote": "Lowe noted that the French understood that warfare was necessary to expel the foreigners occupying their homeland",
+   "quote": "Historian Ben Lowe argued in 1997 that opposition to the war helped to shape England's early modern political culture.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#Significance:~:text=Lowe%20noted%20that%20the%20French%20understood,expel%20the%20foreigners%20occupying%20their%20homeland",
+    "citationUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#Significance:~:text=Historian%20Ben%20Lowe%20argued%20in%201997,shape%20England's%20early%20modern%20political%20culture.",
     "sourceTitle": "Hundred Years' War",
     "sourceUrl": "https://en.wikipedia.org/wiki/Hundred_Years'_War#Significance"
    }
@@ -880,7 +876,7 @@
  "keyEvents": [
   {
    "label": "English naval victory at Sluys",
-   "summary": "Edward III's fleet destroyed the French fleet off the Flemish coast, using wind and sun to its advantage. England dominated the Channel for the rest of the war, which meant French invasions of England were prevented.",
+   "summary": "The English fleet, attacking with wind and sun behind it, almost destroyed the French fleet off the Flemish coast. England thereafter dominated the Channel for the rest of the war, which prevented any French invasion of England.",
    "entity": {
     "title": "Battle of Sluys",
     "url": "https://en.wikipedia.org/wiki/Battle_of_Sluys",
@@ -909,8 +905,8 @@
    }
   },
   {
-   "label": "Crécy and the English longbow",
-   "summary": "A French army attacked before it was ready and was shattered, a disaster largely credited to English longbowmen. It opened the way for Edward to march north unopposed.",
+   "label": "Crécy: disaster for the French",
+   "summary": "Edward III's army, and above all its longbowmen, destroyed a French army that attacked before it was ready. It opened the way for Edward to march north unopposed.",
    "entity": {
     "title": "Battle of Crécy",
     "url": "https://en.wikipedia.org/wiki/Battle_of_Cr%C3%A9cy",
@@ -940,7 +936,7 @@
   },
   {
    "label": "Capture of Calais",
-   "summary": "Edward besieged and took Calais on the Channel coast, giving the English a secure base for troops in northern France. Calais stayed English long after the war ended, until 1558.",
+   "summary": "Edward besieged and took the Channel port of Calais, giving the English a secure base for keeping troops in northern France. Calais stayed English until 1558, long after the war ended.",
    "entity": {
     "title": "Siege of Calais (1346–1347)",
     "url": "https://en.wikipedia.org/wiki/Siege_of_Calais_(1346%E2%80%931347)",
@@ -975,8 +971,8 @@
    }
   },
   {
-   "label": "Capture of the French king at Poitiers",
-   "summary": "The Black Prince's army routed the French and captured King John II along with many nobles. With the king a hostage, his son the Dauphin ruled as regent while nobles and mercenaries rampaged across a leaderless kingdom.",
+   "label": "Poitiers: the French king captured",
+   "summary": "The Black Prince's army routed the French and captured King John II along with many nobles; a flanking charge through a forest cut off the French retreat. With the king a hostage in England, his son the Dauphin ruled as regent and France fell into disorder.",
    "entity": {
     "title": "Battle of Poitiers",
     "url": "https://en.wikipedia.org/wiki/Battle_of_Poitiers",
@@ -1005,8 +1001,8 @@
    }
   },
   {
-   "label": "Treaty of Brétigny ends the first phase",
-   "summary": "After a freak hailstorm killed over a thousand of his men, Edward negotiated: he gained enlarged lands in Aquitaine and gave up his claim to the French crown. It bought roughly nine years of peace.",
+   "label": "Treaty of Brétigny",
+   "summary": "After a freak hailstorm killed over a thousand of his men near Chartres, Edward negotiated: he gained enlarged lands in Aquitaine and gave up his claim to the French crown. It ended the Edwardian phase and produced nine years of peace.",
    "entity": {
     "title": "Treaty of Brétigny",
     "url": "https://en.wikipedia.org/wiki/Treaty_of_Br%C3%A9tigny",
@@ -1035,8 +1031,8 @@
    }
   },
   {
-   "label": "The war spreads into Castile",
-   "summary": "England backed Peter of Castile and France backed his half-brother Henry of Trastámara in a Castilian civil war; the Black Prince restored Peter at Nájera but was never paid. The debts drove him to tax Gascony, which triggered a Gascon revolt and the resumption of open war.",
+   "label": "The war spills into Castile",
+   "summary": "England backed Peter of Castile and France backed his half-brother Henry of Trastámara in a Spanish succession war; the Black Prince restored Peter at Nájera but was never paid. The debts led him to tax Gascony, whose lords appealed to Charles V, reopening the war.",
    "entity": {
     "title": "Battle of Nájera",
     "url": "https://en.wikipedia.org/wiki/Battle_of_N%C3%A1jera",
@@ -1065,8 +1061,8 @@
    }
   },
   {
-   "label": "Henry V's victory at Agincourt",
-   "summary": "Henry V exploited the madness of Charles VI and the French civil war to reopen the conflict, winning overwhelmingly at Agincourt and later Verneuil. Allied with Burgundy, the English now had a realistic prospect of taking France, which persuaded them to fight on for decades.",
+   "label": "Agincourt and the Lancastrian revival",
+   "summary": "Henry V exploited the madness of Charles VI and the Armagnac–Burgundian civil war to reopen the conflict, winning overwhelmingly at Agincourt. Victory plus a Burgundian alliance made an English conquest of France look achievable and kept the English fighting for decades.",
    "entity": {
     "title": "Battle of Agincourt",
     "url": "https://en.wikipedia.org/wiki/Battle_of_Agincourt",
@@ -1095,8 +1091,8 @@
    }
   },
   {
-   "label": "Orléans relieved, Joan of Arc emerges",
-   "summary": "French victories broke the English siege of Orléans and made English conquest of France all but impossible. Joan of Arc's appearance lifted French morale, and a run of victories followed at Patay, Formigny and finally Castillon.",
+   "label": "Orléans relieved; Joan of Arc emerges",
+   "summary": "French victories concluded the siege and made English hopes of conquering France all but unreal. Joan of Arc's appearance lifted French morale even though she was captured and executed two years later.",
    "entity": {
     "title": "Siege of Orléans (1428–1429)",
     "url": "https://en.wikipedia.org/wiki/Siege_of_Orl%C3%A9ans_(1428%E2%80%931429)",
@@ -1153,8 +1149,8 @@
      "display": "21 June 1377"
     }
    },
-   "relationship": "English king who began the war",
-   "note": "He claimed the French crown through his mother Isabella after the male Capetian line died out, and turned a feudal quarrel over Gascony into a war for a throne."
+   "relationship": "English claimant who began the war",
+   "note": "His claim to the French throne through his mother Isabella, made after Philip VI confiscated Gascony, turned a feudal quarrel into a war for a crown."
   },
   {
    "entity": {
@@ -1177,8 +1173,8 @@
      "display": "22 August 1350"
     }
    },
-   "relationship": "Rival claimant and first French opponent",
-   "note": "Chosen by French barons over Edward as the nearest heir in the male line, he confiscated Aquitaine in 1337 and so triggered the fighting."
+   "relationship": "Rival claimant and French king",
+   "note": "Chosen by the French barons over Edward because he descended through the male line, he confiscated Aquitaine in 1337 and was routed at Crécy."
   },
   {
    "entity": {
@@ -1202,7 +1198,7 @@
     }
    },
    "relationship": "Son and chief commander of Edward III",
-   "note": "He led the devastating raids through southern France and won Poitiers, capturing King John II, but his Castilian adventure left debts that reignited the war."
+   "note": "He led the devastating raids through southern France and captured King John II at Poitiers, but his Castilian adventure and the resulting taxes reignited the war."
   },
   {
    "entity": {
@@ -1226,7 +1222,31 @@
     }
    },
    "relationship": "French king who reversed English gains",
-   "note": "Avoiding pitched battles and building the first standing army in post-Roman western Europe, he clawed back most of what had been ceded at Brétigny."
+   "note": "By avoiding pitched battles and building the first standing army in post-Roman western Europe, he reconquered most of what had been ceded at Brétigny."
+  },
+  {
+   "entity": {
+    "title": "Bertrand du Guesclin",
+    "url": "https://en.wikipedia.org/wiki/Bertrand_du_Guesclin",
+    "lang": "en",
+    "description": "Constable of France (1320–1380)",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Bertrand_du_Guesclin_P1210353.jpg/60px-Bertrand_du_Guesclin_P1210353.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q314905",
+    "start": {
+     "raw": "+1320-01-01T00:00:00Z",
+     "year": 1320,
+     "precision": "year",
+     "display": "1320"
+    },
+    "end": {
+     "raw": "+1380-07-13T00:00:00Z",
+     "year": 1380,
+     "precision": "day",
+     "display": "13 July 1380"
+    }
+   },
+   "relationship": "French commander of humble origin",
+   "note": "A Breton who rose from modest beginnings to lead French forces in Castile and in the reconquest under Charles V."
   },
   {
    "entity": {
@@ -1249,32 +1269,8 @@
      "display": "30 May 1431"
     }
    },
-   "relationship": "Symbol of French revival",
-   "note": "Her emergence boosted French morale around the relief of Orléans; she was captured by the Burgundians and executed in 1431, yet the French recovery continued."
-  },
-  {
-   "entity": {
-    "title": "Henry V of England",
-    "url": "https://en.wikipedia.org/wiki/Henry_V_of_England",
-    "lang": "en",
-    "description": "King of England from 1413 to 1422",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Henry_V_Miniature.jpg/60px-Henry_V_Miniature.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q131581",
-    "start": {
-     "raw": "+1386-09-16T00:00:00Z",
-     "year": 1386,
-     "precision": "day",
-     "display": "16 September 1386"
-    },
-    "end": {
-     "raw": "+1422-08-31T00:00:00Z",
-     "year": 1422,
-     "precision": "day",
-     "display": "31 August 1422"
-    }
-   },
-   "relationship": "English king who reopened the war",
-   "note": "He seized on Charles VI's mental illness and the Armagnac–Burgundian civil war to invade, winning at Agincourt before dying in 1422."
+   "relationship": "French figure who revived morale",
+   "note": "Her emergence boosted French morale during the Lancastrian phase, and she was executed in 1431 after capture by the Burgundians."
   }
  ],
  "comparisons": [
@@ -1305,16 +1301,14 @@
      "display": "15th century"
     }
    },
-   "angle": "The English civil war that grew directly out of losing the Hundred Years' War, and shows what defeat did to the winners' opponents at home.",
+   "angle": "The English civil war that grew directly out of losing the Hundred Years' War, showing what defeat did to the winners' opponents at home.",
    "similarities": [
-    "Both were dynastic struggles over who held a crown",
-    "Both involved the same English noble families and their retinues",
-    "Both were long, intermittent conflicts rather than continuous campaigns"
+    "Both were long, intermittent dynastic struggles over who should rule",
+    "Both involved rival branches of a royal family and shifting noble allegiances"
    ],
    "differences": [
-    "The Wars of the Roses were fought within England, not between kingdoms",
-    "The Hundred Years' War devastated French, not English, territory",
-    "English defeat abroad was a major cause of the Roses wars, not the reverse"
+    "The Wars of the Roses were fought within England rather than between kingdoms",
+    "English political and financial troubles arising from defeat in France were a major cause of them"
    ],
    "start": {
     "raw": "+1455-05-22T00:00:00Z",
@@ -1356,14 +1350,13 @@
      "display": "28 September 1066"
     }
    },
-   "angle": "The 1066 conquest created the tangle of cross-Channel landholding that the Hundred Years' War eventually cut apart.",
+   "angle": "The event that created the tangled situation the war was fought to resolve.",
    "similarities": [
-    "Both bound the English and French crowns together through landholding",
-    "Both reshaped English language and ruling-class identity"
+    "Both concerned whether a ruler of England could also hold land or title in France"
    ],
    "differences": [
-    "1066 was a single conquest; the later war ran intermittently over 116 years",
-    "The Conquest tied England to France, whereas the war split them into separate states"
+    "The Conquest made the king of England a vassal of the French king as Duke of Normandy, while the war ended by severing England's continental holdings",
+    "One was a single invasion, the other a 116-year intermittent struggle"
    ],
    "start": {
     "raw": "+1066-09-28T00:00:00Z",
@@ -1376,6 +1369,55 @@
     "year": 1075,
     "precision": "year",
     "display": "1075"
+   }
+  },
+  {
+   "entity": {
+    "title": "Black Death",
+    "url": "https://en.wikipedia.org/wiki/Black_Death",
+    "lang": "en",
+    "description": "1346–1353 plague pandemic in Eurasia and North Africa",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/1346-1353_spread_of_the_Black_Death_in_Europe_map.svg/60px-1346-1353_spread_of_the_Black_Death_in_Europe_map.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q42005",
+    "start": {
+     "raw": "+1346-00-00T00:00:00Z",
+     "year": 1346,
+     "precision": "year",
+     "display": "1346"
+    },
+    "end": {
+     "raw": "+1352-00-00T00:00:00Z",
+     "year": 1352,
+     "precision": "year",
+     "display": "1352"
+    },
+    "occurredAt": {
+     "raw": "+1346-00-00T00:00:00Z",
+     "year": 1346,
+     "precision": "year",
+     "display": "1346"
+    }
+   },
+   "angle": "A simultaneous catastrophe that interrupted the war and compounded its human cost.",
+   "similarities": [
+    "Both killed on a scale that reshaped European populations and economies",
+    "Both weakened royal authority and provoked social unrest in England and France"
+   ],
+   "differences": [
+    "The plague was a disease, not a policy, and struck both sides indiscriminately",
+    "It repeatedly halted the fighting rather than being part of it"
+   ],
+   "start": {
+    "raw": "+1346-00-00T00:00:00Z",
+    "year": 1346,
+    "precision": "year",
+    "display": "1346"
+   },
+   "end": {
+    "raw": "+1352-00-00T00:00:00Z",
+    "year": 1352,
+    "precision": "year",
+    "display": "1352"
    }
   }
  ],
@@ -1490,95 +1532,15 @@
   },
   {
    "entity": {
-    "title": "Norman Conquest",
-    "url": "https://en.wikipedia.org/wiki/Norman_Conquest",
+    "title": "Auld Alliance",
+    "url": "https://en.wikipedia.org/wiki/Auld_Alliance",
     "lang": "en",
-    "description": "11th-century invasion of England by William of Normandy",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Norman-conquest-1066.svg/60px-Norman-conquest-1066.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q200485",
-    "start": {
-     "raw": "+1066-09-28T00:00:00Z",
-     "year": 1066,
-     "precision": "day",
-     "display": "28 September 1066"
-    },
-    "end": {
-     "raw": "+1075-00-00T00:00:00Z",
-     "year": 1075,
-     "precision": "year",
-     "display": "1075"
-    },
-    "occurredAt": {
-     "raw": "+1066-09-28T00:00:00Z",
-     "year": 1066,
-     "precision": "day",
-     "display": "28 September 1066"
-    }
+    "description": "1295–1560 Scottish-French alliance",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Atlas_Van_der_Hagen-KW1049B11_038-SCOTIA_REGNUM_cum_insulis_adjacentibus.jpeg/60px-Atlas_Van_der_Hagen-KW1049B11_038-SCOTIA_REGNUM_cum_insulis_adjacentibus.jpeg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q771662"
    },
    "relation": "causedBy",
-   "note": "When the Duke of Normandy became king of England in 1066, English monarchs became both vassals and equals of the king of France, the root of centuries of friction.",
-   "fromGraph": false
-  },
-  {
-   "entity": {
-    "title": "Black Death",
-    "url": "https://en.wikipedia.org/wiki/Black_Death",
-    "lang": "en",
-    "description": "1346–1353 plague pandemic in Eurasia and North Africa",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/1346-1353_spread_of_the_Black_Death_in_Europe_map.svg/60px-1346-1353_spread_of_the_Black_Death_in_Europe_map.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q42005",
-    "start": {
-     "raw": "+1346-00-00T00:00:00Z",
-     "year": 1346,
-     "precision": "year",
-     "display": "1346"
-    },
-    "end": {
-     "raw": "+1352-00-00T00:00:00Z",
-     "year": 1352,
-     "precision": "year",
-     "display": "1352"
-    },
-    "occurredAt": {
-     "raw": "+1346-00-00T00:00:00Z",
-     "year": 1346,
-     "precision": "year",
-     "display": "1346"
-    }
-   },
-   "relation": "precedes",
-   "note": "The plague that reached Paris in 1348 killed 30–60% of the French population and forced long interruptions in the fighting.",
-   "fromGraph": false
-  },
-  {
-   "entity": {
-    "title": "Armagnac–Burgundian Civil War",
-    "url": "https://en.wikipedia.org/wiki/Armagnac%E2%80%93Burgundian_Civil_War",
-    "lang": "en",
-    "description": "French dynastic war from 1407 to 1435",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Vigiles_du_roi_Charles_VII_56.jpg/60px-Vigiles_du_roi_Charles_VII_56.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q1021160",
-    "start": {
-     "raw": "+1407-01-01T00:00:00Z",
-     "year": 1407,
-     "precision": "year",
-     "display": "1407"
-    },
-    "end": {
-     "raw": "+1435-01-01T00:00:00Z",
-     "year": 1435,
-     "precision": "year",
-     "display": "1435"
-    },
-    "occurredAt": {
-     "raw": "+1435-09-21T00:00:00Z",
-     "year": 1435,
-     "precision": "day",
-     "display": "21 September 1435"
-    }
-   },
-   "relation": "hasPart",
-   "note": "The French factional civil war of 1410–1419 split France and gave Henry V the opening he exploited at Agincourt.",
+   "note": "The 1295 Franco-Scottish treaty, renewed in 1326, meant Edward III could not subdue Scotland while France backed the Scots.",
    "fromGraph": false
   },
   {
@@ -1609,70 +1571,81 @@
     }
    },
    "relation": "causes",
-   "note": "English insolvency and noble anger at the loss of continental lands fed directly into civil war at home from 1455.",
+   "note": "English noble dissatisfaction at losing continental lands and a hugely expensive war helped bring on this civil conflict.",
+   "fromGraph": false
+  },
+  {
+   "entity": {
+    "title": "Armagnac–Burgundian Civil War",
+    "url": "https://en.wikipedia.org/wiki/Armagnac%E2%80%93Burgundian_Civil_War",
+    "lang": "en",
+    "description": "French dynastic war from 1407 to 1435",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Vigiles_du_roi_Charles_VII_56.jpg/60px-Vigiles_du_roi_Charles_VII_56.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q1021160",
+    "start": {
+     "raw": "+1407-01-01T00:00:00Z",
+     "year": 1407,
+     "precision": "year",
+     "display": "1407"
+    },
+    "end": {
+     "raw": "+1435-01-01T00:00:00Z",
+     "year": 1435,
+     "precision": "year",
+     "display": "1435"
+    },
+    "occurredAt": {
+     "raw": "+1435-09-21T00:00:00Z",
+     "year": 1435,
+     "precision": "day",
+     "display": "21 September 1435"
+    }
+   },
+   "relation": "hasPart",
+   "note": "The French internal struggle between the Armagnac and Burgundian factions gave Henry V his opening and an ally.",
    "fromGraph": false
   }
  ],
  "glossary": [
   {
-   "term": "Vassal",
-   "definition": "A lord who holds land from a greater lord and owes him loyalty and service; the English kings were vassals of the French king for their French lands."
+   "term": "Vassal / homage",
+   "definition": "A vassal held land from a superior lord and owed him service and formal submission; homage was the ceremony of acknowledging that subordination. Edward III had to pay homage to the French king for Aquitaine."
   },
   {
-   "term": "Homage",
-   "definition": "The formal ceremony in which a vassal acknowledged his lord; tradition required him to appear unarmed and bare-headed, which Edward III pointedly refused to do in 1329."
-  },
-  {
-   "term": "Suzerainty",
-   "definition": "The overlordship a superior ruler exercises over a vassal's territory, including the right to hear appeals against the vassal's judgments."
-  },
-  {
-   "term": "Guyenne / Aquitaine / Gascony",
-   "definition": "Overlapping names for the territory in south-west France held by the English kings as dukes; by the 13th century the terms were used almost interchangeably."
+   "term": "Guyenne / Gascony / Aquitaine",
+   "definition": "Overlapping names for the English king's duchy in south-west France; by the thirteenth century the three terms were virtually synonymous."
   },
   {
    "term": "Salic law",
-   "definition": "The principle, confirmed by the Avignon papacy in 1340, that men could not inherit the French throne through their mothers — the rule that excluded Edward III."
+   "definition": "The principle, confirmed by the papacy at Avignon in 1340, that men could not inherit the French crown through their mothers — the rule that excluded Edward III."
   },
   {
    "term": "Chevauchée",
-   "definition": "A fast mounted raid deep into enemy territory aimed at pillaging and burning rather than taking ground, used repeatedly by the Black Prince and John of Gaunt."
+   "definition": "A mounted raid through enemy territory aimed at pillaging and devastation rather than capturing ground, as the Black Prince conducted from Gascony in 1355."
   },
   {
    "term": "Dauphin",
-   "definition": "The title of the heir to the French throne; after Poitiers the Dauphin, later Charles V, governed as regent while his father was a prisoner in England."
+   "definition": "The title of the heir to the French throne; after Poitiers the Dauphin, later Charles V, ruled as regent while his father was a prisoner."
   },
   {
-   "term": "Arrière-ban",
-   "definition": "A general call to arms proclaimed across France, issued by Philip VI from 30 April 1337 as the war began."
+   "term": "Longbowmen",
+   "definition": "English archers whose massed fire was largely credited with the French disaster at Crécy."
+  },
+  {
+   "term": "Hobelars",
+   "definition": "Lightly armoured English mounted troops on small unarmoured horses who crossed boggy ground heavy cavalry could not, and dismounted to fight."
+  },
+  {
+   "term": "Compagnies d'ordonnance",
+   "definition": "The permanent standing army re-established by Charles VII in 1445, about 6,000 paid full-time soldiers in cavalry companies."
   }
  ],
  "drilldown": [
   {
-   "title": "Battle of Agincourt",
-   "url": "https://en.wikipedia.org/wiki/Battle_of_Agincourt",
-   "lang": "en",
-   "description": "The most famous English victory of the war, and the one that made an English conquest of France briefly plausible.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Schlacht_von_Azincourt.jpg/60px-Schlacht_von_Azincourt.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q188495",
-   "start": {
-    "raw": "+1415-10-25T00:00:00Z",
-    "year": 1415,
-    "precision": "day",
-    "display": "25 October 1415"
-   },
-   "occurredAt": {
-    "raw": "+1415-10-25T00:00:00Z",
-    "year": 1415,
-    "precision": "day",
-    "display": "25 October 1415"
-   }
-  },
-  {
    "title": "Joan of Arc",
    "url": "https://en.wikipedia.org/wiki/Joan_of_Arc",
    "lang": "en",
-   "description": "A peasant girl who turned the war's morale, was burned in 1431, and remains the conflict's central symbolic figure.",
+   "description": "The peasant girl whose appearance turned French morale during the Lancastrian phase, and who was burned after being captured by the Burgundians.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Joan_of_Arc_miniature_graded.jpg/60px-Joan_of_Arc_miniature_graded.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q7226",
    "start": {
@@ -1689,10 +1662,30 @@
    }
   },
   {
+   "title": "Battle of Agincourt",
+   "url": "https://en.wikipedia.org/wiki/Battle_of_Agincourt",
+   "lang": "en",
+   "description": "The most famous English victory of the war and the one that made an English conquest of France briefly plausible.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Schlacht_von_Azincourt.jpg/60px-Schlacht_von_Azincourt.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q188495",
+   "start": {
+    "raw": "+1415-10-25T00:00:00Z",
+    "year": 1415,
+    "precision": "day",
+    "display": "25 October 1415"
+   },
+   "occurredAt": {
+    "raw": "+1415-10-25T00:00:00Z",
+    "year": 1415,
+    "precision": "day",
+    "display": "25 October 1415"
+   }
+  },
+  {
    "title": "Treaty of Brétigny",
    "url": "https://en.wikipedia.org/wiki/Treaty_of_Br%C3%A9tigny",
    "lang": "en",
-   "description": "The peace that shows exactly what each side wanted: land in Aquitaine for England, the crown left with the Valois.",
+   "description": "The settlement in which Edward III traded his claim to the French crown for land, and which the French later clawed back.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Map-_France_at_the_Treaty_of_Bretigny.jpg/60px-Map-_France_at_the_Treaty_of_Bretigny.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q1334924",
    "start": {
@@ -1709,10 +1702,36 @@
    }
   },
   {
+   "title": "Black Death",
+   "url": "https://en.wikipedia.org/wiki/Black_Death",
+   "lang": "en",
+   "description": "The plague killed 30–60% of France's population during the war and repeatedly halted the fighting.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/1346-1353_spread_of_the_Black_Death_in_Europe_map.svg/60px-1346-1353_spread_of_the_Black_Death_in_Europe_map.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q42005",
+   "start": {
+    "raw": "+1346-00-00T00:00:00Z",
+    "year": 1346,
+    "precision": "year",
+    "display": "1346"
+   },
+   "end": {
+    "raw": "+1352-00-00T00:00:00Z",
+    "year": 1352,
+    "precision": "year",
+    "display": "1352"
+   },
+   "occurredAt": {
+    "raw": "+1346-00-00T00:00:00Z",
+    "year": 1346,
+    "precision": "year",
+    "display": "1346"
+   }
+  },
+  {
    "title": "Battle of Castillon",
    "url": "https://en.wikipedia.org/wiki/Battle_of_Castillon",
    "lang": "en",
-   "description": "The war's closing battle and the first major one won through extensive use of field artillery.",
+   "description": "The war's last battle and the first European field battle decided by gunpowder artillery.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Fran%C3%A7ais_5054%2C_fol._229v%2C_Bataille_de_Castillon_1453_-_d%C3%A9tail.jpg/60px-Fran%C3%A7ais_5054%2C_fol._229v%2C_Bataille_de_Castillon_1453_-_d%C3%A9tail.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q932613",
    "start": {
@@ -1729,67 +1748,77 @@
    }
   },
   {
-   "title": "Bertrand du Guesclin",
-   "url": "https://en.wikipedia.org/wiki/Bertrand_du_Guesclin",
-   "lang": "en",
-   "description": "The Breton commander of humble origins who directed Charles V's methodical reconquest of English-held France.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Bertrand_du_Guesclin_P1210353.jpg/60px-Bertrand_du_Guesclin_P1210353.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q314905",
-   "start": {
-    "raw": "+1320-01-01T00:00:00Z",
-    "year": 1320,
-    "precision": "year",
-    "display": "1320"
-   },
-   "end": {
-    "raw": "+1380-07-13T00:00:00Z",
-    "year": 1380,
-    "precision": "day",
-    "display": "13 July 1380"
-   }
-  },
-  {
    "title": "Auld Alliance",
    "url": "https://en.wikipedia.org/wiki/Auld_Alliance",
    "lang": "en",
-   "description": "The Franco-Scottish treaty that forced England to fight on two fronts and shaped Edward III's strategy.",
+   "description": "The Franco-Scottish pact that made Scotland a permanent second front for England.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Atlas_Van_der_Hagen-KW1049B11_038-SCOTIA_REGNUM_cum_insulis_adjacentibus.jpeg/60px-Atlas_Van_der_Hagen-KW1049B11_038-SCOTIA_REGNUM_cum_insulis_adjacentibus.jpeg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q771662"
   },
   {
-   "title": "Compagnie d'ordonnance",
-   "url": "https://en.wikipedia.org/wiki/Compagnie_d'ordonnance",
+   "title": "Edward the Black Prince",
+   "url": "https://en.wikipedia.org/wiki/Edward_the_Black_Prince",
    "lang": "en",
-   "description": "Charles VII's permanent paid army of 1445, the institutional answer to mercenary chaos and the ancestor of modern standing armies.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA_%E2%84%96_10_%D0%BA_%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B5_%C2%AB%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F_%D0%B2%D0%BE%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B0%C2%BB._%D0%92%D0%AD%D0%A1_%28%D0%A1%D0%9F%D0%B1%2C_1911-1915%29.jpg/60px-%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA_%E2%84%96_10_%D0%BA_%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B5_%C2%AB%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F_%D0%B2%D0%BE%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B0%C2%BB._%D0%92%D0%AD%D0%A1_%28%D0%A1%D0%9F%D0%B1%2C_1911-1915%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q490036"
+   "description": "The commander behind Crécy, Poitiers and the devastating chevauchées, whose Spanish campaign helped restart the war.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/TombaPrincepNegre_%28cropped%29.JPG/60px-TombaPrincepNegre_%28cropped%29.JPG?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q184854",
+   "start": {
+    "raw": "+1330-06-15T00:00:00Z",
+    "year": 1330,
+    "precision": "day",
+    "display": "15 June 1330"
+   },
+   "end": {
+    "raw": "+1376-06-08T00:00:00Z",
+    "year": 1376,
+    "precision": "day",
+    "display": "8 June 1376"
+   }
   },
   {
-   "title": "Pale of Calais",
-   "url": "https://en.wikipedia.org/wiki/Pale_of_Calais",
+   "title": "Wars of the Roses",
+   "url": "https://en.wikipedia.org/wiki/Wars_of_the_Roses",
    "lang": "en",
-   "description": "England's last foothold on the continent, held from 1347 until 1558, long after the war was lost.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/60px-Flag_of_England.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q509677"
+   "description": "The English civil war that followed from the humiliation and cost of defeat in France.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Beheading_duke_somerset.jpg/60px-Beheading_duke_somerset.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q127751",
+   "start": {
+    "raw": "+1455-05-22T00:00:00Z",
+    "year": 1455,
+    "precision": "day",
+    "display": "22 May 1455"
+   },
+   "end": {
+    "raw": "+1487-06-16T00:00:00Z",
+    "year": 1487,
+    "precision": "day",
+    "display": "16 June 1487"
+   },
+   "occurredAt": {
+    "raw": "+1500-00-00T00:00:00Z",
+    "year": 1500,
+    "precision": "century",
+    "display": "15th century"
+   }
   }
  ],
  "coverage": {
   "total": 11,
-  "verified": 11,
-  "coverage": 1,
+  "verified": 10,
+  "coverage": 0.9090909090909091,
   "byMethod": {
    "exact": 11,
    "fuzzy": 0,
    "none": 0
   }
  },
- "generatedAt": "2026-09-12T12:54:34.322Z",
+ "generatedAt": "2026-09-12T13:09:36.141Z",
  "model": "claude-opus-5",
  "usage": {
   "input": 29792,
-  "output": 8446,
+  "output": 6719,
   "cacheWrite": 0,
   "cacheRead": 4785,
-  "usd": 0.3625025
+  "usd": 0.3193275
  }
 }

@@ -717,12 +717,12 @@
    "truncated": false
   }
  ],
- "summary": "Edward III was king of England for fifty years, from January 1327 until his death in 1377 [S1]. He is remembered for two things above all: for rebuilding the authority of the English crown after the catastrophic reign of his father, Edward II, and for claiming the throne of France, which began the Hundred Years' War [S1]. He came to power as a boy of fourteen, crowned at Westminster Abbey after his mother, Isabella of France, and her lover Roger Mortimer forced his father off the throne [S8]. At seventeen he seized power for himself, having Mortimer captured at Nottingham Castle and executed [S12].\n\nThe shape of the reign is a long arc from triumph to decay. Edward fought in Scotland, then in 1337 responded to the French king's seizure of his Duchy of Aquitaine — land in south-western France he held as a vassal of the French crown — by claiming the French crown himself as a grandson of Philip IV [S10]. Victories at Crécy in 1346 and at Poitiers in 1356, where his son captured the French king, produced the Treaty of Brétigny of 1360, in which Edward gave up the French title in exchange for enlarged French lands held outright [S10]. Meanwhile the Black Death killed a third or more of England's people, and the crown tried to freeze wages by statute [S10]. War had to be paid for, and paying for it meant asking Parliament, whose Commons grew steadily more assertive [S13]. By his last years Edward was ill and barely governing; in the Good Parliament of 1376 the Commons forced out his advisers and banished his mistress Alice Perrers [S11].",
- "whyItMatters": "Parliament changed shape under him: it split into a House of Lords and a House of Commons, and in the Good Parliament the Commons invented the procedure of impeachment and the office of Speaker [S13]. His reign also fixed the Justices of the Peace as a permanent part of local English justice and produced the Treason Act 1351 [S13]. The war he started outlived him by decades, and by 1375 most of his French gains were gone [S1]. His many sons were endowed as dukes and founded rival branches of the royal family; the claim that this caused the Wars of the Roses was common in the nineteenth century but was challenged in the twentieth [S7][S16]. Judgements have swung sharply — adored in his own century, dismissed by the Victorian bishop William Stubbs as an \"ambitious, unscrupulous, selfish, extravagant and ostentatious\" warrior rather than a statesman, and largely rehabilitated since [S6].",
+ "summary": "Edward III was king of England from January 1327 until his death in 1377, one of the longest reigns in English history [S1]. He came to the throne at fourteen, after his father Edward II — a king so widely detested that a contemporary chronicler called him rex inutilis, a \"useless king\" — was deposed by his wife Isabella of France and her ally Roger Mortimer [S9] [S8]. Edward is remembered for rebuilding the authority of the crown after that collapse and for turning England into one of Europe's most formidable military powers [S1]. He is also remembered for starting the Hundred Years' War with France, and for reigning through the Black Death, which killed a third or more of England's people [S1] [S10].\n\nAt seventeen he seized Mortimer, the real ruler of England, at Nottingham Castle and began governing himself [S1] [S12]. In 1337 the French king Philip VI confiscated Edward's Duchy of Aquitaine — lands in south-west France that Edward held as a vassal of France — and Edward responded by claiming the French crown itself, as a grandson of an earlier French king through his mother [S10]. Victories at Crécy in 1346 and at Poitiers in 1356, where the French king John II was captured, produced the Treaty of Brétigny of 1360, in which Edward gave up the French claim in exchange for enlarged French possessions held outright [S10]. War resumed in 1369 and most of those gains were lost; his last years brought illness, an unpopular mistress, Alice Perrers, and the Good Parliament of 1376, in which the Commons attacked his advisers [S11]. Because wars had to be paid for, Parliament's power to grant taxes grew, and it was in this reign that impeachment and the office of Speaker were invented [S3] [S13].",
+ "whyItMatters": "Parliament became a two-chamber institution during his reign, and the Commons acquired real leverage through its control of taxation, culminating in the crisis of 1376 [S13]. His government's response to the plague-driven labour shortage, the Statute of Labourers of 1351, tried to freeze wages and restrict peasant movement; it failed, and the resentment it caused fed into the Peasants' Revolt of 1381 [S13]. He also left a crowded royal family: his endowment of sons as dukes created rival branches of the dynasty, and his 1376 ruling on the succession helped put the House of Lancaster on the throne in 1399 [S7] [S11]. Judgements of him have swung sharply — nineteenth-century Whig historians such as Bishop Stubbs called him an unscrupulous warrior indifferent to his duties, while twentieth-century scholars have been markedly kinder [S6].",
  "takeaways": [
   {
    "id": "t0",
-   "text": "Edward III ruled England for fifty years and is remembered for military success and for rebuilding the authority of the crown after the catastrophic reign of his father, Edward II.",
+   "text": "Edward III ruled England for fifty years, from 1327 to 1377, and is remembered above all for military success and for rebuilding the authority of the crown after his father Edward II's catastrophic reign.",
    "sourceId": "S1",
    "quote": "He is noted for his military success and for restoring royal authority after the disastrous and unorthodox reign of his father, Edward II.",
    "verification": {
@@ -736,7 +736,7 @@
   },
   {
    "id": "t1",
-   "text": "He came to the throne at fourteen only because his mother and her lover overthrew his father, and he seized real power himself at seventeen by a coup against that lover, Roger Mortimer, who was ruling in his name.",
+   "text": "He came to the throne as a boy after his mother and her lover overthrew his father, and at seventeen seized power for himself by a coup against Roger Mortimer, who had been ruling in his name.",
    "sourceId": "S1",
    "quote": "At age seventeen, he led a successful coup d'état against Mortimer, the de facto ruler of England, and began his personal reign.",
    "verification": {
@@ -750,35 +750,35 @@
   },
   {
    "id": "t2",
-   "text": "He began the Hundred Years' War by claiming the French crown for himself, through descent from his maternal grandfather King Philip IV of France, rather than doing homage to the French king as his father had.",
+   "text": "By asserting that he was the rightful king of France — through his mother, a daughter of the French king Philip IV — he began the conflict later called the Hundred Years' War.",
    "sourceId": "S10",
-   "quote": "Instead of seeking a peaceful resolution to the conflict by paying homage to the French king, as his father had done, Edward responded by laying claim to the French crown as the grandson of Philip IV",
+   "quote": "Edward responded by laying claim to the French crown as the grandson of Philip IV of France.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Edward_III#Mid-reign_(1337%E2%80%931360):~:text=Instead%20of%20seeking%20a%20peaceful%20resolution,as%20the%20grandson%20of%20Philip%20IV",
+    "citationUrl": "https://en.wikipedia.org/wiki/Edward_III#Mid-reign_(1337%E2%80%931360):~:text=Edward%20responded%20by%20laying%20claim%20to,grandson%20of%20Philip%20IV%20of%20France.",
     "sourceTitle": "Edward III",
     "sourceUrl": "https://en.wikipedia.org/wiki/Edward_III#Mid-reign_(1337%E2%80%931360)"
    }
   },
   {
    "id": "t3",
-   "text": "English victories at the battles of Crécy and Poitiers produced the Treaty of Brétigny of 1360, under which England gained territory in France and Edward gave up his claim to the French throne.",
+   "text": "English victories at the battles of Crécy and Poitiers produced a peace treaty in 1360 that greatly enlarged England's holdings in France.",
    "sourceId": "S1",
-   "quote": "Victories at Crécy and Poitiers led to the highly favourable Treaty of Brétigny (1360), in which England made territorial gains, and Edward renounced his claim to the French throne.",
+   "quote": "Victories at Crécy and Poitiers led to the highly favourable Treaty of Brétigny (1360), in which England made territorial gains",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Edward_III#:~:text=Victories%20at%20Cr%C3%A9cy%20and%20Poitiers%20led,his%20claim%20to%20the%20French%20throne.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Edward_III#:~:text=Victories%20at%20Cr%C3%A9cy%20and%20Poitiers%20led,in%20which%20England%20made%20territorial%20gains",
     "sourceTitle": "Edward III",
     "sourceUrl": "https://en.wikipedia.org/wiki/Edward_III"
    }
   },
   {
    "id": "t4",
-   "text": "The Black Death reached England during his reign and killed at least a third of the population, and the government responded by trying to freeze wages at pre-plague levels.",
+   "text": "The plague known as the Black Death arrived in England during his reign and killed at least a third of the population.",
    "sourceId": "S10",
    "quote": "In 1348, the Black Death struck England with full force, killing a third or more of the country's population.",
    "verification": {
@@ -792,41 +792,41 @@
   },
   {
    "id": "t5",
-   "text": "Because the crown constantly needed war taxes, Parliament grew in importance; in the Good Parliament of 1376 the elected House of Commons for the first time forced a political crisis, and the procedures of impeachment and the office of Speaker emerged.",
+   "text": "Parliament grew markedly more powerful under him: in the crisis parliament of 1376 the procedure of impeachment and the office of Speaker of the Commons were both invented.",
    "sourceId": "S13",
-   "quote": "Informative is the Good Parliament, where the Commons for the first time – albeit with noble support – were responsible for precipitating a political crisis.",
+   "quote": "In the process, both the procedure of impeachment and the office of the Speaker were created.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Edward_III#Government:~:text=Informative%20is%20the%20Good%20Parliament%2C%20where,responsible%20for%20precipitating%20a%20political%20crisis.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Edward_III#Government:~:text=In%20the%20process%2C%20both%20the%20procedure,office%20of%20the%20Speaker%20were%20created.",
     "sourceTitle": "Edward III",
     "sourceUrl": "https://en.wikipedia.org/wiki/Edward_III#Government"
    }
   },
   {
    "id": "t6",
-   "text": "His last years were a marked decline: military failure in France, quarrels at home, and a king increasingly out of control of events.",
-   "sourceId": "S11",
-   "quote": "While Edward's early reign had been energetic and successful, his later years were marked by inertia, military failure and political strife.",
+   "text": "He had so many children who survived and reproduced that virtually anyone of mainly British ancestry alive today descends from him.",
+   "sourceId": "S14",
+   "quote": "Thus, by the 21st century, it is \"virtually impossible\" that a person with a predominantly British ancestry is not descended from Edward III",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Edward_III#Later_reign_(1360%E2%80%931377):~:text=While%20Edward's%20early%20reign%20had%20been,inertia%2C%20military%20failure%20and%20political%20strife.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Edward_III#Family:~:text=Thus%2C%20by%20the%2021st%20century%2C%20it,is%20not%20descended%20from%20Edward%20III",
     "sourceTitle": "Edward III",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Edward_III#Later_reign_(1360%E2%80%931377)"
+    "sourceUrl": "https://en.wikipedia.org/wiki/Edward_III#Family"
    }
   }
  ],
  "perspectives": [
   {
    "label": "Victorian Whig historians",
-   "stance": "A selfish warrior who neglected his kingdom",
-   "body": "Nineteenth-century constitutional historians valued parliamentary and legal reform above foreign conquest, and judged Edward by that yardstick. Bishop William Stubbs portrayed him as no statesman at all, but an extravagant adventurer who treated England chiefly as a supply of money and men for his wars.",
+   "stance": "A selfish warrior who neglected governing",
+   "body": "Nineteenth-century historians valued constitutional development at home above conquest abroad, and judged Edward by that yardstick. Bishop William Stubbs portrayed him as a soldier with no sense of duty to his kingdom, who treated England mainly as a source of money and men for his wars.",
    "evidence": {
     "id": "p0",
-    "text": "Stubbs described Edward III as a warrior who was ambitious, unscrupulous, selfish, extravagant and ostentatious rather than a statesman.",
+    "text": "A leading nineteenth-century historian described Edward III as a warrior who was ambitious, unscrupulous, selfish, extravagant and ostentatious.",
     "sourceId": "S6",
     "quote": "He was a warrior; ambitious, unscrupulous, selfish, extravagant and ostentatious.",
     "verification": {
@@ -840,31 +840,31 @@
    }
   },
   {
-   "label": "Modern rehabilitation",
-   "stance": "Judged unfairly by anachronistic standards",
-   "body": "Twentieth-century scholars such as May McKisack and Mark Ormrod argued that a medieval king cannot be blamed for failing to work towards a later ideal of parliamentary monarchy; his job was to keep order and solve problems, and at that Edward was effective. On this reading the earlier hostile verdict overlooked the factions and crises he actually had to manage.",
+   "label": "Twentieth-century revisionists",
+   "stance": "Judge him by medieval, not modern, standards",
+   "body": "Historians such as May McKisack argued that it is anachronistic to fault a medieval king for failing to build a parliamentary monarchy that nobody yet imagined; his job was to keep order and solve problems. K. B. McFarlane likewise rejected the charge that Edward's generous provision for his younger sons sowed the later civil wars.",
    "evidence": {
     "id": "p1",
-    "text": "Historians have been said to have gone too far in rejecting the favourable medieval view of Edward, ignoring the problems he had to solve.",
+    "text": "One historian rejected the claim that Edward's lavish endowment of his younger sons caused the dynastic conflict later known as the Wars of the Roses.",
     "sourceId": "S6",
-    "quote": "historians may have gone too far in rejecting the medieval positive view of Edward, not taking into account the problems he had to solve",
+    "quote": "K. B. McFarlane rejected the view that Edward endowed his younger sons too liberally and thereby promoted dynastic strife culminating in the Wars of the Roses",
     "verification": {
      "status": "verified",
      "method": "exact",
      "score": 1,
-     "citationUrl": "https://en.wikipedia.org/wiki/Edward_III#Historiography:~:text=historians%20may%20have%20gone%20too%20far,the%20problems%20he%20had%20to%20solve",
+     "citationUrl": "https://en.wikipedia.org/wiki/Edward_III#Historiography:~:text=K.%20B.%20McFarlane%20rejected%20the%20view,in%20the%20Wars%20of%20the%20Roses",
      "sourceTitle": "Edward III",
      "sourceUrl": "https://en.wikipedia.org/wiki/Edward_III#Historiography"
     }
    }
   },
   {
-   "label": "Surviving hostile reading",
-   "stance": "A destructive and brutal ruler",
-   "body": "The negative verdict has not vanished entirely. Norman Cantor characterised Edward as a violent and greedy man, a judgement that sits directly against the picture of a conventional, pious and unusually merciful king drawn by other scholars.",
+   "label": "Surviving hostile readings",
+   "stance": "Brutal and rapacious, not admirable",
+   "body": "The rehabilitation is not universal. Norman Cantor has described Edward in flatly condemnatory terms, treating his warfare as destructive rather than glorious. This minority line keeps alive the older suspicion that his reputation rests on propaganda and chivalric glamour.",
    "evidence": {
     "id": "p2",
-    "text": "Norman Cantor called Edward an avaricious and sadistic thug.",
+    "text": "The historian Norman Cantor characterised Edward III as an avaricious and sadistic thug.",
     "sourceId": "S15",
     "quote": "Norman Cantor has described Edward as an \"avaricious and sadistic thug\".",
     "verification": {
@@ -878,21 +878,22 @@
    }
   },
   {
-   "label": "Debate over the Wars of the Roses",
-   "stance": "Did his many sons cause later civil war?",
-   "body": "Edward endowed his younger sons with great dukedoms, and it was long argued that these rival princely houses produced the dynastic bloodletting of the fifteenth century. K. B. McFarlane rejected this, holding that such generosity was both normal for the age and the best available policy.",
+   "label": "French historiography",
+   "stance": "His gains were temporary, reversed by Charles V",
+   "body": "French accounts place the emphasis less on Edward's peak of victory than on what came after it. From the 1360s the French king Charles V modernised the army, economy and taxation and steadily clawed back the territory, while the English Parliament grew reluctant to pay for the war.",
    "evidence": {
     "id": "p3",
-    "text": "K. B. McFarlane denied that Edward's generous endowment of his younger sons promoted the dynastic strife that ended in the Wars of the Roses.",
-    "sourceId": "S6",
-    "quote": "K. B. McFarlane rejected the view that Edward endowed his younger sons too liberally and thereby promoted dynastic strife culminating in the Wars of the Roses",
+    "text": "From about 1360 Edward came up against Charles V of France, who gradually reversed the trend of the war.",
+    "sourceId": "S3",
+    "quote": "Cependant, à compter de cette époque, il va se heurter à Charles V qui renverse peu à peu la tendance.",
+    "quoteTranslation": "However, from this period onwards, he comes up against Charles V, who gradually reverses the trend.",
     "verification": {
      "status": "verified",
      "method": "exact",
      "score": 1,
-     "citationUrl": "https://en.wikipedia.org/wiki/Edward_III#Historiography:~:text=K.%20B.%20McFarlane%20rejected%20the%20view,in%20the%20Wars%20of%20the%20Roses",
-     "sourceTitle": "Edward III",
-     "sourceUrl": "https://en.wikipedia.org/wiki/Edward_III#Historiography"
+     "citationUrl": "https://fr.wikipedia.org/wiki/%C3%89douard_III#:~:text=Cependant%2C%20%C3%A0%20compter%20de%20cette%20%C3%A9poque%2C,renverse%20peu%20%C3%A0%20peu%20la%20tendance.",
+     "sourceTitle": "Édouard III",
+     "sourceUrl": "https://fr.wikipedia.org/wiki/%C3%89douard_III"
     }
    }
   }
@@ -900,7 +901,7 @@
  "claims": [
   {
    "id": "t0",
-   "text": "Edward III ruled England for fifty years and is remembered for military success and for rebuilding the authority of the crown after the catastrophic reign of his father, Edward II.",
+   "text": "Edward III ruled England for fifty years, from 1327 to 1377, and is remembered above all for military success and for rebuilding the authority of the crown after his father Edward II's catastrophic reign.",
    "sourceId": "S1",
    "quote": "He is noted for his military success and for restoring royal authority after the disastrous and unorthodox reign of his father, Edward II.",
    "verification": {
@@ -914,7 +915,7 @@
   },
   {
    "id": "t1",
-   "text": "He came to the throne at fourteen only because his mother and her lover overthrew his father, and he seized real power himself at seventeen by a coup against that lover, Roger Mortimer, who was ruling in his name.",
+   "text": "He came to the throne as a boy after his mother and her lover overthrew his father, and at seventeen seized power for himself by a coup against Roger Mortimer, who had been ruling in his name.",
    "sourceId": "S1",
    "quote": "At age seventeen, he led a successful coup d'état against Mortimer, the de facto ruler of England, and began his personal reign.",
    "verification": {
@@ -928,35 +929,35 @@
   },
   {
    "id": "t2",
-   "text": "He began the Hundred Years' War by claiming the French crown for himself, through descent from his maternal grandfather King Philip IV of France, rather than doing homage to the French king as his father had.",
+   "text": "By asserting that he was the rightful king of France — through his mother, a daughter of the French king Philip IV — he began the conflict later called the Hundred Years' War.",
    "sourceId": "S10",
-   "quote": "Instead of seeking a peaceful resolution to the conflict by paying homage to the French king, as his father had done, Edward responded by laying claim to the French crown as the grandson of Philip IV",
+   "quote": "Edward responded by laying claim to the French crown as the grandson of Philip IV of France.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Edward_III#Mid-reign_(1337%E2%80%931360):~:text=Instead%20of%20seeking%20a%20peaceful%20resolution,as%20the%20grandson%20of%20Philip%20IV",
+    "citationUrl": "https://en.wikipedia.org/wiki/Edward_III#Mid-reign_(1337%E2%80%931360):~:text=Edward%20responded%20by%20laying%20claim%20to,grandson%20of%20Philip%20IV%20of%20France.",
     "sourceTitle": "Edward III",
     "sourceUrl": "https://en.wikipedia.org/wiki/Edward_III#Mid-reign_(1337%E2%80%931360)"
    }
   },
   {
    "id": "t3",
-   "text": "English victories at the battles of Crécy and Poitiers produced the Treaty of Brétigny of 1360, under which England gained territory in France and Edward gave up his claim to the French throne.",
+   "text": "English victories at the battles of Crécy and Poitiers produced a peace treaty in 1360 that greatly enlarged England's holdings in France.",
    "sourceId": "S1",
-   "quote": "Victories at Crécy and Poitiers led to the highly favourable Treaty of Brétigny (1360), in which England made territorial gains, and Edward renounced his claim to the French throne.",
+   "quote": "Victories at Crécy and Poitiers led to the highly favourable Treaty of Brétigny (1360), in which England made territorial gains",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Edward_III#:~:text=Victories%20at%20Cr%C3%A9cy%20and%20Poitiers%20led,his%20claim%20to%20the%20French%20throne.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Edward_III#:~:text=Victories%20at%20Cr%C3%A9cy%20and%20Poitiers%20led,in%20which%20England%20made%20territorial%20gains",
     "sourceTitle": "Edward III",
     "sourceUrl": "https://en.wikipedia.org/wiki/Edward_III"
    }
   },
   {
    "id": "t4",
-   "text": "The Black Death reached England during his reign and killed at least a third of the population, and the government responded by trying to freeze wages at pre-plague levels.",
+   "text": "The plague known as the Black Death arrived in England during his reign and killed at least a third of the population.",
    "sourceId": "S10",
    "quote": "In 1348, the Black Death struck England with full force, killing a third or more of the country's population.",
    "verification": {
@@ -970,35 +971,35 @@
   },
   {
    "id": "t5",
-   "text": "Because the crown constantly needed war taxes, Parliament grew in importance; in the Good Parliament of 1376 the elected House of Commons for the first time forced a political crisis, and the procedures of impeachment and the office of Speaker emerged.",
+   "text": "Parliament grew markedly more powerful under him: in the crisis parliament of 1376 the procedure of impeachment and the office of Speaker of the Commons were both invented.",
    "sourceId": "S13",
-   "quote": "Informative is the Good Parliament, where the Commons for the first time – albeit with noble support – were responsible for precipitating a political crisis.",
+   "quote": "In the process, both the procedure of impeachment and the office of the Speaker were created.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Edward_III#Government:~:text=Informative%20is%20the%20Good%20Parliament%2C%20where,responsible%20for%20precipitating%20a%20political%20crisis.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Edward_III#Government:~:text=In%20the%20process%2C%20both%20the%20procedure,office%20of%20the%20Speaker%20were%20created.",
     "sourceTitle": "Edward III",
     "sourceUrl": "https://en.wikipedia.org/wiki/Edward_III#Government"
    }
   },
   {
    "id": "t6",
-   "text": "His last years were a marked decline: military failure in France, quarrels at home, and a king increasingly out of control of events.",
-   "sourceId": "S11",
-   "quote": "While Edward's early reign had been energetic and successful, his later years were marked by inertia, military failure and political strife.",
+   "text": "He had so many children who survived and reproduced that virtually anyone of mainly British ancestry alive today descends from him.",
+   "sourceId": "S14",
+   "quote": "Thus, by the 21st century, it is \"virtually impossible\" that a person with a predominantly British ancestry is not descended from Edward III",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Edward_III#Later_reign_(1360%E2%80%931377):~:text=While%20Edward's%20early%20reign%20had%20been,inertia%2C%20military%20failure%20and%20political%20strife.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Edward_III#Family:~:text=Thus%2C%20by%20the%2021st%20century%2C%20it,is%20not%20descended%20from%20Edward%20III",
     "sourceTitle": "Edward III",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Edward_III#Later_reign_(1360%E2%80%931377)"
+    "sourceUrl": "https://en.wikipedia.org/wiki/Edward_III#Family"
    }
   },
   {
    "id": "p0",
-   "text": "Stubbs described Edward III as a warrior who was ambitious, unscrupulous, selfish, extravagant and ostentatious rather than a statesman.",
+   "text": "A leading nineteenth-century historian described Edward III as a warrior who was ambitious, unscrupulous, selfish, extravagant and ostentatious.",
    "sourceId": "S6",
    "quote": "He was a warrior; ambitious, unscrupulous, selfish, extravagant and ostentatious.",
    "verification": {
@@ -1012,21 +1013,21 @@
   },
   {
    "id": "p1",
-   "text": "Historians have been said to have gone too far in rejecting the favourable medieval view of Edward, ignoring the problems he had to solve.",
+   "text": "One historian rejected the claim that Edward's lavish endowment of his younger sons caused the dynastic conflict later known as the Wars of the Roses.",
    "sourceId": "S6",
-   "quote": "historians may have gone too far in rejecting the medieval positive view of Edward, not taking into account the problems he had to solve",
+   "quote": "K. B. McFarlane rejected the view that Edward endowed his younger sons too liberally and thereby promoted dynastic strife culminating in the Wars of the Roses",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Edward_III#Historiography:~:text=historians%20may%20have%20gone%20too%20far,the%20problems%20he%20had%20to%20solve",
+    "citationUrl": "https://en.wikipedia.org/wiki/Edward_III#Historiography:~:text=K.%20B.%20McFarlane%20rejected%20the%20view,in%20the%20Wars%20of%20the%20Roses",
     "sourceTitle": "Edward III",
     "sourceUrl": "https://en.wikipedia.org/wiki/Edward_III#Historiography"
    }
   },
   {
    "id": "p2",
-   "text": "Norman Cantor called Edward an avaricious and sadistic thug.",
+   "text": "The historian Norman Cantor characterised Edward III as an avaricious and sadistic thug.",
    "sourceId": "S15",
    "quote": "Norman Cantor has described Edward as an \"avaricious and sadistic thug\".",
    "verification": {
@@ -1040,16 +1041,17 @@
   },
   {
    "id": "p3",
-   "text": "K. B. McFarlane denied that Edward's generous endowment of his younger sons promoted the dynastic strife that ended in the Wars of the Roses.",
-   "sourceId": "S6",
-   "quote": "K. B. McFarlane rejected the view that Edward endowed his younger sons too liberally and thereby promoted dynastic strife culminating in the Wars of the Roses",
+   "text": "From about 1360 Edward came up against Charles V of France, who gradually reversed the trend of the war.",
+   "sourceId": "S3",
+   "quote": "Cependant, à compter de cette époque, il va se heurter à Charles V qui renverse peu à peu la tendance.",
+   "quoteTranslation": "However, from this period onwards, he comes up against Charles V, who gradually reverses the trend.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Edward_III#Historiography:~:text=K.%20B.%20McFarlane%20rejected%20the%20view,in%20the%20Wars%20of%20the%20Roses",
-    "sourceTitle": "Edward III",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Edward_III#Historiography"
+    "citationUrl": "https://fr.wikipedia.org/wiki/%C3%89douard_III#:~:text=Cependant%2C%20%C3%A0%20compter%20de%20cette%20%C3%A9poque%2C,renverse%20peu%20%C3%A0%20peu%20la%20tendance.",
+    "sourceTitle": "Édouard III",
+    "sourceUrl": "https://fr.wikipedia.org/wiki/%C3%89douard_III"
    }
   }
  ],
@@ -1077,31 +1079,7 @@
     }
    },
    "relationship": "Father, deposed predecessor",
-   "note": "His failed and detested reign, ending in deposition, is the backdrop against which Edward III's restoration of royal authority is measured."
-  },
-  {
-   "entity": {
-    "title": "Roger Mortimer, 1st Earl of March",
-    "url": "https://en.wikipedia.org/wiki/Roger_Mortimer%2C_1st_Earl_of_March",
-    "lang": "en",
-    "description": "English nobleman (1287–1330)",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Minature-of-Queen-Isabella-and-her-army-from-royal-ms-15-e-iv-vol-2-f316v.jpg/60px-Minature-of-Queen-Isabella-and-her-army-from-royal-ms-15-e-iv-vol-2-f316v.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q312990",
-    "start": {
-     "raw": "+1287-04-25T00:00:00Z",
-     "year": 1287,
-     "precision": "day",
-     "display": "25 April 1287"
-    },
-    "end": {
-     "raw": "+1330-11-29T00:00:00Z",
-     "year": 1330,
-     "precision": "day",
-     "display": "29 November 1330"
-    }
-   },
-   "relationship": "Regent overthrown by him",
-   "note": "As his mother's lover and effective ruler of England during his minority, Mortimer was captured at Nottingham Castle and executed, which began Edward's personal rule."
+   "note": "His disastrous reign — favourites, defeats in Scotland and universal noble hostility — defined the mess Edward III had to clean up and the model he avoided."
   },
   {
    "entity": {
@@ -1124,8 +1102,32 @@
      "display": "22 August 1358"
     }
    },
-   "relationship": "Mother; source of French claim",
-   "note": "She invaded England to depose her husband and install her son, and as a daughter of Philip IV she was the channel through which Edward claimed the French throne."
+   "relationship": "Mother who deposed his father",
+   "note": "She invaded England with her lover to overthrow her husband and rule through her teenage son, and her descent from Philip IV supplied Edward's claim to France."
+  },
+  {
+   "entity": {
+    "title": "Roger Mortimer, 1st Earl of March",
+    "url": "https://en.wikipedia.org/wiki/Roger_Mortimer%2C_1st_Earl_of_March",
+    "lang": "en",
+    "description": "English nobleman (1287–1330)",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Minature-of-Queen-Isabella-and-her-army-from-royal-ms-15-e-iv-vol-2-f316v.jpg/60px-Minature-of-Queen-Isabella-and-her-army-from-royal-ms-15-e-iv-vol-2-f316v.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q312990",
+    "start": {
+     "raw": "+1287-04-25T00:00:00Z",
+     "year": 1287,
+     "precision": "day",
+     "display": "25 April 1287"
+    },
+    "end": {
+     "raw": "+1330-11-29T00:00:00Z",
+     "year": 1330,
+     "precision": "day",
+     "display": "29 November 1330"
+    }
+   },
+   "relationship": "Regent overthrown by his coup",
+   "note": "As de facto ruler he enriched himself, executed Edward's uncle and treated the young king with contempt until Edward seized him at Nottingham Castle and had him killed."
   },
   {
    "entity": {
@@ -1149,7 +1151,7 @@
     }
    },
    "relationship": "Eldest son and chief commander",
-   "note": "He won the Battle of Poitiers and captured the French king, but died a year before his father, so the crown passed to his young son instead."
+   "note": "He won the battle of Poitiers and captured the French king, but predeceased his father, leaving the throne to a child."
   },
   {
    "entity": {
@@ -1172,32 +1174,32 @@
      "display": "15 August 1369"
     }
    },
-   "relationship": "Wife, married in youth",
-   "note": "Betrothed to him to secure Low Countries support for the invasion that dethroned his father, she bore twelve children and he appears to have been unusually devoted to her."
+   "relationship": "Wife, married by prearranged betrothal",
+   "note": "Their marriage, arranged to buy support for the invasion of England, produced twelve children and Edward seems to have been unusually devoted to her."
   },
   {
    "entity": {
-    "title": "John of Gaunt",
-    "url": "https://en.wikipedia.org/wiki/John_of_Gaunt",
+    "title": "Alice Perrers",
+    "url": "https://en.wikipedia.org/wiki/Alice_Perrers",
     "lang": "en",
-    "description": "English prince and regent (1340–1399)",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Johnofgaunt.jpg/60px-Johnofgaunt.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q193752",
+    "description": "English royal mistress",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Alice_Perrers_and_Edward_III.jpg/60px-Alice_Perrers_and_Edward_III.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q451105",
     "start": {
-     "raw": "+1340-06-24T00:00:00Z",
-     "year": 1340,
-     "precision": "day",
-     "display": "24 June 1340"
+     "raw": "+1348-01-01T00:00:00Z",
+     "year": 1348,
+     "precision": "year",
+     "display": "1348"
     },
     "end": {
-     "raw": "+1399-02-03T00:00:00Z",
-     "year": 1399,
-     "precision": "day",
-     "display": "3 February 1399"
+     "raw": "+1400-01-01T00:00:00Z",
+     "year": 1400,
+     "precision": "year",
+     "display": "1400"
     }
    },
-   "relationship": "Son who dominated final years",
-   "note": "With the king and the Black Prince both incapacitated by illness, Gaunt controlled the government and became the chief target of the Good Parliament."
+   "relationship": "Mistress of his final years",
+   "note": "Accused of milking the treasury and dominating the ailing king, she was banished by the Good Parliament of 1376 and became the focus of hostility to his late reign."
   }
  ],
  "comparisons": [
@@ -1222,16 +1224,16 @@
      "display": "31 August 1422"
     }
    },
-   "angle": "Henry V revived Edward's French claim and was explicitly compared to him by contemporaries.",
+   "angle": "The later king who consciously revived Edward's French war and was measured against him.",
    "similarities": [
-    "Both pressed the English claim to the French crown by invasion",
-    "Contemporaries set Agincourt alongside Crécy and Poitiers",
-    "Both built reputations primarily as war leaders"
+    "Both won a celebrated battlefield victory over a larger French army",
+    "Both pressed the English claim to the French crown",
+    "Both were praised by contemporaries above all as warriors"
    ],
    "differences": [
-    "Edward reigned for fifty years; Henry V died young with his work unfinished",
-    "Edward's conquests were largely lost in his own lifetime",
-    "Edward's reign also saw major domestic legislation and parliamentary change"
+    "Henry V died young, whereas Edward reigned fifty years and outlived his own successes",
+    "Edward eventually renounced the French claim by treaty in 1360",
+    "Edward's later years saw the conquests lost again"
    ],
    "start": {
     "raw": "+1386-09-16T00:00:00Z",
@@ -1248,46 +1250,89 @@
   },
   {
    "entity": {
-    "title": "Edward I",
-    "url": "https://en.wikipedia.org/wiki/Edward_I",
+    "title": "Charles V of France",
+    "url": "https://en.wikipedia.org/wiki/Charles_V_of_France",
     "lang": "en",
-    "description": "King of England from 1272 to 1307",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Edward_I_-_Westminster_Abbey_Sedilia.jpg/60px-Edward_I_-_Westminster_Abbey_Sedilia.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q57798",
+    "description": "King of France from 1364 to 1380",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Saint-Denis_%2893%29%2C_basilique%2C_gisant_de_Charles_V_sculpt%C3%A9_lorsqu%27il_avait_27_ans_2.jpg/60px-Saint-Denis_%2893%29%2C_basilique%2C_gisant_de_Charles_V_sculpt%C3%A9_lorsqu%27il_avait_27_ans_2.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q167782",
     "start": {
-     "raw": "+1239-06-17T00:00:00Z",
-     "year": 1239,
+     "raw": "+1338-01-21T00:00:00Z",
+     "year": 1338,
      "precision": "day",
-     "display": "17 June 1239"
+     "display": "21 January 1338"
     },
     "end": {
-     "raw": "+1307-07-07T00:00:00Z",
-     "year": 1307,
+     "raw": "+1380-09-16T00:00:00Z",
+     "year": 1380,
      "precision": "day",
-     "display": "7 July 1307"
+     "display": "16 September 1380"
     }
    },
-   "angle": "Edward III consciously looked back to earlier Plantagenet warrior-kings as models of good kingship.",
+   "angle": "His French counterpart in the second half of the reign, who shows what effective royal government looked like from the other side.",
    "similarities": [
-    "Both were remembered for martial prowess and success",
-    "Both campaigned hard in Scotland",
-    "Both presided over significant legal and administrative development"
+    "Both reorganised royal finance and taxation to fund war",
+    "Both relied heavily on able subordinate commanders"
    ],
    "differences": [
-    "Edward I recognised that women could inherit and transmit the crown, a rule Edward III's 1376 settlement set aside",
-    "Edward III's main war was against France rather than Wales and Scotland"
+    "Charles V steadily recovered territory while Edward's gains shrank",
+    "The English Parliament grew reluctant to fund the war while Charles secured taxation"
    ],
    "start": {
-    "raw": "+1239-06-17T00:00:00Z",
-    "year": 1239,
+    "raw": "+1338-01-21T00:00:00Z",
+    "year": 1338,
     "precision": "day",
-    "display": "17 June 1239"
+    "display": "21 January 1338"
    },
    "end": {
-    "raw": "+1307-07-07T00:00:00Z",
-    "year": 1307,
+    "raw": "+1380-09-16T00:00:00Z",
+    "year": 1380,
     "precision": "day",
-    "display": "7 July 1307"
+    "display": "16 September 1380"
+   }
+  },
+  {
+   "entity": {
+    "title": "Edward II",
+    "url": "https://en.wikipedia.org/wiki/Edward_II",
+    "lang": "en",
+    "description": "King of England from 1307 to 1327",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Cathedral_Church_of_St_Peter_and_the_Holy_and_Indivisible_Trinity%2C_Monument_to_Edward_II_of_England_Gloucester_1245952_20230819_0030.jpg/60px-Cathedral_Church_of_St_Peter_and_the_Holy_and_Indivisible_Trinity%2C_Monument_to_Edward_II_of_England_Gloucester_1245952_20230819_0030.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q5236",
+    "start": {
+     "raw": "+1284-04-25T00:00:00Z",
+     "year": 1284,
+     "precision": "day",
+     "display": "25 April 1284"
+    },
+    "end": {
+     "raw": "+1327-09-21T00:00:00Z",
+     "year": 1327,
+     "precision": "day",
+     "display": "21 September 1327"
+    }
+   },
+   "angle": "Father and predecessor, the direct contrast against which Edward III was measured in his own time.",
+   "similarities": [
+    "Both faced the problem of Scotland and the homage owed for Aquitaine",
+    "Both had to manage a fractious English nobility"
+   ],
+   "differences": [
+    "Edward II was deposed as a 'useless king'; Edward III was enormously popular",
+    "Edward II relied on hated favourites, Edward III created a loyal new nobility of earls",
+    "Edward II lost to the Scots; Edward III won at Halidon Hill and Neville's Cross"
+   ],
+   "start": {
+    "raw": "+1284-04-25T00:00:00Z",
+    "year": 1284,
+    "precision": "day",
+    "display": "25 April 1284"
+   },
+   "end": {
+    "raw": "+1327-09-21T00:00:00Z",
+    "year": 1327,
+    "precision": "day",
+    "display": "21 September 1327"
    }
   }
  ],
@@ -1319,33 +1364,8 @@
      "display": "24 May 1337"
     }
    },
-   "relation": "participantIn",
-   "note": "His 1337 claim to the French crown opened a conflict that outlasted him by more than seventy years.",
-   "fromGraph": false
-  },
-  {
-   "entity": {
-    "title": "Treaty of Brétigny",
-    "url": "https://en.wikipedia.org/wiki/Treaty_of_Br%C3%A9tigny",
-    "lang": "en",
-    "description": "1360 treaty between England and France",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Map-_France_at_the_Treaty_of_Bretigny.jpg/60px-Map-_France_at_the_Treaty_of_Bretigny.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q1334924",
-    "start": {
-     "raw": "+1360-05-08T00:00:00Z",
-     "year": 1360,
-     "precision": "day",
-     "display": "8 May 1360"
-    },
-    "occurredAt": {
-     "raw": "+1360-05-08T00:00:00Z",
-     "year": 1360,
-     "precision": "day",
-     "display": "8 May 1360"
-    }
-   },
-   "relation": "participantIn",
-   "note": "The 1360 settlement was the high point of his war, trading his French royal claim for expanded French lands held in full sovereignty.",
+   "relation": "causes",
+   "note": "His claim to the French throne in 1337 opened a conflict between England and France lasting until 1453.",
    "fromGraph": false
   },
   {
@@ -1376,7 +1396,7 @@
     }
    },
    "relation": "participantIn",
-   "note": "The plague of 1348 killed a third or more of his subjects and forced wage legislation that reshaped English labour relations.",
+   "note": "The plague struck England in 1348, and his government responded with laws freezing wages at pre-plague levels.",
    "fromGraph": false
   },
   {
@@ -1388,39 +1408,8 @@
     "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Coat_of_Arms_of_Edward_III_of_England_%281327-1377%29_Variant_2.svg/60px-Coat_of_Arms_of_Edward_III_of_England_%281327-1377%29_Variant_2.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
     "qid": "Q1413849"
    },
-   "relation": "causes",
-   "note": "His government's attempt to fix wages at pre-plague levels was passed in response to the labour shortage.",
-   "fromGraph": false
-  },
-  {
-   "entity": {
-    "title": "Peasants' Revolt",
-    "url": "https://en.wikipedia.org/wiki/Peasants'_Revolt",
-    "lang": "en",
-    "description": "1381 uprising in England",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Jean_Froissart%2C_Chroniques%2C_154v%2C_12148_btv1b8438605hf336%2C_crop.jpg/60px-Jean_Froissart%2C_Chroniques%2C_154v%2C_12148_btv1b8438605hf336%2C_crop.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q498871",
-    "start": {
-     "raw": "+1381-05-30T00:00:00Z",
-     "year": 1381,
-     "precision": "day",
-     "display": "30 May 1381"
-    },
-    "end": {
-     "raw": "+1381-11-00T00:00:00Z",
-     "year": 1381,
-     "precision": "month",
-     "display": "November 1381"
-    },
-    "occurredAt": {
-     "raw": "+1381-11-00T00:00:00Z",
-     "year": 1381,
-     "precision": "month",
-     "display": "November 1381"
-    }
-   },
-   "relation": "causes",
-   "note": "The labour legislation of his reign angered the peasantry and fed into the rising of 1381 under his grandson.",
+   "relation": "hasPart",
+   "note": "His attempt to fix wages after the plague angered the peasantry and fed into the Peasants' Revolt of 1381.",
    "fromGraph": false
   },
   {
@@ -1451,42 +1440,98 @@
     }
    },
    "relation": "causes",
-   "note": "His many well-endowed sons and his 1376 succession settlement are sometimes argued to have laid the groundwork for the fifteenth-century civil wars, though this is disputed.",
+   "note": "His many sons founded rival ducal dynasties, and the 1376 succession arrangement favouring John of Gaunt's line was long blamed for the fifteenth-century civil wars.",
+   "fromGraph": false
+  },
+  {
+   "entity": {
+    "title": "Good Parliament",
+    "url": "https://en.wikipedia.org/wiki/Good_Parliament",
+    "lang": "en",
+    "description": "Name given to the English parliament of 1376",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Coat_of_Arms_of_England_%28-1340%29.svg/60px-Coat_of_Arms_of_England_%28-1340%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q1420353",
+    "start": {
+     "raw": "+1376-04-28T00:00:00Z",
+     "year": 1376,
+     "precision": "day",
+     "display": "28 April 1376"
+    },
+    "end": {
+     "raw": "+1376-07-10T00:00:00Z",
+     "year": 1376,
+     "precision": "day",
+     "display": "10 July 1376"
+    },
+    "occurredAt": {
+     "raw": "+1376-04-28T00:00:00Z",
+     "year": 1376,
+     "precision": "day",
+     "display": "28 April 1376"
+    }
+   },
+   "relation": "partOf",
+   "note": "The 1376 parliament attacked his advisers and mistress and invented impeachment and the Speakership.",
+   "fromGraph": false
+  },
+  {
+   "entity": {
+    "title": "Richard II of England",
+    "url": "https://en.wikipedia.org/wiki/Richard_II_of_England",
+    "lang": "en",
+    "description": "King of England from 1377 to 1399",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/The_Westminster_Portrait_of_Richard_II_of_England_%281390s%29.jpg/60px-The_Westminster_Portrait_of_Richard_II_of_England_%281390s%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q81000",
+    "start": {
+     "raw": "+1367-01-06T00:00:00Z",
+     "year": 1367,
+     "precision": "day",
+     "display": "6 January 1367"
+    },
+    "end": {
+     "raw": "+1400-02-14T00:00:00Z",
+     "year": 1400,
+     "precision": "day",
+     "display": "14 February 1400"
+    }
+   },
+   "relation": "precedes",
+   "note": "His ten-year-old grandson succeeded him and faced the revolt and instability that followed the reign.",
    "fromGraph": false
   }
  ],
  "glossary": [
   {
    "term": "Homage",
-   "definition": "The formal ceremony by which a lord's vassal acknowledged him as superior; English kings had to perform it to the French king for their lands in France, a humiliation Edward III refused."
+   "definition": "The formal act by which a lesser lord acknowledged a greater one as his superior; English kings owed it to the king of France for their lands in Aquitaine, which meant the French king could overrule their justice there."
   },
   {
    "term": "Duchy of Aquitaine (Guyenne)",
-   "definition": "A large territory in south-western France held by the English king as a vassal of the French crown, whose disputed status was a central cause of the war."
+   "definition": "The large territory in south-western France held by English kings as vassals of the French crown; its confiscation in 1337 triggered the war."
   },
   {
    "term": "Salic law",
-   "definition": "The rule invoked in France to exclude women from the royal succession, used to reject Edward's claim through his mother."
+   "definition": "The principle used in France to exclude women from the royal succession; Edward argued a woman could not reign but could pass her claim to her son."
   },
   {
-   "term": "Royal touch / scrofula",
-   "definition": "The belief that a king could cure the neck disease scrofula by touching sufferers; Edward performed the ritual hundreds of times."
+   "term": "Royal touch",
+   "definition": "The belief that a king could cure the disease scrofula by laying hands on sufferers; Edward did this hundreds of times."
   },
   {
    "term": "Chevauchée",
-   "definition": "A fast, destructive mounted raid through enemy territory, a standard English tactic in the French war."
-  },
-  {
-   "term": "Impeachment",
-   "definition": "The parliamentary procedure for accusing royal officials of misconduct, first developed in the Good Parliament of 1376."
+   "definition": "A fast destructive raid through enemy territory, often splitting the army into smaller forces each under its own captain."
   },
   {
    "term": "Feudal levy",
-   "definition": "Unpaid military service owed to the king in return for landholding, which by his reign had given way to paid service for men of all ranks."
+   "definition": "Unpaid military service owed in return for landholding; by Edward's wars it had given way to men of all ranks being paid by the crown."
+  },
+  {
+   "term": "Impeachment",
+   "definition": "A parliamentary procedure for prosecuting the king's officials, first devised in the Good Parliament of 1376."
   },
   {
    "term": "Rex inutilis",
-   "definition": "Latin for \"useless king\", a contemporary chronicler's verdict on his father Edward II."
+   "definition": "Latin for 'useless king', the label a contemporary chronicler applied to Edward's father, Edward II."
   }
  ],
  "drilldown": [
@@ -1514,7 +1559,7 @@
    "title": "Battle of Poitiers",
    "url": "https://en.wikipedia.org/wiki/Battle_of_Poitiers",
    "lang": "en",
-   "description": "His son's victory there captured the French king John II and brought the French government close to collapse.",
+   "description": "His son captured the king of France there, collapsing French central government.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Battle_poitiers.jpg/60px-Battle_poitiers.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q201692",
    "start": {
@@ -1531,10 +1576,70 @@
    }
   },
   {
+   "title": "Treaty of Brétigny",
+   "url": "https://en.wikipedia.org/wiki/Treaty_of_Br%C3%A9tigny",
+   "lang": "en",
+   "description": "The 1360 settlement in which Edward traded his French claim for vastly enlarged territory.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Map-_France_at_the_Treaty_of_Bretigny.jpg/60px-Map-_France_at_the_Treaty_of_Bretigny.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q1334924",
+   "start": {
+    "raw": "+1360-05-08T00:00:00Z",
+    "year": 1360,
+    "precision": "day",
+    "display": "8 May 1360"
+   },
+   "occurredAt": {
+    "raw": "+1360-05-08T00:00:00Z",
+    "year": 1360,
+    "precision": "day",
+    "display": "8 May 1360"
+   }
+  },
+  {
+   "title": "Battle of Sluys",
+   "url": "https://en.wikipedia.org/wiki/Battle_of_Sluys",
+   "lang": "en",
+   "description": "The naval victory of 1340 that secured the English Channel and made Edward's reputation as a sea commander.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/BattleofSluys.jpeg/60px-BattleofSluys.jpeg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q871366",
+   "start": {
+    "raw": "+1340-06-24T00:00:00Z",
+    "year": 1340,
+    "precision": "day",
+    "display": "24 June 1340"
+   },
+   "occurredAt": {
+    "raw": "+1340-06-24T00:00:00Z",
+    "year": 1340,
+    "precision": "day",
+    "display": "24 June 1340"
+   }
+  },
+  {
+   "title": "John of Gaunt",
+   "url": "https://en.wikipedia.org/wiki/John_of_Gaunt",
+   "lang": "en",
+   "description": "His third son, effective ruler during the king's final illness and ancestor of the Lancastrian kings.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Johnofgaunt.jpg/60px-Johnofgaunt.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q193752",
+   "start": {
+    "raw": "+1340-06-24T00:00:00Z",
+    "year": 1340,
+    "precision": "day",
+    "display": "24 June 1340"
+   },
+   "end": {
+    "raw": "+1399-02-03T00:00:00Z",
+    "year": 1399,
+    "precision": "day",
+    "display": "3 February 1399"
+   }
+  },
+  {
    "title": "Good Parliament",
    "url": "https://en.wikipedia.org/wiki/Good_Parliament",
    "lang": "en",
-   "description": "The 1376 assembly where the Commons first forced a political crisis, dismissing royal advisers and banishing the king's mistress.",
+   "description": "The 1376 political crisis that shows how far the Commons had grown in power.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Coat_of_Arms_of_England_%28-1340%29.svg/60px-Coat_of_Arms_of_England_%28-1340%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q1420353",
    "start": {
@@ -1557,91 +1662,37 @@
    }
   },
   {
-   "title": "Alice Perrers",
-   "url": "https://en.wikipedia.org/wiki/Alice_Perrers",
+   "title": "Order of the Garter",
+   "url": "https://en.wikipedia.org/wiki/Order_of_the_Garter",
    "lang": "en",
-   "description": "The king's mistress in his last years, attacked by chroniclers as a grasping schemer and re-read by modern historians as a shrewd businesswoman.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Alice_Perrers_and_Edward_III.jpg/60px-Alice_Perrers_and_Edward_III.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q451105",
-   "start": {
-    "raw": "+1348-01-01T00:00:00Z",
-    "year": 1348,
-    "precision": "year",
-    "display": "1348"
-   },
-   "end": {
-    "raw": "+1400-01-01T00:00:00Z",
-    "year": 1400,
-    "precision": "year",
-    "display": "1400"
-   }
+   "description": "Edward's chivalric order, central to the Arthurian self-image of his court.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Arms_of_the_Most_Noble_Order_of_the_Garter.svg/60px-Arms_of_the_Most_Noble_Order_of_the_Garter.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q215248"
   },
   {
-   "title": "Battle of Sluys",
-   "url": "https://en.wikipedia.org/wiki/Battle_of_Sluys",
+   "title": "Peasants' Revolt",
+   "url": "https://en.wikipedia.org/wiki/Peasants'_Revolt",
    "lang": "en",
-   "description": "The 1340 naval victory that secured the English Channel and made Edward's reputation as a sea commander.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/BattleofSluys.jpeg/60px-BattleofSluys.jpeg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q871366",
+   "description": "The 1381 rising that grew out of the labour legislation and taxation of his reign.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Jean_Froissart%2C_Chroniques%2C_154v%2C_12148_btv1b8438605hf336%2C_crop.jpg/60px-Jean_Froissart%2C_Chroniques%2C_154v%2C_12148_btv1b8438605hf336%2C_crop.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q498871",
    "start": {
-    "raw": "+1340-06-24T00:00:00Z",
-    "year": 1340,
+    "raw": "+1381-05-30T00:00:00Z",
+    "year": 1381,
     "precision": "day",
-    "display": "24 June 1340"
+    "display": "30 May 1381"
+   },
+   "end": {
+    "raw": "+1381-11-00T00:00:00Z",
+    "year": 1381,
+    "precision": "month",
+    "display": "November 1381"
    },
    "occurredAt": {
-    "raw": "+1340-06-24T00:00:00Z",
-    "year": 1340,
-    "precision": "day",
-    "display": "24 June 1340"
-   }
-  },
-  {
-   "title": "Richard II of England",
-   "url": "https://en.wikipedia.org/wiki/Richard_II_of_England",
-   "lang": "en",
-   "description": "The ten-year-old grandson who succeeded him and whose deposition in 1399 set the dynastic troubles in motion.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/The_Westminster_Portrait_of_Richard_II_of_England_%281390s%29.jpg/60px-The_Westminster_Portrait_of_Richard_II_of_England_%281390s%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q81000",
-   "start": {
-    "raw": "+1367-01-06T00:00:00Z",
-    "year": 1367,
-    "precision": "day",
-    "display": "6 January 1367"
-   },
-   "end": {
-    "raw": "+1400-02-14T00:00:00Z",
-    "year": 1400,
-    "precision": "day",
-    "display": "14 February 1400"
-   }
-  },
-  {
-   "title": "Statute of Labourers 1351",
-   "url": "https://en.wikipedia.org/wiki/Statute_of_Labourers_1351",
-   "lang": "en",
-   "description": "The clearest example of how the plague reshaped law, economy and class relations in his reign.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Coat_of_Arms_of_Edward_III_of_England_%281327-1377%29_Variant_2.svg/60px-Coat_of_Arms_of_Edward_III_of_England_%281327-1377%29_Variant_2.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q1413849"
-  },
-  {
-   "title": "Edward Balliol",
-   "url": "https://en.wikipedia.org/wiki/Edward_Balliol",
-   "lang": "en",
-   "description": "The claimant Edward installed on the Scottish throne, illustrating the Scottish war that preceded and fed the French one.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Edward_Balliol%2C_King_of_Scotland_seal.png/60px-Edward_Balliol%2C_King_of_Scotland_seal.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q471796",
-   "start": {
-    "raw": "+1283-00-00T00:00:00Z",
-    "year": 1283,
-    "precision": "year",
-    "display": "1283"
-   },
-   "end": {
-    "raw": "+1364-01-00T00:00:00Z",
-    "year": 1364,
+    "raw": "+1381-11-00T00:00:00Z",
+    "year": 1381,
     "precision": "month",
-    "display": "January 1364"
+    "display": "November 1381"
    }
   }
  ],
@@ -1655,13 +1706,13 @@
    "none": 0
   }
  },
- "generatedAt": "2026-09-12T12:24:25.118Z",
+ "generatedAt": "2026-09-12T13:20:12.810Z",
  "model": "claude-opus-5",
  "usage": {
   "input": 38688,
-  "output": 7741,
+  "output": 7064,
   "cacheWrite": 0,
   "cacheRead": 4785,
-  "usd": 0.3893575
+  "usd": 0.3724325
  }
 }

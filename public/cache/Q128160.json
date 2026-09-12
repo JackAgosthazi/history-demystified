@@ -20,13 +20,6 @@
     "description": "Topics referred to by the same term"
    },
    {
-    "title": "2026 United States fuel blockade on Cuba",
-    "url": "https://en.wikipedia.org/wiki/2026_United_States_fuel_blockade_on_Cuba",
-    "lang": "en",
-    "description": "Ongoing oil shortage and economic crisis",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/El_capitolio_no_power.png/60px-El_capitolio_no_power.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail"
-   },
-   {
     "title": "Cuban Missile Crisis: The Aftermath",
     "url": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis%3A_The_Aftermath",
     "lang": "en",
@@ -38,6 +31,13 @@
     "lang": "en",
     "description": "US terrorism and sabotage campaign in Cuba",
     "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Seal_of_the_Central_Intelligence_Agency.svg/60px-Seal_of_the_Central_Intelligence_Agency.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail"
+   },
+   {
+    "title": "2026 United States fuel blockade on Cuba",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_fuel_blockade_on_Cuba",
+    "lang": "en",
+    "description": "Ongoing oil shortage and economic crisis",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/El_capitolio_no_power.png/60px-El_capitolio_no_power.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail"
    }
   ]
  },
@@ -324,12 +324,12 @@
    "truncated": false
   }
  ],
- "summary": "The Cuban Missile Crisis was a confrontation in October 1962 between the United States and the Soviet Union over Soviet nuclear missiles secretly installed on Cuba, the Caribbean island 90 miles from Florida whose revolutionary government had become a Soviet ally [S1 \"a 13-day confrontation between the governments of the United States and the Soviet Union, when American deployments of nuclear missiles in the United Kingdom, Italy and Turkey were matched by Soviet deployments\"]. It is remembered as the moment the Cold War — the decades-long armed rivalry between the American and Soviet blocs — came nearest to nuclear war [S4 \"Beide Supermächte kamen während dieser Krise einer direkten militärischen Konfrontation und somit einem möglichen Atomkrieg am nächsten.\"] (\"Both superpowers came closest during this crisis to a direct military confrontation and thus a possible nuclear war.\"). Even its name differs by country: October Crisis in Cuba, Caribbean Crisis in Russia [S1 \"also known as the October Crisis in Cuba (Spanish: Crisis de Octubre), or the Caribbean Crisis (Russian: Карибский кризис\"].\n\nThree governments were involved, wanting different things. The United States, which had already deployed nuclear missiles in Britain, Italy and Turkey within range of Moscow, trained Cuban exiles for a failed invasion in 1961 and ran a sustained campaign of sabotage and terrorism on the island [S1 \"the US government engaged in a violent campaign of terrorism and sabotage in Cuba, referred to as the Cuban Project\"]. Cuba's leader Fidel Castro and Soviet leader Nikita Khrushchev agreed in July 1962 to place missiles there to deter another invasion [S1 \"to place nuclear missiles on Cuba to deter a future US invasion\"]; Khrushchev also faced a heavy nuclear imbalance, the US holding roughly 26,400 warheads to the Soviet 3,300 [S14 \"approximately 26,400 for the United States and 3,300 for the Soviet Union\"]. A U-2 spy plane photographed the launch sites on 14 October [S11 \"The US first obtained U-2 photographic evidence of the Soviet missiles on 14 October 1962\"]; President John F. Kennedy rejected advice to bomb and invade, and on 22 October imposed a naval \"quarantine\" — a blockade renamed to avoid legally being an act of war [S1 \"He referred to the blockade as a \"quarantine\", not as a blockade, so the US could avoid the formal implications of a state of war.\"]. The deal ending it on 28 October traded Soviet withdrawal for a US pledge not to invade Cuba, plus a secret promise to pull the American missiles from Turkey [S1 \"The United States secretly agreed to dismantle all of the offensive weapons it had deployed to Turkey.\"]. Deaths were few: U-2 pilot Rudolf Anderson, shot down, was the only combat fatality, while eleven RB-47 reconnaissance crew died in crashes and seven more in a transport crash at Guantanamo [S8 \"Anderson was the only combatant fatality during the crisis, 11 crew members of three reconnaissance Boeing RB-47 Stratojets of the 55th Strategic Reconnaissance Wing were also killed in crashes\"]. Cuba, excluded from the bargaining, felt betrayed [S8 \"Decisions on how to resolve the crisis had been made exclusively by Kennedy and Khrushchev and Cuba perceived the outcome as a betrayal by the Soviets.\"].",
- "whyItMatters": "The crisis produced a direct teleprinter link between Washington and Moscow so leaders could talk in a future emergency [S1 \"The evident necessity of a quick and direct communication line between the two powers resulted in the Moscow–Washington hotline.\"]. It was followed by a treaty banning atmospheric nuclear testing [S8 \"The United States and the Soviet Union subsequently agreed to a treaty banning atmospheric testing of nuclear weapons, known as the \"Partial Nuclear Test Ban Treaty\".\"]. It damaged Khrushchev politically, contributing to his removal two years later, and soured both Soviet–Cuban and Soviet–Chinese relations, with Beijing accusing him of selling out Cuba [S8 \"Maoist China subsequently condemned Khrushchev's cowardly \"capitulationism\" to the Americans and Moscow's \"sellout of the Cuban people.\"\"]. Later disclosures showed how close it came: a Soviet submarine commander, believing war had started, prepared a nuclear torpedo, and one officer's refusal stopped the launch [S13 \"The decision to launch the nuclear torpedo required the consent of all three senior officers, and of the three, Arkhipov alone refused to give his consent.\"]",
+ "summary": "The Cuban Missile Crisis was a thirteen-day standoff in October 1962 between the United States and the Soviet Union over Soviet nuclear missiles placed on Cuba, an island roughly 90 miles from Florida that had a revolutionary socialist government allied with Moscow [S1]. It is remembered as the moment the Cold War — the decades-long armed rivalry between the American and Soviet blocs — came closest to a full nuclear war [S1]. Even the name is contested: Cubans call it the October Crisis and Russians the Caribbean Crisis [S1]. Dates differ too, with English accounts running 16 to 28 October and French ones 14 to 27 October [S1][S3].\n\nThe sides were not evenly matched. The United States held about 26,400 nuclear weapons to the Soviet Union's roughly 3,300, and had already stationed Thor missiles in England and Jupiter missiles in Italy and Turkey, all able to reach Moscow [S14][S1]. Khrushchev, the Soviet leader, wanted to offset that lead by moving missiles within range of American targets, and also to deter another US invasion of Cuba after the failed CIA-backed Bay of Pigs landing of April 1961 and an ongoing American campaign of sabotage and terrorism on the island [S7][S1][S6]. Castro's Cuba accepted the missiles to protect itself [S7]. When a U-2 spy plane photographed the launch sites, Kennedy rejected advice to bomb and invade and instead imposed a naval \"quarantine\" — a blockade renamed to avoid the legal implication of war [S1][S9]. The deal that ended it: Soviet missiles out under UN verification, a public US pledge not to invade Cuba, and a secret US promise to pull its missiles from Turkey [S1]. One American U-2 pilot, Anderson, was the only combatant killed; eleven crew of three RB-47 reconnaissance aircraft died in crashes during the period, and seven more in a transport crash at Guantanamo Bay on 23 October [S8]. The nearest escape was probably unseen at the time: aboard a Soviet submarine forced up by US depth charges, officer Vasily Arkhipov alone refused consent to fire a nuclear torpedo [S13].",
+ "whyItMatters": "The two governments built a direct communications link, the Moscow–Washington hotline, so leaders could speak to each other in a future crisis [S8]. They also agreed a treaty banning atmospheric nuclear testing [S8]. Cuba, excluded from the bargaining, treated the outcome as a Soviet betrayal, and Cuban–Soviet relations deteriorated [S8]. Khrushchev's concessions contributed to his removal from power two years later, with the Soviet leadership viewing the result as close to humiliation [S1], while in Washington General Curtis LeMay called the settlement the \"greatest defeat in our history\" [S8].",
  "takeaways": [
   {
    "id": "t0",
-   "text": "For thirteen days in October 1962 the United States and the Soviet Union confronted each other over Soviet nuclear missiles placed in Cuba, in what is widely regarded as the moment the Cold War came nearest to full nuclear war.",
+   "text": "The crisis was a 13-day standoff in October 1962 in which the United States and the Soviet Union came nearer to nuclear war than at any other point in the Cold War.",
    "sourceId": "S1",
    "quote": "The confrontation is widely considered the closest the Cold War came to escalating into full-scale nuclear war.",
    "verification": {
@@ -343,35 +343,49 @@
   },
   {
    "id": "t1",
-   "text": "The Soviet and Cuban leaderships agreed in July 1962 to put nuclear missiles on the island in order to deter an American invasion of Cuba.",
-   "sourceId": "S1",
-   "quote": "the Soviet and Cuban governments agreed, at a meeting between leaders Nikita Khrushchev and Fidel Castro in July 1962, to place nuclear missiles on Cuba to deter a future US invasion",
+   "text": "The Soviet leader Nikita Khrushchev's decision to put intermediate-range nuclear missiles on Cuba was a response to the United States' growing lead in strategic missiles.",
+   "sourceId": "S7",
+   "quote": "Khrushchev decided to counter the growing lead of the US in developing and deploying strategic missiles by placing Soviet intermediate-range nuclear missiles in Cuba",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis#:~:text=the%20Soviet%20and%20Cuban%20governments%20agreed%2C,to%20deter%20a%20future%20US%20invasion",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis#Prelude:~:text=Khrushchev%20decided%20to%20counter%20the%20growing,Soviet%20intermediate%2Drange%20nuclear%20missiles%20in%20Cuba",
     "sourceTitle": "Cuban Missile Crisis",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis"
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis#Prelude"
    }
   },
   {
    "id": "t2",
-   "text": "Rather than bombing or invading Cuba, President John F. Kennedy responded with a naval cordon around the island, announced on 22 October.",
-   "sourceId": "S1",
-   "quote": "On 22 October, Kennedy ordered a naval blockade to prevent further missiles from reaching Cuba.",
+   "text": "The confrontation was triggered by a mismatch in nuclear strength: the United States held roughly 27,000 warheads to the Soviet Union's 3,600, along with better delivery technology.",
+   "sourceId": "S6",
+   "quote": "The US had a considerable advantage in total number of nuclear warheads (27,000 against 3,600) and in the technology required for accurate delivery.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis#:~:text=On%2022%20October%2C%20Kennedy%20ordered%20a,prevent%20further%20missiles%20from%20reaching%20Cuba.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis#Background:~:text=The%20US%20had%20a%20considerable%20advantage,the%20technology%20required%20for%20accurate%20delivery.",
+    "sourceTitle": "Cuban Missile Crisis",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis#Background"
+   }
+  },
+  {
+   "id": "t3",
+   "text": "On 22 October 1962 President John F. Kennedy ordered a naval blockade of Cuba, calling it a \"quarantine\" so that the United States would not formally be at war.",
+   "sourceId": "S1",
+   "quote": "On 22 October, Kennedy ordered a naval blockade to prevent further missiles from reaching Cuba. He referred to the blockade as a \"quarantine\", not as a blockade",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis#:~:text=On%2022%20October%2C%20Kennedy%20ordered%20a,a%20%22quarantine%22%2C%20not%20as%20a%20blockade",
     "sourceTitle": "Cuban Missile Crisis",
     "sourceUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis"
    }
   },
   {
-   "id": "t3",
-   "text": "The crisis ended in a bargain: the Soviet Union removed its missiles under United Nations verification and the United States publicly pledged not to invade Cuba.",
+   "id": "t4",
+   "text": "The public settlement was that the Soviet Union would dismantle its missiles in Cuba under United Nations supervision in return for an American pledge not to invade the island.",
    "sourceId": "S1",
    "quote": "The Soviets would dismantle their offensive weapons in Cuba, subject to United Nations verification, in exchange for a US public declaration and agreement not to invade Cuba again.",
    "verification": {
@@ -384,8 +398,8 @@
    }
   },
   {
-   "id": "t4",
-   "text": "A second, hidden half of the bargain committed the United States to withdrawing its own nuclear missiles from Turkey, and probably Italy, which is why the settlement looked like a one-sided Soviet retreat at the time.",
+   "id": "t5",
+   "text": "A second half of the bargain was kept secret: Kennedy privately agreed to pull American missiles out of Turkey, and possibly Italy, in exchange for the Soviet withdrawal.",
    "sourceId": "S12",
    "quote": "Kennedy secretly agreed to remove all missiles in Turkey, on the border of the Soviet Union, and possibly those in southern Italy, in exchange for Khrushchev removing all missiles",
    "verification": {
@@ -398,29 +412,15 @@
    }
   },
   {
-   "id": "t5",
-   "text": "The two sides were badly unequal in nuclear terms: the American stockpile was roughly eight times the Soviet one, about 26,400 weapons against about 3,300.",
-   "sourceId": "S14",
-   "quote": "the total number of nuclear weapons in the stockpiles of each country numbered approximately 26,400 for the United States and 3,300 for the Soviet Union",
-   "verification": {
-    "status": "verified",
-    "method": "exact",
-    "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis#Nuclear_forces:~:text=the%20total%20number%20of%20nuclear%20weapons,and%203%2C300%20for%20the%20Soviet%20Union",
-    "sourceTitle": "Cuban Missile Crisis",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis#Nuclear_forces"
-   }
-  },
-  {
    "id": "t6",
-   "text": "The human cost was very small for so dangerous a confrontation: one American U-2 pilot, Rudolf Anderson, was the only combatant killed, though eleven airmen died in reconnaissance aircraft crashes over the same weeks.",
+   "text": "Only one person was killed in combat during the crisis — an American U-2 reconnaissance pilot named Anderson — though eleven more airmen died in reconnaissance aircraft crashes in the same weeks.",
    "sourceId": "S8",
-   "quote": "Although Anderson was the only combatant fatality during the crisis, 11 crew members of three reconnaissance Boeing RB-47 Stratojets of the 55th Strategic Reconnaissance Wing were also killed in crashes",
+   "quote": "Although Anderson was the only combatant fatality during the crisis, 11 crew members of three reconnaissance Boeing RB-47 Stratojets of the 55th Strategic Reconnaissance Wing",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis#Aftermath:~:text=Although%20Anderson%20was%20the%20only%20combatant,Wing%20were%20also%20killed%20in%20crashes",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis#Aftermath:~:text=Although%20Anderson%20was%20the%20only%20combatant,of%20the%2055th%20Strategic%20Reconnaissance%20Wing",
     "sourceTitle": "Cuban Missile Crisis",
     "sourceUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis#Aftermath"
    }
@@ -428,12 +428,12 @@
  ],
  "perspectives": [
   {
-   "label": "Cuban view",
-   "stance": "A superpower deal made over Cuba's head",
-   "body": "Havana was not party to the settlement, which Kennedy and Khrushchev negotiated between themselves. Cuban grievances such as the American naval base at Guantánamo were simply left out, and Cuban–Soviet relations soured as a result.",
+   "label": "Cuban leadership",
+   "stance": "The superpowers settled over Cuba's head",
+   "body": "Cuba was the ground the crisis was fought over but was excluded from the bargaining. Fidel Castro and Che Guevara read the Soviet withdrawal as a betrayal, particularly because Cuban concerns such as the US naval base at Guantánamo went unmentioned in the deal.",
    "evidence": {
     "id": "p0",
-    "text": "Cubans regarded the resolution of the crisis as a Soviet betrayal because it was settled exclusively between Kennedy and Khrushchev.",
+    "text": "Cuba saw the settlement between Kennedy and Khrushchev as a Soviet betrayal because it had no part in the decisions.",
     "sourceId": "S8",
     "quote": "Decisions on how to resolve the crisis had been made exclusively by Kennedy and Khrushchev and Cuba perceived the outcome as a betrayal by the Soviets.",
     "verification": {
@@ -447,31 +447,12 @@
    }
   },
   {
-   "label": "American hardliners",
-   "stance": "A humiliating missed chance to destroy Castro",
-   "body": "Air Force General Curtis LeMay had wanted an immediate invasion and still wanted one after the Soviet missiles were gone. In his reading the peaceful outcome was not a triumph of statesmanship but a surrender of a unique opportunity.",
+   "label": "Maoist China",
+   "stance": "Khrushchev surrendered and sold out Cuba",
+   "body": "Beijing, already estranged from Moscow, treated the peaceful resolution not as statesmanship but as cowardice. The episode fed the wider ideological quarrel between the two communist powers.",
    "evidence": {
     "id": "p1",
-    "text": "General Curtis LeMay described the peaceful resolution of the crisis to Kennedy as the greatest defeat in American history.",
-    "sourceId": "S8",
-    "quote": "General Curtis LeMay told Kennedy that the resolution of the crisis was the \"greatest defeat in our history\".",
-    "verification": {
-     "status": "verified",
-     "method": "exact",
-     "score": 1,
-     "citationUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis#Aftermath:~:text=General%20Curtis%20LeMay%20told%20Kennedy%20that,the%20%22greatest%20defeat%20in%20our%20history%22.",
-     "sourceTitle": "Cuban Missile Crisis",
-     "sourceUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis#Aftermath"
-    }
-   }
-  },
-  {
-   "label": "Chinese Communist view",
-   "stance": "Khrushchev capitulated and sold out Cuba",
-   "body": "Beijing, already in a deepening quarrel with Moscow, treated the withdrawal as proof that Soviet leadership of world communism had gone soft. Khrushchev retorted by attacking China's conduct in its border dispute with India.",
-   "evidence": {
-    "id": "p2",
-    "text": "Maoist China publicly denounced Khrushchev's handling of the crisis as capitulation and as a betrayal of Cuba.",
+    "text": "China publicly accused Khrushchev of capitulating to the Americans and selling out the Cuban people.",
     "sourceId": "S8",
     "quote": "Maoist China subsequently condemned Khrushchev's cowardly \"capitulationism\" to the Americans and Moscow's \"sellout of the Cuban people.\"",
     "verification": {
@@ -485,20 +466,39 @@
    }
   },
   {
-   "label": "French historiography",
-   "stance": "The crisis opened the era of Détente",
-   "body": "French accounts stress what came after rather than who won: the crisis exposed the limits of \"peaceful coexistence\" and led directly into a calmer phase of the Cold War. English-language accounts dwell more on the domestic humiliation of Khrushchev.",
+   "label": "US military hawks",
+   "stance": "A humiliating missed chance to destroy Castro",
+   "body": "General Curtis LeMay of the US Air Force had pushed for an immediate invasion and continued to favour one even after the Soviet missiles were gone. He judged the negotiated outcome a defeat rather than a victory for the United States.",
    "evidence": {
-    "id": "p3",
-    "text": "The resolution of the crisis is seen as opening a new period of the Cold War known as Détente.",
-    "sourceId": "S3",
-    "quote": "Plus largement, la résolution de cette crise ouvre la voie à une nouvelle période de la guerre froide, appelée la Détente.",
-    "quoteTranslation": "More broadly, the resolution of this crisis opened the way to a new period of the Cold War, called Détente.",
+    "id": "p2",
+    "text": "General Curtis LeMay described the resolution of the crisis to Kennedy as the greatest defeat in American history.",
+    "sourceId": "S8",
+    "quote": "General Curtis LeMay told Kennedy that the resolution of the crisis was the \"greatest defeat in our history\".",
     "verification": {
      "status": "verified",
      "method": "exact",
      "score": 1,
-     "citationUrl": "https://fr.wikipedia.org/wiki/Crise_des_missiles_de_Cuba#:~:text=Plus%20largement%2C%20la%20r%C3%A9solution%20de%20cette,la%20guerre%20froide%2C%20appel%C3%A9e%20la%20D%C3%A9tente.",
+     "citationUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis#Aftermath:~:text=General%20Curtis%20LeMay%20told%20Kennedy%20that,the%20%22greatest%20defeat%20in%20our%20history%22.",
+     "sourceTitle": "Cuban Missile Crisis",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis#Aftermath"
+    }
+   }
+  },
+  {
+   "label": "French account",
+   "stance": "The crisis opened the path to Détente",
+   "body": "French treatment stresses what came afterwards rather than the brinkmanship itself, presenting the resolution as the gateway to a calmer phase of the Cold War. It also frames the outcome as a binding constraint on future American foreign policy.",
+   "evidence": {
+    "id": "p3",
+    "text": "The resolution of the crisis is described as opening a new period of the Cold War known as Détente.",
+    "sourceId": "S3",
+    "quote": "la résolution de cette crise ouvre la voie à une nouvelle période de la guerre froide, appelée la Détente.",
+    "quoteTranslation": "the resolution of this crisis opens the way to a new period of the Cold War, called the Détente.",
+    "verification": {
+     "status": "verified",
+     "method": "exact",
+     "score": 1,
+     "citationUrl": "https://fr.wikipedia.org/wiki/Crise_des_missiles_de_Cuba#:~:text=la%20r%C3%A9solution%20de%20cette%20crise%20ouvre,la%20guerre%20froide%2C%20appel%C3%A9e%20la%20D%C3%A9tente.",
      "sourceTitle": "Crise des missiles de Cuba",
      "sourceUrl": "https://fr.wikipedia.org/wiki/Crise_des_missiles_de_Cuba"
     }
@@ -508,7 +508,7 @@
  "claims": [
   {
    "id": "t0",
-   "text": "For thirteen days in October 1962 the United States and the Soviet Union confronted each other over Soviet nuclear missiles placed in Cuba, in what is widely regarded as the moment the Cold War came nearest to full nuclear war.",
+   "text": "The crisis was a 13-day standoff in October 1962 in which the United States and the Soviet Union came nearer to nuclear war than at any other point in the Cold War.",
    "sourceId": "S1",
    "quote": "The confrontation is widely considered the closest the Cold War came to escalating into full-scale nuclear war.",
    "verification": {
@@ -522,35 +522,49 @@
   },
   {
    "id": "t1",
-   "text": "The Soviet and Cuban leaderships agreed in July 1962 to put nuclear missiles on the island in order to deter an American invasion of Cuba.",
-   "sourceId": "S1",
-   "quote": "the Soviet and Cuban governments agreed, at a meeting between leaders Nikita Khrushchev and Fidel Castro in July 1962, to place nuclear missiles on Cuba to deter a future US invasion",
+   "text": "The Soviet leader Nikita Khrushchev's decision to put intermediate-range nuclear missiles on Cuba was a response to the United States' growing lead in strategic missiles.",
+   "sourceId": "S7",
+   "quote": "Khrushchev decided to counter the growing lead of the US in developing and deploying strategic missiles by placing Soviet intermediate-range nuclear missiles in Cuba",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis#:~:text=the%20Soviet%20and%20Cuban%20governments%20agreed%2C,to%20deter%20a%20future%20US%20invasion",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis#Prelude:~:text=Khrushchev%20decided%20to%20counter%20the%20growing,Soviet%20intermediate%2Drange%20nuclear%20missiles%20in%20Cuba",
     "sourceTitle": "Cuban Missile Crisis",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis"
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis#Prelude"
    }
   },
   {
    "id": "t2",
-   "text": "Rather than bombing or invading Cuba, President John F. Kennedy responded with a naval cordon around the island, announced on 22 October.",
-   "sourceId": "S1",
-   "quote": "On 22 October, Kennedy ordered a naval blockade to prevent further missiles from reaching Cuba.",
+   "text": "The confrontation was triggered by a mismatch in nuclear strength: the United States held roughly 27,000 warheads to the Soviet Union's 3,600, along with better delivery technology.",
+   "sourceId": "S6",
+   "quote": "The US had a considerable advantage in total number of nuclear warheads (27,000 against 3,600) and in the technology required for accurate delivery.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis#:~:text=On%2022%20October%2C%20Kennedy%20ordered%20a,prevent%20further%20missiles%20from%20reaching%20Cuba.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis#Background:~:text=The%20US%20had%20a%20considerable%20advantage,the%20technology%20required%20for%20accurate%20delivery.",
+    "sourceTitle": "Cuban Missile Crisis",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis#Background"
+   }
+  },
+  {
+   "id": "t3",
+   "text": "On 22 October 1962 President John F. Kennedy ordered a naval blockade of Cuba, calling it a \"quarantine\" so that the United States would not formally be at war.",
+   "sourceId": "S1",
+   "quote": "On 22 October, Kennedy ordered a naval blockade to prevent further missiles from reaching Cuba. He referred to the blockade as a \"quarantine\", not as a blockade",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis#:~:text=On%2022%20October%2C%20Kennedy%20ordered%20a,a%20%22quarantine%22%2C%20not%20as%20a%20blockade",
     "sourceTitle": "Cuban Missile Crisis",
     "sourceUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis"
    }
   },
   {
-   "id": "t3",
-   "text": "The crisis ended in a bargain: the Soviet Union removed its missiles under United Nations verification and the United States publicly pledged not to invade Cuba.",
+   "id": "t4",
+   "text": "The public settlement was that the Soviet Union would dismantle its missiles in Cuba under United Nations supervision in return for an American pledge not to invade the island.",
    "sourceId": "S1",
    "quote": "The Soviets would dismantle their offensive weapons in Cuba, subject to United Nations verification, in exchange for a US public declaration and agreement not to invade Cuba again.",
    "verification": {
@@ -563,8 +577,8 @@
    }
   },
   {
-   "id": "t4",
-   "text": "A second, hidden half of the bargain committed the United States to withdrawing its own nuclear missiles from Turkey, and probably Italy, which is why the settlement looked like a one-sided Soviet retreat at the time.",
+   "id": "t5",
+   "text": "A second half of the bargain was kept secret: Kennedy privately agreed to pull American missiles out of Turkey, and possibly Italy, in exchange for the Soviet withdrawal.",
    "sourceId": "S12",
    "quote": "Kennedy secretly agreed to remove all missiles in Turkey, on the border of the Soviet Union, and possibly those in southern Italy, in exchange for Khrushchev removing all missiles",
    "verification": {
@@ -577,36 +591,22 @@
    }
   },
   {
-   "id": "t5",
-   "text": "The two sides were badly unequal in nuclear terms: the American stockpile was roughly eight times the Soviet one, about 26,400 weapons against about 3,300.",
-   "sourceId": "S14",
-   "quote": "the total number of nuclear weapons in the stockpiles of each country numbered approximately 26,400 for the United States and 3,300 for the Soviet Union",
-   "verification": {
-    "status": "verified",
-    "method": "exact",
-    "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis#Nuclear_forces:~:text=the%20total%20number%20of%20nuclear%20weapons,and%203%2C300%20for%20the%20Soviet%20Union",
-    "sourceTitle": "Cuban Missile Crisis",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis#Nuclear_forces"
-   }
-  },
-  {
    "id": "t6",
-   "text": "The human cost was very small for so dangerous a confrontation: one American U-2 pilot, Rudolf Anderson, was the only combatant killed, though eleven airmen died in reconnaissance aircraft crashes over the same weeks.",
+   "text": "Only one person was killed in combat during the crisis — an American U-2 reconnaissance pilot named Anderson — though eleven more airmen died in reconnaissance aircraft crashes in the same weeks.",
    "sourceId": "S8",
-   "quote": "Although Anderson was the only combatant fatality during the crisis, 11 crew members of three reconnaissance Boeing RB-47 Stratojets of the 55th Strategic Reconnaissance Wing were also killed in crashes",
+   "quote": "Although Anderson was the only combatant fatality during the crisis, 11 crew members of three reconnaissance Boeing RB-47 Stratojets of the 55th Strategic Reconnaissance Wing",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis#Aftermath:~:text=Although%20Anderson%20was%20the%20only%20combatant,Wing%20were%20also%20killed%20in%20crashes",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis#Aftermath:~:text=Although%20Anderson%20was%20the%20only%20combatant,of%20the%2055th%20Strategic%20Reconnaissance%20Wing",
     "sourceTitle": "Cuban Missile Crisis",
     "sourceUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis#Aftermath"
    }
   },
   {
    "id": "p0",
-   "text": "Cubans regarded the resolution of the crisis as a Soviet betrayal because it was settled exclusively between Kennedy and Khrushchev.",
+   "text": "Cuba saw the settlement between Kennedy and Khrushchev as a Soviet betrayal because it had no part in the decisions.",
    "sourceId": "S8",
    "quote": "Decisions on how to resolve the crisis had been made exclusively by Kennedy and Khrushchev and Cuba perceived the outcome as a betrayal by the Soviets.",
    "verification": {
@@ -620,21 +620,7 @@
   },
   {
    "id": "p1",
-   "text": "General Curtis LeMay described the peaceful resolution of the crisis to Kennedy as the greatest defeat in American history.",
-   "sourceId": "S8",
-   "quote": "General Curtis LeMay told Kennedy that the resolution of the crisis was the \"greatest defeat in our history\".",
-   "verification": {
-    "status": "verified",
-    "method": "exact",
-    "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis#Aftermath:~:text=General%20Curtis%20LeMay%20told%20Kennedy%20that,the%20%22greatest%20defeat%20in%20our%20history%22.",
-    "sourceTitle": "Cuban Missile Crisis",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis#Aftermath"
-   }
-  },
-  {
-   "id": "p2",
-   "text": "Maoist China publicly denounced Khrushchev's handling of the crisis as capitulation and as a betrayal of Cuba.",
+   "text": "China publicly accused Khrushchev of capitulating to the Americans and selling out the Cuban people.",
    "sourceId": "S8",
    "quote": "Maoist China subsequently condemned Khrushchev's cowardly \"capitulationism\" to the Americans and Moscow's \"sellout of the Cuban people.\"",
    "verification": {
@@ -647,16 +633,30 @@
    }
   },
   {
-   "id": "p3",
-   "text": "The resolution of the crisis is seen as opening a new period of the Cold War known as Détente.",
-   "sourceId": "S3",
-   "quote": "Plus largement, la résolution de cette crise ouvre la voie à une nouvelle période de la guerre froide, appelée la Détente.",
-   "quoteTranslation": "More broadly, the resolution of this crisis opened the way to a new period of the Cold War, called Détente.",
+   "id": "p2",
+   "text": "General Curtis LeMay described the resolution of the crisis to Kennedy as the greatest defeat in American history.",
+   "sourceId": "S8",
+   "quote": "General Curtis LeMay told Kennedy that the resolution of the crisis was the \"greatest defeat in our history\".",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://fr.wikipedia.org/wiki/Crise_des_missiles_de_Cuba#:~:text=Plus%20largement%2C%20la%20r%C3%A9solution%20de%20cette,la%20guerre%20froide%2C%20appel%C3%A9e%20la%20D%C3%A9tente.",
+    "citationUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis#Aftermath:~:text=General%20Curtis%20LeMay%20told%20Kennedy%20that,the%20%22greatest%20defeat%20in%20our%20history%22.",
+    "sourceTitle": "Cuban Missile Crisis",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis#Aftermath"
+   }
+  },
+  {
+   "id": "p3",
+   "text": "The resolution of the crisis is described as opening a new period of the Cold War known as Détente.",
+   "sourceId": "S3",
+   "quote": "la résolution de cette crise ouvre la voie à une nouvelle période de la guerre froide, appelée la Détente.",
+   "quoteTranslation": "the resolution of this crisis opens the way to a new period of the Cold War, called the Détente.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://fr.wikipedia.org/wiki/Crise_des_missiles_de_Cuba#:~:text=la%20r%C3%A9solution%20de%20cette%20crise%20ouvre,la%20guerre%20froide%2C%20appel%C3%A9e%20la%20D%C3%A9tente.",
     "sourceTitle": "Crise des missiles de Cuba",
     "sourceUrl": "https://fr.wikipedia.org/wiki/Crise_des_missiles_de_Cuba"
    }
@@ -664,8 +664,8 @@
  ],
  "keyEvents": [
   {
-   "label": "Failed CIA invasion of Cuba",
-   "summary": "A force of Cuban exiles trained and armed by the American Central Intelligence Agency landed in Cuba and was defeated, humiliating the Kennedy administration. It convinced both Havana and Moscow that a further American invasion was coming, and convinced Khrushchev that Kennedy was indecisive.",
+   "label": "Failed CIA-backed invasion of Cuba",
+   "summary": "A force of Cuban exiles trained by the American Central Intelligence Agency landed in Cuba and was defeated, embarrassing the Kennedy administration. The failure convinced both Havana and Moscow that a further American invasion was coming, and convinced Khrushchev that Kennedy was weak.",
    "entity": {
     "title": "Bay of Pigs Invasion",
     "url": "https://en.wikipedia.org/wiki/Bay_of_Pigs_Invasion",
@@ -700,8 +700,8 @@
    }
   },
   {
-   "label": "American sabotage campaign against Cuba",
-   "summary": "From late 1961 the United States ran an extensive campaign of sabotage and attacks on Cuban civilian and military targets, alongside an economic embargo. This sustained pressure was a crucial reason the Cuban government accepted Soviet nuclear missiles.",
+   "label": "US terrorism and sabotage campaign",
+   "summary": "From late 1961 the United States ran an extensive campaign of sabotage and attacks on civilian and military targets in Cuba, killing significant numbers of civilians. This campaign and the invasion threat were crucial to the Soviet decision to send missiles and Cuba's decision to accept them.",
    "entity": {
     "title": "Operation Mongoose",
     "url": "https://en.wikipedia.org/wiki/Operation_Mongoose",
@@ -712,37 +712,12 @@
    }
   },
   {
-   "label": "Secret Soviet missile deployment",
-   "summary": "Approved by Khrushchev in July 1962, the operation moved missiles and some 43,000 troops to Cuba under elaborate deception, with soldiers issued winter clothing to disguise their destination. Its secrecy is what made the American discovery a shock rather than a negotiation.",
-   "entity": {
-    "title": "Operation Anadyr",
-    "url": "https://en.wikipedia.org/wiki/Operation_Anadyr",
-    "lang": "en",
-    "description": "1962 Soviet Cold War secret operation",
-    "qid": "Q1931877",
-    "start": {
-     "raw": "+1962-00-00T00:00:00Z",
-     "year": 1962,
-     "precision": "year",
-     "display": "1962"
-    },
-    "occurredAt": {
-     "raw": "+1962-00-00T00:00:00Z",
-     "year": 1962,
-     "precision": "year",
-     "display": "1962"
-    }
-   },
-   "date": {
-    "raw": "+1962-00-00T00:00:00Z",
-    "year": 1962,
-    "precision": "year",
-    "display": "1962"
-   }
+   "label": "Khrushchev and Castro agree to missiles",
+   "summary": "At a July 1962 meeting the Soviet and Cuban leaders agreed to install nuclear missiles on Cuba to deter an American invasion, and construction of launch sites began shortly afterwards under the secret codename Operation Anadyr."
   },
   {
    "label": "U-2 photographs the missile sites",
-   "summary": "On 14 October a U-2 spy plane flown by Major Richard Heyser photographed a missile construction site at San Cristóbal in western Cuba. The photographs turned suspicion into proof and started the thirteen days.",
+   "summary": "On 14 October 1962 a U-2 spy plane flown by Major Richard Heyser photographed an SS-4 missile construction site in western Cuba. The pictures turned an intelligence suspicion into a confirmed crisis.",
    "entity": {
     "title": "Lockheed U-2",
     "url": "https://en.wikipedia.org/wiki/Lockheed_U-2",
@@ -753,56 +728,12 @@
    }
   },
   {
-   "label": "Kennedy's crisis committee convenes",
-   "summary": "Kennedy assembled an ad hoc group of advisers to weigh an air strike and invasion against a naval blockade. By 19 October most of the group had shifted to the blockade option, steering the United States away from immediate war.",
-   "entity": {
-    "title": "EXCOMM",
-    "url": "https://en.wikipedia.org/wiki/EXCOMM",
-    "lang": "en",
-    "description": "Temporary defense committee during the Cuban Missile Crisis",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/EXCOMM_meeting%2C_Cuban_Missile_Crisis%2C_29_October_1962.jpg/60px-EXCOMM_meeting%2C_Cuban_Missile_Crisis%2C_29_October_1962.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q1383589"
-   }
+   "label": "Kennedy announces the quarantine",
+   "summary": "On 22 October Kennedy formally created the EXCOMM advisory group and told the nation he was imposing a naval quarantine on Cuba, choosing this over the air strike and invasion his advisers had urged."
   },
   {
-   "label": "The \"quarantine\" announced",
-   "summary": "On 22 October Kennedy announced a naval cordon of Cuba, deliberately calling it a quarantine rather than a blockade because a blockade is legally an act of war. Legal cover was obtained through the Organization of American States under the Rio Treaty.",
-   "entity": {
-    "title": "Cuban Missile Crisis",
-    "url": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis",
-    "lang": "en",
-    "description": "1962 confrontation between the US and USSR",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/PGM-19A_Jupiter_missile-02.jpg/60px-PGM-19A_Jupiter_missile-02.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q128160",
-    "start": {
-     "raw": "+1962-10-14T00:00:00Z",
-     "year": 1962,
-     "precision": "day",
-     "display": "14 October 1962"
-    },
-    "end": {
-     "raw": "+1962-10-28T00:00:00Z",
-     "year": 1962,
-     "precision": "day",
-     "display": "28 October 1962"
-    },
-    "occurredAt": {
-     "raw": "+1962-00-00T00:00:00Z",
-     "year": 1962,
-     "precision": "year",
-     "display": "1962"
-    }
-   },
-   "date": {
-    "raw": "+1962-00-00T00:00:00Z",
-    "year": 1962,
-    "precision": "year",
-    "display": "1962"
-   }
-  },
-  {
-   "label": "Nuclear torpedo nearly fired",
-   "summary": "On 27 October American destroyers forced a Soviet submarine carrying a nuclear torpedo to surface with practice depth charges; its captain, believing war had begun, ordered the torpedo readied. Officer Vasily Arkhipov withheld the consent needed to launch.",
+   "label": "Nuclear torpedo nearly fired at sea",
+   "summary": "On 27 October US destroyers dropped practice depth charges on a Soviet submarine carrying a nuclear torpedo; its captain, believing war had begun, ordered it prepared for firing. Officer Vasily Arkhipov withheld the consent needed to launch.",
    "entity": {
     "title": "Soviet submarine B-59",
     "url": "https://en.wikipedia.org/wiki/Soviet_submarine_B-59",
@@ -813,8 +744,12 @@
    }
   },
   {
-   "label": "Settlement and the hotline",
-   "summary": "On 28 October Khrushchev announced over Radio Moscow that the weapons would be dismantled and returned to the Soviet Union, and Kennedy accepted. The scare produced a direct communications link between the two capitals and, later, a ban on atmospheric nuclear testing.",
+   "label": "Khrushchev's broadcast accepting terms",
+   "summary": "On 28 October Khrushchev announced over Radio Moscow that the weapons would be dismantled and returned to the Soviet Union, ending the thirteen days of confrontation."
+  },
+  {
+   "label": "Direct leader-to-leader link created",
+   "summary": "The realisation that the two capitals had no fast, reliable channel of communication led to the creation of a direct link between them, so that a future crisis would not turn on delayed or garbled messages.",
    "entity": {
     "title": "Moscow–Washington hotline",
     "url": "https://en.wikipedia.org/wiki/Moscow%E2%80%93Washington_hotline",
@@ -847,8 +782,8 @@
      "display": "22 November 1963"
     }
    },
-   "relationship": "US president during the crisis",
-   "note": "He rejected advice to bomb and invade Cuba, choosing a naval quarantine and then accepting a public missile trade that his senior advisers almost unanimously opposed."
+   "relationship": "US president managing the crisis",
+   "note": "He rejected the air strike and invasion options urged on him and chose a naval quarantine plus a secret missile trade, accepting Khrushchev's public offer despite almost solid opposition from his senior advisers."
   },
   {
    "entity": {
@@ -872,7 +807,7 @@
     }
    },
    "relationship": "Soviet leader who sent the missiles",
-   "note": "He ordered the deployment partly to offset American nuclear superiority and partly as leverage over West Berlin, and his eventual concessions contributed to his removal from power two years later."
+   "note": "He ordered the secret deployment and then the withdrawal, a reversal his own leadership treated as near-humiliation and which contributed to his fall from power two years later."
   },
   {
    "entity": {
@@ -896,7 +831,7 @@
     }
    },
    "relationship": "Cuban leader hosting the missiles",
-   "note": "He accepted the missiles to deter an American invasion, was excluded from the settlement, and in October 1962 urged Khrushchev toward a pre-emptive nuclear strike if Cuba were attacked."
+   "note": "He accepted the missiles to deter an American invasion, urged Khrushchev towards a pre-emptive nuclear strike if Cuba was attacked, and was left out of the settlement entirely."
   },
   {
    "entity": {
@@ -919,8 +854,8 @@
      "display": "9 October 1967"
     }
    },
-   "relationship": "Cuban negotiator, later embittered",
-   "note": "He signed the final deployment agreement in Moscow and afterwards denounced the Soviet withdrawal, saying the missiles would have been launched had Cuba controlled them."
+   "relationship": "Cuban official, signed missile agreement",
+   "note": "He travelled to Moscow in August 1962 to sign the final deployment agreement and afterwards denounced the Soviets for using Cuba as a pawn."
   },
   {
    "entity": {
@@ -943,8 +878,8 @@
      "display": "1 October 1990"
     }
    },
-   "relationship": "Chief hawk urging invasion",
-   "note": "The Air Force general pressed for bombing and invading Cuba throughout, and called the peaceful outcome the greatest defeat in American history."
+   "relationship": "US general demanding invasion",
+   "note": "He pressed for immediate invasion throughout and called the peaceful outcome the greatest defeat in American history, showing how contested Kennedy's restraint was inside his own government."
   },
   {
    "entity": {
@@ -967,62 +902,11 @@
      "display": "19 August 1998"
     }
    },
-   "relationship": "Soviet officer who blocked a launch",
-   "note": "Aboard the submarine B-59 on 27 October he alone withheld the consent required to fire a nuclear torpedo at an American aircraft carrier."
+   "relationship": "Soviet officer who blocked torpedo launch",
+   "note": "His refusal to consent aboard submarine B-59 on 27 October is credited with preventing a nuclear detonation at sea at the crisis's most dangerous moment."
   }
  ],
  "comparisons": [
-  {
-   "entity": {
-    "title": "Bay of Pigs Invasion",
-    "url": "https://en.wikipedia.org/wiki/Bay_of_Pigs_Invasion",
-    "lang": "en",
-    "description": "1961 failed landing operation of Cuba",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Attack_near_Playa_Giron._April_19%2C_1961._-_panoramio.jpg/60px-Attack_near_Playa_Giron._April_19%2C_1961._-_panoramio.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q191721",
-    "start": {
-     "raw": "+1961-04-17T00:00:00Z",
-     "year": 1961,
-     "precision": "day",
-     "display": "17 April 1961"
-    },
-    "end": {
-     "raw": "+1961-04-19T00:00:00Z",
-     "year": 1961,
-     "precision": "day",
-     "display": "19 April 1961"
-    },
-    "occurredAt": {
-     "raw": "+1961-04-20T00:00:00Z",
-     "year": 1961,
-     "precision": "day",
-     "display": "20 April 1961"
-    }
-   },
-   "angle": "The failed 1961 attempt to overthrow Castro is the direct precondition for the missile crisis and shows how differently the same actors behaved eighteen months apart.",
-   "similarities": [
-    "Both were confrontations over Cuba involving Kennedy, Castro and Soviet interests",
-    "Both were shaped by American covert action against the Cuban government",
-    "Both left Kennedy's reputation for resolve at stake"
-   ],
-   "differences": [
-    "The Bay of Pigs was a covert operation that failed outright; the crisis was an open superpower standoff resolved by negotiation",
-    "The invasion embarrassed Kennedy, while the crisis embarrassed Khrushchev",
-    "Nuclear weapons were not involved in the 1961 landing"
-   ],
-   "start": {
-    "raw": "+1961-04-17T00:00:00Z",
-    "year": 1961,
-    "precision": "day",
-    "display": "17 April 1961"
-   },
-   "end": {
-    "raw": "+1961-04-19T00:00:00Z",
-    "year": 1961,
-    "precision": "day",
-    "display": "19 April 1961"
-   }
-  },
   {
    "entity": {
     "title": "Berlin Crisis of 1961",
@@ -1050,16 +934,16 @@
      "display": "4 June 1961"
     }
    },
-   "angle": "Berlin was the other great Cold War flashpoint and, for Khrushchev, was the real prize the Cuban missiles were meant to win.",
+   "angle": "The immediately preceding superpower standoff, and one Khrushchev explicitly hoped to use the Cuban missiles to resolve in his favour.",
    "similarities": [
-    "Both pitted Kennedy against Khrushchev directly",
-    "Both involved a divided, exposed territory inside the other side's sphere",
-    "Both ended without shooting between the superpowers"
+    "Direct confrontation between Kennedy and Khrushchev over territory near the other's sphere",
+    "Both turned on the credibility of nuclear threats rather than actual fighting",
+    "Kennedy's handling of Berlin shaped Khrushchev's view of him as indecisive"
    ],
    "differences": [
-    "Berlin ended with a wall and a frozen status quo rather than a negotiated withdrawal",
-    "Cuba brought nuclear weapons within minutes of American cities",
-    "Khrushchev read Kennedy's handling of Berlin as weakness, which encouraged the Cuban gamble"
+    "Berlin ended with a wall built rather than weapons withdrawn",
+    "Cuba involved deployed nuclear warheads within strike range of the American mainland",
+    "Berlin's outcome hardened a division; Cuba's led to arms-control agreements"
    ],
    "start": {
     "raw": "+1961-06-04T00:00:00Z",
@@ -1072,6 +956,57 @@
     "year": 1961,
     "precision": "day",
     "display": "9 November 1961"
+   }
+  },
+  {
+   "entity": {
+    "title": "Bay of Pigs Invasion",
+    "url": "https://en.wikipedia.org/wiki/Bay_of_Pigs_Invasion",
+    "lang": "en",
+    "description": "1961 failed landing operation of Cuba",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Attack_near_Playa_Giron._April_19%2C_1961._-_panoramio.jpg/60px-Attack_near_Playa_Giron._April_19%2C_1961._-_panoramio.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q191721",
+    "start": {
+     "raw": "+1961-04-17T00:00:00Z",
+     "year": 1961,
+     "precision": "day",
+     "display": "17 April 1961"
+    },
+    "end": {
+     "raw": "+1961-04-19T00:00:00Z",
+     "year": 1961,
+     "precision": "day",
+     "display": "19 April 1961"
+    },
+    "occurredAt": {
+     "raw": "+1961-04-20T00:00:00Z",
+     "year": 1961,
+     "precision": "day",
+     "display": "20 April 1961"
+    }
+   },
+   "angle": "The failed 1961 attempt to overthrow Castro is the direct cause of the missile deployment and the measure against which Kennedy's 1962 conduct was judged.",
+   "similarities": [
+    "Both pitted the United States against Cuba and its Soviet patron",
+    "Both hinged on American assumptions about how Cubans would react",
+    "Both were shaped by CIA covert planning"
+   ],
+   "differences": [
+    "The invasion was an armed attack; the crisis was a blockade and a negotiation",
+    "The invasion humiliated Kennedy, while the crisis was read as a success for him",
+    "No nuclear weapons were at stake in 1961"
+   ],
+   "start": {
+    "raw": "+1961-04-17T00:00:00Z",
+    "year": 1961,
+    "precision": "day",
+    "display": "17 April 1961"
+   },
+   "end": {
+    "raw": "+1961-04-19T00:00:00Z",
+    "year": 1961,
+    "precision": "day",
+    "display": "19 April 1961"
    }
   },
   {
@@ -1100,16 +1035,16 @@
      "display": "2 November 1983"
     }
    },
-   "angle": "A later NATO exercise that also brought the superpowers close to nuclear war, useful for seeing how misperception rather than intent creates such moments.",
+   "angle": "Another Cold War moment often listed alongside 1962 as a near-miss toward nuclear war, but arising from misread routine rather than an open confrontation.",
    "similarities": [
     "Both are cited among the closest approaches to nuclear war",
-    "Both turned on each side misreading the other's intentions",
-    "Both involved nuclear alert levels being raised"
+    "Both turned on incomplete information about the other side's intentions",
+    "Both involved alerting of nuclear forces"
    ],
    "differences": [
-    "Able Archer was a misread exercise, not a deliberate missile deployment",
-    "The Cuban crisis was public and played out before the world; Able Archer was secret at the time",
-    "The Cuban crisis produced a negotiated agreement and lasting institutions such as the hotline"
+    "Able Archer was a NATO exercise misinterpreted, not a deliberate deployment",
+    "The 1962 crisis was public and televised; Able Archer was largely hidden at the time",
+    "Cuba produced a negotiated settlement and new treaties"
    ],
    "start": {
     "raw": "+1983-11-02T00:00:00Z",
@@ -1152,33 +1087,15 @@
   },
   {
    "entity": {
-    "title": "Bay of Pigs Invasion",
-    "url": "https://en.wikipedia.org/wiki/Bay_of_Pigs_Invasion",
+    "title": "Sino-Soviet split",
+    "url": "https://en.wikipedia.org/wiki/Sino-Soviet_split",
     "lang": "en",
-    "description": "1961 failed landing operation of Cuba",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Attack_near_Playa_Giron._April_19%2C_1961._-_panoramio.jpg/60px-Attack_near_Playa_Giron._April_19%2C_1961._-_panoramio.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q191721",
-    "start": {
-     "raw": "+1961-04-17T00:00:00Z",
-     "year": 1961,
-     "precision": "day",
-     "display": "17 April 1961"
-    },
-    "end": {
-     "raw": "+1961-04-19T00:00:00Z",
-     "year": 1961,
-     "precision": "day",
-     "display": "19 April 1961"
-    },
-    "occurredAt": {
-     "raw": "+1961-04-20T00:00:00Z",
-     "year": 1961,
-     "precision": "day",
-     "display": "20 April 1961"
-    }
+    "description": "Conflict between communist blocs",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Mao_Ts%C3%A9-toung%2C_portrait_en_buste%2C_assis%2C_faisant_face_%C3%A0_Nikita_Khrouchtchev%2C_pendant_la_visite_du_chef_russe_1958_%C3%A0_P%C3%A9kin.jpg/60px-Mao_Ts%C3%A9-toung%2C_portrait_en_buste%2C_assis%2C_faisant_face_%C3%A0_Nikita_Khrouchtchev%2C_pendant_la_visite_du_chef_russe_1958_%C3%A0_P%C3%A9kin.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q506079"
    },
    "relation": "causedBy",
-   "note": "The failed 1961 invasion persuaded Havana and Moscow that another American attack was likely, prompting the missile deployment.",
+   "note": "Soviet fears that Castro was drifting towards China, with whom relations were deteriorating, helped motivate the missile basing programme.",
    "fromGraph": false
   },
   {
@@ -1191,7 +1108,7 @@
     "qid": "Q735219"
    },
    "relation": "causes",
-   "note": "The need for direct leader-to-leader communication during the crisis led to the creation of a permanent link between the two capitals.",
+   "note": "The crisis exposed the absence of a quick direct channel between the two leaderships, and the hotline was built in response.",
    "fromGraph": false
   },
   {
@@ -1216,63 +1133,78 @@
     }
    },
    "relation": "causes",
-   "note": "In the easing of tension that followed, the two powers agreed to ban atmospheric nuclear weapons testing.",
+   "note": "Khrushchev's post-crisis push to reduce the risk of another nuclear confrontation led to a treaty banning atmospheric nuclear tests.",
    "fromGraph": false
   },
   {
    "entity": {
-    "title": "Sino-Soviet split",
-    "url": "https://en.wikipedia.org/wiki/Sino-Soviet_split",
+    "title": "Pacem in terris",
+    "url": "https://en.wikipedia.org/wiki/Pacem_in_terris",
     "lang": "en",
-    "description": "Conflict between communist blocs",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Mao_Ts%C3%A9-toung%2C_portrait_en_buste%2C_assis%2C_faisant_face_%C3%A0_Nikita_Khrouchtchev%2C_pendant_la_visite_du_chef_russe_1958_%C3%A0_P%C3%A9kin.jpg/60px-Mao_Ts%C3%A9-toung%2C_portrait_en_buste%2C_assis%2C_faisant_face_%C3%A0_Nikita_Khrouchtchev%2C_pendant_la_visite_du_chef_russe_1958_%C3%A0_P%C3%A9kin.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q506079"
+    "description": "1963 papal encyclical",
+    "qid": "Q968895"
    },
    "relation": "causes",
-   "note": "Beijing denounced the Soviet withdrawal as capitulation and Khrushchev attacked China in return, deepening the rift between the two communist powers.",
+   "note": "Pope John XXIII issued this encyclical in April 1963 as a response to the crisis, endorsing nuclear nonproliferation and addressing all people rather than only Catholics.",
    "fromGraph": false
   }
  ],
  "glossary": [
   {
    "term": "EXCOMM",
-   "definition": "The Executive Committee of the National Security Council, the small group of advisers Kennedy convened to manage the crisis; it debated air strikes versus a blockade."
+   "definition": "The Executive Committee of the National Security Council, the small group of advisers Kennedy convened to handle the crisis, formally established on 22 October 1962."
   },
   {
    "term": "Quarantine",
-   "definition": "The deliberately chosen word for the American naval cordon of Cuba. Under international law a blockade is an act of war, so a different term was used to avoid that implication."
+   "definition": "The deliberately chosen term for the US naval cordon around Cuba; under international law a 'blockade' is an act of war, so the softer word avoided the formal implications of war."
   },
   {
-   "term": "U-2",
-   "definition": "A high-altitude American spy plane whose photographs of Cuba on 14 October 1962 provided the first hard evidence of Soviet missile sites."
-  },
-  {
-   "term": "Maskirovka",
-   "definition": "Soviet military deception. Under Operation Anadyr troops bound for tropical Cuba were issued ski boots and parkas so that even they would not guess the destination."
-  },
-  {
-   "term": "MRBM and IRBM",
-   "definition": "Medium-range and intermediate-range ballistic missiles. The Soviet R-12 in Cuba reached about 2,000 km and the R-14 about 4,500 km."
+   "term": "MRBM / IRBM",
+   "definition": "Medium-range and intermediate-range ballistic missiles. The Soviet R-12 (NATO name SS-4) could reach about 2,000 km, the R-14 (SS-5) about 4,500 km."
   },
   {
    "term": "ICBM",
-   "definition": "Intercontinental ballistic missile, able to strike another continent from home territory. In 1962 the Soviet Union had very few and they were unreliable, which is why missiles were moved closer to the United States."
+   "definition": "Intercontinental ballistic missile, able to strike the other superpower's territory directly from home soil; the Soviets had very few reliable ones in 1962."
+  },
+  {
+   "term": "Operation Anadyr",
+   "definition": "The Soviet codename for the secret transport and installation of missiles and 43,000 troops in Cuba, approved in July 1962."
+  },
+  {
+   "term": "Maskirovka",
+   "definition": "Russian military term for denial and deception; here, the elaborate secrecy that included telling Soviet troops they were bound for a cold climate."
   },
   {
    "term": "DEFCON",
-   "definition": "The American military alert scale; DEFCON 2, reached during this crisis, is the second-highest state of readiness and has been reached only twice."
+   "definition": "The American defence readiness scale; US forces stood at DEFCON 3 during the crisis and returned to DEFCON 4 on 20 November 1962."
   },
   {
    "term": "Rio Treaty",
-   "definition": "A hemispheric mutual-defence pact used, via a vote of the Organization of American States, to give the quarantine a legal basis short of a declaration of war."
+   "definition": "A hemispheric defence pact used by Kennedy's lawyers, via a two-thirds vote of the Organization of American States, to justify the quarantine without declaring war."
   }
  ],
  "drilldown": [
   {
+   "title": "Operation Mongoose",
+   "url": "https://en.wikipedia.org/wiki/Operation_Mongoose",
+   "lang": "en",
+   "description": "The American sabotage and terrorism campaign against Cuba that helped provoke the Soviet deployment, and which continued into the mid-1960s.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Seal_of_the_Central_Intelligence_Agency.svg/60px-Seal_of_the_Central_Intelligence_Agency.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q1558713"
+  },
+  {
+   "title": "Soviet submarine B-59",
+   "url": "https://en.wikipedia.org/wiki/Soviet_submarine_B-59",
+   "lang": "en",
+   "description": "The 27 October encounter in which a Soviet nuclear torpedo came close to being fired was only revealed at a 2002 conference in Havana.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Soviet_b-59_submarine.jpg/60px-Soviet_b-59_submarine.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q7571803"
+  },
+  {
    "title": "Vasily Arkhipov",
    "url": "https://en.wikipedia.org/wiki/Vasily_Arkhipov",
    "lang": "en",
-   "description": "The Soviet officer aboard B-59 whose refusal to consent may have prevented a nuclear torpedo being fired at an American carrier.",
+   "description": "The officer whose single refusal aboard B-59 has been credited with saving the world.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Vasili_Arkhipov_%28cropped%29.jpg/60px-Vasili_Arkhipov_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q1395757",
    "start": {
@@ -1289,33 +1221,6 @@
    }
   },
   {
-   "title": "Operation Anadyr",
-   "url": "https://en.wikipedia.org/wiki/Operation_Anadyr",
-   "lang": "en",
-   "description": "The secret Soviet plan that moved 43,000 troops and nuclear missiles to Cuba under elaborate deception.",
-   "qid": "Q1931877",
-   "start": {
-    "raw": "+1962-00-00T00:00:00Z",
-    "year": 1962,
-    "precision": "year",
-    "display": "1962"
-   },
-   "occurredAt": {
-    "raw": "+1962-00-00T00:00:00Z",
-    "year": 1962,
-    "precision": "year",
-    "display": "1962"
-   }
-  },
-  {
-   "title": "Operation Mongoose",
-   "url": "https://en.wikipedia.org/wiki/Operation_Mongoose",
-   "lang": "en",
-   "description": "The American campaign of sabotage and terrorism against Cuba that helps explain why Havana accepted Soviet missiles.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Seal_of_the_Central_Intelligence_Agency.svg/60px-Seal_of_the_Central_Intelligence_Agency.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q1558713"
-  },
-  {
    "title": "PGM-19 Jupiter",
    "url": "https://en.wikipedia.org/wiki/PGM-19_Jupiter",
    "lang": "en",
@@ -1324,45 +1229,18 @@
    "qid": "Q1473449"
   },
   {
-   "title": "Nikita Khrushchev",
-   "url": "https://en.wikipedia.org/wiki/Nikita_Khrushchev",
+   "title": "Lockheed U-2",
+   "url": "https://en.wikipedia.org/wiki/Lockheed_U-2",
    "lang": "en",
-   "description": "His motives, miscalculations and subsequent fall from power are central to the crisis and its aftermath.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/1956_Press_Photo_Communist_Party_Secretary_Nikita_S._Khrushchev_in_Moscow_%28cropped%29.jpg/60px-1956_Press_Photo_Communist_Party_Secretary_Nikita_S._Khrushchev_in_Moscow_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q35314",
-   "start": {
-    "raw": "+1894-04-03T00:00:00Z",
-    "year": 1894,
-    "precision": "day",
-    "display": "3 April 1894"
-   },
-   "end": {
-    "raw": "+1971-09-11T00:00:00Z",
-    "year": 1971,
-    "precision": "day",
-    "display": "11 September 1971"
-   }
-  },
-  {
-   "title": "Détente",
-   "url": "https://en.wikipedia.org/wiki/D%C3%A9tente",
-   "lang": "en",
-   "description": "The calmer phase of the Cold War that followed, including the hotline and the test ban treaty.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Leonid_Brezhnev_and_Richard_Nixon_talks_in_1973_b.jpg/60px-Leonid_Brezhnev_and_Richard_Nixon_talks_in_1973_b.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q155705"
-  },
-  {
-   "title": "Pacem in terris",
-   "url": "https://en.wikipedia.org/wiki/Pacem_in_terris",
-   "lang": "en",
-   "description": "The 1963 papal encyclical written in response to the crisis, addressed for the first time to all people rather than only Catholics.",
-   "qid": "Q968895"
+   "description": "The high-altitude spy plane that both proved the missiles existed and produced the crisis's only combat death.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Usaf.u2.750pix.jpg/60px-Usaf.u2.750pix.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q189064"
   },
   {
    "title": "Bay of Pigs Invasion",
    "url": "https://en.wikipedia.org/wiki/Bay_of_Pigs_Invasion",
    "lang": "en",
-   "description": "The 1961 failure that shaped every participant's expectations of what would happen next.",
+   "description": "The 1961 failure that shaped Khrushchev's reading of Kennedy and Cuba's expectation of another attack.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Attack_near_Playa_Giron._April_19%2C_1961._-_panoramio.jpg/60px-Attack_near_Playa_Giron._April_19%2C_1961._-_panoramio.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q191721",
    "start": {
@@ -1383,6 +1261,46 @@
     "precision": "day",
     "display": "20 April 1961"
    }
+  },
+  {
+   "title": "Partial Nuclear Test Ban Treaty",
+   "url": "https://en.wikipedia.org/wiki/Partial_Nuclear_Test_Ban_Treaty",
+   "lang": "en",
+   "description": "The concrete arms-control outcome of the post-crisis thaw between Washington and Moscow.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/PTBT_Participation.svg/60px-PTBT_Participation.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q278960",
+   "start": {
+    "raw": "+1963-08-05T00:00:00Z",
+    "year": 1963,
+    "precision": "day",
+    "display": "5 August 1963"
+   },
+   "occurredAt": {
+    "raw": "+1963-08-05T00:00:00Z",
+    "year": 1963,
+    "precision": "day",
+    "display": "5 August 1963"
+   }
+  },
+  {
+   "title": "Nikita Khrushchev",
+   "url": "https://en.wikipedia.org/wiki/Nikita_Khrushchev",
+   "lang": "en",
+   "description": "His fall from power two years later was partly due to the Politburo's embarrassment over the Cuban outcome.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/1956_Press_Photo_Communist_Party_Secretary_Nikita_S._Khrushchev_in_Moscow_%28cropped%29.jpg/60px-1956_Press_Photo_Communist_Party_Secretary_Nikita_S._Khrushchev_in_Moscow_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q35314",
+   "start": {
+    "raw": "+1894-04-03T00:00:00Z",
+    "year": 1894,
+    "precision": "day",
+    "display": "3 April 1894"
+   },
+   "end": {
+    "raw": "+1971-09-11T00:00:00Z",
+    "year": 1971,
+    "precision": "day",
+    "display": "11 September 1971"
+   }
   }
  ],
  "coverage": {
@@ -1395,13 +1313,13 @@
    "none": 0
   }
  },
- "generatedAt": "2026-09-12T12:59:56.955Z",
+ "generatedAt": "2026-09-12T13:14:48.895Z",
  "model": "claude-opus-5",
  "usage": {
   "input": 41978,
-  "output": 9716,
+  "output": 9145,
   "cacheWrite": 0,
   "cacheRead": 4785,
-  "usd": 0.4551825
+  "usd": 0.4409075
  }
 }

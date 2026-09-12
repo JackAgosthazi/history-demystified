@@ -154,29 +154,8 @@
   },
   "timeline": [
    {
-    "id": "P710-Q27764-+1767-08-25T00:00:00Z",
-    "label": "Participant: Louis Antoine de Saint-Just",
-    "kind": "event",
-    "date": {
-     "raw": "+1767-08-25T00:00:00Z",
-     "year": 1767,
-     "precision": "day",
-     "display": "25 August 1767"
-    },
-    "endDate": {
-     "raw": "+1794-07-28T00:00:00Z",
-     "year": 1794,
-     "precision": "day",
-     "display": "28 July 1794"
-    },
-    "qid": "Q27764",
-    "title": "Louis Antoine de Saint-Just",
-    "note": "Philosopher, military and political leader (1767-1794)",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Louis_Antoine_de_Saint-Just"
-   },
-   {
     "id": "start",
-    "label": "French Revolution begins",
+    "label": "French Revolution",
     "kind": "period",
     "date": {
      "raw": "+1789-07-14T00:00:00Z",
@@ -441,12 +420,12 @@
    "truncated": false
   }
  ],
- "summary": "The French Revolution was a decade of political and social upheaval in France, conventionally dated from the meeting of the Estates General — a long-dormant assembly of clergy, nobility and commoners, summoned in May 1789 for the first time since 1614 — to the coup of 9 November 1799 that put the army officer Napoleon Bonaparte in power [S1]. It is remembered because it destroyed the Ancien Régime, the old order of absolute monarchy and legal privilege by birth [S3], and because documents like the Declaration of the Rights of Man and of the Citizen proclaimed equality before the law, basic liberties and the sovereignty of the nation [S3]. Its values are still central to French political argument today [S1].\n\nThe immediate trigger was money. Half of state revenue went on servicing debt by 1788, taxes fell mainly on the lower classes because nobility and Church held exemptions, and regional law courts called parlements blocked reform [S11]. Recession from 1785 and bad harvests in 1787 and 1788 added hunger and unemployment [S7]. Commoner deputies declared themselves a National Assembly, a Paris crowd stormed the Bastille fortress on 14 July 1789, and the Assembly abolished feudalism [S1]. War from April 1792 radicalised everything: the monarchy fell that September, Louis XVI was executed in January 1793, and roughly 16,000 people were condemned by the Revolutionary Tribunal in the Reign of Terror before it ended in July 1794 [S1]. The Vendée revolt and factional killing pushed the death toll into the hundreds of thousands [S3]. Historians disagree sharply about causes: some see radical Enlightenment ideas as the engine, while Alfred Cobban argued revolutionaries mostly improvised practical answers to immediate problems [S15].",
- "whyItMatters": "Feudal dues and tithes were cancelled, Church and émigré lands sold off, and rural France became more a country of small independent farms [S10][S17]. No later regime — not Napoleon, not the restored Bourbons, not Vichy — attempted to restore the nobility's stripped privileges, and France became permanently a society of equals under law [S10]. The wars begun in 1792 drew in every major European power, redrew the map and ran on until 1815 [S14]. In the colonies the promises were applied late and under pressure: slavery was abolished in Saint-Domingue in 1793 by commissioners outbidding British and Spanish offers of freedom to slave fighters [S12]. Women marched, organised and published, but the 1791 and 1793 constitutions denied them political rights, and women's clubs were banned outright in October 1793 [S16].",
+ "summary": "The French Revolution was a decade of political and social upheaval in France, conventionally dated from the meeting of the Estates General — a representative assembly of clergy, nobility and commoners that had not met since 1614 — in May 1789, to the coup that made Napoleon Bonaparte First Consul on 9 November 1799 [S1]. It ended the Ancien Régime, the old order of absolute monarchy and legally privileged estates, replacing it first with a constitutional monarchy and then with a republic [S3]. It is remembered above all for the Declaration of the Rights of Man and of the Citizen of 1789, which proclaimed equality of citizens before the law, basic liberties, and the sovereignty of the nation [S3], and for the mass violence of the Terror [S3].\n\nThe immediate trigger was fiscal: by 1788 half of state revenue went on servicing debt, and attempts to tax the privileged were blocked by the parlements, regional judicial bodies that had to register new tax laws [S11]. Bad harvests in 1787 and 1788 pushed up food prices and unemployment [S7]. The Third Estate — the commoners — declared itself a National Assembly, and after a Paris crowd stormed the Bastille fortress on 14 July 1789 the Assembly abolished feudalism, took control of the Church and issued the Declaration [S1]. War with Austria from April 1792, then military defeat, brought down the monarchy in September 1792 and sent Louis XVI to the guillotine in January 1793 [S1]. Power passed to the Committee of Public Safety under Maximilien Robespierre; roughly 16,000 people were sentenced to death by the Revolutionary Tribunal before Robespierre's fall in July 1794 [S1]. The unstable Directory that followed was overthrown by Napoleon in 1799 [S1]. Who counted as a citizen was contested throughout: the 1791 and 1793 constitutions denied women political rights [S16], and slavery in the colonies was abolished only in February 1794, delayed because it conflicted with slave owners' property rights [S15].",
+ "whyItMatters": "Feudal dues and church tithes were cancelled, noble privilege abolished, and church lands nationalised and sold, turning rural France into more of a land of small independent farms [S10][S17]. No later government — not Napoleon, not the restored Bourbons, not Vichy — attempted to give the nobility back its privileges, and France permanently became a society of equals under the law [S10]. The revolutionary wars carried these ideas across continental Europe and contributed to dismantling the society of orders in western Europe [S3]. Historians disagree sharply about causes and meaning: Marxist readings emphasising class struggle were largely abandoned by Western scholars from the 1990s without an agreed replacement [S6], and where Jonathan Israel sees the radical Enlightenment as the driving force, Alfred Cobban argued revolutionaries were mostly improvising practical answers to immediate problems [S15].",
  "takeaways": [
   {
    "id": "t0",
-   "text": "The French Revolution was a ten-year upheaval in France that began with the calling of a long-dormant representative assembly in 1789 and ended when a general, Napoleon Bonaparte, seized power in a coup in November 1799.",
+   "text": "The French Revolution was a ten-year upheaval in France, conventionally dated from the summoning of a long-defunct national representative body in 1789 to a military coup by Napoleon Bonaparte on 9 November 1799.",
    "sourceId": "S1",
    "quote": "The French Revolution was a period of political and societal change in France that began with the Estates General of 1789 and ended with the Coup of 18 Brumaire on 9 November 1799.",
    "verification": {
@@ -460,35 +439,49 @@
   },
   {
    "id": "t1",
-   "text": "The Revolution had no single cause: it grew out of overlapping social, economic, financial and political crises in the late 1780s, made worse by an elite that resisted reform and a king who could not decide.",
+   "text": "It had no single cause: a tangle of social, economic, financial and political problems came to a head in the late 1780s, worsened by elite resistance to reform and by an indecisive king.",
    "sourceId": "S7",
-   "quote": "The Revolution resulted from multiple long-term and short-term factors, culminating in a social, economic, financial and political crisis in the late 1780s. Combined with resistance to reform by the ruling elite",
+   "quote": "The Revolution resulted from multiple long-term and short-term factors, culminating in a social, economic, financial and political crisis in the late 1780s.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/French_Revolution#Causes:~:text=The%20Revolution%20resulted%20from%20multiple%20long%2Dterm,to%20reform%20by%20the%20ruling%20elite",
+    "citationUrl": "https://en.wikipedia.org/wiki/French_Revolution#Causes:~:text=The%20Revolution%20resulted%20from%20multiple%20long%2Dterm,political%20crisis%20in%20the%20late%201780s.",
     "sourceTitle": "French Revolution",
     "sourceUrl": "https://en.wikipedia.org/wiki/French_Revolution#Causes"
    }
   },
   {
    "id": "t2",
-   "text": "Within four months of the Bastille's fall the Assembly had abolished feudalism, cancelled church tithes, decreed equality before the law and freedom of worship, and opened public office to all.",
-   "sourceId": "S8",
-   "quote": "Other decrees included equality before the law, opening public office to all, freedom of worship, and cancellation of special privileges held by provinces and towns.",
+   "text": "The state's finances were the immediate trigger: by 1788 half of all government revenue went simply on paying interest on its debts.",
+   "sourceId": "S11",
+   "quote": "France primarily used loans to fund the 1778 to 1783 Anglo-French War. Even after it ended, the monarchy continued to borrow heavily, and by 1788, half of state revenue went on servicing its debt.",
    "verification": {
-    "status": "unverified",
+    "status": "verified",
     "method": "exact",
-    "score": 0,
-    "reason": "Quote found, but the surrounding text does not mention within, bastille's, assembly.",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/French_Revolution#Crisis_of_the_Ancien_R%C3%A9gime:~:text=France%20primarily%20used%20loans%20to%20fund,revenue%20went%20on%20servicing%20its%20debt.",
+    "sourceTitle": "French Revolution",
+    "sourceUrl": "https://en.wikipedia.org/wiki/French_Revolution#Crisis_of_the_Ancien_R%C3%A9gime"
+   }
+  },
+  {
+   "id": "t3",
+   "text": "Within months of 1789 the legal foundations of the old order were dismantled, including feudal dues that had supplied most noble income and the tithes paid to the Church.",
+   "sourceId": "S8",
+   "quote": "Over 25% of French farmland was subject to feudal dues, providing the nobility with most of their income; these were now cancelled, along with church tithes.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/French_Revolution#Constitutional_monarchy_(July_1789_%E2%80%93_September_1792):~:text=Over%2025%25%20of%20French%20farmland%20was,now%20cancelled%2C%20along%20with%20church%20tithes.",
     "sourceTitle": "French Revolution",
     "sourceUrl": "https://en.wikipedia.org/wiki/French_Revolution#Constitutional_monarchy_(July_1789_%E2%80%93_September_1792)"
    }
   },
   {
-   "id": "t3",
-   "text": "The Revolution turned violent on a large scale: roughly 16,000 people were condemned and executed by a special court during the Reign of Terror of 1793–94.",
+   "id": "t4",
+   "text": "The Revolution turned violently on its own: roughly 16,000 people were condemned by a special court and executed during the Reign of Terror, which ended in July 1794.",
    "sourceId": "S1",
    "quote": "About 16,000 people were sentenced by the Revolutionary Tribunal and executed in the Reign of Terror, which ended in July 1794 with the Thermidorian Reaction.",
    "verification": {
@@ -501,8 +494,23 @@
    }
   },
   {
-   "id": "t4",
-   "text": "The Revolution set off wars that ran from 1792 until Napoleon's final defeat at Waterloo in 1815, eventually involving every major European power and redrawing the map of Europe.",
+   "id": "t5",
+   "text": "Despite later swings between republic, empire and monarchy in France, the Revolution definitively ended feudalism and absolute royal rule there and made a property-owning middle class the dominant political force.",
+   "sourceId": "S5",
+   "quote": "la revolución marcó el final definitivo del feudalismo y del absolutismo en el país,​ y dio a luz a un nuevo régimen donde la burguesía, que empleaba en ocasiones a las masas populares, se convirtió en la fuerza política dominante",
+   "quoteTranslation": "the revolution marked the definitive end of feudalism and absolutism in the country, and gave birth to a new regime in which the bourgeoisie, which sometimes made use of the popular masses, became the dominant political force.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://es.wikipedia.org/wiki/Revoluci%C3%B3n_francesa#:~:text=la%20revoluci%C3%B3n%20marc%C3%B3%20el%20final%20definitivo,convirti%C3%B3%20en%20la%20fuerza%20pol%C3%ADtica%20dominante",
+    "sourceTitle": "Revolución francesa",
+    "sourceUrl": "https://es.wikipedia.org/wiki/Revoluci%C3%B3n_francesa"
+   }
+  },
+  {
+   "id": "t6",
+   "text": "The wars begun by revolutionary France in 1792 ran on until Napoleon's defeat at Waterloo in 1815, drew in every major European power and redrew the map of Europe.",
    "sourceId": "S14",
    "quote": "The Revolution initiated a series of conflicts that began in 1792 and ended with Napoleon's defeat at Waterloo in 1815.",
    "verification": {
@@ -513,44 +521,16 @@
     "sourceTitle": "French Revolution",
     "sourceUrl": "https://en.wikipedia.org/wiki/French_Revolution#French_Revolutionary_Wars"
    }
-  },
-  {
-   "id": "t5",
-   "text": "Nobility and Church survived the Revolution but were permanently weakened, and no later French government — monarchist, imperial or authoritarian — restored the legal privileges stripped away in 1789.",
-   "sourceId": "S10",
-   "quote": "there were no efforts by the Bourbons, Vichy or any other government to restore the privileges that had been stripped away from the nobility in 1789. France permanently became a society of equals under the law.",
-   "verification": {
-    "status": "verified",
-    "method": "exact",
-    "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/French_Revolution#Impact:~:text=there%20were%20no%20efforts%20by%20the,society%20of%20equals%20under%20the%20law.",
-    "sourceTitle": "French Revolution",
-    "sourceUrl": "https://en.wikipedia.org/wiki/French_Revolution#Impact"
-   }
-  },
-  {
-   "id": "t6",
-   "text": "The Revolution's declared rights did not extend to everyone: women were denied political rights by both the 1791 and 1793 constitutions, and slavery in the colonies was abolished only in February 1794.",
-   "sourceId": "S15",
-   "quote": "The National Assembly opposed equal political rights for women, while the abolition of slavery in the colonies was delayed until February 1794 because it conflicted with the property rights of slave owners",
-   "verification": {
-    "status": "verified",
-    "method": "exact",
-    "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/French_Revolution#Role_of_ideology:~:text=The%20National%20Assembly%20opposed%20equal%20political,the%20property%20rights%20of%20slave%20owners",
-    "sourceTitle": "French Revolution",
-    "sourceUrl": "https://en.wikipedia.org/wiki/French_Revolution#Role_of_ideology"
-   }
   }
  ],
  "perspectives": [
   {
    "label": "Marxist social interpretation",
    "stance": "A class revolution driven by social and economic forces",
-   "body": "From the 1930s French scholarship read the Revolution through the social and economic experience of ordinary people — peasants, rural panic, urban crowds. Georges Lefebvre and Albert Soboul treated the sans-culottes and the peasantry as the engine of events rather than mere background.",
+   "body": "From the 1930s French scholarship treated the Revolution mainly as a socio-economic transformation, studying peasants, rural panic and crowd behaviour rather than the decisions of politicians. Georges Lefebvre and Albert Soboul, who wrote a major study of the radical Parisian sans-culottes, are the leading names.",
    "evidence": {
     "id": "p0",
-    "text": "Georges Lefebvre produced a Marxist socio-economic analysis of the Revolution based on detailed studies of peasants and revolutionary crowds.",
+    "text": "Georges Lefebvre developed a Marxist socio-economic reading of the Revolution based on detailed studies of peasants and revolutionary crowds.",
     "sourceId": "S6",
     "quote": "Georges Lefebvre elaborated a Marxist socio-economic analysis of the revolution with detailed studies of peasants, the rural panic of 1789, and the behaviour of revolutionary crowds.",
     "verification": {
@@ -562,12 +542,69 @@
      "sourceUrl": "https://en.wikipedia.org/wiki/French_Revolution#Historiography"
     }
    }
+  },
+  {
+   "label": "Revisionist political interpretation",
+   "stance": "Primarily a political conflict, not a class one",
+   "body": "Alfred Cobban attacked the Marxist account directly, arguing the Revolution was a political struggle whose winners were conservative landowners and whose economic effect was to hold France back. François Furet and Denis Richet likewise put political decisions first, seeing a reformist opening in 1789–90 wrecked by later crowd intervention.",
+   "evidence": {
+    "id": "p1",
+    "text": "One influential reading holds the Revolution was mainly a political conflict won by conservative property owners, which slowed economic development.",
+    "sourceId": "S6",
+    "quote": "He argued the Revolution was primarily a political conflict, which ended in a victory for conservative property owners, a result which retarded economic development.",
+    "verification": {
+     "status": "verified",
+     "method": "exact",
+     "score": 1,
+     "citationUrl": "https://en.wikipedia.org/wiki/French_Revolution#Historiography:~:text=He%20argued%20the%20Revolution%20was%20primarily,a%20result%20which%20retarded%20economic%20development.",
+     "sourceTitle": "French Revolution",
+     "sourceUrl": "https://en.wikipedia.org/wiki/French_Revolution#Historiography"
+    }
+   }
+  },
+  {
+   "label": "Ideology-first reading",
+   "stance": "Radical Enlightenment thought drove the Revolution",
+   "body": "Jonathan Israel treats the \"radical Enlightenment\" as the Revolution's main engine, with measures such as seizing church property reflecting a genuine commitment to secularism. Cobban counters that revolutionaries were improvising answers to immediate problems rather than applying theory.",
+   "evidence": {
+    "id": "p2",
+    "text": "There is an explicit dispute over whether ideas or improvisation drove the revolutionaries, with one historian insisting the \"radical Enlightenment\" was the primary driving force.",
+    "sourceId": "S15",
+    "quote": "The role of ideology in the Revolution is controversial with Jonathan Israel stating that the \"radical Enlightenment\" was the primary driving force of the Revolution.",
+    "verification": {
+     "status": "verified",
+     "method": "exact",
+     "score": 1,
+     "citationUrl": "https://en.wikipedia.org/wiki/French_Revolution#Role_of_ideology:~:text=The%20role%20of%20ideology%20in%20the,primary%20driving%20force%20of%20the%20Revolution.",
+     "sourceTitle": "French Revolution",
+     "sourceUrl": "https://en.wikipedia.org/wiki/French_Revolution#Role_of_ideology"
+    }
+   }
+  },
+  {
+   "label": "Post-1990 scholarship",
+   "stance": "No dominant explanation now commands agreement",
+   "body": "Western historians have largely dropped class-struggle models as anachronistic without agreeing on a replacement. Attention has shifted instead to cultural, regional, visual and transnational histories, and to colonial questions.",
+   "evidence": {
+    "id": "p3",
+    "text": "Marxist class-struggle explanations were largely abandoned by Western scholars from the 1990s, and no new explanatory model has taken their place.",
+    "sourceId": "S6",
+    "quote": "From the 1990s, Western scholars largely abandoned Marxist interpretations of the revolution in terms of bourgeoisie-proletarian class struggle as anachronistic. However, no new explanatory model has gained widespread support.",
+    "verification": {
+     "status": "verified",
+     "method": "exact",
+     "score": 1,
+     "citationUrl": "https://en.wikipedia.org/wiki/French_Revolution#Historiography:~:text=From%20the%201990s%2C%20Western%20scholars%20largely,explanatory%20model%20has%20gained%20widespread%20support.",
+     "sourceTitle": "French Revolution",
+     "sourceUrl": "https://en.wikipedia.org/wiki/French_Revolution#Historiography"
+    }
+   }
   }
  ],
  "claims": [
   {
    "id": "t0",
-   "text": "The French Revolution was a ten-year upheaval in France that began with the calling of a long-dormant representative assembly in 1789 and ended when a general, Napoleon Bonaparte, seized power in a coup in November 1799.",
+   "text": "The French Revolution was a ten-year upheaval in France, conventionally dated from the summoning of a long-defunct national representative body in 1789 to a military coup by Napoleon Bonaparte on 9 November 1799.",
    "sourceId": "S1",
    "quote": "The French Revolution was a period of political and societal change in France that began with the Estates General of 1789 and ended with the Coup of 18 Brumaire on 9 November 1799.",
    "verification": {
@@ -581,35 +618,49 @@
   },
   {
    "id": "t1",
-   "text": "The Revolution had no single cause: it grew out of overlapping social, economic, financial and political crises in the late 1780s, made worse by an elite that resisted reform and a king who could not decide.",
+   "text": "It had no single cause: a tangle of social, economic, financial and political problems came to a head in the late 1780s, worsened by elite resistance to reform and by an indecisive king.",
    "sourceId": "S7",
-   "quote": "The Revolution resulted from multiple long-term and short-term factors, culminating in a social, economic, financial and political crisis in the late 1780s. Combined with resistance to reform by the ruling elite",
+   "quote": "The Revolution resulted from multiple long-term and short-term factors, culminating in a social, economic, financial and political crisis in the late 1780s.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/French_Revolution#Causes:~:text=The%20Revolution%20resulted%20from%20multiple%20long%2Dterm,to%20reform%20by%20the%20ruling%20elite",
+    "citationUrl": "https://en.wikipedia.org/wiki/French_Revolution#Causes:~:text=The%20Revolution%20resulted%20from%20multiple%20long%2Dterm,political%20crisis%20in%20the%20late%201780s.",
     "sourceTitle": "French Revolution",
     "sourceUrl": "https://en.wikipedia.org/wiki/French_Revolution#Causes"
    }
   },
   {
    "id": "t2",
-   "text": "Within four months of the Bastille's fall the Assembly had abolished feudalism, cancelled church tithes, decreed equality before the law and freedom of worship, and opened public office to all.",
-   "sourceId": "S8",
-   "quote": "Other decrees included equality before the law, opening public office to all, freedom of worship, and cancellation of special privileges held by provinces and towns.",
+   "text": "The state's finances were the immediate trigger: by 1788 half of all government revenue went simply on paying interest on its debts.",
+   "sourceId": "S11",
+   "quote": "France primarily used loans to fund the 1778 to 1783 Anglo-French War. Even after it ended, the monarchy continued to borrow heavily, and by 1788, half of state revenue went on servicing its debt.",
    "verification": {
-    "status": "unverified",
+    "status": "verified",
     "method": "exact",
-    "score": 0,
-    "reason": "Quote found, but the surrounding text does not mention within, bastille's, assembly.",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/French_Revolution#Crisis_of_the_Ancien_R%C3%A9gime:~:text=France%20primarily%20used%20loans%20to%20fund,revenue%20went%20on%20servicing%20its%20debt.",
+    "sourceTitle": "French Revolution",
+    "sourceUrl": "https://en.wikipedia.org/wiki/French_Revolution#Crisis_of_the_Ancien_R%C3%A9gime"
+   }
+  },
+  {
+   "id": "t3",
+   "text": "Within months of 1789 the legal foundations of the old order were dismantled, including feudal dues that had supplied most noble income and the tithes paid to the Church.",
+   "sourceId": "S8",
+   "quote": "Over 25% of French farmland was subject to feudal dues, providing the nobility with most of their income; these were now cancelled, along with church tithes.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/French_Revolution#Constitutional_monarchy_(July_1789_%E2%80%93_September_1792):~:text=Over%2025%25%20of%20French%20farmland%20was,now%20cancelled%2C%20along%20with%20church%20tithes.",
     "sourceTitle": "French Revolution",
     "sourceUrl": "https://en.wikipedia.org/wiki/French_Revolution#Constitutional_monarchy_(July_1789_%E2%80%93_September_1792)"
    }
   },
   {
-   "id": "t3",
-   "text": "The Revolution turned violent on a large scale: roughly 16,000 people were condemned and executed by a special court during the Reign of Terror of 1793–94.",
+   "id": "t4",
+   "text": "The Revolution turned violently on its own: roughly 16,000 people were condemned by a special court and executed during the Reign of Terror, which ended in July 1794.",
    "sourceId": "S1",
    "quote": "About 16,000 people were sentenced by the Revolutionary Tribunal and executed in the Reign of Terror, which ended in July 1794 with the Thermidorian Reaction.",
    "verification": {
@@ -622,8 +673,23 @@
    }
   },
   {
-   "id": "t4",
-   "text": "The Revolution set off wars that ran from 1792 until Napoleon's final defeat at Waterloo in 1815, eventually involving every major European power and redrawing the map of Europe.",
+   "id": "t5",
+   "text": "Despite later swings between republic, empire and monarchy in France, the Revolution definitively ended feudalism and absolute royal rule there and made a property-owning middle class the dominant political force.",
+   "sourceId": "S5",
+   "quote": "la revolución marcó el final definitivo del feudalismo y del absolutismo en el país,​ y dio a luz a un nuevo régimen donde la burguesía, que empleaba en ocasiones a las masas populares, se convirtió en la fuerza política dominante",
+   "quoteTranslation": "the revolution marked the definitive end of feudalism and absolutism in the country, and gave birth to a new regime in which the bourgeoisie, which sometimes made use of the popular masses, became the dominant political force.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://es.wikipedia.org/wiki/Revoluci%C3%B3n_francesa#:~:text=la%20revoluci%C3%B3n%20marc%C3%B3%20el%20final%20definitivo,convirti%C3%B3%20en%20la%20fuerza%20pol%C3%ADtica%20dominante",
+    "sourceTitle": "Revolución francesa",
+    "sourceUrl": "https://es.wikipedia.org/wiki/Revoluci%C3%B3n_francesa"
+   }
+  },
+  {
+   "id": "t6",
+   "text": "The wars begun by revolutionary France in 1792 ran on until Napoleon's defeat at Waterloo in 1815, drew in every major European power and redrew the map of Europe.",
    "sourceId": "S14",
    "quote": "The Revolution initiated a series of conflicts that began in 1792 and ended with Napoleon's defeat at Waterloo in 1815.",
    "verification": {
@@ -636,36 +702,8 @@
    }
   },
   {
-   "id": "t5",
-   "text": "Nobility and Church survived the Revolution but were permanently weakened, and no later French government — monarchist, imperial or authoritarian — restored the legal privileges stripped away in 1789.",
-   "sourceId": "S10",
-   "quote": "there were no efforts by the Bourbons, Vichy or any other government to restore the privileges that had been stripped away from the nobility in 1789. France permanently became a society of equals under the law.",
-   "verification": {
-    "status": "verified",
-    "method": "exact",
-    "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/French_Revolution#Impact:~:text=there%20were%20no%20efforts%20by%20the,society%20of%20equals%20under%20the%20law.",
-    "sourceTitle": "French Revolution",
-    "sourceUrl": "https://en.wikipedia.org/wiki/French_Revolution#Impact"
-   }
-  },
-  {
-   "id": "t6",
-   "text": "The Revolution's declared rights did not extend to everyone: women were denied political rights by both the 1791 and 1793 constitutions, and slavery in the colonies was abolished only in February 1794.",
-   "sourceId": "S15",
-   "quote": "The National Assembly opposed equal political rights for women, while the abolition of slavery in the colonies was delayed until February 1794 because it conflicted with the property rights of slave owners",
-   "verification": {
-    "status": "verified",
-    "method": "exact",
-    "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/French_Revolution#Role_of_ideology:~:text=The%20National%20Assembly%20opposed%20equal%20political,the%20property%20rights%20of%20slave%20owners",
-    "sourceTitle": "French Revolution",
-    "sourceUrl": "https://en.wikipedia.org/wiki/French_Revolution#Role_of_ideology"
-   }
-  },
-  {
    "id": "p0",
-   "text": "Georges Lefebvre produced a Marxist socio-economic analysis of the Revolution based on detailed studies of peasants and revolutionary crowds.",
+   "text": "Georges Lefebvre developed a Marxist socio-economic reading of the Revolution based on detailed studies of peasants and revolutionary crowds.",
    "sourceId": "S6",
    "quote": "Georges Lefebvre elaborated a Marxist socio-economic analysis of the revolution with detailed studies of peasants, the rural panic of 1789, and the behaviour of revolutionary crowds.",
    "verification": {
@@ -676,24 +714,54 @@
     "sourceTitle": "French Revolution",
     "sourceUrl": "https://en.wikipedia.org/wiki/French_Revolution#Historiography"
    }
+  },
+  {
+   "id": "p1",
+   "text": "One influential reading holds the Revolution was mainly a political conflict won by conservative property owners, which slowed economic development.",
+   "sourceId": "S6",
+   "quote": "He argued the Revolution was primarily a political conflict, which ended in a victory for conservative property owners, a result which retarded economic development.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/French_Revolution#Historiography:~:text=He%20argued%20the%20Revolution%20was%20primarily,a%20result%20which%20retarded%20economic%20development.",
+    "sourceTitle": "French Revolution",
+    "sourceUrl": "https://en.wikipedia.org/wiki/French_Revolution#Historiography"
+   }
+  },
+  {
+   "id": "p2",
+   "text": "There is an explicit dispute over whether ideas or improvisation drove the revolutionaries, with one historian insisting the \"radical Enlightenment\" was the primary driving force.",
+   "sourceId": "S15",
+   "quote": "The role of ideology in the Revolution is controversial with Jonathan Israel stating that the \"radical Enlightenment\" was the primary driving force of the Revolution.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/French_Revolution#Role_of_ideology:~:text=The%20role%20of%20ideology%20in%20the,primary%20driving%20force%20of%20the%20Revolution.",
+    "sourceTitle": "French Revolution",
+    "sourceUrl": "https://en.wikipedia.org/wiki/French_Revolution#Role_of_ideology"
+   }
+  },
+  {
+   "id": "p3",
+   "text": "Marxist class-struggle explanations were largely abandoned by Western scholars from the 1990s, and no new explanatory model has taken their place.",
+   "sourceId": "S6",
+   "quote": "From the 1990s, Western scholars largely abandoned Marxist interpretations of the revolution in terms of bourgeoisie-proletarian class struggle as anachronistic. However, no new explanatory model has gained widespread support.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/French_Revolution#Historiography:~:text=From%20the%201990s%2C%20Western%20scholars%20largely,explanatory%20model%20has%20gained%20widespread%20support.",
+    "sourceTitle": "French Revolution",
+    "sourceUrl": "https://en.wikipedia.org/wiki/French_Revolution#Historiography"
+   }
   }
  ],
  "keyEvents": [
   {
-   "label": "Tax reform blocked, Estates-General called",
-   "summary": "Finance minister Calonne's proposed universal land tax was rejected first by an assembly of notables and then by the regional law courts, who insisted only an Estates-General could approve new taxes; the deadlock forced the crown to summon a body that had not met since 1614.",
-   "entity": {
-    "title": "Assembly of Notables",
-    "url": "https://en.wikipedia.org/wiki/Assembly_of_Notables",
-    "lang": "en",
-    "description": "Consultative assembly in the Kingdom of France",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Rouget_-_Assembl%C3%A9e_des_notables_%C3%A0_Rouen_%284_novembre_1596%29.jpg/60px-Rouget_-_Assembl%C3%A9e_des_notables_%C3%A0_Rouen_%284_novembre_1596%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q705069"
-   }
-  },
-  {
-   "label": "The Estates General meets",
-   "summary": "Called because of the financial deadlock, the assembly of clergy, nobility and commoners immediately became radicalised by the struggle over public finances and over whether votes would be counted by estate or by head.",
+   "label": "Estates General summoned after 175 years",
+   "summary": "Unable to get new taxes approved by the law courts that had to register them, the crown called a national assembly of clergy, nobility and commoners that had not met since 1614. The dispute over whether it voted by estate or by head immediately became a struggle over sovereignty.",
    "entity": {
     "title": "Estates General of 1789",
     "url": "https://en.wikipedia.org/wiki/Estates_General_of_1789",
@@ -728,20 +796,38 @@
    }
   },
   {
-   "label": "Third Estate forms a National Assembly",
-   "summary": "The commoner deputies broke away and declared themselves a National Assembly, claiming to represent the nation itself — the moment sovereignty was transferred in principle from king to nation.",
+   "label": "Third Estate becomes the National Assembly",
+   "summary": "Commoner deputies broke away and declared themselves a National Assembly representing the nation. This transferred the claim to sovereignty from the king to an elected body.",
    "entity": {
-    "title": "Constituent assembly",
-    "url": "https://en.wikipedia.org/wiki/Constituent_assembly",
+    "title": "Tennis Court Oath",
+    "url": "https://en.wikipedia.org/wiki/Tennis_Court_Oath",
     "lang": "en",
-    "description": "Body of representatives convened to draft or adopt a new constitution",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Convenci%C3%B3n_Constituyente_Chile_4-julio-2021.jpg/60px-Convenci%C3%B3n_Constituyente_Chile_4-julio-2021.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q1900755"
+    "description": "Event at the start of the French Revolution",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Le_Serment_du_Jeu_de_paume.jpg/60px-Le_Serment_du_Jeu_de_paume.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q60022",
+    "start": {
+     "raw": "+1789-06-20T00:00:00Z",
+     "year": 1789,
+     "precision": "day",
+     "display": "20 June 1789"
+    },
+    "occurredAt": {
+     "raw": "+1789-06-20T00:00:00Z",
+     "year": 1789,
+     "precision": "day",
+     "display": "20 June 1789"
+    }
+   },
+   "date": {
+    "raw": "+1789-06-20T00:00:00Z",
+    "year": 1789,
+    "precision": "day",
+    "display": "20 June 1789"
    }
   },
   {
    "label": "Storming of the Bastille",
-   "summary": "A Paris crowd, joined by mutinous royal soldiers, attacked a royal fortress holding arms; 83 attackers died and the governor was killed and his head paraded on a pike. It showed the king had lost control of the capital and opened the way to radical legislation.",
+   "summary": "A Paris crowd, joined by mutinous soldiers, took a royal fortress holding arms and ammunition; its governor was killed and his head paraded on a pike. Power visibly shifted away from the court, and radical legislation followed.",
    "entity": {
     "title": "Storming of the Bastille",
     "url": "https://en.wikipedia.org/wiki/Storming_of_the_Bastille",
@@ -771,7 +857,7 @@
   },
   {
    "label": "Abolition of feudalism",
-   "summary": "The Assembly cancelled feudal dues on over a quarter of French farmland and church tithes, destroying the nobility's main source of income and, with the suspension of the regional parlements, the institutional pillars of the old order.",
+   "summary": "The Assembly cancelled feudal dues and church tithes and proclaimed equality before the law and the opening of public office to all. Within four months the institutional pillars of the old regime had gone.",
    "entity": {
     "title": "Abolition of feudalism in France",
     "url": "https://en.wikipedia.org/wiki/Abolition_of_feudalism_in_France",
@@ -800,50 +886,104 @@
    }
   },
   {
-   "label": "Trial and execution of the king",
-   "summary": "After the monarchy was replaced by a republic, the king was tried as an ordinary citizen and beheaded by a narrow vote; conservative Europe responded with calls to destroy revolutionary France, widening the war.",
+   "label": "The king's failed escape",
+   "summary": "Louis XVI's attempt to flee France in June 1791 destroyed much of what credibility the monarchy retained, making a republic thinkable.",
    "entity": {
-    "title": "Execution of Louis XVI",
-    "url": "https://en.wikipedia.org/wiki/Execution_of_Louis_XVI",
+    "title": "Flight to Varennes",
+    "url": "https://en.wikipedia.org/wiki/Flight_to_Varennes",
     "lang": "en",
-    "description": "1793 public execution of former king of France",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Execution_of_Louis_XVI.jpg/60px-Execution_of_Louis_XVI.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q3062714",
+    "description": "Attempted escape by the French royal family during the French Revolution",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Arrest_of_Louis_XVI_and_his_Family%2C_Varennes%2C_1791.jpg/60px-Arrest_of_Louis_XVI_and_his_Family%2C_Varennes%2C_1791.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q1192894",
     "start": {
-     "raw": "+1793-01-21T00:00:00Z",
-     "year": 1793,
-     "precision": "day",
-     "display": "21 January 1793"
+     "raw": "+1791-06-00T00:00:00Z",
+     "year": 1791,
+     "precision": "month",
+     "display": "June 1791"
     },
     "occurredAt": {
-     "raw": "+1793-01-21T00:00:00Z",
-     "year": 1793,
-     "precision": "day",
-     "display": "21 January 1793"
+     "raw": "+1791-06-00T00:00:00Z",
+     "year": 1791,
+     "precision": "month",
+     "display": "June 1791"
     }
    },
    "date": {
-    "raw": "+1793-01-21T00:00:00Z",
-    "year": 1793,
-    "precision": "day",
-    "display": "21 January 1793"
+    "raw": "+1791-06-00T00:00:00Z",
+    "year": 1791,
+    "precision": "month",
+    "display": "June 1791"
    }
   },
   {
-   "label": "Emergency government and the Terror",
-   "summary": "With revolt in the Vendée, uprisings in major cities and a general defecting to the enemy, the Convention created an executive committee that concentrated power and used mass executions against 'enemies of the Revolution'.",
+   "label": "Monarchy overthrown amid military defeat",
+   "summary": "Defeats after war began in April 1792 fed a Paris insurrection that toppled the king; a republic was proclaimed in September and Louis XVI executed in January 1793.",
    "entity": {
-    "title": "Committee of Public Safety",
-    "url": "https://en.wikipedia.org/wiki/Committee_of_Public_Safety",
+    "title": "Insurrection of 10 August 1792",
+    "url": "https://en.wikipedia.org/wiki/Insurrection_of_10_August_1792",
     "lang": "en",
-    "description": "De facto executive government in France (1793–1794)",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/60px-Flag_of_France.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q724922"
+    "description": "Storming of the Tuileries Palace in Paris during the French Revolution",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Jacques_Bertaux_-_Der_Tuileriensturm_am_10._August_1792.jpg/60px-Jacques_Bertaux_-_Der_Tuileriensturm_am_10._August_1792.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q1154330",
+    "start": {
+     "raw": "+1792-08-10T00:00:00Z",
+     "year": 1792,
+     "precision": "day",
+     "display": "10 August 1792"
+    },
+    "occurredAt": {
+     "raw": "+1792-08-10T00:00:00Z",
+     "year": 1792,
+     "precision": "day",
+     "display": "10 August 1792"
+    }
+   },
+   "date": {
+    "raw": "+1792-08-10T00:00:00Z",
+    "year": 1792,
+    "precision": "day",
+    "display": "10 August 1792"
+   }
+  },
+  {
+   "label": "Terror under the Committee of Public Safety",
+   "summary": "With the constitution suspended, executive power passed to a committee dominated by Robespierre's Jacobins; some 16,000 people were executed by sentence of the Revolutionary Tribunal before Robespierre's fall in July 1794.",
+   "entity": {
+    "title": "Reign of Terror",
+    "url": "https://en.wikipedia.org/wiki/Reign_of_Terror",
+    "lang": "en",
+    "description": "1793–1794 political violence in France",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Octobre_1793%2C_supplice_de_9_%C3%A9migr%C3%A9s.jpg/60px-Octobre_1793%2C_supplice_de_9_%C3%A9migr%C3%A9s.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q193547",
+    "start": {
+     "raw": "+1793-09-02T00:00:00Z",
+     "year": 1793,
+     "precision": "day",
+     "display": "2 September 1793"
+    },
+    "end": {
+     "raw": "+1794-07-28T00:00:00Z",
+     "year": 1794,
+     "precision": "day",
+     "display": "28 July 1794"
+    },
+    "occurredAt": {
+     "raw": "+1793-00-00T00:00:00Z",
+     "year": 1793,
+     "precision": "decade",
+     "display": "1790s"
+    }
+   },
+   "date": {
+    "raw": "+1793-00-00T00:00:00Z",
+    "year": 1793,
+    "precision": "decade",
+    "display": "1790s"
    }
   },
   {
    "label": "Napoleon seizes power",
-   "summary": "The Directory, unable to govern without the army, was overthrown and replaced by the Consulate with Napoleon Bonaparte as First Consul — conventionally the end of the Revolution.",
+   "summary": "The unstable Directory, dependent on the army to enforce its decrees, was overthrown and replaced by the Consulate with Napoleon Bonaparte as First Consul, closing the revolutionary decade.",
    "entity": {
     "title": "Coup of 18 Brumaire",
     "url": "https://en.wikipedia.org/wiki/Coup_of_18_Brumaire",
@@ -901,7 +1041,7 @@
     }
    },
    "relationship": "Reigning king, later executed",
-   "note": "His willingness to consider reform but repeated retreats in the face of noble opposition made the crisis unmanageable, and his trial and beheading turned the Revolution into a war with monarchical Europe."
+   "note": "Willing to consider reform but repeatedly backing down before noble opposition, he was tried as \"Citoyen Louis Capet\" and guillotined in January 1793."
   },
   {
    "entity": {
@@ -924,8 +1064,8 @@
      "display": "28 July 1794"
     }
    },
-   "relationship": "Leading radical of the Terror",
-   "note": "He headed the Montagnard faction and dominated the Committee of Public Safety during the Reign of Terror, and his fall in July 1794 ended it."
+   "relationship": "Dominant radical of the Terror",
+   "note": "Leader of the Montagnard Jacobins who dominated the Committee of Public Safety during the Reign of Terror until the Thermidorian Reaction of July 1794."
   },
   {
    "entity": {
@@ -949,31 +1089,7 @@
     }
    },
    "relationship": "General who ended the Revolution",
-   "note": "He rose through the citizen army created by the revolutionary wars and closed the Revolution by seizing power as First Consul."
-  },
-  {
-   "entity": {
-    "title": "Jacques Necker",
-    "url": "https://en.wikipedia.org/wiki/Jacques_Necker",
-    "lang": "en",
-    "description": "French statesman (1732–1804)",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Necker%2C_Jacques_-_Duplessis.jpg/60px-Necker%2C_Jacques_-_Duplessis.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q123062",
-    "start": {
-     "raw": "+1732-09-30T00:00:00Z",
-     "year": 1732,
-     "precision": "day",
-     "display": "30 September 1732"
-    },
-    "end": {
-     "raw": "+1804-04-09T00:00:00Z",
-     "year": 1804,
-     "precision": "day",
-     "display": "9 April 1804"
-    }
-   },
-   "relationship": "Finance minister whose dismissal sparked riots",
-   "note": "His removal as chief minister on 11 July 1789, urged by the queen and the king's brother, brought crowds into the Paris streets days before the Bastille fell."
+   "note": "Risen through the citizen army created by the revolutionary wars, he crushed a royalist rising in Paris in 1795 and seized power in 1799."
   },
   {
    "entity": {
@@ -996,7 +1112,7 @@
      "display": "20 June 1836"
     }
    },
-   "relationship": "Pamphleteer who framed Third Estate claim",
+   "relationship": "Pamphleteer who framed the demand",
    "note": "His pamphlet What Is the Third Estate? argued the commoners were the nation and should sit alone as a National Assembly."
   },
   {
@@ -1020,8 +1136,32 @@
      "display": "3 November 1793"
     }
    },
-   "relationship": "Women's rights author, executed",
-   "note": "She wrote the Declaration of the Rights of Woman and of the Female Citizen and was guillotined in November 1793, illustrating the limits the Revolution placed on women's claims."
+   "relationship": "Advocate of women's rights, executed",
+   "note": "Author of the Declaration of the Rights of Woman and of the Female Citizen, she was guillotined in November 1793, illustrating the Revolution's refusal of political rights to women."
+  },
+  {
+   "entity": {
+    "title": "Jacques Pierre Brissot",
+    "url": "https://en.wikipedia.org/wiki/Jacques_Pierre_Brissot",
+    "lang": "en",
+    "description": "French revolutionary (1754–1793)",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Fran%C3%A7ois_Bonneville_-_Portrait_de_Jacques-Pierre_Brissot_de_Warville_%281754-1793%29%2C_journaliste_et_conventionnel_-_P2608_-_Mus%C3%A9e_Carnavalet.jpg/60px-Fran%C3%A7ois_Bonneville_-_Portrait_de_Jacques-Pierre_Brissot_de_Warville_%281754-1793%29%2C_journaliste_et_conventionnel_-_P2608_-_Mus%C3%A9e_Carnavalet.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q314984",
+    "start": {
+     "raw": "+1754-01-15T00:00:00Z",
+     "year": 1754,
+     "precision": "day",
+     "display": "15 January 1754"
+    },
+    "end": {
+     "raw": "+1793-10-31T00:00:00Z",
+     "year": 1793,
+     "precision": "day",
+     "display": "31 October 1793"
+    }
+   },
+   "relationship": "Moderate Girondin leader",
+   "note": "He led the moderate faction whose push for war and caution on abolishing slavery shaped both the wars and colonial policy before his fall."
   }
  ],
  "comparisons": [
@@ -1052,16 +1192,16 @@
      "display": "22 March 1763"
     }
    },
-   "angle": "The Revolution that immediately preceded it and helped inspire the French debate about liberty and equality.",
+   "angle": "The Revolution's immediate predecessor among the Atlantic revolutions, and an acknowledged inspiration for French debate.",
    "similarities": [
-    "Both are counted among the Atlantic Revolutions",
-    "The American struggle gave orienting impulses to the French one",
-    "Both fed public debate on patriotism, liberty, equality and democracy"
+    "Both were shaped by Enlightenment arguments about rights, liberty and equality",
+    "Both produced foundational declarations of rights",
+    "French public debate on patriotism, liberty and democracy was inspired by the American example"
    ],
    "differences": [
+    "The French case destroyed an entrenched feudal and absolutist order at home rather than throwing off a distant ruler",
     "The French Revolution claimed a universal mission for all humanity, not merely a national one",
-    "France's revolution destroyed a domestic order of estates and privilege rather than throwing off overseas rule",
-    "France's ended in a military coup and a consulate"
+    "France's revolution turned to mass executions under the Terror and ended in military dictatorship"
    ],
    "start": {
     "raw": "+1765-00-00T00:00:00Z",
@@ -1103,16 +1243,16 @@
      "display": "1 January 1804"
     }
    },
-   "angle": "The colonial upheaval entangled with the French Revolution, where the same rights language collided with slavery.",
+   "angle": "The colonial mirror of the French Revolution, where the same language of rights collided with slavery.",
    "similarities": [
-    "Both invoked the Declaration of the Rights of Man",
-    "Both involved massive violence and foreign intervention",
-    "Both ended in the destruction of a legal order of hereditary status"
+    "Both grew out of the crisis of the French empire after 1789",
+    "Both involved contested claims to the Declaration of the Rights of Man",
+    "Both ended a legal system of hereditary subjection"
    ],
    "differences": [
     "Colonial delegates successfully argued the Declaration should not apply in the colonies",
-    "Slavery in Saint-Domingue was abolished by commissioners under pressure of a slave revolt and war, not by principle in Paris",
-    "Around 500,000 of the roughly 700,000 slaves in the French empire were in Saint-Domingue"
+    "Slavery in Saint-Domingue was abolished by commissioners on the ground under military pressure, not by metropolitan design",
+    "Around 500,000 of the roughly 700,000 slaves in French colonies were in Saint-Domingue, making the stakes there uniquely large"
    ],
    "start": {
     "raw": "+1791-08-14T00:00:00Z",
@@ -1205,7 +1345,7 @@
     }
    },
    "relation": "causedBy",
-   "note": "The old order of estates, tax exemptions for nobility and Church, and tax collection by private contractors produced the fiscal deadlock the Revolution grew from.",
+   "note": "The society of legal orders, noble and clerical tax exemptions and blocking law courts was the system whose deadlock produced the Revolution.",
    "fromGraph": false
   },
   {
@@ -1236,7 +1376,7 @@
     }
    },
    "relation": "causedBy",
-   "note": "Enlightenment critiques of social institutions were widely discussed among the educated French elite and shaped their response to the crisis.",
+   "note": "Enlightenment critiques of social institutions circulated widely among the educated French elite and shaped how they responded to the crisis.",
    "fromGraph": false
   },
   {
@@ -1267,63 +1407,38 @@
     }
    },
    "relation": "causes",
-   "note": "Factions in the Assembly saw war as a way to unite the country and secure the Revolution, beginning conflicts that lasted until 1815.",
+   "note": "War declared on Austria in April 1792 spread revolutionary ideas across Europe and created the citizen army that made Napoleon's career possible.",
    "fromGraph": false
   },
   {
    "entity": {
-    "title": "Napoleon",
-    "url": "https://en.wikipedia.org/wiki/Napoleon",
+    "title": "Haitian Revolution",
+    "url": "https://en.wikipedia.org/wiki/Haitian_Revolution",
     "lang": "en",
-    "description": "Emperor of the French (1804–1814; 1815)",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg/60px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q517",
+    "description": "1791–1804 slave revolt in Hispanola",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Incendie_de_la_Plaine_du_Cap._Massacre_des_Blancs_par_les_esclaves_noirs_r%C3%A9volt%C3%A9s._France_militaire._Martinet_et_Masson.jpg/60px-Incendie_de_la_Plaine_du_Cap._Massacre_des_Blancs_par_les_esclaves_noirs_r%C3%A9volt%C3%A9s._France_militaire._Martinet_et_Masson.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q689128",
     "start": {
-     "raw": "+1769-08-15T00:00:00Z",
-     "year": 1769,
+     "raw": "+1791-08-14T00:00:00Z",
+     "year": 1791,
      "precision": "day",
-     "display": "15 August 1769"
+     "display": "14 August 1791"
     },
     "end": {
-     "raw": "+1821-05-05T00:00:00Z",
-     "year": 1821,
+     "raw": "+1804-01-01T00:00:00Z",
+     "year": 1804,
      "precision": "day",
-     "display": "5 May 1821"
-    }
-   },
-   "relation": "follows",
-   "note": "The citizen army created by the revolutionary wars became the decisive power factor and the base of Napoleon's rise.",
-   "fromGraph": false
-  },
-  {
-   "entity": {
-    "title": "War in the Vendée",
-    "url": "https://en.wikipedia.org/wiki/War_in_the_Vend%C3%A9e",
-    "lang": "en",
-    "description": "1793–1796 set of battles between the French revolutionaries and the royalists",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/GuerreVend%C3%A9e_1.jpg/60px-GuerreVend%C3%A9e_1.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q8628",
-    "start": {
-     "raw": "+1793-03-03T00:00:00Z",
-     "year": 1793,
-     "precision": "day",
-     "display": "3 March 1793"
-    },
-    "end": {
-     "raw": "+1796-07-16T00:00:00Z",
-     "year": 1796,
-     "precision": "day",
-     "display": "16 July 1796"
+     "display": "1 January 1804"
     },
     "occurredAt": {
-     "raw": "+1793-03-03T00:00:00Z",
-     "year": 1793,
+     "raw": "+1804-01-01T00:00:00Z",
+     "year": 1804,
      "precision": "day",
-     "display": "3 March 1793"
+     "display": "1 January 1804"
     }
    },
-   "relation": "hasPart",
-   "note": "A traditionally royalist western region, already unsettled by changes to the Church, rose in revolt in March 1793 against conscription.",
+   "relation": "causes",
+   "note": "Debates in Paris over whether the rights of man applied to colonies fed uprisings in Saint-Domingue and the abolition of slavery there in 1793.",
    "fromGraph": false
   },
   {
@@ -1354,50 +1469,70 @@
     }
    },
    "relation": "causes",
-   "note": "The principle of popular sovereignty opened by the Revolution is credited as the motor of the later European revolutionary waves of 1830, 1848 and 1871.",
+   "note": "The principle of popular sovereignty opened by 1789 is credited with driving the later European revolutionary waves of 1830, 1848 and 1871.",
+   "fromGraph": false
+  },
+  {
+   "entity": {
+    "title": "Nationalism",
+    "url": "https://en.wikipedia.org/wiki/Nationalism",
+    "lang": "en",
+    "description": "Ideology promoting the nation-state",
+    "qid": "Q6235"
+   },
+   "relation": "causes",
+   "note": "The Revolution profoundly shaped French nationalism and stimulated nationalist movements elsewhere in Europe, with some historians tracing the nation state directly to it.",
    "fromGraph": false
   }
  ],
  "glossary": [
   {
+   "term": "Ancien Régime",
+   "definition": "The pre-1789 French order of absolute monarchy and a society divided into legally distinct estates with noble and clerical privileges."
+  },
+  {
    "term": "Estates General",
-   "definition": "France's old representative body of three orders — clergy, nobility and commoners — which had not met since 1614 before being summoned in 1789."
+   "definition": "France's assembly of the three orders — clergy, nobility and commoners — which had not met since 1614 before being summoned in 1789."
   },
   {
    "term": "Third Estate",
-   "definition": "The commoners, everyone outside the clergy and nobility; the first two estates represented under 5% of the population yet could outvote them."
+   "definition": "The commoners: everyone outside the clergy and nobility, who together made up less than 5% of the population."
   },
   {
    "term": "Parlement",
-   "definition": "A regional judicial body that had to register new tax laws and could block them, repeatedly frustrating royal reform."
-  },
-  {
-   "term": "Ancien Régime",
-   "definition": "The pre-1789 order of absolute monarchy, hereditary privilege and a society divided into legal estates."
-  },
-  {
-   "term": "Feudal dues",
-   "definition": "Payments owed by tenants to landowning nobles; over 25% of French farmland was subject to them and they supplied most noble income until their abolition."
+   "definition": "A regional judicial body that had to register new tax laws, and could therefore block royal financial reform."
   },
   {
    "term": "Tax farming",
-   "definition": "A system in which private individuals collected taxes for the state in exchange for a large fee, abolished by the Revolution as highly inefficient."
-  },
-  {
-   "term": "Sans-culottes",
-   "definition": "The radical Parisian working population whose street power pressured the government until it was broken in 1795."
+   "definition": "A system in which private individuals collected taxes for the state in return for a hefty fee, later abolished as grossly inefficient."
   },
   {
    "term": "Assignat",
-   "definition": "Paper currency backed by nationalised church and émigré lands; its collapse in value produced severe inflation."
+   "definition": "Paper currency backed by nationalised church and émigré lands; over-issue drove inflation until its withdrawal in 1796."
+  },
+  {
+   "term": "Sans-culottes",
+   "definition": "The radical Parisian working population whose street pressure shaped policy until it was broken in 1795."
+  },
+  {
+   "term": "Jacobins and Girondins",
+   "definition": "Rival revolutionary factions: the radical Montagnard Jacobins around Robespierre, Danton and Marat, and the more moderate Girondins around Brissot."
   }
  ],
  "drilldown": [
   {
+   "title": "Declaration of the Rights of Man and of the Citizen",
+   "url": "https://en.wikipedia.org/wiki/Declaration_of_the_Rights_of_Man_and_of_the_Citizen",
+   "lang": "en",
+   "description": "The founding text of the Revolution, though its meaning was contested by every faction and it was denied to women and colonies.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Declaration_of_the_Rights_of_Man_and_of_the_Citizen_in_1789.jpg/60px-Declaration_of_the_Rights_of_Man_and_of_the_Citizen_in_1789.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q169759"
+  },
+  {
    "title": "Reign of Terror",
    "url": "https://en.wikipedia.org/wiki/Reign_of_Terror",
    "lang": "en",
-   "description": "The most contested phase, in which a revolutionary government executed thousands of alleged enemies.",
+   "description": "The phase in which revolutionary government executed thousands as \"enemies of the Revolution\".",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Octobre_1793%2C_supplice_de_9_%C3%A9migr%C3%A9s.jpg/60px-Octobre_1793%2C_supplice_de_9_%C3%A9migr%C3%A9s.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q193547",
    "start": {
@@ -1420,90 +1555,129 @@
    }
   },
   {
-   "title": "Declaration of the Rights of Man and of the Citizen",
-   "url": "https://en.wikipedia.org/wiki/Declaration_of_the_Rights_of_Man_and_of_the_Citizen",
+   "title": "War in the Vendée",
+   "url": "https://en.wikipedia.org/wiki/War_in_the_Vend%C3%A9e",
    "lang": "en",
-   "description": "The founding text of the Revolution, whose interpretation varied widely between factions.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Declaration_of_the_Rights_of_Man_and_of_the_Citizen_in_1789.jpg/60px-Declaration_of_the_Rights_of_Man_and_of_the_Citizen_in_1789.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q169759"
+   "description": "A royalist and Catholic regional revolt whose suppression killed enormous numbers and complicates any heroic reading of the Revolution.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/GuerreVend%C3%A9e_1.jpg/60px-GuerreVend%C3%A9e_1.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q8628",
+   "start": {
+    "raw": "+1793-03-03T00:00:00Z",
+    "year": 1793,
+    "precision": "day",
+    "display": "3 March 1793"
+   },
+   "end": {
+    "raw": "+1796-07-16T00:00:00Z",
+    "year": 1796,
+    "precision": "day",
+    "display": "16 July 1796"
+   },
+   "occurredAt": {
+    "raw": "+1793-03-03T00:00:00Z",
+    "year": 1793,
+    "precision": "day",
+    "display": "3 March 1793"
+   }
   },
   {
    "title": "Committee of Public Safety",
    "url": "https://en.wikipedia.org/wiki/Committee_of_Public_Safety",
    "lang": "en",
-   "description": "The emergency executive that concentrated power once the constitution was suspended.",
+   "description": "The emergency executive body created in April 1793 that effectively governed France at the height of the crisis.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/60px-Flag_of_France.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q724922"
-  },
-  {
-   "title": "Girondins",
-   "url": "https://en.wikipedia.org/wiki/Girondins",
-   "lang": "en",
-   "description": "The moderate republican faction whose fall opened the way to radical Jacobin dominance.",
-   "qid": "Q207776"
   },
   {
    "title": "French Directory",
    "url": "https://en.wikipedia.org/wiki/French_Directory",
    "lang": "en",
-   "description": "The unstable regime of 1795–99 whose deadlocks and reliance on the army led directly to Napoleon's coup.",
+   "description": "The unstable 1795–99 regime whose reliance on the army opened the path to Napoleon.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/60px-Flag_of_France.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q219817"
   },
   {
-   "title": "Storming of the Bastille",
-   "url": "https://en.wikipedia.org/wiki/Storming_of_the_Bastille",
+   "title": "Civil Constitution of the Clergy",
+   "url": "https://en.wikipedia.org/wiki/Civil_Constitution_of_the_Clergy",
    "lang": "en",
-   "description": "The symbolic beginning of the Revolution and now the French national holiday.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Anonymous_-_Prise_de_la_Bastille.jpg/60px-Anonymous_-_Prise_de_la_Bastille.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q6539",
+   "description": "The reorganisation of the Church that produced lasting conflict between anticlericals and Catholics, and drove women-led counter-revolution.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Je_jure_de_maintenir_la_constitution.jpg/60px-Je_jure_de_maintenir_la_constitution.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q206979",
    "start": {
-    "raw": "+1789-07-14T00:00:00Z",
-    "year": 1789,
+    "raw": "+1790-07-12T00:00:00Z",
+    "year": 1790,
     "precision": "day",
-    "display": "14 July 1789"
+    "display": "12 July 1790"
    },
    "occurredAt": {
-    "raw": "+1789-07-14T00:00:00Z",
-    "year": 1789,
+    "raw": "+1790-07-12T00:00:00Z",
+    "year": 1790,
     "precision": "day",
-    "display": "14 July 1789"
+    "display": "12 July 1790"
    }
   },
   {
-   "title": "Historiography of the French Revolution",
-   "url": "https://en.wikipedia.org/wiki/Historiography_of_the_French_Revolution",
+   "title": "Alfred Cobban",
+   "url": "https://en.wikipedia.org/wiki/Alfred_Cobban",
    "lang": "en",
-   "description": "Two centuries of clashing conservative, republican, liberal and Marxist readings, with no model dominant since the 1990s.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Carlyle_French-Revolution_Ed-1895_Chapman-And-Hall_London.jpg/60px-Carlyle_French-Revolution_Ed-1895_Chapman-And-Hall_London.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q3138382"
+   "description": "The historian whose revisionist attack on Marxist accounts reshaped debate on what the Revolution actually was.",
+   "qid": "Q2644830",
+   "start": {
+    "raw": "+1901-05-24T00:00:00Z",
+    "year": 1901,
+    "precision": "day",
+    "display": "24 May 1901"
+   },
+   "end": {
+    "raw": "+1968-04-01T00:00:00Z",
+    "year": 1968,
+    "precision": "day",
+    "display": "1 April 1968"
+   }
   },
   {
-   "title": "Saint-Domingue",
-   "url": "https://en.wikipedia.org/wiki/Saint-Domingue",
+   "title": "Great Fear",
+   "url": "https://en.wikipedia.org/wiki/Great_Fear",
    "lang": "en",
-   "description": "Where the Revolution's rights rhetoric met a slave economy that produced a third of France's exports.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Pavillon_LouisXIV.svg/60px-Pavillon_LouisXIV.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q861551"
+   "description": "The rural panic and agrarian insurrection of 1789 that pushed the Assembly into abolishing feudalism.",
+   "qid": "Q370029",
+   "start": {
+    "raw": "+1789-07-20T00:00:00Z",
+    "year": 1789,
+    "precision": "day",
+    "display": "20 July 1789"
+   },
+   "end": {
+    "raw": "+1789-08-06T00:00:00Z",
+    "year": 1789,
+    "precision": "day",
+    "display": "6 August 1789"
+   },
+   "occurredAt": {
+    "raw": "+1789-07-20T00:00:00Z",
+    "year": 1789,
+    "precision": "day",
+    "display": "20 July 1789"
+   }
   }
  ],
  "coverage": {
-  "total": 8,
-  "verified": 7,
-  "coverage": 0.875,
+  "total": 11,
+  "verified": 11,
+  "coverage": 1,
   "byMethod": {
-   "exact": 8,
+   "exact": 11,
    "fuzzy": 0,
    "none": 0
   }
  },
- "generatedAt": "2026-09-12T12:25:25.788Z",
+ "generatedAt": "2026-09-12T13:21:23.647Z",
  "model": "claude-opus-5",
  "usage": {
   "input": 33010,
-  "output": 5376,
+  "output": 6418,
   "cacheWrite": 0,
   "cacheRead": 4785,
-  "usd": 0.3018425
+  "usd": 0.3278925
  }
 }

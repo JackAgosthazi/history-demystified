@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Recorded walkthrough. Video belongs in object storage, not in git history —
+# an 84MB blob fails the push over HTTPS and stays in the history forever.
+*.mov
+*.mp4
+*.m4v
+*.webm

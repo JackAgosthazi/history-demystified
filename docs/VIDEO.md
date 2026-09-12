@@ -17,10 +17,9 @@ argument of the project.
 
 *Home page, nothing typed yet.*
 
-> History is a remarkable thing that all too often gets taught badly. Rarely because the
-> facts are hard to find — it's that if you know nothing about a subject you can't get a
-> foothold. You don't know when it happened relative to anything you already know, who else
-> was in the room, or what's actually contested about it.
+> Hi, my name is Soma, and I'm here to show you the app I've built. History is a remarkable thing that all too often gets taught badly.
+> It's hard to accurately and succinctly convey the historical context and meaning of seemingly arbitrary events.
+> The app I've built I'm hoping will help with that in ways that can be extrapolated outside the realm of history.
 >
 > Claude is obviously good at writing that explanation. The problem is that a confident,
 > fluent, plausibly-cited explanation is exactly what a fabricated one looks like — and the
@@ -105,14 +104,9 @@ argument of the project.
 > to, where the inputs are predictable enough to build real structure around. The same shape
 > would explain a codebase, or help make sense of a candidate's history in a hiring loop:
 > gather rigorously, present it well, and leave the judgement to the human.
+> CMS system, Opus 5, how to use this in real-life examples.
+> This took me about five hours. 
 >
-> About five hours. Built with Claude Code — the single most useful thing I did was hand a
-> subagent the pipeline design and tell it to attack the grounding approach before I wrote
-> any of it.
->
-> The honest caveat: this is only as good as Wikipedia and Wikidata. I'm not claiming
-> everything you read is true. I'm claiming you can check any of it in one click — which is a
-> different promise, and the one the architecture actually keeps.
 
 ---
 

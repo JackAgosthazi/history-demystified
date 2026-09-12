@@ -47,7 +47,15 @@ No database. An app like this would really deserve its own database, cache layer
 Access control has also been completely omitted from this, consciously, under the assumption that it’ll only exist for the hiring cycle and taken down from the public internet afterwards. This is to make access easier and save on time.
 
 ## Iterations and learnings
+Filtering by country is tricky in the historical context. I might ask about France but that country had been called many different things during its ~1500 years of history. Wikidata already links them via "replaces", so reading that relation fixed it generically rather than with a hardcoded mapping.
 
+Two concurrent SPARQL queries get throttled and the second returns nothing, with no error. The people column was empty for an hour while the identical query worked perfectly on its own.
+
+Bugs that taught me something: labels and their semantics might not have much to do with the timeline itself. The 100 years' war isn't 100 years. I can't confuse people's birth dates with coronation dates with contested ascensions etc. Clear delineation between points in time and spans of time.
+
+Prompt caching seemed like a very promising improvement to keep costs down, but a measured experiment unfortunately showed it not to pay off. It's worth 1-2%, because only the system prompt is stable and the corpus differs for every subject. The bigger win was available but required serialising two parallel calls and adding 40-60 seconds - so I declined it and wrote down why. 
+
+The eval that mattered turned out to be free. Coverage is computed on every run and shown to the reader, so a prompt change that degrades grounding shows up as a number moving - no separate harness, no LLM judge that could inherit the generator's blind spots.
 
 ## End result and its utility
 

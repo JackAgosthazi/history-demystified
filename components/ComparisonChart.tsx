@@ -63,15 +63,25 @@ export function ComparisonChart({
       <figcaption className="section-label mb-3">{SUBJECT_NOUN[type]} side by side</figcaption>
       <div className="rounded-xl border border-rule bg-paper-raised p-5">
         <div className="relative mb-3 h-4 border-b border-rule">
-          {ticks.map((year, i) => (
-            <span
-              key={`${year}-${i}`}
-              className="absolute -translate-x-1/2 text-[0.65rem] tabular-nums text-ink-faint"
-              style={{ left: `${Math.min(96, Math.max(4, pct(year)))}%` }}
-            >
-              {formatYear(year)}
-            </span>
-          ))}
+          {ticks.map((year, i) => {
+            const at = pct(year);
+            const edge = i === 0 ? 'left' : i === ticks.length - 1 ? 'right' : 'mid';
+            return (
+              <span
+                key={`${year}-${i}`}
+                className="absolute whitespace-nowrap text-[0.65rem] tabular-nums text-ink-faint"
+                style={
+                  edge === 'right'
+                    ? { right: 0 }
+                    : edge === 'left'
+                      ? { left: 0 }
+                      : { left: `${at}%`, transform: 'translateX(-50%)' }
+                }
+              >
+                {formatYear(year)}
+              </span>
+            );
+          })}
         </div>
 
         <ul className="space-y-2.5">
@@ -80,14 +90,20 @@ export function ComparisonChart({
             const right = pct(row.end?.year ?? row.start.year);
             const width = Math.max(right - left, 1.2);
             return (
-              <li key={row.label} className="grid grid-cols-[9rem_1fr] items-center gap-3">
+              <li
+                key={row.label}
+                className="grid grid-cols-[5.5rem_1fr] items-center gap-2 sm:grid-cols-[9rem_1fr] sm:gap-3"
+              >
                 <span
                   className={`truncate text-xs ${row.subject ? 'font-semibold text-ink' : 'text-ink-muted'}`}
                   title={row.label}
                 >
                   {row.label}
                 </span>
-                <span className="relative block h-5">
+                {/* Clips the absolutely positioned date label as a backstop:
+                    on a 320px screen an unclipped nowrap label pushed the
+                    whole document sideways. */}
+                <span className="relative block h-5 overflow-hidden">
                   <span
                     className="absolute top-1/2 -translate-y-1/2 rounded-sm"
                     style={{
@@ -100,11 +116,23 @@ export function ComparisonChart({
                     title={`${row.start.display}${row.end ? ` – ${row.end.display}` : ''}`}
                   />
                   <span
-                    className="absolute top-1/2 -translate-y-1/2 whitespace-nowrap text-[0.65rem] tabular-nums text-ink-faint"
+                    className="absolute top-1/2 -translate-y-1/2 truncate text-[0.65rem] tabular-nums text-ink-faint"
+                    /* Placed wherever there is room, and sized to it. */
                     style={
-                      left > 55
-                        ? { right: `${100 - left}%`, paddingRight: '0.4rem' }
-                        : { left: `${Math.min(left + width, 97)}%`, paddingLeft: '0.4rem' }
+                      100 - (left + width) > 30
+                        ? {
+                            left: `${left + width}%`,
+                            paddingLeft: '0.4rem',
+                            maxWidth: `${100 - (left + width)}%`,
+                          }
+                        : left > 30
+                          ? {
+                              right: `${100 - left}%`,
+                              paddingRight: '0.4rem',
+                              textAlign: 'right',
+                              maxWidth: `${left}%`,
+                            }
+                          : { left: 0, paddingLeft: '0.4rem', maxWidth: '100%' }
                     }
                   >
                     {row.start.display}

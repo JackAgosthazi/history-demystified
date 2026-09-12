@@ -53,6 +53,26 @@ interface HoverCard {
  */
 const summaryCache = new Map<string, string>();
 
+/**
+ * Whether the device can actually hover.
+ *
+ * On a touch screen a single tap fires mouseenter and click together, so
+ * "hover to preview, click to open" collapses into one gesture and tapping a
+ * bar to read about it navigates away instead. Touch gets an explicit
+ * two-step: tap opens the card, the link inside it opens the subject.
+ */
+function useCanHover(): boolean {
+  const [canHover, setCanHover] = useState(true);
+  useEffect(() => {
+    const query = window.matchMedia('(hover: hover) and (pointer: fine)');
+    setCanHover(query.matches);
+    const onChange = (e: MediaQueryListEvent) => setCanHover(e.matches);
+    query.addEventListener('change', onChange);
+    return () => query.removeEventListener('change', onChange);
+  }, []);
+  return canHover;
+}
+
 function useSummary(title: string | undefined): string | null {
   const [summary, setSummary] = useState<string | null>(
     title ? (summaryCache.get(title) ?? null) : null,
@@ -99,11 +119,20 @@ export function Timeline({ events }: { events: TimelineEvent[] }) {
    */
   const [hover, setHover] = useState<HoverCard | null>(null);
   const summary = useSummary(hover?.event.title);
+  const canHover = useCanHover();
 
   const show = useCallback((event: TimelineEvent, target: Element) => {
     const rect = target.getBoundingClientRect();
     setHover({ event, x: rect.left, y: rect.bottom });
   }, []);
+
+  // On touch, dismiss the card by tapping anywhere else.
+  useEffect(() => {
+    if (canHover || !hover) return;
+    const dismiss = () => setHover(null);
+    document.addEventListener('pointerdown', dismiss);
+    return () => document.removeEventListener('pointerdown', dismiss);
+  }, [canHover, hover]);
 
   if (events.length === 0) return null;
 
@@ -165,10 +194,25 @@ export function Timeline({ events }: { events: TimelineEvent[] }) {
               <li
                 key={event.id}
                 className="relative h-7"
-                onMouseEnter={(e) => show(event, e.currentTarget)}
-                onMouseLeave={() => setHover(null)}
+                onMouseEnter={canHover ? (e) => show(event, e.currentTarget) : undefined}
+                onMouseLeave={canHover ? () => setHover(null) : undefined}
                 onFocus={(e) => show(event, e.currentTarget)}
-                onBlur={() => setHover(null)}
+                onBlur={canHover ? () => setHover(null) : undefined}
+                /*
+                 * Capture phase, so the tap never reaches the label's link.
+                 * Letting it through is what made tapping a bar to read about
+                 * it navigate somewhere else instead.
+                 */
+                onClickCapture={
+                  canHover
+                    ? undefined
+                    : (e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        show(event, e.currentTarget);
+                      }
+                }
+                onPointerDownCapture={canHover ? undefined : (e) => e.stopPropagation()}
               >
                 <div
                   className="absolute top-1/2 -translate-y-1/2 rounded-sm"
@@ -229,11 +273,14 @@ export function Timeline({ events }: { events: TimelineEvent[] }) {
       {hover && (hover.event.note || summary || hover.event.title) && (
         <div
           role="tooltip"
-          className="pointer-events-none fixed z-50 w-80 rounded-lg border border-rule-strong bg-paper-raised p-3 shadow-lg"
+          className={`fixed z-50 w-80 max-w-[calc(100vw-1.5rem)] rounded-lg border border-rule-strong bg-paper-raised p-3 shadow-lg ${
+            canHover ? 'pointer-events-none' : ''
+          }`}
           style={{
-            left: Math.min(hover.x, (globalThis.innerWidth ?? 1200) - 336),
+            left: Math.max(12, Math.min(hover.x, (globalThis.innerWidth ?? 1200) - 336)),
             top: hover.y + 6,
           }}
+          onPointerDown={(e) => e.stopPropagation()}
         >
           <p className="text-xs font-semibold text-ink">{hover.event.label}</p>
           <p className="mt-0.5 text-[0.65rem] tabular-nums text-ink-faint">
@@ -245,9 +292,18 @@ export function Timeline({ events }: { events: TimelineEvent[] }) {
           <p className="mt-1.5 text-xs leading-relaxed text-ink-muted">
             {summary || hover.event.note || 'Loading…'}
           </p>
-          {hover.event.title && (
-            <p className="mt-1.5 text-[0.65rem] text-ink-faint">Click to explain in full</p>
-          )}
+          {hover.event.title &&
+            (canHover ? (
+              <p className="mt-1.5 text-[0.65rem] text-ink-faint">Click to explain in full</p>
+            ) : (
+              // On touch the card is the only way in, so it carries the link.
+              <Link
+                href={explainHref(hover.event.title)}
+                className="mt-2 inline-block text-xs font-medium text-accent underline underline-offset-2"
+              >
+                Explain {hover.event.title} in full &rarr;
+              </Link>
+            ))}
         </div>
       )}
     </div>

@@ -64,9 +64,95 @@ are quoted in their own language with a clearly labelled translation. The disagr
 real and sourced, because it was found rather than generated.
 
 **Scope queries get a different answer entirely.** "Japan 1600" is not a request for an
-article. It runs a SPARQL query and returns what the record holds for that place and period,
-ranked by how many language editions cover each subject. No model call at all: free, about
-five seconds, incapable of inventing anything, and every row is a door into a full explainer.
+article, and answering it as if it were is how most search boxes fail. The honest reading is
+that it is a different *kind* of question — a scope, a place crossed with a stretch of time,
+rather than a subject. So it gets a different pipeline, and that pipeline contains no model
+at all.
+
+### Why this is the most interesting part of the build
+
+It is the clearest statement of the thesis. The rest of the app works hard to constrain what
+a model may assert; this asks whether the model is needed at all, and finds that it is not.
+A knowledge graph answers "what happened in this place, in these years" natively and
+exactly. Reaching for an LLM here would add cost, latency and a fabrication risk in exchange
+for nothing. **Route by the shape of the question** turns out to be a more powerful idea
+than "ground the model better."
+
+The result: free, about five seconds, and structurally incapable of inventing anything —
+every row is a real Wikidata item with a real English article behind it.
+
+### Recognising a scope query
+
+Deliberately conservative, because the failure mode of being clever here is bad. "1984" is a
+novel and "Fahrenheit 451" is not a temperature, so a time expression alone is never enough
+— a residual place is always required. Four time forms are understood:
+
+| Input | Window | Shown back as |
+|---|---|---|
+| `Japan 1600` | 1590–1610 | "around 1600" |
+| `England 1500-1600` | as given | "1500–1600" |
+| `France 1790s` | 1790–1799 | "the 1790s" |
+| `Italy 16th century` | 1501–1600 | "the 16th century" |
+
+The interpretation is rendered back in the heading — *"Japan, around 1600"* — so a reader can
+see that a bare year was widened to a decade either side, rather than wondering why 1594
+appears.
+
+There are two fall-throughs, and both matter more than the parser. If no place survives
+parsing, the query goes to normal subject resolution. And if the place resolves but the
+survey comes back empty — "Japanese cuisine 1600" resolves to an article that is not a
+country — it also falls through, rather than presenting an empty page as an answer.
+
+### Making the graph query actually work
+
+This is where the real engineering was. The obvious query — start from the country, or start
+from the date — makes the query planner scan an enormous set, and Wikidata's public endpoint
+answers **502** rather than waiting. My first version did exactly that.
+
+The fix was to anchor on a small `VALUES` set of event classes (battle, war, siege, treaty,
+revolution, historical period, and a dozen more) so the planner starts from a few thousand
+candidates instead of millions:
+
+```sparql
+VALUES ?class { wd:Q178561 wd:Q198 wd:Q180684 … }
+?item wdt:P31 ?class ; wdt:P17 wd:Q17 ; wikibase:sitelinks ?sitelinks .
+{ ?item wdt:P585 ?date } UNION { ?item wdt:P580 ?date }
+FILTER(YEAR(?date) >= 1590 && YEAR(?date) <= 1610)
+```
+
+Same results, **502 → one second**. People are a separate query, matching on citizenship and
+a lifespan that overlaps the window rather than a birth inside it, so someone born in 1543
+and dominant in 1600 still appears.
+
+Two smaller things that were only discoverable by running it:
+
+- **The two queries must run sequentially.** Issued in parallel they are throttled, and the
+  second silently returns nothing — the people column was empty for an hour while the same
+  query worked perfectly on its own.
+- **SPARQL is used only to discover identifiers.** Everything readable comes from a second
+  batch call. The label service is unreliable under `ORDER BY` — it returned a bare
+  "Q193344" where Miyamoto Musashi should have been — and only the entity call yields the
+  English Wikipedia title each row needs in order to be a working link. Items with no English
+  article are dropped, because there would be nothing to drill into.
+
+### Ranking, and its bias
+
+Results are ordered by interwiki count — how many language editions carry an article. It is
+a crude proxy for significance and it works well in practice: for Japan around 1600 it puts
+the Battle of Sekigahara and the Edo period at the top, and Tokugawa Ieyasu, Toyotomi
+Hideyoshi and Miyamoto Musashi at the top of the people.
+
+It should be named for what it is, though: a measure of *how much Wikipedia covers
+something*, which inherits Wikipedia's own biases toward European and anglophone subjects.
+For a tool whose whole argument is that the reader should be able to see where a claim comes
+from, the ranking deserves the same honesty as the citations do.
+
+### What it does not do yet
+
+Scoping is by country, via `country` and `citizenship`, so pre-modern polities and anything
+that does not map onto a modern state are patchy — "Mesopotamia 2000 BC" is much weaker than
+"Japan 1600". There is no way to narrow by topic ("Japan 1600 art"). And the ten-year window
+around a bare year is a guess that happens to read well, not a considered choice.
 
 ## Key decisions and tradeoffs
 
@@ -98,6 +184,34 @@ pre-generated cache (those queries cost $0) and the pre-spend cache check on dri
 
 **No database.** Everything the app remembers is in the reader's browser. It fits the
 privacy story, and it means going back through breadcrumbs costs nothing.
+
+## How this is evaluated
+
+1. **Every run is its own eval.** Coverage is computed on every explainer and shown to the
+   reader: *N of M claims located in the source they cite*. Across the twelve pre-warmed
+   topics it runs **82–100%, mean 91%**, and the pre-warm script prints it per topic, so a
+   prompt change that degrades grounding shows up as a number moving.
+2. **The check is mechanical, not a judge model.** Normalise both sides, match exactly, then
+   by word-trigram containment for splices. Nothing is graded by an LLM, so the evaluation
+   cannot inherit the generator's blind spots — the usual failure of LLM-as-judge on exactly
+   this task.
+3. **A relevance gate catches what a substring check structurally cannot**: a real quote
+   attached to a claim it does not support. The claim's proper nouns, years and figures must
+   appear in the matched region.
+4. **Whole classes of fabrication are excluded by construction, so they need no evaluation.**
+   Dates and relationships come from Wikidata. The schema has no URL field. Entity names are
+   resolved against Wikipedia and dropped if they do not resolve. A fabricated citation fails
+   lookup rather than scoring badly.
+5. **The verifier itself is unit-tested against adversarial fixtures** — a spliced quote that
+   should pass, a paraphrase that should fail, a genuine quote attached to an unrelated claim
+   that should fail, plus en dashes, `&nbsp;`, curly quotes and `[1]` markers.
+
+**What the number does not mean.** Coverage measures *traceability, not truth*. A claim can
+be perfectly verified against a source that is itself wrong, or be a subtle misreading of a
+sentence it genuinely quotes, and the summary prose carries source markers but is not
+span-verified. The honest reading is "this many assertions can be checked in one click" — not
+"this many are correct". Closing that gap needs a labelled set with human adjudication, which
+is the first thing I would build next.
 
 ## Iterations, and what using it taught me
 

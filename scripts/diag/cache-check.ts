@@ -23,7 +23,8 @@ async function measure(label: string, system: string) {
   console.log(`system block: ~${counted.input_tokens} tokens`);
 
   for (const attempt of [1, 2]) {
-    const response = await client.beta.messages.create({
+    const { data: response, response: http } = await client.beta.messages
+      .create({
       model: MODEL,
       max_tokens: 16,
       betas: [FALLBACK_BETA],
@@ -31,18 +32,21 @@ async function measure(label: string, system: string) {
       thinking: { type: 'adaptive' },
       output_config: { effort: 'low' },
       system: [{ type: 'text', text: system, cache_control: { type: 'ephemeral' } }],
-      messages: [{ role: 'user', content: 'Reply with the single word: ok' }],
-    });
+        messages: [{ role: 'user', content: 'Reply with the single word: ok' }],
+      })
+      .withResponse();
     const u = response.usage;
     console.log(
       `  call ${attempt}: input ${u.input_tokens}` +
         ` · cache_write ${u.cache_creation_input_tokens ?? 0}` +
-        ` · cache_read ${u.cache_read_input_tokens ?? 0}`,
+        ` · cache_read ${u.cache_read_input_tokens ?? 0}` +
+        `\n           request-id ${http.headers.get('request-id') ?? 'n/a'}`,
     );
   }
 }
 
 async function main() {
+  console.log(`model ${MODEL} · ${new Date().toISOString()}`);
   await measure('PROSE_SYSTEM', PROSE_SYSTEM);
   await measure('STRUCTURED_SYSTEM', STRUCTURED_SYSTEM);
   console.log(

@@ -20,17 +20,17 @@
     "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Alexandre_Cabanel_002.jpg/60px-Alexandre_Cabanel_002.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail"
    },
    {
+    "title": "Napoleon Dynamite",
+    "url": "https://en.wikipedia.org/wiki/Napoleon_Dynamite",
+    "lang": "en",
+    "description": "2004 film by Jared Hess"
+   },
+   {
     "title": "Napoleonic Wars",
     "url": "https://en.wikipedia.org/wiki/Napoleonic_Wars",
     "lang": "en",
     "description": "1803–1815 series of wars led by Napoleon",
     "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Napoleonic_Wars_%28revision%29.jpg/60px-Napoleonic_Wars_%28revision%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail"
-   },
-   {
-    "title": "Napoleon Dynamite",
-    "url": "https://en.wikipedia.org/wiki/Napoleon_Dynamite",
-    "lang": "en",
-    "description": "2004 film by Jared Hess"
    }
   ]
  },
@@ -586,6 +586,7 @@
     },
     "qid": "Q517",
     "title": "Napoleon",
+    "note": "French military leader, French Emperor 1804–1814 and again in 1815 (1769–1821)",
     "sourceUrl": "https://www.wikidata.org/wiki/Q517"
    },
    {
@@ -606,6 +607,7 @@
     },
     "qid": "Q6534",
     "title": "French Revolution",
+    "note": "revolution in France from 1789 to 1799",
     "sourceUrl": "https://en.wikipedia.org/wiki/French_Revolution"
    },
    {
@@ -626,6 +628,7 @@
     },
     "qid": "Q171480",
     "title": "Joséphine de Beauharnais",
+    "note": "Empress consort of the French from 1804 to 1814 (1763-1814)",
     "sourceUrl": "https://en.wikipedia.org/wiki/Jos%C3%A9phine_de_Beauharnais"
    },
    {
@@ -645,6 +648,7 @@
      "display": "18 May 1804"
     },
     "qid": "Q1131971",
+    "note": "head of government in the French Consulate",
     "sourceUrl": "https://www.wikidata.org/wiki/Q1131971"
    },
    {
@@ -684,6 +688,7 @@
     },
     "qid": "Q5373953",
     "title": "Emperor of the French",
+    "note": "title used by the House of Bonaparte",
     "sourceUrl": "https://en.wikipedia.org/wiki/Emperor_of_the_French"
    },
    {
@@ -704,6 +709,7 @@
     },
     "qid": "Q271148",
     "title": "King of Italy",
+    "note": "regnal title held by several monarchs",
     "sourceUrl": "https://en.wikipedia.org/wiki/King_of_Italy"
    },
    {
@@ -723,6 +729,7 @@
      "display": "26 January 1812"
     },
     "qid": "Q19808845",
+    "note": "co-Prince of Andorra who corresponds with the President of France",
     "sourceUrl": "https://www.wikidata.org/wiki/Q19808845"
    },
    {
@@ -743,6 +750,7 @@
     },
     "qid": "Q157491",
     "title": "Marie Louise, Duchess of Parma",
+    "note": "Empress Consort of the French from 1810 to 1814 and Monarch of Parma, Piacenza and Guastalla from 1814 to 1847",
     "sourceUrl": "https://en.wikipedia.org/wiki/Marie_Louise%2C_Duchess_of_Parma"
    },
    {
@@ -763,6 +771,7 @@
     },
     "qid": "Q5373953",
     "title": "Emperor of the French",
+    "note": "title used by the House of Bonaparte",
     "sourceUrl": "https://en.wikipedia.org/wiki/Emperor_of_the_French"
    },
    {
@@ -782,6 +791,7 @@
      "display": "22 June 1815"
     },
     "qid": "Q19808845",
+    "note": "co-Prince of Andorra who corresponds with the President of France",
     "sourceUrl": "https://www.wikidata.org/wiki/Q19808845"
    },
    {
@@ -952,12 +962,12 @@
    "truncated": false
   }
  ],
- "summary": "Napoleon Bonaparte (1769–1821) was a French army officer who made himself ruler of France and, for about a decade, the dominant power in continental Europe. He was born on Corsica, an island France had taken over the year before his birth, into a family of Italian descent, and was sent to military school on the French mainland at the age of nine [S7]. The French Revolution of 1789 destroyed the old monarchy and opened careers to talent; Napoleon rose fast in its armies, seized power in a coup in November 1799, and crowned himself Emperor of the French in December 1804 [S1]. He is remembered both as one of the most successful military commanders in history, whose campaigns are still taught in military academies, and as the author of legal and administrative reforms — above all the Napoleonic Code — that still shape French institutions and law well beyond France [S5][S1].\n\nThe shape of his career is a rapid ascent, roughly a decade of dominance, and a fast collapse. Victories over Austria, Prussia and Russia at places like Austerlitz (1805), Jena–Auerstedt (1806) and Friedland (1807) broke the coalitions that Britain organised and financed against France [S1][S3]; his reordering of Germany dissolved the thousand-year-old Holy Roman Empire [S1]. Then the invasion of Spain in 1808 bogged him down, and the invasion of Russia in 1812 destroyed his army in a catastrophic winter retreat [S1]. Beaten at Leipzig in 1813, he abdicated in April 1814, was exiled to Elba, escaped, returned to power for a hundred days, lost at Waterloo in June 1815, and died on the remote British-held Atlantic island of Saint Helena in 1821 [S1]. What was at stake was whether the revolution's principles — equality before the law, the end of feudal privilege — would spread across Europe, and at what price: between three and six million soldiers and civilians died in the wars named after him [S5].",
- "whyItMatters": "The Napoleonic Code, implemented in 1804, replaced France's patchwork of regional and customary laws with one written national civil law, and it went on to influence law in western Europe, Latin America, Louisiana and Quebec [S10][S6]. His administrative machinery — prefects running the departments, the Council of State, the Banque de France, the state secondary schools — largely survived him and made him one of the founders of modern French institutions [S10][S3]. Where his armies went, remnants of feudalism and manorialism were swept away, Jewish ghettos were closed and the Spanish Inquisition ended, though implementation varied locally [S6][S12]. He is also remembered for the other side of the ledger: he reinstated slavery in the French colonies in 1802, closed independent newspapers and censored the press, replaced direct elections with indirect ones, exiled critics, and restored a hereditary monarchy and nobility [S9][S6][S10].",
+ "summary": "Napoleon Bonaparte (1769–1821) was a French army officer who rose during the French Revolution — the upheaval that destroyed France's old monarchy after 1789 — and ended up ruling France, first as \"First Consul\" from 1799 and then as Emperor of the French from 1804 to 1814, with a brief return in 1815 [S1]. He was born on Corsica, a Mediterranean island France had taken over the year before his birth, into a family of Italian origin, and moved to the mainland at nine speaking Corsican and Italian rather than French [S7]. He is remembered for two very different things: winning battles, and rewriting laws. He is considered one of the greatest military commanders in history, and his civil law code of 1804, later called the Napoleonic Code, still shapes legal systems far beyond France [S1][S6].\n\nHe made his name at the siege of Toulon in 1793 and by firing cannon on royalist rebels in Paris in 1795, then seized power in a coup in November 1799 [S1]. As emperor he fought a succession of alliances — \"coalitions\" — assembled and paid for largely by Britain against revolutionary France, smashing them at Austerlitz in 1805, Jena in 1806 and Friedland in 1807 [S1][S3]. At home he created prefects to run the regions, the Banque de France, the franc, state secondary schools and a written civil code [S3][S10]. The empire broke on the invasion of Russia in 1812 and the retreat that followed; defeated at Leipzig in 1813, he abdicated in 1814, escaped from exile on Elba, and was beaten finally at Waterloo in 1815 [S1]. He died on the remote South Atlantic island of Saint Helena in 1821 [S1]. Between three and six million soldiers and civilians died in the wars that bear his name [S5].",
+ "whyItMatters": "The Napoleonic Code outlived him and shaped law across western Europe, Latin America, Louisiana and Quebec [S6]. His regime abolished the remnants of feudalism in conquered lands, closed Jewish ghettos, ended the Spanish Inquisition and proclaimed equality before the law for all men — while also cutting the legal rights of women and children and restricting divorce [S6][S10]. He collapsed the roughly three hundred statelets of the Holy Roman Empire into a forty-state Confederation of the Rhine, which fed the German nationalism that turned against him and eventually produced German unification in 1871 [S6]. The counterweight is equally concrete: he closed opposition newspapers and exiled critics, reinstated slavery in French colonies in 1802, and historians still argue over whether he was an enlightened despot who built modern Europe or a megalomaniac [S6][S9].",
  "takeaways": [
   {
    "id": "t0",
-   "text": "Napoleon Bonaparte was a French general who became Emperor of the French from 1804 until his first abdication in 1814, briefly returning to power in 1815.",
+   "text": "Napoleon Bonaparte was Emperor of the French from 1804 until he gave up the throne in 1814, and again briefly in 1815, after first rising as a general during the French Revolution.",
    "sourceId": "S1",
    "quote": "Napoleon Bonaparte (born Napoleone di Buonaparte; 15 August 1769 – 5 May 1821), later known by his regnal name Napoleon I, was Emperor of the French from 18 May 1804 until his first abdication in 1814, with a brief restoration during the Hundred Days in 1815.",
    "verification": {
@@ -971,21 +981,7 @@
   },
   {
    "id": "t1",
-   "text": "He was born on Corsica, a Mediterranean island ceded to France only a year before his birth, into a family descended from minor Italian nobility.",
-   "sourceId": "S7",
-   "quote": "Napoleon was born one year after the Republic of Genoa ceded Corsica to France through the Treaty of Versailles.",
-   "verification": {
-    "status": "verified",
-    "method": "exact",
-    "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Napoleon#Early_life:~:text=Napoleon%20was%20born%20one%20year%20after,France%20through%20the%20Treaty%20of%20Versailles.",
-    "sourceTitle": "Napoleon",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Napoleon#Early_life"
-   }
-  },
-  {
-   "id": "t2",
-   "text": "He seized power in France by overthrowing the ruling Directory in a coup in November 1799, becoming First Consul of the Republic.",
+   "text": "He seized power in France by a coup in November 1799 against the Directory, the five-man executive then governing the republic, and made himself First Consul.",
    "sourceId": "S1",
    "quote": "In November 1799 Napoleon engineered the Coup of 18 Brumaire against the French Directory and became First Consul of the Republic.",
    "verification": {
@@ -998,22 +994,36 @@
    }
   },
   {
-   "id": "t3",
-   "text": "His most durable legacy is legal and administrative: a written national law code, state schools, the abolition of feudal survivals and equality before the law for a rising middle class.",
-   "sourceId": "S1",
-   "quote": "His legacy endures through the legal and administrative reforms he enacted in France and Western Europe, most notably the Napoleonic Code. He established a system of public education, abolished the vestiges of feudalism",
+   "id": "t2",
+   "text": "His most durable achievement was a body of legal and administrative reform, above all the Napoleonic Code, a single written civil law replacing France's patchwork of regional customs.",
+   "sourceId": "S10",
+   "quote": "The code introduced a clearly written and accessible set of national laws to replace the various regional and customary law systems that had operated in France.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Napoleon#:~:text=His%20legacy%20endures%20through%20the%20legal,education%2C%20abolished%20the%20vestiges%20of%20feudalism",
+    "citationUrl": "https://en.wikipedia.org/wiki/Napoleon#Reforms:~:text=The%20code%20introduced%20a%20clearly%20written,systems%20that%20had%20operated%20in%20France.",
+    "sourceTitle": "Napoleon",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Napoleon#Reforms"
+   }
+  },
+  {
+   "id": "t3",
+   "text": "He is regarded as one of history's greatest military commanders, and his tactics are still taught in military academies.",
+   "sourceId": "S1",
+   "quote": "He is considered one of the greatest military commanders in history, and Napoleonic tactics are still studied at military schools worldwide.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Napoleon#:~:text=He%20is%20considered%20one%20of%20the,still%20studied%20at%20military%20schools%20worldwide.",
     "sourceTitle": "Napoleon",
     "sourceUrl": "https://en.wikipedia.org/wiki/Napoleon"
    }
   },
   {
    "id": "t4",
-   "text": "He remains deeply contested: he abolished the free press, ended directly elected representative government, exiled critics, and reinstated slavery in French colonies.",
+   "text": "He remains deeply contested: he abolished press freedom, ended directly elected representative government, exiled critics, and restored slavery in French colonies after the revolution had abolished it.",
    "sourceId": "S1",
    "quote": "He abolished the free press, ended directly elected representative government, exiled and imprisoned critics of his regime, reinstated slavery in French colonies",
    "verification": {
@@ -1027,22 +1037,21 @@
   },
   {
    "id": "t5",
-   "text": "Between three and six million soldiers and civilians died in the wars named after him.",
-   "sourceId": "S5",
-   "quote": "Entre tres y seis millones de civiles y soldados murieron en lo que se conoció como las guerras napoleónicas.",
-   "quoteTranslation": "Between three and six million civilians and soldiers died in what became known as the Napoleonic Wars.",
+   "text": "His invasion of Russia in 1812 ended in a catastrophic winter retreat that broke his hold on Europe.",
+   "sourceId": "S1",
+   "quote": "After forcing the Russians to abandon Moscow following the Battle of Borodino, Napoleon briefly occupied the city before conducting a catastrophic retreat of his army that winter.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://es.wikipedia.org/wiki/Napole%C3%B3n_Bonaparte#:~:text=Entre%20tres%20y%20seis%20millones%20de,se%20conoci%C3%B3%20como%20las%20guerras%20napole%C3%B3nicas.",
-    "sourceTitle": "Napoleón Bonaparte",
-    "sourceUrl": "https://es.wikipedia.org/wiki/Napole%C3%B3n_Bonaparte"
+    "citationUrl": "https://en.wikipedia.org/wiki/Napoleon#:~:text=After%20forcing%20the%20Russians%20to%20abandon,retreat%20of%20his%20army%20that%20winter.",
+    "sourceTitle": "Napoleon",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Napoleon"
    }
   },
   {
    "id": "t6",
-   "text": "After a final defeat at Waterloo in 1815 he was exiled to Saint Helena, a remote South Atlantic island, where he died in 1821 aged 51.",
+   "text": "After his final defeat at Waterloo in 1815 he was exiled to Saint Helena, a remote island in the South Atlantic, where he died in 1821 aged 51.",
    "sourceId": "S1",
    "quote": "Napoleon was exiled to the remote island of Saint Helena in the South Atlantic, where he died of stomach cancer in 1821, aged 51.",
    "verification": {
@@ -1057,78 +1066,19 @@
  ],
  "perspectives": [
   {
-   "label": "Napoleon as enlightened founder",
-   "stance": "He laid the foundations of the modern state",
-   "body": "On this reading Napoleon's codes, prefects, central bank and schools made him one of the founding fathers of contemporary French institutions, synthesising revolutionary gains with older traditions. French accounts stress that his reforms reinforced individual liberty and civic equality rather than merely concentrating power.",
+   "label": "Enlightened reformer versus megalomaniac",
+   "stance": "Founder of modern Europe, or destroyer of it",
+   "body": "Historians have split sharply over whether Napoleon's wars and repression outweigh his reforms. Some twentieth-century writers went as far as comparing him to Hitler, a comparison most modern critics reject on the grounds that he committed no genocide and did not mass-murder his political opponents.",
    "evidence": {
     "id": "p0",
-    "text": "Napoleon is presented as one of the founding fathers of contemporary French institutions, whose Civil Code of 1804 strengthened individual liberties and equality before the law.",
-    "sourceId": "S3",
-    "quote": "les codifications napoléoniennes, dont le Code civil de 1804, permettent de renforcer les libertés individuelles ou l'égalité des citoyens devant la loi",
-    "quoteTranslation": "the Napoleonic codifications, including the Civil Code of 1804, made it possible to strengthen individual liberties and the equality of citizens before the law",
-    "verification": {
-     "status": "verified",
-     "method": "exact",
-     "score": 1,
-     "citationUrl": "https://fr.wikipedia.org/wiki/Napol%C3%A9on_Ier#:~:text=les%20codifications%20napol%C3%A9oniennes%2C%20dont%20le%20Code,l'%C3%A9galit%C3%A9%20des%20citoyens%20devant%20la%20loi",
-     "sourceTitle": "Napoléon Ier",
-     "sourceUrl": "https://fr.wikipedia.org/wiki/Napol%C3%A9on_Ier"
-    }
-   }
-  },
-  {
-   "label": "Napoleon as despot",
-   "stance": "A dictatorship dressed in modern clothing",
-   "body": "German treatment describes the Consulate and Empire flatly as a dictatorial regime with plebiscitary trappings — that is, rule confirmed by yes-or-no popular votes rather than genuine representation. This frames the reforms as the work of an autocrat rather than of a liberal reformer.",
-   "evidence": {
-    "id": "p1",
-    "text": "His rule during the Consulate and the First Empire is characterised as a dictatorial regime with plebiscitary elements.",
-    "sourceId": "S4",
-    "quote": "Während des Konsulats von 1799 bis 1804 und des Ersten Kaiserreichs von 1804 bis 1814 sowie nochmals 1815 stand er einem diktatorischen Regime mit plebiszitären Elementen vor.",
-    "quoteTranslation": "During the Consulate from 1799 to 1804 and the First Empire from 1804 to 1814, and again in 1815, he presided over a dictatorial regime with plebiscitary elements.",
-    "verification": {
-     "status": "unverified",
-     "method": "exact",
-     "score": 0,
-     "reason": "Quote found, but the surrounding text does not mention consulate, first, empire.",
-     "sourceTitle": "Napoleon Bonaparte",
-     "sourceUrl": "https://de.wikipedia.org/wiki/Napoleon_Bonaparte"
-    }
-   }
-  },
-  {
-   "label": "The Hitler comparison and its critics",
-   "stance": "Monster, or merely a warmaker?",
-   "body": "Some writers have likened Napoleon to Adolf Hitler, but most modern critics reject the analogy on the grounds that he neither committed genocide nor systematically murdered political opponents. The debate is usually posed as a choice between enlightened despot and megalomaniac.",
-   "evidence": {
-    "id": "p2",
-    "text": "Some writers compared Napoleon to Hitler, but most modern critics reject the comparison because he did not commit genocide or mass-murder his political opponents.",
+    "text": "There is an open debate over whether Napoleon should be seen as an enlightened despot who laid modern Europe's foundations or as a megalomaniac who caused enormous misery.",
     "sourceId": "S6",
-    "quote": "Most modern critics of Napoleon, however, reject the Hitler comparison, arguing that Napoleon did not commit genocide and did not engage in the mass murder and imprisonment of his political opponents.",
+    "quote": "There is debate over whether Napoleon was \"an enlightened despot who laid the foundations of modern Europe\" or \"a megalomaniac who wrought greater misery than any man before the coming of Hitler\".",
     "verification": {
      "status": "verified",
      "method": "exact",
      "score": 1,
-     "citationUrl": "https://en.wikipedia.org/wiki/Napoleon#Memory_and_evaluation:~:text=Most%20modern%20critics%20of%20Napoleon%2C%20however%2C,and%20imprisonment%20of%20his%20political%20opponents.",
-     "sourceTitle": "Napoleon",
-     "sourceUrl": "https://en.wikipedia.org/wiki/Napoleon#Memory_and_evaluation"
-    }
-   }
-  },
-  {
-   "label": "Sceptics of the military genius",
-   "stance": "His generalship is overrated and costly",
-   "body": "Not all historians accept the standard view of Napoleon as one of history's supreme commanders. Some argue his reputation is inflated, and others that his tactics showed too little regard for his own soldiers' lives and produced avoidable casualties.",
-   "evidence": {
-    "id": "p3",
-    "text": "Some historians suggest Napoleon's reputation as a military genius is exaggerated and that his tactics caused excessive casualties.",
-    "sourceId": "S6",
-    "quote": "McLynn and Correlli Barnett suggest that Napoleon's reputation as a military genius is exaggerated. Cobban and Susan P. Conner argue that Napoleon had insufficient regard for the lives of his soldiers",
-    "verification": {
-     "status": "verified",
-     "method": "exact",
-     "score": 1,
-     "citationUrl": "https://en.wikipedia.org/wiki/Napoleon#Memory_and_evaluation:~:text=McLynn%20and%20Correlli%20Barnett%20suggest%20that,for%20the%20lives%20of%20his%20soldiers",
+     "citationUrl": "https://en.wikipedia.org/wiki/Napoleon#Memory_and_evaluation:~:text=There%20is%20debate%20over%20whether%20Napoleon,man%20before%20the%20coming%20of%20Hitler%22.",
      "sourceTitle": "Napoleon",
      "sourceUrl": "https://en.wikipedia.org/wiki/Napoleon#Memory_and_evaluation"
     }
@@ -1138,7 +1088,7 @@
  "claims": [
   {
    "id": "t0",
-   "text": "Napoleon Bonaparte was a French general who became Emperor of the French from 1804 until his first abdication in 1814, briefly returning to power in 1815.",
+   "text": "Napoleon Bonaparte was Emperor of the French from 1804 until he gave up the throne in 1814, and again briefly in 1815, after first rising as a general during the French Revolution.",
    "sourceId": "S1",
    "quote": "Napoleon Bonaparte (born Napoleone di Buonaparte; 15 August 1769 – 5 May 1821), later known by his regnal name Napoleon I, was Emperor of the French from 18 May 1804 until his first abdication in 1814, with a brief restoration during the Hundred Days in 1815.",
    "verification": {
@@ -1152,21 +1102,7 @@
   },
   {
    "id": "t1",
-   "text": "He was born on Corsica, a Mediterranean island ceded to France only a year before his birth, into a family descended from minor Italian nobility.",
-   "sourceId": "S7",
-   "quote": "Napoleon was born one year after the Republic of Genoa ceded Corsica to France through the Treaty of Versailles.",
-   "verification": {
-    "status": "verified",
-    "method": "exact",
-    "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Napoleon#Early_life:~:text=Napoleon%20was%20born%20one%20year%20after,France%20through%20the%20Treaty%20of%20Versailles.",
-    "sourceTitle": "Napoleon",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Napoleon#Early_life"
-   }
-  },
-  {
-   "id": "t2",
-   "text": "He seized power in France by overthrowing the ruling Directory in a coup in November 1799, becoming First Consul of the Republic.",
+   "text": "He seized power in France by a coup in November 1799 against the Directory, the five-man executive then governing the republic, and made himself First Consul.",
    "sourceId": "S1",
    "quote": "In November 1799 Napoleon engineered the Coup of 18 Brumaire against the French Directory and became First Consul of the Republic.",
    "verification": {
@@ -1179,22 +1115,36 @@
    }
   },
   {
-   "id": "t3",
-   "text": "His most durable legacy is legal and administrative: a written national law code, state schools, the abolition of feudal survivals and equality before the law for a rising middle class.",
-   "sourceId": "S1",
-   "quote": "His legacy endures through the legal and administrative reforms he enacted in France and Western Europe, most notably the Napoleonic Code. He established a system of public education, abolished the vestiges of feudalism",
+   "id": "t2",
+   "text": "His most durable achievement was a body of legal and administrative reform, above all the Napoleonic Code, a single written civil law replacing France's patchwork of regional customs.",
+   "sourceId": "S10",
+   "quote": "The code introduced a clearly written and accessible set of national laws to replace the various regional and customary law systems that had operated in France.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Napoleon#:~:text=His%20legacy%20endures%20through%20the%20legal,education%2C%20abolished%20the%20vestiges%20of%20feudalism",
+    "citationUrl": "https://en.wikipedia.org/wiki/Napoleon#Reforms:~:text=The%20code%20introduced%20a%20clearly%20written,systems%20that%20had%20operated%20in%20France.",
+    "sourceTitle": "Napoleon",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Napoleon#Reforms"
+   }
+  },
+  {
+   "id": "t3",
+   "text": "He is regarded as one of history's greatest military commanders, and his tactics are still taught in military academies.",
+   "sourceId": "S1",
+   "quote": "He is considered one of the greatest military commanders in history, and Napoleonic tactics are still studied at military schools worldwide.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Napoleon#:~:text=He%20is%20considered%20one%20of%20the,still%20studied%20at%20military%20schools%20worldwide.",
     "sourceTitle": "Napoleon",
     "sourceUrl": "https://en.wikipedia.org/wiki/Napoleon"
    }
   },
   {
    "id": "t4",
-   "text": "He remains deeply contested: he abolished the free press, ended directly elected representative government, exiled critics, and reinstated slavery in French colonies.",
+   "text": "He remains deeply contested: he abolished press freedom, ended directly elected representative government, exiled critics, and restored slavery in French colonies after the revolution had abolished it.",
    "sourceId": "S1",
    "quote": "He abolished the free press, ended directly elected representative government, exiled and imprisoned critics of his regime, reinstated slavery in French colonies",
    "verification": {
@@ -1208,22 +1158,21 @@
   },
   {
    "id": "t5",
-   "text": "Between three and six million soldiers and civilians died in the wars named after him.",
-   "sourceId": "S5",
-   "quote": "Entre tres y seis millones de civiles y soldados murieron en lo que se conoció como las guerras napoleónicas.",
-   "quoteTranslation": "Between three and six million civilians and soldiers died in what became known as the Napoleonic Wars.",
+   "text": "His invasion of Russia in 1812 ended in a catastrophic winter retreat that broke his hold on Europe.",
+   "sourceId": "S1",
+   "quote": "After forcing the Russians to abandon Moscow following the Battle of Borodino, Napoleon briefly occupied the city before conducting a catastrophic retreat of his army that winter.",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://es.wikipedia.org/wiki/Napole%C3%B3n_Bonaparte#:~:text=Entre%20tres%20y%20seis%20millones%20de,se%20conoci%C3%B3%20como%20las%20guerras%20napole%C3%B3nicas.",
-    "sourceTitle": "Napoleón Bonaparte",
-    "sourceUrl": "https://es.wikipedia.org/wiki/Napole%C3%B3n_Bonaparte"
+    "citationUrl": "https://en.wikipedia.org/wiki/Napoleon#:~:text=After%20forcing%20the%20Russians%20to%20abandon,retreat%20of%20his%20army%20that%20winter.",
+    "sourceTitle": "Napoleon",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Napoleon"
    }
   },
   {
    "id": "t6",
-   "text": "After a final defeat at Waterloo in 1815 he was exiled to Saint Helena, a remote South Atlantic island, where he died in 1821 aged 51.",
+   "text": "After his final defeat at Waterloo in 1815 he was exiled to Saint Helena, a remote island in the South Atlantic, where he died in 1821 aged 51.",
    "sourceId": "S1",
    "quote": "Napoleon was exiled to the remote island of Saint Helena in the South Atlantic, where he died of stomach cancer in 1821, aged 51.",
    "verification": {
@@ -1237,58 +1186,14 @@
   },
   {
    "id": "p0",
-   "text": "Napoleon is presented as one of the founding fathers of contemporary French institutions, whose Civil Code of 1804 strengthened individual liberties and equality before the law.",
-   "sourceId": "S3",
-   "quote": "les codifications napoléoniennes, dont le Code civil de 1804, permettent de renforcer les libertés individuelles ou l'égalité des citoyens devant la loi",
-   "quoteTranslation": "the Napoleonic codifications, including the Civil Code of 1804, made it possible to strengthen individual liberties and the equality of citizens before the law",
-   "verification": {
-    "status": "verified",
-    "method": "exact",
-    "score": 1,
-    "citationUrl": "https://fr.wikipedia.org/wiki/Napol%C3%A9on_Ier#:~:text=les%20codifications%20napol%C3%A9oniennes%2C%20dont%20le%20Code,l'%C3%A9galit%C3%A9%20des%20citoyens%20devant%20la%20loi",
-    "sourceTitle": "Napoléon Ier",
-    "sourceUrl": "https://fr.wikipedia.org/wiki/Napol%C3%A9on_Ier"
-   }
-  },
-  {
-   "id": "p1",
-   "text": "His rule during the Consulate and the First Empire is characterised as a dictatorial regime with plebiscitary elements.",
-   "sourceId": "S4",
-   "quote": "Während des Konsulats von 1799 bis 1804 und des Ersten Kaiserreichs von 1804 bis 1814 sowie nochmals 1815 stand er einem diktatorischen Regime mit plebiszitären Elementen vor.",
-   "quoteTranslation": "During the Consulate from 1799 to 1804 and the First Empire from 1804 to 1814, and again in 1815, he presided over a dictatorial regime with plebiscitary elements.",
-   "verification": {
-    "status": "unverified",
-    "method": "exact",
-    "score": 0,
-    "reason": "Quote found, but the surrounding text does not mention consulate, first, empire.",
-    "sourceTitle": "Napoleon Bonaparte",
-    "sourceUrl": "https://de.wikipedia.org/wiki/Napoleon_Bonaparte"
-   }
-  },
-  {
-   "id": "p2",
-   "text": "Some writers compared Napoleon to Hitler, but most modern critics reject the comparison because he did not commit genocide or mass-murder his political opponents.",
+   "text": "There is an open debate over whether Napoleon should be seen as an enlightened despot who laid modern Europe's foundations or as a megalomaniac who caused enormous misery.",
    "sourceId": "S6",
-   "quote": "Most modern critics of Napoleon, however, reject the Hitler comparison, arguing that Napoleon did not commit genocide and did not engage in the mass murder and imprisonment of his political opponents.",
+   "quote": "There is debate over whether Napoleon was \"an enlightened despot who laid the foundations of modern Europe\" or \"a megalomaniac who wrought greater misery than any man before the coming of Hitler\".",
    "verification": {
     "status": "verified",
     "method": "exact",
     "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Napoleon#Memory_and_evaluation:~:text=Most%20modern%20critics%20of%20Napoleon%2C%20however%2C,and%20imprisonment%20of%20his%20political%20opponents.",
-    "sourceTitle": "Napoleon",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Napoleon#Memory_and_evaluation"
-   }
-  },
-  {
-   "id": "p3",
-   "text": "Some historians suggest Napoleon's reputation as a military genius is exaggerated and that his tactics caused excessive casualties.",
-   "sourceId": "S6",
-   "quote": "McLynn and Correlli Barnett suggest that Napoleon's reputation as a military genius is exaggerated. Cobban and Susan P. Conner argue that Napoleon had insufficient regard for the lives of his soldiers",
-   "verification": {
-    "status": "verified",
-    "method": "exact",
-    "score": 1,
-    "citationUrl": "https://en.wikipedia.org/wiki/Napoleon#Memory_and_evaluation:~:text=McLynn%20and%20Correlli%20Barnett%20suggest%20that,for%20the%20lives%20of%20his%20soldiers",
+    "citationUrl": "https://en.wikipedia.org/wiki/Napoleon#Memory_and_evaluation:~:text=There%20is%20debate%20over%20whether%20Napoleon,man%20before%20the%20coming%20of%20Hitler%22.",
     "sourceTitle": "Napoleon",
     "sourceUrl": "https://en.wikipedia.org/wiki/Napoleon#Memory_and_evaluation"
    }
@@ -1318,31 +1223,7 @@
     }
    },
    "relationship": "First wife, married 1796",
-   "note": "A widow and former mistress of the Directory leader Barras, she married Bonaparte just before his first Italian command; their childless marriage was annulled in 1810 so he could father an heir."
-  },
-  {
-   "entity": {
-    "title": "Pasquale Paoli",
-    "url": "https://en.wikipedia.org/wiki/Pasquale_Paoli",
-    "lang": "en",
-    "description": "Corsican statesman (1725–1807)",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Portrait_de_Pascal_Paoli_-_William_BEECHEY.jpg/60px-Portrait_de_Pascal_Paoli_-_William_BEECHEY.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q152346",
-    "start": {
-     "raw": "+1725-04-06T00:00:00Z",
-     "year": 1725,
-     "precision": "day",
-     "display": "6 April 1725"
-    },
-    "end": {
-     "raw": "+1807-02-05T00:00:00Z",
-     "year": 1807,
-     "precision": "day",
-     "display": "5 February 1807"
-    }
-   },
-   "relationship": "Corsican hero turned enemy",
-   "note": "The leader of Corsican independence whom the young Napoleon admired, until Paoli rejected him as the son of a traitor and drove the Bonapartes off the island."
+   "note": "A widow and former mistress of the Directory leader Barras, she was crowned empress alongside him but bore him no children, and their marriage was annulled in 1810."
   },
   {
    "entity": {
@@ -1366,31 +1247,31 @@
     }
    },
    "relationship": "Victor over him at Waterloo",
-   "note": "The British commander who finally defeated him in 1815 and who judged Napoleon's mere presence on a battlefield worth 40,000 soldiers."
+   "note": "The British commander who finally defeated him in 1815 nonetheless rated his battlefield presence as worth 40,000 soldiers."
   },
   {
    "entity": {
-    "title": "Charles Maurice de Talleyrand-Périgord",
-    "url": "https://en.wikipedia.org/wiki/Charles_Maurice_de_Talleyrand-P%C3%A9rigord",
+    "title": "Pasquale Paoli",
+    "url": "https://en.wikipedia.org/wiki/Pasquale_Paoli",
     "lang": "en",
-    "description": "French secularized clergyman, statesman, and diplomat (1754–1838)",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Charles_Maurice_de_Talleyrand_P%C3%A9rigord_%281754%E2%80%931838%29%2C_Prince_de_Talleyrand_MET_DP148275.jpg/60px-Charles_Maurice_de_Talleyrand_P%C3%A9rigord_%281754%E2%80%931838%29%2C_Prince_de_Talleyrand_MET_DP148275.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q160499",
+    "description": "Corsican statesman (1725–1807)",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Portrait_de_Pascal_Paoli_-_William_BEECHEY.jpg/60px-Portrait_de_Pascal_Paoli_-_William_BEECHEY.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q152346",
     "start": {
-     "raw": "+1754-02-02T00:00:00Z",
-     "year": 1754,
+     "raw": "+1725-04-06T00:00:00Z",
+     "year": 1725,
      "precision": "day",
-     "display": "2 February 1754"
+     "display": "6 April 1725"
     },
     "end": {
-     "raw": "+1839-05-17T00:00:00Z",
-     "year": 1839,
+     "raw": "+1807-02-05T00:00:00Z",
+     "year": 1807,
      "precision": "day",
-     "display": "17 May 1839"
+     "display": "5 February 1807"
     }
    },
-   "relationship": "Foreign minister and coup ally",
-   "note": "He helped Bonaparte seize power in 1799 and advised the seizure of the Duke of Enghien, whose execution scandalised Europe's monarchies."
+   "relationship": "Boyhood hero turned Corsican enemy",
+   "note": "The Corsican independence leader whom the young Napoleon admired but later opposed, a conflict that drove the Bonaparte family off the island to mainland France."
   },
   {
    "entity": {
@@ -1413,8 +1294,32 @@
      "display": "20 August 1823"
     }
    },
-   "relationship": "Concordat partner, later his prisoner",
-   "note": "He struck a deal reconciling the Catholic Church with Napoleon's regime and attended the imperial coronation, only to be excommunicating Napoleon and then arrested and exiled by French officials."
+   "relationship": "Church partner, later his prisoner",
+   "note": "He struck the Concordat of 1801 with the pope to reconcile Catholics to his regime and had him attend the coronation, then later annexed Rome, was excommunicated, and had the pope arrested."
+  },
+  {
+   "entity": {
+    "title": "Charles Maurice de Talleyrand-Périgord",
+    "url": "https://en.wikipedia.org/wiki/Charles_Maurice_de_Talleyrand-P%C3%A9rigord",
+    "lang": "en",
+    "description": "French secularized clergyman, statesman, and diplomat (1754–1838)",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Charles_Maurice_de_Talleyrand_P%C3%A9rigord_%281754%E2%80%931838%29%2C_Prince_de_Talleyrand_MET_DP148275.jpg/60px-Charles_Maurice_de_Talleyrand_P%C3%A9rigord_%281754%E2%80%931838%29%2C_Prince_de_Talleyrand_MET_DP148275.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q160499",
+    "start": {
+     "raw": "+1754-02-02T00:00:00Z",
+     "year": 1754,
+     "precision": "day",
+     "display": "2 February 1754"
+    },
+    "end": {
+     "raw": "+1839-05-17T00:00:00Z",
+     "year": 1839,
+     "precision": "day",
+     "display": "17 May 1839"
+    }
+   },
+   "relationship": "Foreign minister and political ally",
+   "note": "He joined Napoleon's conspiracy to overthrow the Directory and advised the seizure of the Duke of Enghien that shocked Europe's monarchies."
   },
   {
    "entity": {
@@ -1438,7 +1343,7 @@
     }
    },
    "relationship": "Son and designated successor",
-   "note": "Born to his second wife Marie Louise and named as heir on his 1815 abdication, but never recognised by the victorious allies and dead at twenty-one."
+   "note": "His only legitimate child, named successor at the 1815 abdication but never recognised by the allied powers, dying of tuberculosis at 21."
   }
  ],
  "comparisons": [
@@ -1463,15 +1368,16 @@
      "display": "15 March 44 BC"
     }
    },
-   "angle": "Both were generals who turned battlefield prestige into personal rule over a republic.",
+   "angle": "Both were brilliant generals who converted battlefield prestige into the overthrow of a republic they claimed to serve.",
    "similarities": [
-    "Used military victory as the springboard to political power",
-    "Overthrew an existing republican government",
-    "Left a legal and administrative legacy far outlasting them"
+    "A military commander who took power by coup against an existing republican executive",
+    "Rule justified by personal glory and popular acclaim rather than inheritance",
+    "Remembered as much for law and administration as for conquest"
    ],
    "differences": [
-    "Napoleon had himself crowned emperor with a hereditary title confirmed by plebiscite",
-    "Napoleon's rule ended in defeat, abdication and exile rather than assassination in office"
+    "Napoleon had himself crowned emperor in a religious ceremony with the pope present",
+    "Napoleon's legal codification still shapes civil law across much of the world",
+    "Napoleon died a prisoner in exile rather than being assassinated in power"
    ],
    "start": {
     "raw": "-0100-07-12T00:00:00Z",
@@ -1507,16 +1413,16 @@
      "display": "30 April 1945"
     }
    },
-   "angle": "The comparison was made explicitly by some historians and is worth understanding precisely because most reject it.",
+   "angle": "The comparison is not an invention of hindsight but a real strand in the historiography, and its rejection clarifies what Napoleon was and was not.",
    "similarities": [
-    "Both conquered much of continental Europe before catastrophic defeat",
-    "Both invaded Russia with ruinous results",
-    "Both were depicted by opponents as a uniquely dangerous tyrant"
+    "Both dominated continental Europe by force from a single centre",
+    "Both were destroyed by an invasion of Russia followed by coalition defeat",
+    "Both have been described by some historians in the same breath as causes of mass misery"
    ],
    "differences": [
-    "Napoleon did not commit genocide",
-    "Napoleon did not engage in mass murder and imprisonment of political opponents",
-    "Napoleon's legal code was adopted willingly across much of the world"
+    "Most modern critics reject the comparison, arguing Napoleon committed no genocide",
+    "Napoleon did not carry out mass murder and imprisonment of political opponents",
+    "Napoleon's rule spread legal equality and the abolition of feudalism in conquered lands"
    ],
    "start": {
     "raw": "+1889-04-20T00:00:00Z",
@@ -1529,49 +1435,6 @@
     "year": 1945,
     "precision": "day",
     "display": "30 April 1945"
-   }
-  },
-  {
-   "entity": {
-    "title": "Simón Bolívar",
-    "url": "https://en.wikipedia.org/wiki/Sim%C3%B3n_Bol%C3%ADvar",
-    "lang": "en",
-    "description": "Venezuelan statesman and military officer (1783–1830)",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Sim%C3%B3n_Bol%C3%ADvar._Toro_Moreno%2C_Luis._1922%2C_Legislative_Palace%2C_La_Paz.png/60px-Sim%C3%B3n_Bol%C3%ADvar._Toro_Moreno%2C_Luis._1922%2C_Legislative_Palace%2C_La_Paz.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q8605",
-    "start": {
-     "raw": "+1783-07-24T00:00:00Z",
-     "year": 1783,
-     "precision": "day",
-     "display": "24 July 1783"
-    },
-    "end": {
-     "raw": "+1830-12-17T00:00:00Z",
-     "year": 1830,
-     "precision": "day",
-     "display": "17 December 1830"
-    }
-   },
-   "angle": "Bolívar's career shows what Napoleon's actions unleashed indirectly far beyond Europe.",
-   "similarities": [
-    "Both rode nationalist sentiment derived from the French Revolution",
-    "Both reshaped the map of a continent by force of arms"
-   ],
-   "differences": [
-    "Bolívar led independence movements against empire rather than building one",
-    "Napoleon's ousting of the Spanish Bourbons created the vacuum Bolívar filled"
-   ],
-   "start": {
-    "raw": "+1783-07-24T00:00:00Z",
-    "year": 1783,
-    "precision": "day",
-    "display": "24 July 1783"
-   },
-   "end": {
-    "raw": "+1830-12-17T00:00:00Z",
-    "year": 1830,
-    "precision": "day",
-    "display": "17 December 1830"
    }
   }
  ],
@@ -1610,20 +1473,57 @@
     }
    },
    "relation": "hasPart",
-   "note": "His civil code of 1804 replaced France's patchwork of regional and customary laws and was carried by his armies across Europe.",
+   "note": "His civil code, implemented in 1804, carried equality before the law and the abolition of feudal remnants across Europe and beyond.",
    "fromGraph": false
   },
   {
    "entity": {
-    "title": "Holy Roman Empire",
-    "url": "https://en.wikipedia.org/wiki/Holy_Roman_Empire",
+    "title": "Dissolution of the Holy Roman Empire",
+    "url": "https://en.wikipedia.org/wiki/Dissolution_of_the_Holy_Roman_Empire",
     "lang": "en",
-    "description": "European political entity (800/962–1806)",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Banner_of_the_Holy_Roman_Emperor_with_haloes_%281430-1806%29.svg/60px-Banner_of_the_Holy_Roman_Emperor_with_haloes_%281430-1806%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q12548"
+    "description": "",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Map_of_Holy_Roman_Empire_1789.svg/60px-Map_of_Holy_Roman_Empire_1789.svg.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q19902208",
+    "start": {
+     "raw": "+1806-08-06T00:00:00Z",
+     "year": 1806,
+     "precision": "day",
+     "display": "6 August 1806"
+    },
+    "occurredAt": {
+     "raw": "+1806-08-06T00:00:00Z",
+     "year": 1806,
+     "precision": "day",
+     "display": "6 August 1806"
+    }
    },
    "relation": "causes",
-   "note": "His victory at Austerlitz led to the dissolution of this thousand-year-old German political framework, making the shape of central Europe a defining nineteenth-century question.",
+   "note": "His victory at Austerlitz led to the end of the thousand-year German empire, making the shape of central Europe the century's central question.",
+   "fromGraph": false
+  },
+  {
+   "entity": {
+    "title": "Louisiana Purchase",
+    "url": "https://en.wikipedia.org/wiki/Louisiana_Purchase",
+    "lang": "en",
+    "description": "1803 acquisition of region of Middle America land by the U.S. from France",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Louisiana_Purchase.png/60px-Louisiana_Purchase.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q193155",
+    "start": {
+     "raw": "+1803-04-30T00:00:00Z",
+     "year": 1803,
+     "precision": "day",
+     "display": "30 April 1803"
+    },
+    "occurredAt": {
+     "raw": "+1803-04-30T00:00:00Z",
+     "year": 1803,
+     "precision": "day",
+     "display": "30 April 1803"
+    }
+   },
+   "relation": "causes",
+   "note": "Needing money and unable to defend the territory against Britain, he sold Louisiana to the United States in 1803, doubling its size.",
    "fromGraph": false
   },
   {
@@ -1654,126 +1554,81 @@
     }
    },
    "relation": "participantIn",
-   "note": "He sent an expedition to retake the sugar colony of Saint-Domingue and reintroduced slavery elsewhere; the expedition failed and Haiti declared independence.",
+   "note": "He reintroduced slavery in the recovered colonies in 1802 and sent an expedition to retake Saint-Domingue, which failed and led to Haitian independence.",
    "fromGraph": false
   },
   {
    "entity": {
-    "title": "Louisiana Purchase",
-    "url": "https://en.wikipedia.org/wiki/Louisiana_Purchase",
+    "title": "Spanish American wars of independence",
+    "url": "https://en.wikipedia.org/wiki/Spanish_American_wars_of_independence",
     "lang": "en",
-    "description": "1803 acquisition of region of Middle America land by the U.S. from France",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Louisiana_Purchase.png/60px-Louisiana_Purchase.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q193155",
+    "description": "1808–1833 series of armed conflicts in the Americas",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Congreso_de_C%C3%BAcuta.jpg/60px-Congreso_de_C%C3%BAcuta.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q1123201",
     "start": {
-     "raw": "+1803-04-30T00:00:00Z",
-     "year": 1803,
+     "raw": "+1808-09-25T00:00:00Z",
+     "year": 1808,
      "precision": "day",
-     "display": "30 April 1803"
-    },
-    "occurredAt": {
-     "raw": "+1803-04-30T00:00:00Z",
-     "year": 1803,
-     "precision": "day",
-     "display": "30 April 1803"
-    }
-   },
-   "relation": "causes",
-   "note": "Facing renewed war with Britain and short of money, he sold the vast Louisiana territory to the United States in 1803, doubling its size.",
-   "fromGraph": false
-  },
-  {
-   "entity": {
-    "title": "Unification of Germany",
-    "url": "https://en.wikipedia.org/wiki/Unification_of_Germany",
-    "lang": "en",
-    "description": "1866–1871 consolidation of German states",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Deutsches_Reich_%281871-1918%29-en.png/60px-Deutsches_Reich_%281871-1918%29-en.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-    "qid": "Q154705",
-    "start": {
-     "raw": "+1866-08-18T00:00:00Z",
-     "year": 1866,
-     "precision": "day",
-     "display": "18 August 1866"
+     "display": "25 September 1808"
     },
     "end": {
-     "raw": "+1871-05-10T00:00:00Z",
-     "year": 1871,
+     "raw": "+1833-09-29T00:00:00Z",
+     "year": 1833,
      "precision": "day",
-     "display": "10 May 1871"
+     "display": "29 September 1833"
     },
     "occurredAt": {
-     "raw": "+1871-01-18T00:00:00Z",
-     "year": 1871,
+     "raw": "+1808-09-25T00:00:00Z",
+     "year": 1808,
      "precision": "day",
-     "display": "18 January 1871"
+     "display": "25 September 1808"
     }
    },
    "relation": "causes",
-   "note": "His reorganisation of hundreds of German statelets into a forty-state confederation, and the nationalist backlash it provoked, fed the movement that produced a unified Germany in 1871.",
+   "note": "His invasion of Spain and removal of its Bourbon king created the power vacuum that local leaders such as Simón Bolívar filled.",
    "fromGraph": false
   }
  ],
  "glossary": [
   {
-   "term": "French Directory",
-   "definition": "The five-man executive that governed France from 1795 until Bonaparte overthrew it in the coup of 18 Brumaire in November 1799."
+   "term": "Coup of 18 Brumaire",
+   "definition": "The coup of 9 November 1799 in which Bonaparte and his allies forced the legislature to dissolve the Directory and appoint him one of three provisional consuls."
+  },
+  {
+   "term": "Directory",
+   "definition": "The government of revolutionary France before 1799, unpopular and bankrupt by the time Bonaparte overthrew it."
   },
   {
    "term": "First Consul",
-   "definition": "The dominant of three consuls under the Constitution of the Year VIII; Bonaparte held the office from 1799 and in effect ruled France alone."
+   "definition": "The office Bonaparte held from 1799 to 1804; nominally one of three consuls, but in practice holding the real power."
   },
   {
    "term": "Plebiscite",
-   "definition": "A yes-or-no popular vote used to ratify Napoleon's constitutions and titles; the counts were sometimes falsified, as when the 1804 'yes' vote was inflated by hundreds of thousands."
-  },
-  {
-   "term": "Coalition",
-   "definition": "Successive alliances of European monarchies, largely financed by Britain, formed to fight revolutionary and Napoleonic France; there were seven in all."
+   "definition": "A yes-or-no popular vote used by Napoleon to ratify his constitutions and titles; the counts were falsified in his favour."
   },
   {
    "term": "Grande Armée",
-   "definition": "Napoleon's main field army, created in 1805 from the invasion force at Boulogne, some 350,000 well-equipped men organised into corps with an elite Imperial Guard."
+   "definition": "The large French field army created in 1805 out of the invasion force gathered at Boulogne, about 350,000 well-trained men."
+  },
+  {
+   "term": "Coalition",
+   "definition": "Successive alliances of European monarchies, largely financed by Britain, formed to defeat revolutionary and Napoleonic France; there were seven in all."
   },
   {
    "term": "Concordat of 1801",
-   "definition": "The agreement with Pope Pius VII recognising Catholicism as the majority religion of France in exchange for the Church's recognition of Napoleon's regime."
+   "definition": "The agreement with Pope Pius VII under which the Church recognised Napoleon's regime and Catholicism was acknowledged as France's majority religion."
   },
   {
-   "term": "Prefect",
-   "definition": "A government-appointed official placed in charge of each French department from 1800, concentrating regional power in the hands of the central state."
-  },
-  {
-   "term": "13 Vendémiaire",
-   "definition": "The date in the French revolutionary calendar (5 October 1795) when Bonaparte fired grapeshot on royalist rebels in Paris, saving the Convention and making his name."
+   "term": "Hundred Days",
+   "definition": "The period in 1815 when Napoleon escaped exile on Elba, retook power in France, and was finally beaten at Waterloo."
   }
  ],
  "drilldown": [
   {
-   "title": "Napoleonic Code",
-   "url": "https://en.wikipedia.org/wiki/Napoleonic_Code",
-   "lang": "en",
-   "description": "The single reform whose influence still reaches Latin America, Louisiana and Quebec.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Speyer%2C_Historical_Museum_of_the_Palatinate_-_Code_civil_des_Fran%C3%A7ais.jpg/60px-Speyer%2C_Historical_Museum_of_the_Palatinate_-_Code_civil_des_Fran%C3%A7ais.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q151060",
-   "start": {
-    "raw": "+1804-00-00T00:00:00Z",
-    "year": 1804,
-    "precision": "year",
-    "display": "1804"
-   },
-   "occurredAt": {
-    "raw": "+1804-00-00T00:00:00Z",
-    "year": 1804,
-    "precision": "year",
-    "display": "1804"
-   }
-  },
-  {
    "title": "Battle of Austerlitz",
    "url": "https://en.wikipedia.org/wiki/Battle_of_Austerlitz",
    "lang": "en",
-   "description": "His own favourite victory, and the one that ended the Holy Roman Empire.",
+   "description": "His own favourite victory, which shattered the Third Coalition and destroyed the Holy Roman Empire.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/La_bataille_d%27Austerlitz._2_decembre_1805_%28Fran%C3%A7ois_G%C3%A9rard%29.jpg/60px-La_bataille_d%27Austerlitz._2_decembre_1805_%28Fran%C3%A7ois_G%C3%A9rard%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q134114",
    "start": {
@@ -1790,10 +1645,30 @@
    }
   },
   {
+   "title": "Napoleonic Code",
+   "url": "https://en.wikipedia.org/wiki/Napoleonic_Code",
+   "lang": "en",
+   "description": "The reform with the longest reach, still underlying law in Latin America, Quebec and Louisiana.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Speyer%2C_Historical_Museum_of_the_Palatinate_-_Code_civil_des_Fran%C3%A7ais.jpg/60px-Speyer%2C_Historical_Museum_of_the_Palatinate_-_Code_civil_des_Fran%C3%A7ais.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q151060",
+   "start": {
+    "raw": "+1804-00-00T00:00:00Z",
+    "year": 1804,
+    "precision": "year",
+    "display": "1804"
+   },
+   "occurredAt": {
+    "raw": "+1804-00-00T00:00:00Z",
+    "year": 1804,
+    "precision": "year",
+    "display": "1804"
+   }
+  },
+  {
    "title": "French invasion of Russia",
    "url": "https://en.wikipedia.org/wiki/French_invasion_of_Russia",
    "lang": "en",
-   "description": "The catastrophic 1812 campaign that broke French dominance in Europe.",
+   "description": "The campaign whose catastrophic failure began the collapse of his European order.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/IV_corpo_durante_la_campagna_di_Russia.jpg/60px-IV_corpo_durante_la_campagna_di_Russia.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q179250",
    "start": {
@@ -1819,7 +1694,7 @@
    "title": "Battle of Waterloo",
    "url": "https://en.wikipedia.org/wiki/Battle_of_Waterloo",
    "lang": "en",
-   "description": "The final defeat that ended the Hundred Days and sent him to Saint Helena.",
+   "description": "The final defeat that ended his rule for good and sent him to Saint Helena.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Battle_of_Waterloo_1815.PNG/60px-Battle_of_Waterloo_1815.PNG?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q48314",
    "start": {
@@ -1836,62 +1711,36 @@
    }
   },
   {
-   "title": "Peninsular War",
-   "url": "https://en.wikipedia.org/wiki/Peninsular_War",
+   "title": "French invasion of Egypt and Syria",
+   "url": "https://en.wikipedia.org/wiki/French_invasion_of_Egypt_and_Syria",
    "lang": "en",
-   "description": "The Spanish resistance that showed how nationalism could be turned against Napoleon himself.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Peninsular_war_collage.jpg/60px-Peninsular_war_collage.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q152499",
+   "description": "The expedition that made him famous, produced the Rosetta Stone, and included the massacre of thousands of prisoners at Jaffa.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/French_campaign_in_Egypt_and_Syria.jpg/60px-French_campaign_in_Egypt_and_Syria.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q253684",
    "start": {
-    "raw": "+1808-05-02T00:00:00Z",
-    "year": 1808,
+    "raw": "+1798-07-01T00:00:00Z",
+    "year": 1798,
     "precision": "day",
-    "display": "2 May 1808"
+    "display": "1 July 1798"
    },
    "end": {
-    "raw": "+1814-04-17T00:00:00Z",
-    "year": 1814,
+    "raw": "+1801-09-02T00:00:00Z",
+    "year": 1801,
     "precision": "day",
-    "display": "17 April 1814"
+    "display": "2 September 1801"
    },
    "occurredAt": {
-    "raw": "+1808-05-02T00:00:00Z",
-    "year": 1808,
+    "raw": "+1798-07-01T00:00:00Z",
+    "year": 1798,
     "precision": "day",
-    "display": "2 May 1808"
-   }
-  },
-  {
-   "title": "Coup of 18 Brumaire",
-   "url": "https://en.wikipedia.org/wiki/Coup_of_18_Brumaire",
-   "lang": "en",
-   "description": "The moment a general became the ruler of France.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Bouchot_-_Le_general_Bonaparte_au_Conseil_des_Cinq-Cents.jpg/60px-Bouchot_-_Le_general_Bonaparte_au_Conseil_des_Cinq-Cents.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q620965",
-   "start": {
-    "raw": "+1799-11-09T00:00:00Z",
-    "year": 1799,
-    "precision": "day",
-    "display": "9 November 1799"
-   },
-   "end": {
-    "raw": "+1799-11-10T00:00:00Z",
-    "year": 1799,
-    "precision": "day",
-    "display": "10 November 1799"
-   },
-   "occurredAt": {
-    "raw": "+1799-11-00T00:00:00Z",
-    "year": 1799,
-    "precision": "month",
-    "display": "November 1799"
+    "display": "1 July 1798"
    }
   },
   {
    "title": "Haitian Revolution",
    "url": "https://en.wikipedia.org/wiki/Haitian_Revolution",
    "lang": "en",
-   "description": "The colonial war in which his reinstatement of slavery ended in French defeat and Haitian independence.",
+   "description": "The slave revolt whose suppression he attempted and failed, a central charge against his record on civil rights.",
    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Incendie_de_la_Plaine_du_Cap._Massacre_des_Blancs_par_les_esclaves_noirs_r%C3%A9volt%C3%A9s._France_militaire._Martinet_et_Masson.jpg/60px-Incendie_de_la_Plaine_du_Cap._Massacre_des_Blancs_par_les_esclaves_noirs_r%C3%A9volt%C3%A9s._France_militaire._Martinet_et_Masson.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
    "qid": "Q689128",
    "start": {
@@ -1914,43 +1763,69 @@
    }
   },
   {
-   "title": "Toussaint Louverture",
-   "url": "https://en.wikipedia.org/wiki/Toussaint_Louverture",
+   "title": "Napoleonic Wars",
+   "url": "https://en.wikipedia.org/wiki/Napoleonic_Wars",
    "lang": "en",
-   "description": "The former slave who governed Saint-Domingue and whom Napoleon had captured and shipped to France.",
-   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Toussaint_Louverture_-_Girardin.jpg/60px-Toussaint_Louverture_-_Girardin.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
-   "qid": "Q205783",
+   "description": "The wars that killed millions and disrupted Europe's economy for a generation.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Napoleonic_Wars_%28revision%29.jpg/60px-Napoleonic_Wars_%28revision%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q78994",
    "start": {
-    "raw": "+1743-05-20T00:00:00Z",
-    "year": 1743,
-    "precision": "day",
-    "display": "20 May 1743"
+    "raw": "+1803-00-00T00:00:00Z",
+    "year": 1803,
+    "precision": "year",
+    "display": "1803"
    },
    "end": {
-    "raw": "+1803-04-07T00:00:00Z",
+    "raw": "+1815-00-00T00:00:00Z",
+    "year": 1815,
+    "precision": "year",
+    "display": "1815"
+   },
+   "occurredAt": {
+    "raw": "+1803-00-00T00:00:00Z",
     "year": 1803,
+    "precision": "year",
+    "display": "1803"
+   }
+  },
+  {
+   "title": "Pasquale Paoli",
+   "url": "https://en.wikipedia.org/wiki/Pasquale_Paoli",
+   "lang": "en",
+   "description": "The Corsican independence leader whose quarrel with the Bonapartes pushed Napoleon from Corsican nationalist to Frenchman.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Portrait_de_Pascal_Paoli_-_William_BEECHEY.jpg/60px-Portrait_de_Pascal_Paoli_-_William_BEECHEY.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q152346",
+   "start": {
+    "raw": "+1725-04-06T00:00:00Z",
+    "year": 1725,
     "precision": "day",
-    "display": "7 April 1803"
+    "display": "6 April 1725"
+   },
+   "end": {
+    "raw": "+1807-02-05T00:00:00Z",
+    "year": 1807,
+    "precision": "day",
+    "display": "5 February 1807"
    }
   }
  ],
  "coverage": {
-  "total": 11,
-  "verified": 10,
-  "coverage": 0.9090909090909091,
+  "total": 8,
+  "verified": 8,
+  "coverage": 1,
   "byMethod": {
-   "exact": 11,
+   "exact": 8,
    "fuzzy": 0,
    "none": 0
   }
  },
- "generatedAt": "2026-09-12T11:50:13.548Z",
+ "generatedAt": "2026-09-12T12:11:00.829Z",
  "model": "claude-opus-5",
  "usage": {
   "input": 49384,
-  "output": 5676,
+  "output": 4572,
   "cacheWrite": 0,
   "cacheRead": 4785,
-  "usd": 0.3912125
+  "usd": 0.3636125
  }
 }

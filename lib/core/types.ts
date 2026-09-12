@@ -159,6 +159,36 @@ export interface Perspective {
   evidence: Claim;
 }
 
+/**
+ * A turning point within a conflict or a period.
+ *
+ * The model supplies the label and the significance; the date, where the
+ * event has a Wikidata item, is read from the graph. That division is the
+ * same one used everywhere else: interpretation from Claude, facts from the
+ * record.
+ */
+export interface KeyEvent {
+  label: string;
+  summary: string;
+  entity?: EntityRef;
+  date?: GraphDate;
+}
+
+/**
+ * A person the subject cannot be understood without.
+ *
+ * Wikidata records who someone married and who their parents were, but has no
+ * property for "chief opponent" or "rival claimant", which are usually the
+ * relationships that matter historically. These are proposed by Claude and
+ * then resolved against Wikipedia, so the connection is a suggestion but the
+ * person is real.
+ */
+export interface KeyFigure {
+  entity: EntityRef;
+  relationship: string;
+  note: string;
+}
+
 export interface Comparison {
   entity: EntityRef;
   /** Why these two are worth putting side by side. */
@@ -198,6 +228,8 @@ export interface Explainer {
   perspectives: Perspective[];
   /** Every claim above, flattened. This is what coverage is computed over. */
   claims: Claim[];
+  keyEvents: KeyEvent[];
+  figures: KeyFigure[];
   comparisons: Comparison[];
   context: ContextLink[];
   glossary: GlossaryTerm[];
@@ -212,6 +244,33 @@ export interface Explainer {
 }
 
 /* ------------------------------------------------------------------ *
+ * Scope surveys — a place and a stretch of time, rather than one subject
+ * ------------------------------------------------------------------ */
+
+export interface SurveyItem {
+  qid: string;
+  /** English Wikipedia title, which is also the drill-down key. */
+  title: string;
+  label: string;
+  description?: string;
+  start?: GraphDate;
+  end?: GraphDate;
+  /** Interwiki count, used as a rough proxy for how well known something is. */
+  sitelinks: number;
+}
+
+export interface Survey {
+  query: string;
+  place: { qid: string; label: string; title: string; url: string };
+  from: number;
+  to: number;
+  rendered: string;
+  events: SurveyItem[];
+  people: SurveyItem[];
+  generatedAt: string;
+}
+
+/* ------------------------------------------------------------------ *
  * Streaming protocol
  * ------------------------------------------------------------------ */
 
@@ -220,6 +279,7 @@ export type StreamEvent =
   /** Zero-LLM first paint: resolved entity, graph facts, source list. */
   | { type: 'skeleton'; entity: ResolvedEntity; facts: EntityFacts; sources: SourceDoc[]; lead: string }
   | { type: 'prose'; delta: string }
+  | { type: 'survey'; survey: Survey }
   | { type: 'structured'; explainer: Explainer }
   | { type: 'done'; explainer: Explainer }
   | { type: 'error'; message: string; code?: string };

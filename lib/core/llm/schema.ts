@@ -63,6 +63,30 @@ export const ContextLinkSchema = z.object({
   note: z.string().describe('One sentence on how it connects.'),
 });
 
+export const KeyFigureSchema = z.object({
+  entityName: z.string().describe('The English Wikipedia article title of the person.'),
+  relationship: z
+    .string()
+    .describe(
+      'The nature of the connection, in at most six words, from the subject\'s point of view. ' +
+        'For example "Chief opponent at Waterloo", "Mentor and patron", "Rival claimant to the throne".',
+    ),
+  note: z.string().describe('One sentence on why this person matters to understanding the subject.'),
+});
+
+export const KeyEventSchema = z.object({
+  entityName: z
+    .string()
+    .describe(
+      'The English Wikipedia article title for this event, if it has one. Leave empty only ' +
+        'when no article exists for it.',
+    ),
+  label: z.string().describe('A short name for the moment, at most eight words.'),
+  summary: z
+    .string()
+    .describe('One or two sentences: what happened, and why it changed the course of things.'),
+});
+
 export const StructuredOutputSchema = z.object({
   takeaways: z
     .array(CitedClaimSchema)
@@ -76,6 +100,21 @@ export const StructuredOutputSchema = z.object({
       'Genuine disagreements about how to read this subject. Prefer readings that conflict ' +
         'with each other over restatements of the same view in different words. Leave empty ' +
         'if the sources show no real disagreement.',
+    ),
+  keyEvents: z
+    .array(KeyEventSchema)
+    .max(8)
+    .describe(
+      'For a CONFLICT or a PERIOD: the turning points, in the order they happened, so a ' +
+        'reader can follow the shape of it. Leave empty for a person or a single event.',
+    ),
+  figures: z
+    .array(KeyFigureSchema)
+    .max(6)
+    .describe(
+      'Other people a reader needs in order to make sense of this subject — opponents, ' +
+        'allies, rivals, mentors, successors. Wikidata records family but not rivalry, so ' +
+        'this is where those connections come from.',
     ),
   comparisons: z
     .array(ComparisonSchema)

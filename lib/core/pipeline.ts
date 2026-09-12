@@ -1,5 +1,7 @@
 import type {
   Claim,
+  KeyEvent,
+  KeyFigure,
   ResolvedEntity,
   Comparison,
   ContextLink,
@@ -13,6 +15,7 @@ import { runStructured, streamProse } from './llm/calls';
 import { parseProse, renderCorpus } from './llm/prompts';
 import type { StructuredOutput } from './llm/schema';
 import { gather, resolve, validateEntityNames } from './packs/history/gather';
+import { parseScope, surveyScope } from './packs/history/scope';
 import { verifyClaims, type RawClaim } from './verify';
 
 export interface ExplainOptions {
@@ -36,6 +39,20 @@ export async function* explain(
   query: string,
   { signal, lookupCached }: ExplainOptions = {},
 ): AsyncGenerator<StreamEvent, Explainer | null> {
+  // "Japan 1600" is not a request for an article. Scope queries are answered
+  // entirely from the graph — no model call, nothing to invent, and every
+  // result is a door into a full explainer.
+  const scope = parseScope(query);
+  if (scope) {
+    yield { type: 'status', stage: 'surveying', detail: `${scope.place}, ${scope.rendered}` };
+    const survey = await surveyScope(query, scope, signal).catch(() => null);
+    if (survey) {
+      yield { type: 'survey', survey };
+      return null;
+    }
+    // A place that resolved to nothing useful falls through to a normal search.
+  }
+
   yield { type: 'status', stage: 'resolving', detail: query };
   const ctx = await resolve(query, signal);
   const { entity } = ctx;
@@ -96,7 +113,11 @@ export async function* explain(
     })
     .filter((p): p is NonNullable<typeof p> => p !== null);
 
-  const { comparisons, context, drilldown } = await resolveReferences(structured, facts, signal);
+  const { keyEvents, figures, comparisons, context, drilldown } = await resolveReferences(
+    structured,
+    facts,
+    signal,
+  );
   const { summary, whyItMatters } = parseProse(proseText);
 
   const explainer: Explainer = {
@@ -110,6 +131,8 @@ export async function* explain(
     takeaways,
     perspectives,
     claims,
+    keyEvents,
+    figures,
     comparisons,
     context,
     glossary: structured.glossary,
@@ -162,13 +185,41 @@ async function resolveReferences(
   structured: StructuredOutput,
   facts: Explainer['facts'],
   signal?: AbortSignal,
-): Promise<{ comparisons: Comparison[]; context: ContextLink[]; drilldown: EntityRef[] }> {
+): Promise<{
+  keyEvents: KeyEvent[];
+  figures: KeyFigure[];
+  comparisons: Comparison[];
+  context: ContextLink[];
+  drilldown: EntityRef[];
+}> {
   const names = [
+    ...structured.keyEvents.map((e) => e.entityName),
+    ...structured.figures.map((f) => f.entityName),
     ...structured.comparisons.map((c) => c.entityName),
     ...structured.context.map((c) => c.entityName),
     ...structured.drilldown.map((d) => d.entityName),
   ];
   const resolved = await validateEntityNames(names, signal);
+
+  // Dates come from the graph lookup, never from the model. An event whose
+  // article cannot be found still renders — it just carries no date and no
+  // link, which is the honest presentation of what we know about it.
+  const keyEvents: KeyEvent[] = structured.keyEvents.map((e) => {
+    const entity = e.entityName.trim() ? resolved.get(e.entityName.trim()) : undefined;
+    return {
+      label: e.label,
+      summary: e.summary,
+      ...(entity ? { entity } : {}),
+      ...(entity?.start ? { date: entity.start } : {}),
+    };
+  });
+
+  const figures: KeyFigure[] = [];
+  for (const f of structured.figures) {
+    const entity = resolved.get(f.entityName.trim());
+    if (!entity) continue;
+    figures.push({ entity, relationship: f.relationship, note: f.note });
+  }
 
   const comparisons: Comparison[] = [];
   for (const c of structured.comparisons) {
@@ -190,6 +241,7 @@ async function resolveReferences(
     for (const node of facts.relations[prop] ?? []) {
       if (!node.url || seen.has(node.qid)) continue;
       seen.add(node.qid);
+      seen.add(node.label.toLowerCase());
       context.push({
         entity: { title: node.label, url: node.url, lang: 'en', qid: node.qid, description: node.description },
         relation,
@@ -200,7 +252,10 @@ async function resolveReferences(
   }
   for (const c of structured.context) {
     const entity = resolved.get(c.entityName.trim());
-    if (!entity || (entity.qid && seen.has(entity.qid))) continue;
+    // Search results carry no QID, so titles are deduplicated too — otherwise
+    // a graph edge and a model suggestion for the same subject both render.
+    if (!entity || seen.has(entity.title.toLowerCase()) || (entity.qid && seen.has(entity.qid))) continue;
+    seen.add(entity.title.toLowerCase());
     if (entity.qid) seen.add(entity.qid);
     context.push({ entity, relation: c.relation, note: c.note, fromGraph: false });
   }
@@ -214,5 +269,5 @@ async function resolveReferences(
     drilldown.push({ ...entity, description: d.why });
   }
 
-  return { comparisons, context, drilldown };
+  return { keyEvents, figures, comparisons, context, drilldown };
 }

@@ -21,6 +21,7 @@ import {
 import {
   entityUrl,
   fetchEntities,
+  fetchEntitiesByTitles,
   parseTime,
   statementDate,
   statementNodesWithSpan,
@@ -344,7 +345,10 @@ function buildTimeline(
 
       const kind = spec.prop === 'P39' ? 'position' : spec.group === 'context' ? 'related' : 'event';
       events.push({
-        id: key,
+        // The same office can be held twice — Napoleon was Emperor in
+        // 1804-1814 and again through the Hundred Days — so the start date is
+        // part of the identity, not just the property and the entity.
+        id: `${key}-${node.start.raw}`,
         label: spec.prop === 'P39' ? node.label : `${spec.label}: ${node.label}`,
         kind,
         date: node.start,
@@ -355,7 +359,30 @@ function buildTimeline(
     }
   }
 
-  return events.sort((a, b) => a.date.year - b.date.year);
+  return dropDistortingContainers(events, start, end).sort((a, b) => a.date.year - b.date.year);
+}
+
+/**
+ * Remove related entries so much longer than the subject that they flatten it.
+ *
+ * "Part of: Anglo-French Wars" spans four centuries; on the same axis as a
+ * 116-year war it pushes the actual conflict into a sliver. These are
+ * containers rather than events, and they are already shown under "How it
+ * connects", so the timeline drops them rather than distorting for them.
+ */
+function dropDistortingContainers(
+  events: TimelineEvent[],
+  start: GraphDate | undefined,
+  end: GraphDate | undefined,
+): TimelineEvent[] {
+  if (!start || !end) return events;
+  const subjectSpan = Math.abs(end.year - start.year);
+  if (subjectSpan < 1) return events;
+
+  return events.filter((event) => {
+    if (event.kind !== 'related' || !event.endDate) return true;
+    return Math.abs(event.endDate.year - event.date.year) <= subjectSpan * 3;
+  });
 }
 
 /**
@@ -489,17 +516,27 @@ export async function gather(ctx: HistoryContext, signal?: AbortSignal): Promise
  * Entity-name validation for model output
  * ------------------------------------------------------------------ */
 
+export interface ValidatedRef extends EntityRef {
+  start?: GraphDate;
+  end?: GraphDate;
+}
+
 /**
  * Turn model-proposed entity names into real references, dropping anything
- * that does not resolve. The model never emits URLs, so a comparison or
- * context link either points at a genuine article or does not appear at all.
+ * that does not resolve. The model never emits URLs, so a comparison, key
+ * event or context link either points at a genuine article or does not appear
+ * at all.
+ *
+ * Two steps: a search per name to canonicalise it, then a single Wikidata
+ * lookup by title for every survivor at once. The second step is what lets a
+ * suggested event carry a real date without the model ever writing one.
  */
 export async function validateEntityNames(
   names: string[],
   signal?: AbortSignal,
-): Promise<Map<string, EntityRef>> {
-  const unique = [...new Set(names.map((n) => n.trim()).filter(Boolean))].slice(0, 24);
-  const resolved = new Map<string, EntityRef>();
+): Promise<Map<string, ValidatedRef>> {
+  const unique = [...new Set(names.map((n) => n.trim()).filter(Boolean))].slice(0, 32);
+  const resolved = new Map<string, ValidatedRef>();
 
   await Promise.all(
     unique.map(async (name) => {
@@ -507,6 +544,20 @@ export async function validateEntityNames(
       if (hit) resolved.set(name, { ...hit, url: articleUrl(hit.title) });
     }),
   );
+
+  const byTitle = await fetchEntitiesByTitles(
+    [...resolved.values()].map((r) => r.title),
+    { signal },
+  ).catch(() => new Map<string, WdEntity>());
+
+  for (const ref of resolved.values()) {
+    const entity = byTitle.get(ref.title);
+    if (!entity) continue;
+    ref.qid = entity.id;
+    const { start, end } = nodeDates(entity);
+    if (start) ref.start = start;
+    if (end) ref.end = end;
+  }
 
   return resolved;
 }

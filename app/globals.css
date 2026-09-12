@@ -1,26 +1,126 @@
 @import "tailwindcss";
 
+/*
+ * An editorial palette rather than a dashboard one. The subject is history and
+ * the job is sustained reading, so: warm paper, ink, generous measure, a serif
+ * for anything the reader actually reads. Colour is reserved almost entirely
+ * for verification state, which is the one thing that must never be missed.
+ */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --paper: #fbfaf7;
+  --paper-raised: #ffffff;
+  --paper-sunken: #f3f0e9;
+  --ink: #1b1a17;
+  --ink-muted: #6a655c;
+  --ink-faint: #938d81;
+  --rule: #e4ded1;
+  --rule-strong: #cfc7b6;
+  --accent: #8a3324;
+  --accent-soft: #f2e5e1;
+  --verified: #2f6b46;
+  --verified-soft: #e6f0e9;
+  --unverified: #8a6410;
+  --unverified-soft: #f7eeda;
+  --graph: #3f5f7a;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --paper: #14130f;
+    --paper-raised: #1c1b16;
+    --paper-sunken: #100f0c;
+    --ink: #ece8de;
+    --ink-muted: #a49d90;
+    --ink-faint: #7b7468;
+    --rule: #2e2b23;
+    --rule-strong: #423d32;
+    --accent: #e0866f;
+    --accent-soft: #2e1d18;
+    --verified: #7cc79a;
+    --verified-soft: #16251c;
+    --unverified: #d9ab5a;
+    --unverified-soft: #2a2115;
+    --graph: #8fb4d0;
   }
 }
 
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-raised: var(--paper-raised);
+  --color-paper-sunken: var(--paper-sunken);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-ink-faint: var(--ink-faint);
+  --color-rule: var(--rule);
+  --color-rule-strong: var(--rule-strong);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-verified: var(--verified);
+  --color-verified-soft: var(--verified-soft);
+  --color-unverified: var(--unverified);
+  --color-unverified-soft: var(--unverified-soft);
+  --color-graph: var(--graph);
+  --font-sans: var(--font-ui), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-display), Georgia, "Times New Roman", serif;
+}
+
+html {
+  color-scheme: light dark;
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Reading column: prose sized for comprehension, not for filling the window. */
+.measure {
+  max-width: 42rem;
+}
+
+.display {
+  font-family: var(--font-serif);
+  letter-spacing: -0.015em;
+}
+
+.prose-body p {
+  margin-bottom: 1.1em;
+  line-height: 1.72;
+}
+.prose-body p:last-child {
+  margin-bottom: 0;
+}
+
+/* Section rule with a small caps label, borrowed from print. */
+.section-label {
+  font-size: 0.6875rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  font-weight: 600;
+}
+
+@keyframes caret-blink {
+  0%, 45% { opacity: 1; }
+  55%, 100% { opacity: 0; }
+}
+.streaming-caret::after {
+  content: "";
+  display: inline-block;
+  width: 0.45em;
+  height: 1.05em;
+  margin-left: 0.1em;
+  vertical-align: -0.18em;
+  background: var(--accent);
+  animation: caret-blink 1s steps(1) infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
 }

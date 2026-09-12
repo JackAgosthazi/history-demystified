@@ -67,7 +67,9 @@ export function verifyClaims(rawClaims: RawClaim[], sources: SourceDoc[]): Verif
       continue;
     }
 
-    const relevance = checkRelevance(raw.text, source.text, match);
+    const relevance = checkRelevance(raw.text, source.text, match, {
+      crossLanguage: source.lang !== 'en',
+    });
     if (!relevance.ok) {
       claims.push({
         ...raw,

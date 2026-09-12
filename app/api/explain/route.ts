@@ -36,7 +36,7 @@ export async function GET(request: Request): Promise<Response> {
     if (hit) return singleEventStream({ type: 'done', explainer: hit });
   }
 
-  const spendCheck = checkSpend(request);
+  const spendCheck = checkSpend();
   if (!spendCheck.ok) return errorStream(spendCheck.message, spendCheck.code);
 
   return streamPipeline(query, skipCache, request.signal);

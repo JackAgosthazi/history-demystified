@@ -82,6 +82,43 @@ export async function fetchEntities(
   return result;
 }
 
+/**
+ * Resolve Wikipedia titles straight to Wikidata items in a single request.
+ *
+ * The alternative — fetching each article to read its QID — is one HTTP call
+ * per name and drags the whole page extract along with it. This resolves up
+ * to fifty titles at once and brings their claims back with them, which is
+ * what lets a model-proposed subject carry a real date without the model ever
+ * supplying one.
+ */
+export async function fetchEntitiesByTitles(
+  titles: string[],
+  { props = 'labels|descriptions|claims|sitelinks', signal }: { props?: string; signal?: AbortSignal } = {},
+): Promise<Map<string, WdEntity>> {
+  const unique = [...new Set(titles.map((t) => t.trim()).filter(Boolean))];
+  const byTitle = new Map<string, WdEntity>();
+  if (unique.length === 0) return byTitle;
+
+  const batches = await Promise.all(
+    chunk(unique, MAX_IDS_PER_CALL).map(async (group) => {
+      const url =
+        `${WIKIDATA_API}?action=wbgetentities&format=json&formatversion=2` +
+        `&sites=enwiki&titles=${encodeURIComponent(group.join('|'))}` +
+        `&props=${encodeURIComponent(props)}&languages=en&sitefilter=enwiki&normalize=1`;
+      return { group, data: await getJson<WbGetEntitiesResponse>(url, { signal, timeoutMs: 20_000 }) };
+    }),
+  );
+
+  for (const { data } of batches) {
+    for (const [qid, entity] of Object.entries(data.entities ?? {})) {
+      if (entity.missing) continue;
+      const title = entity.sitelinks?.enwiki?.title;
+      if (title) byTitle.set(title, { ...entity, id: qid });
+    }
+  }
+  return byTitle;
+}
+
 /** Cheap variant for turning referenced QIDs into display nodes. */
 export async function fetchNodes(
   qids: string[],

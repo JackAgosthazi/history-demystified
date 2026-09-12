@@ -160,6 +160,13 @@ const CAPITALISED_STOPWORDS = new Set([
 ]);
 
 const MIN_SALIENT_OVERLAP = 0.5;
+/**
+ * Across a language boundary the check is necessarily weaker: the claim is in
+ * English and the source is not, so only numerals and cognate proper nouns
+ * can match at all ("guerras napoleonicas" shares nothing with "wars").
+ * Demanding half of them would reject every correct cross-language citation.
+ */
+const MIN_SALIENT_OVERLAP_CROSS_LANGUAGE = 1 / 3;
 /** How far either side of the match still counts as supporting context. */
 const CONTEXT_CHARS = 200;
 
@@ -167,6 +174,11 @@ export interface RelevanceResult {
   ok: boolean;
   ratio: number;
   missing: string[];
+}
+
+/** Strips accents so "Napoleon" can be found inside "Napoleonicas". */
+function foldDiacritics(text: string): string {
+  return text.normalize('NFKD').replace(/[\u0300-\u036f]/g, '');
 }
 
 /**
@@ -181,6 +193,7 @@ export function checkRelevance(
   claim: string,
   sourceText: string,
   span: { start: number; end: number },
+  { crossLanguage = false }: { crossLanguage?: boolean } = {},
 ): RelevanceResult {
   const salient = new Set<string>();
   for (const m of claim.matchAll(/\b\d[\d,.]*\b/g)) salient.add(m[0].replace(/[,.]$/, '').toLowerCase());
@@ -188,24 +201,33 @@ export function checkRelevance(
     const word = m[0].toLowerCase();
     if (!CAPITALISED_STOPWORDS.has(word)) salient.add(word);
   }
-  if (salient.size === 0) return { ok: true, ratio: 1, missing: [] };
+  // With one checkable token across a language boundary there is not enough
+  // signal to judge either way, and guessing "unverified" is the wrong error:
+  // the quote was already found in the cited source.
+  if (salient.size === 0 || (crossLanguage && salient.size < 2)) {
+    return { ok: true, ratio: 1, missing: [] };
+  }
 
-  const window = normalize(
-    sourceText.slice(
-      Math.max(0, span.start - CONTEXT_CHARS),
-      Math.min(sourceText.length, span.end + CONTEXT_CHARS),
-    ),
-  ).text;
+  const window = foldDiacritics(
+    normalize(
+      sourceText.slice(
+        Math.max(0, span.start - CONTEXT_CHARS),
+        Math.min(sourceText.length, span.end + CONTEXT_CHARS),
+      ),
+    ).text,
+  );
 
   const missing: string[] = [];
   let present = 0;
   for (const token of salient) {
     // Match a prefix so "Napoleon's" in the claim finds "Napoleon" in source.
-    const stem = token.length > 5 ? token.slice(0, Math.ceil(token.length * 0.7)) : token;
+    const folded = foldDiacritics(token);
+    const stem = folded.length > 5 ? folded.slice(0, Math.ceil(folded.length * 0.7)) : folded;
     if (window.includes(stem)) present++;
     else missing.push(token);
   }
 
   const ratio = present / salient.size;
-  return { ok: ratio >= MIN_SALIENT_OVERLAP, ratio, missing };
+  const threshold = crossLanguage ? MIN_SALIENT_OVERLAP_CROSS_LANGUAGE : MIN_SALIENT_OVERLAP;
+  return { ok: ratio >= threshold, ratio, missing };
 }

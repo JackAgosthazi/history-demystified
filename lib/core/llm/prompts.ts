@@ -24,6 +24,10 @@ Absolute rules:
 5. Never write a URL or a link. Refer to other subjects by their English Wikipedia article
    title and nothing else.
 6. Never invent a source id. Only ids that appear below exist.
+7. State the assertion itself, never where it came from. Write "Napoleon abolished the free
+   press", not "the English article says Napoleon abolished the free press". The source is
+   already attached separately, and naming it inside the sentence makes the claim unverifiable
+   against that very source.
 
 You are writing for an intelligent adult who knows nothing whatsoever about this subject.
 Assume no prior knowledge of the period, the institutions, the geography or the other people
@@ -113,6 +117,14 @@ Guidance that the schema cannot express:
   "Legacy", "Historiography" or "Controversy" section names competing readings. Do not
   manufacture a disagreement. Fewer real ones beat four invented ones, and an empty list
   is a valid answer.
+- Key events apply to conflicts and periods, and should be left empty otherwise. Pick the
+  moments after which things were different, not simply the famous ones, and say in a
+  sentence or two what changed. Do not state dates: they are looked up separately from the
+  structured record, so an article title is more useful than a year.
+- Key figures are the other people without whom the subject does not make sense: the
+  opponent across the battlefield, the mentor, the rival claimant, the successor who undid
+  it. Say what the relationship actually was, not merely that one existed. Prefer people who
+  shaped the subject over people who merely appear near it.
 - Comparisons should give a newcomer a foothold: something better known, or a close
   counterpart that makes the subject's distinctiveness visible.
 - Context is what this sits inside and what it caused. Prefer connections a reader would

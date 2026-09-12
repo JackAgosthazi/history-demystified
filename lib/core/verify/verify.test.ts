@@ -111,6 +111,30 @@ describe('checkRelevance', () => {
   it('passes claims with nothing checkable in them', () => {
     expect(checkRelevance('the battle was decisive', WATERLOO, span).ok).toBe(true);
   });
+
+  it('matches a name across an accent boundary', () => {
+    const spanish =
+      'Entre tres y seis millones de civiles y soldados murieron en lo que se conocio ' +
+      'como las guerras napoleonicas.';
+    const r = checkRelevance(
+      'Between three and six million soldiers and civilians died in the Napoleonic Wars.',
+      spanish,
+      { start: 0, end: spanish.length },
+      { crossLanguage: true },
+    );
+    expect(r.ok).toBe(true);
+  });
+
+  it('still rejects an unrelated claim on a non-English source', () => {
+    const german = 'Wahrend des Konsulats von 1799 bis 1804 stand Napoleon an der Spitze.';
+    const r = checkRelevance(
+      'Bismarck unified Germany in 1871 after defeating Austria and France.',
+      german,
+      { start: 0, end: german.length },
+      { crossLanguage: true },
+    );
+    expect(r.ok).toBe(false);
+  });
 });
 
 describe('buildTextFragment', () => {

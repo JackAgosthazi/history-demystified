@@ -27,6 +27,52 @@ const MIN_YEAR = 500;
 const MAX_YEAR = new Date().getFullYear();
 const RESULTS_PER_LIST = 12;
 
+const ROMAN_VALUES: Record<string, number> = {
+  i: 1, v: 5, x: 10, l: 50, c: 100, d: 500, m: 1000,
+};
+
+function toRoman(value: number): string {
+  const table: Array<[number, string]> = [
+    [1000, 'M'], [900, 'CM'], [500, 'D'], [400, 'CD'], [100, 'C'], [90, 'XC'],
+    [50, 'L'], [40, 'XL'], [10, 'X'], [9, 'IX'], [5, 'V'], [4, 'IV'], [1, 'I'],
+  ];
+  let remaining = value;
+  let out = '';
+  for (const [amount, numeral] of table) {
+    while (remaining >= amount) {
+      out += numeral;
+      remaining -= amount;
+    }
+  }
+  return out;
+}
+
+/**
+ * Parse a Roman numeral, strictly.
+ *
+ * Centuries are written "XV century" at least as often as "15th century",
+ * particularly by anyone educated outside the anglophone world, and the query
+ * simply fell through to an ordinary search before.
+ *
+ * The round-trip check is what makes this safe to run over free text: it
+ * rejects "IIII" and "IL", which are not numerals, so an arbitrary run of
+ * letters cannot be read as a number just because those letters happen to be
+ * Roman digits.
+ */
+export function parseRomanNumeral(input: string): number | null {
+  const lower = input.toLowerCase();
+  if (!/^[ivxlcdm]+$/.test(lower)) return null;
+
+  let total = 0;
+  for (let i = 0; i < lower.length; i++) {
+    const value = ROMAN_VALUES[lower[i]];
+    const next = ROMAN_VALUES[lower[i + 1]] ?? 0;
+    total += value < next ? -value : value;
+  }
+
+  return total > 0 && toRoman(total) === lower.toUpperCase() ? total : null;
+}
+
 /**
  * Recognise a scope query, or return null so the caller falls back to normal
  * subject resolution. Deliberately conservative: "1984" is a novel and
@@ -35,7 +81,9 @@ const RESULTS_PER_LIST = 12;
 export function parseScope(query: string): ScopeQuery | null {
   const text = query.trim();
 
-  const century = /\b(\d{1,2})(?:st|nd|rd|th)\s+century\b/i.exec(text);
+  const century = /\b(\d{1,2})(?:st|nd|rd|th)?\s+century\b/i.exec(text);
+  const romanCentury = /\b([ivxlcdm]+)(?:st|nd|rd|th)?\s+century\b/i.exec(text);
+  const romanValue = romanCentury ? parseRomanNumeral(romanCentury[1]) : null;
   const range = /\b(\d{3,4})\s*(?:-|–|—|to)\s*(\d{3,4})\b/.exec(text);
   const decade = /\b(\d{3,4})s\b/.exec(text);
   const single = /\b(\d{3,4})\b/.exec(text);
@@ -45,12 +93,14 @@ export function parseScope(query: string): ScopeQuery | null {
   let matched: string;
   let rendered: string;
 
-  if (century) {
-    const n = parseInt(century[1], 10);
+  if (century || romanValue !== null) {
+    // Roman input is rendered back in arabic, so the reader can see how it
+    // was read: "England in the XV century" answers as "the 15th century".
+    const n = century ? parseInt(century[1], 10) : (romanValue as number);
     from = (n - 1) * 100 + 1;
     to = n * 100;
-    matched = century[0];
-    rendered = `the ${century[1]}${ordinalSuffix(n)} century`;
+    matched = century ? century[0] : (romanCentury as RegExpExecArray)[0];
+    rendered = `the ${n}${ordinalSuffix(n)} century`;
   } else if (range) {
     from = parseInt(range[1], 10);
     to = parseInt(range[2], 10);

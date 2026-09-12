@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useCallback, useEffect, useRef, useState } from 'react';
+import { graphDateToTime } from '@/lib/core/connectors/wikidata';
 import type { TimelineEvent } from '@/lib/core/types';
 import { explainHref } from './Entities';
 
@@ -31,30 +32,6 @@ const MONTHS_SHORT = [
 ];
 const DAYS_PER_MONTH = 30.436875;
 const DAYS_PER_YEAR = 365.25;
-
-/**
- * Position on the axis, as a fractional year.
- *
- * Plotting by whole year collapsed everything that happened in the same year
- * onto one point: the Waterloo campaign — Napoleon's return in March, Ligny
- * and Quatre Bras on 16 June, Waterloo on the 18th — rendered as a single
- * mark, because all of it is 1815.
- *
- * BC dates stay at whole-year resolution. They are almost always recorded
- * that way, and a fraction would have to run backwards to mean anything.
- */
-function toTime(date: { raw: string; year: number; precision: string }): number {
-  if (date.year < 0) return date.year;
-  const coarse = date.precision === 'year' || date.precision === 'decade' ||
-    date.precision === 'century' || date.precision === 'millennium';
-  if (coarse) return date.year;
-
-  const m = /^[+-]\d{4,}-(\d{2})-(\d{2})/.exec(date.raw);
-  if (!m) return date.year;
-  const month = Math.max(1, parseInt(m[1], 10));
-  const day = Math.max(1, parseInt(m[2], 10));
-  return date.year + ((month - 1) * DAYS_PER_MONTH + (day - 1)) / DAYS_PER_YEAR;
-}
 
 function partsOf(time: number): { year: number; month: number } {
   const year = Math.floor(time);
@@ -217,7 +194,7 @@ export function Timeline({ events }: { events: TimelineEvent[] }) {
 
   if (events.length === 0) return null;
 
-  const times = events.flatMap((e) => [toTime(e.date), e.endDate ? toTime(e.endDate) : toTime(e.date)]);
+  const times = events.flatMap((e) => [graphDateToTime(e.date), e.endDate ? graphDateToTime(e.endDate) : graphDateToTime(e.date)]);
   const rawMin = Math.min(...times);
   const rawMax = Math.max(...times);
   // A subject with a single dated moment still needs an axis to sit on.
@@ -266,8 +243,8 @@ export function Timeline({ events }: { events: TimelineEvent[] }) {
           ))}
 
           {events.map((event) => {
-            const start = pct(toTime(event.date));
-            const end = event.endDate ? pct(toTime(event.endDate)) : start;
+            const start = pct(graphDateToTime(event.date));
+            const end = event.endDate ? pct(graphDateToTime(event.endDate)) : start;
             const width = Math.max(end - start, 0.6);
             const label = event.endDate
               ? `${event.date.display} – ${event.endDate.display}`

@@ -14,6 +14,7 @@ import { EMPTY_USAGE, MODEL, type UsageTotals } from './llm/client';
 import { runStructured, streamProse } from './llm/calls';
 import { parseProse, renderCorpus } from './llm/prompts';
 import type { StructuredOutput } from './llm/schema';
+import { graphDateToTime } from './connectors/wikidata';
 import { gather, resolve, validateEntityNames } from './packs/history/gather';
 import { parseScope, surveyScope } from './packs/history/scope';
 import { verifyClaims, type RawClaim } from './verify';
@@ -219,13 +220,33 @@ async function resolveReferences(
   // Dates come from the graph lookup, never from the model. An event whose
   // article cannot be found still renders — it just carries no date and no
   // link, which is the honest presentation of what we know about it.
+  /*
+   * The schema asks for key events in the order they happened, so a resolved
+   * date that jumps backwards contradicts the model's own ordering. When the
+   * two disagree, the ordering is the better evidence: it is an explicit
+   * claim, while the resolution is whatever Wikipedia's search ranked first.
+   *
+   * This is not hypothetical. "Second abdication and exile" resolved to the
+   * article on Napoleon's *first* abdication and published April 1814 as
+   * fact, on a page about a battle fought in June 1815. The entry still
+   * appears — undated and unlinked, which is an honest account of what is
+   * actually known about it.
+   */
+  const ORDERING_TOLERANCE_YEARS = 1;
+  let latest = -Infinity;
   const keyEvents: KeyEvent[] = structured.keyEvents.map((e) => {
     const entity = e.entityName.trim() ? resolved.get(e.entityName.trim()) : undefined;
+    const date = entity?.occurredAt;
+    const at = date ? graphDateToTime(date) : undefined;
+    const contradictsOrder = at !== undefined && at < latest - ORDERING_TOLERANCE_YEARS;
+
+    if (at !== undefined && !contradictsOrder) latest = Math.max(latest, at);
+
     return {
       label: e.label,
       summary: e.summary,
-      ...(entity ? { entity } : {}),
-      ...(entity?.occurredAt ? { date: entity.occurredAt } : {}),
+      ...(entity && !contradictsOrder ? { entity } : {}),
+      ...(date && !contradictsOrder ? { date } : {}),
     };
   });
 

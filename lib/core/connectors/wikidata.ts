@@ -276,7 +276,34 @@ function ordinal(n: number): string {
   }
 }
 
+const DAYS_PER_MONTH = 30.436875;
+const DAYS_PER_YEAR = 365.25;
+
+/**
+ * A GraphDate as a fractional year, for ordering and for plotting.
+ *
+ * Comparing by whole year cannot separate two things that happened in the
+ * same one, which matters for a campaign fought over a single summer.
+ * BC dates stay at whole-year resolution: they are recorded that way, and a
+ * fraction would have to run backwards to mean anything.
+ */
+export function graphDateToTime(d: GraphDate): number {
+  if (d.year < 0) return d.year;
+  const coarse =
+    d.precision === 'year' ||
+    d.precision === 'decade' ||
+    d.precision === 'century' ||
+    d.precision === 'millennium';
+  if (coarse) return d.year;
+
+  const m = /^[+-]\d{4,}-(\d{2})-(\d{2})/.exec(d.raw);
+  if (!m) return d.year;
+  const month = Math.max(1, parseInt(m[1], 10));
+  const day = Math.max(1, parseInt(m[2], 10));
+  return d.year + ((month - 1) * DAYS_PER_MONTH + (day - 1)) / DAYS_PER_YEAR;
+}
+
 /** Sortable key that keeps BC dates in order ahead of AD ones. */
 export function dateSortKey(d: GraphDate): number {
-  return d.year;
+  return graphDateToTime(d);
 }

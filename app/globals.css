@@ -7,40 +7,64 @@
  * for verification state, which is the one thing that must never be missed.
  */
 :root {
-  --paper: #fbfaf7;
-  --paper-raised: #ffffff;
-  --paper-sunken: #f3f0e9;
-  --ink: #1b1a17;
-  --ink-muted: #6a655c;
-  --ink-faint: #938d81;
-  --rule: #e4ded1;
-  --rule-strong: #cfc7b6;
-  --accent: #8a3324;
-  --accent-soft: #f2e5e1;
-  --verified: #2f6b46;
-  --verified-soft: #e6f0e9;
-  --unverified: #8a6410;
-  --unverified-soft: #f7eeda;
-  --graph: #3f5f7a;
+  /* Vellum, iron-gall ink, lapis, gold leaf: the palette of an illuminated
+     manuscript, which is both the right register for the subject and a way of
+     making the page feel made rather than generated.
+
+     Colour still carries meaning first. Lapis is the only interactive colour,
+     verdigris and vermilion are reserved for verification state, and gold is
+     decorative — labels and rules — so nothing decorative can be mistaken for
+     a status. */
+  --paper: #faf6ec;
+  --paper-raised: #fffdf7;
+  --paper-sunken: #f1ead8;
+  --ink: #241d12;
+  --ink-muted: #665c46;
+  --ink-faint: #7a6f56;
+  --rule: #e3d9bf;
+  --rule-strong: #c9ba96;
+
+  /* Lapis lazuli — every link, button and selected state. */
+  --accent: #22437f;
+  --accent-soft: #e4e9f4;
+
+  /* Gold leaf — section labels, rules, the subject's own marks. */
+  --gold: #8a6a12;
+  --gold-bright: #c08f1c;
+  --gold-soft: #f6edd4;
+
+  --verified: #2e6a4e;
+  --verified-soft: #e3efe6;
+  --unverified: #a8481f;
+  --unverified-soft: #f8e8dd;
+
+  --graph: #3c6285;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --paper: #14130f;
-    --paper-raised: #1c1b16;
-    --paper-sunken: #100f0c;
-    --ink: #ece8de;
-    --ink-muted: #a49d90;
-    --ink-faint: #7b7468;
-    --rule: #2e2b23;
-    --rule-strong: #423d32;
-    --accent: #e0866f;
-    --accent-soft: #2e1d18;
+    --paper: #16120b;
+    --paper-raised: #1f1a11;
+    --paper-sunken: #120e09;
+    --ink: #f0e7d3;
+    --ink-muted: #a89a7c;
+    --ink-faint: #8b7e63;
+    --rule: #322a1c;
+    --rule-strong: #473c28;
+
+    --accent: #8fb2ea;
+    --accent-soft: #1a2438;
+
+    --gold: #d3a63f;
+    --gold-bright: #e8bf5c;
+    --gold-soft: #2a2114;
+
     --verified: #7cc79a;
-    --verified-soft: #16251c;
-    --unverified: #d9ab5a;
-    --unverified-soft: #2a2115;
-    --graph: #8fb4d0;
+    --verified-soft: #17251d;
+    --unverified: #e08b5c;
+    --unverified-soft: #2b1a11;
+
+    --graph: #93b8dd;
   }
 }
 
@@ -55,6 +79,9 @@
   --color-rule-strong: var(--rule-strong);
   --color-accent: var(--accent);
   --color-accent-soft: var(--accent-soft);
+  --color-gold: var(--gold);
+  --color-gold-bright: var(--gold-bright);
+  --color-gold-soft: var(--gold-soft);
   --color-verified: var(--verified);
   --color-verified-soft: var(--verified-soft);
   --color-unverified: var(--unverified);
@@ -93,12 +120,12 @@ body {
   margin-bottom: 0;
 }
 
-/* Section rule with a small caps label, borrowed from print. */
+/* Small caps in gold, the way a manuscript marks a division. */
 .section-label {
   font-size: 0.6875rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--ink-faint);
+  color: var(--gold);
   font-weight: 600;
 }
 

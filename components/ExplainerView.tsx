@@ -388,7 +388,7 @@ function Section({
 }) {
   return (
     <section id={id} className="scroll-mt-24">
-      <div className="mb-4 border-t border-rule pt-4">
+      <div className="mb-4 border-t-2 pt-4" style={{ borderColor: 'var(--gold-soft)' }}>
         <h2 className="display text-xl font-semibold">{title}</h2>
         {note && <p className="mt-1 max-w-xl text-sm text-ink-faint">{note}</p>}
       </div>

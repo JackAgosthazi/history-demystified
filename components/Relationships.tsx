@@ -128,7 +128,7 @@ function FamilyTree({ facts }: { facts: EntityFacts }) {
         <p className="section-label mb-2">{facts.label}</p>
         <div
           className="inline-block rounded-full border-2 px-4 py-1.5 text-sm font-medium"
-          style={{ borderColor: 'var(--accent)', color: 'var(--accent)' }}
+          style={{ borderColor: 'var(--gold-bright)', color: 'var(--gold)' }}
         >
           {facts.label}
         </div>

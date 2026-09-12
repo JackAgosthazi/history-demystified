@@ -110,7 +110,7 @@ export function ComparisonChart({
                       left: `${left}%`,
                       width: `${width}%`,
                       height: row.subject ? '0.8rem' : '0.6rem',
-                      background: row.subject ? 'var(--accent)' : 'var(--graph)',
+                      background: row.subject ? 'var(--gold-bright)' : 'var(--accent)',
                       opacity: row.subject ? 0.95 : 0.6,
                     }}
                     title={`${row.start.display}${row.end ? ` – ${row.end.display}` : ''}`}

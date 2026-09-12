@@ -91,9 +91,9 @@ export function SectionNav({ sections, subject }: { sections: NavSection[]; subj
                    */
                   className="block whitespace-nowrap rounded-full border px-3 py-1 text-xs transition-colors"
                   style={{
-                    borderColor: current ? 'var(--rule-strong)' : 'transparent',
-                    color: current ? 'var(--ink)' : 'var(--ink-muted)',
-                    background: current ? 'var(--paper-sunken)' : 'transparent',
+                    borderColor: current ? 'var(--accent)' : 'transparent',
+                    color: current ? 'var(--accent)' : 'var(--ink-muted)',
+                    background: current ? 'var(--accent-soft)' : 'transparent',
                     fontWeight: current ? 600 : 400,
                   }}
                 >

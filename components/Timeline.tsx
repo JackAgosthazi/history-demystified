@@ -15,12 +15,13 @@ import { explainHref } from './Entities';
  * of Italy at the same time.
  */
 
+/** Gold marks the subject itself; lapis marks everything it did. */
 const KIND_COLOUR: Record<TimelineEvent['kind'], string> = {
-  life: 'var(--accent)',
-  position: 'var(--graph)',
-  event: 'var(--ink-muted)',
-  battle: 'var(--accent)',
-  period: 'var(--accent)',
+  life: 'var(--gold-bright)',
+  period: 'var(--gold-bright)',
+  position: 'var(--accent)',
+  battle: 'var(--unverified)',
+  event: 'var(--graph)',
   related: 'var(--ink-faint)',
 };
 
@@ -292,8 +293,8 @@ export function Timeline({ events }: { events: TimelineEvent[] }) {
           <p className="mt-1.5 text-xs leading-relaxed text-ink-muted">
             {summary || hover.event.note || 'Loading…'}
           </p>
-          {hover.event.title &&
-            (canHover ? (
+          {hover.event.title ? (
+            canHover ? (
               <p className="mt-1.5 text-[0.65rem] text-ink-faint">Click to explain in full</p>
             ) : (
               // On touch the card is the only way in, so it carries the link.
@@ -303,7 +304,17 @@ export function Timeline({ events }: { events: TimelineEvent[] }) {
               >
                 Explain {hover.event.title} in full &rarr;
               </Link>
-            ))}
+            )
+          ) : (
+            /*
+             * Some Wikidata items have no English article — "French co-prince
+             * of Andorra" among them. Saying so beats a card that looks like
+             * its link failed to load.
+             */
+            <p className="mt-1.5 text-[0.65rem] text-ink-faint">
+              No separate article for this one
+            </p>
+          )}
         </div>
       )}
     </div>

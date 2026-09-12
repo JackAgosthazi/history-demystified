@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import type { TimelineEvent } from '@/lib/core/types';
 import { explainHref } from './Entities';
 
@@ -44,6 +44,53 @@ interface HoverCard {
   y: number;
 }
 
+/**
+ * Summaries fetched for hover cards, kept for the life of the page.
+ *
+ * Wikidata descriptions are a single terse line — "1600 battle" — which is
+ * not enough to save a reader the trip. The article's opening sentences are,
+ * and they are fetched only for what is actually hovered.
+ */
+const summaryCache = new Map<string, string>();
+
+function useSummary(title: string | undefined): string | null {
+  const [summary, setSummary] = useState<string | null>(
+    title ? (summaryCache.get(title) ?? null) : null,
+  );
+  const inFlight = useRef<AbortController | null>(null);
+
+  useEffect(() => {
+    if (!title) {
+      setSummary(null);
+      return;
+    }
+    const cached = summaryCache.get(title);
+    if (cached !== undefined) {
+      setSummary(cached);
+      return;
+    }
+
+    inFlight.current?.abort();
+    const controller = new AbortController();
+    inFlight.current = controller;
+    setSummary(null);
+
+    void fetch(`/api/summary?title=${encodeURIComponent(title)}`, { signal: controller.signal })
+      .then((r) => r.json() as Promise<{ extract?: string }>)
+      .then(({ extract }) => {
+        summaryCache.set(title, extract ?? '');
+        if (!controller.signal.aborted) setSummary(extract ?? '');
+      })
+      .catch(() => {
+        // A hover that fails silently falls back to the one-line description.
+      });
+
+    return () => controller.abort();
+  }, [title]);
+
+  return summary;
+}
+
 export function Timeline({ events }: { events: TimelineEvent[] }) {
   /*
    * Fixed positioning, not an absolutely positioned child. The chart scrolls
@@ -51,6 +98,12 @@ export function Timeline({ events }: { events: TimelineEvent[] }) {
    * whatever the overflow rules say, so an in-flow tooltip gets cut off.
    */
   const [hover, setHover] = useState<HoverCard | null>(null);
+  const summary = useSummary(hover?.event.title);
+
+  const show = useCallback((event: TimelineEvent, target: Element) => {
+    const rect = target.getBoundingClientRect();
+    setHover({ event, x: rect.left, y: rect.bottom });
+  }, []);
 
   if (events.length === 0) return null;
 
@@ -108,18 +161,13 @@ export function Timeline({ events }: { events: TimelineEvent[] }) {
               ? `${event.date.display} – ${event.endDate.display}`
               : event.date.display;
 
-            const show = (target: EventTarget & Element) => {
-              const rect = target.getBoundingClientRect();
-              setHover({ event, x: rect.left, y: rect.bottom });
-            };
-
             return (
               <li
                 key={event.id}
                 className="relative h-7"
-                onMouseEnter={(e) => show(e.currentTarget)}
+                onMouseEnter={(e) => show(event, e.currentTarget)}
                 onMouseLeave={() => setHover(null)}
-                onFocus={(e) => show(e.currentTarget)}
+                onFocus={(e) => show(event, e.currentTarget)}
                 onBlur={() => setHover(null)}
               >
                 <div
@@ -178,17 +226,25 @@ export function Timeline({ events }: { events: TimelineEvent[] }) {
         </ol>
       </div>
 
-      {hover?.event.note && (
+      {hover && (hover.event.note || summary || hover.event.title) && (
         <div
           role="tooltip"
-          className="pointer-events-none fixed z-50 w-72 rounded-lg border border-rule-strong bg-paper-raised p-3 shadow-lg"
+          className="pointer-events-none fixed z-50 w-80 rounded-lg border border-rule-strong bg-paper-raised p-3 shadow-lg"
           style={{
-            left: Math.min(hover.x, (globalThis.innerWidth ?? 1200) - 300),
+            left: Math.min(hover.x, (globalThis.innerWidth ?? 1200) - 336),
             top: hover.y + 6,
           }}
         >
           <p className="text-xs font-semibold text-ink">{hover.event.label}</p>
-          <p className="mt-1 text-xs leading-relaxed text-ink-muted">{hover.event.note}</p>
+          <p className="mt-0.5 text-[0.65rem] tabular-nums text-ink-faint">
+            {hover.event.date.display}
+            {hover.event.endDate ? ` – ${hover.event.endDate.display}` : ''}
+          </p>
+          {/* The one-line description shows at once; the fuller summary
+              replaces it when it arrives, so the card is never empty. */}
+          <p className="mt-1.5 text-xs leading-relaxed text-ink-muted">
+            {summary || hover.event.note || 'Loading…'}
+          </p>
           {hover.event.title && (
             <p className="mt-1.5 text-[0.65rem] text-ink-faint">Click to explain in full</p>
           )}

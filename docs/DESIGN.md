@@ -14,7 +14,9 @@ Claude by itself does a pretty decent job at explaining complicated concepts, we
 
 I want the UI to be abstract from the very lean server and the LLM layer. This is so that we can in the future turn this into an API-only tool or an MCP that can be called from Claude or other apps directly.
 
-I’ve also used prompt caching to save on API costs for recurring queries.
+The pre-warmed cache and the QID check. 
+Layer 1 from scripts/prewarm.ts runs the full pipeline offline for 12 topics and writes public/cache/<QID>.json plus an index.json containing aliases: a map of normalized query string → QID
+Layer 2 QID check corrects for incorrect QIDs from the local cache and index before any claude call. This is what makes drilling into a pre-warmed subject free even when the chip's wording doesn't match any alias.
 
 There are 2 calls in parallel: one for prose and one for structured output. This means faster response with reasonably good results and cost trade-off.
 
@@ -44,6 +46,9 @@ No database. An app like this would really deserve its own database, cache layer
 
 Access control has also been completely omitted from this, consciously, under the assumption that it’ll only exist for the hiring cycle and taken down from the public internet afterwards. This is to make access easier and save on time.
 
+## Iterations and learnings
+
+
 ## End result and its utility
 
 In the position I’m applying for, I’d have to build intelligent tools for specific workflows where we can anticipate input and the format of output, but need flexibility to adapt to different people’s use cases. The tool I’ve built, at its core, helps you understand a subject. This could be extrapolated to explain codebases or software tools (that we hear 10 new of each day for no reason) or to help the hiring process by helping “explain” people, their career, interview transcripts, score cards to help decision making during a hiring process. Just like I’ve built this tool to be objective, unbiased and provide resources from a wide spectrum of opinions, the same principles would make this tool helpful in understanding other types of subjects especially to help make decisions. Which I imagine is a key pain point on the People team: making high-stakes decisions based on a complex dataset. AI is really good at gathering information, the coded tool can present it well, and then it’s up to the human to make a well-informed decision.
@@ -58,4 +63,4 @@ Rate limiting and scalability considerations based on usage.
 
 ## Development timeline
 
-I’ve spent approximately 5 hours on this task. I started at 9:11am on Sat, Sep 12, and I was done by 2:11pm. This included a 10-minute lunch break and 20 minutes to take my dog for a walk.  
+I’ve spent approximately 5 hours on this task. I started at 9:11am on Sat, Sep 12, and I was done by 2:41pm. This included a 10-minute lunch break and 20 minutes to take my dog for a walk.  

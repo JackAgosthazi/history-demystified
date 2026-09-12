@@ -129,6 +129,37 @@ body {
   font-weight: 600;
 }
 
+/* Skeleton shimmer. The gradient rides across a muted bar, so a placeholder
+   reads as "coming" rather than as content that failed to load. */
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+.skeleton {
+  background-image: linear-gradient(
+    90deg,
+    var(--paper-sunken) 0%,
+    color-mix(in srgb, var(--rule) 70%, var(--paper-sunken)) 50%,
+    var(--paper-sunken) 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.8s linear infinite;
+  border-radius: 0.25rem;
+}
+
+@keyframes progress-sweep {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(300%); }
+}
+.progress-sweep::after {
+  content: "";
+  position: absolute;
+  inset-block: 0;
+  width: 33%;
+  background: var(--accent);
+  animation: progress-sweep 1.6s ease-in-out infinite;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.001ms !important;

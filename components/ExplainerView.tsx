@@ -1,13 +1,26 @@
 'use client';
 
 import Link from 'next/link';
-import { useEffect, useMemo, useState, type ReactNode } from 'react';
-import { enterSubject, labelSubject, type TrailStep } from '@/lib/client/trail';
+import { useEffect, useMemo, useSyncExternalStore, type ReactNode } from 'react';
+import {
+  enterSubject,
+  getServerTrail,
+  getTrail,
+  labelSubject,
+  subscribeToTrail,
+} from '@/lib/client/trail';
 import type { TimelineEvent } from '@/lib/core/types';
 import { Breadcrumbs } from './Breadcrumbs';
+import { ProgressPanel } from './ProgressPanel';
+import {
+  SectionSkeleton,
+  SkeletonChips,
+  SkeletonClaims,
+  SkeletonParagraph,
+} from './Skeleton';
 import { SectionNav, type NavSection } from './SectionNav';
 import { ComparisonChart } from './ComparisonChart';
-import { useExplainer, type Stage } from '@/lib/client/useExplainer';
+import { useExplainer } from '@/lib/client/useExplainer';
 import { EntityChip, EntityChipRow, explainHref } from './Entities';
 import { Prose } from './Prose';
 import { Relationships } from './Relationships';
@@ -17,25 +30,15 @@ import { KeyEvents } from './KeyEvents';
 import { Timeline } from './Timeline';
 import { ClaimBlock, CoverageBadge } from './Verification';
 
-const STAGE_TEXT: Record<Stage, string> = {
-  idle: '',
-  surveying: 'Searching the record for that place and period',
-  resolving: 'Finding the subject',
-  gathering: 'Reading sources',
-  synthesizing: 'Writing the explanation — the timeline and sources below are ready now',
-  verifying: 'Checking every quote against its source',
-  done: '',
-  error: '',
-};
 
 export function ExplainerView({ query }: { query: string }) {
   const state = useExplainer(query);
   const { entity, facts, sources, explainer, survey, stage, error } = state;
 
-  const [trail, setTrail] = useState<TrailStep[]>([]);
-  useEffect(() => setTrail(enterSubject(query)), [query]);
+  const trail = useSyncExternalStore(subscribeToTrail, getTrail, getServerTrail);
+  useEffect(() => enterSubject(query), [query]);
   useEffect(() => {
-    if (entity?.title) setTrail(labelSubject(query, entity.title));
+    if (entity?.title) labelSubject(query, entity.title);
   }, [query, entity?.title]);
 
   /*
@@ -44,35 +47,58 @@ export function ExplainerView({ query }: { query: string }) {
    * Edo period, not in a separate list — so dated key events are merged in
    * and anything already present from the graph is dropped.
    */
-  const navSections = useMemo<NavSection[]>(() => {
+  const loading = stage !== 'done' && stage !== 'error';
+  const awaitingStructured = loading && !explainer;
+  /*
+   * Every section below is populated on every one of the twelve pre-generated
+   * topics, so a placeholder for one is a promise that gets kept. Key events
+   * are the exception, and they are perfectly predicted by type: conflicts,
+   * periods and events have them, a person never does.
+   */
+  const expectsKeyEvents = entity ? entity.type !== 'person' : false;
+
+  /*
+   * Not memoised: building twelve objects is cheaper than the memo, and the
+   * React Compiler reported that a manual useMemo here blocked its own
+   * optimisation. SectionNav keys its observer on the joined ids, so a fresh
+   * array each render costs nothing downstream.
+   */
+  const navSections = ((): NavSection[] => {
     const has = (n: number | undefined) => (n ?? 0) > 0;
+    const pending = !explainer && stage !== 'done' && stage !== 'error';
+    const keyEventsLikely = entity ? entity.type !== 'person' : false;
     return [
       { id: 'overview', label: 'Overview', when: Boolean(state.prose || state.lead) },
-      { id: 'why-it-matters', label: 'Why it matters', when: Boolean(explainer?.whyItMatters) },
-      { id: 'takeaways', label: 'Key takeaways', when: has(explainer?.takeaways?.length) },
-      { id: 'how-it-unfolded', label: 'How it unfolded', when: has(explainer?.keyEvents?.length) },
+      { id: 'why-it-matters', label: 'Why it matters', when: pending || Boolean(explainer?.whyItMatters) },
+      { id: 'takeaways', label: 'Key takeaways', when: pending || has(explainer?.takeaways?.length) },
+      { id: 'how-it-unfolded', label: 'How it unfolded', when: (pending && keyEventsLikely) || has(explainer?.keyEvents?.length) },
       { id: 'timeline', label: 'Timeline', when: has(facts?.timeline?.length) },
       { id: 'connections', label: 'Who was connected', when: Boolean(facts && entity) },
-      { id: 'perspectives', label: 'Where accounts differ', when: has(explainer?.perspectives?.length) },
-      { id: 'comparisons', label: 'For comparison', when: has(explainer?.comparisons?.length) },
-      { id: 'context', label: 'How it connects', when: has(explainer?.context?.length) },
-      { id: 'glossary', label: 'Glossary', when: has(explainer?.glossary?.length) },
-      { id: 'go-deeper', label: 'Go deeper', when: has(explainer?.drilldown?.length) },
+      { id: 'perspectives', label: 'Where accounts differ', when: pending || has(explainer?.perspectives?.length) },
+      { id: 'comparisons', label: 'For comparison', when: pending || has(explainer?.comparisons?.length) },
+      { id: 'context', label: 'How it connects', when: pending || has(explainer?.context?.length) },
+      { id: 'glossary', label: 'Glossary', when: pending || has(explainer?.glossary?.length) },
+      { id: 'go-deeper', label: 'Go deeper', when: pending || has(explainer?.drilldown?.length) },
       { id: 'sources', label: 'Sources', when: has(sources.length) },
     ]
       .filter((s) => s.when)
       .map(({ id, label }) => ({ id, label }));
-  }, [state.prose, state.lead, explainer, facts, entity, sources.length]);
+  })();
+
+  // Bound to locals rather than optional-chained expressions: the compiler
+  // cannot track `facts?.timeline` as a dependency and drops the memo.
+  const graphTimeline = facts?.timeline;
+  const keyEvents = explainer?.keyEvents;
 
   const timeline = useMemo<TimelineEvent[]>(() => {
-    const base = facts?.timeline ?? [];
-    if (!explainer?.keyEvents?.length) return base;
+    const base = graphTimeline ?? [];
+    if (!keyEvents?.length) return base;
 
     const seen = new Set(
       base.flatMap((e) => [e.qid, e.title?.toLowerCase()].filter(Boolean) as string[]),
     );
     const extra: TimelineEvent[] = [];
-    for (const event of explainer.keyEvents) {
+    for (const event of keyEvents) {
       if (!event.date) continue;
       const key = event.entity?.qid ?? event.entity?.title.toLowerCase();
       if (key && seen.has(key)) continue;
@@ -89,7 +115,7 @@ export function ExplainerView({ query }: { query: string }) {
       });
     }
     return [...base, ...extra].sort((a, b) => a.date.year - b.date.year);
-  }, [facts?.timeline, explainer?.keyEvents]);
+  }, [graphTimeline, keyEvents]);
 
   if (error) return <ErrorPanel query={query} message={error.message} code={error.code} />;
 
@@ -139,7 +165,7 @@ export function ExplainerView({ query }: { query: string }) {
           )}
         </div>
 
-        {stage !== 'done' && <Progress stage={stage} detail={state.detail} />}
+        {loading && <ProgressPanel stage={stage} detail={state.detail} />}
 
         {entity && entity.alternates.length > 0 && stage === 'done' && (
           <p className="mt-4 text-sm text-ink-faint">
@@ -157,6 +183,11 @@ export function ExplainerView({ query }: { query: string }) {
       </header>
 
       <div className="mt-10 space-y-12">
+        {!state.prose && !state.lead && loading && (
+          <section id="overview" className="measure scroll-mt-24" aria-busy="true">
+            <SkeletonParagraph lines={6} />
+          </section>
+        )}
         {(state.prose || state.lead) && (
           <section id="overview" className="measure scroll-mt-24">
             <Prose
@@ -166,6 +197,13 @@ export function ExplainerView({ query }: { query: string }) {
           </section>
         )}
 
+        {awaitingStructured && (
+          <SectionSkeleton id="why-it-matters" title="Why it matters">
+            <div className="measure">
+              <SkeletonParagraph lines={3} />
+            </div>
+          </SectionSkeleton>
+        )}
         {explainer?.whyItMatters && (
           <Section id="why-it-matters" title="Why it matters">
             <div className="measure">
@@ -174,6 +212,11 @@ export function ExplainerView({ query }: { query: string }) {
           </Section>
         )}
 
+        {awaitingStructured && (
+          <SectionSkeleton id="takeaways" title="Key takeaways">
+            <SkeletonClaims count={5} />
+          </SectionSkeleton>
+        )}
         {explainer && (explainer.takeaways?.length ?? 0) > 0 && (
           <Section
             id="takeaways"
@@ -188,6 +231,15 @@ export function ExplainerView({ query }: { query: string }) {
           </Section>
         )}
 
+        {awaitingStructured && expectsKeyEvents && (
+          <SectionSkeleton id="how-it-unfolded" title="How it unfolded">
+            <div className="space-y-5 border-l border-rule pl-6">
+              <SkeletonParagraph lines={2} />
+              <SkeletonParagraph lines={2} />
+              <SkeletonParagraph lines={2} />
+            </div>
+          </SectionSkeleton>
+        )}
         {explainer && (explainer.keyEvents?.length ?? 0) > 0 && (
           <Section
             id="how-it-unfolded"
@@ -214,6 +266,14 @@ export function ExplainerView({ query }: { query: string }) {
           </RelationshipSection>
         )}
 
+        {awaitingStructured && (
+          <SectionSkeleton id="perspectives" title="Where accounts differ">
+            <div className="measure space-y-6">
+              <SkeletonParagraph lines={3} />
+              <SkeletonParagraph lines={3} />
+            </div>
+          </SectionSkeleton>
+        )}
         {explainer && (explainer.perspectives?.length ?? 0) > 0 && (
           <Section
             id="perspectives"
@@ -235,6 +295,14 @@ export function ExplainerView({ query }: { query: string }) {
           </Section>
         )}
 
+        {awaitingStructured && (
+          <SectionSkeleton id="comparisons" title="For comparison">
+            <div className="grid gap-4 sm:grid-cols-2">
+              <SkeletonParagraph lines={4} />
+              <SkeletonParagraph lines={4} />
+            </div>
+          </SectionSkeleton>
+        )}
         {explainer && (explainer.comparisons?.length ?? 0) > 0 && facts && entity && (
           <Section
             id="comparisons"
@@ -265,6 +333,11 @@ export function ExplainerView({ query }: { query: string }) {
           </Section>
         )}
 
+        {awaitingStructured && (
+          <SectionSkeleton id="context" title="How it connects">
+            <SkeletonParagraph lines={5} />
+          </SectionSkeleton>
+        )}
         {explainer && (explainer.context?.length ?? 0) > 0 && (
           <Section
             id="context"
@@ -293,6 +366,13 @@ export function ExplainerView({ query }: { query: string }) {
           </Section>
         )}
 
+        {awaitingStructured && (
+          <SectionSkeleton id="glossary" title="Words you may not know">
+            <div className="measure">
+              <SkeletonParagraph lines={4} />
+            </div>
+          </SectionSkeleton>
+        )}
         {explainer && (explainer.glossary?.length ?? 0) > 0 && (
           <Section id="glossary" title="Words you may not know">
             <dl className="measure space-y-3">
@@ -306,6 +386,11 @@ export function ExplainerView({ query }: { query: string }) {
           </Section>
         )}
 
+        {awaitingStructured && (
+          <SectionSkeleton id="go-deeper" title="Go deeper">
+            <SkeletonChips count={6} />
+          </SectionSkeleton>
+        )}
         {explainer && (explainer.drilldown?.length ?? 0) > 0 && (
           <Section id="go-deeper" title="Go deeper" note="Each of these runs the same research from scratch.">
             <EntityChipRow entities={explainer.drilldown} />
@@ -424,22 +509,6 @@ function ListBlock({ label, items }: { label: string; items: string[] }) {
         ))}
       </ul>
     </div>
-  );
-}
-
-function Progress({ stage, detail }: { stage: Stage; detail?: string }) {
-  const text = STAGE_TEXT[stage];
-  if (!text) return null;
-  return (
-    <p className="mt-5 flex items-center gap-2.5 text-sm text-ink-muted" aria-live="polite">
-      <span
-        aria-hidden
-        className="inline-block h-2 w-2 animate-pulse rounded-full"
-        style={{ background: 'var(--accent)' }}
-      />
-      {text}
-      {detail && <span className="text-ink-faint">— {detail}</span>}
-    </p>
   );
 }
 

@@ -21,6 +21,19 @@ export interface TrailStep {
   title?: string;
 }
 
+/*
+ * Exposed as a subscribable store rather than copied into component state.
+ *
+ * The trail lives in sessionStorage, and mirroring it into useState meant
+ * setting state from an effect on every navigation — a cascading render, and
+ * two sources of truth that could disagree. `getSnapshot` must return a
+ * stable reference between writes or React will re-render forever, hence the
+ * cached array.
+ */
+const listeners = new Set<() => void>();
+let snapshot: TrailStep[] | null = null;
+const EMPTY: TrailStep[] = [];
+
 function read(): TrailStep[] {
   try {
     const raw = sessionStorage.getItem(KEY);
@@ -31,11 +44,29 @@ function read(): TrailStep[] {
 }
 
 function write(steps: TrailStep[]): void {
+  const next = steps.slice(-MAX_DEPTH);
+  snapshot = next;
   try {
-    sessionStorage.setItem(KEY, JSON.stringify(steps.slice(-MAX_DEPTH)));
+    sessionStorage.setItem(KEY, JSON.stringify(next));
   } catch {
     /* private mode or storage disabled; breadcrumbs simply do not appear */
   }
+  for (const listener of listeners) listener();
+}
+
+export function subscribeToTrail(listener: () => void): () => void {
+  listeners.add(listener);
+  return () => listeners.delete(listener);
+}
+
+export function getTrail(): TrailStep[] {
+  snapshot ??= read();
+  return snapshot;
+}
+
+/** The server has no session, so the trail starts empty and stable. */
+export function getServerTrail(): TrailStep[] {
+  return EMPTY;
 }
 
 function sameSubject(a: string, b: string): boolean {
@@ -49,12 +80,10 @@ function sameSubject(a: string, b: string): boolean {
  * appending, so stepping back up the breadcrumbs does not leave a growing
  * tail of where the reader has been.
  */
-export function enterSubject(query: string): TrailStep[] {
-  const steps = read();
+export function enterSubject(query: string): void {
+  const steps = getTrail();
   const existing = steps.findIndex((s) => sameSubject(s.query, query));
-  const next = existing === -1 ? [...steps, { query }] : steps.slice(0, existing + 1);
-  write(next);
-  return next.slice(-MAX_DEPTH);
+  write(existing === -1 ? [...steps, { query }] : steps.slice(0, existing + 1));
 }
 
 /** Begin a fresh path. Called when a subject comes from the search box. */
@@ -63,8 +92,8 @@ export function startTrail(query: string): void {
 }
 
 /** Fill in the display title once the subject has resolved. */
-export function labelSubject(query: string, title: string): TrailStep[] {
-  const steps = read().map((s) => (sameSubject(s.query, query) ? { ...s, title } : s));
-  write(steps);
-  return steps.slice(-MAX_DEPTH);
+export function labelSubject(query: string, title: string): void {
+  const steps = getTrail();
+  if (steps.some((s) => sameSubject(s.query, query) && s.title === title)) return;
+  write(steps.map((s) => (sameSubject(s.query, query) ? { ...s, title } : s)));
 }

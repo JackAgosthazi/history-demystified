@@ -23,7 +23,6 @@ import {
   entityUrl,
   fetchEntities,
   fetchEntitiesByTitles,
-  parseTime,
   statementDate,
   statementNodesWithSpan,
   statementQids,

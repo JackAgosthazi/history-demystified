@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useState, useSyncExternalStore } from 'react';
 import { graphDateToTime } from '@/lib/core/connectors/wikidata';
 import type { TimelineEvent } from '@/lib/core/types';
 import { explainHref } from './Entities';
@@ -119,45 +119,42 @@ const summaryCache = new Map<string, string>();
  * bar to read about it navigates away instead. Touch gets an explicit
  * two-step: tap opens the card, the link inside it opens the subject.
  */
+const HOVER_QUERY = '(hover: hover) and (pointer: fine)';
+
+function subscribeToHover(onChange: () => void): () => void {
+  const query = window.matchMedia(HOVER_QUERY);
+  query.addEventListener('change', onChange);
+  return () => query.removeEventListener('change', onChange);
+}
+
 function useCanHover(): boolean {
-  const [canHover, setCanHover] = useState(true);
-  useEffect(() => {
-    const query = window.matchMedia('(hover: hover) and (pointer: fine)');
-    setCanHover(query.matches);
-    const onChange = (e: MediaQueryListEvent) => setCanHover(e.matches);
-    query.addEventListener('change', onChange);
-    return () => query.removeEventListener('change', onChange);
-  }, []);
-  return canHover;
+  // A media query is a subscribable external store, which is what this hook
+  // is for. Reading it through an effect would set state on mount and cause
+  // the cascading render the compiler warns about.
+  return useSyncExternalStore(
+    subscribeToHover,
+    () => window.matchMedia(HOVER_QUERY).matches,
+    () => true, // Server render assumes a pointer; touch corrects on hydration.
+  );
 }
 
 function useSummary(title: string | undefined): string | null {
-  const [summary, setSummary] = useState<string | null>(
-    title ? (summaryCache.get(title) ?? null) : null,
-  );
-  const inFlight = useRef<AbortController | null>(null);
+  /*
+   * State is keyed by the title it belongs to, so switching rows needs no
+   * synchronous reset: a stale entry simply does not match and reads as
+   * absent. The only setState happens once the fetch resolves.
+   */
+  const [fetched, setFetched] = useState<{ title: string; text: string } | null>(null);
 
   useEffect(() => {
-    if (!title) {
-      setSummary(null);
-      return;
-    }
-    const cached = summaryCache.get(title);
-    if (cached !== undefined) {
-      setSummary(cached);
-      return;
-    }
+    if (!title || summaryCache.has(title)) return;
 
-    inFlight.current?.abort();
     const controller = new AbortController();
-    inFlight.current = controller;
-    setSummary(null);
-
     void fetch(`/api/summary?title=${encodeURIComponent(title)}`, { signal: controller.signal })
       .then((r) => r.json() as Promise<{ extract?: string }>)
       .then(({ extract }) => {
         summaryCache.set(title, extract ?? '');
-        if (!controller.signal.aborted) setSummary(extract ?? '');
+        if (!controller.signal.aborted) setFetched({ title, text: extract ?? '' });
       })
       .catch(() => {
         // A hover that fails silently falls back to the one-line description.
@@ -166,7 +163,8 @@ function useSummary(title: string | undefined): string | null {
     return () => controller.abort();
   }, [title]);
 
-  return summary;
+  if (!title) return null;
+  return summaryCache.get(title) ?? (fetched?.title === title ? fetched.text : null);
 }
 
 export function Timeline({ events }: { events: TimelineEvent[] }) {

@@ -99,11 +99,20 @@ export function ExplainerView({ query }: { query: string }) {
 
       <div className="mt-10 space-y-12">
         {(state.prose || state.lead) && (
-          <section className="measure">
+          /*
+           * Space is reserved while the narrative streams. Without it every
+           * new sentence shoves the timeline and everything under it further
+           * down the page, which makes the parts that are already finished
+           * unreadable while the rest arrives.
+           */
+          <section
+            className="measure"
+            style={state.proseComplete ? undefined : { minHeight: '30rem' }}
+          >
             <Prose
               text={explainer ? explainer.summary : stripHeadings(state.prose || state.lead)}
               sources={sources}
-              streaming={stage === 'synthesizing' && Boolean(state.prose)}
+              streaming={!state.proseComplete && Boolean(state.prose)}
             />
           </section>
         )}

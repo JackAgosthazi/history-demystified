@@ -29,13 +29,22 @@ export interface ExplainerState {
   sources: SourceDoc[];
   lead: string;
   prose: string;
+  /** The narrative call has finished, even though synthesis has not. */
+  proseComplete: boolean;
   explainer?: Explainer;
   survey?: Survey;
   error?: { message: string; code?: string };
   fromLocalCache: boolean;
 }
 
-const INITIAL: ExplainerState = { stage: 'idle', sources: [], lead: '', prose: '', fromLocalCache: false };
+const INITIAL: ExplainerState = {
+  stage: 'idle',
+  sources: [],
+  lead: '',
+  prose: '',
+  proseComplete: false,
+  fromLocalCache: false,
+};
 
 /**
  * Consumes the SSE pipeline.
@@ -72,6 +81,7 @@ export function useExplainer(query: string | null, refresh = false): ExplainerSt
             lead: local.summary,
             prose: local.summary,
             explainer: local,
+            proseComplete: true,
             fromLocalCache: true,
           });
           return;
@@ -126,6 +136,8 @@ function applyEvent(setState: React.Dispatch<React.SetStateAction<ExplainerState
         };
       case 'prose':
         return { ...s, prose: s.prose + event.delta };
+      case 'prose-end':
+        return { ...s, proseComplete: true };
       case 'survey':
         return { ...s, stage: 'done', survey: event.survey };
       case 'structured':
@@ -134,6 +146,7 @@ function applyEvent(setState: React.Dispatch<React.SetStateAction<ExplainerState
         return {
           ...s,
           stage: 'done',
+          proseComplete: true,
           explainer: event.explainer,
           entity: event.explainer.entity,
           facts: event.explainer.facts,

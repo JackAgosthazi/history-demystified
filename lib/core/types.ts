@@ -279,6 +279,7 @@ export type StreamEvent =
   /** Zero-LLM first paint: resolved entity, graph facts, source list. */
   | { type: 'skeleton'; entity: ResolvedEntity; facts: EntityFacts; sources: SourceDoc[]; lead: string }
   | { type: 'prose'; delta: string }
+  | { type: 'prose-end' }
   | { type: 'survey'; survey: Survey }
   | { type: 'structured'; explainer: Explainer }
   | { type: 'done'; explainer: Explainer }

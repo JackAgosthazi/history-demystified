@@ -94,6 +94,7 @@ export async function* explain(
     }
     yield { type: 'prose', delta: next.value };
   }
+  yield { type: 'prose-end' };
 
   const structured = await structuredPromise;
 

@@ -135,3 +135,52 @@ export const StructuredOutputSchema = z.object({
 });
 
 export type StructuredOutput = z.infer<typeof StructuredOutputSchema>;
+
+/* ------------------------------------------------------------------ *
+ * Lenient parsing
+ * ------------------------------------------------------------------ */
+
+/**
+ * Caps, applied in code rather than trusted from the model.
+ *
+ * `maxItems` in the schema guides generation but is not guaranteed: a run
+ * came back with nine key events against a cap of eight and strict parsing
+ * discarded the entire response — two Opus calls and ninety seconds thrown
+ * away over one surplus array element. The limits are still sent, because
+ * they shape the output, but a response that overshoots is trimmed and kept.
+ */
+export const LIMITS = {
+  takeaways: 7,
+  perspectives: 4,
+  keyEvents: 8,
+  figures: 6,
+  comparisons: 3,
+  context: 6,
+  glossary: 8,
+  drilldown: 8,
+} as const;
+
+/** The same shape with the array bounds relaxed, for parsing responses. */
+export const LenientOutputSchema = z.object({
+  takeaways: z.array(CitedClaimSchema),
+  perspectives: z.array(PerspectiveSchema),
+  keyEvents: z.array(KeyEventSchema),
+  figures: z.array(KeyFigureSchema),
+  comparisons: z.array(ComparisonSchema),
+  context: z.array(ContextLinkSchema),
+  glossary: z.array(z.object({ term: z.string(), definition: z.string() })),
+  drilldown: z.array(z.object({ entityName: z.string(), why: z.string() })),
+});
+
+export function clampOutput(output: z.infer<typeof LenientOutputSchema>): StructuredOutput {
+  return {
+    takeaways: output.takeaways.slice(0, LIMITS.takeaways),
+    perspectives: output.perspectives.slice(0, LIMITS.perspectives),
+    keyEvents: output.keyEvents.slice(0, LIMITS.keyEvents),
+    figures: output.figures.slice(0, LIMITS.figures),
+    comparisons: output.comparisons.slice(0, LIMITS.comparisons),
+    context: output.context.slice(0, LIMITS.context),
+    glossary: output.glossary.slice(0, LIMITS.glossary),
+    drilldown: output.drilldown.slice(0, LIMITS.drilldown),
+  };
+}

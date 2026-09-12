@@ -7,7 +7,12 @@ import {
   proseUserMessage,
   structuredUserMessage,
 } from './prompts';
-import { StructuredOutputSchema, type StructuredOutput } from './schema';
+import {
+  LenientOutputSchema,
+  StructuredOutputSchema,
+  clampOutput,
+  type StructuredOutput,
+} from './schema';
 
 /**
  * Both calls run against the same corpus at the same time.
@@ -81,7 +86,9 @@ export async function runStructured(
   corpus: string,
   signal?: AbortSignal,
 ): Promise<StructuredResult> {
-  const message = await getClient().beta.messages.parse(
+  // create, not parse: parse validates against the strict schema and throws
+  // on an overshoot, discarding a response that is otherwise entirely usable.
+  const message = await getClient().beta.messages.create(
     {
       model: MODEL,
       max_tokens: STRUCTURED_MAX_TOKENS,
@@ -101,12 +108,9 @@ export async function runStructured(
   assertNotRefused(message);
   const usage = accumulate(EMPTY_USAGE, message.usage);
 
-  if (message.parsed_output) return { output: message.parsed_output, usage };
-
-  // The schema is enforced server-side, so this is close to unreachable, but
-  // falling back to a manual parse beats losing a whole run to a null.
   const text = message.content
     .map((block) => (block.type === 'text' ? block.text : ''))
     .join('');
-  return { output: StructuredOutputSchema.parse(JSON.parse(text)), usage };
+
+  return { output: clampOutput(LenientOutputSchema.parse(JSON.parse(text))), usage };
 }

@@ -1,0 +1,1363 @@
+{
+ "version": 1,
+ "query": "Joan of Arc",
+ "entity": {
+  "qid": "Q7226",
+  "title": "Joan of Arc",
+  "url": "https://en.wikipedia.org/wiki/Joan_of_Arc",
+  "lang": "en",
+  "description": "French folk heroine (1412–1431), military leader who crowned Charles VII and Roman Catholic saint, canonized 500 years after her death",
+  "type": "person",
+  "typeEvidence": [
+   "human"
+  ],
+  "alternates": [
+   {
+    "title": "Joan of Arc (band)",
+    "url": "https://en.wikipedia.org/wiki/Joan_of_Arc_(band)",
+    "lang": "en",
+    "description": "American emo rock band",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/JOAN-OF-ARC-2016-Shervin-Lainez_%28slightly_cropped%29.jpg/60px-JOAN-OF-ARC-2016-Shervin-Lainez_%28slightly_cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail"
+   },
+   {
+    "title": "The Passion of Joan of Arc",
+    "url": "https://en.wikipedia.org/wiki/The_Passion_of_Joan_of_Arc",
+    "lang": "en",
+    "description": "1928 film by Carl Theodor Dreyer",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/The_Passion_of_Joan_of_Arc_%281928%29_English_Poster.png/60px-The_Passion_of_Joan_of_Arc_%281928%29_English_Poster.png?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail"
+   },
+   {
+    "title": "Trial of Joan of Arc",
+    "url": "https://en.wikipedia.org/wiki/Trial_of_Joan_of_Arc",
+    "lang": "en",
+    "description": "1431 trial and execution of French saint",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Joan_of_arc_interrogation.jpg/60px-Joan_of_arc_interrogation.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail"
+   },
+   {
+    "title": "The Messenger: The Story of Joan of Arc",
+    "url": "https://en.wikipedia.org/wiki/The_Messenger%3A_The_Story_of_Joan_of_Arc",
+    "lang": "en",
+    "description": "1999 film by Luc Besson"
+   }
+  ]
+ },
+ "facts": {
+  "qid": "Q7226",
+  "label": "Joan of Arc",
+  "description": "French folk heroine (1412–1431), military leader who crowned Charles VII and Roman Catholic saint, canonized 500 years after her death",
+  "start": {
+   "raw": "+1412-00-00T00:00:00Z",
+   "year": 1412,
+   "precision": "year",
+   "display": "1412"
+  },
+  "end": {
+   "raw": "+1431-05-30T00:00:00Z",
+   "year": 1431,
+   "precision": "day",
+   "display": "30 May 1431"
+  },
+  "relations": {
+   "P22": [
+    {
+     "qid": "Q3160219",
+     "label": "Jacques d'Arc",
+     "description": "French farmer, father of Joan of Arc",
+     "url": "https://en.wikipedia.org/wiki/Jacques_d'Arc",
+     "start": {
+      "raw": "+1380-00-00T00:00:00Z",
+      "year": 1380,
+      "precision": "year",
+      "display": "1380"
+     },
+     "end": {
+      "raw": "+1440-00-00T00:00:00Z",
+      "year": 1440,
+      "precision": "year",
+      "display": "1440"
+     }
+    }
+   ],
+   "P25": [
+    {
+     "qid": "Q3154911",
+     "label": "Isabelle Romée",
+     "description": "French noble and mother of Joan of Arc",
+     "url": "https://en.wikipedia.org/wiki/Isabelle_Rom%C3%A9e",
+     "start": {
+      "raw": "+1377-00-00T00:00:00Z",
+      "year": 1377,
+      "precision": "year",
+      "display": "1377"
+     },
+     "end": {
+      "raw": "+1458-11-28T00:00:00Z",
+      "year": 1458,
+      "precision": "day",
+      "display": "28 November 1458"
+     }
+    }
+   ],
+   "P3373": [
+    {
+     "qid": "Q16930440",
+     "label": "Catherine d'Arc",
+     "description": "sister of Joan of Arc",
+     "start": {
+      "raw": "+1413-00-00T00:00:00Z",
+      "year": 1413,
+      "precision": "year",
+      "display": "1413"
+     },
+     "end": {
+      "raw": "+1429-00-00T00:00:00Z",
+      "year": 1429,
+      "precision": "year",
+      "display": "1429"
+     }
+    },
+    {
+     "qid": "Q3160218",
+     "label": "Jacques of Arc",
+     "description": "eldest brother of Joan of Arc",
+     "start": {
+      "raw": "+1398-00-00T00:00:00Z",
+      "year": 1398,
+      "precision": "year",
+      "display": "1398"
+     }
+    },
+    {
+     "qid": "Q3175163",
+     "label": "Jean d'Arc",
+     "description": "second-eldest brother of Joan of Arc",
+     "start": {
+      "raw": "+1404-00-00T00:00:00Z",
+      "year": 1404,
+      "precision": "year",
+      "display": "1404"
+     },
+     "end": {
+      "raw": "+1470-00-00T00:00:00Z",
+      "year": 1470,
+      "precision": "year",
+      "display": "1470"
+     }
+    },
+    {
+     "qid": "Q3387421",
+     "label": "Pierre d'Arc",
+     "description": "brother of Joan of Arc",
+     "url": "https://en.wikipedia.org/wiki/Pierre_d'Arc",
+     "start": {
+      "raw": "+1408-00-00T00:00:00Z",
+      "year": 1408,
+      "precision": "year",
+      "display": "1408"
+     },
+     "end": {
+      "raw": "+1469-00-00T00:00:00Z",
+      "year": 1469,
+      "precision": "year",
+      "display": "1469"
+     }
+    }
+   ],
+   "P106": [
+    {
+     "qid": "Q47064",
+     "label": "military personnel",
+     "description": "people who serve in an organized armed military force",
+     "url": "https://en.wikipedia.org/wiki/Military_personnel"
+    },
+    {
+     "qid": "Q15995642",
+     "label": "religious leader",
+     "description": "leader for a religious organization",
+     "url": "https://en.wikipedia.org/wiki/Religious_leader"
+    }
+   ],
+   "P27": [
+    {
+     "qid": "Q70972",
+     "label": "Kingdom of France",
+     "description": "monarchical state that ruled France from 987 to 1792, and again from 1814 to 1848 (except during the Hundred Days in 1815)",
+     "url": "https://en.wikipedia.org/wiki/Kingdom_of_France"
+    }
+   ],
+   "P19": [
+    {
+     "qid": "Q209069",
+     "label": "Domrémy-la-Pucelle",
+     "description": "French commune in Vosges",
+     "url": "https://en.wikipedia.org/wiki/Domr%C3%A9my-la-Pucelle"
+    }
+   ],
+   "P20": [
+    {
+     "qid": "Q30974",
+     "label": "Rouen",
+     "description": "commune in Seine-Maritime, France",
+     "url": "https://en.wikipedia.org/wiki/Rouen"
+    }
+   ]
+  },
+  "timeline": [
+   {
+    "id": "start",
+    "label": "Born — Joan of Arc",
+    "kind": "life",
+    "date": {
+     "raw": "+1412-00-00T00:00:00Z",
+     "year": 1412,
+     "precision": "year",
+     "display": "1412"
+    },
+    "qid": "Q7226",
+    "title": "Joan of Arc",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q7226"
+   },
+   {
+    "id": "end",
+    "label": "Died — Joan of Arc",
+    "kind": "life",
+    "date": {
+     "raw": "+1431-05-30T00:00:00Z",
+     "year": 1431,
+     "precision": "day",
+     "display": "30 May 1431"
+    },
+    "qid": "Q7226",
+    "title": "Joan of Arc",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q7226"
+   }
+  ],
+  "sourceUrl": "https://www.wikidata.org/wiki/Q7226"
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "url": "https://en.wikipedia.org/wiki/Joan_of_Arc",
+   "title": "Joan of Arc",
+   "lang": "en",
+   "publisher": "Wikipedia (English)",
+   "section": "Introduction",
+   "text": "Joan of Arc (French: Jeanne d'Arc [ʒan daʁk] ; Middle French: Jehanne Darc [ʒəˈãnə ˈdark]; c. 1412 – 30 May 1431) is a patron saint of France, honored as a defender of the French nation for her role in the siege of Orléans and her insistence on the coronation of Charles VII of France during the Hundred Years' War. Stating that she acted under divine guidance, she became a military leader who gained recognition as a savior of France.\nJoan was born to a propertied peasant family at Domrémy in northeast France. In 1428, she requested to be taken to Charles VII, later testifying that she was guided by visions from the archangel Michael, Saint Margaret, and Saint Catherine to help him save France from English domination. Convinced of her devotion and purity, Charles sent Joan, who was about seventeen years old, to Orléans as part of a relief army. She arrived at the city in April 1429, wielding her banner and bringing hope to the demoralized French army. Nine days after her arrival, the English abandoned the siege. Joan encouraged the French to aggressively pursue the English during the Loire Campaign, which culminated in another decisive victory at Patay, opening the way for the French army to advance on Reims unopposed, where Charles was crowned as the king of France with Joan at his side. These victories boosted French morale, paving the way for their final triumph in the Hundred Years' War several decades later.\nAfter Charles's coronation, Joan participated in the unsuccessful siege of Paris in September 1429 and the failed siege of La Charité in November. Her role in these defeats reduced the court's faith in her. In early 1430, Joan organized a company of volunteers to relieve Compiègne, which had been besieged by the Burgundians—French allies of the English. She was captured by Burgundian troops on 23 May. After trying unsuccessfully to escape, she was handed to the English in November. She was put on trial by Bishop Pierre Cauchon on accusations of heresy, which included blaspheming by wearing men's clothes, acting upon visions that were demonic, and refusing to submit her words and deeds to the judgment of the church. She was declared guilty and burned at the stake on 30 May 1431, aged about nineteen.\nIn 1456, an inquisitorial court reinvestigated Joan's trial and overturned the verdict, declaring that it was tainted by deceit and procedural errors. Joan has been described as an obedient member of the Catholic Church, an early feminist, and a symbol of freedom and independence. She is popularly revered as a martyr. After the French Revolution, she became a national symbol of France. In 1920, Joan of Arc was canonized by Pope Benedict XV and, two years later, was declared one of the patron saints of France. She is portrayed in numerous cultural works, including literature, music, paintings, sculptures, theater, and film.",
+   "truncated": false
+  },
+  {
+   "id": "S2",
+   "url": "https://www.wikidata.org/wiki/Q7226",
+   "title": "Wikidata structured record for Joan of Arc",
+   "lang": "en",
+   "publisher": "Wikidata",
+   "text": "Joan of Arc (Q7226)\nDescription: French folk heroine (1412–1431), military leader who crowned Charles VII and Roman Catholic saint, canonized 500 years after her death\nDate of birth: 1412\nDate of death: 30 May 1431\nFather: Jacques d'Arc (1380 to 1440)\nMother: Isabelle Romée (1377 to 28 November 1458)\nSibling: Catherine d'Arc (1413 to 1429)\nSibling: Jacques of Arc (1398 onwards)\nSibling: Jean d'Arc (1404 to 1470)\nSibling: Pierre d'Arc (1408 to 1469)\nOccupation: military personnel\nOccupation: religious leader\nCitizenship: Kingdom of France\nBorn in: Domrémy-la-Pucelle\nDied in: Rouen",
+   "truncated": false
+  },
+  {
+   "id": "S3",
+   "url": "https://fr.wikipedia.org/wiki/Jeanne_d'Arc",
+   "title": "Jeanne d'Arc",
+   "lang": "fr",
+   "publisher": "Wikipedia (fr)",
+   "section": "Introduction",
+   "text": "Jeanne d'Arc, dite « la Pucelle », née vers 1412 à Domrémy, village du duché de Bar (actuellement dans le département des Vosges en Lorraine), et morte sur le bûcher le 30 mai 1431 à Rouen, capitale du duché de Normandie alors possession anglaise, est une héroïne de l'histoire de France, chef de guerre et sainte de l'Église catholique, surnommée posthumément « la Pucelle d’Orléans ».\nEn 1429, cette jeune fille d'origine paysanne affirme qu'elle a reçu de la part des saints Michel, Marguerite d'Antioche et Catherine d'Alexandrie la mission de délivrer la France de l'occupation anglaise. Elle parvient à rencontrer Charles VII, à conduire victorieusement les troupes françaises contre les armées anglaises, à lever le siège d'Orléans et à conduire le roi au sacre, à Reims, contribuant ainsi à inverser le cours de la guerre de Cent Ans.\nCapturée par les Bourguignons à Compiègne en 1430, elle est vendue aux Anglais par Jean de Luxembourg, comte de Ligny, pour la somme de dix mille livres. Elle est brûlée vive en 1431 après un procès en hérésie conduit par Pierre Cauchon, évêque de Beauvais et ancien recteur de l'université de Paris. Entaché de nombreuses irrégularités, ce procès fait l'objet d'une révision ordonnée par le pape Calixte III en 1455. Un second procès est instruit qui conclut, en 1456, à l'innocence de Jeanne et la réhabilite entièrement. Grâce à ces deux procès dont les minutes ont été conservées, elle est l'une des personnalités françaises les mieux connues du Moyen Âge.\nBéatifiée en 1909 puis canonisée en 1920, Jeanne d'Arc devient une des deux saintes patronnes secondaires de la France en 1922 par la lettre apostolique Beata Maria Virgo in cælum Assumpta in gallicæ. Sa fête nationale est instituée par la loi en 1920 et fixée au 2e dimanche de mai.\nElle est dans de nombreux pays une personnalité mythique qui a inspiré une multitude d'œuvres littéraires, historiques, musicales, dramatiques et cinématographiques.",
+   "truncated": false
+  },
+  {
+   "id": "S4",
+   "url": "https://de.wikipedia.org/wiki/Jeanne_d%E2%80%99Arc",
+   "title": "Jeanne d’Arc",
+   "lang": "de",
+   "publisher": "Wikipedia (de)",
+   "section": "Introduction",
+   "text": "Jeanne d’Arc  [ʒanˈdaʁk] (* vermutlich 1412 in Domrémy, Lothringen; † 30. Mai 1431 in Rouen, Frankreich), auch Jehanne d’Arc, im deutschsprachigen Raum auch Johanna von Orléans oder Jungfrau von Orléans genannt, war eine französische Widerstandskämpferin im Hundertjährigen Krieg, einem bewaffneten Konflikt zwischen England und Frankreich im 14. und 15. Jahrhundert, und wurde deswegen später zur französischen Nationalheldin. Sie wird in der römisch-katholischen Kirche als Jungfrau und Heilige verehrt.\n\nWährend des Hundertjährigen Krieges verhalf sie bei Orléans dem Dauphin und späteren französischen König Karl VII. zu einem Sieg über Engländer und Burgunder. Anschließend geleitete sie Karl zu seiner Königssalbung nach Reims. Nach der Niederlage der Franzosen in der Schlacht von Compiègne wurde Jeanne d’Arc am 23. Mai 1430 durch Johann II. von Luxemburg gefangen genommen, später an die Engländer ausgeliefert und schließlich in einem kirchlichen Verfahren des Bischofs von Beauvais, Pierre Cauchon, der pro-englisch eingestellt war, aufgrund verschiedener Anklagen verurteilt. Am 30. Mai 1431 wurde Jeanne d’Arc im Alter von 19 Jahren auf dem Marktplatz von Rouen auf dem Scheiterhaufen verbrannt.\n24 Jahre später strengte die Kurie einen Revisionsprozess an, in dem das Urteil aufgehoben und Jeanne zur Märtyrerin erklärt wurde. Im Jahr 1909 wurde sie von Papst Pius X. selig- und 1920 von Papst Benedikt XV. heiliggesprochen. Ihr Gedenktag ist der 30. Mai. An diesem Tag gedenkt man ihrer auch in der Church of England.",
+   "truncated": false
+  },
+  {
+   "id": "S5",
+   "url": "https://es.wikipedia.org/wiki/Juana_de_Arco",
+   "title": "Juana de Arco",
+   "lang": "es",
+   "publisher": "Wikipedia (es)",
+   "section": "Introduction",
+   "text": "Juana de Arco (en francés: Jeanne d'Arc),​ también conocida como la Doncella de Orleans (en francés: La Pucelle d'Orléans) (Domrémy, h. 1412-Ruan, 30 de mayo de 1431),​ fue una campesina que sin educación, ni formación militar, lideró ejércitos en defensa de Francia, que se convirtió en heroína y luego fue quemada en la hoguera a los 19 años, canonizada y es la santa patrona de Francia, venerada como defensora de la nación francesa por su papel en el asedio de Orleans y su insistencia en la coronación de Carlos VII de Francia durante la Guerra de los Cien Años.\nAfirmando actuar bajo la guía divina, se convirtió en una líder militar que obtuvo reconocimiento como salvadora de Francia. Fue una joven campesina que es considerada una heroína de Francia por su papel durante la fase final de la guerra de los Cien Años. Juana afirmó haber tenido visiones del Arcángel Miguel, de Santa Margarita y de Catalina de Alejandría, quienes le dieron instrucciones para que ayudara a Carlos VII y liberara a Francia de la dominación inglesa en el período final de la guerra de los Cien Años. Carlos VII, que todavía no había sido coronado, envió a Juana al asedio de Orleans como integrante de un ejército de socorro y fue allí donde se ganó una gran fama porque el asedio fue levantado solo nueve días después. Otras victorias rápidas permitieron que Carlos VII fuera coronado rey de Francia en Reims. Este evento tan esperado elevó la moral francesa y allanó el camino para su victoria final. \nTras la coronación de Carlos, Juana participó en el infructuoso asedio de París en septiembre de 1429 y en el fallido sitio de La Charité en noviembre. Su papel en estas derrotas redujo la confianza que la corte tenía en ella. A principios de 1430, Juana organizó una compañía de voluntarios para liberar Compiègne, que había sido sitiada por los borgoñones, aliados franceses de los ingleses. El 23 de mayo de 1430, Juana fue capturada en Compiègne por la facción borgoñona, un grupo de nobles franceses aliados con los ingleses. Después fue entregada a los ingleses​ y procesada por el obispo Pierre Cauchon por varias acusaciones.​ Declarada culpable, el duque Juan de Bedford mandó quemarla en la hoguera en Ruan el 30 de mayo de 1431, cuando tenía alrededor de 19 años de edad.​\nEn 1456 un tribunal inquisitorial autorizado por el papa Calixto III examinó su juicio, anuló los cargos en su contra, la declaró inocente y la nombró mártir.​ En el siglo XVI la convirtieron en símbolo de la Liga Católica y en 1803 fue declarada símbolo nacional de Francia por decisión de Napoleón Bonaparte.​ Fue beatificada en 1909 y canonizada en 1920.\n\n[section truncated]",
+   "truncated": true
+  },
+  {
+   "id": "S6",
+   "url": "https://en.wikipedia.org/wiki/Joan_of_Arc#Legacy",
+   "title": "Joan of Arc",
+   "lang": "en",
+   "publisher": "Wikipedia (English)",
+   "section": "Legacy",
+   "text": "Joan is one of the most studied people of the Middle Ages, partly because her two trials provided a wealth of documents. Her image, changing over time, has included being the savior of France, an obedient member of the Catholic Church, a protofeminist, and a symbol of freedom and independence.\n\n\n\nMilitary leader and symbol of France\n\n\nJoan's reputation as a military leader who helped drive the English from France began to form before her death. Just after Charles's coronation, Christine de Pizan wrote the poem Ditié de Jehanne D'Arc, celebrating Joan as a supporter of Charles sent by Divine Providence and reflecting French optimism after the triumph at Orléans. As early as 1429, Orléans began holding a celebration in honor of the raising of the siege on 8 May.\nAfter Joan's execution, her role in the Orléans victory encouraged popular support for her rehabilitation. Joan became a central part of the annual celebration, and by 1435, a play, Mistère du siège d'Orléans (Mystery of the Siege of Orléans), portrayed her as the vehicle of the divine will that liberated Orléans. The Orléans festival celebrating Joan continues in modern times.\nLess than a decade after her rehabilitation trial, Pope Pius II wrote a brief biography describing her as the maid who saved the kingdom of France. Louis XII commissioned a full-length biography of her c. 1500.\nJoan's early legacy was closely associated with the divine right of the monarchy to rule France. During the French Revolution, her reputation came into question because of her association with the monarchy and religion, and the festival in her honor held at Orléans was suspended in 1793. In 1803, Napoleon Bonaparte authorized its renewal and the creation of a new statue of Joan at Orléans, stating, \"The illustrious Joan ... proved that there is no miracle which French genius cannot accomplish when national independence is threatened.\"\nSince then, she has become a prominent symbol as the defender of the French nation. After the French defeat in the Franco-Prussian War, Joan became a rallying point for a new crusade to reclaim Lorraine, the province of her birth. The Third Republic held a patriotic civic holiday in her honor on 8 May to celebrate her victory at Orléans. During World War I, her image was used to inspire victory. In World War II, all sides of the French cause appealed to her legacy: she was a symbol for Philippe Pétain in Vichy France, a model for Charles de Gaulle's leadership of the Free French, and an example for the Communist resistance. More recently, her association with the monarchy and national liberation has made her a symbol for the French far right, including the monarchist movement Action Française and the National Front Party. Joan's image has been used by the entire spectrum of French politics, and she is an important reference in political dialogue about French identity and unity.\n\n\n\nSaint and heroic woman\n\n\nJoan is a saint in the Catholic Church. She was viewed as a religious figure in Orléans after the siege was lifted, and an annual panegyric was pronounced there on her behalf until the 1800s. In 1849, the Bishop of Orlėans Félix Dupanloup delivered an oration that attracted international attention and in 1869, petitioned Rome to begin beatification proceedings. She was beatified by Pope Pius X in 1909, and canonized on 16 May 1920 by Pope Benedict XV. Her feast day is 30 May, the anniversary of her execution. In an apostolic letter, Pope Pius XI declared Joan one of the patron saints of France on 2 March 1922.\nJoan was canonized as a Virgin, not as a Christian martyr because she had been put to death by a canonically constituted court, which executed her not for her faith in Christ, but for her private revelation. Nevertheless, she has been popularly venerated as a martyr since her death: one who suffered for her modesty and purity, her country, and the strength of her convictions. Joan is also remembered as a visionary in the Church of England with a commemoration on 30 May. She is revered in the pantheon of the Cao Dai religion.\nDuring her lifetime, Joan was already being compared to biblical women heroes, such as Esther, Judith, and Deborah. Her claim of virginity, which signified her virtue and sincerity, was upheld by women of status from both the Armagnac and Burgundian-English sides of the Hundred Years' War: Yolande of Aragon, Charles's mother-in-law, and Anne of Burgundy, Duchess of Bedford.\nJoan has been described as a model of an autonomous woman who challenged traditions of masculinity and femininity to be heard as an individual in a patriarchal culture—setting her own course by heeding the voices of her visions. She fulfilled the traditionally male role of a military leader, while maintaining her status as a valiant woman. Merging qualities associated with both genders, Joan has inspired numerous artistic and cultural works for many centuries. In the nineteenth century, hundreds of works of art about her—including biographies, plays, and musical scores—were created in France, and her story became popular as an artistic subject in Europe and North America. By the 1960s, she was the topic of thousands of books. Her legacy has become global, and inspires novels, plays, poems, operas, films, paintings, children's books, advertising, computer games, comics and popular culture across the world.",
+   "truncated": false
+  },
+  {
+   "id": "S7",
+   "url": "https://en.wikipedia.org/wiki/Joan_of_Arc#Early_life",
+   "title": "Joan of Arc",
+   "lang": "en",
+   "publisher": "Wikipedia (English)",
+   "section": "Early life",
+   "text": "In her youth, Joan did household chores, spun wool, helped her father in the fields and looked after their animals. Her mother provided Joan's religious education. Much of Domrémy lay in the Duchy of Bar, whose precise feudal status was unclear; though surrounded by pro-Burgundian lands, its people were loyal to the Armagnac cause. By 1419, the war had affected the area, and in 1425, Domrémy was attacked and cattle were stolen. This led to a sentiment among villagers that the English must be expelled from France to achieve peace. Joan had her first vision after this raid.\nJoan later testified that when she was thirteen, c. 1425, a figure she identified as Saint Michael surrounded by angels appeared to her in the garden. After this vision, she said she wept because she wanted them to take her with them. Throughout her life, she had visions of St. Michael, a patron saint of the Domrémy area who was seen as a defender of France. She stated that she had these visions frequently and that she often had them when the church bells were rung. Her visions also included St. Margaret and St. Catherine; although Joan never specified, they were probably Margaret of Antioch and Catherine of Alexandria—those most known in the area. Both were known as virgin saints who strove against powerful enemies, were tortured and martyred for their beliefs, and preserved their virtue to the death. Joan testified that she swore a vow of virginity to these voices. When a young man from her village alleged that she had broken a promise of marriage, Joan stated that she had made him no promises, and his case was dismissed by an ecclesiastical court.\nDuring Joan's youth, a prophecy circulating in the French countryside, based on the visions of Marie Robine of Avignon, promised an armed virgin would come forth to save France. Another prophecy, attributed to Merlin, stated that a virgin carrying a banner would put an end to France's suffering. Joan implied she was this promised maiden, reminding the people around her that there was a saying that France would be destroyed by a woman but would be restored by a virgin. In May 1428, she asked her uncle to take her to the nearby town of Vaucouleurs, where she petitioned the garrison commander, Robert de Baudricourt, for an armed escort to the Armagnac court at Chinon. Baudricourt harshly refused and sent her home. In July, Domrémy was raided by Burgundian forces which set fire to the town, destroyed the crops, and forced Joan, her family and the other townspeople to flee. She returned to Vaucouleurs in January 1429. Her petition was refused again, but by this time she had gained the support of two of Baudricourt's soldiers, Jean de Metz and Bertrand de Poulengy. Meanwhile, she was summoned to Nancy under safe conduct by Charles II, Duke of Lorraine, who had heard about Joan during her stay at Vaucouleurs. The duke was ill and thought she might have supernatural powers that could cure him. She offered no cures, but reprimanded him for living with his mistress.\nHenry V's brothers, John of Lancaster, 1st Duke of Bedford, and Humphrey, Duke of Gloucester, had continued the English conquest of France. Most of northern France, Paris, and parts of southwestern France were under Anglo-Burgundian control. The Burgundians controlled Reims, the traditional site for the coronation of French kings; Charles had not yet been crowned, and doing so at Reims would help legitimize his claim to the throne. In July 1428, the English had started to surround Orléans and had nearly isolated it from the rest of Charles's territory by capturing many of the smaller bridge towns on the Loire River. Orléans was strategically important as the last obstacle to an assault on the remainder of Charles's territory. According to Joan's later testimony, it was around this period that her visions told her to leave Domrémy to help the Dauphin Charles.\nBaudricourt agreed to a third meeting with Joan in February 1429, around the time the English captured an Armagnac relief convoy at the Battle of the Herrings during the Siege of Orléans. Their conversations, along with Metz and Poulengy's support, convinced Baudricourt to allow her to go to Chinon for an audience with the Dauphin. Joan traveled with an escort of six soldiers. Before leaving, Joan put on men's clothes, which were provided by her escorts and the people of Vaucouleurs. She continued to wear men's clothes for the remainder of her life.",
+   "truncated": false
+  },
+  {
+   "id": "S8",
+   "url": "https://en.wikipedia.org/wiki/Joan_of_Arc#Birth_and_historical_background",
+   "title": "Joan of Arc",
+   "lang": "en",
+   "publisher": "Wikipedia (English)",
+   "section": "Birth and historical background",
+   "text": "Joan of Arc was born c. 1412 in Domrémy, a small village in the Meuse valley now in the Vosges department in the north-east of France. Her date of birth is unknown and her statements about her age were vague. Her parents were Jacques d'Arc and Isabelle Romée. Joan had three brothers and a sister. Her father was a peasant farmer with about 20 hectares (50 acres) of land, and he supplemented the family income as a village official, collecting taxes and heading the local watch.\nShe was born during the Hundred Years' War between England and France, which had begun in 1337 over the status of English territories in France and English claims to the French throne. Nearly all the fighting had taken place in France, devastating its economy. At the time of Joan's birth, France was divided politically. The French king Charles VI had recurring bouts of mental illness and was often unable to rule; his brother Louis, Duke of Orléans, and his cousin John the Fearless, Duke of Burgundy, quarreled over the regency of France. In 1407, the Duke of Burgundy ordered the assassination of the Duke of Orléans, precipitating a civil war. Charles of Orléans succeeded his father as duke at the age of thirteen and was placed in the custody of Bernard, Count of Armagnac; his supporters became known as \"Armagnacs\", while supporters of the Duke of Burgundy became known as \"Burgundians\". The future French king Charles VII had assumed the title of dauphin (heir to the throne) after the deaths of his four older brothers and was associated with the Armagnacs.\nHenry V of England exploited France's internal divisions when he invaded in 1415. The Burgundians took Paris in 1418. In 1419, the Dauphin offered a truce to negotiate peace with the Duke of Burgundy, but the duke was assassinated by the Dauphin's Armagnac partisans during the negotiations. The new duke of Burgundy, Philip the Good, allied with the English. Charles VI accused the Dauphin of murdering the Duke of Burgundy and declared him unfit to inherit the French throne. During a period of illness, Charles's wife Isabeau of Bavaria stood in for him and signed the Treaty of Troyes, which gave their daughter Catherine of Valois in marriage to Henry V, granted the succession of the French throne to their heirs, and effectively disinherited the Dauphin. This caused rumors that the Dauphin was not King Charles VI's son, but the offspring of an adulterous affair between Isabeau and the murdered duke of Orléans. In 1422, Henry V and Charles VI died within two months of each other; the 9-month-old Henry VI of England was the nominal heir of the Anglo-French dual monarchy as agreed in the treaty, but the Dauphin also claimed the French throne.",
+   "truncated": false
+  },
+  {
+   "id": "S9",
+   "url": "https://en.wikipedia.org/wiki/Joan_of_Arc#Military_campaigns",
+   "title": "Joan of Arc",
+   "lang": "en",
+   "publisher": "Wikipedia (English)",
+   "section": "Military campaigns",
+   "text": "Orléans\n\n\nIn the last week of April 1429, Joan set out from Blois as part of an army carrying supplies for the relief of Orléans. She arrived there on 29 April and met the commander Jean, the Bastard of Orléans and future Count of Dunois. Orléans was not completely cut off, and the Bastard of Orléans got her into the city, where she was greeted enthusiastically. Joan was initially treated as a figurehead to raise morale, flying her banner on the battlefield. She was not given any formal command or included in military councils but quickly gained the support of the Armagnac troops. She always seemed to be present where the fighting was most intense, she frequently stayed with the front ranks, and she gave them a sense she was fighting for their salvation. Armagnac commanders would sometimes accept the advice she gave them, such as deciding what position to attack, when to continue an assault, and how to place artillery.\nOn 4 May, the Armagnacs went on the offensive, attacking the outlying bastille de Saint-Loup (fortress of Saint Loup). Once Joan learned of the attack, she rode out with her banner to the site of the battle, a mile east of Orléans. She arrived as the Armagnac soldiers were retreating after a failed assault. Her appearance rallied the soldiers, who attacked again and took the fortress. On 5 May, no combat occurred since it was Ascension Thursday, a feast day. She dictated another letter to the English warning them to leave France and had it tied to a bolt, which was fired by a crossbowman.\nThe Armagnacs resumed their offensive on 6 May, capturing Saint-Jean-le-Blanc, which the English had deserted. The Armagnac commanders wanted to stop, but Joan encouraged them to launch an assault on les Augustins, an English fortress built around a monastery. After its capture, the Armagnac commanders wanted to consolidate their gains, but Joan again argued for continuing the offensive. On the morning of 7 May, the Armagnacs attacked the main English stronghold, les Tourelles. Joan was wounded by an arrow between the neck and shoulder while holding her banner in the trench on the south bank of the river but later returned to encourage the final assault that took the fortress. The English retreated from Orléans on 8 May, ending the siege.\nAt Chinon, Joan had declared that she was sent by God. At Poitiers, when she was asked to show a sign demonstrating this claim, she replied that it would be given if she were brought to Orléans. The lifting of the siege was interpreted by many people to be that sign. Prominent clergy such as Jacques Gélu, Archbishop of Embrun, and the theologian Jean Gerson wrote treatises in support of Joan after this victory. In contrast, the English saw the ability of this peasant girl to defeat their armies as proof she was possessed by the devil.\n\n\n\nLoire Campaign\n\n\nAfter the success at Orléans, Joan insisted that the Armagnac forces should advance promptly toward Reims to crown the Dauphin. Charles allowed her to accompany the army under the command of John II, Duke of Alençon, who collaboratively worked with Joan and regularly heeded her advice. Before advancing toward Reims, the Armagnacs needed to recapture the bridge towns along the Loire: Jargeau, Meung-sur-Loire, and Beaugency. This would clear the way for Charles and his entourage, who would have to cross the Loire near Orléans to get from Chinon to Reims.\nThe campaign to clear the Loire towns began on 11 June when the Armagnac forces led by Alençon and Joan arrived at Jargeau and forced the English to withdraw inside the town's walls. Joan sent a message to the English to surrender; they refused and she advocated for a direct assault on the walls the next day. By the end of the day, the town was taken. The Armagnac took few prisoners and many of the English who surrendered were killed. During this campaign, Joan continued to serve in the thick of battle. She began scaling a siege ladder with her banner in hand but before she could climb the wall, she was struck by a stone which split her helmet.\nAlençon and Joan's army advanced on Meung-sur-Loire. On 15 June, they took control of the town's bridge, and the English garrison withdrew to a castle on the Loire's north bank. Most of the army continued on the south bank of the Loire to besiege the castle at Beaugency.\nMeanwhile, the English army from Paris under the command of Sir John Fastolf had linked up with the garrison in Meung and traveled along the north bank of the Loire to relieve Beaugency. Unaware of this, the English garrison at Beaugency surrendered on 18 June. The main English army retreated toward Paris; Joan urged the Armagnacs to pursue them, and the two armies clashed at the Battle of Patay later that day. The English had prepared their forces to ambush an Armagnac attack with hidden archers, but the Armagnac vanguard detected and scattered them. A rout ensued that decimated the English army. Fastolf escaped with a small band of soldiers, but many of the English leaders were captured. Joan arrived at the battlefield too late to participate in the decisive action, but her encouragement to pursue the English had made the victory possible.\n\n\n\nCoronation and siege of Paris\n\n\nAfter the destruction of the English army at Patay, some Armagnac leaders argued for an invasion of English-held Normandy, but Joan remained insistent that Charles must be crowned. The Dauphin agreed, and the army left Gien on 29 June to march on Reims. The advance was nearly unopposed. The Burgundian-held town of Auxerre surrendered on 3 July after three days of negotiations, and other towns in the army's path returned to Armagnac allegiance without resistance. Troyes, which had a small garrison of English and Burgundian troops, was the only one to resist. After four days of negotiation, Joan ordered the soldiers to fill the city's moat with wood and directed the placement of artillery. Fearing an assault, Troyes negotiated a surrender.\nReims opened its gates on 16 July 1429. Charles, Joan, and the army entered in the evening, and Charles's consecration took place the following morning. Joan was given a place of honor at the ceremony, and announced that God's will had been fulfilled.\nAfter the consecration, the royal court negotiated a truce of fifteen days with the Duke of Burgundy, who promised he would try to arrange the transfer of Paris to the Armagnacs while continuing negotiations for a definitive peace. At the end of the truce, Burgundy reneged on his promise. Joan and the Duke of Alençon favored a quick march on Paris, but divisions in Charles's court and continued peace negotiations with Burgundy led to a slow advance.\nAs the Armagnac army approached Paris, many of the towns along the way surrendered without a fight. On 15 August, the English forces under the Duke of Bedford confronted the Armagnacs near Montépilloy in a fortified position that the Armagnac commanders thought was too strong to assault. Joan rode out in front of the English positions to try to provoke them to attack. They refused, resulting in a standoff. The English retreated the following day. The Armagnacs continued their advance and launched an assault on Paris on 8 September. During the fighting, Joan was wounded in the leg by a crossbow bolt. She remained in a trench beneath the city walls until she was rescued after nightfall. The Armagnacs had suffered 1,500 casualties. The following morning, Charles ordered an end to the assault. Joan was displeased and argued that the attack should be continued. She and Alençon had made fresh plans to attack Paris, but Charles dismantled a bridge approaching Paris that was necessary for the attack and the Armagnac army had to retreat.\nAfter the defeat at Paris, Joan's role in the French court diminished. Her aggressive independence did not agree with the court's emphasis on finding a diplomatic solution with Burgundy, and her role in the defeat at Paris reduced the court's faith in her. Scholars at the University of Paris argued that she failed to take Paris because her inspiration was not divine. In September, Charles disbanded the army, and Joan was not allowed to work with the Duke of Alençon again.\n\n\n\nCampaign against Perrinet Gressart\n\n\nIn October, Joan was sent as part of a force to attack the territory of Perrinet Gressart, a mercenary who had served the Burgundians and English. The army besieged Saint-Pierre-le-Moûtier, which fell after Joan encouraged a direct assault on 4 November. The army then tried unsuccessfully to take La-Charité-sur-Loire in November and December and had to abandon their artillery during the retreat. This defeat further diminished Joan's reputation.\nJoan returned to court at the end of December, where she learned that she and her family had been ennobled by Charles as a reward for her services to him and the kingdom. Before the September attack on Paris, Charles had negotiated a four-month truce with the Burgundians, which was extended until Easter 1430. During this truce, the French court had no need for Joan.\n\n\n\nSiege of Compiègne and capture\n\n\nThe Duke of Burgundy began to reclaim towns which had been ceded to him by treaty but had not submitted. Compiègne was one such town of many in areas which the Armagnacs had recaptured over the previous few months. Joan set out with a company of volunteers at the end of March 1430 to relieve the town, which was under siege. This expedition did not have the explicit permission of Charles, who was still observing the truce. Some writers suggest that Joan's expedition to Compiègne without documented permission from the court was a desperate and treasonable action, but others have argued that she could not have launched the expedition without the financial support of the court.\nIn April, Joan arrived at Melun, which had expelled its Burgundian garrison. As Joan advanced, her force grew as other commanders joined her. Joan's troops advanced to Lagny-sur-Marne and defeated an Anglo-Burgundian force commanded by the mercenary Franquet d'Arras who was captured. Typically, he would have been ransomed or exchanged by the capturing force, but Joan allowed the townspeople to execute him after a trial.\n\nJoan reached Compiègne on 14 May. After defensive forays against the Burgundian besiegers, she was forced to disband the majority of the army because it had become too difficult for the surrounding countryside to support. Joan and about 400 of her remaining soldiers entered the town.\nOn 23 May 1430, Joan accompanied an Armagnac force which sortied from Compiègne to attack the Burgundian camp at Margny, northeast of the town. The attack failed, and Joan was captured; she agreed to surrender to a pro-Burgundian nobleman named Lyonnel de Wandomme, a member of Jean de Luxembourg's contingent, who quickly moved her to his castle at Beaulieu-les-Fontaines, near Noyes. After her first attempt to escape, she was transferred to Beaurevoir Castle. She made another escape attempt while there, jumping from a window of a tower and landing in a dry moat; she was injured but survived. In November, she was moved to the Burgundian town of Arras.\nThe English and Burgundians rejoiced that Joan had been removed as a military threat. The English negotiated with their Burgundian allies to pay Joan's ransom and transfer her to their custody. Bishop Pierre Cauchon of Beauvais, a partisan supporter of the Duke of Burgundy and the English crown, played a prominent part in these negotiations, which were completed in November. The final agreement called for the English to pay 10,000 livres tournois to obtain her from Luxembourg. After the English paid the ransom, they moved Joan to Rouen, their main headquarters in France. There is no evidence that Charles tried to save Joan once she was transferred to the English.",
+   "truncated": false
+  },
+  {
+   "id": "S10",
+   "url": "https://en.wikipedia.org/wiki/Joan_of_Arc#Trials_and_execution",
+   "title": "Joan of Arc",
+   "lang": "en",
+   "publisher": "Wikipedia (English)",
+   "section": "Trials and execution",
+   "text": "Trial\n\n\nJoan was put on trial for heresy in Rouen on 9 January 1431. She was accused of having blasphemed by wearing men's clothes, of acting upon visions that were demonic, and of refusing to submit her words and deeds to the church because she claimed she would be judged by God alone. Joan's captors downplayed the secular aspects of her trial by submitting her judgment to an ecclesiastical court, but the trial was politically motivated. Joan testified that her visions had instructed her to defeat the English and crown Charles, and her success was argued to be evidence she was acting on behalf of God. If unchallenged, her testimony would invalidate the English claim to the rule of France and undermine the University of Paris, which supported the dual monarchy ruled by an English king.\nThe verdict was a foregone conclusion. Joan's guilt could be used to compromise Charles's claims to legitimacy by showing that he had been consecrated by the act of a heretic. Cauchon served as the ordinary judge of the trial. The English subsidized the trial, including payments to Cauchon and Jean Le Maître, who represented the Inquisitor of France. All but 8 of the 131 clergy who participated in the trial were French and two thirds were associated with the University of Paris, but most were pro-Burgundian and pro-English.\n\nCauchon attempted to follow correct inquisitorial procedure, but the trial had many irregularities. Joan should have been in the hands of the church during the trial and guarded by women, but instead was imprisoned by the English and guarded by male soldiers under the command of the Duke of Bedford. Contrary to canon law, Cauchon had not established Joan's infamy before proceeding with the trial. Joan was not read the charges against her until well after her interrogations began. The procedures were below inquisitorial standards, subjecting Joan to lengthy interrogations without legal counsel. One of the trial clerics stepped down because he felt the testimony was coerced and its intention was to entrap Joan; another challenged Cauchon's right to judge the trial and was jailed. There is evidence that the trial records were falsified.\nDuring the trial, Joan showed great control. She induced her interrogators to ask questions sequentially rather than simultaneously, refer back to their records when appropriate, and end the sessions when she requested. Witnesses at the trial were impressed by her prudence when answering questions. For example, in one exchange she was asked if she knew she was in God's grace. The question was meant as a scholarly trap, as church doctrine held that nobody could be certain of being in God's grace. If she answered positively, she would have been charged with heresy; if negatively, she would have confessed her own guilt. Joan avoided the trap by stating that if she was not in God's grace, she hoped God would put her there, and if she was in God's grace then she hoped she would remain so. One of the court notaries at her trial later testified that the interrogators were stunned by her answer. To convince her to submit, Joan was shown the instruments of torture. When she refused to be intimidated, Cauchon met with about a dozen assessors (clerical jurors) to vote on whether she should be tortured. The majority decided against it.\nIn early May, Cauchon asked the University of Paris to deliberate on twelve articles summarizing the accusation of heresy. The university approved the charges. On 23 May, Joan was formally admonished by the court.\n\n[section truncated]",
+   "truncated": true
+  },
+  {
+   "id": "S11",
+   "url": "https://en.wikipedia.org/wiki/Joan_of_Arc#Clothing",
+   "title": "Joan of Arc",
+   "lang": "en",
+   "publisher": "Wikipedia (English)",
+   "section": "Clothing",
+   "text": "Joan's cross-dressing was the topic of five of the articles of accusation against her during the trial. In the view of the assessors, it was the emblem of her heresy. Her final condemnation began when she was found to have resumed wearing men's clothes, which was taken as a sign that she had relapsed into heresy.\nFrom the time of her journey to Chinon to her abjuration, Joan usually wore men's clothes and cropped her hair in a male fashion. When she left Vaucouleurs to see the Dauphin in Chinon, Joan was said to have worn a black doublet, a black tunic, and a short black cap. By the time she was captured, she had acquired more elaborate outfits. At her trial, she was accused of wearing breeches, a mantle, a coat of mail, a doublet, hose joined to the doublet with twenty laces, tight boots, spurs, a breastplate, buskins, a sword, a dagger, and a lance. She was also described as wearing furs, a golden surcoat over her armor, and sumptuous riding habits made of precious cloth.\nDuring the trial proceedings, Joan is not recorded as giving a practical reason why she cross-dressed. She stated that it was her own choice to wear men's clothes, and that she did so not at the request of men but by the command of God and his angels. She stated she would return to wearing women's clothes when she fulfilled her calling.\nAlthough Joan's cross-dressing was used to justify her execution, the church's position on it was not clear. In general, it was seen as a sin, but there was no agreement about its severity. Thomas Aquinas stated that a woman may wear a man's clothes to hide herself from enemies or if no other clothes were available, and Joan did both, wearing them in enemy territory to get to Chinon, and in her prison cell after her abjuration when her dress was taken from her. Soon after the siege of Orléans was lifted, Jean Gerson said that Joan's male clothes and haircut were appropriate for her calling, as she was a warrior and men's clothes were more practical.\nCross-dressing may have helped her maintain her virginity by deterring rape: witnesses at the nullification trial stated that Joan gave this as one of the reasons for returning to men's clothes after she had abjured wearing them. However, scholars have stated that when she was imprisoned, wearing men's clothes would only have been a minor deterrent to rape as she was shackled most of the time. For most of her active life, Joan did not cross-dress to hide her gender. Rather, it may have functioned to emphasize her unique identity as La Pucelle, a model of virtue that transcends gender roles and inspires people.",
+   "truncated": false
+  },
+  {
+   "id": "S12",
+   "url": "https://en.wikipedia.org/wiki/Joan_of_Arc#At_the_royal_court_in_Chinon",
+   "title": "Joan of Arc",
+   "lang": "en",
+   "publisher": "Wikipedia (English)",
+   "section": "At the royal court in Chinon",
+   "text": "Joan and Charles VII met for the first time in late February or early March 1429 at the royal court in Chinon, when she was seventeen and he was twenty-six. She told him that she had come to raise the siege of Orléans and to lead him to Reims for his coronation. They had a private exchange that made a strong impression on Charles; Jean Pasquerel, Joan's confessor, later testified that Joan told him she had reassured the Dauphin that he was Charles VI's son and the legitimate king.\nCharles and his council needed more assurance. They sent Joan to Poitiers to be examined by a council of theologians, who declared that she was a good person and a good Catholic. They did not render a decision on the source of Joan's inspiration, but agreed that sending her to Orléans could be useful to the king and would test whether her inspiration was of divine origin. Joan was then sent to Tours to be physically examined by women directed by Charles's mother-in-law Yolande of Aragon, who verified her virginity. This was to establish if she could indeed be the prophesied virgin savior of France, to show the purity of her devotion, and to ensure she had not consorted with the Devil.\nThe Dauphin, reassured by the results of these tests, commissioned plate armor for her. She designed her own banner and had a sword brought to her from under the altar in the church at Sainte-Catherine-de-Fierbois. Around this time she began calling herself \"Joan the Maiden\", emphasizing her virginity as a sign of her mission.\nBefore Joan's arrival at Chinon, the Armagnac strategic situation was bad but not hopeless. The Armagnac forces were prepared to endure a prolonged siege at Orléans, the Burgundians had recently withdrawn from the siege due to disagreements about territory, and the English were debating whether to continue. Nonetheless, after almost a century of war, the Armagnacs were demoralized. Once Joan joined the Dauphin's cause, her personality began to raise their spirits, inspiring devotion and the hope of divine assistance. Her belief in the divine origin of her mission turned the longstanding Anglo-French conflict over inheritance into a religious war. Before beginning the journey to Orléans, Joan dictated a letter to the Duke of Bedford warning him that she was sent by God to drive him out of France.",
+   "truncated": false
+  },
+  {
+   "id": "S13",
+   "url": "https://en.wikipedia.org/wiki/Joan_of_Arc#Visions",
+   "title": "Joan of Arc",
+   "lang": "en",
+   "publisher": "Wikipedia (English)",
+   "section": "Visions",
+   "text": "Joan's belief in the divinity of her visions strengthened her confidence, enabled her to trust herself, and gave her hope during her capture and trial. Her visions played an important role in her condemnation, and her admission that she had returned to heeding them led to her execution. Theologians of the era believed that visions could have had a supernatural source. The assessors at her trial focused on determining the specific source of Joan's visions, using an ecclesiastical form of discretio spirituum (discernment of spirits). Because she was accused of heresy, they sought to show that her visions were false. The rehabilitation trial nullified Joan's sentence, but did not declare her visions authentic. In 1894, Pope Leo XIII pronounced that Joan's mission was divinely inspired.\nModern scholars have discussed possible neurological and psychiatric causes for her visions. Her visions have been described as hallucinations arising from epilepsy or a temporal lobe tuberculoma. Others have implicated ergot poisoning, schizophrenia, delusional disorder, or creative psychopathy induced by her early childhood rearing. One of the Promoters of the Faith at her 1903 canonization trial argued that her visions may have been manifestations of hysteria. Other scholars argue that Joan created some of the visions' specific details in response to the demands of the interrogators at her trial.\nMany of these explanations have been challenged; the trial records designed to demonstrate that Joan was guilty of heresy are unlikely to provide the objective descriptions of symptoms needed to support a medical diagnosis.",
+   "truncated": false
+  },
+  {
+   "id": "S14",
+   "url": "https://en.wikipedia.org/wiki/Joan_of_Arc#Name",
+   "title": "Joan of Arc",
+   "lang": "en",
+   "publisher": "Wikipedia (English)",
+   "section": "Name",
+   "text": "Joan of Arc's name was written in a variety of ways. There is no standard spelling of her name before the sixteenth century; her last name was usually written as \"Darc\" without an apostrophe, but there are variants such as \"Tarc\", \"Dart\" or \"Day\". Her father's name was written as \"Tart\" at her trial. She was called \"Jeanne d'Ay de Domrémy\" in Charles VII's 1429 letter granting her a coat of arms. Joan may never have heard herself called \"Jeanne d'Arc\". The first written record of her being called by this name is in 1455, 24 years after her death.\nShe was not taught to read and write in her childhood, and so dictated her letters. She may later have learned to sign her name, as some of her letters are signed, and she may even have learned to read. Joan referred to herself in the letters as Jeanne la Pucelle (\"Joan the Maiden\") or as la Pucelle (\"the Maiden\"), emphasizing her virginity, and she signed \"Jehanne\". In the sixteenth century, she became known as the \"Maid of Orleans\".",
+   "truncated": false
+  }
+ ],
+ "summary": "Joan of Arc was a peasant girl from Domrémy, a village in north-east France, who said that saints spoke to her and told her to drive the English out of France [S1][S7]. She was born around 1412, during the Hundred Years' War, a long conflict between England and France that had begun in 1337 over English territories and English claims to the French throne, and that was compounded by a French civil war between the \"Armagnac\" and \"Burgundian\" factions [S8]. In 1429, aged about seventeen, she persuaded Charles VII — then only the uncrowned heir, or \"dauphin\" — to send her to the besieged city of Orléans, and the siege was lifted nine days after she arrived [S1][S12]. She is remembered for that victory, for insisting that Charles be crowned, and for being burned alive at nineteen [S1].\n\nBefore sending her anywhere, Charles's court had her examined by theologians at Poitiers and had her virginity physically verified, partly because a prophecy circulating in France promised an armed virgin who would save the kingdom [S12][S7]. After Orléans came a run of victories along the Loire and the crowning of Charles at Reims in July 1429 [S1][S9]. Then came failures — the assault on Paris, where she was wounded, and La Charité — and her standing at court fell [S9]. Burgundian troops captured her at Compiègne on 23 May 1430, and the English paid 10,000 livres tournois to take custody of her [S9]. She was tried for heresy at Rouen by Bishop Pierre Cauchon, a supporter of the English and Burgundians, on charges that included wearing men's clothes and acting on demonic visions; the trial was politically motivated and full of irregularities, and the verdict was a foregone conclusion [S10][S9]. She was burned at the stake on 30 May 1431 [S1]. In 1456 a second court annulled the verdict, though it did not declare her visions authentic [S1][S13].",
+ "whyItMatters": "The relief of Orléans and the coronation at Reims reversed the momentum of a war France had been losing, and helped legitimize Charles VII's contested claim to the throne [S1][S7]. Her two trials left an unusually large body of documents, making her one of the best-known figures of the French Middle Ages and one of the most studied people of the period [S3][S6]. Her posthumous career has been strikingly elastic: Napoleon revived the Orléans festival in her honor in 1803, and in the twentieth century she was claimed at once by Vichy's Philippe Pétain, by Charles de Gaulle's Free French, by the Communist resistance and later by the French far right [S6]. The Catholic Church beatified her in 1909 and canonized her in 1920 — as a virgin rather than a martyr, since she had been condemned by a properly constituted court [S6].",
+ "takeaways": [
+  {
+   "id": "t0",
+   "text": "Joan of Arc was a peasant girl from north-eastern France who, claiming to act on divine guidance, became a military leader credited with saving France, and was burned to death at around nineteen.",
+   "sourceId": "S1",
+   "quote": "She was declared guilty and burned at the stake on 30 May 1431, aged about nineteen.",
+   "verification": {
+    "status": "unverified",
+    "method": "exact",
+    "score": 0.3333333333333333,
+    "reason": "Quote found, but the surrounding text does not mention arc, france.",
+    "sourceTitle": "Joan of Arc",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc"
+   }
+  },
+  {
+   "id": "t1",
+   "text": "She said she was directed by visions of the archangel Michael and two virgin saints, Margaret and Catherine, to help Charles VII drive the English out of France.",
+   "sourceId": "S1",
+   "quote": "later testifying that she was guided by visions from the archangel Michael, Saint Margaret, and Saint Catherine to help him save France from English domination",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc#:~:text=later%20testifying%20that%20she%20was%20guided,him%20save%20France%20from%20English%20domination",
+    "sourceTitle": "Joan of Arc",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc"
+   }
+  },
+  {
+   "id": "t2",
+   "text": "Her decisive military moment came at Orléans, a besieged city on the Loire: the English gave up the siege nine days after she reached it.",
+   "sourceId": "S1",
+   "quote": "Nine days after her arrival, the English abandoned the siege.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc#:~:text=Nine%20days%20after%20her%20arrival%2C%20the%20English%20abandoned%20the%20siege.",
+    "sourceTitle": "Joan of Arc",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc"
+   }
+  },
+  {
+   "id": "t3",
+   "text": "She insisted that the uncrowned heir Charles be anointed king at Reims, the traditional coronation city, and the ceremony took place the morning after the army entered the town.",
+   "sourceId": "S9",
+   "quote": "Reims opened its gates on 16 July 1429. Charles, Joan, and the army entered in the evening, and Charles's consecration took place the following morning.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc#Military_campaigns:~:text=Reims%20opened%20its%20gates%20on%2016,consecration%20took%20place%20the%20following%20morning.",
+    "sourceTitle": "Joan of Arc",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc#Military_campaigns"
+   }
+  },
+  {
+   "id": "t4",
+   "text": "She lived during the Hundred Years' War, a conflict begun in 1337 between England and France over English lands in France and English claims to the French crown.",
+   "sourceId": "S8",
+   "quote": "She was born during the Hundred Years' War between England and France, which had begun in 1337 over the status of English territories in France",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc#Birth_and_historical_background:~:text=She%20was%20born%20during%20the%20Hundred,status%20of%20English%20territories%20in%20France",
+    "sourceTitle": "Joan of Arc",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc#Birth_and_historical_background"
+   }
+  },
+  {
+   "id": "t5",
+   "text": "Captured by the Burgundians — French nobles allied to England — she was sold to the English for ten thousand livres by Jean de Luxembourg, Count of Ligny.",
+   "sourceId": "S3",
+   "quote": "Capturée par les Bourguignons à Compiègne en 1430, elle est vendue aux Anglais par Jean de Luxembourg, comte de Ligny, pour la somme de dix mille livres.",
+   "quoteTranslation": "Captured by the Burgundians at Compiègne in 1430, she was sold to the English by Jean de Luxembourg, Count of Ligny, for the sum of ten thousand livres.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://fr.wikipedia.org/wiki/Jeanne_d'Arc#:~:text=Captur%C3%A9e%20par%20les%20Bourguignons%20%C3%A0%20Compi%C3%A8gne,la%20somme%20de%20dix%20mille%20livres.",
+    "sourceTitle": "Jeanne d'Arc",
+    "sourceUrl": "https://fr.wikipedia.org/wiki/Jeanne_d'Arc"
+   }
+  },
+  {
+   "id": "t6",
+   "text": "A quarter of a century after her death a church inquiry reversed the heresy verdict, finding the original trial corrupted by deceit and procedural error.",
+   "sourceId": "S1",
+   "quote": "In 1456, an inquisitorial court reinvestigated Joan's trial and overturned the verdict, declaring that it was tainted by deceit and procedural errors.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc#:~:text=In%201456%2C%20an%20inquisitorial%20court%20reinvestigated,tainted%20by%20deceit%20and%20procedural%20errors.",
+    "sourceTitle": "Joan of Arc",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc"
+   }
+  }
+ ],
+ "perspectives": [
+  {
+   "label": "Contemporary English and Burgundian view",
+   "stance": "A peasant girl winning battles proved demonic possession",
+   "body": "To her enemies, the same victories that convinced the French of divine backing were evidence of witchcraft. This framing made a church heresy trial the natural instrument for destroying her, since condemning her also tainted the king she had crowned.",
+   "evidence": {
+    "id": "p0",
+    "text": "The English interpreted her defeat of their armies as proof that she was possessed by the devil.",
+    "sourceId": "S9",
+    "quote": "the English saw the ability of this peasant girl to defeat their armies as proof she was possessed by the devil.",
+    "verification": {
+     "status": "verified",
+     "method": "exact",
+     "score": 1,
+     "citationUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc#Military_campaigns:~:text=the%20English%20saw%20the%20ability%20of,she%20was%20possessed%20by%20the%20devil.",
+     "sourceTitle": "Joan of Arc",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc#Military_campaigns"
+    }
+   }
+  },
+  {
+   "label": "Modern medical and psychiatric scholarship",
+   "stance": "Her visions may have had a clinical cause",
+   "body": "Scholars have proposed epilepsy, a brain tuberculoma, ergot poisoning and various psychiatric conditions as explanations for what Joan described. Critics counter that trial records written to convict her of heresy are poor material for a diagnosis.",
+   "evidence": {
+    "id": "p1",
+    "text": "Modern scholars have proposed neurological and psychiatric causes for Joan's visions.",
+    "sourceId": "S13",
+    "quote": "Modern scholars have discussed possible neurological and psychiatric causes for her visions.",
+    "verification": {
+     "status": "verified",
+     "method": "exact",
+     "score": 1,
+     "citationUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc#Visions:~:text=Modern%20scholars%20have%20discussed%20possible%20neurological,and%20psychiatric%20causes%20for%20her%20visions.",
+     "sourceTitle": "Joan of Arc",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc#Visions"
+    }
+   }
+  },
+  {
+   "label": "Papal position",
+   "stance": "Her mission was genuinely inspired by God",
+   "body": "The 1456 rehabilitation cleared her name but stopped short of endorsing the visions themselves. Only in 1894 did a pope state outright that her mission was divinely inspired, a step on the road to beatification and canonisation.",
+   "evidence": {
+    "id": "p2",
+    "text": "In 1894 Pope Leo XIII declared that Joan's mission was divinely inspired.",
+    "sourceId": "S13",
+    "quote": "In 1894, Pope Leo XIII pronounced that Joan's mission was divinely inspired.",
+    "verification": {
+     "status": "verified",
+     "method": "exact",
+     "score": 1,
+     "citationUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc#Visions:~:text=In%201894%2C%20Pope%20Leo%20XIII%20pronounced,that%20Joan's%20mission%20was%20divinely%20inspired.",
+     "sourceTitle": "Joan of Arc",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc#Visions"
+    }
+   }
+  },
+  {
+   "label": "Martyr or virgin?",
+   "stance": "Canonised as a virgin, popularly revered as martyr",
+   "body": "The Church could not call her a martyr because she was killed by a properly constituted court and not for believing in Christ, so she was canonised under the category of Virgin. Popular devotion has ignored the distinction and treated her as a martyr since her death.",
+   "evidence": {
+    "id": "p3",
+    "text": "Joan was canonised as a Virgin rather than as a martyr because she had been executed by a canonically constituted court for her private revelation, not for her faith in Christ.",
+    "sourceId": "S6",
+    "quote": "Joan was canonized as a Virgin, not as a Christian martyr because she had been put to death by a canonically constituted court, which executed her not for her faith in Christ, but for her private revelation.",
+    "verification": {
+     "status": "verified",
+     "method": "exact",
+     "score": 1,
+     "citationUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc#Legacy:~:text=Joan%20was%20canonized%20as%20a%20Virgin%2C,Christ%2C%20but%20for%20her%20private%20revelation.",
+     "sourceTitle": "Joan of Arc",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc#Legacy"
+    }
+   }
+  }
+ ],
+ "claims": [
+  {
+   "id": "t0",
+   "text": "Joan of Arc was a peasant girl from north-eastern France who, claiming to act on divine guidance, became a military leader credited with saving France, and was burned to death at around nineteen.",
+   "sourceId": "S1",
+   "quote": "She was declared guilty and burned at the stake on 30 May 1431, aged about nineteen.",
+   "verification": {
+    "status": "unverified",
+    "method": "exact",
+    "score": 0.3333333333333333,
+    "reason": "Quote found, but the surrounding text does not mention arc, france.",
+    "sourceTitle": "Joan of Arc",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc"
+   }
+  },
+  {
+   "id": "t1",
+   "text": "She said she was directed by visions of the archangel Michael and two virgin saints, Margaret and Catherine, to help Charles VII drive the English out of France.",
+   "sourceId": "S1",
+   "quote": "later testifying that she was guided by visions from the archangel Michael, Saint Margaret, and Saint Catherine to help him save France from English domination",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc#:~:text=later%20testifying%20that%20she%20was%20guided,him%20save%20France%20from%20English%20domination",
+    "sourceTitle": "Joan of Arc",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc"
+   }
+  },
+  {
+   "id": "t2",
+   "text": "Her decisive military moment came at Orléans, a besieged city on the Loire: the English gave up the siege nine days after she reached it.",
+   "sourceId": "S1",
+   "quote": "Nine days after her arrival, the English abandoned the siege.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc#:~:text=Nine%20days%20after%20her%20arrival%2C%20the%20English%20abandoned%20the%20siege.",
+    "sourceTitle": "Joan of Arc",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc"
+   }
+  },
+  {
+   "id": "t3",
+   "text": "She insisted that the uncrowned heir Charles be anointed king at Reims, the traditional coronation city, and the ceremony took place the morning after the army entered the town.",
+   "sourceId": "S9",
+   "quote": "Reims opened its gates on 16 July 1429. Charles, Joan, and the army entered in the evening, and Charles's consecration took place the following morning.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc#Military_campaigns:~:text=Reims%20opened%20its%20gates%20on%2016,consecration%20took%20place%20the%20following%20morning.",
+    "sourceTitle": "Joan of Arc",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc#Military_campaigns"
+   }
+  },
+  {
+   "id": "t4",
+   "text": "She lived during the Hundred Years' War, a conflict begun in 1337 between England and France over English lands in France and English claims to the French crown.",
+   "sourceId": "S8",
+   "quote": "She was born during the Hundred Years' War between England and France, which had begun in 1337 over the status of English territories in France",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc#Birth_and_historical_background:~:text=She%20was%20born%20during%20the%20Hundred,status%20of%20English%20territories%20in%20France",
+    "sourceTitle": "Joan of Arc",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc#Birth_and_historical_background"
+   }
+  },
+  {
+   "id": "t5",
+   "text": "Captured by the Burgundians — French nobles allied to England — she was sold to the English for ten thousand livres by Jean de Luxembourg, Count of Ligny.",
+   "sourceId": "S3",
+   "quote": "Capturée par les Bourguignons à Compiègne en 1430, elle est vendue aux Anglais par Jean de Luxembourg, comte de Ligny, pour la somme de dix mille livres.",
+   "quoteTranslation": "Captured by the Burgundians at Compiègne in 1430, she was sold to the English by Jean de Luxembourg, Count of Ligny, for the sum of ten thousand livres.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://fr.wikipedia.org/wiki/Jeanne_d'Arc#:~:text=Captur%C3%A9e%20par%20les%20Bourguignons%20%C3%A0%20Compi%C3%A8gne,la%20somme%20de%20dix%20mille%20livres.",
+    "sourceTitle": "Jeanne d'Arc",
+    "sourceUrl": "https://fr.wikipedia.org/wiki/Jeanne_d'Arc"
+   }
+  },
+  {
+   "id": "t6",
+   "text": "A quarter of a century after her death a church inquiry reversed the heresy verdict, finding the original trial corrupted by deceit and procedural error.",
+   "sourceId": "S1",
+   "quote": "In 1456, an inquisitorial court reinvestigated Joan's trial and overturned the verdict, declaring that it was tainted by deceit and procedural errors.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc#:~:text=In%201456%2C%20an%20inquisitorial%20court%20reinvestigated,tainted%20by%20deceit%20and%20procedural%20errors.",
+    "sourceTitle": "Joan of Arc",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc"
+   }
+  },
+  {
+   "id": "p0",
+   "text": "The English interpreted her defeat of their armies as proof that she was possessed by the devil.",
+   "sourceId": "S9",
+   "quote": "the English saw the ability of this peasant girl to defeat their armies as proof she was possessed by the devil.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc#Military_campaigns:~:text=the%20English%20saw%20the%20ability%20of,she%20was%20possessed%20by%20the%20devil.",
+    "sourceTitle": "Joan of Arc",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc#Military_campaigns"
+   }
+  },
+  {
+   "id": "p1",
+   "text": "Modern scholars have proposed neurological and psychiatric causes for Joan's visions.",
+   "sourceId": "S13",
+   "quote": "Modern scholars have discussed possible neurological and psychiatric causes for her visions.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc#Visions:~:text=Modern%20scholars%20have%20discussed%20possible%20neurological,and%20psychiatric%20causes%20for%20her%20visions.",
+    "sourceTitle": "Joan of Arc",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc#Visions"
+   }
+  },
+  {
+   "id": "p2",
+   "text": "In 1894 Pope Leo XIII declared that Joan's mission was divinely inspired.",
+   "sourceId": "S13",
+   "quote": "In 1894, Pope Leo XIII pronounced that Joan's mission was divinely inspired.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc#Visions:~:text=In%201894%2C%20Pope%20Leo%20XIII%20pronounced,that%20Joan's%20mission%20was%20divinely%20inspired.",
+    "sourceTitle": "Joan of Arc",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc#Visions"
+   }
+  },
+  {
+   "id": "p3",
+   "text": "Joan was canonised as a Virgin rather than as a martyr because she had been executed by a canonically constituted court for her private revelation, not for her faith in Christ.",
+   "sourceId": "S6",
+   "quote": "Joan was canonized as a Virgin, not as a Christian martyr because she had been put to death by a canonically constituted court, which executed her not for her faith in Christ, but for her private revelation.",
+   "verification": {
+    "status": "verified",
+    "method": "exact",
+    "score": 1,
+    "citationUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc#Legacy:~:text=Joan%20was%20canonized%20as%20a%20Virgin%2C,Christ%2C%20but%20for%20her%20private%20revelation.",
+    "sourceTitle": "Joan of Arc",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Joan_of_Arc#Legacy"
+   }
+  }
+ ],
+ "keyEvents": [],
+ "figures": [
+  {
+   "entity": {
+    "title": "Charles VII of France",
+    "url": "https://en.wikipedia.org/wiki/Charles_VII_of_France",
+    "lang": "en",
+    "description": "King of France from 1422 to 1461",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/KarlVII.jpg/60px-KarlVII.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q133372",
+    "start": {
+     "raw": "+1403-02-22T00:00:00Z",
+     "year": 1403,
+     "precision": "day",
+     "display": "22 February 1403"
+    },
+    "end": {
+     "raw": "+1461-07-22T00:00:00Z",
+     "year": 1461,
+     "precision": "day",
+     "display": "22 July 1461"
+    }
+   },
+   "relationship": "The king she made",
+   "note": "The disinherited heir whom Joan persuaded to send her to Orléans and then had crowned at Reims; there is no evidence he attempted to rescue her once the English held her."
+  },
+  {
+   "entity": {
+    "title": "Pierre Cauchon",
+    "url": "https://en.wikipedia.org/wiki/Pierre_Cauchon",
+    "lang": "en",
+    "description": "15th-century Catholic bishop of Beauvais, France",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Tombeau_de_Pierre_Cauchon_%28cropped%29.jpg/60px-Tombeau_de_Pierre_Cauchon_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q464287",
+    "start": {
+     "raw": "+1371-01-01T00:00:00Z",
+     "year": 1371,
+     "precision": "year",
+     "display": "1371"
+    },
+    "end": {
+     "raw": "+1442-12-18T00:00:00Z",
+     "year": 1442,
+     "precision": "day",
+     "display": "18 December 1442"
+    }
+   },
+   "relationship": "Judge at her heresy trial",
+   "note": "The bishop of Beauvais, a partisan of the Burgundians and the English crown, who helped negotiate her transfer to English hands and then presided over the trial that condemned her."
+  },
+  {
+   "entity": {
+    "title": "John of Lancaster, Duke of Bedford",
+    "url": "https://en.wikipedia.org/wiki/John_of_Lancaster%2C_Duke_of_Bedford",
+    "lang": "en",
+    "description": "English prince (1389–1435)",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/John%2C_Duke_of_Bedford_-_British_Library_Add_MS_18850_f256v_-_detail.jpg/60px-John%2C_Duke_of_Bedford_-_British_Library_Add_MS_18850_f256v_-_detail.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q348441",
+    "start": {
+     "raw": "+1389-06-20T00:00:00Z",
+     "year": 1389,
+     "precision": "day",
+     "display": "20 June 1389"
+    },
+    "end": {
+     "raw": "+1435-09-14T00:00:00Z",
+     "year": 1435,
+     "precision": "day",
+     "display": "14 September 1435"
+    }
+   },
+   "relationship": "Chief English enemy",
+   "note": "The English regent in France whom Joan warned by letter to leave the country, and whose soldiers guarded her in prison during the trial."
+  },
+  {
+   "entity": {
+    "title": "John II, Duke of Alençon",
+    "url": "https://en.wikipedia.org/wiki/John_II%2C_Duke_of_Alen%C3%A7on",
+    "lang": "en",
+    "description": "15th-century Duke of Alençon",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/SOAOTO_-_Folio_058R.jpg/60px-SOAOTO_-_Folio_058R.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q719814",
+    "start": {
+     "raw": "+1409-03-02T00:00:00Z",
+     "year": 1409,
+     "precision": "day",
+     "display": "2 March 1409"
+    },
+    "end": {
+     "raw": "+1476-09-08T00:00:00Z",
+     "year": 1476,
+     "precision": "day",
+     "display": "8 September 1476"
+    }
+   },
+   "relationship": "Commander who took her advice",
+   "note": "The Armagnac commander who worked collaboratively with Joan during the Loire campaign and the failed attack on Paris, and whom she was forbidden to serve with afterwards."
+  },
+  {
+   "entity": {
+    "title": "Yolande of Aragon",
+    "url": "https://en.wikipedia.org/wiki/Yolande_of_Aragon",
+    "lang": "en",
+    "description": "Duchess of Anjou (1381–1442)",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Yolande_of_Aragon.jpg/60px-Yolande_of_Aragon.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q235174",
+    "start": {
+     "raw": "+1384-08-11T00:00:00Z",
+     "year": 1384,
+     "precision": "day",
+     "display": "11 August 1384"
+    },
+    "end": {
+     "raw": "+1442-11-14T00:00:00Z",
+     "year": 1442,
+     "precision": "day",
+     "display": "14 November 1442"
+    }
+   },
+   "relationship": "Royal patron who vouched for her",
+   "note": "Charles's mother-in-law, who directed the physical examination confirming Joan's virginity — a test that established her as the prophesied virgin saviour."
+  },
+  {
+   "entity": {
+    "title": "Philip the Good",
+    "url": "https://en.wikipedia.org/wiki/Philip_the_Good",
+    "lang": "en",
+    "description": "Duke of Burgundy from 1419 to 1467",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Philip_the_good.jpg/60px-Philip_the_good.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q239337",
+    "start": {
+     "raw": "+1396-07-31T00:00:00Z",
+     "year": 1396,
+     "precision": "day",
+     "display": "31 July 1396"
+    },
+    "end": {
+     "raw": "+1467-06-15T00:00:00Z",
+     "year": 1467,
+     "precision": "day",
+     "display": "15 June 1467"
+    }
+   },
+   "relationship": "Burgundian duke, enemy and negotiator",
+   "note": "Head of the Burgundian faction allied to England; his troops captured Joan at Compiègne and his ally sold her to the English."
+  }
+ ],
+ "comparisons": [
+  {
+   "entity": {
+    "title": "Jan Hus",
+    "url": "https://en.wikipedia.org/wiki/Jan_Hus",
+    "lang": "en",
+    "description": "Czech theologian, philosopher, and martyr (c. 1369–1415)",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Stimmer_Jan_Hus.jpg/60px-Stimmer_Jan_Hus.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q43977",
+    "start": {
+     "raw": "+1370-00-00T00:00:00Z",
+     "year": 1370,
+     "precision": "decade",
+     "display": "1370s"
+    },
+    "end": {
+     "raw": "+1415-07-06T00:00:00Z",
+     "year": 1415,
+     "precision": "day",
+     "display": "6 July 1415"
+    }
+   },
+   "angle": "Both were burned at the stake by church courts in the same era for refusing to submit their convictions to ecclesiastical judgment.",
+   "similarities": [
+    "Condemned as a heretic and executed by burning",
+    "Trial entangled with political as much as doctrinal stakes",
+    "Later became a national symbol in their own country"
+   ],
+   "differences": [
+    "Joan was an illiterate teenager, not a university theologian",
+    "Joan's offence centred on visions and male clothing rather than doctrine",
+    "Joan's verdict was formally overturned and she was eventually canonised"
+   ],
+   "start": {
+    "raw": "+1370-00-00T00:00:00Z",
+    "year": 1370,
+    "precision": "decade",
+    "display": "1370s"
+   },
+   "end": {
+    "raw": "+1415-07-06T00:00:00Z",
+    "year": 1415,
+    "precision": "day",
+    "display": "6 July 1415"
+   }
+  },
+  {
+   "entity": {
+    "title": "Napoleon",
+    "url": "https://en.wikipedia.org/wiki/Napoleon",
+    "lang": "en",
+    "description": "Emperor of the French (1804–1814; 1815)",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg/60px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q517",
+    "start": {
+     "raw": "+1769-08-15T00:00:00Z",
+     "year": 1769,
+     "precision": "day",
+     "display": "15 August 1769"
+    },
+    "end": {
+     "raw": "+1821-05-05T00:00:00Z",
+     "year": 1821,
+     "precision": "day",
+     "display": "5 May 1821"
+    }
+   },
+   "angle": "Napoleon revived her cult for the French state, and comparing them shows how differently military glory attaches to a peasant visionary and a professional commander.",
+   "similarities": [
+    "Both became central symbols of French national identity",
+    "Both are credited with transforming French military morale"
+   ],
+   "differences": [
+    "Joan held no formal command and was treated at first as a figurehead",
+    "Joan's authority rested on claimed divine guidance rather than institutional power",
+    "Joan was executed at nineteen by her enemies"
+   ],
+   "start": {
+    "raw": "+1769-08-15T00:00:00Z",
+    "year": 1769,
+    "precision": "day",
+    "display": "15 August 1769"
+   },
+   "end": {
+    "raw": "+1821-05-05T00:00:00Z",
+    "year": 1821,
+    "precision": "day",
+    "display": "5 May 1821"
+   }
+  }
+ ],
+ "context": [
+  {
+   "entity": {
+    "title": "Hundred Years' War",
+    "url": "https://en.wikipedia.org/wiki/Hundred_Years'_War",
+    "lang": "en",
+    "description": "Medieval Anglo-French conflicts, 1337–1453",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Schlacht_von_Azincourt.jpg/60px-Schlacht_von_Azincourt.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q12551",
+    "start": {
+     "raw": "+1337-05-24T00:00:00Z",
+     "year": 1337,
+     "precision": "day",
+     "display": "24 May 1337"
+    },
+    "end": {
+     "raw": "+1453-10-09T00:00:00Z",
+     "year": 1453,
+     "precision": "day",
+     "display": "9 October 1453"
+    },
+    "occurredAt": {
+     "raw": "+1337-05-24T00:00:00Z",
+     "year": 1337,
+     "precision": "day",
+     "display": "24 May 1337"
+    }
+   },
+   "relation": "participantIn",
+   "note": "Her campaigns fell in the final phase of this long Anglo-French conflict, and the victories she inspired are credited with paving the way for the eventual French triumph.",
+   "fromGraph": false
+  },
+  {
+   "entity": {
+    "title": "Siege of Orléans (1428–1429)",
+    "url": "https://en.wikipedia.org/wiki/Siege_of_Orl%C3%A9ans_(1428%E2%80%931429)",
+    "lang": "en",
+    "description": "Turning point in the Hundred Years' War",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Lenepveu%2C_Jeanne_d%27Arc_au_si%C3%A8ge_d%27Orl%C3%A9ans.jpg/60px-Lenepveu%2C_Jeanne_d%27Arc_au_si%C3%A8ge_d%27Orl%C3%A9ans.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q392213",
+    "start": {
+     "raw": "+1428-10-21T00:00:00Z",
+     "year": 1428,
+     "precision": "day",
+     "display": "21 October 1428"
+    },
+    "end": {
+     "raw": "+1429-05-17T00:00:00Z",
+     "year": 1429,
+     "precision": "day",
+     "display": "17 May 1429"
+    },
+    "occurredAt": {
+     "raw": "+1428-10-21T00:00:00Z",
+     "year": 1428,
+     "precision": "day",
+     "display": "21 October 1428"
+    }
+   },
+   "relation": "participantIn",
+   "note": "The relief of this Loire city was the event that made her reputation and was read by many as the divine sign she had promised.",
+   "fromGraph": false
+  },
+  {
+   "entity": {
+    "title": "Treaty of Troyes",
+    "url": "https://en.wikipedia.org/wiki/Treaty_of_Troyes",
+    "lang": "en",
+    "description": "15th-century treaty between England and France",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Ratification_du_Trait%C3%A9_de_Troyes_1_-_Archives_Nationales_-_AE-III-254.jpg/60px-Ratification_du_Trait%C3%A9_de_Troyes_1_-_Archives_Nationales_-_AE-III-254.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q1134125",
+    "start": {
+     "raw": "+1420-05-21T00:00:00Z",
+     "year": 1420,
+     "precision": "day",
+     "display": "21 May 1420"
+    },
+    "occurredAt": {
+     "raw": "+1420-05-21T00:00:00Z",
+     "year": 1420,
+     "precision": "day",
+     "display": "21 May 1420"
+    }
+   },
+   "relation": "precedes",
+   "note": "This agreement married a French princess to Henry V and granted the French succession to their heirs, disinheriting the Dauphin whose legitimacy Joan set out to restore.",
+   "fromGraph": false
+  },
+  {
+   "entity": {
+    "title": "Armagnac–Burgundian Civil War",
+    "url": "https://en.wikipedia.org/wiki/Armagnac%E2%80%93Burgundian_Civil_War",
+    "lang": "en",
+    "description": "French dynastic war from 1407 to 1435",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Vigiles_du_roi_Charles_VII_56.jpg/60px-Vigiles_du_roi_Charles_VII_56.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q1021160",
+    "start": {
+     "raw": "+1407-01-01T00:00:00Z",
+     "year": 1407,
+     "precision": "year",
+     "display": "1407"
+    },
+    "end": {
+     "raw": "+1435-01-01T00:00:00Z",
+     "year": 1435,
+     "precision": "year",
+     "display": "1435"
+    },
+    "occurredAt": {
+     "raw": "+1435-09-21T00:00:00Z",
+     "year": 1435,
+     "precision": "day",
+     "display": "21 September 1435"
+    }
+   },
+   "relation": "precedes",
+   "note": "The murder of the Duke of Orléans in 1407 split France into Armagnac and Burgundian factions, the division that let the English gain the upper hand.",
+   "fromGraph": false
+  },
+  {
+   "entity": {
+    "title": "Battle of Patay",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Patay",
+    "lang": "en",
+    "description": "1429 battle during the Hundred Years' War",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Vigiles_du_roi_Charles_VII_42.jpg/60px-Vigiles_du_roi_Charles_VII_42.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q648535",
+    "start": {
+     "raw": "+1429-06-18T00:00:00Z",
+     "year": 1429,
+     "precision": "day",
+     "display": "18 June 1429"
+    },
+    "occurredAt": {
+     "raw": "+1429-06-18T00:00:00Z",
+     "year": 1429,
+     "precision": "day",
+     "display": "18 June 1429"
+    }
+   },
+   "relation": "participantIn",
+   "note": "Her insistence on pursuing the retreating English produced a rout that destroyed their field army and opened the road to Reims.",
+   "fromGraph": false
+  },
+  {
+   "entity": {
+    "title": "Trial of Joan of Arc",
+    "url": "https://en.wikipedia.org/wiki/Trial_of_Joan_of_Arc",
+    "lang": "en",
+    "description": "1431 trial and execution of French saint",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Joan_of_arc_interrogation.jpg/60px-Joan_of_arc_interrogation.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+    "qid": "Q4201115",
+    "start": {
+     "raw": "+1431-01-09T00:00:00Z",
+     "year": 1431,
+     "precision": "day",
+     "display": "9 January 1431"
+    },
+    "end": {
+     "raw": "+1431-05-29T00:00:00Z",
+     "year": 1431,
+     "precision": "day",
+     "display": "29 May 1431"
+    },
+    "occurredAt": {
+     "raw": "+1431-01-09T00:00:00Z",
+     "year": 1431,
+     "precision": "day",
+     "display": "9 January 1431"
+    }
+   },
+   "relation": "participantIn",
+   "note": "The heresy proceedings at Rouen produced the detailed records that make her one of the best-documented figures of the Middle Ages.",
+   "fromGraph": false
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Dauphin",
+   "definition": "The title of the heir to the French throne; Charles VII held it because his four older brothers had died, and kept it until crowned at Reims."
+  },
+  {
+   "term": "Armagnacs",
+   "definition": "The French faction supporting the Dauphin Charles, named after Bernard, Count of Armagnac, guardian of the young Duke of Orléans."
+  },
+  {
+   "term": "Burgundians",
+   "definition": "The rival French faction led by the Dukes of Burgundy, allied with England after the Dauphin's partisans assassinated Duke John the Fearless."
+  },
+  {
+   "term": "Heresy",
+   "definition": "Religious error punishable by a church court; Joan was charged with it for wearing men's clothes, acting on visions said to be demonic, and refusing to submit to the church's judgment."
+  },
+  {
+   "term": "La Pucelle",
+   "definition": "\"The Maiden\", the name Joan used for herself in her dictated letters, emphasising the virginity that signalled the purity of her mission."
+  },
+  {
+   "term": "Inquisitorial court",
+   "definition": "A church tribunal following set investigative procedures; both her condemnation and her later rehabilitation took this form."
+  },
+  {
+   "term": "Abjuration",
+   "definition": "A formal renunciation of one's alleged errors; Joan briefly abjured, and her later return to men's clothing was treated as relapse into heresy."
+  },
+  {
+   "term": "Canonization",
+   "definition": "The papal act of declaring someone a saint; Joan was beatified in 1909 and canonised in 1920, nearly five centuries after her death."
+  }
+ ],
+ "drilldown": [
+  {
+   "title": "Siege of Orléans (1428–1429)",
+   "url": "https://en.wikipedia.org/wiki/Siege_of_Orl%C3%A9ans_(1428%E2%80%931429)",
+   "lang": "en",
+   "description": "The campaign that turned an unknown village girl into the acknowledged saviour of France.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Lenepveu%2C_Jeanne_d%27Arc_au_si%C3%A8ge_d%27Orl%C3%A9ans.jpg/60px-Lenepveu%2C_Jeanne_d%27Arc_au_si%C3%A8ge_d%27Orl%C3%A9ans.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q392213",
+   "start": {
+    "raw": "+1428-10-21T00:00:00Z",
+    "year": 1428,
+    "precision": "day",
+    "display": "21 October 1428"
+   },
+   "end": {
+    "raw": "+1429-05-17T00:00:00Z",
+    "year": 1429,
+    "precision": "day",
+    "display": "17 May 1429"
+   },
+   "occurredAt": {
+    "raw": "+1428-10-21T00:00:00Z",
+    "year": 1428,
+    "precision": "day",
+    "display": "21 October 1428"
+   }
+  },
+  {
+   "title": "Trial of Joan of Arc",
+   "url": "https://en.wikipedia.org/wiki/Trial_of_Joan_of_Arc",
+   "lang": "en",
+   "description": "The proceedings are preserved in detail and show both the political motives and the procedural irregularities behind her condemnation.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Joan_of_arc_interrogation.jpg/60px-Joan_of_arc_interrogation.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q4201115",
+   "start": {
+    "raw": "+1431-01-09T00:00:00Z",
+    "year": 1431,
+    "precision": "day",
+    "display": "9 January 1431"
+   },
+   "end": {
+    "raw": "+1431-05-29T00:00:00Z",
+    "year": 1431,
+    "precision": "day",
+    "display": "29 May 1431"
+   },
+   "occurredAt": {
+    "raw": "+1431-01-09T00:00:00Z",
+    "year": 1431,
+    "precision": "day",
+    "display": "9 January 1431"
+   }
+  },
+  {
+   "title": "Charles VII of France",
+   "url": "https://en.wikipedia.org/wiki/Charles_VII_of_France",
+   "lang": "en",
+   "description": "Understanding his contested legitimacy explains why a coronation at Reims mattered enough to risk an army on it.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/KarlVII.jpg/60px-KarlVII.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q133372",
+   "start": {
+    "raw": "+1403-02-22T00:00:00Z",
+    "year": 1403,
+    "precision": "day",
+    "display": "22 February 1403"
+   },
+   "end": {
+    "raw": "+1461-07-22T00:00:00Z",
+    "year": 1461,
+    "precision": "day",
+    "display": "22 July 1461"
+   }
+  },
+  {
+   "title": "Hundred Years' War",
+   "url": "https://en.wikipedia.org/wiki/Hundred_Years'_War",
+   "lang": "en",
+   "description": "The century-long conflict that gives her brief career its meaning.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Schlacht_von_Azincourt.jpg/60px-Schlacht_von_Azincourt.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q12551",
+   "start": {
+    "raw": "+1337-05-24T00:00:00Z",
+    "year": 1337,
+    "precision": "day",
+    "display": "24 May 1337"
+   },
+   "end": {
+    "raw": "+1453-10-09T00:00:00Z",
+    "year": 1453,
+    "precision": "day",
+    "display": "9 October 1453"
+   },
+   "occurredAt": {
+    "raw": "+1337-05-24T00:00:00Z",
+    "year": 1337,
+    "precision": "day",
+    "display": "24 May 1337"
+   }
+  },
+  {
+   "title": "Christine de Pizan",
+   "url": "https://en.wikipedia.org/wiki/Christine_de_Pizan",
+   "lang": "en",
+   "description": "She wrote a poem celebrating Joan while Joan was still alive, the earliest literary shaping of her legend.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Christine_de_pisan.jpg/60px-Christine_de_pisan.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q234816",
+   "start": {
+    "raw": "+1364-09-11T00:00:00Z",
+    "year": 1364,
+    "precision": "day",
+    "display": "11 September 1364"
+   },
+   "end": {
+    "raw": "+1430-00-00T00:00:00Z",
+    "year": 1430,
+    "precision": "year",
+    "display": "1430"
+   }
+  },
+  {
+   "title": "Treaty of Troyes",
+   "url": "https://en.wikipedia.org/wiki/Treaty_of_Troyes",
+   "lang": "en",
+   "description": "The document that disinherited the Dauphin and created the Anglo-French dual monarchy Joan fought against.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Ratification_du_Trait%C3%A9_de_Troyes_1_-_Archives_Nationales_-_AE-III-254.jpg/60px-Ratification_du_Trait%C3%A9_de_Troyes_1_-_Archives_Nationales_-_AE-III-254.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q1134125",
+   "start": {
+    "raw": "+1420-05-21T00:00:00Z",
+    "year": 1420,
+    "precision": "day",
+    "display": "21 May 1420"
+   },
+   "occurredAt": {
+    "raw": "+1420-05-21T00:00:00Z",
+    "year": 1420,
+    "precision": "day",
+    "display": "21 May 1420"
+   }
+  },
+  {
+   "title": "Pierre Cauchon",
+   "url": "https://en.wikipedia.org/wiki/Pierre_Cauchon",
+   "lang": "en",
+   "description": "The judge whose career links the Burgundian alliance, the University of Paris and Joan's death.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Tombeau_de_Pierre_Cauchon_%28cropped%29.jpg/60px-Tombeau_de_Pierre_Cauchon_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q464287",
+   "start": {
+    "raw": "+1371-01-01T00:00:00Z",
+    "year": 1371,
+    "precision": "year",
+    "display": "1371"
+   },
+   "end": {
+    "raw": "+1442-12-18T00:00:00Z",
+    "year": 1442,
+    "precision": "day",
+    "display": "18 December 1442"
+   }
+  },
+  {
+   "title": "Christina of Markyate",
+   "url": "https://en.wikipedia.org/wiki/Christina_of_Markyate",
+   "lang": "en",
+   "description": "A point of comparison for medieval women whose claimed visions and vowed virginity gave them public authority.",
+   "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Margate_lg.jpg/60px-Margate_lg.jpg?utm_source=en.wikipedia.org&utm_campaign=rest&utm_content=thumbnail",
+   "qid": "Q1237561",
+   "start": {
+    "raw": "+1097-01-01T00:00:00Z",
+    "year": 1097,
+    "precision": "year",
+    "display": "1097"
+   },
+   "end": {
+    "raw": "+1161-01-01T00:00:00Z",
+    "year": 1161,
+    "precision": "year",
+    "display": "1161"
+   }
+  }
+ ],
+ "coverage": {
+  "total": 11,
+  "verified": 10,
+  "coverage": 0.9090909090909091,
+  "byMethod": {
+   "exact": 11,
+   "fuzzy": 0,
+   "none": 0
+  }
+ },
+ "generatedAt": "2026-09-12T12:07:02.384Z",
+ "model": "claude-opus-5",
+ "usage": {
+  "input": 32890,
+  "output": 7490,
+  "cacheWrite": 0,
+  "cacheRead": 4785,
+  "usd": 0.35409250000000003
+ }
+}

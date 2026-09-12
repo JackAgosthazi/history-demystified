@@ -1,0 +1,97 @@
+{
+ "generatedAt": "2026-09-12T12:07:02.388Z",
+ "aliases": {
+  "napoleon": "Q517",
+  "cleopatra": "Q635",
+  "hundred years war": "Q12551",
+  "battle of waterloo": "Q48314",
+  "assassination of archduke franz ferdinand": "Q192050",
+  "cuban missile crisis": "Q128160",
+  "renaissance": "Q4692",
+  "duke of wellington": "Q131691",
+  "arthur wellesley 1st duke of wellington": "Q131691",
+  "edward iii of england": "Q129247",
+  "edward iii": "Q129247",
+  "french revolution": "Q6534",
+  "joan of arc": "Q7226"
+ },
+ "entries": [
+  {
+   "qid": "Q517",
+   "title": "Napoleon",
+   "type": "person",
+   "description": "French military leader, French Emperor 1804–1814 and again in 1815 (1769–1821)",
+   "coverage": 0.9090909090909091
+  },
+  {
+   "qid": "Q635",
+   "title": "Cleopatra",
+   "type": "person",
+   "description": "queen of the Ptolemaic Kingdom of Egypt from 51 to 30 BCE",
+   "coverage": 0.9090909090909091
+  },
+  {
+   "qid": "Q12551",
+   "title": "Hundred Years' War",
+   "type": "conflict",
+   "description": "series of conflicts and wars between England and France between 1337 and 1453",
+   "coverage": 0.7272727272727273
+  },
+  {
+   "qid": "Q48314",
+   "title": "Battle of Waterloo",
+   "type": "conflict",
+   "description": "1815 battle during the War of the Seventh Coalition",
+   "coverage": 0.8181818181818182
+  },
+  {
+   "qid": "Q192050",
+   "title": "Assassination of Archduke Franz Ferdinand",
+   "type": "event",
+   "description": "1914 murder in Sarajevo, Austria-Hungary",
+   "coverage": 1
+  },
+  {
+   "qid": "Q128160",
+   "title": "Cuban Missile Crisis",
+   "type": "conflict",
+   "description": "October 1962 confrontation between the Soviet Union, Cuba and the United States",
+   "coverage": 0.7272727272727273
+  },
+  {
+   "qid": "Q4692",
+   "title": "Renaissance",
+   "type": "period",
+   "description": "cultural movement that spanned the period roughly from the 14th to the 17th century",
+   "coverage": 1
+  },
+  {
+   "qid": "Q131691",
+   "title": "Arthur Wellesley, 1st Duke of Wellington",
+   "type": "person",
+   "description": "British Field Marshal, Prime Minister of the United Kingdom, 1828–1830, 1834 (1769-1852)",
+   "coverage": 0.9090909090909091
+  },
+  {
+   "qid": "Q129247",
+   "title": "Edward III",
+   "type": "person",
+   "description": "King of England from 1327 to 1377",
+   "coverage": 0.9090909090909091
+  },
+  {
+   "qid": "Q6534",
+   "title": "French Revolution",
+   "type": "event",
+   "description": "revolution in France from 1789 to 1799",
+   "coverage": 0.9090909090909091
+  },
+  {
+   "qid": "Q7226",
+   "title": "Joan of Arc",
+   "type": "person",
+   "description": "French folk heroine (1412–1431), military leader who crowned Charles VII and Roman Catholic saint, canonized 500 years after her death",
+   "coverage": 0.9090909090909091
+  }
+ ]
+}

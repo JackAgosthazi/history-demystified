@@ -148,6 +148,12 @@ between the two calls would save a further ~13%, but only by giving them an iden
 and running them sequentially, which adds 40–60 seconds. Not worth it for an interactive
 demo. Details in [docs/DESIGN.md](docs/DESIGN.md).
 
+## Submission artifacts
+
+- [docs/DESIGN.md](docs/DESIGN.md) — design rationale: why this theme, what is non-obvious,
+  decisions and tradeoffs, what using it taught me, what I would do next.
+- [docs/VIDEO.md](docs/VIDEO.md) — script and shot list for the walkthrough.
+
 ## Privacy
 
 No accounts, no cookies, no analytics, no server-side database. Explainers you have read are

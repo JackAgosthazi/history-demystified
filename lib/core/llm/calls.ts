@@ -1,6 +1,6 @@
 import { zodOutputFormat } from '@anthropic-ai/sdk/helpers/zod';
 import type { ResolvedEntity } from '../types';
-import { FALLBACK_BETA, MODEL, RefusalError, getClient } from './client';
+import { EMPTY_USAGE, FALLBACK_BETA, MODEL, RefusalError, accumulate, getClient, type UsageTotals } from './client';
 import {
   PROSE_SYSTEM,
   STRUCTURED_SYSTEM,
@@ -33,11 +33,16 @@ function assertNotRefused(message: { stop_reason?: string | null; stop_details?:
  * Call A. Yields text deltas as they arrive and returns the complete text,
  * so the route can forward tokens to the browser while they generate.
  */
+export interface ProseResult {
+  text: string;
+  usage: UsageTotals;
+}
+
 export async function* streamProse(
   entity: ResolvedEntity,
   corpus: string,
   signal?: AbortSignal,
-): AsyncGenerator<string, string> {
+): AsyncGenerator<string, ProseResult> {
   const stream = getClient().beta.messages.stream(
     {
       model: MODEL,
@@ -60,16 +65,22 @@ export async function* streamProse(
     }
   }
 
-  assertNotRefused(await stream.finalMessage());
-  return full;
+  const final = await stream.finalMessage();
+  assertNotRefused(final);
+  return { text: full, usage: accumulate(EMPTY_USAGE, final.usage) };
 }
 
 /** Call B. Returns the typed breakdown, or throws if the model refused. */
+export interface StructuredResult {
+  output: StructuredOutput;
+  usage: UsageTotals;
+}
+
 export async function runStructured(
   entity: ResolvedEntity,
   corpus: string,
   signal?: AbortSignal,
-): Promise<StructuredOutput> {
+): Promise<StructuredResult> {
   const message = await getClient().beta.messages.parse(
     {
       model: MODEL,
@@ -88,13 +99,14 @@ export async function runStructured(
   );
 
   assertNotRefused(message);
+  const usage = accumulate(EMPTY_USAGE, message.usage);
 
-  if (message.parsed_output) return message.parsed_output;
+  if (message.parsed_output) return { output: message.parsed_output, usage };
 
   // The schema is enforced server-side, so this is close to unreachable, but
   // falling back to a manual parse beats losing a whole run to a null.
   const text = message.content
     .map((block) => (block.type === 'text' ? block.text : ''))
     .join('');
-  return StructuredOutputSchema.parse(JSON.parse(text));
+  return { output: StructuredOutputSchema.parse(JSON.parse(text)), usage };
 }

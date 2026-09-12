@@ -10,7 +10,7 @@ import type {
   Explainer,
   StreamEvent,
 } from './types';
-import { MODEL } from './llm/client';
+import { EMPTY_USAGE, MODEL, type UsageTotals } from './llm/client';
 import { runStructured, streamProse } from './llm/calls';
 import { parseProse, renderCorpus } from './llm/prompts';
 import type { StructuredOutput } from './llm/schema';
@@ -85,18 +85,21 @@ export async function* explain(
   structuredPromise.catch(() => undefined);
 
   let proseText = '';
+  let usage = EMPTY_USAGE;
   const proseStream = streamProse(entity, corpus, signal);
   while (true) {
     const next = await proseStream.next();
     if (next.done) {
-      proseText = next.value;
+      proseText = next.value.text;
+      usage = mergeUsage(usage, next.value.usage);
       break;
     }
     yield { type: 'prose', delta: next.value };
   }
   yield { type: 'prose-end' };
 
-  const structured = await structuredPromise;
+  const { output: structured, usage: structuredUsage } = await structuredPromise;
+  usage = mergeUsage(usage, structuredUsage);
 
   yield { type: 'status', stage: 'verifying' };
 
@@ -141,10 +144,21 @@ export async function* explain(
     coverage,
     generatedAt: new Date().toISOString(),
     model: MODEL,
+    usage,
   };
 
   yield { type: 'done', explainer };
   return explainer;
+}
+
+function mergeUsage(a: UsageTotals, b: UsageTotals): UsageTotals {
+  return {
+    input: a.input + b.input,
+    output: a.output + b.output,
+    cacheWrite: a.cacheWrite + b.cacheWrite,
+    cacheRead: a.cacheRead + b.cacheRead,
+    usd: a.usd + b.usd,
+  };
 }
 
 /** Flatten every citeable assertion into one list for the verifier. */
@@ -211,7 +225,7 @@ async function resolveReferences(
       label: e.label,
       summary: e.summary,
       ...(entity ? { entity } : {}),
-      ...(entity?.start ? { date: entity.start } : {}),
+      ...(entity?.occurredAt ? { date: entity.occurredAt } : {}),
     };
   });
 
@@ -231,6 +245,8 @@ async function resolveReferences(
       angle: c.angle,
       similarities: c.similarities,
       differences: c.differences,
+      ...(entity.start ? { start: entity.start } : {}),
+      ...(entity.end ? { end: entity.end } : {}),
     });
   }
 

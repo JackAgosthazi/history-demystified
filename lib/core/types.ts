@@ -87,6 +87,8 @@ export interface TimelineEvent {
   date: GraphDate;
   endDate?: GraphDate;
   qid?: string;
+  /** English Wikipedia title, when one exists: the drill-down key. */
+  title?: string;
   /** Where a reader can check this date. Always a real URL. */
   sourceUrl: string;
 }
@@ -195,6 +197,9 @@ export interface Comparison {
   angle: string;
   similarities: string[];
   differences: string[];
+  /** From Wikidata, so the comparison can be drawn on a shared time axis. */
+  start?: GraphDate;
+  end?: GraphDate;
 }
 
 export type ContextRelation = 'precedes' | 'follows' | 'partOf' | 'hasPart' | 'causes' | 'causedBy' | 'participantIn';
@@ -239,6 +244,14 @@ export interface Explainer {
   coverage: CoverageReport;
   generatedAt: string;
   model: string;
+  /** Token spend for this run. Absent on cached entries written before v2. */
+  usage?: {
+    input: number;
+    output: number;
+    cacheWrite: number;
+    cacheRead: number;
+    usd: number;
+  };
   /** Set when served from the committed pre-warm cache. */
   prewarmed?: boolean;
 }

@@ -1,4 +1,6 @@
+import Link from 'next/link';
 import type { TimelineEvent } from '@/lib/core/types';
+import { explainHref } from './Entities';
 
 /**
  * Every bar here is Wikidata, not Claude.
@@ -103,7 +105,16 @@ export function Timeline({ events }: { events: TimelineEvent[] }) {
                       : { left: `${Math.min(start + width, 96)}%`, paddingLeft: '0.5rem' }
                   }
                 >
-                  {event.label}
+                  {event.title ? (
+                    <Link
+                      href={explainHref(event.title)}
+                      className="underline decoration-rule-strong underline-offset-2 hover:text-accent"
+                    >
+                      {event.label}
+                    </Link>
+                  ) : (
+                    event.label
+                  )}
                   <span className="ml-1.5 text-ink-faint tabular-nums">{label}</span>
                 </span>
               </li>

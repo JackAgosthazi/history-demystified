@@ -1,7 +1,11 @@
 'use client';
 
 import Link from 'next/link';
-import type { ReactNode } from 'react';
+import { useEffect, useMemo, useState, type ReactNode } from 'react';
+import { enterSubject, labelSubject, type TrailStep } from '@/lib/client/trail';
+import type { TimelineEvent } from '@/lib/core/types';
+import { Breadcrumbs } from './Breadcrumbs';
+import { ComparisonChart } from './ComparisonChart';
 import { useExplainer, type Stage } from '@/lib/client/useExplainer';
 import { EntityChip, EntityChipRow, explainHref } from './Entities';
 import { Prose } from './Prose';
@@ -27,17 +31,49 @@ export function ExplainerView({ query }: { query: string }) {
   const state = useExplainer(query);
   const { entity, facts, sources, explainer, survey, stage, error } = state;
 
+  const [trail, setTrail] = useState<TrailStep[]>([]);
+  useEffect(() => setTrail(enterSubject(query)), [query]);
+  useEffect(() => {
+    if (entity?.title) setTrail(labelSubject(query, entity.title));
+  }, [query, entity?.title]);
+
+  /*
+   * The graph gives spans and tenures; the narrative call gives the turning
+   * points. Both belong on one axis — a reader wants Sekigahara next to the
+   * Edo period, not in a separate list — so dated key events are merged in
+   * and anything already present from the graph is dropped.
+   */
+  const timeline = useMemo<TimelineEvent[]>(() => {
+    const base = facts?.timeline ?? [];
+    if (!explainer?.keyEvents?.length) return base;
+
+    const seen = new Set(
+      base.flatMap((e) => [e.qid, e.title?.toLowerCase()].filter(Boolean) as string[]),
+    );
+    const extra: TimelineEvent[] = [];
+    for (const event of explainer.keyEvents) {
+      if (!event.date) continue;
+      const key = event.entity?.qid ?? event.entity?.title.toLowerCase();
+      if (key && seen.has(key)) continue;
+      if (key) seen.add(key);
+      extra.push({
+        id: `key-${event.label}`,
+        label: event.label,
+        kind: 'event',
+        date: event.date,
+        ...(event.entity?.qid ? { qid: event.entity.qid } : {}),
+        ...(event.entity?.title ? { title: event.entity.title } : {}),
+        sourceUrl: event.entity?.url ?? '',
+      });
+    }
+    return [...base, ...extra].sort((a, b) => a.date.year - b.date.year);
+  }, [facts?.timeline, explainer?.keyEvents]);
+
   if (error) return <ErrorPanel query={query} message={error.message} code={error.code} />;
 
   return (
     <main className="mx-auto w-full max-w-4xl grow px-6 py-10">
-      <nav className="mb-8 flex items-center gap-3 text-sm">
-        <Link href="/" className="text-ink-faint hover:text-accent">
-          History Demystified
-        </Link>
-        <span className="text-ink-faint">/</span>
-        <span className="truncate text-ink-muted">{entity?.title ?? query}</span>
-      </nav>
+      <Breadcrumbs steps={trail} current={entity?.title ?? query} />
 
       {survey && (
         <>
@@ -147,9 +183,12 @@ export function ExplainerView({ query }: { query: string }) {
           </Section>
         )}
 
-        {facts && facts.timeline.length > 0 && (
-          <Section title="Timeline" note="Drawn from Wikidata, not written by Claude.">
-            <Timeline events={facts.timeline} />
+        {timeline.length > 0 && (
+          <Section
+            title="Timeline"
+            note="Dates come from Wikidata. Anything underlined opens as its own explainer."
+          >
+            <Timeline events={timeline} />
           </Section>
         )}
 
@@ -179,8 +218,18 @@ export function ExplainerView({ query }: { query: string }) {
           </Section>
         )}
 
-        {explainer && (explainer.comparisons?.length ?? 0) > 0 && (
-          <Section title="For comparison" note="Better-known subjects that give you a foothold.">
+        {explainer && (explainer.comparisons?.length ?? 0) > 0 && facts && entity && (
+          <Section
+            title="For comparison"
+            note="Better-known subjects that give you a foothold. The chart is Wikidata; the reading of them is Claude's."
+          >
+            <div className="mb-8">
+              <ComparisonChart
+                facts={facts}
+                type={entity.type}
+                comparisons={explainer.comparisons}
+              />
+            </div>
             <div className="grid gap-4 sm:grid-cols-2">
               {explainer.comparisons.map((c) => (
                 <article key={c.entity.title} className="rounded-xl border border-rule bg-paper-raised p-4">

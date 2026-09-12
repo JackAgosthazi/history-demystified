@@ -296,6 +296,13 @@ async function buildFacts(
   return { facts, nodes };
 }
 
+/** Recover an article title from a Wikipedia URL, for drill-down links. */
+function titleFromWikipediaUrl(url: string | undefined): string | undefined {
+  if (!url) return undefined;
+  const match = /\/wiki\/([^#?]+)/.exec(url);
+  return match ? decodeURIComponent(match[1]).replace(/_/g, ' ') : undefined;
+}
+
 function buildTimeline(
   entity: ResolvedEntity,
   start: GraphDate | undefined,
@@ -316,6 +323,7 @@ function buildTimeline(
       date: start,
       endDate: isPerson ? undefined : end,
       qid: entity.qid,
+      title: entity.title,
       sourceUrl: wdUrl,
     });
   }
@@ -326,6 +334,7 @@ function buildTimeline(
       kind: 'life',
       date: end,
       qid: entity.qid,
+      title: entity.title,
       sourceUrl: wdUrl,
     });
   }
@@ -354,6 +363,7 @@ function buildTimeline(
         date: node.start,
         endDate: node.end,
         qid: node.qid,
+        ...(titleFromWikipediaUrl(node.url) ? { title: titleFromWikipediaUrl(node.url) } : {}),
         sourceUrl: node.url ?? entityUrl(node.qid),
       });
     }
@@ -519,6 +529,14 @@ export async function gather(ctx: HistoryContext, signal?: AbortSignal): Promise
 export interface ValidatedRef extends EntityRef {
   start?: GraphDate;
   end?: GraphDate;
+  /**
+   * When the thing itself happened — P585 or P580 only, never a birth date.
+   *
+   * A key event that resolves to a person must not borrow that person's
+   * birthday: "Abdication and the Bourbon restoration" pointing at Louis XVIII
+   * was rendering as 17 November 1755, which reads as fact and is nonsense.
+   */
+  occurredAt?: GraphDate;
 }
 
 /**
@@ -545,10 +563,16 @@ export async function validateEntityNames(
     }),
   );
 
+  // Logged rather than swallowed. A silent catch here hid a malformed
+  // request for hours: comparisons kept rendering, just with no dates and no
+  // QIDs, which looks like a modelling problem rather than a broken URL.
   const byTitle = await fetchEntitiesByTitles(
     [...resolved.values()].map((r) => r.title),
     { signal },
-  ).catch(() => new Map<string, WdEntity>());
+  ).catch((error: unknown) => {
+    console.warn('[gather] title lookup failed; entities will lack dates', error);
+    return new Map<string, WdEntity>();
+  });
 
   for (const ref of resolved.values()) {
     const entity = byTitle.get(ref.title);
@@ -557,6 +581,8 @@ export async function validateEntityNames(
     const { start, end } = nodeDates(entity);
     if (start) ref.start = start;
     if (end) ref.end = end;
+    const occurred = statementDate(entity, 'P585') ?? statementDate(entity, 'P580');
+    if (occurred) ref.occurredAt = occurred;
   }
 
   return resolved;

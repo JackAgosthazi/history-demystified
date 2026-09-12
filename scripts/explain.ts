@@ -88,6 +88,14 @@ function report(e: Explainer, started: number) {
       `exact ${e.coverage.byMethod.exact}, fuzzy ${e.coverage.byMethod.fuzzy}, unmatched ${e.coverage.byMethod.none})`,
   );
 
+  if (e.usage) {
+    console.log(
+      `${bold('Tokens')}   in ${e.usage.input.toLocaleString()} · out ${e.usage.output.toLocaleString()} · ` +
+        `cache write ${e.usage.cacheWrite.toLocaleString()} · cache read ${e.usage.cacheRead.toLocaleString()} · ` +
+        `${bold(`$${e.usage.usd.toFixed(4)}`)}`,
+    );
+  }
+
   console.log(`\n${bold('WHY IT MATTERS')}\n${e.whyItMatters}`);
 
   console.log(`\n${bold('TAKEAWAYS')}`);
@@ -102,9 +110,25 @@ function report(e: Explainer, started: number) {
     }
   }
 
+  if (e.keyEvents?.length) {
+    console.log(`\n${bold('HOW IT UNFOLDED')}`);
+    for (const k of e.keyEvents) {
+      const when = k.date ? green(k.date.display) : yellow('no date');
+      console.log(`  ${when}  ${k.label}${k.entity ? dim(` -> ${k.entity.title}`) : ''}`);
+    }
+  }
+
+  if (e.figures?.length) {
+    console.log(`\n${bold('KEY FIGURES')}`);
+    for (const f of e.figures) console.log(`  ${f.entity.title.padEnd(34)} ${dim(f.relationship)}`);
+  }
+
   if (e.comparisons.length) {
     console.log(`\n${bold('COMPARISONS')}`);
-    for (const c of e.comparisons) console.log(`  ${c.entity.title} — ${c.angle}`);
+    for (const c of e.comparisons) {
+      const span = c.start ? green(`${c.start.display}${c.end ? ` – ${c.end.display}` : ''}`) : yellow('no dates');
+      console.log(`  ${c.entity.title.padEnd(34)} ${span}`);
+    }
   }
 
   console.log(`\n${bold('CONTEXT')}`);

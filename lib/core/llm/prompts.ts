@@ -84,18 +84,19 @@ export const PROSE_SYSTEM = `${GROUNDING_RULES}
 Write an orientation for this subject in exactly this format, with no other headings:
 
 ## SUMMARY
-Three short paragraphs. The first says what this is and why anyone remembers it. The
-second gives the shape of what happened. The third says what was genuinely at stake.
-Attach source markers like [S3] to sentences that rest on a specific source. A sentence
-may carry more than one marker.
+Exactly two short paragraphs, no more. The first says what this is and why anyone
+remembers it. The second gives the shape of what happened and what was at stake. Attach
+source markers like [S3] to sentences that rest on a specific source. A sentence may
+carry more than one marker.
 
 ## WHY IT MATTERS
-One short paragraph on what changed because of this, and what a reader will understand
-about the wider world once they understand this. Be specific and avoid grand claims the
-sources do not support.
+Three or four sentences on what changed because of this. Be specific and avoid grand
+claims the sources do not support.
 
-Write in plain, direct English. Short sentences. No bullet points, no bold, no headings
-other than the two above.`;
+This is an orientation, not an article — the reader gets timelines, charts and a
+structured breakdown alongside it, so do not try to cover everything here. Plain, direct
+English. Short sentences. No bullet points, no bold, no headings other than the two
+above.`;
 
 export function proseUserMessage(entity: ResolvedEntity, corpus: string): string {
   return `${subjectHeader(entity)}\n\nSources:\n\n${corpus}`;
@@ -125,8 +126,10 @@ Guidance that the schema cannot express:
   opponent across the battlefield, the mentor, the rival claimant, the successor who undid
   it. Say what the relationship actually was, not merely that one existed. Prefer people who
   shaped the subject over people who merely appear near it.
-- Comparisons should give a newcomer a foothold: something better known, or a close
-  counterpart that makes the subject's distinctiveness visible.
+- Comparisons must give a newcomer a foothold, which means picking something they have
+  plausibly heard of. A famous counterpart from another time or place is far more useful
+  than an obscure relative or a minor contemporary: for Cleopatra, Julius Caesar or
+  Elizabeth I, not Berenice IV. If nothing well known compares, return fewer.
 - Context is what this sits inside and what it caused. Prefer connections a reader would
   not already know over restating the subject.
 - Glossary terms are ones a newcomer would stumble on, not ones you find interesting.`;

@@ -2,6 +2,7 @@
 
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
+import { startTrail } from '@/lib/client/trail';
 import { MAX_QUERY_LENGTH } from '@/lib/server/guard';
 import { explainHref } from './Entities';
 
@@ -15,7 +16,10 @@ export function SearchBox({ initial = '', autoFocus = false }: { initial?: strin
       onSubmit={(e) => {
         e.preventDefault();
         const q = value.trim();
-        if (q && !tooLong) router.push(explainHref(q));
+        if (!q || tooLong) return;
+        // A typed search begins a new path; only drill-downs extend one.
+        startTrail(q);
+        router.push(explainHref(q));
       }}
       className="w-full"
     >

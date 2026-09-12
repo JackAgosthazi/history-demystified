@@ -104,7 +104,9 @@ export async function fetchEntitiesByTitles(
       const url =
         `${WIKIDATA_API}?action=wbgetentities&format=json&formatversion=2` +
         `&sites=enwiki&titles=${encodeURIComponent(group.join('|'))}` +
-        `&props=${encodeURIComponent(props)}&languages=en&sitefilter=enwiki&normalize=1`;
+        // No `normalize=1`: the API rejects it outright unless exactly one
+        // title is given, and the whole batch fails with params-illegal.
+        `&props=${encodeURIComponent(props)}&languages=en&sitefilter=enwiki`;
       return { group, data: await getJson<WbGetEntitiesResponse>(url, { signal, timeoutMs: 20_000 }) };
     }),
   );

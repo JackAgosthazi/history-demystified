@@ -69,15 +69,25 @@ export function Timeline({ events }: { events: TimelineEvent[] }) {
     <div className="overflow-x-auto">
       <div className="min-w-[34rem]">
         <div className="relative mb-2 h-4 border-b border-rule">
-          {ticks.map((year) => (
-            <span
-              key={year}
-              className="absolute -translate-x-1/2 text-[0.65rem] tabular-nums text-ink-faint"
-              style={{ left: `${pct(year)}%` }}
-            >
-              {formatYear(year)}
-            </span>
-          ))}
+          {ticks.map((year, i) => {
+            const at = pct(year);
+            const edge = i === 0 ? 'left' : i === ticks.length - 1 ? 'right' : 'mid';
+            return (
+              <span
+                key={year}
+                className="absolute whitespace-nowrap text-[0.65rem] tabular-nums text-ink-faint"
+                style={
+                  edge === 'right'
+                    ? { right: `${Math.max(0, 100 - at)}%` }
+                    : edge === 'left'
+                      ? { left: `${at}%` }
+                      : { left: `${at}%`, transform: 'translateX(-50%)' }
+                }
+              >
+                {formatYear(year)}
+              </span>
+            );
+          })}
         </div>
 
         <ol className="relative space-y-1.5">
@@ -126,11 +136,28 @@ export function Timeline({ events }: { events: TimelineEvent[] }) {
                   title={`${event.label} · ${label}`}
                 />
                 <span
-                  className="absolute top-1/2 max-w-[46%] -translate-y-1/2 truncate text-xs text-ink"
+                  className="absolute top-1/2 -translate-y-1/2 truncate text-xs text-ink"
+                  /*
+                   * Put the label wherever there is actually room, and size it
+                   * to that room. Always placing it after the bar pushed it
+                   * off the right edge for anything long-running, and a fixed
+                   * max-width still let it clip against the container.
+                   */
                   style={
-                    start > 55
-                      ? { right: `${100 - start}%`, paddingRight: '0.5rem', textAlign: 'right' }
-                      : { left: `${Math.min(start + width, 96)}%`, paddingLeft: '0.5rem' }
+                    100 - (start + width) > 22
+                      ? {
+                          left: `${start + width}%`,
+                          paddingLeft: '0.5rem',
+                          maxWidth: `${100 - (start + width)}%`,
+                        }
+                      : start > 22
+                        ? {
+                            right: `${100 - start}%`,
+                            paddingRight: '0.5rem',
+                            textAlign: 'right',
+                            maxWidth: `${start}%`,
+                          }
+                        : { left: `${start}%`, paddingLeft: '0.5rem', maxWidth: '96%' }
                   }
                 >
                   {event.title ? (

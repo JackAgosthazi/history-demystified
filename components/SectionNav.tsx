@@ -84,11 +84,16 @@ export function SectionNav({ sections, subject }: { sections: NavSection[]; subj
                   href={`#${section.id}`}
                   ref={current ? activeChip : undefined}
                   aria-current={current ? 'true' : undefined}
+                  /*
+                   * Selected state is ink on a tinted ground, not the brand
+                   * red. A red pill in a navigation bar reads as an error
+                   * rather than as "you are here".
+                   */
                   className="block whitespace-nowrap rounded-full border px-3 py-1 text-xs transition-colors"
                   style={{
-                    borderColor: current ? 'var(--accent)' : 'transparent',
-                    color: current ? 'var(--accent)' : 'var(--ink-muted)',
-                    background: current ? 'var(--accent-soft)' : 'transparent',
+                    borderColor: current ? 'var(--rule-strong)' : 'transparent',
+                    color: current ? 'var(--ink)' : 'var(--ink-muted)',
+                    background: current ? 'var(--paper-sunken)' : 'transparent',
                     fontWeight: current ? 600 : 400,
                   }}
                 >

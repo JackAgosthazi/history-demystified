@@ -1,7 +1,14 @@
 import type { GraphDate, Survey, SurveyItem } from '../../types';
 import { qidFromUri, runSparql } from '../../connectors/sparql';
 import { searchPages } from '../../connectors/wikipedia';
-import { fetchEntities, fetchEntitiesByTitles, statementDate, toNode } from '../../connectors/wikidata';
+import {
+  fetchEntities,
+  fetchEntitiesByTitles,
+  statementDate,
+  statementQids,
+  toNode,
+  type WdEntity,
+} from '../../connectors/wikidata';
 
 /**
  * Scope queries: a place and a stretch of time rather than one subject.
@@ -156,22 +163,49 @@ const EVENT_CLASSES = [
   'Q40231', 'Q3882219', 'Q625298',
 ];
 
-function eventsQuery(placeQid: string, from: number, to: number): string {
-  const values = EVENT_CLASSES.map((q) => `wd:${q}`).join(' ');
+function placeValues(placeQids: string[]): string {
+  return placeQids.map((q) => `wd:${q}`).join(' ');
+}
+
+function eventsQuery(placeQids: string[], from: number, to: number): string {
+  const classes = EVENT_CLASSES.map((q) => `wd:${q}`).join(' ');
   return `SELECT DISTINCT ?item ?date ?sitelinks WHERE {
-  VALUES ?class { ${values} }
-  ?item wdt:P31 ?class ; wdt:P17 wd:${placeQid} ; wikibase:sitelinks ?sitelinks .
+  VALUES ?class { ${classes} }
+  VALUES ?place { ${placeValues(placeQids)} }
+  ?item wdt:P31 ?class ; wdt:P17 ?place ; wikibase:sitelinks ?sitelinks .
   { ?item wdt:P585 ?date } UNION { ?item wdt:P580 ?date }
   FILTER(YEAR(?date) >= ${from} && YEAR(?date) <= ${to})
 } ORDER BY DESC(?sitelinks) LIMIT 40`;
 }
 
-function peopleQuery(placeQid: string, from: number, to: number): string {
+function peopleQuery(placeQids: string[], from: number, to: number): string {
   return `SELECT DISTINCT ?item ?sitelinks WHERE {
-  ?item wdt:P31 wd:Q5 ; wdt:P27 wd:${placeQid} ; wdt:P569 ?birth ; wdt:P570 ?death ;
+  VALUES ?place { ${placeValues(placeQids)} }
+  ?item wdt:P31 wd:Q5 ; wdt:P27 ?place ; wdt:P569 ?birth ; wdt:P570 ?death ;
         wikibase:sitelinks ?sitelinks .
   FILTER(YEAR(?birth) <= ${to} && YEAR(?death) >= ${from})
 } ORDER BY DESC(?sitelinks) LIMIT 40`;
+}
+
+/** Predecessor and successor states, capped so the VALUES set stays small. */
+const MAX_RELATED_POLITIES = 5;
+
+/**
+ * A place and the states that were it.
+ *
+ * Searching by country alone silently loses everything before the modern
+ * state existed: "England in the 15th century" returned no events at all,
+ * because England is Q21 while the Wars of the Roses and Bosworth are
+ * recorded under Kingdom of England, a different item entirely.
+ *
+ * Wikidata already records the link — England *replaces* the Kingdom of
+ * England — so the fix reads that relation rather than hardcoding a mapping.
+ * One hop in each direction, which covers the common case without dragging in
+ * every polity that ever occupied the same ground.
+ */
+export function expandPolity(entity: WdEntity): string[] {
+  const related = [...statementQids(entity, 'P1365'), ...statementQids(entity, 'P1366')];
+  return [entity.id, ...new Set(related)].slice(0, MAX_RELATED_POLITIES + 1);
 }
 
 /* ------------------------------------------------------------------ *
@@ -186,18 +220,21 @@ export async function surveyScope(
   const [hit] = await searchPages(scope.place, { limit: 1, signal }).catch(() => []);
   if (!hit) return null;
 
-  const byTitle = await fetchEntitiesByTitles([hit.title], { props: 'labels|sitelinks', signal });
+  const byTitle = await fetchEntitiesByTitles([hit.title], {
+    props: 'labels|claims|sitelinks',
+    signal,
+  });
   const placeEntity = byTitle.get(hit.title);
   if (!placeEntity) return null;
-  const placeQid = placeEntity.id;
+  const placeQids = expandPolity(placeEntity);
 
   // Sequential, not parallel. The query service throttles concurrent queries
   // from one client, and firing both at once silently lost the second — the
   // people list came back empty while the same query worked on its own.
-  const eventRows = await runSparql(eventsQuery(placeQid, scope.from, scope.to), signal).catch(
+  const eventRows = await runSparql(eventsQuery(placeQids, scope.from, scope.to), signal).catch(
     () => [],
   );
-  const peopleRows = await runSparql(peopleQuery(placeQid, scope.from, scope.to), signal).catch(
+  const peopleRows = await runSparql(peopleQuery(placeQids, scope.from, scope.to), signal).catch(
     () => [],
   );
 
@@ -213,7 +250,7 @@ export async function surveyScope(
   return {
     query,
     place: {
-      qid: placeQid,
+      qid: placeEntity.id,
       label: placeEntity.labels?.en?.value ?? hit.title,
       title: hit.title,
       url: hit.url,

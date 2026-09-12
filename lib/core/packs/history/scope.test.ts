@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { parseRomanNumeral, parseScope } from './scope';
+import type { WdEntity } from '../../connectors/wikidata';
+import { expandPolity, parseRomanNumeral, parseScope } from './scope';
 
 describe('parseRomanNumeral', () => {
   it('reads well-formed numerals', () => {
@@ -53,5 +54,38 @@ describe('parseScope', () => {
   it('does not mistake a regnal number for a century', () => {
     expect(parseScope('Louis XIV')).toBeNull();
     expect(parseScope('Charles V')).toBeNull();
+  });
+});
+
+/**
+ * Searching by country alone silently loses everything from before the modern
+ * state: England is Q21, while the Wars of the Roses is recorded under
+ * Kingdom of England. Wikidata already records that England *replaces* the
+ * Kingdom of England, so the relation is read rather than hardcoded.
+ */
+describe('expandPolity', () => {
+  const entity = (claims: WdEntity['claims']): WdEntity => ({ id: 'Q21', claims });
+  const qidClaim = (id: string) => ({
+    mainsnak: { snaktype: 'value' as const, datavalue: { type: 'wikibase-entityid', value: { id } } },
+    rank: 'normal' as const,
+  });
+
+  it('includes the predecessor state', () => {
+    const expanded = expandPolity(entity({ P1365: [qidClaim('Q179876')] }));
+    expect(expanded).toContain('Q21');
+    expect(expanded).toContain('Q179876');
+  });
+
+  it('includes the successor state', () => {
+    expect(expandPolity(entity({ P1366: [qidClaim('Q161885')] }))).toContain('Q161885');
+  });
+
+  it('returns just the place when nothing is linked', () => {
+    expect(expandPolity(entity({}))).toEqual(['Q21']);
+  });
+
+  it('caps the set so the query stays small', () => {
+    const many = Array.from({ length: 12 }, (_, i) => qidClaim(`Q${1000 + i}`));
+    expect(expandPolity(entity({ P1365: many })).length).toBeLessThanOrEqual(6);
   });
 });

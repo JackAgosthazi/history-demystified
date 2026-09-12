@@ -2,7 +2,7 @@
 
 ## Intention
 
-History is a remarkable thing that all too often gets taught in less-than-fantastic ways. I wanted to create a tool that helps uncover, explain and internalize complex historical concepts in easy-to-understand ways. Complicated things can be broken down into easy-to-digest chunks if we know how to go about it.
+History is a remarkable thing that all too often gets taught in less-than-fantastic ways. I wanted to create a tool that helps uncover, explain and internalize complex historical concepts in easy-to-understand ways. Complicated things can be broken down into easy-to-digest chunks if we know how to go about it. I chose this theme of exploration & understanding because I personally really appreciate and find it valuable to convey complex concepts in understandable ways. I also feel like this product is pretty relevant to the position I’m applying for, as I’ll explain in the End result and its utility section. 
 
 ## Starting point
 

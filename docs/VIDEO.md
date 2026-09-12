@@ -1,132 +1,129 @@
 # Video script — ~5 minutes
 
-Record at 1440×900 or wider so the timeline and nav have room. Use the
+Record at 1440×900 or wider so the timeline and the section nav have room. Use the
 **deployed** site, https://history-demystified.vercel.app, so nothing looks local.
 
-**Before recording:** open `/privacy` and clear stored data, so the first load shows the
-real thing rather than a browser cache hit. Have a second tab ready on the repo.
+**Before recording:** open `/privacy`, clear stored data, and reload. Otherwise the first
+page loads from your browser cache and the progress panel — which is worth showing — never
+appears. Have a second tab on the repo.
 
-Timings are a guide. The aim is to be specific rather than complete — pick the two or three
-things that are genuinely non-obvious and show them properly.
+The structure: **show it working first, explain why it is built that way at the end.** The
+close walks the five points from "What is non-obvious" in the design doc, which is the real
+argument of the project.
 
 ---
 
 ## 0:00 — The problem (~40s)
 
-*On the home page, without searching yet.*
+*Home page, nothing typed yet.*
 
-> History is taught badly, and usually not because the facts are hard to find. It's that if
-> you know nothing about a subject, you can't get a foothold — you don't know when it
-> happened relative to anything you already know, who else was involved, or what's actually
-> contested about it.
+> History is a remarkable thing that all too often gets taught badly. Rarely because the
+> facts are hard to find — it's that if you know nothing about a subject you can't get a
+> foothold. You don't know when it happened relative to anything you already know, who else
+> was in the room, or what's actually contested about it.
 >
-> An LLM is obviously good at writing that explanation. The problem is that a confident,
+> Claude is obviously good at writing that explanation. The problem is that a confident,
 > fluent, plausibly-cited explanation is exactly what a fabricated one looks like — and the
-> reader, who by definition knows nothing, has no way to tell. For a teaching tool that
-> isn't cosmetic. It's the whole problem.
->
-> So the question I set myself wasn't "can Claude explain the Hundred Years' War". It can.
-> It was: **can the reader tell which parts to trust, without already knowing the answer?**
+> reader, who by definition knows nothing, can't tell the difference. For a teaching tool
+> that isn't cosmetic. It's the whole problem.
 
-## 0:40 — Show it working (~50s)
+## 0:40 — What it does (~60s)
 
-*Click an example topic — Napoleon loads instantly from the committed cache.*
+*Click an example — it loads instantly from the committed cache.*
 
-> Everything here is built for someone starting from zero.
+> Every example here is pre-generated, so browsing costs nothing.
 
-*Scroll through at a readable pace: takeaways, timeline, relationships. Don't narrate every
-section.*
+*Scroll at a readable pace. Don't narrate every section — let them read.*
 
-> And this is the part that matters.
+> Key takeaways, a timeline, who was connected to whom, where accounts differ, and a way
+> further in from almost everything on the page.
 
-*Open one takeaway's "show the source text", then click "Open … at this sentence".*
+*Search something not in the cache so the progress panel appears.*
 
-> That's Wikipedia, scrolled to and highlighting the exact sentence the claim came from. Not
-> a link to the article — to the sentence. I didn't have to trust anything.
+> A live one takes about a minute, and the page tells you where it is. The timeline and the
+> sources are already there while it works — those come from structured data and need no
+> model at all.
 
-## 1:30 — The two rules (~70s)
+## 1:40 — Verification, shown not claimed (~45s)
 
-*Back on the explainer, hovering the timeline.*
+*Open a takeaway's "show the source text", then click through.*
 
-> Two rules do most of the work, and they're properties of the system rather than requests
-> in a prompt.
->
-> **The model never emits a date.** Every bar here is Wikidata — birth, death, terms of
-> office, with the start and end qualifiers. Napoleon shows as Emperor twice, 1804 to 1814
-> and again through the Hundred Days, because that's what the record says. Claude was never
-> asked for a date, so it can't get one plausibly wrong.
->
-> **The model never emits a URL.** It cites a numbered source and quotes a verbatim span.
-> Server-side code then finds that span in the document we actually fetched — and because
-> that gives a character offset, the citation becomes a text fragment link. A made-up
-> citation isn't unlikely here, it's structurally impossible: an unknown source id fails
-> lookup, an invented subject fails resolution.
+> Every claim carries the sentence it came from. And this is the part that matters —
 
-*Point at the coverage badge.*
+*The Wikipedia page opens, scrolled to and highlighting that exact sentence.*
 
-> And where it fails, it says so. Claims that don't verify stay on the page, labelled, with
-> the reason. Hiding them would push this number to a meaningless 100% and take the
+> — not a link to the article. To the sentence. I didn't have to trust anything.
+
+*Point at the coverage badge, then find an unverified claim.*
+
+> And where it fails it says so. Claims that don't verify stay on the page, labelled, with
+> the reason. Hiding them would push that number to a meaningless 100% and take the
 > judgement away from the reader.
 
-## 2:40 — Disagreement you can't fake (~45s)
+## 2:25 — Scope queries (~35s)
 
-*Scroll to "Where accounts differ".*
+*Search "England in the XV century".*
 
-> Asking a model for "multiple perspectives" gets you four paraphrases of one perspective.
-> So instead the corpus includes the same article in other languages, picked from the
-> countries the subject actually involves.
+> This isn't a request for an article — it's a place crossed with a stretch of time. Most
+> search boxes would guess at the nearest single subject.
+
+*Results appear in about five seconds.*
+
+> Two SPARQL queries against Wikidata: one for events, one for people. No model call at all,
+> so it's free, fast, and can't invent anything. Every row opens as a full explainer.
+
+## 2:55 — Closing: why it's built this way (~1:35)
+
+*Back on an explainer page. This is the argument — slow down here.*
+
+> Five things make this different from asking Claude the same question.
 >
-> The German article calls Napoleon's rule a plebiscitary dictatorship. The French one
-> presents him as a founding father of French institutions. Both quoted in their own
-> language, with the translation clearly marked as unverified — because a translation isn't
-> something I can check with a substring match.
+> **One. The rules are in the code, not the prompt.** Claude isn't allowed to make up URLs or
+> dates — not discouraged from it, prevented. The output schema has no URL field. A
+> fabricated citation fails a lookup rather than scoring badly.
 >
-> That disagreement is real and sourced. It was found, not generated.
-
-## 3:25 — A different question (~40s)
-
-*Search "Japan 1600".*
-
-> This isn't a request for an article, so it isn't treated as one. It's a SPARQL query
-> against Wikidata: what the record holds for that place and period.
+> **Two. Dates and relationships come from Wikidata.** Claude never has to build or guess a
+> knowledge graph, so every bar on that timeline is a vetted record, not a recollection.
 >
-> No model call at all — free, a few seconds, and incapable of inventing anything. Sekigahara
-> at the top, which is exactly right. Every row is a door into the full explainer.
-
-*Click Battle of Sekigahara, then use the breadcrumbs to step back.*
-
-> And going back costs nothing — it's already in your browser.
-
-## 4:05 — What I'd change (~45s)
-
-> Things I'd do next, in order. The summary carries source markers but isn't span-verified —
-> running the same verifier over its sentences would extend the guarantee to the part people
-> read first. More charts: casualty comparisons and a map are both straightforward from data
-> I'm already fetching. And `lib/core` has no framework imports and three adapters already —
-> the web route, a CLI, the pre-warm script — so an MCP server is a fourth adapter, not a
-> rewrite.
+> **Three. Prose is constrained to spans that can be checked.** Every claim carries a source
+> id and a verbatim quote, and server-side code confirms that quote really appears in that
+> document. That's what the coverage number counts.
 >
-> The thing I'd flag honestly: this is only as good as Wikipedia and Wikidata. I'm not
-> claiming everything here is true. I'm claiming you can check any of it in one click, which
-> is a different promise, and the one the architecture actually delivers.
+> **Four. Disagreement is preserved, not averaged.** History depends who you ask. Rather than
+> flattening that into a bland consensus, the app pulls the same article in other languages
+> and quotes them against each other — the German account calls Napoleon's rule a
+> plebiscitary dictatorship, the French one calls him a founding father of French
+> institutions. Both sourced. The reader decides.
+>
+> **Five. It knows when not to use a model at all.** The scope search is the clearest case:
+> where a graph answers the question exactly, reaching for an LLM adds cost, latency and
+> risk in exchange for nothing.
 
-## 4:50 — Close (~15s)
+## 4:30 — Where it goes, and time spent (~30s)
 
-> Roughly [N] hours. Built with Claude Code — the most useful single thing I did was hand a
-> subagent the pipeline design and ask it to attack the grounding approach before I wrote
-> any of it. It predicted the cross-language quoting failure and pushed me toward Wikidata
-> for dates, both of which turned out to be right.
+> At its core this isn't a history tool — it's a tool for understanding a subject you're new
+> to, where the inputs are predictable enough to build real structure around. The same shape
+> would explain a codebase, or help make sense of a candidate's history in a hiring loop:
+> gather rigorously, present it well, and leave the judgement to the human.
+>
+> About five hours. Built with Claude Code — the single most useful thing I did was hand a
+> subagent the pipeline design and tell it to attack the grounding approach before I wrote
+> any of it.
+>
+> The honest caveat: this is only as good as Wikipedia and Wikidata. I'm not claiming
+> everything you read is true. I'm claiming you can check any of it in one click — which is a
+> different promise, and the one the architecture actually keeps.
 
 ---
 
-## Things worth showing if there's room
+## Worth showing if there's room
 
 - The CLI: `npm run explain -- "Napoleon"` — same engine, no browser, prints coverage.
+- A drill-down two levels deep, then stepping back through the breadcrumbs instantly.
 - `scripts/diag/cache-check.ts` — measuring rather than assuming.
-- An unverified claim, expanded, so the failure mode is visible rather than described.
 
-## Things to skip
+## Skip
 
-- Deployment, project structure, the dependency list.
-- Narrating every section — scroll and let them read.
-- Apologising for what isn't finished. Say what you'd do next, once, and move on.
+- Deployment, folder structure, the dependency list.
+- Narrating every section while scrolling.
+- Apologising for what isn't finished. Say what's next once, and move on.

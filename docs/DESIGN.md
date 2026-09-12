@@ -16,7 +16,7 @@ I want the UI to be abstract from the very lean server and the LLM layer. This i
 
 The pre-warmed cache and the QID check. 
 Layer 1 from scripts/prewarm.ts runs the full pipeline offline for 12 topics and writes public/cache/<QID>.json plus an index.json containing aliases: a map of normalized query string → QID
-Layer 2 QID check corrects for incorrect QIDs from the local cache and index before any claude call. This is what makes drilling into a pre-warmed subject free even when the chip's wording doesn't match any alias.
+Layer 2 catches the same subject reached by different words. If the alias misses, the query is still resolved to a Wikidata QID — cheap, no model — and that QID is checked against the cache before any Claude call. This is what makes drilling into a pre-warmed subject free even when the chip's wording matches no alias.
 
 There are 2 calls in parallel: one for prose and one for structured output. This means faster response with reasonably good results and cost trade-off.
 

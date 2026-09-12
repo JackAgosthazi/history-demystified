@@ -1,5 +1,6 @@
 import type {
   Claim,
+  ResolvedEntity,
   Comparison,
   ContextLink,
   ContextRelation,
@@ -16,6 +17,11 @@ import { verifyClaims, type RawClaim } from './verify';
 
 export interface ExplainOptions {
   signal?: AbortSignal;
+  /**
+   * Consulted once the subject is known but before any tokens are spent.
+   * Injected rather than imported so lib/core keeps no filesystem dependency.
+   */
+  lookupCached?: (entity: ResolvedEntity) => Promise<Explainer | null>;
 }
 
 /**
@@ -28,11 +34,19 @@ export interface ExplainOptions {
  */
 export async function* explain(
   query: string,
-  { signal }: ExplainOptions = {},
+  { signal, lookupCached }: ExplainOptions = {},
 ): AsyncGenerator<StreamEvent, Explainer | null> {
   yield { type: 'status', stage: 'resolving', detail: query };
   const ctx = await resolve(query, signal);
   const { entity } = ctx;
+
+  // A cache hit here saves the entire model spend, and is why a drill-down
+  // into a pre-warmed subject returns instantly.
+  const cached = await lookupCached?.(entity);
+  if (cached) {
+    yield { type: 'done', explainer: cached };
+    return cached;
+  }
 
   yield { type: 'status', stage: 'gathering', detail: entity.title };
   const { sources, facts, lead } = await gather(ctx, signal);
